@@ -42,6 +42,15 @@
 # Visual Studio cache directory
 .vs/
 
+# JetBrains Rider project directory
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
 # Gradle cache directory
 .gradle/
 

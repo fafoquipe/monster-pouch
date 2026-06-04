@@ -1,0 +1,13 @@
+{
+"name": "MonsterPouch.Gameplay.Tests.EditMode",
+"references": [
+"MonsterPouch.Gameplay"
+],
+"includePlatforms": [
+"Editor"
+],
+"excludePlatforms": [],
+"optionalUnityReferences": [
+"TestAssemblies"
+]
+}

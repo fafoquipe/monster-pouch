@@ -21,6 +21,11 @@ namespace MonsterPouch.Gameplay.Units
         public BoardCell CurrentCell { get; private set; }
         public BoardCell ReservedCell { get; private set; }
 
+        public void ConfigureSide(BoardSide newSide)
+        {
+            side = newSide;
+        }
+
         public void SetCurrentCell(BoardCell cell)
         {
             CurrentCell = cell;

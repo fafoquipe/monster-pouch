@@ -14,6 +14,13 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         private BoardWorldMapper mapper;
         private GameObject spawnerObject;
         private PrototypeUnitSpawner spawner;
+        private GameObject materialSourceObject;
+        private SpriteRenderer materialSource;
+        private Texture2D testTexture;
+        private Sprite bugalooSprite;
+        private Sprite popowSprite;
+        private Sprite dummySprite;
+        private Sprite buguiSprite;
 
         [SetUp]
         public void SetUp()
@@ -26,9 +33,31 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             mapper = mapperObject.AddComponent<BoardWorldMapper>();
             mapper.Configure(boardManager, null, Vector2.one * 0.26f, Vector2.zero);
 
+            materialSourceObject = new GameObject("unit-material-source");
+            materialSource = materialSourceObject.AddComponent<SpriteRenderer>();
+
+            testTexture = new Texture2D(2, 2);
+            testTexture.SetPixels(new[]
+            {
+                Color.white, Color.white,
+                Color.white, Color.white
+            });
+            testTexture.Apply();
+
+            bugalooSprite = CreateTestSprite("bugaloo-test-sprite");
+            popowSprite = CreateTestSprite("popow-test-sprite");
+            dummySprite = CreateTestSprite("dummy-test-sprite");
+            buguiSprite = CreateTestSprite("bugui-test-sprite");
+
             spawnerObject = new GameObject("spawner-tests");
             spawner = spawnerObject.AddComponent<PrototypeUnitSpawner>();
             spawner.Configure(boardManager, mapper, spawnerObject.transform);
+            spawner.ConfigureMaterialSource(materialSource);
+            spawner.ConfigureSprites(
+                bugalooSprite,
+                popowSprite,
+                dummySprite,
+                buguiSprite);
         }
 
         [TearDown]
@@ -37,6 +66,24 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Object.DestroyImmediate(spawnerObject);
             Object.DestroyImmediate(boardObject);
             Object.DestroyImmediate(mapperObject);
+            Object.DestroyImmediate(materialSourceObject);
+            Object.DestroyImmediate(bugalooSprite);
+            Object.DestroyImmediate(popowSprite);
+            Object.DestroyImmediate(dummySprite);
+            Object.DestroyImmediate(buguiSprite);
+            Object.DestroyImmediate(testTexture);
+        }
+
+        private Sprite CreateTestSprite(string spriteName)
+        {
+            Sprite sprite = Sprite.Create(
+                testTexture,
+                new Rect(0, 0, 2, 2),
+                new Vector2(0.5f, 0.5f),
+                100f);
+
+            sprite.name = spriteName;
+            return sprite;
         }
 
         [Test]
@@ -44,32 +91,32 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         {
             spawner.SpawnPrototypes();
 
-            Assert.IsNotNull(spawner.BlueMonster);
-            Assert.IsNotNull(spawner.RedMonster);
+            Assert.IsNotNull(spawner.BugalooHero);
+            Assert.IsNotNull(spawner.PopowHero);
             Assert.IsNotNull(spawner.DummyWhelp);
             Assert.IsNotNull(spawner.BuguiWhelp);
         }
 
         [Test]
-        public void SpawnPrototypes_OccupiesBlueMonsterCell()
+        public void SpawnPrototypes_OccupiesBugalooHeroCell()
         {
             spawner.SpawnPrototypes();
 
             BoardCell cell = boardManager.GetCell(2, 8);
             Assert.IsNotNull(cell);
             Assert.IsTrue(cell.IsOccupied);
-            Assert.AreEqual(spawner.BlueMonster, cell.OccupiedBy);
+            Assert.AreEqual(spawner.BugalooHero, cell.OccupiedBy);
         }
 
         [Test]
-        public void SpawnPrototypes_OccupiesRedMonsterCell()
+        public void SpawnPrototypes_OccupiesPopowHeroCell()
         {
             spawner.SpawnPrototypes();
 
             BoardCell cell = boardManager.GetCell(3, 1);
             Assert.IsNotNull(cell);
             Assert.IsTrue(cell.IsOccupied);
-            Assert.AreEqual(spawner.RedMonster, cell.OccupiedBy);
+            Assert.AreEqual(spawner.PopowHero, cell.OccupiedBy);
         }
 
         [Test]
@@ -104,20 +151,196 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void MoveBlueMonsterOneTickTowardTestCell_MovesBlueMonsterAndUpdatesView()
+        public void MoveBugalooOneTickTowardTestCell_MovesBugalooAndUpdatesView()
         {
             spawner.SpawnPrototypes();
 
-            BoardCell oldCell = spawner.BlueMonster.CurrentCell;
+            BoardCell oldCell = spawner.BugalooHero.CurrentCell;
             Assert.IsNotNull(oldCell);
 
-            spawner.MoveBlueMonsterOneTickTowardTestCell();
+            spawner.MoveBugalooOneTickTowardTestCell();
 
-            BoardCell newCell = spawner.BlueMonster.CurrentCell;
+            BoardCell newCell = spawner.BugalooHero.CurrentCell;
             Assert.IsNotNull(newCell);
             Assert.AreNotEqual(oldCell, newCell);
             Assert.IsFalse(oldCell.IsOccupied);
-            Assert.AreEqual(spawner.BlueMonster, newCell.OccupiedBy);
+            Assert.AreEqual(spawner.BugalooHero, newCell.OccupiedBy);
+        }
+
+        [Test]
+        public void SpawnPrototypes_UsesCorrectUnitTypes()
+        {
+            spawner.SpawnPrototypes();
+
+            Assert.IsInstanceOf<MonsterUnit>(spawner.BugalooHero);
+            Assert.IsInstanceOf<MonsterUnit>(spawner.PopowHero);
+            Assert.IsInstanceOf<WhelpUnit>(spawner.DummyWhelp);
+            Assert.IsInstanceOf<WhelpUnit>(spawner.BuguiWhelp);
+        }
+
+        [Test]
+        public void SpawnPrototypes_AssignsEachUnitItsExactConfiguredSprite()
+        {
+            CollectionAssert.AllItemsAreUnique(new[]
+            {
+                bugalooSprite,
+                popowSprite,
+                dummySprite,
+                buguiSprite
+            });
+
+            spawner.SpawnPrototypes();
+
+            Assert.AreSame(
+                bugalooSprite,
+                spawner.BugalooHero.GetComponent<SpriteRenderer>().sprite);
+            Assert.AreSame(
+                popowSprite,
+                spawner.PopowHero.GetComponent<SpriteRenderer>().sprite);
+            Assert.AreSame(
+                dummySprite,
+                spawner.DummyWhelp.GetComponent<SpriteRenderer>().sprite);
+            Assert.AreSame(
+                buguiSprite,
+                spawner.BuguiWhelp.GetComponent<SpriteRenderer>().sprite);
+        }
+
+        [Test]
+        public void SpawnPrototypes_AssignsExpectedBoardSides()
+        {
+            spawner.SpawnPrototypes();
+
+            Assert.AreEqual(BoardSide.Blue, spawner.BugalooHero.Side);
+            Assert.AreEqual(BoardSide.Blue, spawner.DummyWhelp.Side);
+            Assert.AreEqual(BoardSide.Red, spawner.PopowHero.Side);
+            Assert.AreEqual(BoardSide.Red, spawner.BuguiWhelp.Side);
+        }
+
+        [Test]
+        public void SpawnPrototypes_AssignsUnitSortingOrder20()
+        {
+            spawner.SpawnPrototypes();
+
+            Assert.AreEqual(
+                20,
+                spawner.BugalooHero.GetComponent<SpriteRenderer>().sortingOrder);
+            Assert.AreEqual(
+                20,
+                spawner.PopowHero.GetComponent<SpriteRenderer>().sortingOrder);
+            Assert.AreEqual(
+                20,
+                spawner.DummyWhelp.GetComponent<SpriteRenderer>().sortingOrder);
+            Assert.AreEqual(
+                20,
+                spawner.BuguiWhelp.GetComponent<SpriteRenderer>().sortingOrder);
+        }
+
+        [Test]
+        public void SpawnPrototypes_AssignsWhiteRendererColorToEveryUnit()
+        {
+            spawner.SpawnPrototypes();
+
+            Assert.AreEqual(
+                Color.white,
+                spawner.BugalooHero.GetComponent<SpriteRenderer>().color);
+            Assert.AreEqual(
+                Color.white,
+                spawner.PopowHero.GetComponent<SpriteRenderer>().color);
+            Assert.AreEqual(
+                Color.white,
+                spawner.DummyWhelp.GetComponent<SpriteRenderer>().color);
+            Assert.AreEqual(
+                Color.white,
+                spawner.BuguiWhelp.GetComponent<SpriteRenderer>().color);
+        }
+
+        [Test]
+        public void SpawnPrototypes_CalledTwice_DoesNotDuplicateUnits()
+        {
+            spawner.SpawnPrototypes();
+
+            MonsterUnit firstBugaloo = spawner.BugalooHero;
+            MonsterUnit firstPopow = spawner.PopowHero;
+            WhelpUnit firstDummy = spawner.DummyWhelp;
+            WhelpUnit firstBugui = spawner.BuguiWhelp;
+            int firstChildCount = spawnerObject.transform.childCount;
+
+            Assert.AreEqual(4, firstChildCount);
+
+            spawner.SpawnPrototypes();
+
+            Assert.AreEqual(4, spawnerObject.transform.childCount);
+            Assert.AreEqual(firstBugaloo, spawner.BugalooHero);
+            Assert.AreEqual(firstPopow, spawner.PopowHero);
+            Assert.AreEqual(firstDummy, spawner.DummyWhelp);
+            Assert.AreEqual(firstBugui, spawner.BuguiWhelp);
+            Assert.AreSame(boardManager.GetCell(2, 8), spawner.BugalooHero.CurrentCell);
+            Assert.AreSame(boardManager.GetCell(3, 1), spawner.PopowHero.CurrentCell);
+            Assert.AreSame(boardManager.GetCell(1, 7), spawner.DummyWhelp.CurrentCell);
+            Assert.AreSame(boardManager.GetCell(4, 2), spawner.BuguiWhelp.CurrentCell);
+
+            MonsterUnit[] heroes =
+                spawnerObject.GetComponentsInChildren<MonsterUnit>(true);
+
+            Assert.AreEqual(2, heroes.Length);
+
+            int bugalooCount = 0;
+            int popowCount = 0;
+
+            for (int i = 0; i < heroes.Length; i++)
+            {
+                if (heroes[i].gameObject.name == "bugaloo-hero-prototype")
+                    bugalooCount++;
+
+                if (heroes[i].gameObject.name == "popow-hero-prototype")
+                    popowCount++;
+            }
+
+            Assert.AreEqual(1, bugalooCount);
+            Assert.AreEqual(1, popowCount);
+        }
+
+        [Test]
+        public void SpawnPrototypes_CreatesCorrectGameObjectNames()
+        {
+            spawner.SpawnPrototypes();
+
+            bool foundBugaloo = false;
+            bool foundPopow = false;
+            bool foundDummy = false;
+            bool foundBugui = false;
+
+            foreach (Transform child in spawnerObject.transform)
+            {
+                if (child.name == "bugaloo-hero-prototype") foundBugaloo = true;
+                if (child.name == "popow-hero-prototype") foundPopow = true;
+                if (child.name == "dummy-whelp-prototype") foundDummy = true;
+                if (child.name == "bugui-whelp-prototype") foundBugui = true;
+            }
+
+            Assert.IsTrue(foundBugaloo, "Missing bugaloo-hero-prototype");
+            Assert.IsTrue(foundPopow, "Missing popow-hero-prototype");
+            Assert.IsTrue(foundDummy, "Missing dummy-whelp-prototype");
+            Assert.IsTrue(foundBugui, "Missing bugui-whelp-prototype");
+        }
+
+        [Test]
+        public void SpawnPrototypes_UsesMaterialSourceWhenAvailable()
+        {
+            spawner.SpawnPrototypes();
+
+            SpriteRenderer[] renderers =
+                spawnerObject.GetComponentsInChildren<SpriteRenderer>();
+
+            Assert.AreEqual(4, renderers.Length);
+
+            for (int i = 0; i < renderers.Length; i++)
+            {
+                Assert.AreSame(
+                    materialSource.sharedMaterial,
+                    renderers[i].sharedMaterial,
+                    $"SpriteRenderer on {renderers[i].gameObject.name} does not use material source.");
+            }
         }
     }
 }

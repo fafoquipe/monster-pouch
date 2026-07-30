@@ -97,6 +97,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.IsNotNull(spawner.PopowHero);
             Assert.IsNotNull(spawner.DummyWhelp);
             Assert.IsNotNull(spawner.BuguiWhelp);
+            Assert.AreEqual(4, spawner.SpawnedUnits.Count);
         }
 
         [Test]
@@ -410,6 +411,53 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
                     renderers[i].sharedMaterial,
                     $"SpriteRenderer on {renderers[i].gameObject.name} does not use material source.");
             }
+        }
+
+        [Test]
+        public void ExecuteCombatTick_PreservesPrototypeIdentityAndRendering()
+        {
+            spawner.SpawnPrototypes();
+            var controller =
+                new CombatTickController(boardManager, mapper);
+
+            List<CombatTickResult> results =
+                controller.ExecuteTick(spawner.SpawnedUnits);
+
+            Assert.AreEqual(4, results.Count);
+            AssertPrototypeRendering(
+                spawner.BugalooHero,
+                bugalooSprite,
+                BoardSide.Blue);
+            AssertPrototypeRendering(
+                spawner.PopowHero,
+                popowSprite,
+                BoardSide.Red);
+            AssertPrototypeRendering(
+                spawner.DummyWhelp,
+                dummySprite,
+                BoardSide.Blue);
+            AssertPrototypeRendering(
+                spawner.BuguiWhelp,
+                buguiSprite,
+                BoardSide.Red);
+        }
+
+        private void AssertPrototypeRendering(
+            BattleUnit unit,
+            Sprite expectedSprite,
+            BoardSide expectedSide)
+        {
+            SpriteRenderer renderer =
+                unit.GetComponent<SpriteRenderer>();
+
+            Assert.AreSame(expectedSprite, renderer.sprite);
+            Assert.AreEqual(Color.white, renderer.color);
+            Assert.AreSame(
+                materialSource.sharedMaterial,
+                renderer.sharedMaterial);
+            Assert.AreEqual(20, renderer.sortingOrder);
+            Assert.AreEqual(expectedSide, unit.Side);
+            Assert.AreEqual(UnitState.Idle, unit.State);
         }
     }
 }

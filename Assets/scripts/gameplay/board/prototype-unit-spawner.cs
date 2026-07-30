@@ -33,11 +33,14 @@ namespace MonsterPouch.Gameplay.Board
         private WhelpUnit dummyWhelp;
         private WhelpUnit buguiWhelp;
         private BoardUnitView bugalooHeroView;
+        private readonly List<BattleUnit> spawnedUnits =
+            new List<BattleUnit>(4);
 
         public MonsterUnit BugalooHero => bugalooHero;
         public MonsterUnit PopowHero => popowHero;
         public WhelpUnit DummyWhelp => dummyWhelp;
         public WhelpUnit BuguiWhelp => buguiWhelp;
+        public IReadOnlyList<BattleUnit> SpawnedUnits => spawnedUnits;
 
         public bool HasSpawned =>
             bugalooHero != null &&
@@ -165,6 +168,12 @@ namespace MonsterPouch.Gameplay.Board
                 whelpScale,
                 root);
 
+            spawnedUnits.Clear();
+            AddSpawnedUnit(bugalooHero);
+            AddSpawnedUnit(popowHero);
+            AddSpawnedUnit(dummyWhelp);
+            AddSpawnedUnit(buguiWhelp);
+
             if (bugalooHero != null)
                 bugalooHeroView = bugalooHero.GetComponent<BoardUnitView>();
         }
@@ -288,6 +297,12 @@ namespace MonsterPouch.Gameplay.Board
 
             view.SnapToCurrentCell();
             return unit;
+        }
+
+        private void AddSpawnedUnit(BattleUnit unit)
+        {
+            if (unit != null)
+                spawnedUnits.Add(unit);
         }
 
     }

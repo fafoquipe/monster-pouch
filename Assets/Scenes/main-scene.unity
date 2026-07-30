@@ -3289,7 +3289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MonsterPouch.Gameplay.Board.BoardCellCenterDebugView
   boardManager: {fileID: 1014678596}
   worldMapper: {fileID: 2000000001}
-  showMarkers: 1
+  showMarkers: 0
   markerWorldSize: 0.1
   markerSortingOrder: 19
   markerColor: {r: 1, g: 1, b: 1, a: 0.65}

@@ -184,6 +184,18 @@ namespace MonsterPouch.Gameplay.Board
                 return;
             }
 
+            if (bugalooHeroView == null)
+            {
+                Debug.LogWarning("PrototypeUnitSpawner: Bugaloo hero view is null.");
+                return;
+            }
+
+            if (bugalooHeroView.IsMoving)
+            {
+                Debug.LogWarning("PrototypeUnitSpawner: Bugaloo is already moving. Skipping request.");
+                return;
+            }
+
             BoardCell targetCell = boardManager.GetCell(2, 5);
 
             if (targetCell == null)
@@ -203,8 +215,27 @@ namespace MonsterPouch.Gameplay.Board
                 BoardMovementResult result = results[0];
                 Debug.Log($"PrototypeUnitSpawner: Bugaloo move status = {result.Status}");
 
-                if (result.Status == BoardMovementStatus.Moved && bugalooHeroView != null)
+                if (result.Status != BoardMovementStatus.Moved)
+                    return;
+
+                if (!worldMapper.TryGetWorldPosition(
+                        bugalooHero.CurrentCell,
+                        out Vector3 targetWorldPosition))
+                {
+                    Debug.LogWarning(
+                        "PrototypeUnitSpawner: Could not map Bugaloo's current cell. " +
+                        "Snapping to preserve logical and visual synchronization.");
                     bugalooHeroView.SnapToCurrentCell();
+                    return;
+                }
+
+                if (!bugalooHeroView.TryMoveTo(targetWorldPosition))
+                {
+                    Debug.LogWarning(
+                        "PrototypeUnitSpawner: Bugaloo visual movement was rejected. " +
+                        "Snapping to preserve logical and visual synchronization.");
+                    bugalooHeroView.SnapToCurrentCell();
+                }
             }
         }
 

@@ -38,9 +38,20 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
+        public void DisabledByDefault_DoesNotCreateRoot()
+        {
+            Assert.IsFalse(viewer.ShowMarkers);
+
+            viewer.BuildMarkers();
+
+            Assert.IsNull(viewerObject.transform.Find("board-cell-centers-debug"));
+            Assert.AreEqual(0, viewerObject.transform.childCount);
+        }
+
+        [Test]
         public void BuildMarkers_CreatesExactly60Markers()
         {
-            viewer.BuildMarkers();
+            viewer.SetShowMarkers(true);
 
             Transform root = viewerObject.transform.Find("board-cell-centers-debug");
             Assert.IsNotNull(root);
@@ -50,7 +61,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         [Test]
         public void BuildMarkers_CreatesExpectedRoot()
         {
-            viewer.BuildMarkers();
+            viewer.SetShowMarkers(true);
 
             Transform root = viewerObject.transform.Find("board-cell-centers-debug");
             Assert.IsNotNull(root);
@@ -60,7 +71,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         [Test]
         public void BuildMarkers_UsesMapperPositions()
         {
-            viewer.BuildMarkers();
+            viewer.SetShowMarkers(true);
 
             Transform root = viewerObject.transform.Find("board-cell-centers-debug");
 
@@ -80,16 +91,17 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         [Test]
         public void BuildMarkers_CalledTwice_DoesNotDuplicateRoot()
         {
-            viewer.BuildMarkers();
+            viewer.SetShowMarkers(true);
             Transform rootFirst = viewerObject.transform.Find("board-cell-centers-debug");
             int childCountFirst = rootFirst.childCount;
 
-            viewer.BuildMarkers();
+            viewer.SetShowMarkers(true);
             Transform rootSecond = viewerObject.transform.Find("board-cell-centers-debug");
 
             Assert.IsNotNull(rootSecond);
             Assert.AreEqual(60, rootSecond.childCount);
             Assert.AreEqual(1, viewerObject.transform.childCount);
+            Assert.AreEqual(60, childCountFirst);
 
             int rootCount = 0;
             foreach (Transform child in viewerObject.transform)
@@ -102,16 +114,17 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void ClearMarkers_RemovesOnlyDebugRoot()
+        public void DisablingMarkers_RemovesOnlyDebugRoot()
         {
             GameObject preservedChild = new GameObject("preserved-child");
             preservedChild.transform.SetParent(viewerObject.transform, false);
 
-            viewer.BuildMarkers();
-            viewer.ClearMarkers();
+            viewer.SetShowMarkers(true);
+            viewer.SetShowMarkers(false);
 
             Assert.IsNull(viewerObject.transform.Find("board-cell-centers-debug"));
             Assert.IsNotNull(viewerObject.transform.Find("preserved-child"));
+            Assert.AreEqual(1, viewerObject.transform.childCount);
         }
     }
 }

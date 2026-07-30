@@ -1,8 +1,10 @@
+using System.Collections;
 using System.Collections.Generic;
 using MonsterPouch.Gameplay.Board;
 using MonsterPouch.Gameplay.Units;
 using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.TestTools;
 
 namespace MonsterPouch.Gameplay.Tests.EditMode
 {
@@ -151,12 +153,15 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void MoveBugalooOneTickTowardTestCell_MovesBugalooAndUpdatesView()
+        public void MoveBugalooOneTickTowardTestCell_UpdatesLogicAndStartsVisualMovement()
         {
             spawner.SpawnPrototypes();
 
             BoardCell oldCell = spawner.BugalooHero.CurrentCell;
+            BoardUnitView view = spawner.BugalooHero.GetComponent<BoardUnitView>();
+            Vector3 initialPosition = spawner.BugalooHero.transform.position;
             Assert.IsNotNull(oldCell);
+            Assert.IsFalse(view.IsMoving);
 
             spawner.MoveBugalooOneTickTowardTestCell();
 
@@ -165,6 +170,70 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.AreNotEqual(oldCell, newCell);
             Assert.IsFalse(oldCell.IsOccupied);
             Assert.AreEqual(spawner.BugalooHero, newCell.OccupiedBy);
+            Assert.IsTrue(view.IsMoving);
+            Assert.AreEqual(initialPosition, spawner.BugalooHero.transform.position);
+        }
+
+        [Test]
+        public void MoveBugalooOneTickTowardTestCell_FailedLogicDoesNotStartAnimation()
+        {
+            spawner.SpawnPrototypes();
+
+            BoardCell initialCell = spawner.BugalooHero.CurrentCell;
+            BoardUnitView view = spawner.BugalooHero.GetComponent<BoardUnitView>();
+            Vector3 initialPosition = spawner.BugalooHero.transform.position;
+            Assert.IsTrue(boardManager.TrySetCellBlocked(2, 5, true));
+
+            spawner.MoveBugalooOneTickTowardTestCell();
+
+            Assert.AreSame(initialCell, spawner.BugalooHero.CurrentCell);
+            Assert.AreEqual(initialPosition, spawner.BugalooHero.transform.position);
+            Assert.IsFalse(view.IsMoving);
+        }
+
+        [Test]
+        public void MoveBugalooOneTickTowardTestCell_RejectsOverlappingRequest()
+        {
+            spawner.SpawnPrototypes();
+
+            BoardUnitView view = spawner.BugalooHero.GetComponent<BoardUnitView>();
+            spawner.MoveBugalooOneTickTowardTestCell();
+            BoardCell cellAfterFirstRequest = spawner.BugalooHero.CurrentCell;
+
+            spawner.MoveBugalooOneTickTowardTestCell();
+
+            Assert.IsTrue(view.IsMoving);
+            Assert.AreSame(cellAfterFirstRequest, spawner.BugalooHero.CurrentCell);
+        }
+
+        [UnityTest]
+        public IEnumerator MoveBugalooOneTickTowardTestCell_EndsAtLogicalCellWorldPosition()
+        {
+            spawner.SpawnPrototypes();
+
+            BoardUnitView view = spawner.BugalooHero.GetComponent<BoardUnitView>();
+            spawner.MoveBugalooOneTickTowardTestCell();
+
+            BoardCell logicalCell = spawner.BugalooHero.CurrentCell;
+            Vector3 expectedPosition = mapper.GetWorldPosition(logicalCell);
+
+            const int MaximumFrames = 180;
+            int frameCount = 0;
+
+            while (view.IsMoving && frameCount < MaximumFrames)
+            {
+                frameCount++;
+                yield return null;
+                view.AdvanceMovement(0.05f);
+            }
+
+            Assert.Less(
+                frameCount,
+                MaximumFrames,
+                "Bugaloo did not finish its visual movement.");
+            Assert.IsFalse(view.IsMoving);
+            Assert.AreSame(logicalCell, spawner.BugalooHero.CurrentCell);
+            Assert.AreEqual(expectedPosition, spawner.BugalooHero.transform.position);
         }
 
         [Test]

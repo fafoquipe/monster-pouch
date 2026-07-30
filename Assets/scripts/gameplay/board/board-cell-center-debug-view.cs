@@ -8,10 +8,13 @@ namespace MonsterPouch.Gameplay.Board
 
         [SerializeField] private BoardManager boardManager;
         [SerializeField] private BoardWorldMapper worldMapper;
-        [SerializeField] private bool showMarkers = true;
+        [SerializeField] private bool showMarkers;
         [SerializeField] private float markerWorldSize = 0.10f;
         [SerializeField] private int markerSortingOrder = 19;
         [SerializeField] private Color markerColor = new Color(1f, 1f, 1f, 0.65f);
+
+        private Sprite markerSprite;
+        private Texture2D markerTexture;
 
         public bool ShowMarkers => showMarkers;
 
@@ -29,8 +32,13 @@ namespace MonsterPouch.Gameplay.Board
             if (worldMapper == null)
                 worldMapper = Object.FindFirstObjectByType<BoardWorldMapper>();
 
-            if (showMarkers)
-                BuildMarkers();
+            ApplyMarkerVisibility();
+        }
+
+        public void SetShowMarkers(bool shouldShowMarkers)
+        {
+            showMarkers = shouldShowMarkers;
+            ApplyMarkerVisibility();
         }
 
         [ContextMenu("Rebuild Cell Center Markers")]
@@ -56,7 +64,7 @@ namespace MonsterPouch.Gameplay.Board
             GameObject root = new GameObject(DebugRootName);
             root.transform.SetParent(transform, false);
 
-            Sprite circleSprite = CreateCircleSprite();
+            markerSprite = CreateCircleSprite(out markerTexture);
 
             for (int y = 0; y < BoardManager.Height; y++)
             {
@@ -73,11 +81,14 @@ namespace MonsterPouch.Gameplay.Board
                     marker.transform.SetParent(root.transform, false);
                     marker.transform.position = position;
 
-                    float scale = markerWorldSize / circleSprite.rect.width * circleSprite.pixelsPerUnit;
+                    float scale =
+                        markerWorldSize /
+                        markerSprite.rect.width *
+                        markerSprite.pixelsPerUnit;
                     marker.transform.localScale = new Vector3(scale, scale, 1f);
 
                     SpriteRenderer sr = marker.AddComponent<SpriteRenderer>();
-                    sr.sprite = circleSprite;
+                    sr.sprite = markerSprite;
                     sr.color = markerColor;
                     sr.sortingOrder = markerSortingOrder;
                 }
@@ -90,22 +101,49 @@ namespace MonsterPouch.Gameplay.Board
             ClearMarkersInternal();
         }
 
+        private void OnDisable()
+        {
+            ClearMarkersInternal();
+        }
+
+        private void OnValidate()
+        {
+            if (Application.isPlaying && isActiveAndEnabled)
+                ApplyMarkerVisibility();
+        }
+
+        private void ApplyMarkerVisibility()
+        {
+            if (showMarkers)
+                BuildMarkers();
+            else
+                ClearMarkersInternal();
+        }
+
         private void ClearMarkersInternal()
         {
             Transform existing = transform.Find(DebugRootName);
 
             if (existing != null)
                 DestroyImmediate(existing.gameObject);
-            // Uses DestroyImmediate even in Play Mode because this is a
-            // short-lived debug visualization object. It is never rebuilt
-            // in the same frame by Start, and the ContextMenu Rebuild
-            // needs immediate removal to recreate without duplicates.
+
+            if (markerSprite != null)
+            {
+                DestroyImmediate(markerSprite);
+                markerSprite = null;
+            }
+
+            if (markerTexture != null)
+            {
+                DestroyImmediate(markerTexture);
+                markerTexture = null;
+            }
         }
 
-        private static Sprite CreateCircleSprite()
+        private static Sprite CreateCircleSprite(out Texture2D texture)
         {
             int size = 8;
-            Texture2D texture = new Texture2D(size, size, TextureFormat.RGBA32, false);
+            texture = new Texture2D(size, size, TextureFormat.RGBA32, false);
             texture.filterMode = FilterMode.Point;
             texture.wrapMode = TextureWrapMode.Clamp;
 

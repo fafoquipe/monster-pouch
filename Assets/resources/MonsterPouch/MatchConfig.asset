@@ -1,0 +1,866 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0a88c6bbd72d94d989bafd44b7cd9e, type: 3}
+  m_Name: MatchConfig
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Match.MatchConfig
+  RoundIncome: 0600000004000000030000000200000001000000
+  ReturnSoldCopies: 1
+  TeamWhelpLimit: 7
+  Units:
+  - Id: bugaloo
+    DisplayName: Bugaloo
+    IsMonster: 1
+    MaxHealth: 110
+    Damage: 10
+    AttackInterval: 1.2
+    AttackWindup: 0.3
+    AttackRange: 1
+    MoveInterval: 0.6
+    IQSpeed: 4
+    BaseCost: 0
+    TargetPolicy: 0
+    Formation: 0
+    BaseAbility:
+      Id: belly
+      Name: Panzazo
+      Description: "Cada tercer impacto inflige 3 de da\xF1o adicional."
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 3
+      BonusDamage: 3
+    Tricks:
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      Id: big-belly
+      Name: Panza de acero
+      Description: "+30 de vida y +2 de da\xF1o. Bloquea la posici\xF3n desde la
+        pr\xF3xima ronda."
+      Cost: 4
+      HealthBonus: 30
+      DamageBonus: 2
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 0
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 0
+    SummonInterval: 0
+    MaxLivingSummons: 0
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  - Id: popow
+    DisplayName: Popow
+    IsMonster: 1
+    MaxHealth: 90
+    Damage: 8
+    AttackInterval: 0.85
+    AttackWindup: 0.2
+    AttackRange: 1
+    MoveInterval: 0.4
+    IQSpeed: 6
+    BaseCost: 0
+    TargetPolicy: 0
+    Formation: 0
+    BaseAbility:
+      Id: right-hook
+      Name: Derechazo
+      Description: "El golpe de la mano derecha suma 1 de da\xF1o a cada impacto."
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 1
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    Tricks:
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      Id: quick-fists
+      Name: "Pu\xF1os veloces"
+      Description: "Intervalo de ataque \xD70,7 y +1 de da\xF1o. Bloquea la posici\xF3n
+        desde la pr\xF3xima ronda."
+      Cost: 4
+      HealthBonus: 0
+      DamageBonus: 1
+      AttackIntervalMultiplier: 0.7
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 0
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 0
+    SummonInterval: 0
+    MaxLivingSummons: 0
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  - Id: dummy
+    DisplayName: Dummy
+    IsMonster: 0
+    MaxHealth: 45
+    Damage: 5
+    AttackInterval: 1.1
+    AttackWindup: 0.2
+    AttackRange: 1
+    MoveInterval: 0.6
+    IQSpeed: 3
+    BaseCost: 2
+    TargetPolicy: 0
+    Formation: 0
+    BaseAbility:
+      Id: padding
+      Name: Acolchado
+      Description: "Reduce cada impacto recibido en 1, con un m\xEDnimo de 1 de da\xF1o."
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 1
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    Tricks:
+    - Id: sturdy
+      Name: Resistente
+      Description: "+18 de vida m\xE1xima al comenzar el combate."
+      Cost: 2
+      HealthBonus: 18
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: reinforced
+      Name: Refuerzo
+      Description: "Suma 1 de armadura al Acolchado. El da\xF1o m\xEDnimo sigue siendo
+        1."
+      Cost: 2
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 1
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: patch-up
+      Name: Remiendo
+      Description: "Recupera 2 de vida por impacto acertado, hasta su vida m\xE1xima."
+      Cost: 3
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 2
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 0
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 0
+    SummonInterval: 0
+    MaxLivingSummons: 0
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  - Id: bugui
+    DisplayName: Bugui
+    IsMonster: 0
+    MaxHealth: 28
+    Damage: 4
+    AttackInterval: 0.9
+    AttackWindup: 0.2
+    AttackRange: 3
+    MoveInterval: 0.5
+    IQSpeed: 5
+    BaseCost: 3
+    TargetPolicy: 0
+    Formation: 2
+    BaseAbility:
+      Id: spark
+      Name: Chispa
+      Description: "Cada tercer impacto inflige 3 de da\xF1o adicional."
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 3
+      BonusDamage: 3
+    Tricks:
+    - Id: bright
+      Name: Brillo
+      Description: "+2 de da\xF1o en cada impacto."
+      Cost: 2
+      HealthBonus: 0
+      DamageBonus: 2
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: flicker
+      Name: Destello
+      Description: Multiplica el intervalo entre ataques por 0,75.
+      Cost: 3
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 0.75
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: long-spark
+      Name: Chispa larga
+      Description: +1 casilla de alcance para sus proyectiles.
+      Cost: 2
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 1
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 0
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 0
+    SummonInterval: 0
+    MaxLivingSummons: 0
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  - Id: atori
+    DisplayName: Atori
+    IsMonster: 0
+    MaxHealth: 36
+    Damage: 6
+    AttackInterval: 1.05
+    AttackWindup: 0.3
+    AttackRange: 1
+    MoveInterval: 0.4
+    IQSpeed: 7
+    BaseCost: 3
+    TargetPolicy: 1
+    Formation: 1
+    BaseAbility:
+      Id: atori-precise-bump
+      Name: Cabezazo certero
+      Description: "Busca un rival alcanzable con poca vida. Cada tercer impacto
+        suma 4 de da\xF1o."
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 3
+      BonusDamage: 4
+    Tricks:
+    - Id: atori-hard-head
+      Name: Cabeza dura
+      Description: "Suma 1 de armadura. Cada golpe recibido inflige al menos 1 de
+        da\xF1o."
+      Cost: 2
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 1
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: atori-momentum
+      Name: Impulso
+      Description: "+2 de da\xF1o en cada impacto."
+      Cost: 2
+      HealthBonus: 0
+      DamageBonus: 2
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: atori-endurance
+      Name: Aguante
+      Description: "+16 de vida m\xE1xima al comenzar el combate."
+      Cost: 3
+      HealthBonus: 16
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 0
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 0
+    SummonInterval: 0
+    MaxLivingSummons: 0
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  - Id: kayon
+    DisplayName: Kayon
+    IsMonster: 0
+    MaxHealth: 28
+    Damage: 2
+    AttackInterval: 1.5
+    AttackWindup: 0.3
+    AttackRange: 4
+    MoveInterval: 0.6
+    IQSpeed: 3
+    BaseCost: 3
+    TargetPolicy: 0
+    Formation: 2
+    BaseAbility:
+      Id: kayon-little-friends
+      Name: "Peque\xF1os amigos"
+      Description: "Lanza monedas de oro a 4 casillas. Cada 6 s invoca un Dummy en
+        una vecina libre: 14 de vida, 2 de da\xF1o. M\xE1ximo 2 vivos; temporales,
+        sin copias ni oro."
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    Tricks:
+    - Id: kayon-care
+      Name: Cuidador
+      Description: "+12 de vida m\xE1xima para Kayon."
+      Cost: 2
+      HealthBonus: 12
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: kayon-push
+      Name: Empuje
+      Description: "+2 de da\xF1o en los ataques de Kayon."
+      Cost: 2
+      HealthBonus: 0
+      DamageBonus: 2
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: kayon-rhythm
+      Name: Ritmo
+      Description: Multiplica el intervalo de ataque de Kayon por 0,8. No acelera
+        las invocaciones.
+      Cost: 3
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 0.8
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 0
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 0
+    SummonInterval: 6
+    MaxLivingSummons: 2
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  - Id: stein
+    DisplayName: Stein
+    IsMonster: 0
+    MaxHealth: 26
+    Damage: 6
+    AttackInterval: 1.2
+    AttackWindup: 0.3
+    AttackRange: 4
+    MoveInterval: 0.6
+    IQSpeed: 5
+    BaseCost: 3
+    TargetPolicy: 0
+    Formation: 2
+    BaseAbility:
+      Id: stein-discharge
+      Name: Descarga
+      Description: "Dispara rayos. Cada tercer impacto suma 4 de da\xF1o."
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 3
+      BonusDamage: 4
+    Tricks:
+    - Id: stein-voltage
+      Name: Voltaje
+      Description: "+2 de da\xF1o por rayo."
+      Cost: 2
+      HealthBonus: 0
+      DamageBonus: 2
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: stein-conductor
+      Name: Conductor
+      Description: +1 casilla de alcance.
+      Cost: 2
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 1
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: stein-frequency
+      Name: Frecuencia
+      Description: Multiplica el intervalo entre rayos por 0,8.
+      Cost: 3
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 0.8
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 0
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 0
+    SummonInterval: 0
+    MaxLivingSummons: 0
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  - Id: anuik
+    DisplayName: Anuik
+    IsMonster: 1
+    MaxHealth: 90
+    Damage: 7
+    AttackInterval: 1.3
+    AttackWindup: 0.3
+    AttackRange: 3
+    MoveInterval: 0.6
+    IQSpeed: 4
+    BaseCost: 0
+    TargetPolicy: 0
+    Formation: 2
+    BaseAbility:
+      Id: anuik-second-heart
+      Name: "Segundo coraz\xF3n"
+      Description: "Lanza corazones. Una vez por combate, al caer espera 0,8 segundos
+        y revive con el 50 % de su vida m\xE1xima."
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    Tricks:
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      Id: anuik-big-heart
+      Name: "Gran coraz\xF3n"
+      Description: "+25 de vida y +2 de da\xF1o. La posici\xF3n queda fija desde
+        la pr\xF3xima ronda."
+      Cost: 4
+      HealthBonus: 25
+      DamageBonus: 2
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 1
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 0
+    SummonInterval: 0
+    MaxLivingSummons: 0
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  - Id: tauris
+    DisplayName: Tauris
+    IsMonster: 1
+    MaxHealth: 100
+    Damage: 6
+    AttackInterval: 1.4
+    AttackWindup: 0.3
+    AttackRange: 1
+    MoveInterval: 0.6
+    IQSpeed: 4
+    BaseCost: 0
+    TargetPolicy: 0
+    Formation: 1
+    BaseAbility:
+      Id: tauris-fatal-bite
+      Name: Mordisco final
+      Description: Muerde cuerpo a cuerpo. Cada cuarto impacto acertado elimina al
+        objetivo, Whelp o Monster, e ignora su armadura.
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    Tricks:
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - Id: 
+      Name: 
+      Description: 
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      Id: tauris-hunger
+      Name: Hambre feroz
+      Description: "Intervalo de ataque \xD70,8 y +1 de da\xF1o. La posici\xF3n queda
+        fija desde la pr\xF3xima ronda."
+      Cost: 4
+      HealthBonus: 0
+      DamageBonus: 1
+      AttackIntervalMultiplier: 0.8
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 0
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 4
+    SummonInterval: 0
+    MaxLivingSummons: 0
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  BlueDeployment:
+  - {x: 0, y: 5}
+  - {x: 1, y: 5}
+  - {x: 2, y: 5}
+  - {x: 3, y: 5}
+  - {x: 4, y: 5}
+  - {x: 5, y: 5}
+  - {x: 0, y: 6}
+  - {x: 1, y: 6}
+  - {x: 2, y: 6}
+  - {x: 3, y: 6}
+  - {x: 4, y: 6}
+  - {x: 5, y: 6}
+  - {x: 0, y: 7}
+  - {x: 1, y: 7}
+  - {x: 2, y: 7}
+  - {x: 3, y: 7}
+  - {x: 4, y: 7}
+  - {x: 5, y: 7}
+  - {x: 0, y: 8}
+  - {x: 1, y: 8}
+  - {x: 2, y: 8}
+  - {x: 3, y: 8}
+  - {x: 4, y: 8}
+  - {x: 5, y: 8}
+  - {x: 0, y: 9}
+  - {x: 1, y: 9}
+  - {x: 2, y: 9}
+  - {x: 3, y: 9}
+  - {x: 4, y: 9}
+  - {x: 5, y: 9}
+  RedDeployment:
+  - {x: 0, y: 0}
+  - {x: 1, y: 0}
+  - {x: 2, y: 0}
+  - {x: 3, y: 0}
+  - {x: 4, y: 0}
+  - {x: 5, y: 0}
+  - {x: 0, y: 1}
+  - {x: 1, y: 1}
+  - {x: 2, y: 1}
+  - {x: 3, y: 1}
+  - {x: 4, y: 1}
+  - {x: 5, y: 1}
+  - {x: 0, y: 2}
+  - {x: 1, y: 2}
+  - {x: 2, y: 2}
+  - {x: 3, y: 2}
+  - {x: 4, y: 2}
+  - {x: 5, y: 2}
+  - {x: 0, y: 3}
+  - {x: 1, y: 3}
+  - {x: 2, y: 3}
+  - {x: 3, y: 3}
+  - {x: 4, y: 3}
+  - {x: 5, y: 3}
+  - {x: 0, y: 4}
+  - {x: 1, y: 4}
+  - {x: 2, y: 4}
+  - {x: 3, y: 4}
+  - {x: 4, y: 4}
+  - {x: 5, y: 4}

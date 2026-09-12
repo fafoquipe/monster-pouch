@@ -50,15 +50,9 @@ namespace MonsterPouch.Gameplay.Board
             BoardSide firstUnitSide,
             BoardSide secondUnitSide)
         {
-            if (firstUnitSide == secondUnitSide)
-                return BoardPriorityResult.Unresolved;
-
-            if (firstUnitSide == territorySide && secondUnitSide != territorySide)
-                return BoardPriorityResult.First;
-
-            if (secondUnitSide == territorySide && firstUnitSide != territorySide)
-                return BoardPriorityResult.Second;
-
+            // A territory's colour alone does not define the specified Blue vertical /
+            // Red diagonal relationship. No coordinate predicate survives in this project.
+            // Until those predicates are configured, the closed rule is an unresolved tie.
             return BoardPriorityResult.Unresolved;
         }
 

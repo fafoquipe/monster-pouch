@@ -1,0 +1,3792 @@
+fileFormatVersion: 2
+guid: b61b583d5bf2cdd47a8327c677c6de67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2993804877263735754
+    second: stein-animation-rgba-v1_0
+  - first:
+      213: 6268836779687271067
+    second: stein-animation-rgba-v1_1
+  - first:
+      213: 6063295984179652736
+    second: stein-animation-rgba-v1_2
+  - first:
+      213: -3273361358671462973
+    second: stein-animation-rgba-v1_3
+  - first:
+      213: 303122842412300594
+    second: stein-animation-rgba-v1_4
+  - first:
+      213: 3710022380616238441
+    second: stein-animation-rgba-v1_5
+  - first:
+      213: 1796373198599663940
+    second: stein-animation-rgba-v1_6
+  - first:
+      213: 3547890259523605665
+    second: stein-animation-rgba-v1_7
+  - first:
+      213: -1547661244340000693
+    second: stein-animation-rgba-v1_8
+  - first:
+      213: -1981888604906966041
+    second: stein-animation-rgba-v1_9
+  - first:
+      213: -7117734882527429736
+    second: stein-animation-rgba-v1_10
+  - first:
+      213: -8100908873738681045
+    second: stein-animation-rgba-v1_11
+  - first:
+      213: -4843697340492845860
+    second: stein-animation-rgba-v1_12
+  - first:
+      213: -5562459660776216852
+    second: stein-animation-rgba-v1_13
+  - first:
+      213: -3764864146629033636
+    second: stein-animation-rgba-v1_14
+  - first:
+      213: 758534691427028117
+    second: stein-animation-rgba-v1_15
+  - first:
+      213: -2327388196399457148
+    second: stein-animation-rgba-v1_16
+  - first:
+      213: 961123050721850599
+    second: stein-animation-rgba-v1_17
+  - first:
+      213: 1179020776743297550
+    second: stein-animation-rgba-v1_18
+  - first:
+      213: -885373699179153140
+    second: stein-animation-rgba-v1_19
+  - first:
+      213: -4369295611907488372
+    second: stein-animation-rgba-v1_20
+  - first:
+      213: -7035270458508745646
+    second: stein-animation-rgba-v1_21
+  - first:
+      213: 5336512128576606513
+    second: stein-animation-rgba-v1_22
+  - first:
+      213: 8802292489852225049
+    second: stein-animation-rgba-v1_23
+  - first:
+      213: 4009614701965148690
+    second: stein-animation-rgba-v1_24
+  - first:
+      213: -8822356380204358159
+    second: stein-animation-rgba-v1_25
+  - first:
+      213: -6807001003260008327
+    second: stein-animation-rgba-v1_26
+  - first:
+      213: 1963655736062188851
+    second: stein-animation-rgba-v1_27
+  - first:
+      213: -5290160901727299378
+    second: stein-animation-rgba-v1_28
+  - first:
+      213: 2358089319276052886
+    second: stein-animation-rgba-v1_29
+  - first:
+      213: 3463914413195012509
+    second: stein-animation-rgba-v1_30
+  - first:
+      213: 3993217332941615384
+    second: stein-animation-rgba-v1_31
+  - first:
+      213: 8241549387797597069
+    second: stein-animation-rgba-v1_32
+  - first:
+      213: -7160936563662511044
+    second: stein-animation-rgba-v1_33
+  - first:
+      213: -2116798724541285256
+    second: stein-animation-rgba-v1_34
+  - first:
+      213: -8155637264035473406
+    second: stein-animation-rgba-v1_35
+  - first:
+      213: 2068544048529228581
+    second: stein-animation-rgba-v1_36
+  - first:
+      213: 110754231259498205
+    second: stein-animation-rgba-v1_37
+  - first:
+      213: 4458080772765902937
+    second: stein-animation-rgba-v1_38
+  - first:
+      213: -247772332403342895
+    second: stein-animation-rgba-v1_39
+  - first:
+      213: 6618918823089019894
+    second: stein-animation-rgba-v1_40
+  - first:
+      213: -3563069251915057275
+    second: stein-animation-rgba-v1_41
+  - first:
+      213: -6530569160263624838
+    second: stein-animation-rgba-v1_42
+  - first:
+      213: 3240317836203823096
+    second: stein-animation-rgba-v1_43
+  - first:
+      213: 2803561542486300046
+    second: stein-animation-rgba-v1_44
+  - first:
+      213: 639174480335578067
+    second: stein-animation-rgba-v1_45
+  - first:
+      213: -6259343732869870318
+    second: stein-animation-rgba-v1_46
+  - first:
+      213: -8011129583817371911
+    second: stein-animation-rgba-v1_47
+  - first:
+      213: 2772918316213832946
+    second: stein-animation-rgba-v1_48
+  - first:
+      213: 1291008963390633127
+    second: stein-animation-rgba-v1_49
+  - first:
+      213: 516821438032788688
+    second: stein-animation-rgba-v1_50
+  - first:
+      213: 3150179558411960759
+    second: stein-animation-rgba-v1_51
+  - first:
+      213: -6664099549750302563
+    second: stein-animation-rgba-v1_52
+  - first:
+      213: -885086975132420108
+    second: stein-animation-rgba-v1_53
+  - first:
+      213: 4581970410967540502
+    second: stein-animation-rgba-v1_54
+  - first:
+      213: -3572827940488450720
+    second: stein-animation-rgba-v1_55
+  - first:
+      213: -7423504512213805045
+    second: stein-animation-rgba-v1_56
+  - first:
+      213: -2325930714341371877
+    second: stein-animation-rgba-v1_57
+  - first:
+      213: 1594765158140004006
+    second: stein-animation-rgba-v1_58
+  - first:
+      213: 1028531416626513821
+    second: stein-animation-rgba-v1_59
+  - first:
+      213: 1720437334591088633
+    second: stein-animation-rgba-v1_60
+  - first:
+      213: -4187736760790645192
+    second: stein-animation-rgba-v1_61
+  - first:
+      213: 6671440856930423235
+    second: stein-animation-rgba-v1_62
+  - first:
+      213: -3659589896605299260
+    second: stein-animation-rgba-v1_63
+  - first:
+      213: 5427171580818694550
+    second: stein-animation-rgba-v1_64
+  - first:
+      213: -4871308383401731779
+    second: stein-animation-rgba-v1_65
+  - first:
+      213: 2871220771356793194
+    second: stein-animation-rgba-v1_66
+  - first:
+      213: -7890272310379815916
+    second: stein-animation-rgba-v1_67
+  - first:
+      213: 6351308393158152159
+    second: stein-animation-rgba-v1_68
+  - first:
+      213: -5181430744983034894
+    second: stein-animation-rgba-v1_69
+  - first:
+      213: 3473626278468502990
+    second: stein-animation-rgba-v1_70
+  - first:
+      213: -1677483887675673021
+    second: stein-animation-rgba-v1_71
+  - first:
+      213: 2435287471711032092
+    second: stein-animation-rgba-v1_72
+  - first:
+      213: -6550969976143850380
+    second: stein-animation-rgba-v1_73
+  - first:
+      213: -1690643003539353758
+    second: stein-animation-rgba-v1_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 583
+        width: 126
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb032c8ca12c8920800000000000000
+      internalID: 2993804877263735754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 583
+        width: 124
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ad92066d16ff650800000000000000
+      internalID: 6268836779687271067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 583
+        width: 124
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088a419a297252450800000000000000
+      internalID: 6063295984179652736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 583
+        width: 123
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdb5e2ff2fa292d0800000000000000
+      internalID: -3273361358671462973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 583
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239ba418e98e43400800000000000000
+      internalID: 303122842412300594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_5
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 583
+        width: 123
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9654169d2b5ac7330800000000000000
+      internalID: 3710022380616238441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_6
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 583
+        width: 122
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441b09218effde810800000000000000
+      internalID: 1796373198599663940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_7
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 583
+        width: 133
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a419fcb463ac3130800000000000000
+      internalID: 3547890259523605665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_8
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 583
+        width: 123
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48a9725c4a958ae0800000000000000
+      internalID: -1547661244340000693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_9
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 583
+        width: 122
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3302870daee74e0800000000000000
+      internalID: -1981888604906966041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_10
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 583
+        width: 122
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bbb81f5d9b83d90800000000000000
+      internalID: -7117734882527429736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_11
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 583
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b250ffebc4ac39f80800000000000000
+      internalID: -8100908873738681045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_12
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 583
+        width: 130
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc6b6c8eeab7ccb0800000000000000
+      internalID: -4843697340492845860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_13
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 584
+        width: 126
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce66ef1e86c2ec2b0800000000000000
+      internalID: -5562459660776216852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_14
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 586
+        width: 139
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c518298710480cbc0800000000000000
+      internalID: -3764864146629033636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 445
+        width: 115
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c8150784bd68a00800000000000000
+      internalID: 758534691427028117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 445
+        width: 116
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c5c2334c473bfd0800000000000000
+      internalID: -2327388196399457148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_17
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 445
+        width: 114
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e437b78258965d00800000000000000
+      internalID: 961123050721850599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_18
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 445
+        width: 115
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02e6945629bc5010800000000000000
+      internalID: 1179020776743297550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_19
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 446
+        width: 112
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09f3febf4586b3f0800000000000000
+      internalID: -885373699179153140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_20
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 445
+        width: 116
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85c49d5ac42d53c0800000000000000
+      internalID: -4369295611907488372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_21
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 445
+        width: 116
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25469cddac2bd5e90800000000000000
+      internalID: -7035270458508745646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_22
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 445
+        width: 137
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1315f53c1891f0a40800000000000000
+      internalID: 5336512128576606513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_23
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 445
+        width: 127
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9160bba0266082a70800000000000000
+      internalID: 8802292489852225049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_24
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 445
+        width: 116
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21201dcd35305a730800000000000000
+      internalID: 4009614701965148690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_25
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 445
+        width: 114
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5a4047d91b09580800000000000000
+      internalID: -8822356380204358159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_26
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 445
+        width: 118
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978a5fe07aca881a0800000000000000
+      internalID: -6807001003260008327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_27
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 445
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d1521fc7e404b10800000000000000
+      internalID: 1963655736062188851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_28
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 448
+        width: 122
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec852e730b29596b0800000000000000
+      internalID: -5290160901727299378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_29
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 450
+        width: 142
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69187100ebd99b020800000000000000
+      internalID: 2358089319276052886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 305
+        width: 101
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9928d26ecb421030800000000000000
+      internalID: 3463914413195012509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_31
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 304
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811fae0e102ca6730800000000000000
+      internalID: 3993217332941615384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_32
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 305
+        width: 103
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b838aa08ddf5270800000000000000
+      internalID: 8241549387797597069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_33
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 304
+        width: 103
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c342ac7b22e3f9c90800000000000000
+      internalID: -7160936563662511044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_34
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 304
+        width: 101
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c77ba76ce9f92e0800000000000000
+      internalID: -2116798724541285256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_35
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 305
+        width: 102
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2081a386e1b51de80800000000000000
+      internalID: -8155637264035473406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_36
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 305
+        width: 106
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52345de3ad1f4bc10800000000000000
+      internalID: 2068544048529228581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_37
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 304
+        width: 133
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd60893f26a798100800000000000000
+      internalID: 110754231259498205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_38
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 304
+        width: 109
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958e5b8c7d84edd30800000000000000
+      internalID: 4458080772765902937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_39
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 304
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1cded506cbf8cf0800000000000000
+      internalID: -247772332403342895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_40
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 305
+        width: 102
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb1e5fd99f1bdb50800000000000000
+      internalID: 6618918823089019894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_41
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 304
+        width: 102
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5877c71b46f6d8ec0800000000000000
+      internalID: -3563069251915057275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_42
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 305
+        width: 113
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a779d5df2f1ce55a0800000000000000
+      internalID: -6530569160263624838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_43
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 307
+        width: 125
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff8a4277ebe7fc20800000000000000
+      internalID: 3240317836203823096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_44
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 308
+        width: 142
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8597d57e5048e620800000000000000
+      internalID: 2803561542486300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_45
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 164
+        width: 111
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3a5e9adcdced800800000000000000
+      internalID: 639174480335578067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_46
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 164
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d4933d9085229a0800000000000000
+      internalID: -6259343732869870318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_47
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 164
+        width: 109
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe41fa9610c2d090800000000000000
+      internalID: -8011129583817371911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_48
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 164
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc891d54826b7620800000000000000
+      internalID: 2772918316213832946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_49
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 164
+        width: 106
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a47eb8efc59ae110800000000000000
+      internalID: 1291008963390633127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_50
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 164
+        width: 117
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc30421c5e1c2700800000000000000
+      internalID: 516821438032788688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_51
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 164
+        width: 118
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b187d53e9fa7bb20800000000000000
+      internalID: 3150179558411960759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_52
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 164
+        width: 133
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98ea4574cc5483a0800000000000000
+      internalID: -6664099549750302563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_53
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 164
+        width: 119
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f738e3e51a87b3f0800000000000000
+      internalID: -885086975132420108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_54
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 164
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613221dffcd669f30800000000000000
+      internalID: 4581970410967540502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_55
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 164
+        width: 108
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d6893fae3ca6ec0800000000000000
+      internalID: -3572827940488450720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_56
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 164
+        width: 110
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b089cf04af96af890800000000000000
+      internalID: -7423504512213805045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_57
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 164
+        width: 108
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10138fa652a8bfd0800000000000000
+      internalID: -2325930714341371877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_58
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 164
+        width: 115
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6ca1f367eb12610800000000000000
+      internalID: 1594765158140004006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_59
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 164
+        width: 136
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d974a50cfd3164e00800000000000000
+      internalID: 1028531416626513821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_60
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 17
+        width: 122
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f72f9af3a830e710800000000000000
+      internalID: 1720437334591088633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_61
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 17
+        width: 120
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8368a388a9b22e5c0800000000000000
+      internalID: -4187736760790645192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_62
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 17
+        width: 119
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c19d51dc18b59c50800000000000000
+      internalID: 6671440856930423235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_63
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 17
+        width: 121
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd8b3dd066863dc0800000000000000
+      internalID: -3659589896605299260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_64
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 17
+        width: 119
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6912bc16ccf215b40800000000000000
+      internalID: 5427171580818694550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_65
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 17
+        width: 122
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3915f7a5d2a56cb0800000000000000
+      internalID: -4871308383401731779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_66
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 17
+        width: 123
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69d1744410a8d720800000000000000
+      internalID: 2871220771356793194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_67
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 17
+        width: 135
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cd5be532f108290800000000000000
+      internalID: -7890272310379815916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_68
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 17
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf06293551642850800000000000000
+      internalID: 6351308393158152159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_69
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 17
+        width: 120
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3aff8903cd718b0800000000000000
+      internalID: -5181430744983034894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_70
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 17
+        width: 120
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5c39a32bcc43030800000000000000
+      internalID: 3473626278468502990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_71
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 17
+        width: 120
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34676a6ba4168b8e0800000000000000
+      internalID: -1677483887675673021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_72
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 17
+        width: 120
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c139b458d01ebc120800000000000000
+      internalID: 2435287471711032092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_73
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 17
+        width: 123
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47452b5e3874615a0800000000000000
+      internalID: -6550969976143850380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-animation-rgba-v1_74
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 19
+        width: 137
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f890c4521a988e0800000000000000
+      internalID: -1690643003539353758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 582
+        width: 128
+        height: 129
+      alignment: 9
+      pivot: {x: 0.50390625, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53739e54ee9097d4f94cf309b1c42c64
+      internalID: -1390184761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 582
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4920635, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1230f48d2ddae8347bc0be2455850bee
+      internalID: 1882053025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 582
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf5285605859b742be9ba1e48f4724f
+      internalID: -951329972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 582
+        width: 125
+        height: 128
+      alignment: 9
+      pivot: {x: 0.488, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0fc9a1185741842a9c43515c6b24b9
+      internalID: 1875746639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 582
+        width: 123
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e17a3d1d84f3634abb57b8ee31a237a
+      internalID: 2050111660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 582
+        width: 125
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c78205817f74d49b6a2046a90744fe
+      internalID: 252363109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 582
+        width: 124
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5282258, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8509e6e269c6484399ff164c5f78360
+      internalID: -479107570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 582
+        width: 135
+        height: 131
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09dca0987e0f354b842a7da6acf9572
+      internalID: 1037134275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 582
+        width: 125
+        height: 129
+      alignment: 9
+      pivot: {x: 0.516, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a486d7f3fd8108943aef73f7699f707d
+      internalID: 1169799684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 582
+        width: 124
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2894e25108e45c441b3b2618f45100a5
+      internalID: -180381112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 582
+        width: 124
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4919355, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1839fd188757d54d998574278ab1569
+      internalID: -1432110268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 582
+        width: 122
+        height: 128
+      alignment: 9
+      pivot: {x: 0.49590164, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa361c454224e5f4c83dd34129c70293
+      internalID: -860650808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f12
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 582
+        width: 132
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d15a6c4f243a374eac3cb438705359d
+      internalID: -1742573055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f13
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 583
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49609375, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bde1d6e8508f3409026105d96153ee
+      internalID: -414491879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r00-f14
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 585
+        width: 141
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04109589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62989a885852ea34f9954a2fa9551bfb
+      internalID: 971687466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 444
+        width: 117
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9271d951d9125e4491636f601866c20
+      internalID: 260503676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 444
+        width: 118
+        height: 129
+      alignment: 9
+      pivot: {x: 0.55932206, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1907a482555374b4bb5c09d5a75dc992
+      internalID: -1697993779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 444
+        width: 116
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5948276, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70064b7ecbbf2054c94cc8871a5f4b5a
+      internalID: 853795290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 444
+        width: 117
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5726496, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c92952045e4564fbcd5e96c3681f04
+      internalID: -2014131572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 445
+        width: 114
+        height: 128
+      alignment: 9
+      pivot: {x: 0.60087717, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0fdd67a23b46046aead5b815fb0dd7
+      internalID: -1864915388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 444
+        width: 118
+        height: 129
+      alignment: 9
+      pivot: {x: 0.55932206, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f06f0d348d92644913ee45cb570ea0
+      internalID: 1196916665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 444
+        width: 118
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5762712, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02306391a73d07f43810d91e8aeb9f18
+      internalID: -816087435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 444
+        width: 139
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4676259, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a98b8a5ef6b30d49ad50c4b6ea86219
+      internalID: 1346932749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 444
+        width: 129
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5426357, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbf7ba9ab4b9a140ae2c52eb401bf06
+      internalID: -507225347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 444
+        width: 118
+        height: 129
+      alignment: 9
+      pivot: {x: 0.58474576, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888e1488ddd761149b856f15987a7806
+      internalID: 1575847009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 444
+        width: 116
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5905172, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e9b6061042a87498617c4bb74f129a
+      internalID: 900654332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 444
+        width: 120
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5875, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb57af9848cfb1f4fa01ebda9d519368
+      internalID: 655303240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f12
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 444
+        width: 122
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5204918, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1474006e4ae68745bc6b83c86bda05a
+      internalID: 2119364724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f13
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 447
+        width: 124
+        height: 103
+      alignment: 9
+      pivot: {x: 0.50403225, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b77f722aa518a4894f87fccd8c9953
+      internalID: 454059425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r01-f14
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 449
+        width: 144
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5208333, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212393a78e205e04c9e79305d7470f84
+      internalID: -965002317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 304
+        width: 103
+        height: 130
+      alignment: 9
+      pivot: {x: 0.61650485, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dffac11ffa6e784da92545d7e776855
+      internalID: -766554671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 303
+        width: 101
+        height: 132
+      alignment: 9
+      pivot: {x: 0.6287129, y: 0.022727273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87abbf7e1068ef645ac7809858ccbf32
+      internalID: 589526117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 304
+        width: 105
+        height: 129
+      alignment: 9
+      pivot: {x: 0.6, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d772b8e5f8356f94984f9d27561dc42e
+      internalID: 149301262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 303
+        width: 105
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5761905, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ec6795e9c754944a0d88a4b4f4c6e4
+      internalID: -1506887074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 303
+        width: 103
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5873786, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4264862a530de4d88a9e60fd4116c6
+      internalID: 811366228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 304
+        width: 104
+        height: 128
+      alignment: 9
+      pivot: {x: 0.59134614, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696863c072a99e745ab39c8c59fc8eb3
+      internalID: -995942443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 304
+        width: 108
+        height: 130
+      alignment: 9
+      pivot: {x: 0.587963, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49790febb7a4d9f44b5a1af7812aa753
+      internalID: 1185558147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 303
+        width: 135
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2f9f324bbbd2d4b91aab33542e5340
+      internalID: -841228838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 303
+        width: 111
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5810811, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be407da40ea10fe4e803336e6a7037c1
+      internalID: 215903695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 303
+        width: 102
+        height: 129
+      alignment: 9
+      pivot: {x: 0.60294116, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d1363f43911de40b4cada4c2c4da38
+      internalID: 1301303998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 304
+        width: 104
+        height: 130
+      alignment: 9
+      pivot: {x: 0.60096157, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f623ae0d63247499c91670949d3b70
+      internalID: 2100072804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 303
+        width: 104
+        height: 129
+      alignment: 9
+      pivot: {x: 0.59615386, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2938074fb095744ab99db42b2336ada
+      internalID: 2049271113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f12
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 304
+        width: 115
+        height: 124
+      alignment: 9
+      pivot: {x: 0.62608695, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d1d122790888d40be54d10507921aa
+      internalID: -1594222391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f13
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 306
+        width: 127
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5590551, y: 0.032967035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aa51547f4f51748a921a8c0867b361
+      internalID: 1224490639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r02-f14
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 307
+        width: 144
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.039473683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917f557c1c834c34aa2aaf89cad5c54e
+      internalID: -299522134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 163
+        width: 113
+        height: 128
+      alignment: 9
+      pivot: {x: 0.58849555, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae08b1bae878654393bfee2e99f9b69
+      internalID: -326663879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 163
+        width: 112
+        height: 128
+      alignment: 9
+      pivot: {x: 0.57589287, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51b929d39306a245bc135351e13d9f2
+      internalID: 286384458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 163
+        width: 111
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5990991, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ee8dbe5defd6e4ba0dbb4a66a445fa
+      internalID: -1905372859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 163
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5585586, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6134316144c176045b6d885808c57768
+      internalID: -41868549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 163
+        width: 108
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5601852, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1938dee338e09449ebcca191e3920e
+      internalID: 764774169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 163
+        width: 119
+        height: 129
+      alignment: 9
+      pivot: {x: 0.48739496, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf64abe153610c44a8153c2709976c9
+      internalID: 982961441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 163
+        width: 120
+        height: 128
+      alignment: 9
+      pivot: {x: 0.52916664, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbb19ba63ce0cc46b6e3e7714ef83bc
+      internalID: -701902412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 163
+        width: 135
+        height: 128
+      alignment: 9
+      pivot: {x: 0.35185185, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5778fdaf6a1619448a2800d9e463a665
+      internalID: -1069834199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 163
+        width: 121
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5247934, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a707070af73e8d4d9dde6082b841f35
+      internalID: -2120149903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 163
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5765766, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e890f5e85554e408f914b7127f5e8a
+      internalID: -349084267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 163
+        width: 110
+        height: 129
+      alignment: 9
+      pivot: {x: 0.57272726, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8fa1ab66ffdc74b85b14a74167fe79
+      internalID: 1098253818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 163
+        width: 112
+        height: 129
+      alignment: 9
+      pivot: {x: 0.56696427, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85a3d487037da64db21d06044ddd7cb
+      internalID: -1509098069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f12
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 163
+        width: 110
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5772727, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db66fdacfe6f43f4cb866ce10a85fe17
+      internalID: -1838763398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f13
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 163
+        width: 117
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5470086, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6260b499e659a8d4da68d07f526c755a
+      internalID: -1120047892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r03-f14
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 163
+        width: 138
+        height: 87
+      alignment: 9
+      pivot: {x: 0.51086956, y: 0.03448276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad286cc706c48594caef35666f605396
+      internalID: 549712600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 16
+        width: 124
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5080645, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ba77ac21d431e46acccbdcee614724
+      internalID: -1379536929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 16
+        width: 122
+        height: 133
+      alignment: 9
+      pivot: {x: 0.50409836, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035c65158840367408b88c96b52eb4e4
+      internalID: 297889635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 16
+        width: 121
+        height: 133
+      alignment: 9
+      pivot: {x: 0.49173555, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282aee3c25b3b9744b530dc4c4af3ab7
+      internalID: -1326019936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 16
+        width: 123
+        height: 133
+      alignment: 9
+      pivot: {x: 0.4878049, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41410663885c6f44b9773d6ff5a87084
+      internalID: 1022200580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 16
+        width: 121
+        height: 132
+      alignment: 9
+      pivot: {x: 0.4752066, y: 0.022727273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88060e25357c4948beaccf770a5f30a
+      internalID: -604113714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 16
+        width: 124
+        height: 133
+      alignment: 9
+      pivot: {x: 0.47580644, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5512e5fdcd798418920ab02470d7a7
+      internalID: 1901548518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 16
+        width: 125
+        height: 133
+      alignment: 9
+      pivot: {x: 0.512, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651d39e80d4c3a444bb00415eb9b060b
+      internalID: 164491044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 16
+        width: 137
+        height: 133
+      alignment: 9
+      pivot: {x: 0.4489051, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c768775a1c1ad554db04dbd7f768b8ea
+      internalID: 1092746875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 16
+        width: 134
+        height: 133
+      alignment: 9
+      pivot: {x: 0.51119405, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d455fe0007757d446b6db0b6d55badaa
+      internalID: -1044848630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 16
+        width: 122
+        height: 133
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38f12640142fa347bf306b7e809ecb1
+      internalID: -653177327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 16
+        width: 122
+        height: 133
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f976ea5bd1fc9e64ebb464b3f2a448b5
+      internalID: -823161401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 16
+        width: 122
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5163934, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab89b09e748407449460fc1755eb916
+      internalID: -1839920664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f12
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 16
+        width: 122
+        height: 133
+      alignment: 9
+      pivot: {x: 0.42213115, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc9df2fc20b0ec4794d835a3cbb4617
+      internalID: -1819822471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f13
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 16
+        width: 125
+        height: 113
+      alignment: 9
+      pivot: {x: 0.492, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77c4604c6a21fe4b95c729284bea97e
+      internalID: 942891319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-approved-r04-f14
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 18
+        width: 139
+        height: 75
+      alignment: 9
+      pivot: {x: 0.48920864, y: 0.04}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec431a19cf4940f47b727c4919ddc552
+      internalID: 1635089184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 52accae2a6b1369418a7fde9970d0060
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stein-animation-rgba-v1_0: 2993804877263735754
+      stein-animation-rgba-v1_1: 6268836779687271067
+      stein-animation-rgba-v1_10: -7117734882527429736
+      stein-animation-rgba-v1_11: -8100908873738681045
+      stein-animation-rgba-v1_12: -4843697340492845860
+      stein-animation-rgba-v1_13: -5562459660776216852
+      stein-animation-rgba-v1_14: -3764864146629033636
+      stein-animation-rgba-v1_15: 758534691427028117
+      stein-animation-rgba-v1_16: -2327388196399457148
+      stein-animation-rgba-v1_17: 961123050721850599
+      stein-animation-rgba-v1_18: 1179020776743297550
+      stein-animation-rgba-v1_19: -885373699179153140
+      stein-animation-rgba-v1_2: 6063295984179652736
+      stein-animation-rgba-v1_20: -4369295611907488372
+      stein-animation-rgba-v1_21: -7035270458508745646
+      stein-animation-rgba-v1_22: 5336512128576606513
+      stein-animation-rgba-v1_23: 8802292489852225049
+      stein-animation-rgba-v1_24: 4009614701965148690
+      stein-animation-rgba-v1_25: -8822356380204358159
+      stein-animation-rgba-v1_26: -6807001003260008327
+      stein-animation-rgba-v1_27: 1963655736062188851
+      stein-animation-rgba-v1_28: -5290160901727299378
+      stein-animation-rgba-v1_29: 2358089319276052886
+      stein-animation-rgba-v1_3: -3273361358671462973
+      stein-animation-rgba-v1_30: 3463914413195012509
+      stein-animation-rgba-v1_31: 3993217332941615384
+      stein-animation-rgba-v1_32: 8241549387797597069
+      stein-animation-rgba-v1_33: -7160936563662511044
+      stein-animation-rgba-v1_34: -2116798724541285256
+      stein-animation-rgba-v1_35: -8155637264035473406
+      stein-animation-rgba-v1_36: 2068544048529228581
+      stein-animation-rgba-v1_37: 110754231259498205
+      stein-animation-rgba-v1_38: 4458080772765902937
+      stein-animation-rgba-v1_39: -247772332403342895
+      stein-animation-rgba-v1_4: 303122842412300594
+      stein-animation-rgba-v1_40: 6618918823089019894
+      stein-animation-rgba-v1_41: -3563069251915057275
+      stein-animation-rgba-v1_42: -6530569160263624838
+      stein-animation-rgba-v1_43: 3240317836203823096
+      stein-animation-rgba-v1_44: 2803561542486300046
+      stein-animation-rgba-v1_45: 639174480335578067
+      stein-animation-rgba-v1_46: -6259343732869870318
+      stein-animation-rgba-v1_47: -8011129583817371911
+      stein-animation-rgba-v1_48: 2772918316213832946
+      stein-animation-rgba-v1_49: 1291008963390633127
+      stein-animation-rgba-v1_5: 3710022380616238441
+      stein-animation-rgba-v1_50: 516821438032788688
+      stein-animation-rgba-v1_51: 3150179558411960759
+      stein-animation-rgba-v1_52: -6664099549750302563
+      stein-animation-rgba-v1_53: -885086975132420108
+      stein-animation-rgba-v1_54: 4581970410967540502
+      stein-animation-rgba-v1_55: -3572827940488450720
+      stein-animation-rgba-v1_56: -7423504512213805045
+      stein-animation-rgba-v1_57: -2325930714341371877
+      stein-animation-rgba-v1_58: 1594765158140004006
+      stein-animation-rgba-v1_59: 1028531416626513821
+      stein-animation-rgba-v1_6: 1796373198599663940
+      stein-animation-rgba-v1_60: 1720437334591088633
+      stein-animation-rgba-v1_61: -4187736760790645192
+      stein-animation-rgba-v1_62: 6671440856930423235
+      stein-animation-rgba-v1_63: -3659589896605299260
+      stein-animation-rgba-v1_64: 5427171580818694550
+      stein-animation-rgba-v1_65: -4871308383401731779
+      stein-animation-rgba-v1_66: 2871220771356793194
+      stein-animation-rgba-v1_67: -7890272310379815916
+      stein-animation-rgba-v1_68: 6351308393158152159
+      stein-animation-rgba-v1_69: -5181430744983034894
+      stein-animation-rgba-v1_7: 3547890259523605665
+      stein-animation-rgba-v1_70: 3473626278468502990
+      stein-animation-rgba-v1_71: -1677483887675673021
+      stein-animation-rgba-v1_72: 2435287471711032092
+      stein-animation-rgba-v1_73: -6550969976143850380
+      stein-animation-rgba-v1_74: -1690643003539353758
+      stein-animation-rgba-v1_8: -1547661244340000693
+      stein-animation-rgba-v1_9: -1981888604906966041
+      stein-approved-r00-f00: -1390184761
+      stein-approved-r00-f01: 1882053025
+      stein-approved-r00-f02: -951329972
+      stein-approved-r00-f03: 1875746639
+      stein-approved-r00-f04: 2050111660
+      stein-approved-r00-f05: 252363109
+      stein-approved-r00-f06: -479107570
+      stein-approved-r00-f07: 1037134275
+      stein-approved-r00-f08: 1169799684
+      stein-approved-r00-f09: -180381112
+      stein-approved-r00-f10: -1432110268
+      stein-approved-r00-f11: -860650808
+      stein-approved-r00-f12: -1742573055
+      stein-approved-r00-f13: -414491879
+      stein-approved-r00-f14: 971687466
+      stein-approved-r01-f00: 260503676
+      stein-approved-r01-f01: -1697993779
+      stein-approved-r01-f02: 853795290
+      stein-approved-r01-f03: -2014131572
+      stein-approved-r01-f04: -1864915388
+      stein-approved-r01-f05: 1196916665
+      stein-approved-r01-f06: -816087435
+      stein-approved-r01-f07: 1346932749
+      stein-approved-r01-f08: -507225347
+      stein-approved-r01-f09: 1575847009
+      stein-approved-r01-f10: 900654332
+      stein-approved-r01-f11: 655303240
+      stein-approved-r01-f12: 2119364724
+      stein-approved-r01-f13: 454059425
+      stein-approved-r01-f14: -965002317
+      stein-approved-r02-f00: -766554671
+      stein-approved-r02-f01: 589526117
+      stein-approved-r02-f02: 149301262
+      stein-approved-r02-f03: -1506887074
+      stein-approved-r02-f04: 811366228
+      stein-approved-r02-f05: -995942443
+      stein-approved-r02-f06: 1185558147
+      stein-approved-r02-f07: -841228838
+      stein-approved-r02-f08: 215903695
+      stein-approved-r02-f09: 1301303998
+      stein-approved-r02-f10: 2100072804
+      stein-approved-r02-f11: 2049271113
+      stein-approved-r02-f12: -1594222391
+      stein-approved-r02-f13: 1224490639
+      stein-approved-r02-f14: -299522134
+      stein-approved-r03-f00: -326663879
+      stein-approved-r03-f01: 286384458
+      stein-approved-r03-f02: -1905372859
+      stein-approved-r03-f03: -41868549
+      stein-approved-r03-f04: 764774169
+      stein-approved-r03-f05: 982961441
+      stein-approved-r03-f06: -701902412
+      stein-approved-r03-f07: -1069834199
+      stein-approved-r03-f08: -2120149903
+      stein-approved-r03-f09: -349084267
+      stein-approved-r03-f10: 1098253818
+      stein-approved-r03-f11: -1509098069
+      stein-approved-r03-f12: -1838763398
+      stein-approved-r03-f13: -1120047892
+      stein-approved-r03-f14: 549712600
+      stein-approved-r04-f00: -1379536929
+      stein-approved-r04-f01: 297889635
+      stein-approved-r04-f02: -1326019936
+      stein-approved-r04-f03: 1022200580
+      stein-approved-r04-f04: -604113714
+      stein-approved-r04-f05: 1901548518
+      stein-approved-r04-f06: 164491044
+      stein-approved-r04-f07: 1092746875
+      stein-approved-r04-f08: -1044848630
+      stein-approved-r04-f09: -653177327
+      stein-approved-r04-f10: -823161401
+      stein-approved-r04-f11: -1839920664
+      stein-approved-r04-f12: -1819822471
+      stein-approved-r04-f13: 942891319
+      stein-approved-r04-f14: 1635089184
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

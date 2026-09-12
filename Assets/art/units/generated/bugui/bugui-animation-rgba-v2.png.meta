@@ -1,0 +1,3057 @@
+fileFormatVersion: 2
+guid: 0feeb4f22e36efa4f8720094c45dcfdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5308146453990607682
+    second: bugui-animation-rgba-v2_0
+  - first:
+      213: 2586062666009817492
+    second: bugui-animation-rgba-v2_1
+  - first:
+      213: -3765265404206596254
+    second: bugui-animation-rgba-v2_2
+  - first:
+      213: -2398483347004251474
+    second: bugui-animation-rgba-v2_3
+  - first:
+      213: 1892729204679742615
+    second: bugui-animation-rgba-v2_4
+  - first:
+      213: 4053545542547941270
+    second: bugui-animation-rgba-v2_5
+  - first:
+      213: -7363944476223485255
+    second: bugui-animation-rgba-v2_6
+  - first:
+      213: -3107559094099213595
+    second: bugui-animation-rgba-v2_7
+  - first:
+      213: -7059319732158460636
+    second: bugui-animation-rgba-v2_8
+  - first:
+      213: -3711390958851831082
+    second: bugui-animation-rgba-v2_9
+  - first:
+      213: -1190872899565424149
+    second: bugui-animation-rgba-v2_10
+  - first:
+      213: -3160730688262404765
+    second: bugui-animation-rgba-v2_11
+  - first:
+      213: 7556041900246207265
+    second: bugui-animation-rgba-v2_12
+  - first:
+      213: 9173543693188049217
+    second: bugui-animation-rgba-v2_13
+  - first:
+      213: 7419949157713151921
+    second: bugui-animation-rgba-v2_14
+  - first:
+      213: 5030399677348574983
+    second: bugui-animation-rgba-v2_15
+  - first:
+      213: 997147164892275291
+    second: bugui-animation-rgba-v2_16
+  - first:
+      213: -1283240469668799716
+    second: bugui-animation-rgba-v2_17
+  - first:
+      213: -6369320459322621151
+    second: bugui-animation-rgba-v2_18
+  - first:
+      213: 784097947364460253
+    second: bugui-animation-rgba-v2_19
+  - first:
+      213: -7620352952055666478
+    second: bugui-animation-rgba-v2_20
+  - first:
+      213: -1315079553757227303
+    second: bugui-animation-rgba-v2_21
+  - first:
+      213: -4048207345058115254
+    second: bugui-animation-rgba-v2_22
+  - first:
+      213: -3935516870591019034
+    second: bugui-animation-rgba-v2_23
+  - first:
+      213: 7065046349057571207
+    second: bugui-animation-rgba-v2_24
+  - first:
+      213: -3149098178330082202
+    second: bugui-animation-rgba-v2_25
+  - first:
+      213: -7246688064428675154
+    second: bugui-animation-rgba-v2_26
+  - first:
+      213: 511537819569393215
+    second: bugui-animation-rgba-v2_27
+  - first:
+      213: -3481237973421265925
+    second: bugui-animation-rgba-v2_28
+  - first:
+      213: 5337446156284273718
+    second: bugui-animation-rgba-v2_29
+  - first:
+      213: -2794973314697992810
+    second: bugui-animation-rgba-v2_30
+  - first:
+      213: 2697104062289737783
+    second: bugui-animation-rgba-v2_31
+  - first:
+      213: -6872902175767623924
+    second: bugui-animation-rgba-v2_32
+  - first:
+      213: -8038307729678602126
+    second: bugui-animation-rgba-v2_33
+  - first:
+      213: 2873993054494384975
+    second: bugui-animation-rgba-v2_34
+  - first:
+      213: -2181800414226242872
+    second: bugui-animation-rgba-v2_35
+  - first:
+      213: 2643215930083745617
+    second: bugui-animation-rgba-v2_36
+  - first:
+      213: 6375704618166489818
+    second: bugui-animation-rgba-v2_37
+  - first:
+      213: -9190705488646471109
+    second: bugui-animation-rgba-v2_38
+  - first:
+      213: -1304033181856881848
+    second: bugui-animation-rgba-v2_39
+  - first:
+      213: 4223276975697794364
+    second: bugui-animation-rgba-v2_40
+  - first:
+      213: 3018429599208263418
+    second: bugui-animation-rgba-v2_41
+  - first:
+      213: -3850062407213128373
+    second: bugui-animation-rgba-v2_42
+  - first:
+      213: -5329668763938993119
+    second: bugui-animation-rgba-v2_43
+  - first:
+      213: 8802967408607098842
+    second: bugui-animation-rgba-v2_44
+  - first:
+      213: -7998235308546476677
+    second: bugui-animation-rgba-v2_45
+  - first:
+      213: -6749585076601077844
+    second: bugui-animation-rgba-v2_46
+  - first:
+      213: -7141644695451312286
+    second: bugui-animation-rgba-v2_47
+  - first:
+      213: 925395393651005966
+    second: bugui-animation-rgba-v2_48
+  - first:
+      213: -410431544478642293
+    second: bugui-animation-rgba-v2_49
+  - first:
+      213: 5970180089104115188
+    second: bugui-animation-rgba-v2_50
+  - first:
+      213: -4885746957502418729
+    second: bugui-animation-rgba-v2_51
+  - first:
+      213: -6814600626193710616
+    second: bugui-animation-rgba-v2_52
+  - first:
+      213: -6664422100726846298
+    second: bugui-animation-rgba-v2_53
+  - first:
+      213: -2109306946302365107
+    second: bugui-animation-rgba-v2_54
+  - first:
+      213: 3062537786725344279
+    second: bugui-animation-rgba-v2_55
+  - first:
+      213: 1319372593961636524
+    second: bugui-animation-rgba-v2_56
+  - first:
+      213: 3511812007150362742
+    second: bugui-animation-rgba-v2_57
+  - first:
+      213: 492614541660387542
+    second: bugui-animation-rgba-v2_58
+  - first:
+      213: -6028232328540741958
+    second: bugui-animation-rgba-v2_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 657
+        width: 88
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b0cdd73135aa940800000000000000
+      internalID: 5308146453990607682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 656
+        width: 88
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4913a6e0b4a83e320800000000000000
+      internalID: 2586062666009817492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_2
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 656
+        width: 86
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fb23960171fbbc0800000000000000
+      internalID: -3765265404206596254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_3
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 656
+        width: 86
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea22f168a10e6bed0800000000000000
+      internalID: -2398483347004251474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_4
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 656
+        width: 85
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79491fcfe23544a10800000000000000
+      internalID: 1892729204679742615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_5
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 656
+        width: 85
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6972070c136114830800000000000000
+      internalID: 4053545542547941270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_6
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 656
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bacff4c3830ec990800000000000000
+      internalID: -7363944476223485255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_7
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 657
+        width: 128
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e28eade77bbfd4d0800000000000000
+      internalID: -3107559094099213595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_8
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 656
+        width: 105
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d0ac00b12480e90800000000000000
+      internalID: -7059319732158460636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_9
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 657
+        width: 104
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da4a03369d7e7cc0800000000000000
+      internalID: -3711390958851831082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_10
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 657
+        width: 122
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be173c8486b297fe0800000000000000
+      internalID: -1190872899565424149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_11
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 657
+        width: 121
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365817f6f24d224d0800000000000000
+      internalID: -3160730688262404765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 496
+        width: 86
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b842c13147cd860800000000000000
+      internalID: 7556041900246207265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_13
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 496
+        width: 84
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149affba269fe4f70800000000000000
+      internalID: 9173543693188049217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_14
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 496
+        width: 84
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b783f44274f8f660800000000000000
+      internalID: 7419949157713151921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_15
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 496
+        width: 83
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707f996bad19fc540800000000000000
+      internalID: 5030399677348574983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_16
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 495
+        width: 83
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b522138301496dd00800000000000000
+      internalID: 997147164892275291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_17
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 496
+        width: 83
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b5cfb7793013ee0800000000000000
+      internalID: -1283240469668799716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_18
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 497
+        width: 93
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1238271d9c0ab97a0800000000000000
+      internalID: -6369320459322621151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_19
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 496
+        width: 128
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd685c5cdeca1ea00800000000000000
+      internalID: 784097947364460253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_20
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 497
+        width: 104
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d86f9d4d511f3690800000000000000
+      internalID: -7620352952055666478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_21
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 496
+        width: 102
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6dbea0d16efbde0800000000000000
+      internalID: -1315079553757227303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_22
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 497
+        width: 120
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a411fa43ed0e1d7c0800000000000000
+      internalID: -4048207345058115254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_23
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 497
+        width: 126
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e78dd8e14c3269c0800000000000000
+      internalID: -3935516870591019034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_24
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 336
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7893f35e8361c0260800000000000000
+      internalID: 7065046349057571207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_25
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 336
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6644ec534e72c44d0800000000000000
+      internalID: -3149098178330082202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_26
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 337
+        width: 81
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf6aa999979e6b90800000000000000
+      internalID: -7246688064428675154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_27
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 336
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e8c98cfe8591700800000000000000
+      internalID: 511537819569393215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_28
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 337
+        width: 80
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbef9fe18820bfc0800000000000000
+      internalID: -3481237973421265925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_29
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 336
+        width: 80
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6342919000b621a40800000000000000
+      internalID: 5337446156284273718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_30
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 337
+        width: 100
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695eab424924639d0800000000000000
+      internalID: -2794973314697992810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_31
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 337
+        width: 133
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738fa03dad90e6520800000000000000
+      internalID: 2697104062289737783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_32
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 337
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c078c55a2eb8e90a0800000000000000
+      internalID: -6872902175767623924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_33
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 337
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270fa3965b1327090800000000000000
+      internalID: -8038307729678602126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_34
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 338
+        width: 114
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43e31cb47972e720800000000000000
+      internalID: 2873993054494384975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_35
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 337
+        width: 126
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2ae3b3510b8b1e0800000000000000
+      internalID: -2181800414226242872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_36
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 174
+        width: 87
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f9b4152e69ea420800000000000000
+      internalID: 2643215930083745617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_37
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 175
+        width: 85
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad291aef19d0b7850800000000000000
+      internalID: 6375704618166489818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_38
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 175
+        width: 86
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b328ef17d0e047080800000000000000
+      internalID: -9190705488646471109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_39
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 175
+        width: 84
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843291ceab427ede0800000000000000
+      internalID: -1304033181856881848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_40
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 174
+        width: 85
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c359d8498081c9a30800000000000000
+      internalID: 4223276975697794364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_41
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 174
+        width: 84
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe45586abd93e920800000000000000
+      internalID: 3018429599208263418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_42
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 175
+        width: 92
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45e9fe93a4d19ac0800000000000000
+      internalID: -3850062407213128373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_43
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 176
+        width: 131
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ccbea3f763906b0800000000000000
+      internalID: -5329668763938993119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_44
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 176
+        width: 96
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7fd5fc73c6a2a70800000000000000
+      internalID: 8802967408607098842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_45
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 178
+        width: 106
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75b9140d5f800190800000000000000
+      internalID: -7998235308546476677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_46
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 180
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf3ae73228a452a0800000000000000
+      internalID: -6749585076601077844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_47
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 177
+        width: 127
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f529fccf7c3ec90800000000000000
+      internalID: -7141644695451312286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_48
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 18
+        width: 88
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ad953253aa7dc00800000000000000
+      internalID: 925395393651005966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_49
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 18
+        width: 87
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f4cb25faadd4af0800000000000000
+      internalID: -410431544478642293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_50
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 17
+        width: 85
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f52920e8275ad250800000000000000
+      internalID: 5970180089104115188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 17
+        width: 86
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d07f972707523cb0800000000000000
+      internalID: -4885746957502418729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_52
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 18
+        width: 85
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1c195f5dcad61a0800000000000000
+      internalID: -6814600626193710616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_53
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 18
+        width: 85
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ace9e4b8673383a0800000000000000
+      internalID: -6664422100726846298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_54
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 18
+        width: 93
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d423267028c3ab2e0800000000000000
+      internalID: -2109306946302365107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_55
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 18
+        width: 125
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714a9f814e1508a20800000000000000
+      internalID: 3062537786725344279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_56
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 18
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca21875426a5f4210800000000000000
+      internalID: 1319372593961636524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_57
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 20
+        width: 114
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67026240a667cb030800000000000000
+      internalID: 3511812007150362742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_58
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 18
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8fbdec05e16d600800000000000000
+      internalID: 492614541660387542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-animation-rgba-v2_59
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 18
+        width: 112
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe9dc9d2aa675ca0800000000000000
+      internalID: -6028232328540741958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 656
+        width: 90
+        height: 128
+      alignment: 9
+      pivot: {x: 0.49444443, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a111a85398f544485b07c60a018831
+      internalID: -783692906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 655
+        width: 90
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56963f3b3ae63b94884b147669cec3f9
+      internalID: -2123566852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 655
+        width: 88
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b859c629493ad94498a872793f88a867
+      internalID: -1059436627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 655
+        width: 88
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9572e6abae0a54388a64bbf633f91e
+      internalID: 107568686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 655
+        width: 87
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89f0004d4b57bc4b92c36fc85284562
+      internalID: 827291414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 655
+        width: 87
+        height: 129
+      alignment: 9
+      pivot: {x: 0.50574714, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf46f31e4075ebe40b87d6b282d7038c
+      internalID: 567552811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 655
+        width: 90
+        height: 123
+      alignment: 9
+      pivot: {x: 0.45, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b60c8bfce21fc4fbe900e640806e98
+      internalID: 1045152023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 656
+        width: 130
+        height: 127
+      alignment: 9
+      pivot: {x: 0.36923078, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f708348967c0740a412c1f27d5b406
+      internalID: 296462171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 655
+        width: 107
+        height: 133
+      alignment: 9
+      pivot: {x: 0.42990655, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f21a6bf1c0483f4d95b7ad42227918e
+      internalID: -1468022118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 656
+        width: 106
+        height: 126
+      alignment: 9
+      pivot: {x: 0.6367925, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233e0fb858d5a564a88a519b4ccabb9b
+      internalID: 935012209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 656
+        width: 124
+        height: 127
+      alignment: 9
+      pivot: {x: 0.6935484, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01dbd780e979734c97dab9b37ead4c1
+      internalID: -2096547476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 656
+        width: 123
+        height: 82
+      alignment: 9
+      pivot: {x: 0.48373982, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d5dbb5420880e4686e03b69e79bcc0
+      internalID: -455675215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 495
+        width: 88
+        height: 133
+      alignment: 9
+      pivot: {x: 0.4659091, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d884c405526b7a42a564755af7c3e45
+      internalID: 1367471335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 495
+        width: 86
+        height: 133
+      alignment: 9
+      pivot: {x: 0.45930234, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6effc43f80d2f4db64919b703800b2
+      internalID: -1813085188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 495
+        width: 86
+        height: 133
+      alignment: 9
+      pivot: {x: 0.43023255, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2558af784cb4e438c67f70870b52e8
+      internalID: -939343840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 495
+        width: 85
+        height: 133
+      alignment: 9
+      pivot: {x: 0.44117647, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a123f0f730e2b45ab285db48302701
+      internalID: -1970544815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 494
+        width: 85
+        height: 133
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f899a82666f3743b444facefd75ea9
+      internalID: 2123734533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 495
+        width: 85
+        height: 133
+      alignment: 9
+      pivot: {x: 0.44705883, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13a3b9c3d5bf2e4cabf7e623133cdcd
+      internalID: -1461444253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 496
+        width: 95
+        height: 120
+      alignment: 9
+      pivot: {x: 0.42631578, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44b5e0234cb31e479e6b3f7f11123ad
+      internalID: -932443663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 495
+        width: 130
+        height: 127
+      alignment: 9
+      pivot: {x: 0.37307692, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2b2581201d83f49aab165c48500d23
+      internalID: 515016107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 496
+        width: 106
+        height: 133
+      alignment: 9
+      pivot: {x: 0.4198113, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90047a3f72a967c47ae7bf3c23b79144
+      internalID: -678301413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 495
+        width: 104
+        height: 126
+      alignment: 9
+      pivot: {x: 0.63461536, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51231a2d34154aa45af271aa4078871b
+      internalID: 1498464583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 496
+        width: 122
+        height: 125
+      alignment: 9
+      pivot: {x: 0.6885246, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aea2da7ef189ef45a22ed499350ab04
+      internalID: -2058569246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 496
+        width: 128
+        height: 81
+      alignment: 9
+      pivot: {x: 0.45703125, y: 0.037037037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b62fffa77cc2f14b98364cc2918d91b
+      internalID: -1546861009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 335
+        width: 85
+        height: 142
+      alignment: 9
+      pivot: {x: 0.4764706, y: 0.02112676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db79b2ddda56ad4682f63fdb62c9778
+      internalID: -738425264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 335
+        width: 82
+        height: 142
+      alignment: 9
+      pivot: {x: 0.46341464, y: 0.02112676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ebcfa5ce87cdb439eb899f5e53bbcc
+      internalID: -1829420188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 336
+        width: 83
+        height: 141
+      alignment: 9
+      pivot: {x: 0.43975905, y: 0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eee42be82259f44f85ad86a8b896cf9
+      internalID: -1863890661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 335
+        width: 83
+        height: 140
+      alignment: 9
+      pivot: {x: 0.45783132, y: 0.021428572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8c8abc8cf6c5b439ae89642f0677ca
+      internalID: 1645001544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 336
+        width: 82
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4695122, y: 0.021582734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee030192b07d7f4eabe14769163b5cb
+      internalID: -1036855544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 335
+        width: 82
+        height: 141
+      alignment: 9
+      pivot: {x: 0.44512194, y: 0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efefc8cfe87544c48beea1b402dd902d
+      internalID: -1923726832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 336
+        width: 102
+        height: 120
+      alignment: 9
+      pivot: {x: 0.4362745, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f206bbece5e6f294baa17d15c156d420
+      internalID: -1152693226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 336
+        width: 135
+        height: 128
+      alignment: 9
+      pivot: {x: 0.37407407, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720adf81f120696478a60a00ede4d5bb
+      internalID: -1847083991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 336
+        width: 101
+        height: 132
+      alignment: 9
+      pivot: {x: 0.42574257, y: 0.022727273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba0d9aaf352d654b9ab3fe2f8047416
+      internalID: -231577289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 336
+        width: 89
+        height: 123
+      alignment: 9
+      pivot: {x: 0.6516854, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f967c79f15bfd49bef9d695c660cc3
+      internalID: -1508303019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 337
+        width: 116
+        height: 122
+      alignment: 9
+      pivot: {x: 0.69827586, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc8e7bc16e1984469500e98e7c8d852
+      internalID: 2024941753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 336
+        width: 128
+        height: 86
+      alignment: 9
+      pivot: {x: 0.44140625, y: 0.034883723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052f4e389e9fbbf4ca34649eb110488e
+      internalID: 147641198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 173
+        width: 89
+        height: 139
+      alignment: 9
+      pivot: {x: 0.43820226, y: 0.021582734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee87a6695df420468a2610b85f277f8
+      internalID: 382613780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 174
+        width: 87
+        height: 137
+      alignment: 9
+      pivot: {x: 0.41954023, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9828a244210966342b96660b85aa9730
+      internalID: -1909873747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 174
+        width: 88
+        height: 138
+      alignment: 9
+      pivot: {x: 0.4318182, y: 0.02173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b078bdd4c24f0c43aa5ce8c06418579
+      internalID: -1930023680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 174
+        width: 86
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4244186, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ab999dfeac8254695d036e5a40ae64
+      internalID: -1814112526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 173
+        width: 87
+        height: 138
+      alignment: 9
+      pivot: {x: 0.37931034, y: 0.02173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632517b1c4532674c87e2c77de191522
+      internalID: -895264029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 173
+        width: 86
+        height: 137
+      alignment: 9
+      pivot: {x: 0.41860464, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28789e710d583964b932da26a7ab0867
+      internalID: 678702207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 174
+        width: 94
+        height: 122
+      alignment: 9
+      pivot: {x: 0.34574467, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03eaf413a20f8443a849249223fff77
+      internalID: 172147599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 175
+        width: 133
+        height: 126
+      alignment: 9
+      pivot: {x: 0.28195488, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560255c0b0538e34cada53e45ad36c51
+      internalID: -1662808301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 175
+        width: 98
+        height: 132
+      alignment: 9
+      pivot: {x: 0.47959185, y: 0.022727273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3ca0cf19f979a4c84c1ff19d19ba0f
+      internalID: -1182678621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 177
+        width: 108
+        height: 123
+      alignment: 9
+      pivot: {x: 0.6990741, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9153267efe963d4e8a8808249137597
+      internalID: -293258880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 179
+        width: 125
+        height: 121
+      alignment: 9
+      pivot: {x: 0.692, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09b460780355b342b8708a86788a407
+      internalID: -1900518609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 176
+        width: 129
+        height: 89
+      alignment: 9
+      pivot: {x: 0.4379845, y: 0.033707865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9a98c8db837344b906aabf46cb04a6
+      internalID: 1141604741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 17
+        width: 90
+        height: 131
+      alignment: 9
+      pivot: {x: 0.49444443, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4fd7e569142224b885a86d16a2e8f7
+      internalID: -943604221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 17
+        width: 89
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f8ffad6a7e9ea48b980473e07ea8f8
+      internalID: 164672794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 16
+        width: 87
+        height: 133
+      alignment: 9
+      pivot: {x: 0.49425286, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9057f3ffb01bf4e9ab10b18125ad68
+      internalID: -520542279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 16
+        width: 88
+        height: 132
+      alignment: 9
+      pivot: {x: 0.53409094, y: 0.022727273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f69634685626c4bb1e16fd5819d7cd
+      internalID: 1797031336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 17
+        width: 87
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5114943, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6974acb6c38f34da364caeb9e5de68
+      internalID: -1155935503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 17
+        width: 87
+        height: 131
+      alignment: 9
+      pivot: {x: 0.49425286, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63d8eb78c3e3af4f91d4e161d8bb2df
+      internalID: 570439137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 17
+        width: 95
+        height: 120
+      alignment: 9
+      pivot: {x: 0.4, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614bd0fa24f0e5e4aa545a116f763b28
+      internalID: 1514844344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 17
+        width: 127
+        height: 122
+      alignment: 9
+      pivot: {x: 0.2952756, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c3600dbfb6c7d4e8fc1bb887831724
+      internalID: -1209862537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 17
+        width: 98
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2807f62b06769848bc799560ca2779d
+      internalID: -565190340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 19
+        width: 116
+        height: 122
+      alignment: 9
+      pivot: {x: 0.7198276, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ad642ebfa64bf4d8353a81556866d7
+      internalID: 1075913125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 17
+        width: 118
+        height: 121
+      alignment: 9
+      pivot: {x: 0.62711865, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f320c14e9aef74d9c8daad1c210392
+      internalID: 384111876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugui-v2-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 17
+        width: 114
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4649123, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8beb2b2985550104eb51b95438de4734
+      internalID: 1417304101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 437683b0a8653d44582670fea7c40d76
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bugui-animation-rgba-v2_0: 5308146453990607682
+      bugui-animation-rgba-v2_1: 2586062666009817492
+      bugui-animation-rgba-v2_10: -1190872899565424149
+      bugui-animation-rgba-v2_11: -3160730688262404765
+      bugui-animation-rgba-v2_12: 7556041900246207265
+      bugui-animation-rgba-v2_13: 9173543693188049217
+      bugui-animation-rgba-v2_14: 7419949157713151921
+      bugui-animation-rgba-v2_15: 5030399677348574983
+      bugui-animation-rgba-v2_16: 997147164892275291
+      bugui-animation-rgba-v2_17: -1283240469668799716
+      bugui-animation-rgba-v2_18: -6369320459322621151
+      bugui-animation-rgba-v2_19: 784097947364460253
+      bugui-animation-rgba-v2_2: -3765265404206596254
+      bugui-animation-rgba-v2_20: -7620352952055666478
+      bugui-animation-rgba-v2_21: -1315079553757227303
+      bugui-animation-rgba-v2_22: -4048207345058115254
+      bugui-animation-rgba-v2_23: -3935516870591019034
+      bugui-animation-rgba-v2_24: 7065046349057571207
+      bugui-animation-rgba-v2_25: -3149098178330082202
+      bugui-animation-rgba-v2_26: -7246688064428675154
+      bugui-animation-rgba-v2_27: 511537819569393215
+      bugui-animation-rgba-v2_28: -3481237973421265925
+      bugui-animation-rgba-v2_29: 5337446156284273718
+      bugui-animation-rgba-v2_3: -2398483347004251474
+      bugui-animation-rgba-v2_30: -2794973314697992810
+      bugui-animation-rgba-v2_31: 2697104062289737783
+      bugui-animation-rgba-v2_32: -6872902175767623924
+      bugui-animation-rgba-v2_33: -8038307729678602126
+      bugui-animation-rgba-v2_34: 2873993054494384975
+      bugui-animation-rgba-v2_35: -2181800414226242872
+      bugui-animation-rgba-v2_36: 2643215930083745617
+      bugui-animation-rgba-v2_37: 6375704618166489818
+      bugui-animation-rgba-v2_38: -9190705488646471109
+      bugui-animation-rgba-v2_39: -1304033181856881848
+      bugui-animation-rgba-v2_4: 1892729204679742615
+      bugui-animation-rgba-v2_40: 4223276975697794364
+      bugui-animation-rgba-v2_41: 3018429599208263418
+      bugui-animation-rgba-v2_42: -3850062407213128373
+      bugui-animation-rgba-v2_43: -5329668763938993119
+      bugui-animation-rgba-v2_44: 8802967408607098842
+      bugui-animation-rgba-v2_45: -7998235308546476677
+      bugui-animation-rgba-v2_46: -6749585076601077844
+      bugui-animation-rgba-v2_47: -7141644695451312286
+      bugui-animation-rgba-v2_48: 925395393651005966
+      bugui-animation-rgba-v2_49: -410431544478642293
+      bugui-animation-rgba-v2_5: 4053545542547941270
+      bugui-animation-rgba-v2_50: 5970180089104115188
+      bugui-animation-rgba-v2_51: -4885746957502418729
+      bugui-animation-rgba-v2_52: -6814600626193710616
+      bugui-animation-rgba-v2_53: -6664422100726846298
+      bugui-animation-rgba-v2_54: -2109306946302365107
+      bugui-animation-rgba-v2_55: 3062537786725344279
+      bugui-animation-rgba-v2_56: 1319372593961636524
+      bugui-animation-rgba-v2_57: 3511812007150362742
+      bugui-animation-rgba-v2_58: 492614541660387542
+      bugui-animation-rgba-v2_59: -6028232328540741958
+      bugui-animation-rgba-v2_6: -7363944476223485255
+      bugui-animation-rgba-v2_7: -3107559094099213595
+      bugui-animation-rgba-v2_8: -7059319732158460636
+      bugui-animation-rgba-v2_9: -3711390958851831082
+      bugui-v2-r00-f00: -783692906
+      bugui-v2-r00-f01: -2123566852
+      bugui-v2-r00-f02: -1059436627
+      bugui-v2-r00-f03: 107568686
+      bugui-v2-r00-f04: 827291414
+      bugui-v2-r00-f05: 567552811
+      bugui-v2-r00-f06: 1045152023
+      bugui-v2-r00-f07: 296462171
+      bugui-v2-r00-f08: -1468022118
+      bugui-v2-r00-f09: 935012209
+      bugui-v2-r00-f10: -2096547476
+      bugui-v2-r00-f11: -455675215
+      bugui-v2-r01-f00: 1367471335
+      bugui-v2-r01-f01: -1813085188
+      bugui-v2-r01-f02: -939343840
+      bugui-v2-r01-f03: -1970544815
+      bugui-v2-r01-f04: 2123734533
+      bugui-v2-r01-f05: -1461444253
+      bugui-v2-r01-f06: -932443663
+      bugui-v2-r01-f07: 515016107
+      bugui-v2-r01-f08: -678301413
+      bugui-v2-r01-f09: 1498464583
+      bugui-v2-r01-f10: -2058569246
+      bugui-v2-r01-f11: -1546861009
+      bugui-v2-r02-f00: -738425264
+      bugui-v2-r02-f01: -1829420188
+      bugui-v2-r02-f02: -1863890661
+      bugui-v2-r02-f03: 1645001544
+      bugui-v2-r02-f04: -1036855544
+      bugui-v2-r02-f05: -1923726832
+      bugui-v2-r02-f06: -1152693226
+      bugui-v2-r02-f07: -1847083991
+      bugui-v2-r02-f08: -231577289
+      bugui-v2-r02-f09: -1508303019
+      bugui-v2-r02-f10: 2024941753
+      bugui-v2-r02-f11: 147641198
+      bugui-v2-r03-f00: 382613780
+      bugui-v2-r03-f01: -1909873747
+      bugui-v2-r03-f02: -1930023680
+      bugui-v2-r03-f03: -1814112526
+      bugui-v2-r03-f04: -895264029
+      bugui-v2-r03-f05: 678702207
+      bugui-v2-r03-f06: 172147599
+      bugui-v2-r03-f07: -1662808301
+      bugui-v2-r03-f08: -1182678621
+      bugui-v2-r03-f09: -293258880
+      bugui-v2-r03-f10: -1900518609
+      bugui-v2-r03-f11: 1141604741
+      bugui-v2-r04-f00: -943604221
+      bugui-v2-r04-f01: 164672794
+      bugui-v2-r04-f02: -520542279
+      bugui-v2-r04-f03: 1797031336
+      bugui-v2-r04-f04: -1155935503
+      bugui-v2-r04-f05: 570439137
+      bugui-v2-r04-f06: 1514844344
+      bugui-v2-r04-f07: -1209862537
+      bugui-v2-r04-f08: -565190340
+      bugui-v2-r04-f09: 1075913125
+      bugui-v2-r04-f10: 384111876
+      bugui-v2-r04-f11: 1417304101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

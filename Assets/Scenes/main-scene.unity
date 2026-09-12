@@ -2733,7 +2733,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 9.6
+  orthographic size: 11.4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2758,7 +2758,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.9768, y: -0.7, z: -8.8427}
+  m_LocalPosition: {x: -0.9944, y: -0.45, z: -10}
   m_LocalScale: {x: 0.8843, y: 0.8843, z: 0.8843}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3259,40 +3259,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MonsterPouch.Gameplay.Board.BoardManager
   redMonsterDefaultSpawn: {x: 3, y: 4}
   blueMonsterDefaultSpawn: {x: 2, y: 5}
---- !u!114 &2000000001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014678594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e342792b4bce5de4d826f74e57edba18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MonsterPouch.Gameplay.Board.BoardWorldMapper
-  boardManager: {fileID: 1014678596}
-  boardOrigin: {fileID: 900031}
-  cellSize: {x: 1.3482901, y: -1.1645357}
-  boardOffset: {x: -3.3851199, y: 5.1307142}
---- !u!114 &2039611416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014678594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4b8e2f1a3c74e6b9f0d2a5c8e1b4f7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MonsterPouch.Gameplay.Board.BoardCellCenterDebugView
-  boardManager: {fileID: 1014678596}
-  worldMapper: {fileID: 2000000001}
-  showMarkers: 0
-  markerWorldSize: 0.1
-  markerSortingOrder: 19
-  markerColor: {r: 1, g: 1, b: 1, a: 0.65}
 --- !u!1 &1106171042
 GameObject:
   m_ObjectHideFlags: 0
@@ -3597,6 +3563,68 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1311884254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1311884257}
+  - component: {fileID: 1311884256}
+  - component: {fileID: 1311884255}
+  m_Layer: 0
+  m_Name: local-game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1311884255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311884254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3909f0d0cfdc98f4288737b0010ac91d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MonsterPouch.Local::MonsterPouch.Local.LocalGameUI
+  MoonIcon: {fileID: 21300000, guid: 5102f79e0e074e7b97b9bd70d4194b73, type: 3}
+  RerollIcon: {fileID: 21300000, guid: 07e51fef47644794b92028db1036292c, type: 3}
+  BriefArt: {fileID: 21300000, guid: 14d130f17bf04234ea02322082b1d785, type: 3}
+  BenchArt: {fileID: 21300000, guid: 5075ab6fd21c5f443b21d0bbd0d3d53f, type: 3}
+  ClosedBriefArt: {fileID: 64799808, guid: 820ad6957f9355e4bb855a10bf8c6da4, type: 3}
+--- !u!114 &1311884256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311884254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dcc42e1d994682468ad1e2c7a58c9c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Match.MatchController
+--- !u!4 &1311884257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311884254}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1318373526
 GameObject:
   m_ObjectHideFlags: 0
@@ -3629,33 +3657,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 113422291}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2000000002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1318373526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a18c40801513424d94d35e5f65b6a24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MonsterPouch.Gameplay.Board.PrototypeUnitSpawner
-  boardManager: {fileID: 1014678596}
-  worldMapper: {fileID: 2000000001}
-  unitsRoot: {fileID: 1318373527}
-  bugalooHeroSprite: {fileID: 8480814696381554301, guid: a07e50150bb83884e9dc0974521bbb70, type: 3}
-  popowHeroSprite: {fileID: 5773575346420894240, guid: 9b704c46df194be45ae3d7feabdf670b, type: 3}
-  dummyWhelpSprite: {fileID: 5787174906269829709, guid: 7235664f0558da043853fd211b0d338f, type: 3}
-  buguiWhelpSprite: {fileID: -519487869909017673, guid: 6a27deb94003b0e4a8c74c6d7ed8d3f9, type: 3}
-  bugalooHeroCell: {x: 2, y: 8}
-  popowHeroCell: {x: 3, y: 1}
-  dummyWhelpCell: {x: 1, y: 7}
-  buguiWhelpCell: {x: 4, y: 2}
-  heroScale: {x: 0.12, y: 0.12, z: 1}
-  whelpScale: {x: 0.1, y: 0.1, z: 1}
-  unitSortingOrder: 20
-  unitMaterialSource: {fileID: 900032}
 --- !u!1 &1419373498
 GameObject:
   m_ObjectHideFlags: 0
@@ -4191,6 +4192,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 113422291}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2000000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014678594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e342792b4bce5de4d826f74e57edba18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterPouch.Gameplay.Board.BoardWorldMapper
+  boardManager: {fileID: 1014678596}
+  boardOrigin: {fileID: 900031}
+  cellSize: {x: 1.2774138, y: -1.1745076}
+  boardOffset: {x: -3.215127, y: 5.160671}
+--- !u!114 &2000000002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318373526}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a18c40801513424d94d35e5f65b6a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterPouch.Gameplay.Board.PrototypeUnitSpawner
+  boardManager: {fileID: 1014678596}
+  worldMapper: {fileID: 2000000001}
+  unitsRoot: {fileID: 1318373527}
+  bugalooHeroSprite: {fileID: 8480814696381554301, guid: a07e50150bb83884e9dc0974521bbb70, type: 3}
+  popowHeroSprite: {fileID: 5773575346420894240, guid: 9b704c46df194be45ae3d7feabdf670b, type: 3}
+  dummyWhelpSprite: {fileID: 5787174906269829709, guid: 7235664f0558da043853fd211b0d338f, type: 3}
+  buguiWhelpSprite: {fileID: -519487869909017673, guid: 6a27deb94003b0e4a8c74c6d7ed8d3f9, type: 3}
+  bugalooHeroCell: {x: 2, y: 8}
+  popowHeroCell: {x: 3, y: 1}
+  dummyWhelpCell: {x: 1, y: 7}
+  buguiWhelpCell: {x: 4, y: 2}
+  heroScale: {x: 0.12, y: 0.12, z: 1}
+  whelpScale: {x: 0.1, y: 0.1, z: 1}
+  unitSortingOrder: 20
+  unitMaterialSource: {fileID: 900032}
 --- !u!1 &2039611413
 GameObject:
   m_ObjectHideFlags: 0
@@ -4282,6 +4326,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &2039611416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014678594}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b8e2f1a3c74e6b9f0d2a5c8e1b4f7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterPouch.Gameplay.Board.BoardCellCenterDebugView
+  boardManager: {fileID: 1014678596}
+  worldMapper: {fileID: 2000000001}
+  showMarkers: 0
+  markerWorldSize: 0.1
+  markerSortingOrder: 19
+  markerColor: {r: 1, g: 1, b: 1, a: 0.65}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4291,3 +4353,4 @@ SceneRoots:
   - {fileID: 900011}
   - {fileID: 800000010}
   - {fileID: 569325310}
+  - {fileID: 1311884257}

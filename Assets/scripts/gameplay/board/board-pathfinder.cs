@@ -7,6 +7,38 @@ namespace MonsterPouch.Gameplay.Board
         private static readonly int[] DirX = { 0, 1, 0, -1 };
         private static readonly int[] DirY = { 1, 0, -1, 0 };
 
+        /// <summary>
+        /// One traversal supplies distances to all possible attack positions. Combat uses
+        /// this for target selection, then calls the normal A* once for the selected route.
+        /// </summary>
+        internal static bool CalculateReachableDistances(BoardManager boardManager,
+            IBoardUnit unit, int[,] distances)
+        {
+            if (boardManager == null || unit == null || unit.CurrentCell == null ||
+                !IsManagedCell(boardManager, unit.CurrentCell) ||
+                !ReferenceEquals(unit.CurrentCell.OccupiedBy, unit) || distances == null ||
+                distances.GetLength(0) != BoardManager.Width || distances.GetLength(1) != BoardManager.Height)
+                return false;
+            for (int y = 0; y < BoardManager.Height; y++)
+                for (int x = 0; x < BoardManager.Width; x++) distances[x, y] = -1;
+            var queue = new BoardCell[BoardManager.Width * BoardManager.Height];
+            int head = 0, tail = 0;
+            queue[tail++] = unit.CurrentCell;
+            distances[unit.CurrentCell.X, unit.CurrentCell.Y] = 0;
+            while (head < tail)
+            {
+                BoardCell current = queue[head++];
+                for (int direction = 0; direction < 4; direction++)
+                {
+                    BoardCell next = boardManager.GetCell(current.X + DirX[direction], current.Y + DirY[direction]);
+                    if (next == null || distances[next.X, next.Y] >= 0 || !IsTraversable(next, unit)) continue;
+                    distances[next.X, next.Y] = distances[current.X, current.Y] + 1;
+                    queue[tail++] = next;
+                }
+            }
+            return true;
+        }
+
         public static bool TryFindPath(
             BoardManager boardManager,
             IBoardUnit unit,

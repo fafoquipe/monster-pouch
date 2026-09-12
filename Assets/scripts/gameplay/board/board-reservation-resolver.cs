@@ -297,25 +297,9 @@ namespace MonsterPouch.Gameplay.Board
             List<int> survivors,
             Dictionary<int, BoardReservationOutcome> groupOutcomes)
         {
-            BoardSide territorySide = destinationCell.Side;
-            var matching = new List<int>(survivors.Count);
-
-            foreach (int idx in survivors)
-            {
-                if (allIntents[idx].Unit.Side == territorySide)
-                    matching.Add(idx);
-            }
-
-            if (matching.Count == 0)
-                return survivors;
-
-            foreach (int idx in survivors)
-            {
-                if (allIntents[idx].Unit.Side != territorySide)
-                    groupOutcomes[idx] = BoardReservationOutcome.Rejected;
-            }
-
-            return matching;
+            // There is no defined geometric territory predicate in the recovered data.
+            // A side-colour match would invent a different rule; retain all tied units.
+            return survivors;
         }
 
         private static void ApplyWinner(

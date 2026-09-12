@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using MonsterPouch.Gameplay.Units;
+using MonsterPouch.Gameplay.Match;
 
 namespace MonsterPouch.Gameplay.Board
 {
@@ -101,6 +102,10 @@ namespace MonsterPouch.Gameplay.Board
             var candidates = new List<Candidate>();
             var evaluatedEnemies = new List<BattleUnit>();
             int shortestPathLength = int.MaxValue;
+            int lowestHealth = int.MaxValue;
+            var reachableDistances = new int[BoardManager.Width, BoardManager.Height];
+            if (!BoardPathfinder.CalculateReachableDistances(boardManager, actor, reachableDistances))
+                return CombatTargetSelection.NoTarget(actor);
 
             for (int i = 0; i < availableUnits.Count; i++)
             {
@@ -121,18 +126,23 @@ namespace MonsterPouch.Gameplay.Board
                         boardManager,
                         actor,
                         possibleTarget,
+                        reachableDistances,
                         out Candidate candidate))
                 {
                     continue;
                 }
 
-                if (candidate.PathLength < shortestPathLength)
+                bool lowHealthPolicy = actor.BaseStats.TargetPolicy == TargetPolicy.LowestHealth;
+                int score = lowHealthPolicy ? possibleTarget.CurrentHealth : candidate.PathLength;
+                int bestScore = lowHealthPolicy ? lowestHealth : shortestPathLength;
+                if (score < bestScore)
                 {
                     shortestPathLength = candidate.PathLength;
+                    lowestHealth = possibleTarget.CurrentHealth;
                     candidates.Clear();
                     candidates.Add(candidate);
                 }
-                else if (candidate.PathLength == shortestPathLength)
+                else if (score == bestScore)
                 {
                     candidates.Add(candidate);
                 }
@@ -147,11 +157,20 @@ namespace MonsterPouch.Gameplay.Board
                     ? CombatTargetSelectionStatus.ReadyToAttack
                     : CombatTargetSelectionStatus.MoveRequested;
 
+            BoardCell nextCell = null;
+            if (selected.PathLength > 0)
+            {
+                var path = new List<BoardCell>();
+                if (!BoardPathfinder.TryFindPath(boardManager, actor, actor.CurrentCell, selected.AttackCell, path) || path.Count == 0)
+                    return CombatTargetSelection.NoTarget(actor);
+                nextCell = path[0];
+            }
+
             return new CombatTargetSelection(
                 actor,
                 selected.Target,
                 selected.AttackCell,
-                selected.NextCell,
+                nextCell,
                 selected.PathLength,
                 status);
         }
@@ -160,6 +179,11 @@ namespace MonsterPouch.Gameplay.Board
             BoardCell actorCell,
             BoardCell targetCell)
         {
+            return IsInAttackRange(actorCell, targetCell, 1);
+        }
+
+        public static bool IsInAttackRange(BoardCell actorCell, BoardCell targetCell, int range)
+        {
             if (actorCell == null || targetCell == null)
                 return false;
 
@@ -167,8 +191,8 @@ namespace MonsterPouch.Gameplay.Board
             int deltaY = Abs(actorCell.Y - targetCell.Y);
 
             return (deltaX > 0 || deltaY > 0) &&
-                   deltaX <= 1 &&
-                   deltaY <= 1;
+                   deltaX <= range &&
+                   deltaY <= range;
         }
 
         internal static bool IsValidBoardPlacement(
@@ -178,6 +202,7 @@ namespace MonsterPouch.Gameplay.Board
             if (boardManager == null ||
                 unit == null ||
                 !unit.isActiveAndEnabled ||
+                !unit.IsAlive ||
                 unit.CurrentCell == null ||
                 !boardManager.IsManagedCell(unit.CurrentCell))
             {
@@ -191,11 +216,13 @@ namespace MonsterPouch.Gameplay.Board
             BoardManager boardManager,
             BattleUnit actor,
             BattleUnit target,
+            int[,] reachableDistances,
             out Candidate candidate)
         {
             candidate = null;
 
-            if (IsInBasicAttackRange(actor.CurrentCell, target.CurrentCell))
+            int range = actor.BaseStats.AttackRange;
+            if (IsInAttackRange(actor.CurrentCell, target.CurrentCell, range))
             {
                 candidate = new Candidate(
                     target,
@@ -208,37 +235,15 @@ namespace MonsterPouch.Gameplay.Board
             var shortestPositions = new List<AttackPosition>();
             int shortestPathLength = int.MaxValue;
 
-            for (int deltaY = -1; deltaY <= 1; deltaY++)
+            for (int y = 0; y < BoardManager.Height; y++)
             {
-                for (int deltaX = -1; deltaX <= 1; deltaX++)
+                for (int x = 0; x < BoardManager.Width; x++)
                 {
-                    if (deltaX == 0 && deltaY == 0)
-                        continue;
-
-                    BoardCell attackCell = boardManager.GetCell(
-                        target.CurrentCell.X + deltaX,
-                        target.CurrentCell.Y + deltaY);
-
-                    if (attackCell == null)
-                        continue;
-
-                    var path = new List<BoardCell>();
-
-                    if (!BoardPathfinder.TryFindPath(
-                            boardManager,
-                            actor,
-                            actor.CurrentCell,
-                            attackCell,
-                            path))
-                    {
-                        continue;
-                    }
-
-                    int pathLength = path.Count;
-                    BoardCell nextCell =
-                        pathLength > 0 ? path[0] : null;
+                    BoardCell attackCell = boardManager.GetCell(x, y);
+                    int pathLength = reachableDistances[x, y];
+                    if (pathLength < 0 || !IsInAttackRange(attackCell, target.CurrentCell, range)) continue;
                     var position =
-                        new AttackPosition(attackCell, nextCell, pathLength);
+                        new AttackPosition(attackCell, null, pathLength);
 
                     if (pathLength < shortestPathLength)
                     {

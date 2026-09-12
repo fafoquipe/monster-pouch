@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03bdaca34f6b11a40856baf102e8e0b6, type: 3}
+  m_Name: ProjectileArt
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Presentation.ProjectileArtCatalog
+  Projectiles:
+  - UnitId: anuik
+    Flight:
+    - {fileID: 1877167973, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -947211991, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -1577280361, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -1984287320, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    Impact:
+    - {fileID: 253169293, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 2075165635, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 2002679734, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 35885902, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    ReferencePixels: 198
+    DisplaySize: 46
+    OrientToTarget: 0
+  - UnitId: tauris
+    Flight:
+    - {fileID: 1428286432, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -1177076619, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -722082527, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 1676753795, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    Impact:
+    - {fileID: -634859204, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -1074333554, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 1188435455, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 451923616, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    ReferencePixels: 212
+    DisplaySize: 60
+    OrientToTarget: 1
+  - UnitId: stein
+    Flight:
+    - {fileID: 787229736, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 452205323, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -600062529, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 69966731, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    Impact:
+    - {fileID: -972451581, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -1854568561, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 298182521, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 873950257, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    ReferencePixels: 215
+    DisplaySize: 46
+    OrientToTarget: 1
+  - UnitId: bugui
+    Flight:
+    - {fileID: -96293890, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -523678036, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 654056824, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -227299851, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    Impact:
+    - {fileID: 716205065, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -1534739538, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: 1983026794, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    - {fileID: -1349739929, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+    ReferencePixels: 212
+    DisplaySize: 46
+    OrientToTarget: 1
+  - UnitId: kayon
+    Flight:
+    - {fileID: -564161114, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+    - {fileID: -234384584, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+    - {fileID: 425259190, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+    - {fileID: 931334028, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+    Impact:
+    - {fileID: 1221386014, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+    - {fileID: -143221939, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+    - {fileID: 664913977, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+    - {fileID: -912365225, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+    ReferencePixels: 237
+    DisplaySize: 34
+    OrientToTarget: 0

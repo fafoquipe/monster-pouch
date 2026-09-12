@@ -1,0 +1,4791 @@
+fileFormatVersion: 2
+guid: 8cdfdec56d0c13c4eb4f421e21bf211a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6746576997075457176
+    second: kayon-animation-rgba-v1_0
+  - first:
+      213: 6499098455545146532
+    second: kayon-animation-rgba-v1_1
+  - first:
+      213: 3207822303538455250
+    second: kayon-animation-rgba-v1_2
+  - first:
+      213: -2973553478583267695
+    second: kayon-animation-rgba-v1_3
+  - first:
+      213: 8536401125961364491
+    second: kayon-animation-rgba-v1_4
+  - first:
+      213: -1050284600857667474
+    second: kayon-animation-rgba-v1_5
+  - first:
+      213: -7197482585749001914
+    second: kayon-animation-rgba-v1_6
+  - first:
+      213: 5539709705345987936
+    second: kayon-animation-rgba-v1_7
+  - first:
+      213: 8842451327753093180
+    second: kayon-animation-rgba-v1_8
+  - first:
+      213: -5438107581073202190
+    second: kayon-animation-rgba-v1_9
+  - first:
+      213: -4250217853856553087
+    second: kayon-animation-rgba-v1_10
+  - first:
+      213: 2007056200665764320
+    second: kayon-animation-rgba-v1_11
+  - first:
+      213: -4624949302434778706
+    second: kayon-animation-rgba-v1_12
+  - first:
+      213: 6255157184475205929
+    second: kayon-animation-rgba-v1_13
+  - first:
+      213: 2425109865300591844
+    second: kayon-animation-rgba-v1_14
+  - first:
+      213: -168772658257182399
+    second: kayon-animation-rgba-v1_15
+  - first:
+      213: -1236597915858207069
+    second: kayon-animation-rgba-v1_16
+  - first:
+      213: 5903612168412569086
+    second: kayon-animation-rgba-v1_17
+  - first:
+      213: -2110697904137103692
+    second: kayon-animation-rgba-v1_18
+  - first:
+      213: -6419905811743769985
+    second: kayon-animation-rgba-v1_19
+  - first:
+      213: -8474871436235119233
+    second: kayon-animation-rgba-v1_20
+  - first:
+      213: -3507330925574674413
+    second: kayon-animation-rgba-v1_21
+  - first:
+      213: 4571985530258024651
+    second: kayon-animation-rgba-v1_22
+  - first:
+      213: -2883719735762825703
+    second: kayon-animation-rgba-v1_23
+  - first:
+      213: 9027099543180283430
+    second: kayon-animation-rgba-v1_24
+  - first:
+      213: -7804479878711762692
+    second: kayon-animation-rgba-v1_25
+  - first:
+      213: 1438169402340467027
+    second: kayon-animation-rgba-v1_26
+  - first:
+      213: -8298869509099346051
+    second: kayon-animation-rgba-v1_27
+  - first:
+      213: 6735091446578278514
+    second: kayon-animation-rgba-v1_28
+  - first:
+      213: -7568221056521635178
+    second: kayon-animation-rgba-v1_29
+  - first:
+      213: -3980125817722614504
+    second: kayon-animation-rgba-v1_30
+  - first:
+      213: 4033859168929803688
+    second: kayon-animation-rgba-v1_31
+  - first:
+      213: 7240550383632072240
+    second: kayon-animation-rgba-v1_32
+  - first:
+      213: 5784597117288836920
+    second: kayon-animation-rgba-v1_33
+  - first:
+      213: -2869706846954486910
+    second: kayon-animation-rgba-v1_34
+  - first:
+      213: 1219614879263807952
+    second: kayon-animation-rgba-v1_35
+  - first:
+      213: -2887246629973886880
+    second: kayon-animation-rgba-v1_36
+  - first:
+      213: -7721798727452075166
+    second: kayon-animation-rgba-v1_37
+  - first:
+      213: 719162875260282309
+    second: kayon-animation-rgba-v1_38
+  - first:
+      213: 1930389895645026910
+    second: kayon-animation-rgba-v1_39
+  - first:
+      213: -8029827711781531905
+    second: kayon-animation-rgba-v1_40
+  - first:
+      213: 3544495166185416628
+    second: kayon-animation-rgba-v1_41
+  - first:
+      213: 1904147136647689767
+    second: kayon-animation-rgba-v1_42
+  - first:
+      213: 5421121768201963806
+    second: kayon-animation-rgba-v1_43
+  - first:
+      213: 611711087725009926
+    second: kayon-animation-rgba-v1_44
+  - first:
+      213: 7612768577895292808
+    second: kayon-animation-rgba-v1_45
+  - first:
+      213: 6666720655103946312
+    second: kayon-animation-rgba-v1_46
+  - first:
+      213: 1664154131875334417
+    second: kayon-animation-rgba-v1_47
+  - first:
+      213: -2502219201307100452
+    second: kayon-animation-rgba-v1_48
+  - first:
+      213: -2379185814200345450
+    second: kayon-animation-rgba-v1_49
+  - first:
+      213: -2122349243409041115
+    second: kayon-animation-rgba-v1_50
+  - first:
+      213: -7630438511554095357
+    second: kayon-animation-rgba-v1_51
+  - first:
+      213: 3770848538168733271
+    second: kayon-animation-rgba-v1_52
+  - first:
+      213: 3746392538096889801
+    second: kayon-animation-rgba-v1_53
+  - first:
+      213: -1787805624958051818
+    second: kayon-animation-rgba-v1_54
+  - first:
+      213: 5027970428341440435
+    second: kayon-animation-rgba-v1_55
+  - first:
+      213: -2500839711707133770
+    second: kayon-animation-rgba-v1_56
+  - first:
+      213: 1386245086783590758
+    second: kayon-animation-rgba-v1_57
+  - first:
+      213: -7577846259702165942
+    second: kayon-animation-rgba-v1_58
+  - first:
+      213: -1021332169877946434
+    second: kayon-animation-rgba-v1_59
+  - first:
+      213: 295511731329378603
+    second: kayon-animation-rgba-v1_60
+  - first:
+      213: -6868863978678999018
+    second: kayon-animation-rgba-v1_61
+  - first:
+      213: -167781350323793785
+    second: kayon-animation-rgba-v1_62
+  - first:
+      213: -6896796528207104648
+    second: kayon-animation-rgba-v1_63
+  - first:
+      213: 1056267417883040586
+    second: kayon-animation-rgba-v1_64
+  - first:
+      213: -8923858493900611909
+    second: kayon-animation-rgba-v1_65
+  - first:
+      213: 2109938653759102921
+    second: kayon-animation-rgba-v1_66
+  - first:
+      213: 7731302850085313672
+    second: kayon-animation-rgba-v1_67
+  - first:
+      213: 3722178583045064250
+    second: kayon-animation-rgba-v1_68
+  - first:
+      213: -5846731532302076828
+    second: kayon-animation-rgba-v1_69
+  - first:
+      213: -3461471008658317548
+    second: kayon-animation-rgba-v1_70
+  - first:
+      213: -2416798721819311698
+    second: kayon-animation-rgba-v1_71
+  - first:
+      213: 7438519805048578730
+    second: kayon-animation-rgba-v1_72
+  - first:
+      213: 6649530901449315828
+    second: kayon-animation-rgba-v1_73
+  - first:
+      213: 1489832129015540063
+    second: kayon-animation-rgba-v1_74
+  - first:
+      213: 449787195383571547
+    second: kayon-animation-rgba-v1_75
+  - first:
+      213: -7385165004606035467
+    second: kayon-animation-rgba-v1_76
+  - first:
+      213: -8828533476410770227
+    second: kayon-animation-rgba-v1_77
+  - first:
+      213: -6674167133882202093
+    second: kayon-animation-rgba-v1_78
+  - first:
+      213: 6254129466397845210
+    second: kayon-animation-rgba-v1_79
+  - first:
+      213: 5661712281336128622
+    second: kayon-animation-rgba-v1_80
+  - first:
+      213: 7280480965913197807
+    second: kayon-animation-rgba-v1_81
+  - first:
+      213: 8254667773992620516
+    second: kayon-animation-rgba-v1_82
+  - first:
+      213: -3836713898809111638
+    second: kayon-animation-rgba-v1_83
+  - first:
+      213: -1039062025104834003
+    second: kayon-animation-rgba-v1_84
+  - first:
+      213: -7732192287977052466
+    second: kayon-animation-rgba-v1_85
+  - first:
+      213: 3427454274264831290
+    second: kayon-animation-rgba-v1_86
+  - first:
+      213: 5999516331324616880
+    second: kayon-animation-rgba-v1_87
+  - first:
+      213: -908822624258558940
+    second: kayon-animation-rgba-v1_88
+  - first:
+      213: 1996009836328948286
+    second: kayon-animation-rgba-v1_89
+  - first:
+      213: -3139951190092066043
+    second: kayon-animation-rgba-v1_90
+  - first:
+      213: -5661230899259565549
+    second: kayon-animation-rgba-v1_91
+  - first:
+      213: 8576344794720796325
+    second: kayon-animation-rgba-v1_92
+  - first:
+      213: 6626689387555010488
+    second: kayon-animation-rgba-v1_93
+  - first:
+      213: 4057658155628630094
+    second: kayon-animation-rgba-v1_94
+  - first:
+      213: 8948193786284934302
+    second: kayon-animation-rgba-v1_95
+  - first:
+      213: -8467882852934070194
+    second: kayon-animation-rgba-v1_96
+  - first:
+      213: 989246712117554442
+    second: kayon-animation-rgba-v1_97
+  - first:
+      213: 190535571505472429
+    second: kayon-animation-rgba-v1_98
+  - first:
+      213: -3954469895703210783
+    second: kayon-animation-rgba-v1_99
+  - first:
+      213: 7215501402376499064
+    second: kayon-animation-rgba-v1_100
+  - first:
+      213: 3570448385770501756
+    second: kayon-animation-rgba-v1_101
+  - first:
+      213: 9150014359373785836
+    second: kayon-animation-rgba-v1_102
+  - first:
+      213: -856058893416327316
+    second: kayon-animation-rgba-v1_103
+  - first:
+      213: -7518990878132843614
+    second: kayon-animation-rgba-v1_104
+  - first:
+      213: -1465100857899538524
+    second: kayon-animation-rgba-v1_105
+  - first:
+      213: 7283214820962777715
+    second: kayon-animation-rgba-v1_106
+  - first:
+      213: 444981040268644269
+    second: kayon-animation-rgba-v1_107
+  - first:
+      213: 2856445572943226164
+    second: kayon-animation-rgba-v1_108
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 595
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bee7f47f75f52a0800000000000000
+      internalID: -6746576997075457176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 595
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acee039c9f613a50800000000000000
+      internalID: 6499098455545146532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 595
+        width: 107
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d22cf8a369748c20800000000000000
+      internalID: 3207822303538455250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 595
+        width: 107
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19eca64add0dbb6d0800000000000000
+      internalID: -2973553478583267695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 595
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04fb25a893677670800000000000000
+      internalID: 8536401125961364491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_5
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 595
+        width: 106
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68d0dc58b3ac61f0800000000000000
+      internalID: -1050284600857667474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_6
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 595
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649ee5fd8b76d1c90800000000000000
+      internalID: -7197482585749001914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_7
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 596
+        width: 109
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0657ee950a001ec40800000000000000
+      internalID: 5539709705345987936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_8
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 596
+        width: 95
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30876e12a2b6ba70800000000000000
+      internalID: 8842451327753093180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_9
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 596
+        width: 107
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3e5c3a7f5f784b0800000000000000
+      internalID: -5438107581073202190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_10
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 595
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1876bda61613405c0800000000000000
+      internalID: -4250217853856553087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_11
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 595
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e19dec0bfe7adb10800000000000000
+      internalID: 2007056200665764320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_12
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 697
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea13f2c0d11e0dfb0800000000000000
+      internalID: -4624949302434778706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_13
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 683
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92190ea6158cec650800000000000000
+      internalID: 6255157184475205929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_14
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 687
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4898ed298b7a120800000000000000
+      internalID: 2425109865300591844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_15
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 678
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14148c8592668adf0800000000000000
+      internalID: -168772658257182399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_16
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 697
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae784f4fb8b6dee0800000000000000
+      internalID: -1236597915858207069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_17
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 698
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd97ed0df7dde150800000000000000
+      internalID: 5903612168412569086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_18
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 597
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b61fbb607b45b2e0800000000000000
+      internalID: -2110697904137103692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_19
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 678
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7afb87ada9e7e6a0800000000000000
+      internalID: -6419905811743769985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_20
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 682
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75e91e9455336a80800000000000000
+      internalID: -8474871436235119233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_21
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 595
+        width: 115
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31821671b15735fc0800000000000000
+      internalID: -3507330925574674413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_22
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 595
+        width: 117
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc86149cd94f27f30800000000000000
+      internalID: 4571985530258024651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_23
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 670
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ec21ecd28faf7d0800000000000000
+      internalID: -2883719735762825703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_24
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 595
+        width: 124
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e0a57f433b64d70800000000000000
+      internalID: 9027099543180283430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 459
+        width: 101
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0a3b476eae0b390800000000000000
+      internalID: -7804479878711762692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_26
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 459
+        width: 101
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351e651a37765f310800000000000000
+      internalID: 1438169402340467027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_27
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 460
+        width: 103
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7720d8962e74dc80800000000000000
+      internalID: -8298869509099346051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_28
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 459
+        width: 102
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270f1139cf9d77d50800000000000000
+      internalID: 6735091446578278514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_29
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 460
+        width: 105
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a75681c0748f690800000000000000
+      internalID: -7568221056521635178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_30
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 459
+        width: 105
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d484908a0c3c8c0800000000000000
+      internalID: -3980125817722614504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_31
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 459
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad6306ba852bf730800000000000000
+      internalID: 4033859168929803688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_32
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 460
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e35ba363a9b7460800000000000000
+      internalID: 7240550383632072240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_33
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 460
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fefb81e64074050800000000000000
+      internalID: 5784597117288836920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_34
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 460
+        width: 103
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28385c9b3d0cc28d0800000000000000
+      internalID: -2869706846954486910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_35
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 460
+        width: 99
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9dc495541fce010800000000000000
+      internalID: 1219614879263807952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_36
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 459
+        width: 96
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0687671cc707ee7d0800000000000000
+      internalID: -2887246629973886880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_37
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 461
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bd72f18f8a6d490800000000000000
+      internalID: -7721798727452075166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_38
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 540
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5a98323dafaf900800000000000000
+      internalID: 719162875260282309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_39
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 558
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5adce7e16f1aca10800000000000000
+      internalID: 1930389895645026910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_40
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 532
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe8caf6d32509090800000000000000
+      internalID: -8029827711781531905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_41
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 547
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b72298f293903130800000000000000
+      internalID: 3544495166185416628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_42
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 541
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72676ff6bb3ec6a10800000000000000
+      internalID: 1904147136647689767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_43
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 459
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19c0dd9681bb3b40800000000000000
+      internalID: 5421121768201963806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_44
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 460
+        width: 114
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c54094efb3d7800800000000000000
+      internalID: 611711087725009926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_45
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 460
+        width: 123
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f54baffacf5a960800000000000000
+      internalID: 7612768577895292808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_46
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 319
+        width: 93
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84eea303d13f48c50800000000000000
+      internalID: 6666720655103946312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_47
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 319
+        width: 94
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1198de9ad53481710800000000000000
+      internalID: 1664154131875334417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_48
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 319
+        width: 95
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdabdebc4e4564dd0800000000000000
+      internalID: -2502219201307100452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_49
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 319
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c90f18b1f6bfed0800000000000000
+      internalID: -2379185814200345450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_50
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 319
+        width: 94
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529f8499b96eb82e0800000000000000
+      internalID: -2122349243409041115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_51
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 319
+        width: 94
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3079b5ef99c3b1690800000000000000
+      internalID: -7630438511554095357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_52
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 319
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e295344ceb45430800000000000000
+      internalID: 3770848538168733271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_53
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 320
+        width: 106
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf60760a2cddf330800000000000000
+      internalID: 3746392538096889801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_54
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 319
+        width: 107
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a1eec91407037e0800000000000000
+      internalID: -1787805624958051818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_55
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 319
+        width: 107
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfc57a1770f6c540800000000000000
+      internalID: 5027970428341440435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_56
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 319
+        width: 94
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8818f388b3b4dd0800000000000000
+      internalID: -2500839711707133770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_57
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 319
+        width: 94
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661dd51df8eec3310800000000000000
+      internalID: 1386245086783590758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_58
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 321
+        width: 93
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e0ee7d9f416d690800000000000000
+      internalID: -7577846259702165942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_59
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 419
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebffeb08dcf73d1f0800000000000000
+      internalID: -1021332169877946434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_60
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 406
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2929dc9a5ed91400800000000000000
+      internalID: 295511731329378603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_61
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 402
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618ac5caa94eca0a0800000000000000
+      internalID: -6868863978678999018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_62
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 418
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780d30630cbebadf0800000000000000
+      internalID: -167781350323793785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_63
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 408
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87571103918a940a0800000000000000
+      internalID: -6896796528207104648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_64
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 401
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bdcb6ce9d98ae00800000000000000
+      internalID: 1056267417883040586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_65
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 319
+        width: 100
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe933dfaf5182480800000000000000
+      internalID: -8923858493900611909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_66
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 393
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf5d23d602084d10800000000000000
+      internalID: 2109938653759102921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_67
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 319
+        width: 104
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cdc4edafa1b4b60800000000000000
+      internalID: 7731302850085313672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_68
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 320
+        width: 124
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36c7f843b5d7a330800000000000000
+      internalID: 3722178583045064250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_69
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 179
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4643f0016ac3cdea0800000000000000
+      internalID: -5846731532302076828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_70
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 179
+        width: 99
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f9b90157266ffc0800000000000000
+      internalID: -3461471008658317548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_71
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 179
+        width: 98
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea187540e5ec57ed0800000000000000
+      internalID: -2416798721819311698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_72
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 179
+        width: 95
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2e0aa0a5eea3760800000000000000
+      internalID: 7438519805048578730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_73
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 179
+        width: 96
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f59ed7cf11e74c50800000000000000
+      internalID: 6649530901449315828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_74
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 179
+        width: 99
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f596fe88d62fca410800000000000000
+      internalID: 1489832129015540063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_75
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 179
+        width: 98
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b546b553217fd3600800000000000000
+      internalID: 449787195383571547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_76
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 181
+        width: 105
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9afcc7e8f928990800000000000000
+      internalID: -7385165004606035467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_77
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 179
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc34ea249fba7580800000000000000
+      internalID: -8828533476410770227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_78
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 179
+        width: 118
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3184d5d5a589063a0800000000000000
+      internalID: -6674167133882202093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_79
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 179
+        width: 107
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad662f72d912bc650800000000000000
+      internalID: 6254129466397845210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_80
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 179
+        width: 104
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64a185a251729e40800000000000000
+      internalID: 5661712281336128622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_81
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 181
+        width: 111
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecbf376dd6790560800000000000000
+      internalID: 7280480965913197807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_82
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 280
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1d1b7fa987e8270800000000000000
+      internalID: 8254667773992620516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_83
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 262
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabcdac690141cac0800000000000000
+      internalID: -3836713898809111638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_84
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 280
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d224706e7928491f0800000000000000
+      internalID: -1039062025104834003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_85
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 179
+        width: 119
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6ec1cb41cb1b490800000000000000
+      internalID: -7732192287977052466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_86
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 267
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a351375c083c09f20800000000000000
+      internalID: 3427454274264831290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_87
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 265
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b032c80150924350800000000000000
+      internalID: 5999516331324616880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_88
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 179
+        width: 124
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424fa3d63a63363f0800000000000000
+      internalID: -908822624258558940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_89
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 252
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32929eee5043bb10800000000000000
+      internalID: 1996009836328948286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_90
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 179
+        width: 125
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5035f7e5707ac64d0800000000000000
+      internalID: -3139951190092066043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_91
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 33
+        width: 107
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a1b2add744f61b0800000000000000
+      internalID: -5661230899259565549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_92
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 33
+        width: 108
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae7a90c62c450770800000000000000
+      internalID: 8576344794720796325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_93
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 32
+        width: 109
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7311663eab6fb50800000000000000
+      internalID: 6626689387555010488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_94
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 32
+        width: 108
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40163a1892bf4830800000000000000
+      internalID: 4057658155628630094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_95
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 32
+        width: 107
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e940fdcc6de5e2c70800000000000000
+      internalID: 8948193786284934302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_96
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 32
+        width: 108
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e405e37f8690c7a80800000000000000
+      internalID: -8467882852934070194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_97
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 32
+        width: 108
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d6df6b4a28abd00800000000000000
+      internalID: 989246712117554442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_98
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 33
+        width: 111
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3e8a0c71be4a200800000000000000
+      internalID: 190535571505472429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_99
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 33
+        width: 106
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e452afd496ee19c0800000000000000
+      internalID: -3954469895703210783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_100
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 33
+        width: 113
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87febfccb4c922460800000000000000
+      internalID: 7215501402376499064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_101
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 33
+        width: 107
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76b7bac3e7cc8130800000000000000
+      internalID: 3570448385770501756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_102
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 33
+        width: 107
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaa23cb4916bfe70800000000000000
+      internalID: 9150014359373785836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_103
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 34
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c671b17d8faae14f0800000000000000
+      internalID: -856058893416327316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_104
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 34
+        width: 116
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab4d7732ad27a790800000000000000
+      internalID: -7518990878132843614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_105
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 34
+        width: 117
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a727cc388aeaabe0800000000000000
+      internalID: -1465100857899538524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_106
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 122
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ab852aa4d231560800000000000000
+      internalID: 7283214820962777715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_107
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf0ff406e3ec2600800000000000000
+      internalID: 444981040268644269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-animation-rgba-v1_108
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 34
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435a48f4d1224a720800000000000000
+      internalID: 2856445572943226164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 594
+        width: 112
+        height: 110
+      alignment: 9
+      pivot: {x: 0.39732143, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becffc3ba570ae04bacb5b0fe6f0fff1
+      internalID: 1924062396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 594
+        width: 111
+        height: 110
+      alignment: 9
+      pivot: {x: 0.3963964, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124a1ddf5acc63342bfc9200868465f8
+      internalID: 390785530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 594
+        width: 109
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4266055, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d78208002a93f43bfa1af4d59c6db3
+      internalID: 879226652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 594
+        width: 109
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4266055, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67e8c1d311b1d54dbacb31df50b08a9
+      internalID: 388007862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 594
+        width: 110
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4227273, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fef80917185c8544a98c9634a565d66
+      internalID: 1060207219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 594
+        width: 108
+        height: 113
+      alignment: 9
+      pivot: {x: 0.42592594, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3b5cb03d2816d429624de0773ef1d7
+      internalID: 310168862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 594
+        width: 111
+        height: 112
+      alignment: 9
+      pivot: {x: 0.43243244, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f90173042ec514186e8fa96080eaa5
+      internalID: 641213580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 595
+        width: 111
+        height: 107
+      alignment: 9
+      pivot: {x: 0.36036035, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de28340d5980c94f8d9355081e176d2
+      internalID: -2089523402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 595
+        width: 97
+        height: 108
+      alignment: 9
+      pivot: {x: 0.48969072, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254d2d4bd9ef3f84f8bed3b5c7d7bff1
+      internalID: -1799208696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 595
+        width: 109
+        height: 113
+      alignment: 9
+      pivot: {x: 0.4266055, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f23b001fc543e48873fb0697ec3755
+      internalID: -1009831122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 594
+        width: 106
+        height: 114
+      alignment: 9
+      pivot: {x: 0.45754716, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192c13b437ab6264c81ddc6e4c7aca68
+      internalID: -775352234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 594
+        width: 111
+        height: 114
+      alignment: 9
+      pivot: {x: 0.3963964, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3757cf7022b395743abd6d3f9082224d
+      internalID: -484627549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f12
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 596
+        width: 114
+        height: 98
+      alignment: 9
+      pivot: {x: 0.4473684, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a174fbe9df02f1f46b79f8bc791bbbf6
+      internalID: -71407930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f13
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 594
+        width: 117
+        height: 85
+      alignment: 9
+      pivot: {x: 0.45299146, y: 0.03529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cbf8f5d6e39384ea8878e809d274fa
+      internalID: 996669997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f14
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 594
+        width: 119
+        height: 116
+      alignment: 9
+      pivot: {x: 0.48319328, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02b52f9a0aea8a4abaa6ee3d34c11a0
+      internalID: -1854893950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r00-f15
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 594
+        width: 126
+        height: 71
+      alignment: 9
+      pivot: {x: 0.50396824, y: 0.04225352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff72e2947f18ca478a71cd5f15b252d
+      internalID: -1589920691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 458
+        width: 103
+        height: 112
+      alignment: 9
+      pivot: {x: 0.41747573, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a30cde4444d674f97b56e12d9c9a31
+      internalID: 687106786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 458
+        width: 103
+        height: 112
+      alignment: 9
+      pivot: {x: 0.43203884, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2c028e8de3c084b9086626040595de
+      internalID: -1481358512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 459
+        width: 105
+        height: 112
+      alignment: 9
+      pivot: {x: 0.42380953, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13e0f3f925bb2b43b4075149fbe3d57
+      internalID: -238975948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 458
+        width: 104
+        height: 113
+      alignment: 9
+      pivot: {x: 0.40865386, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951405572d688e944aace0d81c36544b
+      internalID: 648807106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 459
+        width: 107
+        height: 112
+      alignment: 9
+      pivot: {x: 0.39719626, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ac9423749b1dd459d49d753345dbbf
+      internalID: 1189674177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 458
+        width: 107
+        height: 113
+      alignment: 9
+      pivot: {x: 0.40654206, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eb550f6a14a774e82d8de1b831eb56
+      internalID: 1180795824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 458
+        width: 110
+        height: 113
+      alignment: 9
+      pivot: {x: 0.4181818, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba9ed0dbe8e4b7478bb0481ce8f327f
+      internalID: -1701460486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 459
+        width: 110
+        height: 110
+      alignment: 9
+      pivot: {x: 0.36363637, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2420029260cb7ce48b487a4675d1c7c6
+      internalID: -344934317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 459
+        width: 114
+        height: 110
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0cd5eeb8174104baff6171bb9878eb
+      internalID: 649404021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 459
+        width: 105
+        height: 112
+      alignment: 9
+      pivot: {x: 0.42380953, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6029f193e5f38694eba9b9dae36d7ece
+      internalID: 754685608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 459
+        width: 101
+        height: 113
+      alignment: 9
+      pivot: {x: 0.48514852, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b2f1977e557684cb87857ebaa399c0
+      internalID: 345672743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 458
+        width: 98
+        height: 113
+      alignment: 9
+      pivot: {x: 0.40816328, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d088ab73853c548aaaf5e38fdf65e7
+      internalID: -1890591454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f12
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 460
+        width: 110
+        height: 104
+      alignment: 9
+      pivot: {x: 0.43636364, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f0f9e1d5633ff4c8cb401799a6f55a
+      internalID: -2109290503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f13
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 458
+        width: 114
+        height: 86
+      alignment: 9
+      pivot: {x: 0.45614034, y: 0.034883723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab67c7a415b99747b743d00f0c96bd7
+      internalID: 1168818364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f14
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 459
+        width: 116
+        height: 107
+      alignment: 9
+      pivot: {x: 0.48706895, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29e77ae16d79724e9afb928aed7fbe4
+      internalID: -1275969314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r01-f15
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 459
+        width: 125
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abb49792025b4245b2361eeb18d7002
+      internalID: -1949808040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 318
+        width: 95
+        height: 113
+      alignment: 9
+      pivot: {x: 0.4368421, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488cbc7994aa17e44aebaeae024aba9d
+      internalID: 1648696441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 318
+        width: 96
+        height: 113
+      alignment: 9
+      pivot: {x: 0.42708334, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f92e5aefcc65f249b2a8188ab89ae16
+      internalID: -1557625691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 318
+        width: 97
+        height: 114
+      alignment: 9
+      pivot: {x: 0.42783505, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20fb63f401d5624d85657364971e6eb
+      internalID: 1922087493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 318
+        width: 98
+        height: 115
+      alignment: 9
+      pivot: {x: 0.39795917, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d74e4876f22dc44a94e5ef4a6240ef
+      internalID: -2145629536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 318
+        width: 96
+        height: 114
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f776dd4370f79545b077224e2f39f1c
+      internalID: -1347781208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 318
+        width: 96
+        height: 114
+      alignment: 9
+      pivot: {x: 0.43229166, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54297cdfeafe6b24d9a3d51619285f7a
+      internalID: -1860334985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 318
+        width: 98
+        height: 114
+      alignment: 9
+      pivot: {x: 0.40816328, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577011e9982e5e347ac38dd7cf220664
+      internalID: -1732346545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 319
+        width: 108
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbdc786d9b8e7040affbfaeb7f5f73b
+      internalID: 669996994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 318
+        width: 109
+        height: 113
+      alignment: 9
+      pivot: {x: 0.4174312, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ec0b7fcdda21042bb53e0aff387d59
+      internalID: 1389752997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 318
+        width: 109
+        height: 115
+      alignment: 9
+      pivot: {x: 0.4174312, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d998da01dbf4234a961e7ed4afbe334
+      internalID: -63004895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 318
+        width: 96
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a0aff6f7ed6d946b9d48f969f1067c
+      internalID: 639546080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 318
+        width: 96
+        height: 113
+      alignment: 9
+      pivot: {x: 0.42708334, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de00e6eae0aea8b4bb2e8600a771c60f
+      internalID: 905550874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f12
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 320
+        width: 95
+        height: 104
+      alignment: 9
+      pivot: {x: 0.39473686, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7e0a5bfac35ed4997d089982a84139
+      internalID: -1482112290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f13
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 318
+        width: 102
+        height: 84
+      alignment: 9
+      pivot: {x: 0.50980395, y: 0.035714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6d42547ac2c6849bffec0198c4be35
+      internalID: -395969574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f14
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 318
+        width: 108
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4661f3eba37d24b8ef3f198f2802a8
+      internalID: 1237918181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r02-f15
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 319
+        width: 126
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04109589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3953d04d78cce8049b3053b109c1730f
+      internalID: 1250584421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 178
+        width: 98
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5969388, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca6c8a5324dc624d8e8cd89ec81268a
+      internalID: -736866799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 178
+        width: 101
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5891089, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d3412725c732b4d9121ecfac273629
+      internalID: 1467566352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 178
+        width: 100
+        height: 116
+      alignment: 9
+      pivot: {x: 0.575, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2928a0259602da14cad3bb2e09ab9d9e
+      internalID: -113049441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 178
+        width: 97
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5979381, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf74d2a92bfd164dae6da5f37a6a114
+      internalID: 1825515775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 178
+        width: 98
+        height: 117
+      alignment: 9
+      pivot: {x: 0.56632656, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf61d78479c81e499e6d76ebe7eb9a3
+      internalID: -2107981009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 178
+        width: 101
+        height: 116
+      alignment: 9
+      pivot: {x: 0.57425743, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f0e36c28aeb8a4b87dbdf86a6c5a2b
+      internalID: 91713035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 178
+        width: 100
+        height: 116
+      alignment: 9
+      pivot: {x: 0.56, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f058eadfabc885b47b10da1539da0cd3
+      internalID: 246239481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 180
+        width: 107
+        height: 113
+      alignment: 9
+      pivot: {x: 0.56542057, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444e66f355c449349b02572601cf7f49
+      internalID: 2053360020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 178
+        width: 107
+        height: 115
+      alignment: 9
+      pivot: {x: 0.4813084, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfd6dfdb2a2cff41addb2a885effd5c
+      internalID: -1723438315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 178
+        width: 120
+        height: 117
+      alignment: 9
+      pivot: {x: 0.40833333, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa96c9a2f6d4024bac72287ebf5ddc3
+      internalID: 1379074439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 178
+        width: 109
+        height: 117
+      alignment: 9
+      pivot: {x: 0.60091746, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7938de7b7b87c344595f8228dc4d5e66
+      internalID: -424016280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 178
+        width: 106
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5990566, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c3612cdd91fa24cb25e76b0b155cf2
+      internalID: -949760709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f12
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 180
+        width: 113
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5973451, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce9bf24147f79b4c88eb6cbaf807aca
+      internalID: -153827329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f13
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 178
+        width: 121
+        height: 92
+      alignment: 9
+      pivot: {x: 0.57024795, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7266d0f11460f9d488f068054733705b
+      internalID: 1485896774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f14
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 178
+        width: 126
+        height: 113
+      alignment: 9
+      pivot: {x: 0.50793654, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a56562338030d48872f0ada8c2a3ac
+      internalID: -829243453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r03-f15
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 178
+        width: 127
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ce9f14ec461314d83be1e6e4914159
+      internalID: -857829610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 109
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5825688, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b228a350ccf4ca048bdd7aa28f301840
+      internalID: 402573643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 32
+        width: 110
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5954546, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13273fdbd48239e4e82f2ae841bf20e2
+      internalID: -998565518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 31
+        width: 111
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5720721, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abafda246ab7d9e4c8b763b8094e18cb
+      internalID: -991315656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 31
+        width: 110
+        height: 118
+      alignment: 9
+      pivot: {x: 0.6045455, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8d3defaa1431c4e8e98d00cbd509c6
+      internalID: -974034449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 31
+        width: 109
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5963303, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a594e0c817113964cba7c6bedcbe0881
+      internalID: -1437853902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 31
+        width: 110
+        height: 117
+      alignment: 9
+      pivot: {x: 0.6045455, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5329e54eaf2135d428e50d478c55f5bf
+      internalID: 2032154785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 31
+        width: 110
+        height: 117
+      alignment: 9
+      pivot: {x: 0.6136364, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dd82191fe362746abfa0318f22d3a5
+      internalID: 1451206108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 32
+        width: 113
+        height: 116
+      alignment: 9
+      pivot: {x: 0.57522124, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380b10dfe2d21684daf940bed8d88d2a
+      internalID: -109272587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 32
+        width: 108
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5601852, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7158ac0d615c6ab45bad7dd582f9040b
+      internalID: 1408298388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 32
+        width: 115
+        height: 116
+      alignment: 9
+      pivot: {x: 0.4173913, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87402af26eabfe4dad0a66853ae0782
+      internalID: -839616459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 32
+        width: 109
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5733945, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cc24191e17ac9449642332c7a4c4c6
+      internalID: 2045344561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 32
+        width: 109
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5825688, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dab841d086eea24dae503522ba7c3e3
+      internalID: -1149995672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f12
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 33
+        width: 111
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5900901, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df905cdf21df2c48971864cae7b894e
+      internalID: 464056261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f13
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 33
+        width: 118
+        height: 96
+      alignment: 9
+      pivot: {x: 0.58474576, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c9aca03fac88841a3cf96f0209a1bd
+      internalID: -1334344251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f14
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 33
+        width: 119
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5546219, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4fcd08d11147a4cbcdde84a59d2c1c
+      internalID: 1366344824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayon-approved-r04-f15
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 33
+        width: 126
+        height: 81
+      alignment: 9
+      pivot: {x: 0.50396824, y: 0.037037037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2d5d63b19877e46a6634ee4ad76a97
+      internalID: -452641227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 02de7990fafbdec449929a343f3c35a4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kayon-animation-rgba-v1_0: -6746576997075457176
+      kayon-animation-rgba-v1_1: 6499098455545146532
+      kayon-animation-rgba-v1_10: -4250217853856553087
+      kayon-animation-rgba-v1_100: 7215501402376499064
+      kayon-animation-rgba-v1_101: 3570448385770501756
+      kayon-animation-rgba-v1_102: 9150014359373785836
+      kayon-animation-rgba-v1_103: -856058893416327316
+      kayon-animation-rgba-v1_104: -7518990878132843614
+      kayon-animation-rgba-v1_105: -1465100857899538524
+      kayon-animation-rgba-v1_106: 7283214820962777715
+      kayon-animation-rgba-v1_107: 444981040268644269
+      kayon-animation-rgba-v1_108: 2856445572943226164
+      kayon-animation-rgba-v1_11: 2007056200665764320
+      kayon-animation-rgba-v1_12: -4624949302434778706
+      kayon-animation-rgba-v1_13: 6255157184475205929
+      kayon-animation-rgba-v1_14: 2425109865300591844
+      kayon-animation-rgba-v1_15: -168772658257182399
+      kayon-animation-rgba-v1_16: -1236597915858207069
+      kayon-animation-rgba-v1_17: 5903612168412569086
+      kayon-animation-rgba-v1_18: -2110697904137103692
+      kayon-animation-rgba-v1_19: -6419905811743769985
+      kayon-animation-rgba-v1_2: 3207822303538455250
+      kayon-animation-rgba-v1_20: -8474871436235119233
+      kayon-animation-rgba-v1_21: -3507330925574674413
+      kayon-animation-rgba-v1_22: 4571985530258024651
+      kayon-animation-rgba-v1_23: -2883719735762825703
+      kayon-animation-rgba-v1_24: 9027099543180283430
+      kayon-animation-rgba-v1_25: -7804479878711762692
+      kayon-animation-rgba-v1_26: 1438169402340467027
+      kayon-animation-rgba-v1_27: -8298869509099346051
+      kayon-animation-rgba-v1_28: 6735091446578278514
+      kayon-animation-rgba-v1_29: -7568221056521635178
+      kayon-animation-rgba-v1_3: -2973553478583267695
+      kayon-animation-rgba-v1_30: -3980125817722614504
+      kayon-animation-rgba-v1_31: 4033859168929803688
+      kayon-animation-rgba-v1_32: 7240550383632072240
+      kayon-animation-rgba-v1_33: 5784597117288836920
+      kayon-animation-rgba-v1_34: -2869706846954486910
+      kayon-animation-rgba-v1_35: 1219614879263807952
+      kayon-animation-rgba-v1_36: -2887246629973886880
+      kayon-animation-rgba-v1_37: -7721798727452075166
+      kayon-animation-rgba-v1_38: 719162875260282309
+      kayon-animation-rgba-v1_39: 1930389895645026910
+      kayon-animation-rgba-v1_4: 8536401125961364491
+      kayon-animation-rgba-v1_40: -8029827711781531905
+      kayon-animation-rgba-v1_41: 3544495166185416628
+      kayon-animation-rgba-v1_42: 1904147136647689767
+      kayon-animation-rgba-v1_43: 5421121768201963806
+      kayon-animation-rgba-v1_44: 611711087725009926
+      kayon-animation-rgba-v1_45: 7612768577895292808
+      kayon-animation-rgba-v1_46: 6666720655103946312
+      kayon-animation-rgba-v1_47: 1664154131875334417
+      kayon-animation-rgba-v1_48: -2502219201307100452
+      kayon-animation-rgba-v1_49: -2379185814200345450
+      kayon-animation-rgba-v1_5: -1050284600857667474
+      kayon-animation-rgba-v1_50: -2122349243409041115
+      kayon-animation-rgba-v1_51: -7630438511554095357
+      kayon-animation-rgba-v1_52: 3770848538168733271
+      kayon-animation-rgba-v1_53: 3746392538096889801
+      kayon-animation-rgba-v1_54: -1787805624958051818
+      kayon-animation-rgba-v1_55: 5027970428341440435
+      kayon-animation-rgba-v1_56: -2500839711707133770
+      kayon-animation-rgba-v1_57: 1386245086783590758
+      kayon-animation-rgba-v1_58: -7577846259702165942
+      kayon-animation-rgba-v1_59: -1021332169877946434
+      kayon-animation-rgba-v1_6: -7197482585749001914
+      kayon-animation-rgba-v1_60: 295511731329378603
+      kayon-animation-rgba-v1_61: -6868863978678999018
+      kayon-animation-rgba-v1_62: -167781350323793785
+      kayon-animation-rgba-v1_63: -6896796528207104648
+      kayon-animation-rgba-v1_64: 1056267417883040586
+      kayon-animation-rgba-v1_65: -8923858493900611909
+      kayon-animation-rgba-v1_66: 2109938653759102921
+      kayon-animation-rgba-v1_67: 7731302850085313672
+      kayon-animation-rgba-v1_68: 3722178583045064250
+      kayon-animation-rgba-v1_69: -5846731532302076828
+      kayon-animation-rgba-v1_7: 5539709705345987936
+      kayon-animation-rgba-v1_70: -3461471008658317548
+      kayon-animation-rgba-v1_71: -2416798721819311698
+      kayon-animation-rgba-v1_72: 7438519805048578730
+      kayon-animation-rgba-v1_73: 6649530901449315828
+      kayon-animation-rgba-v1_74: 1489832129015540063
+      kayon-animation-rgba-v1_75: 449787195383571547
+      kayon-animation-rgba-v1_76: -7385165004606035467
+      kayon-animation-rgba-v1_77: -8828533476410770227
+      kayon-animation-rgba-v1_78: -6674167133882202093
+      kayon-animation-rgba-v1_79: 6254129466397845210
+      kayon-animation-rgba-v1_8: 8842451327753093180
+      kayon-animation-rgba-v1_80: 5661712281336128622
+      kayon-animation-rgba-v1_81: 7280480965913197807
+      kayon-animation-rgba-v1_82: 8254667773992620516
+      kayon-animation-rgba-v1_83: -3836713898809111638
+      kayon-animation-rgba-v1_84: -1039062025104834003
+      kayon-animation-rgba-v1_85: -7732192287977052466
+      kayon-animation-rgba-v1_86: 3427454274264831290
+      kayon-animation-rgba-v1_87: 5999516331324616880
+      kayon-animation-rgba-v1_88: -908822624258558940
+      kayon-animation-rgba-v1_89: 1996009836328948286
+      kayon-animation-rgba-v1_9: -5438107581073202190
+      kayon-animation-rgba-v1_90: -3139951190092066043
+      kayon-animation-rgba-v1_91: -5661230899259565549
+      kayon-animation-rgba-v1_92: 8576344794720796325
+      kayon-animation-rgba-v1_93: 6626689387555010488
+      kayon-animation-rgba-v1_94: 4057658155628630094
+      kayon-animation-rgba-v1_95: 8948193786284934302
+      kayon-animation-rgba-v1_96: -8467882852934070194
+      kayon-animation-rgba-v1_97: 989246712117554442
+      kayon-animation-rgba-v1_98: 190535571505472429
+      kayon-animation-rgba-v1_99: -3954469895703210783
+      kayon-approved-r00-f00: 1924062396
+      kayon-approved-r00-f01: 390785530
+      kayon-approved-r00-f02: 879226652
+      kayon-approved-r00-f03: 388007862
+      kayon-approved-r00-f04: 1060207219
+      kayon-approved-r00-f05: 310168862
+      kayon-approved-r00-f06: 641213580
+      kayon-approved-r00-f07: -2089523402
+      kayon-approved-r00-f08: -1799208696
+      kayon-approved-r00-f09: -1009831122
+      kayon-approved-r00-f10: -775352234
+      kayon-approved-r00-f11: -484627549
+      kayon-approved-r00-f12: -71407930
+      kayon-approved-r00-f13: 996669997
+      kayon-approved-r00-f14: -1854893950
+      kayon-approved-r00-f15: -1589920691
+      kayon-approved-r01-f00: 687106786
+      kayon-approved-r01-f01: -1481358512
+      kayon-approved-r01-f02: -238975948
+      kayon-approved-r01-f03: 648807106
+      kayon-approved-r01-f04: 1189674177
+      kayon-approved-r01-f05: 1180795824
+      kayon-approved-r01-f06: -1701460486
+      kayon-approved-r01-f07: -344934317
+      kayon-approved-r01-f08: 649404021
+      kayon-approved-r01-f09: 754685608
+      kayon-approved-r01-f10: 345672743
+      kayon-approved-r01-f11: -1890591454
+      kayon-approved-r01-f12: -2109290503
+      kayon-approved-r01-f13: 1168818364
+      kayon-approved-r01-f14: -1275969314
+      kayon-approved-r01-f15: -1949808040
+      kayon-approved-r02-f00: 1648696441
+      kayon-approved-r02-f01: -1557625691
+      kayon-approved-r02-f02: 1922087493
+      kayon-approved-r02-f03: -2145629536
+      kayon-approved-r02-f04: -1347781208
+      kayon-approved-r02-f05: -1860334985
+      kayon-approved-r02-f06: -1732346545
+      kayon-approved-r02-f07: 669996994
+      kayon-approved-r02-f08: 1389752997
+      kayon-approved-r02-f09: -63004895
+      kayon-approved-r02-f10: 639546080
+      kayon-approved-r02-f11: 905550874
+      kayon-approved-r02-f12: -1482112290
+      kayon-approved-r02-f13: -395969574
+      kayon-approved-r02-f14: 1237918181
+      kayon-approved-r02-f15: 1250584421
+      kayon-approved-r03-f00: -736866799
+      kayon-approved-r03-f01: 1467566352
+      kayon-approved-r03-f02: -113049441
+      kayon-approved-r03-f03: 1825515775
+      kayon-approved-r03-f04: -2107981009
+      kayon-approved-r03-f05: 91713035
+      kayon-approved-r03-f06: 246239481
+      kayon-approved-r03-f07: 2053360020
+      kayon-approved-r03-f08: -1723438315
+      kayon-approved-r03-f09: 1379074439
+      kayon-approved-r03-f10: -424016280
+      kayon-approved-r03-f11: -949760709
+      kayon-approved-r03-f12: -153827329
+      kayon-approved-r03-f13: 1485896774
+      kayon-approved-r03-f14: -829243453
+      kayon-approved-r03-f15: -857829610
+      kayon-approved-r04-f00: 402573643
+      kayon-approved-r04-f01: -998565518
+      kayon-approved-r04-f02: -991315656
+      kayon-approved-r04-f03: -974034449
+      kayon-approved-r04-f04: -1437853902
+      kayon-approved-r04-f05: 2032154785
+      kayon-approved-r04-f06: 1451206108
+      kayon-approved-r04-f07: -109272587
+      kayon-approved-r04-f08: 1408298388
+      kayon-approved-r04-f09: -839616459
+      kayon-approved-r04-f10: 2045344561
+      kayon-approved-r04-f11: -1149995672
+      kayon-approved-r04-f12: 464056261
+      kayon-approved-r04-f13: -1334344251
+      kayon-approved-r04-f14: 1366344824
+      kayon-approved-r04-f15: -452641227
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

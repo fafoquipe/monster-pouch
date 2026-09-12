@@ -297,6 +297,43 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.IsNull(result.NextCell);
         }
 
+        [Test]
+        public void SelectTarget_ReachabilityMapMatchesShortestAStarRoutesAcrossObstacles()
+        {
+            var random = new System.Random(731);
+            for (int scenario = 0; scenario < 12; scenario++)
+            {
+                boardManager.BuildBoard();
+                MonsterUnit actor = CreateUnit("actor-" + scenario, BoardSide.Blue, 1, 8);
+                actor.Initialize("actor-" + scenario, BoardSide.Blue, new UnitStats(30, 3, 1 + scenario % 3));
+                MonsterUnit target = CreateUnit("target-" + scenario, BoardSide.Red, 4, 1);
+                for (int y = 0; y < BoardManager.Height; y++)
+                    for (int x = 0; x < BoardManager.Width; x++)
+                        if (random.Next(5) == 0) boardManager.TrySetCellBlocked(x, y, true);
+
+                int expectedDistance = int.MaxValue;
+                foreach (BoardCell cell in boardManager.GetAllCells())
+                {
+                    if (!CombatTargetSelector.IsInAttackRange(cell, target.CurrentCell, actor.BaseStats.AttackRange)) continue;
+                    var candidatePath = new List<BoardCell>();
+                    if (BoardPathfinder.TryFindPath(boardManager, actor, actor.CurrentCell, cell, candidatePath))
+                        expectedDistance = System.Math.Min(expectedDistance, candidatePath.Count);
+                }
+
+                CombatTargetSelection selected = CombatTargetSelector.SelectTarget(boardManager, actor, new[] { target });
+                if (expectedDistance == int.MaxValue)
+                    Assert.AreEqual(CombatTargetSelectionStatus.NoTarget, selected.Status, "scenario " + scenario);
+                else
+                {
+                    Assert.AreEqual(expectedDistance, selected.PathLength, "scenario " + scenario);
+                    var selectedRoute = new List<BoardCell>();
+                    Assert.IsTrue(BoardPathfinder.TryFindPath(boardManager, actor, actor.CurrentCell, selected.AttackCell, selectedRoute));
+                    Assert.AreEqual(expectedDistance, selectedRoute.Count);
+                    if (expectedDistance > 0) Assert.AreSame(selectedRoute[0], selected.NextCell);
+                }
+            }
+        }
+
         private MonsterUnit CreateUnit(
             string unitName,
             BoardSide side,

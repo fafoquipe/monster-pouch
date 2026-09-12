@@ -112,7 +112,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void Resolve_DestinationTerritoryBreaksTie()
+        public void Resolve_UnspecifiedTerritoryDoesNotInventAWinner()
         {
             FakeBoardUnit unitA = CreateAndOccupy("A", BoardSide.Red, 1, 2, 0);
             FakeBoardUnit unitB = CreateAndOccupy("B", BoardSide.Blue, 1, 0, 2);
@@ -126,9 +126,9 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
 
             var results = BoardReservationResolver.Resolve(boardManager, intents);
 
-            Assert.AreEqual(BoardReservationOutcome.Rejected, results[0].Outcome);
-            Assert.AreEqual(BoardReservationOutcome.Reserved, results[1].Outcome);
-            Assert.AreSame(unitB, destination.ReservedBy);
+            Assert.AreEqual(BoardReservationOutcome.Unresolved, results[0].Outcome);
+            Assert.AreEqual(BoardReservationOutcome.Unresolved, results[1].Outcome);
+            Assert.IsNull(destination.ReservedBy);
         }
 
         [Test]

@@ -19,6 +19,12 @@ namespace MonsterPouch.Gameplay.Board
             var reservationIntents = new List<BoardReservationIntent>();
             var intentToReservationIndex = new Dictionary<int, int>();
             var seenUnits = new HashSet<IBoardUnit>();
+            var duplicateUnits = new HashSet<IBoardUnit>();
+            for (int i = 0; i < count; i++)
+            {
+                IBoardUnit unit = movementIntents[i].Unit;
+                if (unit != null && !seenUnits.Add(unit)) duplicateUnits.Add(unit);
+            }
 
             for (int i = 0; i < count; i++)
             {
@@ -32,13 +38,11 @@ namespace MonsterPouch.Gameplay.Board
                     continue;
                 }
 
-                if (seenUnits.Contains(unit))
+                if (duplicateUnits.Contains(unit))
                 {
                     results[i] = new BoardMovementResult(unit, targetCell, null, BoardMovementStatus.Invalid);
                     continue;
                 }
-
-                seenUnits.Add(unit);
 
                 if (ReferenceEquals(unit.CurrentCell, targetCell))
                 {
@@ -102,6 +106,7 @@ namespace MonsterPouch.Gameplay.Board
                         }
                         else
                         {
+                            boardManager.CancelReservation(unit);
                             results[originalIndex] = new BoardMovementResult(
                                 unit, targetCell, nextCell, BoardMovementStatus.MoveFailed);
                         }

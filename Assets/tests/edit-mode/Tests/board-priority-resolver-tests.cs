@@ -72,7 +72,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void CompareTerritorialAdvantage_FavorsMatchingSide()
+        public void CompareTerritorialAdvantage_UnspecifiedGeometryRemainsUnresolved()
         {
             BoardPriorityResult redResult = BoardPriorityResolver.CompareTerritorialAdvantage(
                 BoardSide.Red, BoardSide.Red, BoardSide.Blue);
@@ -80,8 +80,8 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             BoardPriorityResult blueResult = BoardPriorityResolver.CompareTerritorialAdvantage(
                 BoardSide.Blue, BoardSide.Red, BoardSide.Blue);
 
-            Assert.AreEqual(BoardPriorityResult.First, redResult);
-            Assert.AreEqual(BoardPriorityResult.Second, blueResult);
+            Assert.AreEqual(BoardPriorityResult.Unresolved, redResult);
+            Assert.AreEqual(BoardPriorityResult.Unresolved, blueResult);
         }
 
         [Test]
@@ -121,7 +121,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void CompareFinalSimultaneousDeath_UsesTerritoryAfterPreviousTies()
+        public void CompareFinalSimultaneousDeath_UnspecifiedTerritoryRemainsUnresolved()
         {
             BoardCell first = boardManager.GetCell(5, 5);
             BoardCell second = boardManager.GetCell(4, 6);
@@ -129,7 +129,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             BoardPriorityResult result = BoardPriorityResolver.CompareFinalSimultaneousDeath(
                 first, BoardSide.Red, second, BoardSide.Blue);
 
-            Assert.AreEqual(BoardPriorityResult.Second, result);
+            Assert.AreEqual(BoardPriorityResult.Unresolved, result);
         }
 
         [Test]

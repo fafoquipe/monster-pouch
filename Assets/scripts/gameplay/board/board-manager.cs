@@ -36,6 +36,16 @@ namespace MonsterPouch.Gameplay.Board
 
         public void BuildBoard()
         {
+            if (cells != null)
+            {
+                var previousUnits = new HashSet<IBoardUnit>();
+                foreach (BoardCell cell in cells)
+                {
+                    if (cell.OccupiedBy != null) previousUnits.Add(cell.OccupiedBy);
+                    if (cell.ReservedBy != null) previousUnits.Add(cell.ReservedBy);
+                }
+                foreach (IBoardUnit unit in previousUnits) ReleaseUnit(unit);
+            }
             cells = new BoardCell[Width, Height];
 
             for (int y = 0; y < Height; y++)
@@ -176,7 +186,21 @@ namespace MonsterPouch.Gameplay.Board
                 return false;
 
             unit.SetCurrentCell(cell);
+            if (unit is MonsterPouch.Gameplay.Units.BattleUnit battleUnit)
+                battleUnit.BindBoard(this);
             return true;
+        }
+
+        public bool TryRepositionUnit(IBoardUnit unit, BoardCell destination)
+        {
+            if (unit == null || destination == null || !IsManagedCell(destination)) return false;
+            if (ReferenceEquals(unit.CurrentCell, destination)) return true;
+            if (!destination.CanBeOccupiedBy(unit)) return false;
+            if (unit.CurrentCell != null &&
+                (!IsManagedCell(unit.CurrentCell) || !ReferenceEquals(unit.CurrentCell.OccupiedBy, unit)))
+                return false;
+            ReleaseUnit(unit);
+            return TryOccupyCell(unit, destination);
         }
 
         public bool TryReserveCell(IBoardUnit unit, int x, int y)

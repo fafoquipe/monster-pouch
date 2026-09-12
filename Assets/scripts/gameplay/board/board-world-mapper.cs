@@ -29,6 +29,18 @@ namespace MonsterPouch.Gameplay.Board
             return Vector3.zero;
         }
 
+        public bool TryGetCell(Vector3 worldPosition, out BoardCell cell)
+        {
+            cell = null;
+            if (boardManager == null || Mathf.Abs(cellSize.x) < 0.0001f || Mathf.Abs(cellSize.y) < 0.0001f) return false;
+            Vector3 origin = boardOrigin != null ? boardOrigin.position : transform.position;
+            float x = (worldPosition.x - origin.x - boardOffset.x) / cellSize.x;
+            float y = (worldPosition.y - origin.y - boardOffset.y) / cellSize.y;
+            if (x < -.5f || x >= BoardManager.Width - .5f || y < -.5f || y >= BoardManager.Height - .5f) return false;
+            cell = boardManager.GetCell(Mathf.FloorToInt(x + .5f), Mathf.FloorToInt(y + .5f));
+            return cell != null;
+        }
+
         public bool TryGetWorldPosition(BoardCell cell, out Vector3 worldPosition)
         {
             worldPosition = Vector3.zero;

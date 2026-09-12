@@ -213,9 +213,9 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
                 BoardMovementResolver.ResolveMovement(boardManager, intents);
 
             Assert.AreEqual(2, results.Count);
-            Assert.AreEqual(BoardMovementStatus.Moved, results[0].Status);
+            Assert.AreEqual(BoardMovementStatus.Invalid, results[0].Status);
             Assert.AreEqual(BoardMovementStatus.Invalid, results[1].Status);
-            Assert.AreSame(boardManager.GetCell(0, 1), unit.CurrentCell);
+            Assert.AreSame(boardManager.GetCell(0, 0), unit.CurrentCell);
         }
 
         [Test]

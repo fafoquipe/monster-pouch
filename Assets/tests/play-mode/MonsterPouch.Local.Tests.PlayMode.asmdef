@@ -1,0 +1,13 @@
+{
+  "name": "MonsterPouch.Local.Tests.PlayMode",
+  "references": [
+    "MonsterPouch.Gameplay",
+    "MonsterPouch.Local",
+    "Unity.InputSystem",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

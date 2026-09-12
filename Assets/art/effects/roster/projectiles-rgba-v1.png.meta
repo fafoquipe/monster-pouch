@@ -1,0 +1,3219 @@
+fileFormatVersion: 2
+guid: 34f9f528bba2a534ba4d9b4003c9208d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6973178934180699495
+    second: projectiles-rgba-v1_0
+  - first:
+      213: -3749743789580101241
+    second: projectiles-rgba-v1_1
+  - first:
+      213: 2340524190676405126
+    second: projectiles-rgba-v1_2
+  - first:
+      213: 480524231633614391
+    second: projectiles-rgba-v1_3
+  - first:
+      213: 6867355818337547020
+    second: projectiles-rgba-v1_4
+  - first:
+      213: 2066302837363671717
+    second: projectiles-rgba-v1_5
+  - first:
+      213: -2532314915174789586
+    second: projectiles-rgba-v1_6
+  - first:
+      213: 626972091001789644
+    second: projectiles-rgba-v1_7
+  - first:
+      213: 2129096437337311380
+    second: projectiles-rgba-v1_8
+  - first:
+      213: 983954440022531656
+    second: projectiles-rgba-v1_9
+  - first:
+      213: 5697710813134830246
+    second: projectiles-rgba-v1_10
+  - first:
+      213: -8404731255442485506
+    second: projectiles-rgba-v1_11
+  - first:
+      213: -9147598939547105732
+    second: projectiles-rgba-v1_12
+  - first:
+      213: 4959367859386087260
+    second: projectiles-rgba-v1_13
+  - first:
+      213: -8230242275274559430
+    second: projectiles-rgba-v1_14
+  - first:
+      213: 6249171612905721324
+    second: projectiles-rgba-v1_15
+  - first:
+      213: 1232802306258903874
+    second: projectiles-rgba-v1_16
+  - first:
+      213: -3247212416406676271
+    second: projectiles-rgba-v1_17
+  - first:
+      213: -7603711071001003334
+    second: projectiles-rgba-v1_18
+  - first:
+      213: 8277208617506832129
+    second: projectiles-rgba-v1_19
+  - first:
+      213: -3380163006082606993
+    second: projectiles-rgba-v1_20
+  - first:
+      213: 3555797360428105244
+    second: projectiles-rgba-v1_21
+  - first:
+      213: -6711647462255766811
+    second: projectiles-rgba-v1_22
+  - first:
+      213: -1954440783669009918
+    second: projectiles-rgba-v1_23
+  - first:
+      213: 7876365729463596837
+    second: projectiles-rgba-v1_24
+  - first:
+      213: -5918258517472326210
+    second: projectiles-rgba-v1_25
+  - first:
+      213: 7375061810820915373
+    second: projectiles-rgba-v1_26
+  - first:
+      213: -5267279473724746970
+    second: projectiles-rgba-v1_27
+  - first:
+      213: -3969992538982991667
+    second: projectiles-rgba-v1_28
+  - first:
+      213: 5941490085307593373
+    second: projectiles-rgba-v1_29
+  - first:
+      213: 5085428015507136728
+    second: projectiles-rgba-v1_30
+  - first:
+      213: 588825402927433856
+    second: projectiles-rgba-v1_31
+  - first:
+      213: -1705093521923539970
+    second: projectiles-rgba-v1_32
+  - first:
+      213: 6074274656620383120
+    second: projectiles-rgba-v1_33
+  - first:
+      213: 2538015264562549778
+    second: projectiles-rgba-v1_34
+  - first:
+      213: 8744980298342374026
+    second: projectiles-rgba-v1_35
+  - first:
+      213: -7797099241404572824
+    second: projectiles-rgba-v1_36
+  - first:
+      213: 9181068643811216109
+    second: projectiles-rgba-v1_37
+  - first:
+      213: -642948321916804925
+    second: projectiles-rgba-v1_38
+  - first:
+      213: 1964333256389208327
+    second: projectiles-rgba-v1_39
+  - first:
+      213: -1465468802118020775
+    second: projectiles-rgba-v1_40
+  - first:
+      213: -5930663861520883129
+    second: projectiles-rgba-v1_41
+  - first:
+      213: 3658194735060974980
+    second: projectiles-rgba-v1_42
+  - first:
+      213: 6966298255532727752
+    second: projectiles-rgba-v1_43
+  - first:
+      213: -8876857577557758952
+    second: projectiles-rgba-v1_44
+  - first:
+      213: 5384384792217681191
+    second: projectiles-rgba-v1_45
+  - first:
+      213: -1660709529096294474
+    second: projectiles-rgba-v1_46
+  - first:
+      213: -1959618817551486843
+    second: projectiles-rgba-v1_47
+  - first:
+      213: 8304196692008932516
+    second: projectiles-rgba-v1_48
+  - first:
+      213: -7418717449327505165
+    second: projectiles-rgba-v1_49
+  - first:
+      213: 2838775339983921308
+    second: projectiles-rgba-v1_50
+  - first:
+      213: -3475438418823207447
+    second: projectiles-rgba-v1_51
+  - first:
+      213: -5316111596663297625
+    second: projectiles-rgba-v1_52
+  - first:
+      213: 4209025026161830486
+    second: projectiles-rgba-v1_53
+  - first:
+      213: 2481089754477832198
+    second: projectiles-rgba-v1_54
+  - first:
+      213: 7305669724622746342
+    second: projectiles-rgba-v1_55
+  - first:
+      213: 1822715981601757827
+    second: projectiles-rgba-v1_56
+  - first:
+      213: -5535596672316517152
+    second: projectiles-rgba-v1_57
+  - first:
+      213: -2172503047809213734
+    second: projectiles-rgba-v1_58
+  - first:
+      213: -6612788592327670660
+    second: projectiles-rgba-v1_59
+  - first:
+      213: 6033929110476856575
+    second: projectiles-rgba-v1_60
+  - first:
+      213: 3987071110428806500
+    second: projectiles-rgba-v1_61
+  - first:
+      213: 3273281036948365076
+    second: projectiles-rgba-v1_62
+  - first:
+      213: -7597016648261782064
+    second: projectiles-rgba-v1_63
+  - first:
+      213: 4008768826075251563
+    second: projectiles-rgba-v1_64
+  - first:
+      213: -3818117819053514426
+    second: projectiles-rgba-v1_65
+  - first:
+      213: 1609010410388637226
+    second: projectiles-rgba-v1_66
+  - first:
+      213: 5950000536271945440
+    second: projectiles-rgba-v1_67
+  - first:
+      213: -6382293933435362090
+    second: projectiles-rgba-v1_68
+  - first:
+      213: -8144160506314793729
+    second: projectiles-rgba-v1_69
+  - first:
+      213: 4377202661834158356
+    second: projectiles-rgba-v1_70
+  - first:
+      213: -4968521907494802157
+    second: projectiles-rgba-v1_71
+  - first:
+      213: -1020544250800416281
+    second: projectiles-rgba-v1_72
+  - first:
+      213: 819094105893479568
+    second: projectiles-rgba-v1_73
+  - first:
+      213: 4870330966637644594
+    second: projectiles-rgba-v1_74
+  - first:
+      213: 2003209150080095356
+    second: projectiles-rgba-v1_75
+  - first:
+      213: -7359897160795951089
+    second: projectiles-rgba-v1_76
+  - first:
+      213: 2383498360449891643
+    second: projectiles-rgba-v1_77
+  - first:
+      213: -663457325610943563
+    second: projectiles-rgba-v1_78
+  - first:
+      213: -7339192809392892323
+    second: projectiles-rgba-v1_79
+  - first:
+      213: 7065460953995596361
+    second: projectiles-rgba-v1_80
+  - first:
+      213: -6103141011450210458
+    second: projectiles-rgba-v1_81
+  - first:
+      213: -6922174052058565723
+    second: projectiles-rgba-v1_82
+  - first:
+      213: -6177968287171301637
+    second: projectiles-rgba-v1_83
+  - first:
+      213: -8971187232751295660
+    second: projectiles-rgba-v1_84
+  - first:
+      213: -8628616480957626249
+    second: projectiles-rgba-v1_85
+  - first:
+      213: -5816763641892173526
+    second: projectiles-rgba-v1_86
+  - first:
+      213: 1068645513526492313
+    second: projectiles-rgba-v1_87
+  - first:
+      213: 4039206699522072972
+    second: projectiles-rgba-v1_88
+  - first:
+      213: -8380935437356528622
+    second: projectiles-rgba-v1_89
+  - first:
+      213: -8263782404259937123
+    second: projectiles-rgba-v1_90
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 709
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9922ce074ba4a3f90800000000000000
+      internalID: -6973178934180699495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 782
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789d95fe3eb36fbc0800000000000000
+      internalID: -3749743789580101241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_2
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 0
+        width: 564
+        height: 793
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bc97dc9563b7020800000000000000
+      internalID: 2340524190676405126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_3
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 0
+        width: 269
+        height: 785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7363d742e3a2ba600800000000000000
+      internalID: 480524231633614391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 594
+        width: 217
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03b8326bbfbd4f50800000000000000
+      internalID: 6867355818337547020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_5
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 737
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2817b9b7bfcac10800000000000000
+      internalID: 2066302837363671717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 733
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e459d50096bdcd0800000000000000
+      internalID: -2532314915174789586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 602
+        width: 257
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccde308bc373b800800000000000000
+      internalID: 626972091001789644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 745
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4984a08ede11c8d10800000000000000
+      internalID: 2129096437337311380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_9
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 760
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e16b89955b7ad00800000000000000
+      internalID: 983954440022531656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_10
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 751
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aabdc9fbc5521f40800000000000000
+      internalID: 5697710813134830246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_11
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 739
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe4abe04756c5b80800000000000000
+      internalID: -8404731255442485506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_12
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 758
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c360e840b333d0180800000000000000
+      internalID: -9147598939547105732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_13
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 758
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c577231dac633d440800000000000000
+      internalID: 4959367859386087260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_14
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 754
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a307bde914e48cd80800000000000000
+      internalID: -8230242275274559430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_15
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 584
+        width: 227
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced43bfe87489b650800000000000000
+      internalID: 6249171612905721324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_16
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 604
+        width: 225
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24328d67a2bcb1110800000000000000
+      internalID: 1232802306258903874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_17
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 586
+        width: 306
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc97d103859fe2d0800000000000000
+      internalID: -3247212416406676271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_18
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 734
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abab74e21113a7690800000000000000
+      internalID: -7603711071001003334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_19
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 713
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ffb42126d8ed270800000000000000
+      internalID: 8277208617506832129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_20
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 711
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f689783a7af3711d0800000000000000
+      internalID: -3380163006082606993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1eb6912cdab85130800000000000000
+      internalID: 3555797360428105244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_22
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 630
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2d79261307bd2a0800000000000000
+      internalID: -6711647462255766811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_23
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 652
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2026fda567e60e4e0800000000000000
+      internalID: -1954440783669009918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 616
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527fcb176e87e4d60800000000000000
+      internalID: 7876365729463596837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_25
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 612
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdc1211c3f1edda0800000000000000
+      internalID: -5918258517472326210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_26
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 630
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0a78664ab795660800000000000000
+      internalID: 7375061810820915373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_27
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 596
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6231ee3d93dd6e6b0800000000000000
+      internalID: -5267279473724746970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_28
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 608
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8b7f8d1d0c7e8c0800000000000000
+      internalID: -3969992538982991667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_29
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 599
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92b343d0c9647250800000000000000
+      internalID: 5941490085307593373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_30
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 584
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d06f1b16d1139640800000000000000
+      internalID: 5085428015507136728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_31
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 594
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0884730959deb2800800000000000000
+      internalID: 588825402927433856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_32
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 596
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb7decc97a4658e0800000000000000
+      internalID: -1705093521923539970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_33
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 587
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b04080e982c4450800000000000000
+      internalID: 6074274656620383120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_34
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 403
+        width: 231
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21415c6af67d83320800000000000000
+      internalID: 2538015264562549778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_35
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 386
+        width: 239
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a9c7a9f396c5970800000000000000
+      internalID: 8744980298342374026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_36
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 375
+        width: 227
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bdc9dfc832bc390800000000000000
+      internalID: -7797099241404572824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 571
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea48d4c945b96f70800000000000000
+      internalID: 9181068643811216109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_38
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 0
+        width: 251
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0273f58e9c317f0800000000000000
+      internalID: -642948321916804925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_39
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 584
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709a09f60b6b24b10800000000000000
+      internalID: 1964333256389208327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_40
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 578
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951965c83eb99abe0800000000000000
+      internalID: -1465468802118020775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_41
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 395
+        width: 225
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7422dc3d3ac02bda0800000000000000
+      internalID: -5930663861520883129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_42
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 576
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d7386cab484c230800000000000000
+      internalID: 3658194735060974980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_43
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 555
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd9378ba534da060800000000000000
+      internalID: 6966298255532727752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c6fe790111fc480800000000000000
+      internalID: -8876857577557758952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_45
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 517
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d762ad07d29ba40800000000000000
+      internalID: 5384384792217681191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_46
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 519
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bfeb1b6b79f3f8e0800000000000000
+      internalID: -1660709529096294474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_47
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 501
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5803ca461190ec4e0800000000000000
+      internalID: -1959618817551486843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_48
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 476
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a49a24d4ee6e3370800000000000000
+      internalID: 8304196692008932516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_49
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 444
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f097df29cb6b0990800000000000000
+      internalID: -7418717449327505165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_50
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 406
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9061e8912b556720800000000000000
+      internalID: 2838775339983921308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_51
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 179
+        width: 491
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e52c47fb23c4cfc0800000000000000
+      internalID: -3475438418823207447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_52
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 199
+        width: 237
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9ac863ba06936b0800000000000000
+      internalID: -5316111596663297625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_53
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 373
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65aea1ff5f5796a30800000000000000
+      internalID: 4209025026161830486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_54
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 211
+        width: 253
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608238f7cf99e6220800000000000000
+      internalID: 2481089754477832198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_55
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 227
+        width: 191
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2f67e48e3f26560800000000000000
+      internalID: 7305669724622746342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_56
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 300
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38adcc137869b4910800000000000000
+      internalID: 1822715981601757827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_57
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 234
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e45db6c72c9d23b0800000000000000
+      internalID: -5535596672316517152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_58
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 225
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adad0e90df7b9d1e0800000000000000
+      internalID: -2172503047809213734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_59
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 234
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74cd83bfc7aa34a0800000000000000
+      internalID: -6612788592327670660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_60
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 233
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc9cdd8e82dcb350800000000000000
+      internalID: 6033929110476856575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_61
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 217
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dc45fec0ce45730800000000000000
+      internalID: 3987071110428806500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_62
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 209
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f5451b2c70d6d20800000000000000
+      internalID: 3273281036948365076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_63
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 212
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5b0afeb99f19690800000000000000
+      internalID: -7597016648261782064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_64
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 219
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6300e8020202a730800000000000000
+      internalID: 4008768826075251563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_65
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 197
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641e9b4a212530bc0800000000000000
+      internalID: -3818117819053514426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_66
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 211
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26ce1f717a545610800000000000000
+      internalID: 1609010410388637226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_67
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee7fd996f5a29250800000000000000
+      internalID: 5950000536271945440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 201
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4647d7b798d67a0800000000000000
+      internalID: -6382293933435362090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_69
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 195
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc575b4b212afe80800000000000000
+      internalID: -8144160506314793729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_70
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 202
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411f48821a2febc30800000000000000
+      internalID: 4377202661834158356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_71
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 0
+        width: 227
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31da60546a34c0bb0800000000000000
+      internalID: -4968521907494802157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_72
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 215
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e95975396c46d1f0800000000000000
+      internalID: -1020544250800416281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_73
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 183
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094a563efb10e5b00800000000000000
+      internalID: 819094105893479568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_74
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 179
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b8505c534e69340800000000000000
+      internalID: 4870330966637644594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_75
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 179
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c741659cb14dccb10800000000000000
+      internalID: 2003209150080095356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_76
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 153
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00f953d6846cd990800000000000000
+      internalID: -7359897160795951089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_77
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 249
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d77596123e31120800000000000000
+      internalID: 2383498360449891643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_78
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 180
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb3457d31deac6f0800000000000000
+      internalID: -663457325610943563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 175
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56190a4603f52a90800000000000000
+      internalID: -7339192809392892323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_80
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 511
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942dc41ad4f8d0260800000000000000
+      internalID: 7065460953995596361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_81
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 155
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667546ef5994d4ba0800000000000000
+      internalID: -6103141011450210458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_82
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 147
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a37f99ff5f7fef90800000000000000
+      internalID: -6922174052058565723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_83
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 128
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfea6893392734aa0800000000000000
+      internalID: -6177968287171301637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_84
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 106
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453e6524eb0ff7380800000000000000
+      internalID: -8971187232751295660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_85
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7788075e60ff04880800000000000000
+      internalID: -8628616480957626249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_86
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 33
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a290c964944b64fa0800000000000000
+      internalID: -5816763641892173526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_87
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 39
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cbf80ce6794de00800000000000000
+      internalID: 1068645513526492313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_88
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 17
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c812463b7152e0830800000000000000
+      internalID: 4039206699522072972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_89
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 17
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c81e2bf9fe0bb80800000000000000
+      internalID: -8380935437356528622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-rgba-v1_90
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 7
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9486fccfa5215d80800000000000000
+      internalID: -8263782404259937123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 647
+        width: 147
+        height: 75
+      alignment: 9
+      pivot: {x: 0.71428573, y: 0.04}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd62be6161b0dc438fcb05d21910e71
+      internalID: 1877167973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 640
+        width: 173
+        height: 88
+      alignment: 9
+      pivot: {x: 0.716763, y: 0.03409091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a66e94d440ede47928b2157425352c
+      internalID: -947211991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 636
+        width: 178
+        height: 92
+      alignment: 9
+      pivot: {x: 0.6516854, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5ac2a63b3cc904bbf0abea93ee0d86
+      internalID: -1577280361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 636
+        width: 198
+        height: 92
+      alignment: 9
+      pivot: {x: 0.68434346, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063ae0d0c2cd8214bad8b2393acf1c59
+      internalID: -1984287320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 617
+        width: 189
+        height: 146
+      alignment: 9
+      pivot: {x: 0.48412699, y: 0.020547945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a1b5f52c99b9e43a2414ea1cb98696
+      internalID: 253169293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 611
+        width: 178
+        height: 162
+      alignment: 9
+      pivot: {x: 0.48876405, y: 0.018518519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082c5c14d27d6084a8b8fa5d4a912f94
+      internalID: 2075165635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 612
+        width: 175
+        height: 149
+      alignment: 9
+      pivot: {x: 0.44285715, y: 0.020134227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a240a66d4171d7d4483864af448bc348
+      internalID: 2002679734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 623
+        width: 167
+        height: 134
+      alignment: 9
+      pivot: {x: 0.48802397, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b5f3f90ec2ecd4d80655e8f919e4b5
+      internalID: 35885902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 434
+        width: 191
+        height: 129
+      alignment: 9
+      pivot: {x: 0.7617801, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd1489780cfc404aba904ca80dae298
+      internalID: 1428286432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 428
+        width: 197
+        height: 137
+      alignment: 9
+      pivot: {x: 0.74365485, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294bab22e06a8d54396d2667e26ee3a2
+      internalID: -1177076619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 434
+        width: 182
+        height: 129
+      alignment: 9
+      pivot: {x: 0.7197802, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591ef78f03b035c4d90008ec1dbb2ea3
+      internalID: -722082527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 440
+        width: 176
+        height: 113
+      alignment: 9
+      pivot: {x: 0.7301136, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dcf55d9823d2d49b57e2eb88654fed
+      internalID: 1676753795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 415
+        width: 212
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5117925, y: 0.018181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9e2d3fd6e79bc4080b2c75240de303
+      internalID: -634859204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 416
+        width: 176
+        height: 150
+      alignment: 9
+      pivot: {x: 0.36647728, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c71de8ea2e381649b6efa34197d4e6a
+      internalID: -1074333554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 416
+        width: 179
+        height: 149
+      alignment: 9
+      pivot: {x: 0.3463687, y: 0.020134227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ad65b9c7af9814f97e1dac4a27e3c2
+      internalID: 1188435455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 428
+        width: 171
+        height: 131
+      alignment: 9
+      pivot: {x: 0.43274853, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1052427d866ab3649bf7dee981d37b86
+      internalID: 451923616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 259
+        width: 206
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5800971, y: 0.037037037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ff02a5b5ea9c644a73e37d0228b499
+      internalID: 787229736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 252
+        width: 212
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5495283, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23c0c94deeb94a459fdccd8961ebce0
+      internalID: 452205323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 247
+        width: 199
+        height: 115
+      alignment: 9
+      pivot: {x: 0.4924623, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9989e1701277cb4e8cc28d70a0a551b
+      internalID: -600062529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 241
+        width: 215
+        height: 123
+      alignment: 9
+      pivot: {x: 0.54186046, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f72bc7ea743e94a833c30ed539f4fd
+      internalID: 69966731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 222
+        width: 181
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5055249, y: 0.018072288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc840e19c506064fbc189bafe1034ce
+      internalID: -972451581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 222
+        width: 208
+        height: 166
+      alignment: 9
+      pivot: {x: 0.49519232, y: 0.018072288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628c869409d09024caf5df8edc997156
+      internalID: -1854568561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 222
+        width: 195
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.01863354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20de31b6502340439f087602fc4b3d7
+      internalID: 298182521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 239
+        width: 173
+        height: 132
+      alignment: 9
+      pivot: {x: 0.8612717, y: 0.022727273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6d2151a0499774ab88d5e358e812a0
+      internalID: 873950257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 65
+        width: 171
+        height: 99
+      alignment: 9
+      pivot: {x: 0.6725146, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a221c6e59137544a963e46215c97800
+      internalID: -96293890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 61
+        width: 197
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5913706, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7de7131033d9a242b71ae1405efe4e5
+      internalID: -523678036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 61
+        width: 200
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5875, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b29b4de13f8f3408ed2a87b562837f
+      internalID: 654056824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 53
+        width: 212
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5589623, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd59ed2286e2ad4fbbc4bc02316c84d
+      internalID: -227299851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 32
+        width: 181
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5331492, y: 0.018181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865116405cd306545918743c50527748
+      internalID: 716205065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 23
+        width: 197
+        height: 178
+      alignment: 9
+      pivot: {x: 0.40609136, y: 0.016853932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a575764892cb14a8b26745370f2321
+      internalID: -1534739538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 32
+        width: 174
+        height: 165
+      alignment: 9
+      pivot: {x: 0.50574714, y: 0.018181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eb7d05a8993e44685e94d3ee29c184
+      internalID: 1983026794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 38
+        width: 154
+        height: 147
+      alignment: 9
+      pivot: {x: 0.53896105, y: 0.020408163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cf2880607a05444acd16b11454d022
+      internalID: -1349739929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6e0a273659aef2642a0c962b606c659a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      projectiles-r00-f00: 1877167973
+      projectiles-r00-f01: -947211991
+      projectiles-r00-f02: -1577280361
+      projectiles-r00-f03: -1984287320
+      projectiles-r00-f04: 253169293
+      projectiles-r00-f05: 2075165635
+      projectiles-r00-f06: 2002679734
+      projectiles-r00-f07: 35885902
+      projectiles-r01-f00: 1428286432
+      projectiles-r01-f01: -1177076619
+      projectiles-r01-f02: -722082527
+      projectiles-r01-f03: 1676753795
+      projectiles-r01-f04: -634859204
+      projectiles-r01-f05: -1074333554
+      projectiles-r01-f06: 1188435455
+      projectiles-r01-f07: 451923616
+      projectiles-r02-f00: 787229736
+      projectiles-r02-f01: 452205323
+      projectiles-r02-f02: -600062529
+      projectiles-r02-f03: 69966731
+      projectiles-r02-f04: -972451581
+      projectiles-r02-f05: -1854568561
+      projectiles-r02-f06: 298182521
+      projectiles-r02-f07: 873950257
+      projectiles-r03-f00: -96293890
+      projectiles-r03-f01: -523678036
+      projectiles-r03-f02: 654056824
+      projectiles-r03-f03: -227299851
+      projectiles-r03-f04: 716205065
+      projectiles-r03-f05: -1534739538
+      projectiles-r03-f06: 1983026794
+      projectiles-r03-f07: -1349739929
+      projectiles-rgba-v1_0: -6973178934180699495
+      projectiles-rgba-v1_1: -3749743789580101241
+      projectiles-rgba-v1_10: 5697710813134830246
+      projectiles-rgba-v1_11: -8404731255442485506
+      projectiles-rgba-v1_12: -9147598939547105732
+      projectiles-rgba-v1_13: 4959367859386087260
+      projectiles-rgba-v1_14: -8230242275274559430
+      projectiles-rgba-v1_15: 6249171612905721324
+      projectiles-rgba-v1_16: 1232802306258903874
+      projectiles-rgba-v1_17: -3247212416406676271
+      projectiles-rgba-v1_18: -7603711071001003334
+      projectiles-rgba-v1_19: 8277208617506832129
+      projectiles-rgba-v1_2: 2340524190676405126
+      projectiles-rgba-v1_20: -3380163006082606993
+      projectiles-rgba-v1_21: 3555797360428105244
+      projectiles-rgba-v1_22: -6711647462255766811
+      projectiles-rgba-v1_23: -1954440783669009918
+      projectiles-rgba-v1_24: 7876365729463596837
+      projectiles-rgba-v1_25: -5918258517472326210
+      projectiles-rgba-v1_26: 7375061810820915373
+      projectiles-rgba-v1_27: -5267279473724746970
+      projectiles-rgba-v1_28: -3969992538982991667
+      projectiles-rgba-v1_29: 5941490085307593373
+      projectiles-rgba-v1_3: 480524231633614391
+      projectiles-rgba-v1_30: 5085428015507136728
+      projectiles-rgba-v1_31: 588825402927433856
+      projectiles-rgba-v1_32: -1705093521923539970
+      projectiles-rgba-v1_33: 6074274656620383120
+      projectiles-rgba-v1_34: 2538015264562549778
+      projectiles-rgba-v1_35: 8744980298342374026
+      projectiles-rgba-v1_36: -7797099241404572824
+      projectiles-rgba-v1_37: 9181068643811216109
+      projectiles-rgba-v1_38: -642948321916804925
+      projectiles-rgba-v1_39: 1964333256389208327
+      projectiles-rgba-v1_4: 6867355818337547020
+      projectiles-rgba-v1_40: -1465468802118020775
+      projectiles-rgba-v1_41: -5930663861520883129
+      projectiles-rgba-v1_42: 3658194735060974980
+      projectiles-rgba-v1_43: 6966298255532727752
+      projectiles-rgba-v1_44: -8876857577557758952
+      projectiles-rgba-v1_45: 5384384792217681191
+      projectiles-rgba-v1_46: -1660709529096294474
+      projectiles-rgba-v1_47: -1959618817551486843
+      projectiles-rgba-v1_48: 8304196692008932516
+      projectiles-rgba-v1_49: -7418717449327505165
+      projectiles-rgba-v1_5: 2066302837363671717
+      projectiles-rgba-v1_50: 2838775339983921308
+      projectiles-rgba-v1_51: -3475438418823207447
+      projectiles-rgba-v1_52: -5316111596663297625
+      projectiles-rgba-v1_53: 4209025026161830486
+      projectiles-rgba-v1_54: 2481089754477832198
+      projectiles-rgba-v1_55: 7305669724622746342
+      projectiles-rgba-v1_56: 1822715981601757827
+      projectiles-rgba-v1_57: -5535596672316517152
+      projectiles-rgba-v1_58: -2172503047809213734
+      projectiles-rgba-v1_59: -6612788592327670660
+      projectiles-rgba-v1_6: -2532314915174789586
+      projectiles-rgba-v1_60: 6033929110476856575
+      projectiles-rgba-v1_61: 3987071110428806500
+      projectiles-rgba-v1_62: 3273281036948365076
+      projectiles-rgba-v1_63: -7597016648261782064
+      projectiles-rgba-v1_64: 4008768826075251563
+      projectiles-rgba-v1_65: -3818117819053514426
+      projectiles-rgba-v1_66: 1609010410388637226
+      projectiles-rgba-v1_67: 5950000536271945440
+      projectiles-rgba-v1_68: -6382293933435362090
+      projectiles-rgba-v1_69: -8144160506314793729
+      projectiles-rgba-v1_7: 626972091001789644
+      projectiles-rgba-v1_70: 4377202661834158356
+      projectiles-rgba-v1_71: -4968521907494802157
+      projectiles-rgba-v1_72: -1020544250800416281
+      projectiles-rgba-v1_73: 819094105893479568
+      projectiles-rgba-v1_74: 4870330966637644594
+      projectiles-rgba-v1_75: 2003209150080095356
+      projectiles-rgba-v1_76: -7359897160795951089
+      projectiles-rgba-v1_77: 2383498360449891643
+      projectiles-rgba-v1_78: -663457325610943563
+      projectiles-rgba-v1_79: -7339192809392892323
+      projectiles-rgba-v1_8: 2129096437337311380
+      projectiles-rgba-v1_80: 7065460953995596361
+      projectiles-rgba-v1_81: -6103141011450210458
+      projectiles-rgba-v1_82: -6922174052058565723
+      projectiles-rgba-v1_83: -6177968287171301637
+      projectiles-rgba-v1_84: -8971187232751295660
+      projectiles-rgba-v1_85: -8628616480957626249
+      projectiles-rgba-v1_86: -5816763641892173526
+      projectiles-rgba-v1_87: 1068645513526492313
+      projectiles-rgba-v1_88: 4039206699522072972
+      projectiles-rgba-v1_89: -8380935437356528622
+      projectiles-rgba-v1_9: 983954440022531656
+      projectiles-rgba-v1_90: -8263782404259937123
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

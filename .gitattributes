@@ -7,7 +7,8 @@
 # and distributed under MIT License.
 
 # Define macros (only works in top-level gitattributes files)
-[attr]lfs               filter=lfs diff=lfs merge=lfs -text
+# Project resources are stored as regular Git blobs; no Git LFS objects are used.
+[attr]unity-binary      -filter -diff -merge -text
 [attr]unity-json        eol=lf linguist-language=json
 [attr]unity-yaml        merge=unityyamlmerge eol=lf linguist-language=yaml
 
@@ -70,102 +71,90 @@
 Assets/Plugins/**           linguist-generated
 Packages/packages-lock.json linguist-generated
 
-# Unity LFS
-*.cubemap               lfs
-*.unitypackage          lfs
-
+# Unity binary files
+*.cubemap               unity-binary
+*.unitypackage          unity-binary
 # 3D models
-*.3dm                   lfs
-*.3ds                   lfs
-*.blend                 lfs
-*.blend1                lfs
-*.c4d                   lfs
-*.collada               lfs
-*.dae                   lfs
-*.dxf                   lfs
-*.FBX                   lfs
-*.fbx                   lfs
-*.jas                   lfs
-*.lws                   lfs
-*.lxo                   lfs
-*.ma                    lfs
-*.max                   lfs
-*.mb                    lfs
-*.obj                   lfs
-*.ply                   lfs
-*.skp                   lfs
-*.stl                   lfs
-*.ztl                   lfs
-
+*.3dm                   unity-binary
+*.3ds                   unity-binary
+*.blend                 unity-binary
+*.blend1                unity-binary
+*.c4d                   unity-binary
+*.collada               unity-binary
+*.dae                   unity-binary
+*.dxf                   unity-binary
+*.FBX                   unity-binary
+*.fbx                   unity-binary
+*.jas                   unity-binary
+*.lws                   unity-binary
+*.lxo                   unity-binary
+*.ma                    unity-binary
+*.max                   unity-binary
+*.mb                    unity-binary
+*.obj                   unity-binary
+*.ply                   unity-binary
+*.skp                   unity-binary
+*.stl                   unity-binary
+*.ztl                   unity-binary
 # Audio
-*.aif                   lfs
-*.aiff                  lfs
-*.it                    lfs
-*.mod                   lfs
-*.mp3                   lfs
-*.ogg                   lfs
-*.s3m                   lfs
-*.wav                   lfs
-*.xm                    lfs
-
+*.aif                   unity-binary
+*.aiff                  unity-binary
+*.it                    unity-binary
+*.mod                   unity-binary
+*.mp3                   unity-binary
+*.ogg                   unity-binary
+*.s3m                   unity-binary
+*.wav                   unity-binary
+*.xm                    unity-binary
 # Video
-*.asf                   lfs
-*.avi                   lfs
-*.flv                   lfs
-*.mov                   lfs
-*.mp4                   lfs
-*.mpeg                  lfs
-*.mpg                   lfs
-*.ogv                   lfs
-*.wmv                   lfs
-
+*.asf                   unity-binary
+*.avi                   unity-binary
+*.flv                   unity-binary
+*.mov                   unity-binary
+*.mp4                   unity-binary
+*.mpeg                  unity-binary
+*.mpg                   unity-binary
+*.ogv                   unity-binary
+*.wmv                   unity-binary
 # Images
-*.bmp                   lfs
-*.exr                   lfs
-*.gif                   lfs
-*.hdr                   lfs
-*.iff                   lfs
-*.jpeg                  lfs
-*.jpg                   lfs
-*.pict                  lfs
-*.png                   lfs
-*.psd                   lfs
-*.tga                   lfs
-*.tif                   lfs
-*.tiff                  lfs
-*.webp                  lfs
-
+*.bmp                   unity-binary
+*.exr                   unity-binary
+*.gif                   unity-binary
+*.hdr                   unity-binary
+*.iff                   unity-binary
+*.jpeg                  unity-binary
+*.jpg                   unity-binary
+*.pict                  unity-binary
+*.png                   unity-binary
+*.psd                   unity-binary
+*.tga                   unity-binary
+*.tif                   unity-binary
+*.tiff                  unity-binary
+*.webp                  unity-binary
 # Compressed Archive
-*.7z                    lfs
-*.bz2                   lfs
-*.gz                    lfs
-*.rar                   lfs
-*.tar                   lfs
-*.zip                   lfs
-
+*.7z                    unity-binary
+*.bz2                   unity-binary
+*.gz                    unity-binary
+*.rar                   unity-binary
+*.tar                   unity-binary
+*.zip                   unity-binary
 # Compiled Dynamic Library
-*.dll                   lfs
-*.pdb                   lfs
-*.so                    lfs
-
+*.dll                   unity-binary
+*.pdb                   unity-binary
+*.so                    unity-binary
 # Fonts
-*.otf                   lfs
-*.ttf                   lfs
-
+*.otf                   unity-binary
+*.ttf                   unity-binary
 # Executable/Installer
-*.apk                   lfs
-*.exe                   lfs
-
+*.apk                   unity-binary
+*.exe                   unity-binary
 # Documents
-*.pdf                   lfs
-
+*.pdf                   unity-binary
 # ETC
-*.a                     lfs
-*.reason                lfs
-*.rns                   lfs
-
+*.a                     unity-binary
+*.reason                unity-binary
+*.rns                   unity-binary
 # Spine export file for Unity
-*.skel.bytes            lfs
-
+*.skel.bytes            unity-binary
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary

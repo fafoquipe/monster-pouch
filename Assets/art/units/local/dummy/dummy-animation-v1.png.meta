@@ -1,0 +1,2812 @@
+fileFormatVersion: 2
+guid: f44c3ffcb16bcf34bbd2b63b7e874cbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5425817186456258384
+    second: dummy-animation-v1_0
+  - first:
+      213: -2714779204912915187
+    second: dummy-animation-v1_1
+  - first:
+      213: -1253115158696223723
+    second: dummy-animation-v1_2
+  - first:
+      213: 7655615083185325268
+    second: dummy-animation-v1_3
+  - first:
+      213: 6838647131224309184
+    second: dummy-animation-v1_4
+  - first:
+      213: 4758149492772788597
+    second: dummy-animation-v1_5
+  - first:
+      213: -639948804850918083
+    second: dummy-animation-v1_6
+  - first:
+      213: -8509885089992261971
+    second: dummy-animation-v1_7
+  - first:
+      213: -1546377046160978378
+    second: dummy-animation-v1_8
+  - first:
+      213: 7817398327528165882
+    second: dummy-animation-v1_9
+  - first:
+      213: 1140963962413817528
+    second: dummy-animation-v1_10
+  - first:
+      213: 6018866161548654278
+    second: dummy-animation-v1_11
+  - first:
+      213: 2821614403210178278
+    second: dummy-animation-v1_12
+  - first:
+      213: -3332046672587831926
+    second: dummy-animation-v1_13
+  - first:
+      213: 7427964332069151385
+    second: dummy-animation-v1_14
+  - first:
+      213: 2386648305461403945
+    second: dummy-animation-v1_15
+  - first:
+      213: 3051878234954844466
+    second: dummy-animation-v1_16
+  - first:
+      213: -359692535218654258
+    second: dummy-animation-v1_17
+  - first:
+      213: 8692734655837461457
+    second: dummy-animation-v1_18
+  - first:
+      213: -2393812815694441191
+    second: dummy-animation-v1_19
+  - first:
+      213: -4561273739821962596
+    second: dummy-animation-v1_20
+  - first:
+      213: 4058035516795783414
+    second: dummy-animation-v1_21
+  - first:
+      213: 8067768157489764326
+    second: dummy-animation-v1_22
+  - first:
+      213: -2048977363948751826
+    second: dummy-animation-v1_23
+  - first:
+      213: 5081678533811248435
+    second: dummy-animation-v1_24
+  - first:
+      213: 3774586931105944258
+    second: dummy-animation-v1_25
+  - first:
+      213: -3260655813994318962
+    second: dummy-animation-v1_26
+  - first:
+      213: -4673196729339033832
+    second: dummy-animation-v1_27
+  - first:
+      213: 4785359270941219699
+    second: dummy-animation-v1_28
+  - first:
+      213: 6175838075714502392
+    second: dummy-animation-v1_29
+  - first:
+      213: -5224877190916203229
+    second: dummy-animation-v1_30
+  - first:
+      213: -8818169980310612294
+    second: dummy-animation-v1_31
+  - first:
+      213: 468657331733762634
+    second: dummy-animation-v1_32
+  - first:
+      213: 2310082815446950679
+    second: dummy-animation-v1_33
+  - first:
+      213: -6694944836620804856
+    second: dummy-animation-v1_34
+  - first:
+      213: -4418829488629997800
+    second: dummy-animation-v1_35
+  - first:
+      213: -4751378898577229547
+    second: dummy-animation-v1_36
+  - first:
+      213: 714643444270256613
+    second: dummy-animation-v1_37
+  - first:
+      213: 1392257790407533715
+    second: dummy-animation-v1_38
+  - first:
+      213: -1996146379382793315
+    second: dummy-animation-v1_39
+  - first:
+      213: 1461035566805474846
+    second: dummy-animation-v1_40
+  - first:
+      213: -7656283262341893620
+    second: dummy-animation-v1_41
+  - first:
+      213: 4576286603487764377
+    second: dummy-animation-v1_42
+  - first:
+      213: -4125539721468737475
+    second: dummy-animation-v1_43
+  - first:
+      213: -7302668733959625045
+    second: dummy-animation-v1_44
+  - first:
+      213: -7271203567596737194
+    second: dummy-animation-v1_45
+  - first:
+      213: 4175809026821207527
+    second: dummy-animation-v1_46
+  - first:
+      213: -1595463833390621394
+    second: dummy-animation-v1_47
+  - first:
+      213: -9168903550837793040
+    second: dummy-animation-v1_48
+  - first:
+      213: 2673401993755740093
+    second: dummy-animation-v1_49
+  - first:
+      213: -4369739225611715676
+    second: dummy-animation-v1_50
+  - first:
+      213: 3850699002188350904
+    second: dummy-animation-v1_51
+  - first:
+      213: 1363190762787463647
+    second: dummy-animation-v1_52
+  - first:
+      213: -3297375008340435835
+    second: dummy-animation-v1_53
+  - first:
+      213: -802107326724812125
+    second: dummy-animation-v1_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dummy-animation-v1_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 731
+        width: 89
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8b0112400a3b4b0800000000000000
+      internalID: -5425817186456258384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 731
+        width: 90
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d5c8752ba235ad0800000000000000
+      internalID: -2714779204912915187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 730
+        width: 90
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c1147076a0c9ee0800000000000000
+      internalID: -1253115158696223723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 729
+        width: 91
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d442626b553e3a60800000000000000
+      internalID: 7655615083185325268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_4
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 727
+        width: 87
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd7ed84551c7ee50800000000000000
+      internalID: 6838647131224309184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 727
+        width: 95
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5795de001c7580240800000000000000
+      internalID: 4758149492772788597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_6
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 729
+        width: 106
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ddc6cd3f17e17f0800000000000000
+      internalID: -639948804850918083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_7
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 729
+        width: 85
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae3e931990d6e980800000000000000
+      internalID: -8509885089992261971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_8
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 731
+        width: 89
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ec1c2054a2a8ae0800000000000000
+      internalID: -1546377046160978378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_9
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 729
+        width: 84
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af19c0c4c5afc7c60800000000000000
+      internalID: 7817398327528165882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_10
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 729
+        width: 136
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be9231cda485df00800000000000000
+      internalID: 1140963962413817528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 560
+        width: 85
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6f9b572ee478350800000000000000
+      internalID: 6018866161548654278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_12
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 557
+        width: 82
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eee774a953682720800000000000000
+      internalID: 2821614403210178278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_13
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 557
+        width: 81
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a854169843132c1d0800000000000000
+      internalID: -3332046672587831926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_14
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 555
+        width: 82
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992e049743e651760800000000000000
+      internalID: 7427964332069151385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_15
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 555
+        width: 83
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921a0d22df31f1120800000000000000
+      internalID: 2386648305461403945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_16
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 555
+        width: 97
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239ca3cc5137a5a20800000000000000
+      internalID: 3051878234954844466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_17
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 556
+        width: 101
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3bee18b8d120bf0800000000000000
+      internalID: -359692535218654258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_18
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 556
+        width: 83
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db5be70d1cc2a870800000000000000
+      internalID: 8692734655837461457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_19
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 558
+        width: 83
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91551c55de777ced0800000000000000
+      internalID: -2393812815694441191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_20
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 557
+        width: 89
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a289643b913b0c0800000000000000
+      internalID: -4561273739821962596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_21
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 566
+        width: 136
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f808885dc9015830800000000000000
+      internalID: 4058035516795783414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_22
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 386
+        width: 79
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e79265f46876ff60800000000000000
+      internalID: 8067768157489764326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_23
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 384
+        width: 82
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24b40581f19093e0800000000000000
+      internalID: -2048977363948751826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_24
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 387
+        width: 81
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d1c8ed3bfb58640800000000000000
+      internalID: 5081678533811248435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_25
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 383
+        width: 82
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2d662b0d6026430800000000000000
+      internalID: 3774586931105944258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_26
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 382
+        width: 81
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e837e0810d2dfb2d0800000000000000
+      internalID: -3260655813994318962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_27
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 386
+        width: 96
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817ca369558752fb0800000000000000
+      internalID: -4673196729339033832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_28
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 386
+        width: 100
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bd21b27e2096240800000000000000
+      internalID: 4785359270941219699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_29
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 385
+        width: 83
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe7b45420cf4b550800000000000000
+      internalID: 6175838075714502392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_30
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 384
+        width: 81
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d1660a0e18d77b0800000000000000
+      internalID: -5224877190916203229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_31
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 385
+        width: 86
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab69292af119f9580800000000000000
+      internalID: -8818169980310612294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_32
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 393
+        width: 135
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a429f533c51018600800000000000000
+      internalID: 468657331733762634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 206
+        width: 82
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7132370d4101f0020800000000000000
+      internalID: 2310082815446950679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_34
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 205
+        width: 83
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d91667427c613a0800000000000000
+      internalID: -6694944836620804856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_35
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 206
+        width: 82
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f1037fdf92da2c0800000000000000
+      internalID: -4418829488629997800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_36
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 204
+        width: 85
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519740dc016bf0eb0800000000000000
+      internalID: -4751378898577229547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_37
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 204
+        width: 86
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e15acc1d6ceae900800000000000000
+      internalID: 714643444270256613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_38
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 204
+        width: 96
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394e209751b425310800000000000000
+      internalID: 1392257790407533715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_39
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 206
+        width: 102
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bd439a1734c44e0800000000000000
+      internalID: -1996146379382793315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_40
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 205
+        width: 88
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ed6ab6b14a64410800000000000000
+      internalID: 1461035566805474846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_41
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 205
+        width: 82
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02b75800fa6fb590800000000000000
+      internalID: -7656283262341893620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_42
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 206
+        width: 86
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f544f6b6c328f30800000000000000
+      internalID: 4576286603487764377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_43
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 214
+        width: 136
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38871b3b732fb6c0800000000000000
+      internalID: -4125539721468737475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_44
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 34
+        width: 87
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba62cf74a75b7aa90800000000000000
+      internalID: -7302668733959625045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 35
+        width: 86
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65de7d731ee771b90800000000000000
+      internalID: -7271203567596737194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_46
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 34
+        width: 86
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e53c8d7f2473f930800000000000000
+      internalID: 4175809026821207527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_47
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 33
+        width: 82
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2dd4ceb816cbd9e0800000000000000
+      internalID: -1595463833390621394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_48
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 35
+        width: 83
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fede78acc281c080800000000000000
+      internalID: -9168903550837793040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_49
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 32
+        width: 86
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7c1a3f2f4d91520800000000000000
+      internalID: 2673401993755740093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_50
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 35
+        width: 86
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abb25083519b53c0800000000000000
+      internalID: -4369739225611715676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_51
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 35
+        width: 84
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b54362375e607530800000000000000
+      internalID: 3850699002188350904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_52
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 35
+        width: 87
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd16a09b6c60be210800000000000000
+      internalID: 1363190762787463647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_53
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 35
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c1e9076ee5d32d0800000000000000
+      internalID: -3297375008340435835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-animation-v1_54
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 43
+        width: 136
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a254d6d2a75ed4f0800000000000000
+      internalID: -802107326724812125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 730
+        width: 91
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4945055, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1391ccad13c79254ea7d33e981005685
+      internalID: 1765251666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 730
+        width: 92
+        height: 131
+      alignment: 9
+      pivot: {x: 0.51086956, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ffe9872bf3e6e4aaef242a7d79aab3
+      internalID: 128208679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 729
+        width: 92
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4347826, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2958b43fdf5ee794ea61c576454120e4
+      internalID: -1510543339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 728
+        width: 93
+        height: 134
+      alignment: 9
+      pivot: {x: 0.53763443, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e1ada1ceb78eb46a95d1921d950cf8
+      internalID: 413136797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 726
+        width: 89
+        height: 134
+      alignment: 9
+      pivot: {x: 0.4775281, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f2d00a3c4486f4cb23a3b91e927d05
+      internalID: 312206378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 726
+        width: 97
+        height: 135
+      alignment: 9
+      pivot: {x: 0.52061856, y: 0.022222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f50a70e4a0d4a742b2c782b7d30aa22
+      internalID: -655180086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 728
+        width: 108
+        height: 133
+      alignment: 9
+      pivot: {x: 0.3564815, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2032461ad35172545ade722d24f6ded7
+      internalID: 1601518852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 728
+        width: 87
+        height: 133
+      alignment: 9
+      pivot: {x: 0.48850575, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecbe22a559b996439b7f4c9cbe2b7e8
+      internalID: -620481481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 730
+        width: 91
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0e2231065c43b4db5770ae1b22e5cc
+      internalID: -912190483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 728
+        width: 86
+        height: 107
+      alignment: 9
+      pivot: {x: 0.49418604, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c898ffcf7b3fda45bdb843e8fb75404
+      internalID: -712945354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 728
+        width: 138
+        height: 82
+      alignment: 9
+      pivot: {x: 0.53985506, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202ac1c641ff83b42aa9e19300b33678
+      internalID: 1447144196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 559
+        width: 87
+        height: 130
+      alignment: 9
+      pivot: {x: 0.50574714, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13f5033aa164ac4f8788cbe687154ea
+      internalID: -157042594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 556
+        width: 84
+        height: 133
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e840981a1d0a94a46aca19adc48831bb
+      internalID: 1681730869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 556
+        width: 83
+        height: 134
+      alignment: 9
+      pivot: {x: 0.48795182, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda5aa79d0e2807448aa2f54d503915e
+      internalID: 197873736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 554
+        width: 84
+        height: 136
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fae79e7b5181be4c9a2353440468a01
+      internalID: -1350942430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 554
+        width: 85
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1bebc4491c6d644a6f3b3dee930cfc
+      internalID: 386525318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 554
+        width: 99
+        height: 136
+      alignment: 9
+      pivot: {x: 0.510101, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcc44f8aef65ec479b230ee466e0606
+      internalID: -695196316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 555
+        width: 103
+        height: 134
+      alignment: 9
+      pivot: {x: 0.35436893, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be2dc03e36d7f045a5d8975e92bf255
+      internalID: 1123240873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 555
+        width: 85
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.022222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1ee6bed8a10fe4e85aa818484be580
+      internalID: -1110037109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 557
+        width: 85
+        height: 133
+      alignment: 9
+      pivot: {x: 0.49411765, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2915411d68c0f41a3c08d2a7bcb4d3
+      internalID: -94042698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 556
+        width: 91
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4065934, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246cf08316a20e94fa9f7a9ebb75740e
+      internalID: -2042860245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 565
+        width: 138
+        height: 80
+      alignment: 9
+      pivot: {x: 0.54710144, y: 0.0375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4aa8f2dbfd23841833258ce9d69896
+      internalID: -1140587570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 385
+        width: 81
+        height: 135
+      alignment: 9
+      pivot: {x: 0.48765433, y: 0.022222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5226e46d265d074997e16f0b2c1a692
+      internalID: 451281801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 383
+        width: 84
+        height: 136
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4b00158754fcd41a4db8ab9be9be6c
+      internalID: 1706915045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 386
+        width: 83
+        height: 133
+      alignment: 9
+      pivot: {x: 0.44578314, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c49af339d62a8489d74738ff4845fd
+      internalID: -1738255324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 382
+        width: 84
+        height: 138
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.02173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc170ed4928e4b4292ebc052ce8c866
+      internalID: 1437846909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 381
+        width: 83
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4939759, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2dd4dc621c3664296a5682eda7eaa1
+      internalID: -384448831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 385
+        width: 98
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5153061, y: 0.022222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57f9e1e358d8b344a148939f07aef2b
+      internalID: 835907162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 385
+        width: 102
+        height: 133
+      alignment: 9
+      pivot: {x: 0.3627451, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3839462dbf563fe45b66365a43f6b857
+      internalID: 395297905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 384
+        width: 85
+        height: 135
+      alignment: 9
+      pivot: {x: 0.4882353, y: 0.022222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8c6bd65bd04dc4588b4e6527440a54
+      internalID: 955279314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 383
+        width: 83
+        height: 135
+      alignment: 9
+      pivot: {x: 0.4939759, y: 0.022222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1775a554f2c9ecd429d05026f6916422
+      internalID: -258025609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 384
+        width: 88
+        height: 111
+      alignment: 9
+      pivot: {x: 0.41477272, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ba3ee7c7d59404b9fe76d42c4f019b
+      internalID: 2101738584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 392
+        width: 137
+        height: 78
+      alignment: 9
+      pivot: {x: 0.54744524, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76a07e5739d32d4b844e0384a54598b
+      internalID: -1068603427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 205
+        width: 84
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8865a4117eb28d42ba0e240abf88a32
+      internalID: 109604216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 204
+        width: 85
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4537955e1f0a0d34f926d5a4594d0cd0
+      internalID: -239284541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 205
+        width: 84
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f3441dcbb32ee498c4101eb7f78ef6
+      internalID: -1358277622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 203
+        width: 87
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5229885, y: 0.02173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bcc1ff6afe9394a9da761d428d8354
+      internalID: 1687856464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 203
+        width: 88
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbefa0e3417ce441897aea2e1e0aa02
+      internalID: -46262951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 203
+        width: 98
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5153061, y: 0.021582734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0916ef367790224aa9757ba9c50ade9
+      internalID: -81283092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 205
+        width: 104
+        height: 134
+      alignment: 9
+      pivot: {x: 0.36057693, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66922dfed3a23c5408b14fe71ee4fd01
+      internalID: -354817302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 204
+        width: 90
+        height: 135
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.022222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5392501e79913f24385182b51ae1fcbf
+      internalID: 56796968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 204
+        width: 84
+        height: 137
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77c5b625b4372c4bbd4d7bb14b40661
+      internalID: 161740359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 205
+        width: 88
+        height: 115
+      alignment: 9
+      pivot: {x: 0.44886363, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a57fbcdd9ff9a49a00795c6bb7add6
+      internalID: -1770130894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 213
+        width: 138
+        height: 80
+      alignment: 9
+      pivot: {x: 0.54347825, y: 0.0375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee215041d5e17c54b81fb0679060dde9
+      internalID: -711858691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 33
+        width: 89
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faac22a0328b44479cebd28b69e40eb
+      internalID: -568413832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 34
+        width: 88
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d68f46e748e294eab7fadf0d341e03
+      internalID: -1744279419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 33
+        width: 88
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52c7b849c2705a48ae77973e0e400e2
+      internalID: -1398023242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 32
+        width: 84
+        height: 141
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66b2b48b42e8f144aa2049dc69c01f7
+      internalID: 818707856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 34
+        width: 85
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bec3b5fcfdd104e99d8d3fe40b174f
+      internalID: -1257994823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 31
+        width: 88
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5056818, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d66f0e140e3d434f935a68d783c07ad
+      internalID: 1640370610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 34
+        width: 88
+        height: 133
+      alignment: 9
+      pivot: {x: 0.4943182, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08badb9c8daddb14dbdd092a77a344c9
+      internalID: 1152603638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 34
+        width: 86
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc630f04b7fc0e42ba26918bc7aa503
+      internalID: -1924868214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 34
+        width: 89
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e3ac80a804fbe4890d0b49aca7a91b
+      internalID: 1306376743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 34
+        width: 82
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c7175103092fd4980be92a60c29d2b
+      internalID: 101816908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummy-v1-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 42
+        width: 138
+        height: 80
+      alignment: 9
+      pivot: {x: 0.54347825, y: 0.0375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5efe53821f84d45bc50b07a9e0c088
+      internalID: -109474106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8c4953e63426c7f449d9b1d1ebdfd2ef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dummy-animation-v1_0: -5425817186456258384
+      dummy-animation-v1_1: -2714779204912915187
+      dummy-animation-v1_10: 1140963962413817528
+      dummy-animation-v1_11: 6018866161548654278
+      dummy-animation-v1_12: 2821614403210178278
+      dummy-animation-v1_13: -3332046672587831926
+      dummy-animation-v1_14: 7427964332069151385
+      dummy-animation-v1_15: 2386648305461403945
+      dummy-animation-v1_16: 3051878234954844466
+      dummy-animation-v1_17: -359692535218654258
+      dummy-animation-v1_18: 8692734655837461457
+      dummy-animation-v1_19: -2393812815694441191
+      dummy-animation-v1_2: -1253115158696223723
+      dummy-animation-v1_20: -4561273739821962596
+      dummy-animation-v1_21: 4058035516795783414
+      dummy-animation-v1_22: 8067768157489764326
+      dummy-animation-v1_23: -2048977363948751826
+      dummy-animation-v1_24: 5081678533811248435
+      dummy-animation-v1_25: 3774586931105944258
+      dummy-animation-v1_26: -3260655813994318962
+      dummy-animation-v1_27: -4673196729339033832
+      dummy-animation-v1_28: 4785359270941219699
+      dummy-animation-v1_29: 6175838075714502392
+      dummy-animation-v1_3: 7655615083185325268
+      dummy-animation-v1_30: -5224877190916203229
+      dummy-animation-v1_31: -8818169980310612294
+      dummy-animation-v1_32: 468657331733762634
+      dummy-animation-v1_33: 2310082815446950679
+      dummy-animation-v1_34: -6694944836620804856
+      dummy-animation-v1_35: -4418829488629997800
+      dummy-animation-v1_36: -4751378898577229547
+      dummy-animation-v1_37: 714643444270256613
+      dummy-animation-v1_38: 1392257790407533715
+      dummy-animation-v1_39: -1996146379382793315
+      dummy-animation-v1_4: 6838647131224309184
+      dummy-animation-v1_40: 1461035566805474846
+      dummy-animation-v1_41: -7656283262341893620
+      dummy-animation-v1_42: 4576286603487764377
+      dummy-animation-v1_43: -4125539721468737475
+      dummy-animation-v1_44: -7302668733959625045
+      dummy-animation-v1_45: -7271203567596737194
+      dummy-animation-v1_46: 4175809026821207527
+      dummy-animation-v1_47: -1595463833390621394
+      dummy-animation-v1_48: -9168903550837793040
+      dummy-animation-v1_49: 2673401993755740093
+      dummy-animation-v1_5: 4758149492772788597
+      dummy-animation-v1_50: -4369739225611715676
+      dummy-animation-v1_51: 3850699002188350904
+      dummy-animation-v1_52: 1363190762787463647
+      dummy-animation-v1_53: -3297375008340435835
+      dummy-animation-v1_54: -802107326724812125
+      dummy-animation-v1_6: -639948804850918083
+      dummy-animation-v1_7: -8509885089992261971
+      dummy-animation-v1_8: -1546377046160978378
+      dummy-animation-v1_9: 7817398327528165882
+      dummy-v1-r00-f00: 1765251666
+      dummy-v1-r00-f01: 128208679
+      dummy-v1-r00-f02: -1510543339
+      dummy-v1-r00-f03: 413136797
+      dummy-v1-r00-f04: 312206378
+      dummy-v1-r00-f05: -655180086
+      dummy-v1-r00-f06: 1601518852
+      dummy-v1-r00-f07: -620481481
+      dummy-v1-r00-f08: -912190483
+      dummy-v1-r00-f09: -712945354
+      dummy-v1-r00-f10: 1447144196
+      dummy-v1-r01-f00: -157042594
+      dummy-v1-r01-f01: 1681730869
+      dummy-v1-r01-f02: 197873736
+      dummy-v1-r01-f03: -1350942430
+      dummy-v1-r01-f04: 386525318
+      dummy-v1-r01-f05: -695196316
+      dummy-v1-r01-f06: 1123240873
+      dummy-v1-r01-f07: -1110037109
+      dummy-v1-r01-f08: -94042698
+      dummy-v1-r01-f09: -2042860245
+      dummy-v1-r01-f10: -1140587570
+      dummy-v1-r02-f00: 451281801
+      dummy-v1-r02-f01: 1706915045
+      dummy-v1-r02-f02: -1738255324
+      dummy-v1-r02-f03: 1437846909
+      dummy-v1-r02-f04: -384448831
+      dummy-v1-r02-f05: 835907162
+      dummy-v1-r02-f06: 395297905
+      dummy-v1-r02-f07: 955279314
+      dummy-v1-r02-f08: -258025609
+      dummy-v1-r02-f09: 2101738584
+      dummy-v1-r02-f10: -1068603427
+      dummy-v1-r03-f00: 109604216
+      dummy-v1-r03-f01: -239284541
+      dummy-v1-r03-f02: -1358277622
+      dummy-v1-r03-f03: 1687856464
+      dummy-v1-r03-f04: -46262951
+      dummy-v1-r03-f05: -81283092
+      dummy-v1-r03-f06: -354817302
+      dummy-v1-r03-f07: 56796968
+      dummy-v1-r03-f08: 161740359
+      dummy-v1-r03-f09: -1770130894
+      dummy-v1-r03-f10: -711858691
+      dummy-v1-r04-f00: -568413832
+      dummy-v1-r04-f01: -1744279419
+      dummy-v1-r04-f02: -1398023242
+      dummy-v1-r04-f03: 818707856
+      dummy-v1-r04-f04: -1257994823
+      dummy-v1-r04-f05: 1640370610
+      dummy-v1-r04-f06: 1152603638
+      dummy-v1-r04-f07: -1924868214
+      dummy-v1-r04-f08: 1306376743
+      dummy-v1-r04-f09: 101816908
+      dummy-v1-r04-f10: -109474106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

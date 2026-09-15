@@ -14,7 +14,7 @@ using UnityEngine.UI;
 
 namespace MonsterPouch.Local
 {
-    public sealed class LocalGameUI : MonoBehaviour
+    public sealed partial class LocalGameUI : MonoBehaviour
     {
         public Sprite MoonIcon, RerollIcon, BriefArt, BenchArt, ClosedBriefArt;
         public MatchController Match { get; private set; }
@@ -104,7 +104,7 @@ namespace MonsterPouch.Local
             {
                 float delay=CombatSimulation.GetImpactDelay(actor,target);
                 if (visuals.TryGetValue(actor,out var v)) v.Attack(target.transform.position,projectile,delay);
-                if (projectile) StartCoroutine(Projectile(actor,target,delay));
+                if (projectile && !DocumentedBattleEffects.HandlesProjectile(actor)) StartCoroutine(Projectile(actor,target,delay));
             };
             Match.Died += actor => { if (visuals.TryGetValue(actor,out var v)) v.Die(); };
             Match.Reviving += (actor,duration) => { if(visuals.TryGetValue(actor,out var v))v.BeginRevive(duration); };
@@ -112,6 +112,7 @@ namespace MonsterPouch.Local
             Match.Impacted += (actor,target,damage) => { if(damage>0)StartCoroutine(ImpactEffect(actor,target,false)); };
             Match.LethalImpacted += (actor,target) => StartCoroutine(ImpactEffect(actor,target,true));
             Match.Sound += PlaySound;
+            gameObject.AddComponent<DocumentedBattleEffects>().Configure(Match,CanvasRoot,GameCamera);
             RenderPage();
         }
         void BuildCanvas()
@@ -147,6 +148,7 @@ namespace MonsterPouch.Local
         }
         void RenderMenu()
         {
+            if(ModernMenu){RenderModernMenu();return;}
             selectedOfferSlot=-1;lastBriefRound=0;shownPouch=null;briefOpen=briefTarget=0;
             rerollSequence++;rerollBusy=rerollClosing=false;
             Panel(page,"Menu shade",new Rect(0,0,540,960),new Color(.025f,.055f,.085f,.88f));
@@ -197,18 +199,15 @@ namespace MonsterPouch.Local
         void SaveTeam(){PlayerPrefs.SetString("monster-pouch.whelps",string.Join(",",chosenWhelps.OrderBy(id=>id,StringComparer.Ordinal)));}
         void RenderGame()
         {
-            var top=Panel(page,"Round header",new Rect(14,16,512,108),ink);
-            Label(top,"MONSTER POUCH",new Rect(15,8,340,25),18,gold,FontStyle.Bold,TextAnchor.MiddleLeft);
-            Button(top,"Ⅱ",new Rect(450,10,46,40),()=>{Match.Pause(true);ShowPause();},new Color(.15f,.26f,.30f),Color.white);
+            var top=Panel(page,"Round header",new Rect(18,26,284,68),ink);
+            Button(page,"Ⅱ",new Rect(320,28,48,48),()=>{Match.Pause(true);ShowPause();},ink,Color.white);
             string phase=Match.Phase==MatchPhase.Preparation?"PREPARACIÓN":Match.Phase==MatchPhase.Combat?"COMBATE":"RESULTADO";
-            Label(top,$"RONDA {Match.Round}  ·  {phase}",new Rect(15,41,338,22),15,Color.white,FontStyle.Bold,TextAnchor.MiddleLeft);
-            clockText=Label(top,"",new Rect(378,49,107,45),29,cyan,FontStyle.Bold);
-            Label(top,$"TÚ  {Match.PlayerWins}     —     {Match.BotWins}  RIVAL     / 3",new Rect(15,72,340,24),17,Color.white,FontStyle.Normal,TextAnchor.MiddleLeft);
-            if(Match.Phase==MatchPhase.Preparation)
-            {
-                Image(top,MoonIcon,new Rect(300,8,25,25));
-                Label(top,Match.Player.Coins.ToString(),new Rect(330,7,110,28),22,gold,FontStyle.Bold,TextAnchor.MiddleLeft);
-            }
+            Label(top,phase,new Rect(12,6,260,28),21,Color.white,FontStyle.Bold);
+            var timer=Panel(page,"Clock",new Rect(405,26,117,68),ink);
+            clockText=Label(timer,"",new Rect(5,7,107,52),31,cyan,FontStyle.Bold);
+            Label(top,$"TÚ {Match.PlayerWins}  —  {Match.BotWins} RIVAL  / 3",new Rect(12,39,260,22),16,Color.white);
+            noticeText=Label(page,Match.Notice??"",new Rect(50,102,440,31),13,Color.white);
+            noticeText.gameObject.AddComponent<Outline>().effectColor=ink;
             RenderBrief();
             foreach(var pair in Match.Actors) CreateBar(pair.Value,pair.Key);
             if(Match.Phase==MatchPhase.RoundResult || Match.Phase==MatchPhase.MatchResult) RenderResult();
@@ -222,7 +221,7 @@ namespace MonsterPouch.Local
                 rerollSequence++;rerollBusy=rerollClosing=false;
             }
             briefTarget=prep&&!rerollClosing?1:0;
-            var tray=Panel(page,"Brief tray",new Rect(0,674,540,280),Color.clear,false);
+            var tray=Panel(page,"Brief tray",new Rect(0,704,540,256),Color.clear,false);
             var body=Panel(tray,"Brief body",new Rect(12,62,350,157),Color.clear,false);
             briefBodyImage=body.gameObject.AddComponent<Image>();briefBodyImage.sprite=briefBodySprite;briefBodyImage.raycastTarget=false;
             briefDrop=HitArea(tray,"Brief drop",new Rect(12,0,350,219));
@@ -262,33 +261,33 @@ namespace MonsterPouch.Local
             closed.pivot=new Vector2(.5f,.5f);closed.anchoredPosition=new Vector2(187,-140.5f);
             briefClosedImage=closed.gameObject.AddComponent<Image>();briefClosedImage.sprite=ClosedBriefArt;briefClosedImage.preserveAspect=true;briefClosedImage.raycastTarget=false;
             // A separate one-slot case is the bank. It never shares a sell target with the Brief.
-            Image(tray,BenchArt,new Rect(374,53,150,132));
-            benchDrop=HitArea(tray,"Bench drop",new Rect(374,53,150,132));
-            Label(tray,"BANCO",new Rect(374,36,150,18),12,gold);
+            Image(tray,BenchArt,new Rect(374,82,150,112));
+            benchDrop=HitArea(tray,"Bench drop",new Rect(374,82,150,112));
             var benched=Match.Player.Owned.Values.FirstOrDefault(o=>o.Location==UnitLocation.Bench);
             if(benched!=null)
             {
-                Portrait(benchDrop,benched.Definition.Id,new Rect(48,44,54,46));
-                Label(benchDrop,Stars(benched.TrickCount),new Rect(37,35,76,12),10,gold);
+                Portrait(benchDrop,benched.Definition.Id,new Rect(48,39,54,46));
+                Label(benchDrop,Stars(benched.TrickCount),new Rect(37,30,76,12),10,gold);
                 AddUnitGesture(benchDrop,benched,false);
             }
             else benchDrop.gameObject.AddComponent<Button>().onClick.AddListener(()=>{
                 if(selectedOfferSlot>=0)DropOffer(selectedOfferSlot,selectedOfferToken,RectTransformUtility.WorldToScreenPoint(null,benchDrop.TransformPoint(benchDrop.rect.center)));
                 else if(SelectedId!=null)Match.Store(SelectedId,true);
             });
-            noticeText=Label(tray,string.IsNullOrEmpty(Match.Notice)?"Arrastra al tablero · Mantén para inspeccionar":Match.Notice,new Rect(15,230,343,43),12,Color.white);
-            noticeText.gameObject.AddComponent<Outline>().effectColor=Color.black;
             if(!prep)
             {
                 bool fighting=Match.Phase==MatchPhase.Combat;
-                Label(tray,fighting?"COMBATE":"RESULTADO",new Rect(375,190,150,23),14,gold,FontStyle.Bold);
+                Label(tray,fighting?"COMBATE":"RESULTADO",new Rect(375,207,150,23),14,gold,FontStyle.Bold);
                 ApplyBriefPose();return;
             }
             int offerVersion=Match.Player.OfferVersion;
-            var reroll=Button(tray,"    "+Match.Player.Rerolls,new Rect(375,0,150,32),()=>RequestReroll(offerVersion),new Color(.16f,.26f,.29f),Color.white,18);
+            var resources=Panel(tray,"Battle resources",new Rect(375,-39,150,107),ink);
+            Image(resources,MoonIcon,new Rect(18,7,39,39));
+            Label(resources,Match.Player.Coins.ToString(),new Rect(69,5,64,42),29,gold,FontStyle.Bold);
+            var reroll=Button(tray,"      "+Match.Player.Rerolls,new Rect(380,15,140,48),()=>RequestReroll(offerVersion),new Color(.05f,.10f,.12f),Color.white,26);
             reroll.name="Reroll";
-            if(RerollIcon!=null) Image(reroll,RerollIcon,new Rect(21,4,27,26));
-            Button(tray,"LISTO",new Rect(375,220,150,59),()=>{CloseModal();Match.Ready();},gold,ink,22);
+            if(RerollIcon!=null) Image(reroll,RerollIcon,new Rect(14,4,39,39));
+            Button(tray,"LISTO",new Rect(375,204,150,50),()=>{CloseModal();Match.Ready();},gold,ink,22);
             ApplyBriefPose();
         }
         void UpdateBriefMotion()
@@ -404,7 +403,7 @@ namespace MonsterPouch.Local
             if(lastScreen.x!=Screen.width||lastScreen.y!=Screen.height||lastSafeArea!=Screen.safeArea)UpdateLayout();
             if(rebuild)RenderPage();
             if(clockText!=null)clockText.text=Match.Phase==MatchPhase.Preparation||Match.Phase==MatchPhase.Combat?Mathf.CeilToInt(Match.Remaining)+"s":"";
-            if(noticeText!=null)noticeText.text=string.IsNullOrEmpty(Match.Notice)?"Mantén para ver Tricks":Match.Notice;
+            if(noticeText!=null)noticeText.text=Match.Notice??"";
             if(inspectStats!=null && inspected!=null)inspectStats.text=StatsText(inspected);
             UpdateBriefMotion();
             UpdateBoardGesture();
@@ -554,6 +553,7 @@ namespace MonsterPouch.Local
         }
         public void ShowInspection(OwnedUnit owned,bool enemy)
         {
+            if(owned.Definition.UsesDocumentedRules){ShowDocumentedInspection(owned,enemy);return;}
             CloseModal();inspected=owned;inspectedEnemy=enemy;
             bool summoned=Match.Actors.TryGetValue(owned,out var inspectedActor)&&inspectedActor.IsCombatSummon;
             modal=Panel(CanvasRoot,"Inspection shade",new Rect(0,0,540,960),new Color(0,0,0,.55f));

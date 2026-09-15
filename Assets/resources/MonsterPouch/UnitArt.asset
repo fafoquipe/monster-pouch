@@ -154,15 +154,20 @@ MonoBehaviour:
       MoveFramesPerSecond: 10
       AttackContactFrame: 1
       FlipX: 0
-    Portrait: {fileID: 409576151, guid: e88adcbf603e8ec4b9a76b864c483edf, type: 3}
+    Portrait: {fileID: -1222467314, guid: adc7354a113ad4746b117acab44ff313, type: 3}
     WorldWidth: 1.05
     ReferencePixelWidth: 142
     FootPivot: {x: 0.5, y: 0.26953125}
     ProvisionalDirectionalProjection: 0
-    SourceNotes: Eight named 256 x 256 source directions from pictures/gogos-minis.
+    SourceNotes: 'Eight named 256 x 256 source directions from pictures/gogos-minis.
       PNG bytes preserved. Idle breathing and articulated movement are provisional.
       One separate authored attack view per direction is combined with anticipation/contact/recovery;
       the 4 x 2 sheet is not played as eight temporal frames.
+
+      September 14,
+      2026: exact supplied design from pictures/gogos-minis; immutable source in
+      Assets/art/units/user-sept14/bugaloo/bugaloo-source.png. Approved combat animation
+      and board scale preserved.'
   - Id: popow
     IdleDirections:
     - {fileID: 875393696, guid: 4114f83d9d35a0a498a90d6e337d2135, type: 3}
@@ -304,15 +309,20 @@ MonoBehaviour:
       MoveFramesPerSecond: 10
       AttackContactFrame: 1
       FlipX: 0
-    Portrait: {fileID: 1112344805, guid: 9a9239552512d144bbdf328d32c97e78, type: 3}
+    Portrait: {fileID: -740042394, guid: 9c8054c5a209a9c4e9ad6ac1ceecfcbe, type: 3}
     WorldWidth: 1.05
     ReferencePixelWidth: 154
     FootPivot: {x: 0.50390625, y: 0.22265625}
     ProvisionalDirectionalProjection: 0
-    SourceNotes: Eight named 256 x 256 source directions from pictures/gogos-minis.
+    SourceNotes: 'Eight named 256 x 256 source directions from pictures/gogos-minis.
       PNG bytes preserved. Idle breathing and articulated movement are provisional.
       One separate authored attack view per direction is combined with anticipation/contact/recovery;
       the 4 x 2 sheet is not played as eight temporal frames.
+
+      September 14,
+      2026: exact supplied design from pictures/gogos-minis; immutable source in
+      Assets/art/units/user-sept14/popow/popow-source.png. Approved combat animation
+      and board scale preserved.'
   - Id: dummy
     IdleDirections:
     - {fileID: -568413832, guid: f44c3ffcb16bcf34bbd2b63b7e874cbb, type: 3}
@@ -797,7 +807,7 @@ MonoBehaviour:
       MoveFramesPerSecond: 10
       AttackContactFrame: 1
       FlipX: 1
-    Portrait: {fileID: -783692906, guid: 0feeb4f22e36efa4f8720094c45dcfdc, type: 3}
+    Portrait: {fileID: 1206809963, guid: 90cb0d87b0f152e4f9229a039f02effa, type: 3}
     WorldWidth: 0.72
     ReferencePixelWidth: 90
     FootPivot: {x: 0.49444443, y: 0.0234375}
@@ -808,7 +818,12 @@ MonoBehaviour:
       Each view: idle2, move4, attack3, death3. Source is immutable magenta; RGBA
       derivative and pivots use the shared importer. Reference sources and exact
       built-in imagegen prompts: docs/whelps-expanded-art.md and docs/whelps-generation-prompts.md.
-      Animation staging is an original game interpretation, not extracted toy animation.'
+      Animation staging is an original game interpretation, not extracted toy animation.
+
+      September
+      14, 2026: exact supplied design from pictures/gogos-minis; immutable source
+      in Assets/art/units/user-sept14/bugui/bugui-source.png. Approved combat animation
+      and board scale preserved.'
   - Id: atori
     IdleDirections:
     - {fileID: 1510898328, guid: 7868bff7e984153489ee666f4b1206fb, type: 3}
@@ -1046,7 +1061,7 @@ MonoBehaviour:
       MoveFramesPerSecond: 10
       AttackContactFrame: 1
       FlipX: 1
-    Portrait: {fileID: -950549686, guid: 7868bff7e984153489ee666f4b1206fb, type: 3}
+    Portrait: {fileID: 195902597, guid: 3628581b8fc8b834099fad1b9573bfbd, type: 3}
     WorldWidth: 0.88
     ReferencePixelWidth: 96
     FootPivot: {x: 0.484375, y: 0.028571429}
@@ -1056,7 +1071,11 @@ MonoBehaviour:
       mirrored; each has idle2, move4, attack3 and death3. The immutable source uses
       magenta; a separate RGBA atlas removes the import key. Character references
       and generation prompts: docs/atori-megatrip.md. All combat statistics are provisional
-      Monster Pouch design.'
+      Monster Pouch design.
+
+      September 14, 2026: exact supplied design from
+      pictures/gogos-minis; immutable source in Assets/art/units/user-sept14/atori/atori-source.png.
+      Approved combat animation and board scale preserved.'
   - Id: kayon
     IdleDirections:
     - {fileID: 402573643, guid: 8cdfdec56d0c13c4eb4f421e21bf211a, type: 3}
@@ -1326,7 +1345,7 @@ MonoBehaviour:
       MoveFramesPerSecond: 10
       AttackContactFrame: 1
       FlipX: 1
-    Portrait: {fileID: 697971366, guid: 71e8d75c223c2f14da66489f0d9f6d38, type: 3}
+    Portrait: {fileID: -1158124551, guid: 3779a693f5d492342a176b3692a19b35, type: 3}
     WorldWidth: 0.8
     ReferencePixelWidth: 108
     FootPivot: {x: 0.39732143, y: 0.027272727}
@@ -1336,7 +1355,11 @@ MonoBehaviour:
       sack of golden stones. 80 generated poses in five views with three intentional
       mirrored directions. Original portraits and exact built-in imagegen prompts
       preserved: docs/user-whelps-designs.md. Existing combat stats and world width
-      retained.'
+      retained.
+
+      September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/kayon/kayon-source.png. Approved
+      combat animation and board scale preserved.'
   - Id: stein
     IdleDirections:
     - {fileID: -1379536929, guid: b61b583d5bf2cdd47a8327c677c6de67, type: 3}
@@ -1598,7 +1621,7 @@ MonoBehaviour:
       MoveFramesPerSecond: 10
       AttackContactFrame: 1
       FlipX: 1
-    Portrait: {fileID: 802926770, guid: 80137b256f0973c45adee90f3331bb51, type: 3}
+    Portrait: {fileID: 938447239, guid: aa07162935e10284a94d1a02b2b8d73f, type: 3}
     WorldWidth: 0.86
     ReferencePixelWidth: 124
     FootPivot: {x: 0.50390625, y: 0.023255814}
@@ -1607,7 +1630,11 @@ MonoBehaviour:
       white hair, formula face, huge grin and chest heart; cyan lightning casting.
       75 generated poses in five views with three intentional mirrored directions.
       Original portraits and exact built-in imagegen prompts preserved: docs/user-whelps-designs.md.
-      Existing combat stats and world width retained.'
+      Existing combat stats and world width retained.
+
+      September 14, 2026:
+      exact supplied design from pictures/gogos-minis; immutable source in Assets/art/units/user-sept14/stein/stein-source.png.
+      Approved combat animation and board scale preserved.'
   - Id: anuik
     IdleDirections:
     - {fileID: -273987116, guid: 8e3e3c3240f049442847bc21765fe958, type: 3}
@@ -1901,7 +1928,7 @@ MonoBehaviour:
       MoveFramesPerSecond: 10
       AttackContactFrame: 1
       FlipX: 1
-    Portrait: {fileID: -1028625047, guid: 6bb7245473b6299429a908fa978e9320, type: 3}
+    Portrait: {fileID: 2003355200, guid: 82bc25fe52f76fb4f85c1ad28e71dbc0, type: 3}
     WorldWidth: 1.18
     ReferencePixelWidth: 127
     FootPivot: {x: 0.5, y: 0.030612245}
@@ -1911,7 +1938,12 @@ MonoBehaviour:
       pixel outline. User reference preserved in anuik-approved/anuik-user-reference.png.
       Supersedes the rejected peach/gray design. Five authored views and three mirrored
       directions; 60 combat poses and 25 revival poses, with calibrated headstand
-      scale. Built-in imagegen prompts: docs/anuik-user-design.md. Combat rules unchanged.'
+      scale. Built-in imagegen prompts: docs/anuik-user-design.md. Combat rules unchanged.
+
+      September
+      14, 2026: exact supplied design from pictures/gogos-minis; immutable source
+      in Assets/art/units/user-sept14/anuik/anuik-source.png. Approved combat animation
+      and board scale preserved.'
   - Id: tauris
     IdleDirections:
     - {fileID: 412960250, guid: 8b71f2c5d430eca4e83fcbca9b8494fb, type: 3}
@@ -2173,7 +2205,7 @@ MonoBehaviour:
       MoveFramesPerSecond: 10
       AttackContactFrame: 1
       FlipX: 1
-    Portrait: {fileID: 12941788, guid: 21f51390dd8758a4288fb8cbb7be5493, type: 3}
+    Portrait: {fileID: -427243590, guid: 9b064d0b267e84846893cf27f5c74c2d, type: 3}
     WorldWidth: 0.75
     ReferencePixelWidth: 82
     FootPivot: {x: 0.4883721, y: 0.027027028}
@@ -2185,4 +2217,1658 @@ MonoBehaviour:
       outline retained. Board width reduced by 25 percent from the prior version.
       75 authored idle/movement/melee bite/death poses in five views and three intentional
       mirrored directions. Reference and exact built-in imagegen prompts: docs/tauris-user-design.md.
-      Anuik''s approved art remains unchanged.'
+      Anuik''s approved art remains unchanged.
+
+      September 14, 2026: exact supplied
+      design from pictures/gogos-minis; immutable source in Assets/art/units/user-sept14/tauris/tauris-source.png.
+      Approved combat animation and board scale preserved.'
+  - Id: sepora
+    IdleDirections:
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    AttackDirections:
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    - {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: -342666762, guid: a2fdc2e1624e9a2409d286346863a24a, type: 3}
+    WorldWidth: 1
+    ReferencePixelWidth: 1241
+    FootPivot: {x: 0.4883534, y: 0.0032644179}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/sepora/sepora-source.png.
+      Frontal sprite animated procedurally by UnitPresentation; no authored additional
+      views are claimed.'
+  - Id: blotan
+    IdleDirections:
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    AttackDirections:
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    - {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: 1709032711, guid: 486b4b264c3470e4abd3960e4f4fda5e, type: 3}
+    WorldWidth: 0.85
+    ReferencePixelWidth: 1047
+    FootPivot: {x: 0.46955281, y: 0.0028625955}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/blotan/blotan-source.png.
+      Frontal sprite animated procedurally by UnitPresentation; no authored additional
+      views are claimed.'
+  - Id: flo
+    IdleDirections:
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    AttackDirections:
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    - {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: -2031126182, guid: 3e96596925e34054bae3fb4999f772ab, type: 3}
+    WorldWidth: 0.78
+    ReferencePixelWidth: 981
+    FootPivot: {x: 0.5005076, y: 0.0030425964}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/flo/flo-source.png. Frontal
+      sprite animated procedurally by UnitPresentation; no authored additional views
+      are claimed.'
+  - Id: gochan
+    IdleDirections:
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    AttackDirections:
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    - {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: 1491874981, guid: 9aa862ac8d8f33d4dabc7a6d2d682475, type: 3}
+    WorldWidth: 0.87
+    ReferencePixelWidth: 973
+    FootPivot: {x: 0.49232343, y: 0.0026548672}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/gochan/gochan-source.png.
+      Frontal sprite animated procedurally by UnitPresentation; no authored additional
+      views are claimed.'
+  - Id: jazar
+    IdleDirections:
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    AttackDirections:
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    - {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: 691892289, guid: 0c4a0695c14fd1649a8b8d9eb18ce3ea, type: 3}
+    WorldWidth: 0.88
+    ReferencePixelWidth: 1173
+    FootPivot: {x: 0.4995752, y: 0.0026362038}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/jazar/jazar-source.png. Frontal
+      sprite animated procedurally by UnitPresentation; no authored additional views
+      are claimed.'
+  - Id: trimol
+    IdleDirections:
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    AttackDirections:
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    - {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: -407598487, guid: a859e97ae3fe6f640908749c681f308d, type: 3}
+    WorldWidth: 0.82
+    ReferencePixelWidth: 1091
+    FootPivot: {x: 0.49908677, y: 0.002915452}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/trimol/trimol-source.png.
+      Frontal sprite animated procedurally by UnitPresentation; no authored additional
+      views are claimed.'
+  - Id: tsu
+    IdleDirections:
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    AttackDirections:
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    - {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: -319363034, guid: 002696d0f4b18574b9bf963e3bd1e6c6, type: 3}
+    WorldWidth: 0.68
+    ReferencePixelWidth: 831
+    FootPivot: {x: 0.5, y: 0.0029440627}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/tsu/tsu-source.png. Frontal
+      sprite animated procedurally by UnitPresentation; no authored additional views
+      are claimed.'
+  - Id: atong
+    IdleDirections:
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    AttackDirections:
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    - {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: 1350529759, guid: 2486aa89d20e8a24db8a0ebf90e08263, type: 3}
+    WorldWidth: 0.72
+    ReferencePixelWidth: 733
+    FootPivot: {x: 0.5006784, y: 0.0023255814}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/atong/atong-source.png. Frontal
+      sprite animated procedurally by UnitPresentation; no authored additional views
+      are claimed.'
+  - Id: tokoro
+    IdleDirections:
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    AttackDirections:
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    - {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: 1127100341, guid: c5f7a8140895a064d9db08186a05c709, type: 3}
+    WorldWidth: 0.9
+    ReferencePixelWidth: 856
+    FootPivot: {x: 0.5, y: 0.0035005833}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/tokoro/tokoro-source.png.
+      Frontal sprite animated procedurally by UnitPresentation; no authored additional
+      views are claimed.'
+  - Id: aky
+    IdleDirections:
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    AttackDirections:
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    - {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: -237594064, guid: 4169eef995c8d22489018d8fcd2cc25a, type: 3}
+    WorldWidth: 0.82
+    ReferencePixelWidth: 903
+    FootPivot: {x: 0.5, y: 0.0035587188}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/aky/aky-source.png. Frontal
+      sprite animated procedurally by UnitPresentation; no authored additional views
+      are claimed.'
+  - Id: hymay
+    IdleDirections:
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    AttackDirections:
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    - {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    - Idle: []
+      Move: []
+      Attack: []
+      Death: []
+      Revive: []
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      FlipX: 0
+    Portrait: {fileID: 449456005, guid: c16bd4b6414834e4c84136fe34edcba4, type: 3}
+    WorldWidth: 0.73
+    ReferencePixelWidth: 798
+    FootPivot: {x: 0.5798005, y: 0.0026690392}
+    ProvisionalDirectionalProjection: 0
+    SourceNotes: 'September 14, 2026: exact supplied design from pictures/gogos-minis;
+      immutable source in Assets/art/units/user-sept14/hymay/hymay-source.png. Frontal
+      sprite animated procedurally by UnitPresentation; no authored additional views
+      are claimed.'

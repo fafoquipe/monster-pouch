@@ -1,0 +1,1172 @@
+{
+  "schema_version": 1,
+  "source_documents": [
+    {
+      "path": "C:\\Users\\HP VICTUS\\Downloads\\Monsters.pdf",
+      "pages": 5
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Downloads\\whelps.pdf",
+      "pages": 14
+    }
+  ],
+  "source_verification": "All 19 pages rendered with PDFium and visually inspected alongside pypdf text extraction.",
+  "scope": "Combat rules only. Flavor/editorial comments are not gameplay rules. No base stats or energy rates invented as source facts.",
+  "global_ambiguities": [
+    "PDFs define no global energy capacity/generation/cost/damage received gain. Energy tuning must be explicitly provisional.",
+    "Except values embedded in abilities, PDFs omit maxHP, basicdamage, attackinterval, movementinterval, acquisitionrange, IQ, costs and upgrade unlock rules.",
+    "PDFs do not specify whether Monster upgrades stack or choose1; Tsu explicitly allows Whelp upgrades1+3 together.",
+    "Adjacency usually unspecified4-way/8-way; 3x3 and cross differ explicitly. Preserve separate area functions.",
+    "Status durations often omitted. Do not silently present inferred defaults as PDF facts.",
+    "Bugaloo taunt, Hymay focus, Sepora invisibility and Anuik resurrection create legitimate target-lock exceptions.",
+    "Keep summons alive after ownerdeath and whole-teamround completion from prioruserrequirements."
+  ],
+  "units": [
+    {
+      "id": "anuik",
+      "name": "Anuik",
+      "category": "Monster",
+      "source_pdf": "Monsters.pdf",
+      "source_pages": [
+        1
+      ],
+      "basic_attack": {
+        "type": null,
+        "name": null,
+        "combat_text": null,
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "anuik-revive",
+        "name": "Siempre de Pie",
+        "trigger": "first_defeat",
+        "combat_text": "La primera vez que Anuik es derrotado, cae de pie y revive con 50% de su vida máxima.",
+        "parameters": {
+          "max_revives": 1,
+          "health_fraction": 0.5
+        }
+      },
+      "upgrades": [
+        {
+          "id": "anuik-second-revive",
+          "name": "Una Vez Más",
+          "trigger": "second_defeat",
+          "combat_text": "Después de utilizar Siempre de Pie, Anuik puede revivir una segunda vez al ser derrotado, esta vez con 25% de su vida máxima.",
+          "parameters": {
+            "max_revives": 2,
+            "second_health_fraction": 0.25
+          }
+        },
+        {
+          "id": "anuik-revive-impact",
+          "name": "Impacto de Retorno",
+          "trigger": "revive",
+          "combat_text": "Cuando Anuik revive mediante Siempre de Pie, inflige daño a todos los enemigos en las casillas adyacentes y los empuja.",
+          "parameters": {
+            "area": "adjacent"
+          }
+        },
+        {
+          "id": "anuik-revive-jump",
+          "name": "Salto de Regreso",
+          "trigger": "revive",
+          "combat_text": "Cuando Anuik revive mediante Siempre de Pie, en lugar de reaparecer donde fue derrotado, aparece 4 casillas hacia adelante.",
+          "parameters": {
+            "forward_cells": 4
+          }
+        }
+      ],
+      "ambiguities": [
+        "El PDF dice cae de pie; petición previa del usuario especifica animación de cabeza.",
+        "No indica daño del impacto, distancia de empuje, retraso de resurrección, destino ocupado/fuera del tablero ni si mejoras 2/3 también se activan en segunda resurrección.",
+        "Ataque a distancia de corazones procede de petición previa, no se repite en PDF."
+      ]
+    },
+    {
+      "id": "bugaloo",
+      "name": "Bugaloo",
+      "category": "Monster",
+      "source_pdf": "Monsters.pdf",
+      "source_pages": [
+        2
+      ],
+      "basic_attack": {
+        "type": null,
+        "name": null,
+        "combat_text": null,
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "bugaloo-reflect",
+        "name": "Rebote Lunar",
+        "trigger": "energy",
+        "combat_text": "Durante 3 segundos, Bugaloo provoca a los enemigos cercanos para que lo ataquen y refleja el daño recibido hacia ellos.",
+        "parameters": {
+          "duration_seconds": 3,
+          "reflect_fraction": 1
+        }
+      },
+      "upgrades": [
+        {
+          "id": "bugaloo-protection",
+          "name": "Eclipse Protector",
+          "trigger": "while_super",
+          "combat_text": "Mientras Rebote Lunar está activo, Bugaloo recibe solo el 50% del daño entrante. El daño reflejado se calcula con el daño original y no se reduce.",
+          "parameters": {
+            "incoming_damage_fraction": 0.5,
+            "reflection_uses_original_damage": true
+          }
+        },
+        {
+          "id": "bugaloo-revenge",
+          "name": "Luna Vengativa",
+          "trigger": "while_super",
+          "combat_text": "Mientras Rebote Lunar está activo, Bugaloo refleja 150% del daño recibido.",
+          "parameters": {
+            "reflection_fraction": 1.5
+          }
+        },
+        {
+          "id": "bugaloo-healing",
+          "name": "Luz Reparadora",
+          "trigger": "receive_heal",
+          "combat_text": "Las curaciones que recibe Bugaloo son 50% más efectivas.",
+          "parameters": {
+            "healing_multiplier": 1.5
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica radio de cercanía, interacción entre reflejos o ganancia/coste de energía.",
+        "La provocación es una excepción explícita del documento a fijar objetivo."
+      ]
+    },
+    {
+      "id": "popow",
+      "name": "Popow",
+      "category": "Monster",
+      "source_pdf": "Monsters.pdf",
+      "source_pages": [
+        3
+      ],
+      "basic_attack": {
+        "type": "melee",
+        "name": "Puñetazo",
+        "combat_text": "Golpea directamente con sus puños.",
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "popow-dash",
+        "name": "Embestida Imparable",
+        "trigger": "energy",
+        "combat_text": "Popow se lanza hacia el enemigo más alejado de su posición. Durante el recorrido, todos los enemigos que atraviesa quedan aturdidos durante 1 segundo.",
+        "parameters": {
+          "target": "farthest_enemy",
+          "stun_seconds": 1
+        }
+      },
+      "upgrades": [
+        {
+          "id": "popow-dash-stun",
+          "name": "Impacto Demoledor",
+          "trigger": "super_hit",
+          "combat_text": "Los enemigos alcanzados durante Embestida Imparable quedan aturdidos durante 2 segundos en lugar de 1.",
+          "parameters": {
+            "stun_seconds": 2
+          }
+        },
+        {
+          "id": "popow-sweep",
+          "name": "Gancho Barrido",
+          "trigger": "basic_hit",
+          "combat_text": "Los puñetazos de Popow golpean 3 casillas a la vez: la casilla del objetivo y las 2 casillas adyacentes a esta dentro del área 3×3 que rodea a Popow. Los enemigos alcanzados quedan aturdidos durante 0,5 segundos. Por ejemplo, si Popow golpea una de las esquinas del área 3×3 que lo rodea, también golpea las dos casillas centrales que tocan esa esquina.",
+          "parameters": {
+            "area": "three_adjacent_ring_cells",
+            "stun_seconds": 0.5
+          }
+        },
+        {
+          "id": "popow-dash-charge",
+          "name": "Carga de Impacto",
+          "trigger": "super_hit",
+          "combat_text": "Por cada enemigo que Popow impacta durante Embestida Imparable, acumula +3 de daño. Al finalizar la embestida, todo el daño acumulado se añade a su siguiente ataque básico. Después de realizar ese ataque, la bonificación desaparece.",
+          "parameters": {
+            "damage_per_enemy": 3,
+            "consumed_by_next_basic": true
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica daño propio de embestida, movimiento/resolución de casilla ocupada ni energía."
+      ]
+    },
+    {
+      "id": "sepora",
+      "name": "Sepora",
+      "category": "Monster",
+      "source_pdf": "Monsters.pdf",
+      "source_pages": [
+        4
+      ],
+      "basic_attack": {
+        "type": "ranged",
+        "name": "Rayo",
+        "combat_text": "Dispara 1 rayo contra su objetivo.",
+        "parameters": {
+          "projectile_count": 1
+        }
+      },
+      "base_ability": {
+        "id": "sepora-storm",
+        "name": "Tormenta Eléctrica",
+        "trigger": "energy",
+        "combat_text": "Sepora dispara 3 rayos y aumenta su velocidad de ataque durante 5 segundos.",
+        "parameters": {
+          "projectile_count": 3,
+          "attack_speed_duration_seconds": 5
+        }
+      },
+      "upgrades": [
+        {
+          "id": "sepora-stealth",
+          "name": "Velo de Tormenta",
+          "trigger": "health_below_threshold",
+          "combat_text": "Cuando la vida de Sepora baja del 50%, Sepora y sus aliados adyacentes se vuelven invisibles.",
+          "parameters": {
+            "health_threshold": 0.5,
+            "area": "adjacent_allies_and_self"
+          }
+        },
+        {
+          "id": "sepora-multishot",
+          "name": "Descarga Múltiple",
+          "trigger": "attack",
+          "combat_text": "Sepora pasa a atacar 2 objetivos simultáneamente con sus ataques básicos. Al usar Tormenta Eléctrica, pasa a atacar 5 objetivos.",
+          "parameters": {
+            "basic_targets": 2,
+            "super_targets": 5
+          }
+        },
+        {
+          "id": "sepora-kill-power",
+          "name": "Poder Acumulado",
+          "trigger": "kill",
+          "combat_text": "Por cada enemigo que Sepora derrota, obtiene +1 de daño permanente entre rondas durante esa partida.",
+          "parameters": {
+            "damage_per_kill": 1,
+            "persistence": "match"
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica multiplicador de velocidad, duración/fin de invisibilidad, frecuencia del umbral, reparto de rayos cuando hay pocos objetivos ni energía."
+      ]
+    },
+    {
+      "id": "tauris",
+      "name": "Tauris",
+      "category": "Monster",
+      "source_pdf": "Monsters.pdf",
+      "source_pages": [
+        5
+      ],
+      "basic_attack": {
+        "type": "melee",
+        "name": "Mordisco",
+        "combat_text": "Ataca cuerpo a cuerpo mordiendo.",
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "tauris-execute",
+        "name": "Mordisco Letal",
+        "trigger": "energy",
+        "combat_text": "Tauris ejecuta un mordisco letal que elimina instantáneamente al enemigo objetivo.",
+        "parameters": {
+          "instant_kill": true
+        }
+      },
+      "upgrades": [
+        {
+          "id": "tauris-mark",
+          "name": "Presa Marcada",
+          "trigger": "round_start",
+          "combat_text": "Al inicio de la ronda, Tauris obtiene energía por cada enemigo situado en su misma fila. Además, esos enemigos quedan marcados por Tauris y el rival no podrá cambiar su posición en las siguientes rondas.",
+          "parameters": {
+            "area": "same_row",
+            "position_lock_persistence": "following_rounds"
+          }
+        },
+        {
+          "id": "tauris-sweep",
+          "name": "Mandíbula Barrida",
+          "trigger": "super_hit",
+          "combat_text": "Mordisco Letal pasa a afectar 3 casillas: la casilla del objetivo y las 2 casillas adyacentes a ella dentro del área 3×3 que rodea a Tauris, siguiendo la misma geometría que el gancho de Popow. Los enemigos alcanzados por esa zona reciben el efecto del Super.",
+          "parameters": {
+            "area": "three_adjacent_ring_cells"
+          }
+        },
+        {
+          "id": "tauris-hunger",
+          "name": "Hambre Insaciable",
+          "trigger": "super_and_kill",
+          "combat_text": "Mordisco Letal deja de ejecutar instantáneamente al objetivo y, en su lugar, le quita 50% de su vida. A cambio, cada vez que Tauris elimina a un enemigo, recupera el 100% de su vida y su ataque principal hace un 50% más de daño.",
+          "parameters": {
+            "super_health_fraction": 0.5,
+            "kill_heal_max_fraction": 1,
+            "basic_damage_multiplier": 1.5
+          }
+        }
+      ],
+      "ambiguities": [
+        "No indica energía por marcado, si fila significa horizontal (interpretación literal), vida actual o máxima para 50%, ni si +50% de ataque acumula por baja."
+      ]
+    },
+    {
+      "id": "atori",
+      "name": "Atori",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        1
+      ],
+      "basic_attack": {
+        "type": null,
+        "name": null,
+        "combat_text": null,
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "atori-hunt",
+        "name": "Caza al Débil",
+        "trigger": "target_acquisition",
+        "combat_text": "Atori persigue y ataca prioritariamente al personaje enemigo con menor vida actual.",
+        "parameters": {
+          "target": "lowest_current_health"
+        }
+      },
+      "upgrades": [
+        {
+          "id": "atori-hard-head",
+          "name": "Cabeza dura",
+          "trigger": "round_start",
+          "combat_text": "Durante los primeros 5 segundos del combate, Atori reduce en 20% el daño recibido.",
+          "parameters": {
+            "duration_seconds": 5,
+            "damage_reduction": 0.2
+          }
+        },
+        {
+          "id": "atori-hunt-speed",
+          "name": "Impulso de Caza",
+          "trigger": "kill",
+          "combat_text": "Cada vez que Atori elimina a un enemigo, obtiene un 50% de velocidad adicional.",
+          "parameters": {
+            "speed_bonus": 0.5
+          }
+        },
+        {
+          "id": "atori-kill-heal",
+          "name": "Instinto Voraz",
+          "trigger": "kill",
+          "combat_text": "Cada vez que Atori elimina a un enemigo, recupera 20 puntos de vida.",
+          "parameters": {
+            "heal": 20
+          }
+        }
+      ],
+      "ambiguities": [
+        "No define si velocidad incluye ataque y movimiento, acumulación y duración. Se conserva fijación de objetivo previa: prioridad se evalúa al adquirir, no cambia objetivo vivo."
+      ]
+    },
+    {
+      "id": "blotan",
+      "name": "Blotan",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        2
+      ],
+      "basic_attack": {
+        "type": null,
+        "name": null,
+        "combat_text": null,
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "blotan-income",
+        "name": "Buscatesoros",
+        "trigger": "combat_interval",
+        "combat_text": "Blotan encuentra 1 Moon-Ken cada 20 segundos mientras permanece en combate.",
+        "parameters": {
+          "interval_seconds": 20,
+          "currency": 1
+        }
+      },
+      "upgrades": [
+        {
+          "id": "blotan-fast-income",
+          "name": "Fortuna Acelerada",
+          "trigger": "combat_interval",
+          "combat_text": "Blotan pasa a encontrar 1 Moon-Ken cada 10 segundos.",
+          "parameters": {
+            "interval_seconds": 10,
+            "currency": 1
+          }
+        },
+        {
+          "id": "blotan-health",
+          "name": "Reserva Dorada",
+          "trigger": "stats",
+          "combat_text": "Blotan aumenta su vida máxima en 20 puntos.",
+          "parameters": {
+            "max_health_bonus": 20
+          }
+        },
+        {
+          "id": "blotan-steal",
+          "name": "Botín de Guerra",
+          "trigger": "round_end_alive",
+          "combat_text": "Si Blotan permanece con vida al terminar la ronda, roba 2 Moon-Ken al rival.",
+          "parameters": {
+            "currency_stolen": 2
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica robo cuando el rival tiene menos de 2; limitar al saldo real. Ataque básico no especificado."
+      ]
+    },
+    {
+      "id": "bugui",
+      "name": "Bugui",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        3
+      ],
+      "basic_attack": {
+        "type": "ranged",
+        "name": null,
+        "combat_text": null,
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "bugui-rhythm",
+        "name": "Ritmo Creciente",
+        "trigger": "attack",
+        "combat_text": "Cada ataque aumenta la velocidad de ataque de Bugui, hasta un máximo de 10 acumulaciones.",
+        "parameters": {
+          "max_stacks": 10
+        }
+      },
+      "upgrades": [
+        {
+          "id": "bugui-unlimited-range",
+          "name": "Sin Fronteras",
+          "trigger": "stats",
+          "combat_text": "El alcance de los ataques de Bugui pasa a ser ilimitado.",
+          "parameters": {
+            "unlimited_range": true
+          }
+        },
+        {
+          "id": "bugui-unlimited-stacks",
+          "name": "Aceleración Infinita",
+          "trigger": "attack",
+          "combat_text": "La bonificación de velocidad de ataque obtenida por cada acumulación es menor, pero Ritmo Creciente ya no tiene límite de acumulaciones.",
+          "parameters": {
+            "max_stacks": null,
+            "smaller_stack_bonus": true
+          }
+        },
+        {
+          "id": "bugui-kill-power",
+          "name": "Hambre de Poder",
+          "trigger": "kill",
+          "combat_text": "Cada vez que Bugui elimina a un enemigo, obtiene +1 de daño permanentemente durante esa ronda, acumulable.",
+          "parameters": {
+            "damage_per_kill": 1,
+            "persistence": "round"
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica aumento de velocidad por acumulación normal/mejorada. Pantalla characters dice Bugmy, PDF autoritativo dice Bugui."
+      ]
+    },
+    {
+      "id": "flo",
+      "name": "Flo",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        4
+      ],
+      "basic_attack": {
+        "type": null,
+        "name": null,
+        "combat_text": null,
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "flo-flower",
+        "name": "Flor de Auxilio",
+        "trigger": "energy",
+        "combat_text": "Flo genera una maceta con una flor en la casilla frente a él. La flor tiene 20 de vida y, al ser derrotada, cura 20 de vida a los aliados a su alrededor.",
+        "parameters": {
+          "summon": "flower",
+          "summon_health": 20,
+          "death_heal": 20,
+          "cell": "front"
+        }
+      },
+      "upgrades": [
+        {
+          "id": "flo-flower-heal",
+          "name": "Floración Intensa",
+          "trigger": "summon_death",
+          "combat_text": "La flor pasa a curar 40 de vida al ser derrotada.",
+          "parameters": {
+            "death_heal": 40
+          }
+        },
+        {
+          "id": "flo-full-energy",
+          "name": "Brote Preparado",
+          "trigger": "round_start",
+          "combat_text": "La barra de energía de Flo comienza completamente cargada al inicio de la ronda.",
+          "parameters": {
+            "energy_fraction": 1
+          }
+        },
+        {
+          "id": "flo-flower-invulnerability",
+          "name": "Flor Eterna",
+          "trigger": "summon",
+          "combat_text": "La flor tiene solo 1 punto de vida, pero es invulnerable durante 1 segundo después de aparecer. Durante ese tiempo no puede ser derrotada.",
+          "parameters": {
+            "summon_health": 1,
+            "invulnerability_seconds": 1
+          }
+        }
+      ],
+      "ambiguities": [
+        "No se especifican radio de curación, máximo de flores, ataque/movimiento de la flor ni alternativa para casilla frontal ocupada. Comentario editorial sobre bomba programada no se incluye como regla: después de 1 s aún necesita golpe."
+      ]
+    },
+    {
+      "id": "gochan",
+      "name": "Gochan",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        5
+      ],
+      "basic_attack": {
+        "type": "ranged",
+        "name": "Sello Cruzado",
+        "combat_text": "Lanza el símbolo de su frente; daña en cruz alrededor del objetivo.",
+        "parameters": {
+          "area": "cross"
+        }
+      },
+      "base_ability": {
+        "id": "gochan-seal-burst",
+        "name": "Explosión del Sello",
+        "trigger": "energy",
+        "combat_text": "Al activar su energía, el impacto genera un área de 3×3 alrededor del enemigo alcanzado e inflige 20 de daño a todos los enemigos dentro de esa zona.",
+        "parameters": {
+          "damage": 20,
+          "area": "3x3"
+        }
+      },
+      "upgrades": [
+        {
+          "id": "gochan-anti-heal",
+          "name": "Sello Marchitante",
+          "trigger": "hit",
+          "combat_text": "Los ataques de Gochan reducen en 60% la curación recibida por los enemigos afectados.",
+          "parameters": {
+            "healing_reduction": 0.6
+          }
+        },
+        {
+          "id": "gochan-burn",
+          "name": "Marca Ardiente",
+          "trigger": "super_hit",
+          "combat_text": "La habilidad de energía deja una marca sobre los enemigos afectados. Cada marca inflige 2 de daño por segundo durante 4 segundos y puede acumularse.",
+          "parameters": {
+            "damage_per_second": 2,
+            "duration_seconds": 4,
+            "stackable": true
+          }
+        },
+        {
+          "id": "gochan-expanded-seal",
+          "name": "Sello Expandido",
+          "trigger": "basic_hit",
+          "combat_text": "El ataque básico de Gochan deja de golpear en forma de cruz y pasa a afectar un área completa de 3×3 alrededor del objetivo.",
+          "parameters": {
+            "area": "3x3"
+          }
+        }
+      ],
+      "ambiguities": [
+        "No se especifica duración anticuración ni energía."
+      ]
+    },
+    {
+      "id": "jazar",
+      "name": "Jazar",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        6
+      ],
+      "basic_attack": {
+        "type": "ranged",
+        "name": "Materia Radiactiva",
+        "combat_text": "Lanza materia radiactiva a distancia.",
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "jazar-radiation",
+        "name": "Contaminación",
+        "trigger": "hit",
+        "combat_text": "Los enemigos alcanzados por los ataques de Jazar quedan irradiados, haciendo que su velocidad de ataque se reduzca en 25%.",
+        "parameters": {
+          "attack_speed_reduction": 0.25
+        }
+      },
+      "upgrades": [
+        {
+          "id": "jazar-cross",
+          "name": "Onda Radiactiva",
+          "trigger": "basic_hit",
+          "combat_text": "Los ataques de Jazar pasan a afectar un área en forma de cruz alrededor del objetivo alcanzado.",
+          "parameters": {
+            "area": "cross"
+          }
+        },
+        {
+          "id": "jazar-intense-radiation",
+          "name": "Radiación Intensa",
+          "trigger": "hit",
+          "combat_text": "La reducción de velocidad de ataque provocada por Contaminación aumenta de 25% a 50%.",
+          "parameters": {
+            "attack_speed_reduction": 0.5
+          }
+        },
+        {
+          "id": "jazar-front-row",
+          "name": "Zona Contaminada",
+          "trigger": "round_start",
+          "combat_text": "Al inicio de la ronda, Jazar cubre con materia radiactiva las casillas de la primera fila enemiga ubicada junto al centro del tablero. La materia permanece durante 1 segundo y aplica Contaminación a los enemigos que se encuentren sobre esas casillas.",
+          "parameters": {
+            "tile_duration_seconds": 1,
+            "row": "enemy_front_row"
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica duración de irradiación."
+      ]
+    },
+    {
+      "id": "kayon",
+      "name": "Kayon",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        7
+      ],
+      "basic_attack": {
+        "type": "ranged",
+        "name": "Lluvia de Oro",
+        "combat_text": "Lanza monedas de oro a distancia.",
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "kayon-summon",
+        "name": "Refuerzo Dummy",
+        "trigger": "energy",
+        "combat_text": "Kayon invoca 1 Dummy para ayudarlo durante el combate.",
+        "parameters": {
+          "summon": "dummy",
+          "summon_count": 1
+        }
+      },
+      "upgrades": [
+        {
+          "id": "kayon-double-summon",
+          "name": "Doble Refuerzo",
+          "trigger": "super",
+          "combat_text": "Al usar Refuerzo Dummy, Kayon invoca 2 Dummys en lugar de 1.",
+          "parameters": {
+            "summon_count": 2
+          }
+        },
+        {
+          "id": "kayon-dummy-legacy",
+          "name": "Legado del Dummy",
+          "trigger": "summon_death",
+          "combat_text": "Cuando un Dummy es derrotado, los aliados a su alrededor obtienen +1 de daño.",
+          "parameters": {
+            "damage_bonus": 1,
+            "area": "adjacent_allies"
+          }
+        },
+        {
+          "id": "kayon-dummy-health",
+          "name": "Dummy Reforzado",
+          "trigger": "summon_stats",
+          "combat_text": "Los Dummys invocados por Kayon tienen +4 de vida máxima.",
+          "parameters": {
+            "summon_health_bonus": 4
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica stats Dummy, energía, cantidad máxima simultánea, radio legado ni duración/acumulación del bono. Rango4 y stats reducidos se conservan de petición anterior."
+      ]
+    },
+    {
+      "id": "stein",
+      "name": "Stein",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        8
+      ],
+      "basic_attack": {
+        "type": "ranged",
+        "name": "Descarga Gemela",
+        "combat_text": "Lanza 2 bolas de energía a 2 enemigos distintos dentro de alcance. Si solo hay uno ambas impactan al mismo.",
+        "parameters": {
+          "projectile_count": 2,
+          "max_distinct_targets": 2,
+          "duplicate_target_if_alone": true
+        }
+      },
+      "base_ability": {
+        "id": "stein-stun",
+        "name": "Microdescarga",
+        "trigger": "each_impact",
+        "combat_text": "Cada impacto de Stein aturde al enemigo durante 0,1 segundos.",
+        "parameters": {
+          "stun_seconds": 0.1
+        }
+      },
+      "upgrades": [
+        {
+          "id": "stein-long-stun",
+          "name": "Sobrecarga",
+          "trigger": "each_impact",
+          "combat_text": "La duración del aturdimiento de Microdescarga aumenta de 0,1 a 0,2 segundos por impacto.",
+          "parameters": {
+            "stun_seconds": 0.2
+          }
+        },
+        {
+          "id": "stein-energy-gift",
+          "name": "Transferencia de Energía",
+          "trigger": "round_start",
+          "combat_text": "Al inicio de la ronda, Stein otorga energía a los aliados situados inmediatamente a su derecha y a su izquierda.",
+          "parameters": {
+            "cells": [
+              [
+                -1,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "stein-triple",
+          "name": "Triple Descarga",
+          "trigger": "attack",
+          "combat_text": "Stein pasa de poder atacar 2 objetivos a 3 objetivos simultáneamente.",
+          "parameters": {
+            "max_distinct_targets": 3
+          }
+        }
+      ],
+      "ambiguities": [
+        "No indica cantidad de energía transferida; tercer proyectil y reparto cuando solo hay1/2 enemigos deben explicitarse como interpretación."
+      ]
+    },
+    {
+      "id": "trimol",
+      "name": "Trimol",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        9
+      ],
+      "basic_attack": {
+        "type": "ranged",
+        "name": null,
+        "combat_text": null,
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "trimol-boulder",
+        "name": "Pedrada Salvaje",
+        "trigger": "every_attacks",
+        "combat_text": "Cada 4 ataques, Trimol lanza una roca gigante en línea recta. La roca atraviesa a los enemigos que encuentra en su recorrido y los aturde durante 1 segundo.",
+        "parameters": {
+          "every_attacks": 4,
+          "stun_seconds": 1,
+          "piercing": true
+        }
+      },
+      "upgrades": [
+        {
+          "id": "trimol-opening-boulder",
+          "name": "Lanzamiento Inicial",
+          "trigger": "round_start",
+          "combat_text": "Al comenzar la ronda, Trimol lanza inmediatamente una roca gigante en línea recta, aunque no tenga ningún enemigo frente a él.",
+          "parameters": {}
+        },
+        {
+          "id": "trimol-infinite-boulder",
+          "name": "Roca Imparable",
+          "trigger": "boulder",
+          "combat_text": "Las rocas lanzadas por Trimol pasan a tener recorrido infinito, continuando en línea recta hasta salir del tablero.",
+          "parameters": {
+            "unlimited_travel": true
+          }
+        },
+        {
+          "id": "trimol-brutal-boulder",
+          "name": "Pedrada Brutal",
+          "trigger": "boulder",
+          "combat_text": "Las rocas de Trimol infligen más daño y el aturdimiento aumenta de 1 a 2 segundos.",
+          "parameters": {
+            "stun_seconds": 2
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica daño básico/roca/roca mejorada, recorrido base ni dirección cuando objetivo fuera de misma columna."
+      ]
+    },
+    {
+      "id": "tsu",
+      "name": "Tsu",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        10,
+        11
+      ],
+      "basic_attack": {
+        "type": "ranged",
+        "name": "Paletitas de Fresa",
+        "combat_text": "Lanza paletitas de fresa desde sus bolsillos.",
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "tsu-root",
+        "name": "Chicle Pegajoso",
+        "trigger": "every_attacks",
+        "combat_text": "Cada 4 ataques, Tsu arranca una bola de chicle de su propio cabello y la lanza contra su objetivo. El enemigo alcanzado queda inmovilizado durante 2 segundos: puede continuar atacando normalmente, pero no puede cambiar de casilla.",
+        "parameters": {
+          "source_label": "Energía",
+          "every_attacks": 4,
+          "root_seconds": 2,
+          "allows_attacks": true
+        }
+      },
+      "upgrades": [
+        {
+          "id": "tsu-death-trap",
+          "name": "Cabello Pegajoso",
+          "trigger": "death",
+          "combat_text": "Cuando Tsu es derrotado, deja caer su cabello de chicle sobre la casilla donde murió. La casilla queda convertida en una trampa permanente. El primer enemigo que entre en ella queda inmovilizado en esa casilla y no puede abandonarla. La trampa permanece activa mientras ese enemigo siga vivo y desaparece cuando es derrotado.",
+          "parameters": {
+            "consumers": 1,
+            "root_until": "victim_death"
+          }
+        },
+        {
+          "id": "tsu-chocolate",
+          "name": "Chocolates Explosivos",
+          "trigger": "sticky_gum_root",
+          "combat_text": "Los enemigos inmovilizados por el Chicle Pegajoso reciben chocolates explosivos. Mientras permanezcan inmovilizados, los chocolates explotan cada segundo e infligen daño progresivo.",
+          "parameters": {
+            "tick_seconds": 1,
+            "progressive_damage": true
+          }
+        },
+        {
+          "id": "tsu-colored-gum",
+          "name": "Chicles de Colores",
+          "trigger": "super",
+          "combat_text": "Cada vez que Tsu activa Chicle Pegajoso, además lanza un chicle especial al aliado vivo más cercano. Si no queda ningún aliado vivo, Tsu se lo aplica a sí mismo. Los chicles siguen este ciclo: 1. Primer chicle — Rosa veloz: +20% de velocidad de ataque y movimiento. 2. Segundo chicle — Chicle protector: otorga un escudo equivalente al 10%. 3. Tercer chicle — Chicle potente: aumenta el daño en 20%. Después del tercer efecto, el ciclo puede volver a comenzar desde el primero.",
+          "parameters": {
+            "cycle": [
+              {
+                "attack_speed_bonus": 0.2,
+                "move_speed_bonus": 0.2
+              },
+              {
+                "shield_fraction": 0.1
+              },
+              {
+                "damage_bonus": 0.2
+              }
+            ],
+            "nearest_alive_ally": true,
+            "self_fallback": true
+          }
+        }
+      ],
+      "ambiguities": [
+        "El título dice energía pero activación explícita cada4ataques; respetar frecuencia.",
+        "No especifica escala de daño progresivo, base del10%escudo, duración/acumulación buffs ni si chocolates se aplican a trampa de muerte. Sí dice que habilidades1y3 se pueden combinar."
+      ]
+    },
+    {
+      "id": "atong",
+      "name": "Atong",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        11
+      ],
+      "basic_attack": {
+        "type": "melee",
+        "name": null,
+        "combat_text": "Golpes lentos, poco frecuentes y letales.",
+        "parameters": {
+          "tempo": "slow"
+        }
+      },
+      "base_ability": {
+        "id": "atong-critical",
+        "name": "Golpe Calculado",
+        "trigger": "every_attacks",
+        "combat_text": "Cada segundo ataque de Atong es un golpe crítico e inflige 50% más de daño.",
+        "parameters": {
+          "every_attacks": 2,
+          "critical_multiplier": 1.5
+        }
+      },
+      "upgrades": [
+        {
+          "id": "atong-critical-damage",
+          "name": "Crítico Devastador",
+          "trigger": "critical",
+          "combat_text": "El daño adicional de sus golpes críticos aumenta de 50% a 100%.",
+          "parameters": {
+            "critical_multiplier": 2
+          }
+        },
+        {
+          "id": "atong-always-critical",
+          "name": "Golpe Perfecto",
+          "trigger": "attack",
+          "combat_text": "Todos los ataques de Atong pasan a ser golpes críticos.",
+          "parameters": {
+            "every_attacks": 1
+          }
+        },
+        {
+          "id": "atong-control-immunity",
+          "name": "Voluntad Inquebrantable",
+          "trigger": "round_start",
+          "combat_text": "Durante los primeros 5 segundos de la ronda, Atong obtiene Inamovible: los efectos de control no tienen efecto sobre él.",
+          "parameters": {
+            "duration_seconds": 5,
+            "control_immunity": true
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica ritmo numérico ni si crítico cuenta ataques iniciados o acertados."
+      ]
+    },
+    {
+      "id": "tokoro",
+      "name": "Tokoro",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        12
+      ],
+      "basic_attack": {
+        "type": "melee",
+        "name": null,
+        "combat_text": null,
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "tokoro-headbutt",
+        "name": "Cabezazo Somnoliento",
+        "trigger": "energy",
+        "combat_text": "Tokoro lanza un poderoso cabezazo contra su objetivo. Después del impacto, Tokoro y el enemigo quedan aturdidos durante 3 segundos.",
+        "parameters": {
+          "self_stun_seconds": 3,
+          "target_stun_seconds": 3
+        }
+      },
+      "upgrades": [
+        {
+          "id": "tokoro-stun-heal",
+          "name": "Siesta Reparadora",
+          "trigger": "while_stunned",
+          "combat_text": "Mientras Tokoro esté aturdido, recupera 8 de vida por segundo, comenzando desde el segundo 0 del aturdimiento. Así, un aturdimiento de 3 segundos puede activar la curación desde el instante en que comienza.",
+          "parameters": {
+            "heal_per_second": 8,
+            "first_tick_at": 0
+          }
+        },
+        {
+          "id": "tokoro-ice-cream",
+          "name": "Heladería Improvisada",
+          "trigger": "while_stunned",
+          "combat_text": "Mientras Tokoro esté aturdido, genera conitos de helado en las casillas a su alrededor. ● Si un aliado entra en una casilla con un cono, lo consume y recupera 10 de vida. ● Si un enemigo lo consume, recibe Debilidad, haciendo que reciba 20% más de daño por 3 segundos. ● Solo puede existir 1 cono por casilla. ● Si se intenta generar otro cono en una casilla que ya contiene uno, el nuevo reemplaza al anterior, evitando acumulaciones en la misma casilla.",
+          "parameters": {
+            "ally_heal": 10,
+            "enemy_damage_multiplier": 1.2,
+            "weakness_seconds": 3,
+            "one_per_cell": true,
+            "replace_existing": true
+          }
+        },
+        {
+          "id": "tokoro-sleep",
+          "name": "Hora de Dormir",
+          "trigger": "last_seconds",
+          "combat_text": "Durante los últimos 10 segundos de la ronda, Tokoro se queda dormido. Mientras duerme: ● Recupera 15 de vida por segundo. ● Deja de atacar por completo.",
+          "parameters": {
+            "last_round_seconds": 10,
+            "heal_per_second": 15,
+            "attack_disabled": true
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica daño del cabezazo ni energía, frecuencia/número de conos o si sueño impide movimiento. Curación segundo0 debe serinmediata; no confundir con comenzar alsegundo1."
+      ]
+    },
+    {
+      "id": "aky",
+      "name": "Aky",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        13
+      ],
+      "basic_attack": {
+        "type": "melee",
+        "name": null,
+        "combat_text": null,
+        "parameters": {}
+      },
+      "base_ability": {
+        "id": "aky-energy-drain",
+        "name": "Drenaje de Energía",
+        "trigger": "basic_hit",
+        "combat_text": "Los ataques de Aky drenan una cierta cantidad de energía del enemigo alcanzado.",
+        "parameters": {}
+      },
+      "upgrades": [
+        {
+          "id": "aky-opening-flight",
+          "name": "Vuelo Rasante",
+          "trigger": "round_start",
+          "combat_text": "Al iniciar la ronda, Aky vuela en línea recta hasta el final del mapa.",
+          "parameters": {}
+        },
+        {
+          "id": "aky-drain-heal",
+          "name": "Absorción Vital",
+          "trigger": "drain",
+          "combat_text": "Cada vez que Aky drena energía, recupera vida equivalente al 50% de la energía drenada.",
+          "parameters": {
+            "actual_drained_energy_heal_fraction": 0.5
+          }
+        },
+        {
+          "id": "aky-sweep",
+          "name": "Golpe Amplio",
+          "trigger": "basic_hit",
+          "combat_text": "El ataque básico de Aky pasa a afectar 3 casillas, con la misma geometría del gancho de Popow: la casilla objetivo y las 2 casillas adyacentes dentro del área 3×3 que lo rodea.",
+          "parameters": {
+            "area": "three_adjacent_ring_cells"
+          }
+        }
+      ],
+      "ambiguities": [
+        "No especifica energía drenada, ruta aterrizajeocupado ni si vuelo inflige daño."
+      ]
+    },
+    {
+      "id": "hymay",
+      "name": "Hymay",
+      "category": "Whelp",
+      "source_pdf": "whelps.pdf",
+      "source_pages": [
+        14
+      ],
+      "basic_attack": {
+        "type": "ranged",
+        "name": "Latigazo",
+        "combat_text": "Ataca con su látigo hasta 4 casillas de distancia. La cabecera declara alcance de 3 casillas.",
+        "parameters": {
+          "range_header": 3,
+          "range_body": 4
+        }
+      },
+      "base_ability": {
+        "id": "hymay-pull",
+        "name": "Tirón de Látigo",
+        "trigger": "energy",
+        "combat_text": "Hymay atrapa con su látigo al enemigo que está atacando y lo arrastra hasta la casilla situada delante de Hymay.",
+        "parameters": {
+          "target": "locked_target",
+          "destination": "front_cell"
+        }
+      },
+      "upgrades": [
+        {
+          "id": "hymay-focus",
+          "name": "Objetivo Marcado",
+          "trigger": "pull",
+          "combat_text": "Cuando Hymay atrae a un enemigo con Tirón de Látigo, provoca que sus aliados concentren sus ataques sobre ese enemigo.",
+          "parameters": {
+            "force_ally_focus": true
+          }
+        },
+        {
+          "id": "hymay-weakness",
+          "name": "Presa Vulnerable",
+          "trigger": "pull",
+          "combat_text": "El enemigo atraído por Tirón de Látigo recibe Debilidad, haciendo que reciba 25% más de daño.",
+          "parameters": {
+            "incoming_damage_multiplier": 1.25
+          }
+        },
+        {
+          "id": "hymay-backstep",
+          "name": "Tirón Acrobático",
+          "trigger": "after_pull",
+          "combat_text": "Inmediatamente después de atraer a un enemigo, Hymay realiza una maniobra acrobática y retrocede 1 casilla, recuperando distancia respecto al enemigo.",
+          "parameters": {
+            "backward_cells": 1
+          }
+        }
+      ],
+      "ambiguities": [
+        "CONTRADICCIÓN numérica: cabecera3casillas, texto4. Preferencia provisional sugerida4 por regla deataque detallada, documentar.",
+        "No especifica duraciónDebilidad, resistencia/desplazamiento inválido. Forzarataquesaliados esexcepciónexplícita delPDF ala fijaciónprevia."
+      ]
+    }
+  ]
+}

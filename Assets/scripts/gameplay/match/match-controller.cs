@@ -35,6 +35,8 @@ namespace MonsterPouch.Gameplay.Match
         public event Action<BattleUnit, float> Reviving;
         public event Action<BattleUnit> Revived;
         public event Action<BattleUnit, BattleUnit> LethalImpacted;
+        public event Action<BattleUnit, string> AbilityUsed;
+        public event Action<BattleUnit, BoardCell, BoardCell, float> BoulderRolled;
         public event Action<string> Sound;
         readonly Dictionary<OwnedUnit, BattleUnit> actors = new Dictionary<OwnedUnit, BattleUnit>();
         float accumulator;
@@ -86,7 +88,7 @@ namespace MonsterPouch.Gameplay.Match
             Simulation?.Stop();
             Simulation = null; ClearActors(); Board.BuildBoard(); Round++; accumulator = 0;
             Player.BeginPreparation(Round); Bot.BeginPreparation(Round);
-            Phase = MatchPhase.Preparation; Remaining = 40; Notice = "Compra y coloca tus Whelps. Mantén pulsado para ver sus Tricks.";
+            Phase = MatchPhase.Preparation; Remaining = 40; Notice = "";
             EnsureMonsterPosition(Player); EnsureMonsterPosition(Bot);
             SyncActors(); RunBot(Bot); SyncActors(); Changed?.Invoke();
         }
@@ -201,11 +203,27 @@ namespace MonsterPouch.Gameplay.Match
             if (ok) { Notice = "Mejora activa en el próximo combate; posición fija desde la siguiente ronda."; Sound?.Invoke("buy"); } else Reject(reason);
             Changed?.Invoke(); return ok;
         }
+        public bool UpgradeMonster(int index)
+        {
+            if (!CanPrepare()) return false;
+            bool ok = Player.TryUpgradeMonster(index, out string reason);
+            if (ok) { Notice = "Habilidad activada para el próximo combate."; Sound?.Invoke("buy"); }
+            else Reject(reason);
+            Changed?.Invoke(); return ok;
+        }
         public bool ChooseTrick(string id, int index)
         {
             if (!CanPrepare()) return false;
             bool ok = Player.TrySelectTrick(id, index, out string reason);
             if (ok) Notice = "Trick elegido para la próxima copia."; else Reject(reason);
+            Changed?.Invoke(); return ok;
+        }
+        public bool BuyTrick(string id, int index, int slot, long token)
+        {
+            if (!CanPrepare()) return false;
+            bool ok = Player.TryBuyTrick(id, index, slot, token, out string reason);
+            if (ok) { SyncActors(); Notice = "Mejora comprada."; Sound?.Invoke("buy"); }
+            else Reject(reason);
             Changed?.Invoke(); return ok;
         }
         public bool Place(string id, BoardCell cell)
@@ -253,6 +271,23 @@ namespace MonsterPouch.Gameplay.Match
             Simulation.Reviving += (actor, duration) => Reviving?.Invoke(actor, duration);
             Simulation.Revived += actor => { Revived?.Invoke(actor); Sound?.Invoke("buy"); };
             Simulation.LethalImpacted += (actor, target) => LethalImpacted?.Invoke(actor, target);
+            Simulation.AbilityUsed += (actor, effect) => AbilityUsed?.Invoke(actor, effect);
+            Simulation.BoulderRolled += (actor, from, to, duration) => BoulderRolled?.Invoke(actor, from, to, duration);
+            Simulation.PermanentDamageEarned += (actor, amount) =>
+            {
+                foreach (var pair in actors) if (pair.Value == actor) { pair.Key.PersistentDamageBonus += amount; break; }
+            };
+            Simulation.PositionMarked += actor =>
+            {
+                foreach (var pair in actors) if (pair.Value == actor) { if (pair.Key.MarkedPositionRound == 0) pair.Key.MarkedPositionRound = Round; break; }
+            };
+            Simulation.CurrencyEarned += (side, amount) => (side == BoardSide.Blue ? Player : Bot).AddCombatCoins(amount);
+            Simulation.CurrencyStolen += (side, amount) =>
+            {
+                PouchState recipient = side == BoardSide.Blue ? Player : Bot;
+                PouchState victim = side == BoardSide.Blue ? Bot : Player;
+                recipient.AddCombatCoins(-victim.AddCombatCoins(-amount));
+            };
             Simulation.Summoned += (actor, definition) =>
             {
                 // This view record belongs only to the combat. It never enters a player's pouch or copy pool.
@@ -263,7 +298,7 @@ namespace MonsterPouch.Gameplay.Match
                 ActorCreated?.Invoke(actor, view);
             };
             Simulation.Begin(actors.Values.ToList(), actors.ToDictionary(p => p.Value, p => p.Key));
-            Notice = "Combate automático · puedes mantener pulsado para inspeccionar"; Changed?.Invoke();
+            Notice = ""; Changed?.Invoke();
         }
         void Update() { Advance(Time.unscaledDeltaTime); }
         public void Advance(float dt)

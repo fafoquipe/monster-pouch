@@ -15,19 +15,19 @@ Los recursos binarios se versionan directamente en Git. Este historial no utiliz
 
 ## Estado actual
 
-- Brief de tres espacios con apertura/cierre, compra por arrastre, venta al devolver al Brief y banco independiente de un espacio.
-- Despliegue de cinco filas por seis columnas por bando.
-- Objetivos persistentes hasta derrotar al rival; la resurrección de Anuik libera a sus atacantes.
-- Bugaloo, Popow, Anuik y Tauris; Whelps Dummy, Bugui, Atori, Kayon y Stein.
-- Diseños del usuario para Anuik, Tauris, Stein y Kayon, con animaciones de reposo, movimiento, ataque y caída.
-- Kayon lanza monedas de oro con alcance4 e invoca hasta dos Dummys temporales. Stein dispara rayos; Anuik revive una vez con la mitad de su vida.
+- Catálogo documentado: 5 Monsters y 14 Whelps, energía y tres mejoras por figura.
+- Inicio, colección y tres briefs locales guardados, con un Monster y hasta siete Whelps cada uno.
+- Brief de tres ofertas, apertura/cierre, arrastre para comprar/vender y banco independiente.
+- Cinco filas por seis columnas de despliegue por bando. La ronda termina al eliminar al equipo, con excepciones de resurrección y las habilidades de los PDF.
+- Diseños originales del usuario; animaciones existentes conservadas y movimiento procedimental para personajes nuevos.
+- Distribución de partida actualizada y referencias visuales del maletín y los iconos reparadas.
 
-La [guía de juego](docs/JUGAR.md) describe los controles y el balance. [Cambios y validación](docs/gameplay-user-designs-delivery.md), [reglas](docs/expanded-roster-combat.md) y [arte, referencias y prompts](docs/arte-nuevo-resumen.md).
+Consulta [la entrega de septiembre](docs/september-delivery.md), [las habilidades de los PDF](docs/pdf-combat-reference.md) y [el balance provisional](docs/documented-combat-tuning.md). Los informes anteriores describen versiones históricas.
 
 ## Compilar y comprobar
 
-Para Windows, abre **File > Build Profiles**, selecciona Windows, incluye `Assets/Scenes/main-scene.unity` y compila en una subcarpeta de `Builds`. Conserva todos los archivos generados junto al ejecutable. Las distribuciones, cachés y registros no se incluyen en Git.
+La versión actual se genera en `Builds/Windows-September/Monster Pouch.exe` desde **Monster Pouch > Build > Windows September**. Para compilar manualmente, abre **File > Build Profiles**, selecciona Windows, incluye `Assets/Scenes/main-scene.unity` y compila en una subcarpeta de `Builds`. Conserva todos los archivos generados junto al ejecutable. Las distribuciones, cachés y registros no se incluyen en Git.
 
-Las pruebas están en `Assets/tests/edit-mode` y `Assets/tests/play-mode`, disponibles desde el Test Runner de Unity. Última validación del juego: **297 EditMode y 13 PlayMode aprobadas**, con compilación Windows sin errores.
+Las pruebas están en `Assets/tests/edit-mode` y `Assets/tests/play-mode`, disponibles desde el Test Runner de Unity. Última validación del juego: **350 EditMode y 15 PlayMode aprobadas**, con compilación Windows sin errores.
 
 Las rutas absolutas y capturas citadas en informes históricos corresponden a la máquina de desarrollo; los archivos del proyecto se encuentran por sus rutas relativas dentro de este repositorio.

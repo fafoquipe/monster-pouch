@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 6c3e64837dbd1d7429cbfae20be92e09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3604429213245499173
+    second: aky-source_0
+  - first:
+      213: 5696366597076956628
+    second: aky-source_1
+  - first:
+      213: 2690673567161699344
+    second: aky-source_2
+  - first:
+      213: -6006816555339493352
+    second: aky-source_3
+  - first:
+      213: 8364633016004027482
+    second: aky-source_4
+  - first:
+      213: 548641109297342571
+    second: aky-source_5
+  - first:
+      213: -2147213539408102734
+    second: aky-source_6
+  - first:
+      213: -8009097093943329193
+    second: aky-source_7
+  - first:
+      213: 6350355515152475330
+    second: aky-source_8
+  - first:
+      213: -5864838517335554373
+    second: aky-source_9
+  - first:
+      213: 6770485239798948424
+    second: aky-source_10
+  - first:
+      213: 5250444411306906313
+    second: aky-source_11
+  - first:
+      213: -5639616985263055345
+    second: aky-source_12
+  - first:
+      213: 4570947636258425483
+    second: aky-source_13
+  - first:
+      213: -2029866971489110651
+    second: aky-source_14
+  - first:
+      213: 127873179867394831
+    second: aky-source_15
+  - first:
+      213: -1413244793987954995
+    second: aky-source_16
+  - first:
+      213: -879399692942596487
+    second: aky-source_17
+  - first:
+      213: 3942548167126944460
+    second: aky-source_18
+  - first:
+      213: -4149318567431424171
+    second: aky-source_19
+  - first:
+      213: 4925559677959225755
+    second: aky-source_20
+  - first:
+      213: 6078093176246020423
+    second: aky-source_21
+  - first:
+      213: -6208453150679544211
+    second: aky-source_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aky-source_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 63
+        width: 1145
+        height: 1089
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527e989b541850230800000000000000
+      internalID: 3604429213245499173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_1
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1108
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d53c294d3f8d0f40800000000000000
+      internalID: 5696366597076956628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1147
+        width: 14
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cc4318a51375520800000000000000
+      internalID: 2690673567161699344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_3
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1100
+        width: 112
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810dd0c1b2083aca0800000000000000
+      internalID: -6006816555339493352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_4
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1148
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54ac6b0965251470800000000000000
+      internalID: 8364633016004027482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1120
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6828dc9e2a2d9700800000000000000
+      internalID: 548641109297342571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_6
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1108
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2babbae89a09332e0800000000000000
+      internalID: -2147213539408102734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_7
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1111
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ef4e780a8f9d090800000000000000
+      internalID: -8009097093943329193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_8
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1106
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c42b1602bef02850800000000000000
+      internalID: 6350355515152475330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_9
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1112
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb68f251178eb9ea0800000000000000
+      internalID: -5864838517335554373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1100
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842ed3b347895fd50800000000000000
+      internalID: 6770485239798948424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_11
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1110
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c212e0cf535dd840800000000000000
+      internalID: 5250444411306906313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_12
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1107
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ed22c5b3e0cb1b0800000000000000
+      internalID: -5639616985263055345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_13
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 538
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a481248a44f6f30800000000000000
+      internalID: 4570947636258425483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_14
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 465
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585f71f7eb674d3e0800000000000000
+      internalID: -2029866971489110651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_15
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 400
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03bb46cafb46c100800000000000000
+      internalID: 127873179867394831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_16
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 224
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc68da9f855236ce0800000000000000
+      internalID: -1413244793987954995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_17
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 184
+        width: 73
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976a19673aebbc3f0800000000000000
+      internalID: -879399692942596487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_18
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 98
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca08736baeb6b630800000000000000
+      internalID: 3942548167126944460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_19
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 79
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55731583fb8aa66c0800000000000000
+      internalID: -4149318567431424171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_20
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 93
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b914fbc2e6a1b5440800000000000000
+      internalID: 4925559677959225755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_21
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 83
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749aed96a89b95450800000000000000
+      internalID: 6078093176246020423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-source_22
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 78
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e4715d0c427d9a0800000000000000
+      internalID: -6208453150679544211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      aky-source_0: 3604429213245499173
+      aky-source_1: 5696366597076956628
+      aky-source_10: 6770485239798948424
+      aky-source_11: 5250444411306906313
+      aky-source_12: -5639616985263055345
+      aky-source_13: 4570947636258425483
+      aky-source_14: -2029866971489110651
+      aky-source_15: 127873179867394831
+      aky-source_16: -1413244793987954995
+      aky-source_17: -879399692942596487
+      aky-source_18: 3942548167126944460
+      aky-source_19: -4149318567431424171
+      aky-source_2: 2690673567161699344
+      aky-source_20: 4925559677959225755
+      aky-source_21: 6078093176246020423
+      aky-source_22: -6208453150679544211
+      aky-source_3: -6006816555339493352
+      aky-source_4: 8364633016004027482
+      aky-source_5: 548641109297342571
+      aky-source_6: -2147213539408102734
+      aky-source_7: -8009097093943329193
+      aky-source_8: 6350355515152475330
+      aky-source_9: -5864838517335554373
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 using MonsterPouch.Gameplay.Match;
 
@@ -6,6 +8,22 @@ namespace MonsterPouch.Gameplay.Units
     [System.Serializable]
     public sealed class UnitStats
     {
+        [SerializeField] private bool usesDocumentedRules;
+        [SerializeField] private string definitionId;
+        [SerializeField] private float energyMax;
+        [SerializeField] private float energyPerAttack;
+        [SerializeField] private float energyOnDamage;
+        [SerializeField] private float energyPerSecond;
+        private readonly HashSet<string> effectIds = new HashSet<string>(StringComparer.Ordinal);
+
+        public bool UsesDocumentedRules => usesDocumentedRules;
+        public string DefinitionId => definitionId;
+        public float EnergyMax => energyMax;
+        public float EnergyPerAttack => energyPerAttack;
+        public float EnergyOnDamage => energyOnDamage;
+        public float EnergyPerSecond => energyPerSecond;
+        public IReadOnlyCollection<string> EffectIds => new List<string>(effectIds).AsReadOnly();
+        public bool HasEffect(string effectId) => effectId != null && effectIds.Contains(effectId);
         [SerializeField, Min(1)] private int maxHealth = 1;
         [SerializeField, Min(0)] private int attack = 1;
         [SerializeField, Min(1)] private int attackRange = 1;
@@ -31,7 +49,7 @@ namespace MonsterPouch.Gameplay.Units
 
         public int MaxHealth => maxHealth;
         public int Attack => attack;
-        public int AttackRange => attackRange;
+        public int AttackRange => HasEffect("bugui-unlimited-range") ? MonsterPouch.Gameplay.Board.BoardManager.Width + MonsterPouch.Gameplay.Board.BoardManager.Height : attackRange;
         public int IQSpeed => iqSpeed;
         public float MoveSpeed => moveSpeed;
         public float AttackSpeed => attackSpeed;
@@ -98,6 +116,7 @@ namespace MonsterPouch.Gameplay.Units
         public static UnitStats FromDefinition(UnitDefinition definition,
             OwnedUnit owned = null, bool applyUpgrades = true)
         {
+            definition = UnitAbilityOwnership.ForCombat(definition);
             var stats = new UnitStats(definition.MaxHealth, definition.Damage,
                 definition.AttackRange, definition.AttackInterval,
                 definition.MoveInterval, definition.IQSpeed,
@@ -107,9 +126,16 @@ namespace MonsterPouch.Gameplay.Units
                 summonInterval: definition.SummonInterval, maxLivingSummons: definition.MaxLivingSummons,
                 summonHealth: definition.SummonHealth, summonDamage: definition.SummonDamage,
                 summonAttackInterval: definition.SummonAttackInterval, summonMoveInterval: definition.SummonMoveInterval);
+            stats.usesDocumentedRules = definition.UsesDocumentedRules;
+            stats.definitionId = definition.Id;
+            stats.energyMax = Mathf.Max(0, definition.EnergyMax);
+            stats.energyPerAttack = Mathf.Max(0, definition.EnergyPerAttack);
+            stats.energyOnDamage = Mathf.Max(0, definition.EnergyOnDamage);
+            stats.energyPerSecond = Mathf.Max(0, definition.EnergyPerSecond);
+            if (owned != null) stats.attack = Mathf.Max(0, stats.attack + owned.PersistentDamageBonus);
             stats.Apply(definition.BaseAbility);
             for (int i = 0; owned != null && i < 3; i++)
-                if (owned.Tricks[i]) stats.Apply(definition.Tricks[i]);
+                if (owned.Tricks[i] && definition.Tricks != null && i < definition.Tricks.Length) stats.Apply(definition.Tricks[i]);
             if (owned != null && owned.HasMonsterUpgrade && applyUpgrades)
                 stats.Apply(definition.MonsterUpgrade);
             return stats;
@@ -118,6 +144,7 @@ namespace MonsterPouch.Gameplay.Units
         private void Apply(TrickDefinition effect)
         {
             if (effect == null) return;
+            if (!string.IsNullOrWhiteSpace(effect.EffectId)) effectIds.Add(effect.EffectId);
             maxHealth = Mathf.Max(1, maxHealth + effect.HealthBonus);
             attack = Mathf.Max(0, attack + effect.DamageBonus);
             attackRange = Mathf.Max(1, attackRange + effect.RangeBonus);

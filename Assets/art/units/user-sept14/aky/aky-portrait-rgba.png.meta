@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: 4169eef995c8d22489018d8fcd2cc25a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6469045545719224370
+    second: aky-portrait-rgba_0
+  - first:
+      213: 3576742493315008103
+    second: aky-portrait-rgba_1
+  - first:
+      213: 193841853264296329
+    second: aky-portrait-rgba_2
+  - first:
+      213: 1350361774071593735
+    second: aky-portrait-rgba_3
+  - first:
+      213: 303241936282041149
+    second: aky-portrait-rgba_4
+  - first:
+      213: 4882917007505730420
+    second: aky-portrait-rgba_5
+  - first:
+      213: 3253241827817029338
+    second: aky-portrait-rgba_6
+  - first:
+      213: 53303965828611665
+    second: aky-portrait-rgba_7
+  - first:
+      213: -5053323389520347274
+    second: aky-portrait-rgba_8
+  - first:
+      213: 1163646110499668761
+    second: aky-portrait-rgba_9
+  - first:
+      213: 2192281272351292062
+    second: aky-portrait-rgba_10
+  - first:
+      213: 2975300342777853358
+    second: aky-portrait-rgba_11
+  - first:
+      213: 380808618175984988
+    second: aky-portrait-rgba_12
+  - first:
+      213: -1447254829839601700
+    second: aky-portrait-rgba_13
+  - first:
+      213: -5005724930892093028
+    second: aky-portrait-rgba_14
+  - first:
+      213: -9077590230813703639
+    second: aky-portrait-rgba_15
+  - first:
+      213: 3307081421265040027
+    second: aky-portrait-rgba_16
+  - first:
+      213: -6953054555571930870
+    second: aky-portrait-rgba_17
+  - first:
+      213: 4066367891409709852
+    second: aky-portrait-rgba_18
+  - first:
+      213: -5775546135708813724
+    second: aky-portrait-rgba_19
+  - first:
+      213: 8607725368879296582
+    second: aky-portrait-rgba_20
+  - first:
+      213: 4038514595701597260
+    second: aky-portrait-rgba_21
+  - first:
+      213: -3445201630080838677
+    second: aky-portrait-rgba_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aky-portrait-rgba_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 63
+        width: 1145
+        height: 1089
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238da6c36aaa6c950800000000000000
+      internalID: 6469045545719224370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_1
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1108
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7660617e85423a130800000000000000
+      internalID: 3576742493315008103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1147
+        width: 14
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989fb66732aa0b200800000000000000
+      internalID: 193841853264296329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_3
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1100
+        width: 112
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bbdc501e27db210800000000000000
+      internalID: 1350361774071593735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_4
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1148
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bb7153fe4553400800000000000000
+      internalID: 303241936282041149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1120
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ba714c52b93c340800000000000000
+      internalID: 4882917007505730420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_6
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1108
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adef97bb436d52d20800000000000000
+      internalID: 3253241827817029338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_7
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1111
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e755cacaf5db000800000000000000
+      internalID: 53303965828611665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_8
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1106
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f7770a62dfed9b0800000000000000
+      internalID: -5053323389520347274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_9
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1112
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9130994e8f9162010800000000000000
+      internalID: 1163646110499668761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1100
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a7d36b33c8c6e10800000000000000
+      internalID: 2192281272351292062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_11
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1110
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea53f5fd5e36a4920800000000000000
+      internalID: 2975300342777853358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_12
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1107
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5579cdab67e84500800000000000000
+      internalID: 380808618175984988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_13
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 538
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf21ff66615aebe0800000000000000
+      internalID: -1447254829839601700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_14
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 465
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c992cd262b7188ab0800000000000000
+      internalID: -5005724930892093028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_15
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 400
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9220bcbb7cbe50280800000000000000
+      internalID: -9077590230813703639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_16
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 224
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92fbcde70d15ed20800000000000000
+      internalID: 3307081421265040027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_17
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 184
+        width: 73
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09393778b9c18f90800000000000000
+      internalID: -6953054555571930870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_18
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 98
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ba78d7d04ae6830800000000000000
+      internalID: 4066367891409709852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_19
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 79
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4663235c36329dfa0800000000000000
+      internalID: -5775546135708813724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_20
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 93
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6403b280e98c47770800000000000000
+      internalID: 8607725368879296582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_21
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 83
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c442609b0afab0830800000000000000
+      internalID: 4038514595701597260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-portrait-rgba_22
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 78
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be35f63fe5f2030d0800000000000000
+      internalID: -3445201630080838677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-sept14-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 190
+        width: 907
+        height: 843
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0035587188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cf732b3af58074e9ff42ee77fca623
+      internalID: -237594064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a2b1a3b1306c4424ca7239a515b85fc1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      aky-portrait-rgba_0: 6469045545719224370
+      aky-portrait-rgba_1: 3576742493315008103
+      aky-portrait-rgba_10: 2192281272351292062
+      aky-portrait-rgba_11: 2975300342777853358
+      aky-portrait-rgba_12: 380808618175984988
+      aky-portrait-rgba_13: -1447254829839601700
+      aky-portrait-rgba_14: -5005724930892093028
+      aky-portrait-rgba_15: -9077590230813703639
+      aky-portrait-rgba_16: 3307081421265040027
+      aky-portrait-rgba_17: -6953054555571930870
+      aky-portrait-rgba_18: 4066367891409709852
+      aky-portrait-rgba_19: -5775546135708813724
+      aky-portrait-rgba_2: 193841853264296329
+      aky-portrait-rgba_20: 8607725368879296582
+      aky-portrait-rgba_21: 4038514595701597260
+      aky-portrait-rgba_22: -3445201630080838677
+      aky-portrait-rgba_3: 1350361774071593735
+      aky-portrait-rgba_4: 303241936282041149
+      aky-portrait-rgba_5: 4882917007505730420
+      aky-portrait-rgba_6: 3253241827817029338
+      aky-portrait-rgba_7: 53303965828611665
+      aky-portrait-rgba_8: -5053323389520347274
+      aky-portrait-rgba_9: 1163646110499668761
+      aky-sept14-r00-f00: -237594064
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

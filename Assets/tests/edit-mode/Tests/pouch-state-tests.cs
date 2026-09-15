@@ -500,6 +500,20 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.AreEqual(UnitLocation.Brief, pouch.Owned["test-whelp-6"].Location);
         }
 
+        [TestCase(false)] [TestCase(true)]
+        public void BuyTrick_PurchasesSelectedUpgradeAtomicallyAndRejectsStaleOffer(bool insufficientFunds)
+        {
+            UseOnlyDummy();var pouch=CreatePouch();Buy(pouch,0);
+            var offer=pouch.Offers[1];var owned=pouch.Owned[offer.UnitId];
+            int before=pouch.Coins,version=pouch.OfferVersion;
+            owned.Definition.Tricks[2].Cost=insufficientFunds?before+1:3;
+            Assert.AreEqual(!insufficientFunds,pouch.TryBuyTrick(offer.UnitId,2,1,offer.Token,out _));
+            Assert.AreEqual(!insufficientFunds,owned.Tricks[2]);Assert.AreEqual(-1,owned.NextTrick);
+            Assert.AreEqual(insufficientFunds?before:before-3,pouch.Coins);
+            if(insufficientFunds){Assert.AreSame(offer,pouch.Offers[1]);Assert.AreEqual(version,pouch.OfferVersion);}
+            else {Assert.AreEqual(2,owned.Copies);Assert.IsNull(pouch.Offers[1]);Assert.IsFalse(pouch.TryBuyTrick(offer.UnitId,0,1,offer.Token,out _));Assert.AreEqual(before-3,pouch.Coins);}
+        }
+
         private PouchState CreatePouch(int seed = 112)
         {
             var result = new PouchState(config, seed, "bugaloo", BoardSide.Blue);

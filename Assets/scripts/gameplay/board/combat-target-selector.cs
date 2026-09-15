@@ -101,8 +101,6 @@ namespace MonsterPouch.Gameplay.Board
 
             var candidates = new List<Candidate>();
             var evaluatedEnemies = new List<BattleUnit>();
-            int shortestPathLength = int.MaxValue;
-            int lowestHealth = int.MaxValue;
             var reachableDistances = new int[BoardManager.Width, BoardManager.Height];
             if (!BoardPathfinder.CalculateReachableDistances(boardManager, actor, reachableDistances))
                 return CombatTargetSelection.NoTarget(actor);
@@ -132,24 +130,25 @@ namespace MonsterPouch.Gameplay.Board
                     continue;
                 }
 
-                bool lowHealthPolicy = actor.BaseStats.TargetPolicy == TargetPolicy.LowestHealth;
-                int score = lowHealthPolicy ? possibleTarget.CurrentHealth : candidate.PathLength;
-                int bestScore = lowHealthPolicy ? lowestHealth : shortestPathLength;
-                if (score < bestScore)
-                {
-                    shortestPathLength = candidate.PathLength;
-                    lowestHealth = possibleTarget.CurrentHealth;
-                    candidates.Clear();
-                    candidates.Add(candidate);
-                }
-                else if (score == bestScore)
-                {
-                    candidates.Add(candidate);
-                }
+                candidates.Add(candidate);
             }
 
             if (candidates.Count == 0)
                 return CombatTargetSelection.NoTarget(actor);
+
+            bool lowHealthPolicy = actor.BaseStats.TargetPolicy == TargetPolicy.LowestHealth;
+            bool hasInRange = candidates.Exists(candidate => candidate.PathLength == 0);
+            // Scan expanding cross-shaped rings. A unit already in attack range wins
+            // over pursuit; Atori retains its explicit weakest-target acquisition rule.
+            int bestScore = int.MaxValue;
+            foreach (Candidate candidate in candidates)
+            {
+                if (!lowHealthPolicy && hasInRange && candidate.PathLength != 0) continue;
+                int score = lowHealthPolicy ? candidate.Target.CurrentHealth : ManhattanDistance(actor.CurrentCell, candidate.Target.CurrentCell);
+                if (score < bestScore) bestScore = score;
+            }
+            candidates.RemoveAll(candidate => (!lowHealthPolicy && hasInRange && candidate.PathLength != 0) ||
+                (lowHealthPolicy ? candidate.Target.CurrentHealth : ManhattanDistance(actor.CurrentCell,candidate.Target.CurrentCell)) != bestScore);
 
             Candidate selected = SelectTargetByPriority(candidates);
             CombatTargetSelectionStatus status =
@@ -181,6 +180,9 @@ namespace MonsterPouch.Gameplay.Board
         {
             return IsInAttackRange(actorCell, targetCell, 1);
         }
+
+        public static int ManhattanDistance(BoardCell from, BoardCell to) =>
+            from == null || to == null ? int.MaxValue : Abs(from.X-to.X) + Abs(from.Y-to.Y);
 
         public static bool IsInAttackRange(BoardCell actorCell, BoardCell targetCell, int range)
         {

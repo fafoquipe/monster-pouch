@@ -7,10 +7,16 @@ namespace MonsterPouch.Gameplay.Match
 {
     public enum FormationPreference { Front, Middle, Back }
     public enum TargetPolicy { NearestReachable, LowestHealth }
+    public enum AttackKind { Melee, Ranged }
+    public enum AbilityTrigger { Passive, Energy, EveryAttacks }
 
     [Serializable]
     public sealed class TrickDefinition
     {
+        // Stable behavior key. Description is presentation only and never parsed by combat.
+        public string EffectId;
+        public AbilityTrigger Trigger;
+        [Min(0)] public int EveryAttacks;
         public string Id;
         public string Name;
         [TextArea] public string Description;
@@ -28,6 +34,18 @@ namespace MonsterPouch.Gameplay.Match
     [Serializable]
     public sealed class UnitDefinition
     {
+        public bool UsesDocumentedRules;
+        public AttackKind AttackKind;
+        public string BasicAttackName;
+        [TextArea] public string BasicAttackDescription;
+        public string SourceDocument;
+        public string SourcePages;
+        [Tooltip("Base stats, costs and energy rates are provisional where the source omits them.")]
+        public bool HasProvisionalBalance;
+        [Min(0)] public float EnergyMax;
+        [Min(0)] public float EnergyPerAttack;
+        [Min(0)] public float EnergyOnDamage;
+        [Min(0)] public float EnergyPerSecond;
         public string Id;
         public string DisplayName;
         public bool IsMonster;
@@ -179,6 +197,14 @@ namespace MonsterPouch.Gameplay.Match
         }
 
         public static MatchConfig CreateDefault() => CreateInstance<MatchConfig>();
+
+        /// <summary>The September PDFs' selectable roster: five Monsters and fourteen Whelps.</summary>
+        public static MatchConfig CreateDocumented()
+        {
+            MatchConfig result = CreateInstance<MatchConfig>();
+            result.Units = DocumentedRoster.CreateAll();
+            return result;
+        }
 
         private static Vector2Int[] CreateRows(int first, int last)
         {

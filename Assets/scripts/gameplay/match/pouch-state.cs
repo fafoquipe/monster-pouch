@@ -19,9 +19,11 @@ namespace MonsterPouch.Gameplay.Match
         public int BriefSlot { get; internal set; } = -1;
         public Vector2Int Deployment { get; internal set; }
         public int UpgradePurchasedRound { get; internal set; }
+        public int PersistentDamageBonus { get; internal set; }
+        public int MarkedPositionRound { get; internal set; }
         public bool HasMonsterUpgrade => UpgradePurchasedRound > 0;
         public int TrickCount => (Tricks[0] ? 1 : 0) + (Tricks[1] ? 1 : 0) + (Tricks[2] ? 1 : 0);
-        public bool IsPositionLocked(int round) => HasMonsterUpgrade && round > UpgradePurchasedRound;
+        public bool IsPositionLocked(int round) => (HasMonsterUpgrade && round > UpgradePurchasedRound) || (MarkedPositionRound > 0 && round > MarkedPositionRound);
         public bool IsUpgradeActive(int combatRound) => HasMonsterUpgrade && combatRound >= UpgradePurchasedRound;
 
         public OwnedUnit(UnitDefinition definition)
@@ -167,6 +169,21 @@ namespace MonsterPouch.Gameplay.Match
         }
 
         /// <summary>A new Whelp buys and deploys once; a repeat copy upgrades its existing unit in place.</summary>
+        public bool TryBuyTrick(string unitId, int trickIndex, int slot, long token, out string reason)
+        {
+            if (!RequirePreparation(out reason)) return false;
+            if (!ValidSlot(slot) || offers[slot] == null || offers[slot].Token != token || offers[slot].UnitId != unitId)
+                return Reject("Esa oferta ya no está disponible.", out reason);
+            if (!owned.TryGetValue(unitId, out OwnedUnit unit) || unit.Definition.IsMonster ||
+                trickIndex < 0 || trickIndex >= 3 || unit.Tricks[trickIndex])
+                return Reject("Ese Trick no está pendiente.", out reason);
+            int previous = unit.NextTrick;
+            unit.NextTrick = trickIndex;
+            if (TryBuy(slot, token, out reason)) return true;
+            unit.NextTrick = previous;
+            return false;
+        }
+
         public bool TryBuyAndPlace(int slot, long token, UnitLocation location, Vector2Int cell, out string reason)
         {
             if (!RequirePreparation(out reason)) return false;
@@ -244,6 +261,8 @@ namespace MonsterPouch.Gameplay.Match
 
         public bool TryUpgradeMonster(out string reason)
         {
+            if (Monster.Definition.UsesDocumentedRules)
+                return TryUpgradeMonster(Monster.PendingTrickIndex, out reason);
             if (!RequirePreparation(out reason)) return false;
             TrickDefinition upgrade = Monster.Definition.MonsterUpgrade;
             if (upgrade == null || Monster.HasMonsterUpgrade) return Reject("Mejora ya adquirida o no disponible.", out reason);
@@ -254,6 +273,24 @@ namespace MonsterPouch.Gameplay.Match
             Monster.UpgradePurchasedRound = Round;
             reason = string.Empty;
             return true;
+        }
+
+        public bool TryUpgradeMonster(int index, out string reason)
+        {
+            if (!RequirePreparation(out reason)) return false;
+            if (!Monster.Definition.UsesDocumentedRules) return TryUpgradeMonster(out reason);
+            if (index < 0 || index >= 3 || Monster.Tricks[index] || Monster.Definition.Tricks[index] == null)
+                return Reject("Mejora ya adquirida o no disponible.", out reason);
+            int price = Mathf.Max(0, Monster.Definition.Tricks[index].Cost);
+            if (Coins < price) return Reject("No tienes suficientes Moon-Ken.", out reason);
+            Coins -= price; Monster.Paid += price; Monster.Tricks[index] = true;
+            if (!Monster.HasMonsterUpgrade) Monster.UpgradePurchasedRound = Round;
+            reason = string.Empty; return true;
+        }
+
+        public int AddCombatCoins(int amount)
+        {
+            int before = Coins; Coins = Mathf.Max(0, Coins + amount); return Coins - before;
         }
 
         public bool TrySell(string unitId, out string reason)
@@ -280,7 +317,7 @@ namespace MonsterPouch.Gameplay.Match
             if (unit.Definition.IsMonster && location != UnitLocation.Field)
                 return Reject("Tu Monster permanece en el campo.", out reason);
             if (unit.IsPositionLocked(Round) && (location != unit.Location || cell != unit.Deployment))
-                return Reject("La mejora del Monster fija su posición desde esta ronda.", out reason);
+                return Reject(unit.MarkedPositionRound > 0 && Round > unit.MarkedPositionRound ? "Tauris marcó esta unidad: su posición está fija." : "La mejora del Monster fija su posición desde esta ronda.", out reason);
             int briefSlot = -1;
             if (location == UnitLocation.Brief)
             {

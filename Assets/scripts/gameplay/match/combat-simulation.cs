@@ -7,7 +7,7 @@ using UnityEngine;
 namespace MonsterPouch.Gameplay.Match
 {
     /// <summary>Authoritative 100 ms combat. Rendering never controls a logical cooldown.</summary>
-    public sealed class CombatSimulation
+    public sealed partial class CombatSimulation
     {
         public const float TickDuration = 0.1f;
         private const double ExactTickDuration = 0.1d;
@@ -29,6 +29,15 @@ namespace MonsterPouch.Gameplay.Match
             public BattleUnit LockedTarget;
             public int UnitResetVersion;
             public int TargetResetVersion;
+            public int Attacks, DamageBonus, NextBasicBonus, StunUntil, RootUntil, InvulnerableUntil, StealthUntil;
+            public int SuperUntil, WeakUntil, AntiHealUntil, LastHealTick, NextIncome, GumCycle, LastBasicTick;
+            public int ChocolateNext, ChocolateStacks;
+            public float SpeedBonus, AttackSpeedMultiplier = 1, DamageMultiplier = 1, Weakness = 1;
+            public bool StealthUsed, SleepStarted, DeathHandled;
+            public string SummonKind;
+            public BattleUnit LastDamager, ChocolateSource;
+            public BattleUnit TauntTarget, TargetBeforeTaunt;
+            public BattleUnit FocusTarget;
         }
 
         private sealed class PendingImpact
@@ -37,6 +46,8 @@ namespace MonsterPouch.Gameplay.Match
             public BattleUnit Target;
             public int DueTick;
             public int Damage;
+            public string Effect;
+            public bool Super;
         }
 
         private readonly BoardManager board;
@@ -101,6 +112,7 @@ namespace MonsterPouch.Gameplay.Match
             Reason = string.Empty;
             Finished = false;
             begun = true;
+            BeginDocumentedCombat();
             EvaluateTeams();
         }
 
@@ -117,6 +129,7 @@ namespace MonsterPouch.Gameplay.Match
 
         public void Stop()
         {
+            ClearDocumentedCombat();
             pending.Clear();
             for (int i = 0; i < actors.Count; i++)
                 if (actors[i].Unit != null)
@@ -142,6 +155,7 @@ namespace MonsterPouch.Gameplay.Match
 
         private void ExecuteTick()
         {
+            if (documentedCombat) { ExecuteDocumentedTick(); return; }
             tick++;
             CompleteRevivals();
             var live = new List<BattleUnit>();
@@ -219,8 +233,7 @@ namespace MonsterPouch.Gameplay.Match
 
             if (clock.LockedTarget != null)
             {
-                // Recalculate the route/range to this opponent only. A blocked route,
-                // moving rival, new summon or lower-health enemy cannot replace the lock.
+                // Keep opponents in range; explicit taunt/focus abilities may force pursuit.
                 lockedCandidate.Clear();
                 lockedCandidate.Add(clock.LockedTarget);
                 return CombatTargetSelector.SelectTarget(board, clock.Unit, lockedCandidate);
@@ -236,9 +249,12 @@ namespace MonsterPouch.Gameplay.Match
         {
             BattleUnit target = clock.LockedTarget;
             if (target == null || !target.IsAlive || target.IsReviving ||
+                (documentedCombat && IsInvisible(target)) ||
                 !clock.Unit.isActiveAndEnabled || !target.isActiveAndEnabled ||
                 target.Side == clock.Unit.Side || target.CombatResetVersion != clock.TargetResetVersion ||
                 target.CurrentCell == null || !board.IsManagedCell(target.CurrentCell)) return false;
+            bool forced = documentedCombat && (clock.TauntTarget == target || clock.FocusTarget == target);
+            if (!forced && !CombatTargetSelector.IsInAttackRange(clock.Unit.CurrentCell, target.CurrentCell, clock.Unit.BaseStats.AttackRange)) return false;
             // Occupancy and identity must still belong to this opponent. Anuik's
             // headstand is a deliberate exception: death/revival releases his lock.
             return ReferenceEquals(target.CurrentCell.OccupiedBy, target);
@@ -350,6 +366,7 @@ namespace MonsterPouch.Gameplay.Match
 
         private void Finish(BoardSide? winner, string reason)
         {
+            if (documentedCombat) EndDocumentedCombat();
             Winner = winner;
             Reason = reason;
             Finished = true;
@@ -387,11 +404,12 @@ namespace MonsterPouch.Gameplay.Match
             {
                 ActorClock clock = actors[i];
                 if (clock.Unit == null || !clock.Unit.IsReviving || tick < clock.ReviveDueTick) continue;
-                clock.Unit.CompleteRevival();
+                clock.Unit.CompleteRevival(documentedCombat && clock.RevivesUsed > 1 ? .25f : -1);
                 clock.LockedTarget = null;
                 clock.NextAttack = clock.NextMove = tick + 1;
                 lastChangeTick = tick;
                 Revived?.Invoke(clock.Unit);
+                if (documentedCombat) OnDocumentedRevival(clock);
             }
         }
 
@@ -472,12 +490,13 @@ namespace MonsterPouch.Gameplay.Match
 
         public static float GetAttackWindup(BattleUnit actor)
         {
+            if (IsInstantRay(actor)) return 0;
             return actor == null ? TickDuration : ToTicks(actor.BaseStats.AttackWindup) * TickDuration;
         }
 
         public static float GetProjectileTravelTime(BattleUnit actor, BattleUnit target)
         {
-            if (actor == null || target == null || actor.BaseStats.AttackRange <= 1 ||
+            if (actor == null || target == null || IsInstantRay(actor) || actor.BaseStats.AttackRange <= 1 ||
                 actor.CurrentCell == null || target.CurrentCell == null) return 0;
             int distance = Mathf.Max(Mathf.Abs(actor.CurrentCell.X - target.CurrentCell.X),
                 Mathf.Abs(actor.CurrentCell.Y - target.CurrentCell.Y));
@@ -486,7 +505,9 @@ namespace MonsterPouch.Gameplay.Match
 
         public static float GetImpactDelay(BattleUnit actor, BattleUnit target)
         {
+            if (IsInstantRay(actor)) return 0;
             return GetAttackWindup(actor) + GetProjectileTravelTime(actor, target);
         }
+        public static bool IsInstantRay(BattleUnit actor) => actor != null && actor.BaseStats.UsesDocumentedRules && actor.BaseStats.DefinitionId == "sepora";
     }
 }

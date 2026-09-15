@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: 3e6d414c5b3093b44988638c378062da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -544170299307392582
+    second: tauris-source_0
+  - first:
+      213: 7922226867128320108
+    second: tauris-source_1
+  - first:
+      213: 91771585596597938
+    second: tauris-source_2
+  - first:
+      213: 2024376635915487734
+    second: tauris-source_3
+  - first:
+      213: -2524118794700194770
+    second: tauris-source_4
+  - first:
+      213: -3005627738374821970
+    second: tauris-source_5
+  - first:
+      213: -8130540539111941045
+    second: tauris-source_6
+  - first:
+      213: -3642118113104883224
+    second: tauris-source_7
+  - first:
+      213: 7221221803171008921
+    second: tauris-source_8
+  - first:
+      213: 2051703451936141252
+    second: tauris-source_9
+  - first:
+      213: 7784222004716432478
+    second: tauris-source_10
+  - first:
+      213: 1228959654568440947
+    second: tauris-source_11
+  - first:
+      213: -2560620479076898112
+    second: tauris-source_12
+  - first:
+      213: 8234280468313416777
+    second: tauris-source_13
+  - first:
+      213: -3873082975144475282
+    second: tauris-source_14
+  - first:
+      213: -5287601947986156477
+    second: tauris-source_15
+  - first:
+      213: -5701792008330734301
+    second: tauris-source_16
+  - first:
+      213: 3430084457532341399
+    second: tauris-source_17
+  - first:
+      213: 5419708033341842173
+    second: tauris-source_18
+  - first:
+      213: -8768597643780451327
+    second: tauris-source_19
+  - first:
+      213: -7926023501795169679
+    second: tauris-source_20
+  - first:
+      213: 963282726660483958
+    second: tauris-source_21
+  - first:
+      213: 2910526440740160482
+    second: tauris-source_22
+  - first:
+      213: -6510531249689571219
+    second: tauris-source_23
+  - first:
+      213: -1060757384639838186
+    second: tauris-source_24
+  - first:
+      213: -46368628705906750
+    second: tauris-source_25
+  - first:
+      213: -3273429297722645144
+    second: tauris-source_26
+  - first:
+      213: -8041555129683804006
+    second: tauris-source_27
+  - first:
+      213: 6914268945498460447
+    second: tauris-source_28
+  - first:
+      213: 1827763259798046520
+    second: tauris-source_29
+  - first:
+      213: -6916022782572141188
+    second: tauris-source_30
+  - first:
+      213: -7987226464507021136
+    second: tauris-source_31
+  - first:
+      213: 4174501526588440982
+    second: tauris-source_32
+  - first:
+      213: -1702585618646469902
+    second: tauris-source_33
+  - first:
+      213: 4882748965940024967
+    second: tauris-source_34
+  - first:
+      213: -4758282316727694138
+    second: tauris-source_35
+  - first:
+      213: 6158031785987938188
+    second: tauris-source_36
+  - first:
+      213: 6653001463526191312
+    second: tauris-source_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tauris-source_0
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1266
+        width: 55
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab10774fef7b278f0800000000000000
+      internalID: -544170299307392582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_1
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1218
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c604d35ac5761fd60800000000000000
+      internalID: 7922226867128320108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_2
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1266
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6a5f755c9064100800000000000000
+      internalID: 91771585596597938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 1066
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9c75323d7081c10800000000000000
+      internalID: 2024376635915487734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1223
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cf10f545788fcd0800000000000000
+      internalID: -2524118794700194770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_5
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1193
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7ab171f7dd946d0800000000000000
+      internalID: -3005627738374821970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_6
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1187
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cd15605748a2f80800000000000000
+      internalID: -8130540539111941045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_7
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1191
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e11e567fd8947dc0800000000000000
+      internalID: -3642118113104883224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1125
+        width: 92
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991505668fee63460800000000000000
+      internalID: 7221221803171008921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_9
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1075
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfa81d4b6d197c10800000000000000
+      internalID: 2051703451936141252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_10
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1065
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ce6e3bbac170c60800000000000000
+      internalID: 7784222004716432478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_11
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1015
+        width: 78
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374b6d56b442e0110800000000000000
+      internalID: 1228959654568440947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_12
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1077
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cae704bd39d67cd0800000000000000
+      internalID: -2560620479076898112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 978
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94422c6757a064270800000000000000
+      internalID: 8234280468313416777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_14
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 965
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6586e8fd8b004ac0800000000000000
+      internalID: -3873082975144475282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_15
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 989
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3442f901b0aae96b0800000000000000
+      internalID: -5287601947986156477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 834
+        width: 78
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3251948b06a2fd0b0800000000000000
+      internalID: -5701792008330734301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 967
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cbdc804ab1a9f20800000000000000
+      internalID: 3430084457532341399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 959
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2eba1ddbba63b40800000000000000
+      internalID: 5419708033341842173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_19
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 848
+        width: 65
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1049328a6eeaf4680800000000000000
+      internalID: -8768597643780451327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_20
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 773
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ae9167e9b110290800000000000000
+      internalID: -7926023501795169679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_21
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 673
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b2ed449844e5d00800000000000000
+      internalID: 963282726660483958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_22
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 667
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e303b19064446820800000000000000
+      internalID: 2910526440740160482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_23
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 659
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d605c2b9252f5a5a0800000000000000
+      internalID: -6510531249689571219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_24
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 601
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6188baf57ce6741f0800000000000000
+      internalID: -1060757384639838186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_25
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 535
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf23455af34b5ff0800000000000000
+      internalID: -46368628705906750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_26
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 517
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865a2e7a5617292d0800000000000000
+      internalID: -3273429297722645144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_27
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 77
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a900a7d2738a66090800000000000000
+      internalID: -8041555129683804006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_28
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 81
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1153f9f8fa64ff50800000000000000
+      internalID: 6914268945498460447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_29
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837c5c930058d5910800000000000000
+      internalID: 1827763259798046520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_30
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 67
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7567420ce95500a0800000000000000
+      internalID: -6916022782572141188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_31
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 33
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8b57249dba72190800000000000000
+      internalID: -7987226464507021136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_32
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 43
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69141ae550fcee930800000000000000
+      internalID: 4174501526588440982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_33
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 41
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f273e886633f58e0800000000000000
+      internalID: -1702585618646469902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_34
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 29
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786d24a805203c340800000000000000
+      internalID: 4882748965940024967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_35
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 47
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc4c62817f27fdb0800000000000000
+      internalID: -4758282316727694138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_36
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 31
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87106f5849b57550800000000000000
+      internalID: 6158031785987938188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tauris-source_37
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0f1abf495345c50800000000000000
+      internalID: 6653001463526191312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tauris-source_0: -544170299307392582
+      tauris-source_1: 7922226867128320108
+      tauris-source_10: 7784222004716432478
+      tauris-source_11: 1228959654568440947
+      tauris-source_12: -2560620479076898112
+      tauris-source_13: 8234280468313416777
+      tauris-source_14: -3873082975144475282
+      tauris-source_15: -5287601947986156477
+      tauris-source_16: -5701792008330734301
+      tauris-source_17: 3430084457532341399
+      tauris-source_18: 5419708033341842173
+      tauris-source_19: -8768597643780451327
+      tauris-source_2: 91771585596597938
+      tauris-source_20: -7926023501795169679
+      tauris-source_21: 963282726660483958
+      tauris-source_22: 2910526440740160482
+      tauris-source_23: -6510531249689571219
+      tauris-source_24: -1060757384639838186
+      tauris-source_25: -46368628705906750
+      tauris-source_26: -3273429297722645144
+      tauris-source_27: -8041555129683804006
+      tauris-source_28: 6914268945498460447
+      tauris-source_29: 1827763259798046520
+      tauris-source_3: 2024376635915487734
+      tauris-source_30: -6916022782572141188
+      tauris-source_31: -7987226464507021136
+      tauris-source_32: 4174501526588440982
+      tauris-source_33: -1702585618646469902
+      tauris-source_34: 4882748965940024967
+      tauris-source_35: -4758282316727694138
+      tauris-source_36: 6158031785987938188
+      tauris-source_37: 6653001463526191312
+      tauris-source_4: -2524118794700194770
+      tauris-source_5: -3005627738374821970
+      tauris-source_6: -8130540539111941045
+      tauris-source_7: -3642118113104883224
+      tauris-source_8: 7221221803171008921
+      tauris-source_9: 2051703451936141252
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

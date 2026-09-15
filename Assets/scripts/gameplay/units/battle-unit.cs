@@ -22,6 +22,13 @@ namespace MonsterPouch.Gameplay.Units
         public bool IsAlive => CurrentHealth > 0 && State != UnitState.Dead;
         public bool IsReviving { get; private set; }
         public bool IsCombatSummon { get; private set; }
+        public float Energy { get; private set; }
+        public bool IsEnergyLocked { get; internal set; }
+        public int Shield { get; private set; }
+        public bool IsStunned { get; internal set; }
+        public bool IsRooted { get; internal set; }
+        public bool IsInvisible { get; internal set; }
+        public bool IsSleeping { get; internal set; }
         internal int CombatResetVersion { get; private set; }
 
         public BoardCell CurrentCell { get; private set; }
@@ -44,6 +51,8 @@ namespace MonsterPouch.Gameplay.Units
             CurrentHealth = baseStats.MaxHealth;
             State = UnitState.Idle;
             IsReviving = false;
+            Energy = 0; Shield = 0; IsEnergyLocked = false;
+            IsStunned = IsRooted = IsInvisible = IsSleeping = false;
         }
 
         internal void BeginReviving()
@@ -53,14 +62,29 @@ namespace MonsterPouch.Gameplay.Units
             IsReviving = true;
         }
 
-        internal void CompleteRevival()
+        internal void CompleteRevival(float healthFraction = -1)
         {
-            CurrentHealth = Mathf.Clamp(Mathf.CeilToInt(baseStats.MaxHealth * baseStats.ReviveHealthFraction), 1, baseStats.MaxHealth);
+            CurrentHealth = Mathf.Clamp(Mathf.CeilToInt(baseStats.MaxHealth * (healthFraction > 0 ? healthFraction : baseStats.ReviveHealthFraction)), 1, baseStats.MaxHealth);
             State = UnitState.Idle;
             IsReviving = false;
         }
 
         internal void CancelRevival() { IsReviving = false; }
+
+        public float AddEnergy(float amount)
+        {
+            if (IsEnergyLocked && amount > 0) return 0;
+            float before = Energy;
+            Energy = Mathf.Clamp(Energy + amount, 0, Mathf.Max(0, baseStats.EnergyMax));
+            return Energy - before;
+        }
+        internal void ClearEnergy() { Energy = 0; }
+        internal void AddShield(int amount) { Shield += Mathf.Max(0, amount); }
+        internal int AbsorbShield(int damage)
+        {
+            int absorbed = Mathf.Min(Shield, Mathf.Max(0, damage)); Shield -= absorbed;
+            return Mathf.Max(0, damage - absorbed);
+        }
 
         public int ApplyDamage(int amount)
         {

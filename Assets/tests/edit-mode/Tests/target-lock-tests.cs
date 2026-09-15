@@ -63,7 +63,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         [TestCase(3, BoardSide.Blue)]
         [TestCase(1, BoardSide.Red)]
         [TestCase(3, BoardSide.Red)]
-        public void MovingTarget_IsPursuedInsteadOfSwitchingToTheNewAdjacentEnemy(int range, BoardSide side)
+        public void MovingTarget_LeavingRangeSwitchesToTheNewAdjacentEnemy(int range, BoardSide side)
         {
             int Y(int value) => side == BoardSide.Blue ? value : 9 - value;
             BoardSide other = side == BoardSide.Blue ? BoardSide.Red : BoardSide.Blue;
@@ -75,14 +75,15 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             OnlyAttacks(original, 1);
             Move(original, 2, Y(1));
             Move(intruder, 2, Y(7));
+            attacks.Clear();
             sim.Step(3f);
-            OnlyAttacks(original);
-            Assert.AreEqual(1000, intruder.CurrentHealth);
-            Assert.AreNotEqual(Y(8), actor.CurrentCell.Y);
+            OnlyAttacks(intruder);
+            Assert.Less(intruder.CurrentHealth,1000);
+            Assert.AreEqual(Y(8), actor.CurrentCell.Y);
         }
 
         [Test]
-        public void TargetIsLockedDuringPursuitBeforeTheFirstAttack()
+        public void PursuitSwitchesWhenAnotherEnemyEntersRangeBeforeTheFirstAttack()
         {
             var actor = Unit("actor", 2, 9, new UnitStats(1000, 1, 1, .4f, .1f), BoardSide.Blue);
             var original = Unit("original", 2, 5);
@@ -93,8 +94,18 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.AreEqual(8, actor.CurrentCell.Y);
             Move(intruder, 2, 7);
             sim.Step(3f);
-            OnlyAttacks(original);
-            Assert.AreEqual(1000, intruder.CurrentHealth);
+            OnlyAttacks(intruder);
+            Assert.Less(intruder.CurrentHealth,1000);
+        }
+
+        [Test]
+        public void AcquisitionPrefersCrossBeforeDiagonalButKeepsAnInRangeLock()
+        {
+            var actor=Unit("actor",2,5,new UnitStats(1000,1,3,.4f,.1f),BoardSide.Blue);
+            var diagonal=Unit("a-diagonal",3,4);var cross=Unit("z-cross",2,4);
+            var sim=Begin(actor,diagonal,cross);sim.Step(.1f);OnlyAttacks(cross,1);
+            Move(cross,2,2);Move(diagonal,2,6);attacks.Clear();sim.Step(1);
+            OnlyAttacks(cross);
         }
 
         [Test]
@@ -128,7 +139,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void TemporarilyBlockedRoute_WaitsAndResumesAgainstTheSameOpponent()
+        public void BlockedOldTargetDoesNotPreventAttackingAnEnemyAlreadyInRange()
         {
             var actor = Unit("actor", 2, 8, new UnitStats(1000, 1, 1, .4f, .1f), BoardSide.Blue);
             var original = Unit("original", 2, 7);
@@ -140,12 +151,13 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.IsTrue(board.TrySetCellBlocked(0, 1, true));
             Assert.IsTrue(board.TrySetCellBlocked(1, 0, true));
             Assert.IsTrue(board.TrySetCellBlocked(1, 1, true));
+            attacks.Clear();
             sim.Step(1f);
-            Assert.AreEqual(1, attacks.Count);
-            Assert.AreEqual(1000, intruder.CurrentHealth);
+            OnlyAttacks(intruder);
+            Assert.Less(intruder.CurrentHealth,1000);
             Assert.IsTrue(board.TrySetCellBlocked(1, 1, false));
             sim.Step(4f);
-            OnlyAttacks(original);
+            OnlyAttacks(intruder);
         }
 
         [Test]

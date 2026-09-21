@@ -31,6 +31,10 @@ namespace MonsterPouch.Gameplay.Match
         public event Action<BattleUnit, BoardCell, BoardCell> Moved;
         public event Action<BattleUnit, BattleUnit, bool> Attacked;
         public event Action<BattleUnit, BattleUnit, int> Impacted;
+        public event Action<BattleUnit, int> Healed;
+        public event Action<BattleUnit, BattleUnit> CriticalImpacted;
+        public event Action<BattleUnit> AttackReset;
+        public event Action<BoardCell> HealingArea;
         public event Action<BattleUnit> Died;
         public event Action<BattleUnit, float> Reviving;
         public event Action<BattleUnit> Revived;
@@ -102,7 +106,7 @@ namespace MonsterPouch.Gameplay.Match
         BoardCell FormationCell(PouchState owner, OwnedUnit unit)
         {
             return Config.FormationCells(unit.Definition, owner.Side).Select(p => Board.GetCell(p.x,p.y)).Where(c =>
-                (c.OccupiedBy == null || (actors.TryGetValue(unit, out var a) && c.OccupiedBy == a)) &&
+                (c.OccupiedBy == null || (actors.TryGetValue(unit, out var a) && ReferenceEquals(c.OccupiedBy, a))) &&
                 !owner.Owned.Values.Any(o => o != unit && o.Location == UnitLocation.Field && o.Deployment == new Vector2Int(c.X,c.Y)))
                 .FirstOrDefault();
         }
@@ -180,8 +184,8 @@ namespace MonsterPouch.Gameplay.Match
                 if (slot >= 0 && slot < Player.Offers.Count && Player.Offers[slot] != null &&
                     Player.Owned.TryGetValue(Player.Offers[slot].UnitId, out var existing)) actors.TryGetValue(existing, out existingActor);
                 if (cell == null || !Board.IsManagedCell(cell) || cell.IsBlocked ||
-                    (cell.ReservedBy != null && cell.ReservedBy != existingActor)) return Reject("La casilla no está disponible.");
-                if (cell.OccupiedBy != null && cell.OccupiedBy != existingActor) return Reject("La casilla está ocupada.");
+                    (cell.ReservedBy != null && !ReferenceEquals(cell.ReservedBy, existingActor))) return Reject("La casilla no está disponible.");
+                if (cell.OccupiedBy != null && !ReferenceEquals(cell.OccupiedBy, existingActor)) return Reject("La casilla está ocupada.");
                 position = cell.Coordinates;
             }
             bool ok = Player.TryBuyAndPlace(slot, token, bench ? UnitLocation.Bench : UnitLocation.Field, position, out string reason);
@@ -230,9 +234,9 @@ namespace MonsterPouch.Gameplay.Match
         {
             if (!CanPrepare() || cell == null || !Player.Owned.TryGetValue(id, out var owned)) return false;
             actors.TryGetValue(owned, out var actor);
-            if (!Board.IsManagedCell(cell) || cell.IsBlocked || (cell.ReservedBy != null && cell.ReservedBy != actor))
+            if (!Board.IsManagedCell(cell) || cell.IsBlocked || (cell.ReservedBy != null && !ReferenceEquals(cell.ReservedBy, actor)))
                 return Reject("La casilla no está disponible.");
-            if (cell.OccupiedBy != null && cell.OccupiedBy != actor) return Reject("La casilla está ocupada.");
+            if (cell.OccupiedBy != null && !ReferenceEquals(cell.OccupiedBy, actor)) return Reject("La casilla está ocupada.");
             var pos = new Vector2Int(cell.X, cell.Y);
             UnitLocation previousLocation=owned.Location; Vector2Int previousCell=owned.Deployment;
             if (!Player.TrySetLocation(id, UnitLocation.Field, pos, out string reason)) return Reject(reason);
@@ -267,6 +271,10 @@ namespace MonsterPouch.Gameplay.Match
             Simulation.Moved += (actor, from, to) => Moved?.Invoke(actor, from, to);
             Simulation.Attacked += (actor, target, projectile) => { Attacked?.Invoke(actor,target,projectile); };
             Simulation.Impacted += (actor, target, damage) => { Impacted?.Invoke(actor,target,damage); Sound?.Invoke("hit"); };
+            Simulation.Healed += (actor,amount)=>Healed?.Invoke(actor,amount);
+            Simulation.CriticalImpacted += (actor,target)=>CriticalImpacted?.Invoke(actor,target);
+            Simulation.AttackReset += actor=>AttackReset?.Invoke(actor);
+            Simulation.HealingArea += cell=>HealingArea?.Invoke(cell);
             Simulation.Died += actor => { Died?.Invoke(actor); Sound?.Invoke("death"); };
             Simulation.Reviving += (actor, duration) => Reviving?.Invoke(actor, duration);
             Simulation.Revived += actor => { Revived?.Invoke(actor); Sound?.Invoke("buy"); };

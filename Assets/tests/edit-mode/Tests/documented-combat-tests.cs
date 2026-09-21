@@ -62,12 +62,12 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
         [Test] public void Bugaloo_ProtectionDoesNotReduceReflectedDamage()
         {
-            var buga = Unit(DocumentedRoster.CreateBugaloo(),2,5,BoardSide.Blue,0,1);
+            var buga = Unit(DocumentedRoster.CreateBugaloo(),2,5,BoardSide.Blue,0);
             // Melee attacker resolves after one tick, before Bugaloo's first post-super punch.
             var melee = new UnitDefinition { Id="punch",MaxHealth=1000,Damage=20,AttackRange=1,AttackInterval=100,AttackWindup=.1f };
             var punch = Unit(melee,2,4,BoardSide.Red);
             Begin(buga,punch); buga.AddEnergy(100); simulation.Step(.2f);
-            Assert.AreEqual(100,buga.CurrentHealth); Assert.AreEqual(970,punch.CurrentHealth);
+            Assert.AreEqual(100,buga.CurrentHealth); Assert.AreEqual(980,punch.CurrentHealth);
         }
         [Test] public void Tauris_ChargedBiteExecutesButHungerReplacesItWithHalfCurrentHealth()
         {
@@ -195,14 +195,16 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             var hymay=Unit(Fast(DocumentedRoster.CreateHymay()),2,7,BoardSide.Blue,2); var enemy=Enemy(2,4); Begin(hymay,enemy); hymay.AddEnergy(100); simulation.Step(.5f);
             Assert.AreEqual(new Vector2Int(2,6),enemy.CurrentCell.Coordinates); Assert.AreEqual(new Vector2Int(2,8),hymay.CurrentCell.Coordinates);
         }
-        [Test] public void DocumentedMonster_ThreeUpgradesAreIndependentAndNeverChargedTwice()
+        [Test] public void DocumentedMonster_OnlyOneUpgradePerMatchAndNeverChargedTwice()
         {
             var config=ScriptableObject.CreateInstance<MatchConfig>(); config.Units=DocumentedRoster.CreateAll(); config.RoundIncome=new[]{100};
             try
             {
                 var pouch=new PouchState(config,1,"anuik",BoardSide.Blue); pouch.BeginPreparation(1);
-                Assert.IsTrue(pouch.TryUpgradeMonster(2,out _)); Assert.IsTrue(pouch.TryUpgradeMonster(0,out _)); Assert.IsTrue(pouch.TryUpgradeMonster(1,out _));
-                int coins=pouch.Coins; Assert.IsFalse(pouch.TryUpgradeMonster(2,out _)); Assert.AreEqual(coins,pouch.Coins); Assert.AreEqual(3,pouch.Monster.TrickCount);
+                Assert.IsTrue(pouch.TryUpgradeMonster(2,out _)); int afterPurchase=pouch.Coins;
+                Assert.IsFalse(pouch.TryUpgradeMonster(0,out _)); Assert.IsFalse(pouch.TryUpgradeMonster(1,out _)); Assert.AreEqual(afterPurchase,pouch.Coins);
+                int coins=pouch.Coins; Assert.IsFalse(pouch.TryUpgradeMonster(2,out _)); Assert.AreEqual(coins,pouch.Coins); Assert.AreEqual(1,pouch.Monster.TrickCount);
+                pouch.BeginPreparation(2); Assert.IsFalse(pouch.TryUpgradeMonster(0,out _));
             }
             finally { Object.DestroyImmediate(config); }
         }

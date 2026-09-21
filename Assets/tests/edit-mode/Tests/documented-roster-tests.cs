@@ -72,7 +72,7 @@ namespace MonsterPouch.Gameplay.Tests
         }
 
         [Test]
-        public void MonsterSelectedTricksUseSameEffectSnapshotAsWhelps()
+        public void MonsterSnapshotIgnoresAdditionalTricksFromInvalidLoadout()
         {
             UnitDefinition definition = DocumentedRoster.CreateBugaloo();
             var owned = new OwnedUnit(definition);
@@ -81,7 +81,7 @@ namespace MonsterPouch.Gameplay.Tests
             UnitStats stats = UnitStats.FromDefinition(definition, owned);
             Assert.That(stats.HasEffect("bugaloo-reflect"), Is.True);
             Assert.That(stats.HasEffect("bugaloo-protection"), Is.True);
-            Assert.That(stats.HasEffect("bugaloo-healing"), Is.True);
+            Assert.That(stats.HasEffect("bugaloo-healing"), Is.False);
             Assert.That(stats.HasEffect("bugaloo-revenge"), Is.False);
             Assert.That(stats.EnergyMax, Is.EqualTo(100));
             Assert.That(stats.EnergyPerAttack, Is.EqualTo(25));

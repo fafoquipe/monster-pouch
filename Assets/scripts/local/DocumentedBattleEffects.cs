@@ -163,8 +163,9 @@ namespace MonsterPouch.Local
             CombatSimulation simulation = match.Simulation;
             string id = actor.BaseStats.DefinitionId;
             float windup = CombatSimulation.GetAttackWindup(actor), elapsed = 0;
-            while (elapsed < windup && Current(simulation)) { elapsed += Time.deltaTime; yield return null; }
-            if (!Current(simulation) || actor == null || target == null) yield break;
+            int attackVersion=actor.AttackResetVersion;
+            while (elapsed < windup && Current(simulation) && actor!=null && actor.AttackResetVersion==attackVersion) { elapsed += Time.deltaTime; yield return null; }
+            if (!Current(simulation) || actor == null || target == null || actor.AttackResetVersion!=attackVersion) yield break;
             if (id == "trimol")
             {
                 yield return RollingRock(actor.transform.position, target.transform.position, Mathf.Max(.1f, impactDelay - windup), false);

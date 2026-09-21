@@ -25,6 +25,9 @@ namespace MonsterPouch.Gameplay.Presentation
         public Sprite[] Attack = Array.Empty<Sprite>();
         public Sprite[] Death = Array.Empty<Sprite>();
         public Sprite[] Revive = Array.Empty<Sprite>();
+        public Sprite[] Special = Array.Empty<Sprite>();
+        public bool SpecialFlipX;
+        [Min(.1f)] public float SpecialDuration = .65f;
         [Min(.1f)] public float IdleFramesPerSecond = 3f;
         [Min(.1f)] public float MoveFramesPerSecond = 10f;
         [Tooltip("First attack frame shown at the simulation contact/release instant.")]

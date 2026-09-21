@@ -27,7 +27,7 @@ public class SeptemberUIPlayTests
         yield return null;
     }
     static Button ButtonNamed(string name)=>Object.FindObjectsByType<Button>(FindObjectsSortMode.None).First(b=>b.name==name);
-    [UnityTest] public IEnumerator UpgradeClickBuysImmediatelyAndCombatShowsRockAndInstantRay()
+    [UnityTest] public IEnumerator UpgradeRequiresDoubleTapAndCombatShowsRockAndInstantRay()
     {
         Assert.IsTrue(ui.Match.StartMatch("sepora",new[]{"trimol"}));ui.Match.Player.AddCombatCoins(30);
         var offer=ui.Match.Player.Offers[0];
@@ -36,7 +36,8 @@ public class SeptemberUIPlayTests
         var owned=ui.Match.Player.Owned["trimol"];int before=ui.Match.Player.Coins;
         ui.InspectOffer(1,ui.Match.Player.Offers[1].Token);yield return null;
         var sheet=ui.CanvasRoot.GetComponentsInChildren<RectTransform>().First(t=>t.name=="Unit sheet");
-        var buy=sheet.GetComponentsInChildren<Button>().First(b=>b.name.EndsWith(" MT"));
+        var buy=sheet.GetComponentsInChildren<Button>().First(b=>b.name=="ability-0");
+        buy.onClick.Invoke();Assert.IsFalse(owned.Tricks[0]);Assert.AreEqual(before,ui.Match.Player.Coins);
         buy.onClick.Invoke();Assert.IsTrue(owned.Tricks[0]);Assert.AreEqual(before-owned.Definition.Tricks[0].Cost,ui.Match.Player.Coins);
         Assert.IsNull(ui.Match.Player.Offers[1]);ui.CloseModal();yield return null;
         ui.Match.Ready();yield return null;
@@ -62,6 +63,21 @@ public class SeptemberUIPlayTests
         ui.OpenHome();yield return null;ButtonNamed("JUGAR CONTRA BOT").onClick.Invoke();yield return null;
         Assert.AreEqual("sepora",ui.Match.Player.Monster.Definition.Id);
         Assert.AreEqual(MatchPhase.Preparation,ui.Match.Phase);
+    }
+    [UnityTest] public IEnumerator HeroCardPreviewsThenBuysOnlyOneAndIconsAreImported()
+    {
+        foreach(string id in new[]{"figuras","brief","guia","sonido","batalla"})
+            Assert.IsNotNull(Resources.Load<Sprite>("MonsterPouch/UI/MenuItems/"+id));
+        Assert.IsTrue(ui.Match.StartMatch("anuik",new[]{"trimol"}));ui.Match.Player.AddCombatCoins(30);
+        var hero=ui.Match.Player.Monster;ui.ShowInspection(hero,false);yield return null;
+        int coins=ui.Match.Player.Coins;
+        ButtonNamed("ability-1").onClick.Invoke();Assert.AreEqual(coins,ui.Match.Player.Coins);
+        Assert.IsTrue(ui.CanvasRoot.GetComponentsInChildren<Text>().Any(t=>t.text==hero.Definition.Tricks[1].Name));
+        ButtonNamed("ability-1").onClick.Invoke();yield return null;
+        Assert.AreEqual(1,hero.TrickCount);Assert.AreEqual(coins-hero.Definition.Tricks[1].Cost,ui.Match.Player.Coins);
+        coins=ui.Match.Player.Coins;
+        ButtonNamed("ability-2").onClick.Invoke();ButtonNamed("ability-2").onClick.Invoke();
+        Assert.AreEqual(1,hero.TrickCount);Assert.AreEqual(coins,ui.Match.Player.Coins);
     }
     [UnityTest] public IEnumerator IndependentBriefSelectionAndRealRerollRemainFunctional()
     {

@@ -15,11 +15,11 @@ public sealed class MonsterPouchBalanceInspector : Editor
     Dictionary<string, UnitDefinition> references;
     bool referenceMode;
 
-    static readonly string[] Stats = { "MaxHealth", "Damage", "AttackRange", "AttackInterval", "AttackWindup", "MoveInterval", "IQSpeed", "BaseCost", "TargetPolicy", "Formation" };
+    static readonly string[] Stats = { "MaxHealth", "Damage", "AttackRange", "AttackInterval", "AttackWindup", "ProjectileSpeed", "MoveInterval", "IQSpeed", "BaseCost", "TargetPolicy", "Formation" };
     static readonly string[] Energy = { "EnergyMax", "EnergyPerAttack", "EnergyOnDamage", "EnergyPerSecond" };
     static readonly string[] Revival = { "RevivesPerCombat", "ReviveHealthFraction", "ReviveDelay" };
     static readonly string[] Summoning = { "MaxLivingSummons", "SummonHealth", "SummonDamage", "SummonAttackInterval", "SummonMoveInterval" };
-    static readonly string[] EffectBalance = { "HealthBonus", "DamageBonus", "AttackIntervalMultiplier", "RangeBonus", "Armor", "HealOnHit", "BonusEveryHits", "BonusDamage", "EveryAttacks" };
+    static readonly string[] EffectBalance = { "HealthBonus", "DamageBonus", "AttackIntervalMultiplier", "RangeBonus", "Armor", "HealOnHit", "BonusEveryHits", "BonusDamage" };
 
     public override void OnInspectorGUI()
     {
@@ -79,14 +79,14 @@ public sealed class MonsterPouchBalanceInspector : Editor
             foreach (string field in Summoning) Draw(unit, field);
         }
 
-        DrawAbility(unit.FindPropertyRelative("BaseAbility"), reference?.BaseAbility, "Habilidad propia", false);
+        DrawAbility(unit.FindPropertyRelative("BaseAbility"), reference?.BaseAbility, "Habilidad propia", false, unit);
         var tricks = unit.FindPropertyRelative("Tricks");
         if (documented || !unit.FindPropertyRelative("IsMonster").boolValue)
         {
             for (int i = 0; tricks != null && i < Math.Min(3, tricks.arraySize); i++)
-                DrawAbility(tricks.GetArrayElementAtIndex(i), reference?.Tricks != null && i < reference.Tricks.Length ? reference.Tricks[i] : null, "Mejora " + (i + 1), true);
+                DrawAbility(tricks.GetArrayElementAtIndex(i), reference?.Tricks != null && i < reference.Tricks.Length ? reference.Tricks[i] : null, "Mejora " + (i + 1), true, unit);
         }
-        else DrawAbility(unit.FindPropertyRelative("MonsterUpgrade"), reference?.MonsterUpgrade, "Mejora propia", true);
+        else DrawAbility(unit.FindPropertyRelative("MonsterUpgrade"), reference?.MonsterUpgrade, "Mejora propia", true, unit);
 
         if (EditorGUI.EndChangeCheck())
         {
@@ -108,7 +108,7 @@ public sealed class MonsterPouchBalanceInspector : Editor
         }
     }
 
-    void DrawAbility(SerializedProperty property, TrickDefinition reference, string heading, bool hasCost)
+    void DrawAbility(SerializedProperty property, TrickDefinition reference, string heading, bool hasCost, SerializedProperty unit)
     {
         if (property == null || reference == null) return;
         EditorGUILayout.Space();
@@ -127,16 +127,73 @@ public sealed class MonsterPouchBalanceInspector : Editor
         using (new EditorGUI.DisabledScope(true))
         {
             Draw(property, "Name", "Habilidad");
-            Draw(property, "Description", "Efecto");
             Draw(property, "Trigger", "Activación");
         }
         if (hasCost) Draw(property, "Cost", "Coste");
+        var parameters=property.FindPropertyRelative("Parameters");
+        if(parameters!=null)for(int i=0;i<parameters.arraySize;i++)
+        {
+            var parameter=parameters.GetArrayElementAtIndex(i);
+            string key=parameter.FindPropertyRelative("Key").stringValue;
+            EditorGUILayout.PropertyField(parameter.FindPropertyRelative("Value"),new GUIContent(effectId.stringValue=="aky-opening-flight"&&key=="duration"?"Tiempo de vuelo (s)":key));
+        }
+        // New balance parameters remain editable in existing assets, without running a
+        // content migration that could overwrite the designer's other balance values.
+        if(parameters!=null)foreach(var fallback in AbilityBalance.Resolve(reference))
+        {
+            bool exists=false;
+            for(int i=0;i<parameters.arraySize;i++)
+                if(parameters.GetArrayElementAtIndex(i).FindPropertyRelative("Key").stringValue==fallback.Key){exists=true;break;}
+            if(exists)continue;
+            EditorGUI.BeginChangeCheck();
+            float value=EditorGUILayout.FloatField(effectId.stringValue=="aky-opening-flight"&&fallback.Key=="duration"?"Tiempo de vuelo (s)":fallback.Key,fallback.Value);
+            if(EditorGUI.EndChangeCheck())
+            {
+                int index=parameters.arraySize;parameters.InsertArrayElementAtIndex(index);
+                var added=parameters.GetArrayElementAtIndex(index);
+                added.FindPropertyRelative("Key").stringValue=fallback.Key;
+                added.FindPropertyRelative("Value").floatValue=Mathf.Max(0,value);
+            }
+        }
         foreach (string field in EffectBalance)
         {
             double value = Number(reference, field);
             bool active = field == "AttackIntervalMultiplier" ? Math.Abs(value - 1) > .00001 : Math.Abs(value) > .00001;
             if (active) Draw(property, field);
         }
+        EditorGUILayout.LabelField("Efecto · se actualiza con las estadísticas", EditorStyles.miniLabel);
+        EditorGUILayout.HelpBox(DescriptionPreview(property,unit),MessageType.None);
+    }
+
+    // Read pending serialized values too: the preview changes in the same GUI pass as an edit,
+    // without saving text into the asset or interfering with Undo/Redo.
+    public static string DescriptionPreview(SerializedProperty property, SerializedProperty unit)
+    {
+        var effect=new TrickDefinition
+        {
+            Id=property.FindPropertyRelative("Id").stringValue,
+            EffectId=property.FindPropertyRelative("EffectId").stringValue,
+            Description=property.FindPropertyRelative("Description").stringValue,
+            EveryAttacks=property.FindPropertyRelative("EveryAttacks").intValue,
+            HealthBonus=property.FindPropertyRelative("HealthBonus").intValue
+        };
+        var parameters=property.FindPropertyRelative("Parameters");
+        effect.Parameters=new AbilityParameter[parameters.arraySize];
+        for(int i=0;i<parameters.arraySize;i++)
+        {
+            var parameter=parameters.GetArrayElementAtIndex(i);
+            effect.Parameters[i]=new AbilityParameter
+            {
+                Key=parameter.FindPropertyRelative("Key").stringValue,
+                Value=parameter.FindPropertyRelative("Value").floatValue
+            };
+        }
+        var owner=new UnitDefinition
+        {
+            RevivesPerCombat=unit.FindPropertyRelative("RevivesPerCombat").intValue,
+            ReviveHealthFraction=unit.FindPropertyRelative("ReviveHealthFraction").floatValue
+        };
+        return AbilityBalance.Description(effect,owner);
     }
 
     static void ClearForeignEnablers(SerializedProperty unit, string id)

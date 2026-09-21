@@ -11,6 +11,13 @@ namespace MonsterPouch.Gameplay.Match
     public enum AbilityTrigger { Passive, Energy, EveryAttacks }
 
     [Serializable]
+    public sealed class AbilityParameter
+    {
+        public string Key;
+        [Min(0)] public float Value;
+    }
+
+    [Serializable]
     public sealed class TrickDefinition
     {
         // Stable behavior key. Description is presentation only and never parsed by combat.
@@ -20,6 +27,7 @@ namespace MonsterPouch.Gameplay.Match
         public string Id;
         public string Name;
         [TextArea] public string Description;
+        public AbilityParameter[] Parameters = Array.Empty<AbilityParameter>();
         [Min(0)] public int Cost;
         [Min(0)] public int HealthBonus;
         [Min(0)] public int DamageBonus;
@@ -53,6 +61,8 @@ namespace MonsterPouch.Gameplay.Match
         [Min(1)] public int Damage = 4;
         [Min(0.1f)] public float AttackInterval = 1f;
         [Min(0.1f)] public float AttackWindup = 0.2f;
+        [Min(.1f), Tooltip("Casillas por segundo. Los rayos instantáneos no tienen tiempo de viaje.")]
+        public float ProjectileSpeed = 10f;
         [Min(1)] public int AttackRange = 1;
         [Min(0.1f)] public float MoveInterval = 0.5f;
         [Min(1)] public int IQSpeed = 1;

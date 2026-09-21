@@ -15,6 +15,9 @@ namespace MonsterPouch.Gameplay.Units
         [SerializeField] private float energyOnDamage;
         [SerializeField] private float energyPerSecond;
         private readonly HashSet<string> effectIds = new HashSet<string>(StringComparer.Ordinal);
+        private readonly Dictionary<string,float> abilityValues = new Dictionary<string,float>(StringComparer.Ordinal);
+        public float ProjectileSpeed { get; private set; } = 10f;
+        public float AbilityValue(string effect, string key, float fallback) => abilityValues.TryGetValue(effect+":"+key,out var value)?value:fallback;
 
         public bool UsesDocumentedRules => usesDocumentedRules;
         public string DefinitionId => definitionId;
@@ -128,6 +131,7 @@ namespace MonsterPouch.Gameplay.Units
                 summonAttackInterval: definition.SummonAttackInterval, summonMoveInterval: definition.SummonMoveInterval);
             stats.usesDocumentedRules = definition.UsesDocumentedRules;
             stats.definitionId = definition.Id;
+            stats.ProjectileSpeed = Mathf.Max(.1f,definition.ProjectileSpeed);
             stats.energyMax = Mathf.Max(0, definition.EnergyMax);
             stats.energyPerAttack = Mathf.Max(0, definition.EnergyPerAttack);
             stats.energyOnDamage = Mathf.Max(0, definition.EnergyOnDamage);
@@ -135,7 +139,8 @@ namespace MonsterPouch.Gameplay.Units
             if (owned != null) stats.attack = Mathf.Max(0, stats.attack + owned.PersistentDamageBonus);
             stats.Apply(definition.BaseAbility);
             for (int i = 0; owned != null && i < 3; i++)
-                if (owned.Tricks[i] && definition.Tricks != null && i < definition.Tricks.Length) stats.Apply(definition.Tricks[i]);
+                if (owned.Tricks[i] && definition.Tricks != null && i < definition.Tricks.Length)
+                { stats.Apply(definition.Tricks[i]); if(definition.IsMonster)break; }
             if (owned != null && owned.HasMonsterUpgrade && applyUpgrades)
                 stats.Apply(definition.MonsterUpgrade);
             return stats;
@@ -144,6 +149,7 @@ namespace MonsterPouch.Gameplay.Units
         private void Apply(TrickDefinition effect)
         {
             if (effect == null) return;
+            foreach(var parameter in AbilityBalance.Resolve(effect))abilityValues[effect.EffectId+":"+parameter.Key]=parameter.Value;
             if (!string.IsNullOrWhiteSpace(effect.EffectId)) effectIds.Add(effect.EffectId);
             maxHealth = Mathf.Max(1, maxHealth + effect.HealthBonus);
             attack = Mathf.Max(0, attack + effect.DamageBonus);

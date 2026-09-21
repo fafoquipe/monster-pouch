@@ -1,0 +1,3218 @@
+fileFormatVersion: 2
+guid: c4e04d4ef28898f48abd7f4966741f54
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5052700183804981017
+    second: jazar-atlas_0
+  - first:
+      213: -1051718333756230087
+    second: jazar-atlas_1
+  - first:
+      213: -3152042877177888487
+    second: jazar-atlas_2
+  - first:
+      213: -7920324843654008612
+    second: jazar-atlas_3
+  - first:
+      213: -1995804442107716550
+    second: jazar-atlas_4
+  - first:
+      213: -8495293862948764569
+    second: jazar-atlas_5
+  - first:
+      213: -3761855725403707363
+    second: jazar-atlas_6
+  - first:
+      213: -3050766587628542688
+    second: jazar-atlas_7
+  - first:
+      213: 7946941439211703065
+    second: jazar-atlas_8
+  - first:
+      213: -4723342784247224043
+    second: jazar-atlas_9
+  - first:
+      213: 7872982301334116718
+    second: jazar-atlas_10
+  - first:
+      213: 1891790139734338289
+    second: jazar-atlas_11
+  - first:
+      213: -5216019450406510328
+    second: jazar-atlas_12
+  - first:
+      213: 2318083756296655075
+    second: jazar-atlas_13
+  - first:
+      213: 3669382084997646577
+    second: jazar-atlas_14
+  - first:
+      213: -2437381480527197871
+    second: jazar-atlas_15
+  - first:
+      213: 5846402221435504382
+    second: jazar-atlas_16
+  - first:
+      213: -4009800117669517172
+    second: jazar-atlas_17
+  - first:
+      213: -3239334477118374344
+    second: jazar-atlas_18
+  - first:
+      213: -5367480507881836864
+    second: jazar-atlas_19
+  - first:
+      213: 2886256652192686610
+    second: jazar-atlas_20
+  - first:
+      213: -2291834607438518315
+    second: jazar-atlas_21
+  - first:
+      213: 6838049184530589520
+    second: jazar-atlas_22
+  - first:
+      213: 5397752750348467166
+    second: jazar-atlas_23
+  - first:
+      213: 5667361868827398895
+    second: jazar-atlas_24
+  - first:
+      213: -1157787737788230076
+    second: jazar-atlas_25
+  - first:
+      213: -6978853174104418929
+    second: jazar-atlas_26
+  - first:
+      213: -8120793531870135362
+    second: jazar-atlas_27
+  - first:
+      213: 6612599897702895523
+    second: jazar-atlas_28
+  - first:
+      213: 2876346623615520752
+    second: jazar-atlas_29
+  - first:
+      213: 5909935064057606758
+    second: jazar-atlas_30
+  - first:
+      213: 3684636995299518451
+    second: jazar-atlas_31
+  - first:
+      213: -7719830736107771343
+    second: jazar-atlas_32
+  - first:
+      213: -8587718151981171240
+    second: jazar-atlas_33
+  - first:
+      213: 456653081658369972
+    second: jazar-atlas_34
+  - first:
+      213: -8147425859905086065
+    second: jazar-atlas_35
+  - first:
+      213: 4611163960672871091
+    second: jazar-atlas_36
+  - first:
+      213: 170903572092142362
+    second: jazar-atlas_37
+  - first:
+      213: -8044873908667184626
+    second: jazar-atlas_38
+  - first:
+      213: -3493322093999338165
+    second: jazar-atlas_39
+  - first:
+      213: -1616686752388002910
+    second: jazar-atlas_40
+  - first:
+      213: 8973288141132897731
+    second: jazar-atlas_41
+  - first:
+      213: 6674088082250017246
+    second: jazar-atlas_42
+  - first:
+      213: -6338725351945899444
+    second: jazar-atlas_43
+  - first:
+      213: -7606095122244492830
+    second: jazar-atlas_44
+  - first:
+      213: 7171936938639070019
+    second: jazar-atlas_45
+  - first:
+      213: -8025772056437564820
+    second: jazar-atlas_46
+  - first:
+      213: -5914623641905358664
+    second: jazar-atlas_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 9.036658
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jazar-atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 1399
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0d0c304f331e9b0800000000000000
+      internalID: -5052700183804981017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 840
+        width: 630
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936b1b86fbb8761f0800000000000000
+      internalID: -1051718333756230087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_2
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 844
+        width: 120
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911030514b1b144d0800000000000000
+      internalID: -3152042877177888487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_3
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 845
+        width: 148
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd03d44b48a551290800000000000000
+      internalID: -7920324843654008612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cd5032f6a7d44e0800000000000000
+      internalID: -1995804442107716550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 702
+        width: 90
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764026cdd37aa1a80800000000000000
+      internalID: -8495293862948764569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_6
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 704
+        width: 86
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18ea0f16243bcbc0800000000000000
+      internalID: -3761855725403707363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 806
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02525c3c3ff79a5d0800000000000000
+      internalID: -3050766587628542688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_8
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 699
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b8b0f5225394e60800000000000000
+      internalID: 7946941439211703065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_9
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 570
+        width: 597
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5192a8853c0537eb0800000000000000
+      internalID: -4723342784247224043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_10
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 696
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6915f1b0b3724d60800000000000000
+      internalID: 7872982301334116718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 566
+        width: 521
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faa374eb1df04a10800000000000000
+      internalID: 1891790139734338289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_12
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 704
+        width: 140
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801edfc02f9fc97b0800000000000000
+      internalID: -5216019450406510328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_13
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 570
+        width: 272
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e05aa505ec7b2020800000000000000
+      internalID: 2318083756296655075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_14
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 552
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f88779a0934ce230800000000000000
+      internalID: 3669382084997646577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_15
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 549
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1598f0f057eac2ed0800000000000000
+      internalID: -2437381480527197871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 548
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6c7b648d7922150800000000000000
+      internalID: 5846402221435504382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_17
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 400
+        width: 755
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c882dfda9045a58c0800000000000000
+      internalID: -4009800117669517172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 520
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83efeaea4729b03d0800000000000000
+      internalID: -3239334477118374344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_19
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 442
+        width: 124
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ceaedc8ae0e285b0800000000000000
+      internalID: -5367480507881836864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 290
+        width: 122
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212ad84122b0e0820800000000000000
+      internalID: 2886256652192686610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 279
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d72ea33194c130e0800000000000000
+      internalID: -2291834607438518315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 285
+        width: 119
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0576898f081a5ee50800000000000000
+      internalID: 6838049184530589520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_23
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 291
+        width: 109
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb78e5278ba8ea40800000000000000
+      internalID: 5397752750348467166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_24
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 289
+        width: 115
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe21d0db79386ae40800000000000000
+      internalID: 5667361868827398895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_25
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 255
+        width: 118
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44654dbcf26beefe0800000000000000
+      internalID: -1157787737788230076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_26
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 325
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8516e18302262f90800000000000000
+      internalID: -6978853174104418929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_27
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 293
+        width: 329
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb379efe452d4f80800000000000000
+      internalID: -8120793531870135362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_28
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 277
+        width: 111
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af8d58629ca4cb50800000000000000
+      internalID: 6612599897702895523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_29
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 284
+        width: 154
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff4f7fb306dae720800000000000000
+      internalID: 2876346623615520752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 118
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66277cae0ae440250800000000000000
+      internalID: 5909935064057606758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_31
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 279
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7271f33d5722330800000000000000
+      internalID: 3684636995299518451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_32
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 274
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a6720d8d6add490800000000000000
+      internalID: -7719830736107771343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_33
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 157
+        width: 446
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddfcf727db42d880800000000000000
+      internalID: -8587718151981171240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_34
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 163
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7a5ddee8b565600800000000000000
+      internalID: 456653081658369972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_35
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 151
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d968ae8578eee80800000000000000
+      internalID: -8147425859905086065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_36
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 157
+        width: 90
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b26df4f0352eff30800000000000000
+      internalID: 4611163960672871091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 159
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13c561b4eb2f5200800000000000000
+      internalID: 170903572092142362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_38
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 157
+        width: 100
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a851bbdcdda5090800000000000000
+      internalID: -8044873908667184626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_39
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 157
+        width: 94
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d452d501a358fc0800000000000000
+      internalID: -3493322093999338165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_40
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 155
+        width: 91
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab45dad6ff5099e0800000000000000
+      internalID: -1616686752388002910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_41
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 157
+        width: 120
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd93779506878c70800000000000000
+      internalID: 8973288141132897731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_42
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 155
+        width: 161
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed92e2effbf1f9c50800000000000000
+      internalID: 6674088082250017246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 813
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42708c50e25808a0800000000000000
+      internalID: -6338725351945899444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_44
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 17
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e129cef8c8b17690800000000000000
+      internalID: -7606095122244492830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_45
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 15
+        width: 171
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343951ba5a6d78360800000000000000
+      internalID: 7171936938639070019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_46
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 135
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a58c746dabe9090800000000000000
+      internalID: -8025772056437564820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-atlas_47
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 0
+        width: 279
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b89a1c72290beda0800000000000000
+      internalID: -5914623641905358664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 986
+        width: 110
+        height: 98
+      alignment: 9
+      pivot: {x: 0.49545455, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5ed0f244d3c314583c1b0d046f599a
+      internalID: 1212084543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 986
+        width: 109
+        height: 98
+      alignment: 9
+      pivot: {x: 0.49541286, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17d1e8db272a4f4181700ca18c199ad
+      internalID: -1048404604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 986
+        width: 113
+        height: 94
+      alignment: 9
+      pivot: {x: 0.50442475, y: 0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fcb313a2c7e0549b5cab80c544f975
+      internalID: 429893850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 984
+        width: 109
+        height: 97
+      alignment: 9
+      pivot: {x: 0.48623854, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75276b6846cc0f84a9f32cb68c69c9b2
+      internalID: 59088589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 987
+        width: 104
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4609d9d5da83c9429fb993430da4bfb
+      internalID: -1227139656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 986
+        width: 140
+        height: 95
+      alignment: 9
+      pivot: {x: 0.37857142, y: 0.031578947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40db35059f47d934088e144566ccf683
+      internalID: 1242454707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 986
+        width: 153
+        height: 99
+      alignment: 9
+      pivot: {x: 0.49019608, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12743da799ddde4eb79f35e30794632
+      internalID: -1910839523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 986
+        width: 154
+        height: 121
+      alignment: 9
+      pivot: {x: 0.4935065, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8337b59dc025e46b2857bc72cbc946
+      internalID: -645411197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 986
+        width: 115
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5521739, y: 0.033707865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c303d896f74364b48add0be61dc25149
+      internalID: 523051426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 987
+        width: 138
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5036232, y: 0.054545455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfae175d339b5347acb59271145c4b6
+      internalID: -1659697959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 856
+        width: 110
+        height: 99
+      alignment: 9
+      pivot: {x: 0.49545455, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee923bf6c81a0148ba6b43ba8701fe8
+      internalID: 1756569056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 856
+        width: 109
+        height: 99
+      alignment: 9
+      pivot: {x: 0.49541286, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fbdab5c1516e842b6e6c79ef03ec7a
+      internalID: -1586614643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 851
+        width: 111
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5045045, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6c5695f0e93804bb0ec07a03a8cf89
+      internalID: -866060025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 854
+        width: 102
+        height: 100
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bf5ce86c1b2184a9353a5dafd390ef
+      internalID: -1042261614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 856
+        width: 106
+        height: 99
+      alignment: 9
+      pivot: {x: 0.49056605, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7f07b7e1ded174fabd20985cd416b5
+      internalID: -1789954884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 854
+        width: 142
+        height: 100
+      alignment: 9
+      pivot: {x: 0.3309859, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e530a0df8027074ead6751f0287b915
+      internalID: -1057389815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 854
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.47916666, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51dfaa3637761248a35a5182dab10c5
+      internalID: 595539787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 853
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.47857141, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65786fc404482b54aabf13588abe7f9a
+      internalID: 290964116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 854
+        width: 104
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5576923, y: 0.03448276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74ed411a00734549843dd28e3dbe496
+      internalID: 1486294402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 854
+        width: 133
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5037594, y: 0.05357143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cba4b80d30f8b843a54d4b119811bb4
+      internalID: -1565708180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 715
+        width: 70
+        height: 107
+      alignment: 9
+      pivot: {x: 0.50714284, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dcdf1f0ed2e27418b41b5ebb185272
+      internalID: 1069756014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 714
+        width: 70
+        height: 108
+      alignment: 9
+      pivot: {x: 0.47142857, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e67d65f8320134dbc2c011639f046f
+      internalID: 1826453887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 715
+        width: 75
+        height: 105
+      alignment: 9
+      pivot: {x: 0.56666666, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4812d6fb2f7f7e44b98357b35c2fc232
+      internalID: -1161527212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 714
+        width: 71
+        height: 106
+      alignment: 9
+      pivot: {x: 0.40140846, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb36a6633fca684d972320778bed0ae
+      internalID: 2020097459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 713
+        width: 76
+        height: 107
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba94872e7f360dd459f2f8e341ae8603
+      internalID: 2125060893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 714
+        width: 121
+        height: 106
+      alignment: 9
+      pivot: {x: 0.2768595, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f7e0bc76b6da140b6f6a57be5fcecb
+      internalID: 1701513346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 716
+        width: 154
+        height: 103
+      alignment: 9
+      pivot: {x: 0.46753246, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1710a7be2f0443644bba554609304451
+      internalID: 646187611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 716
+        width: 130
+        height: 118
+      alignment: 9
+      pivot: {x: 0.4846154, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73553e41ad27b254484ba0f164e70a62
+      internalID: -564878269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 715
+        width: 91
+        height: 90
+      alignment: 9
+      pivot: {x: 0.45054945, y: 0.033333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361d8530190abfb40be5b866908f5e2e
+      internalID: -1953993761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 715
+        width: 128
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.05172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bf17afcaf4d0b4c9d43eaab5f83d06
+      internalID: 1600544893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 582
+        width: 110
+        height: 98
+      alignment: 9
+      pivot: {x: 0.43636364, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3516849303489fa49a42d57df5d739d2
+      internalID: -2134807531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 582
+        width: 109
+        height: 98
+      alignment: 9
+      pivot: {x: 0.44495413, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78888e1b25f77f94ab9a30e393e4705c
+      internalID: 1490537146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 577
+        width: 113
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5176991, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e362bd1b847a6f443b249b94f3893171
+      internalID: -1149056418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 578
+        width: 103
+        height: 101
+      alignment: 9
+      pivot: {x: 0.52427185, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb044f2535bd12b48a2ce84106125d6f
+      internalID: -1335106460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 582
+        width: 113
+        height: 98
+      alignment: 9
+      pivot: {x: 0.460177, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75ca8a527e53b54b843efa29cb8a410
+      internalID: -1876603386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 582
+        width: 132
+        height: 99
+      alignment: 9
+      pivot: {x: 0.41287878, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11837b69daa30ac429e0b96af87088b2
+      internalID: 1816027829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 582
+        width: 165
+        height: 100
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545e24387731b1d4d95fa363fb23336c
+      internalID: 558110520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 581
+        width: 128
+        height: 117
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5a074e9e526144a89468311c98b326
+      internalID: 1353213478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 582
+        width: 111
+        height: 93
+      alignment: 9
+      pivot: {x: 0.4009009, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f4d0088c6c2c44f9d32dde21dce5f1
+      internalID: -1550187065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 581
+        width: 130
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd4cff50dce2804091c21a633889694
+      internalID: -1186750755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 448
+        width: 110
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef59fada78615f4587cc188c8b19c2d
+      internalID: 697294220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 448
+        width: 110
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e230ed21393a7dc48999caaf117bcd66
+      internalID: 568425172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 446
+        width: 113
+        height: 97
+      alignment: 9
+      pivot: {x: 0.49115044, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b426f76e9d94149b3794afa4f929e5
+      internalID: -2034335315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 446
+        width: 109
+        height: 99
+      alignment: 9
+      pivot: {x: 0.49082568, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25bd00c8f589d84c968d3ec73fd57d6
+      internalID: -166731312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 447
+        width: 110
+        height: 98
+      alignment: 9
+      pivot: {x: 0.45, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1614147cd53a90941aec6c0186710dfc
+      internalID: 1971597173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 446
+        width: 139
+        height: 100
+      alignment: 9
+      pivot: {x: 0.3705036, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936de925f75ce5443850ed10a4c53556
+      internalID: -1433032105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 448
+        width: 135
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575ae7f371fa7fb4199ae0c50d6151aa
+      internalID: 2130042083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 446
+        width: 157
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4936306, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3440cd83d875648bc14e934e449164
+      internalID: 2041599059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 446
+        width: 111
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.033333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f473a0b407148b4ea08550d0d296a71
+      internalID: 1438334758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 446
+        width: 139
+        height: 61
+      alignment: 9
+      pivot: {x: 0.4856115, y: 0.04918033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108c35b0c38f6064b9fc4ae579f4f119
+      internalID: 976456505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 301
+        width: 75
+        height: 106
+      alignment: 9
+      pivot: {x: 0.47333333, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de1cb28d8801e24fb3bb5913aabafc5
+      internalID: -1658748728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 302
+        width: 68
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5661765, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974e50f0b51ed414b822c50be744c9ee
+      internalID: 2021377655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 301
+        width: 90
+        height: 103
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3fa8f2b11c3204b8463fff96657b32
+      internalID: -571096567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 302
+        width: 77
+        height: 102
+      alignment: 9
+      pivot: {x: 0.52597404, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6ca608c13c2ce4bbadc3ed075b78ab
+      internalID: -732007993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 301
+        width: 74
+        height: 107
+      alignment: 9
+      pivot: {x: 0.527027, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e407b70d9fa53e741bbe0a3bef02bf79
+      internalID: -530196044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 302
+        width: 74
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5202703, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a690e020ac0a0943b1fda473dc719c2
+      internalID: -1102234068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 303
+        width: 159
+        height: 105
+      alignment: 9
+      pivot: {x: 0.4874214, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca15f54d30025d429818b11766b643a
+      internalID: -1446067865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 303
+        width: 128
+        height: 117
+      alignment: 9
+      pivot: {x: 0.49609375, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0fb3cc3cf701849b62bd145cbdf15c
+      internalID: 1247528345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 301
+        width: 82
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5243902, y: 0.033707865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed421c5c63250774c9da4e2e1379c57d
+      internalID: -1832354547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 298
+        width: 136
+        height: 66
+      alignment: 9
+      pivot: {x: 0.46691176, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e159b530ca9aa24b90c331b827a64ac
+      internalID: 800925564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 162
+        width: 73
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4178082, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7332fc7b7c6c0d645a11dc006fec5e78
+      internalID: 1948229139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 162
+        width: 73
+        height: 109
+      alignment: 9
+      pivot: {x: 0.43150684, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792acadca804fe7499eb1ed83da1c508
+      internalID: 371195255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 160
+        width: 74
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5337838, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe75d57984a6c64c97dd6f95294b89b
+      internalID: -452026846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 160
+        width: 78
+        height: 105
+      alignment: 9
+      pivot: {x: 0.44230768, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53e31b679a2e984dbb8a73c9362103c
+      internalID: -278496024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 164
+        width: 82
+        height: 106
+      alignment: 9
+      pivot: {x: 0.40243903, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1b49d126ab54449950d052b08fe4ff
+      internalID: 299137235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 162
+        width: 113
+        height: 102
+      alignment: 9
+      pivot: {x: 0.33628318, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f23a06322b351547b0cdbd8fc5f0d14
+      internalID: -655155378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 162
+        width: 158
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1fabca6a139e840a643fbe565af3b0
+      internalID: -1575414658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 162
+        width: 134
+        height: 121
+      alignment: 9
+      pivot: {x: 0.48507464, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5e499511970f14cb703c62aaa6afaa
+      internalID: 2138784155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 162
+        width: 80
+        height: 92
+      alignment: 9
+      pivot: {x: 0.525, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4203094c8b5bb2d44ad32a1163f600ff
+      internalID: -1366596146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 161
+        width: 140
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48214287, y: 0.05172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97a54401a0bc0e40b9b787472a183fc
+      internalID: -611894571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 28
+        width: 108
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9224de939891a1e4d94e18f33ab8636d
+      internalID: 1192194846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 27
+        width: 109
+        height: 104
+      alignment: 9
+      pivot: {x: 0.47706422, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f0bb45919ac4a48b34e71e8c92dd64
+      internalID: -196650704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 25
+        width: 106
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5424528, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197b7d6acdb81544b817bf8f33c67c89
+      internalID: 2137126269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 25
+        width: 110
+        height: 105
+      alignment: 9
+      pivot: {x: 0.47272727, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05b9ad3c901ed64fac64ef07120d5c5
+      internalID: -230101615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 26
+        width: 111
+        height: 104
+      alignment: 9
+      pivot: {x: 0.4954955, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609039243ff17f545b2ed60aa1adf99d
+      internalID: 393404582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 25
+        width: 142
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3556338, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce49f1cdbe0979c46af1f93b3ad99d42
+      internalID: 447564426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 27
+        width: 127
+        height: 106
+      alignment: 9
+      pivot: {x: 0.48031497, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13234fa4fbb81d34fb5dc5ebb14f4225
+      internalID: 1425898554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 25
+        width: 138
+        height: 117
+      alignment: 9
+      pivot: {x: 0.51811594, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0ab778a5b3729498a6294a5948128b
+      internalID: 1996862346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 27
+        width: 94
+        height: 84
+      alignment: 9
+      pivot: {x: 0.55851066, y: 0.035714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f42ea442aa50b547a8deded9209aa51
+      internalID: -866659904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazar-directional-v1-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 28
+        width: 134
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5074627, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405dfd42766366740bc8b72e6a0be5bf
+      internalID: -1817000067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a43faa4a2e5493c409e00183c3b44bef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jazar-atlas_0: -5052700183804981017
+      jazar-atlas_1: -1051718333756230087
+      jazar-atlas_10: 7872982301334116718
+      jazar-atlas_11: 1891790139734338289
+      jazar-atlas_12: -5216019450406510328
+      jazar-atlas_13: 2318083756296655075
+      jazar-atlas_14: 3669382084997646577
+      jazar-atlas_15: -2437381480527197871
+      jazar-atlas_16: 5846402221435504382
+      jazar-atlas_17: -4009800117669517172
+      jazar-atlas_18: -3239334477118374344
+      jazar-atlas_19: -5367480507881836864
+      jazar-atlas_2: -3152042877177888487
+      jazar-atlas_20: 2886256652192686610
+      jazar-atlas_21: -2291834607438518315
+      jazar-atlas_22: 6838049184530589520
+      jazar-atlas_23: 5397752750348467166
+      jazar-atlas_24: 5667361868827398895
+      jazar-atlas_25: -1157787737788230076
+      jazar-atlas_26: -6978853174104418929
+      jazar-atlas_27: -8120793531870135362
+      jazar-atlas_28: 6612599897702895523
+      jazar-atlas_29: 2876346623615520752
+      jazar-atlas_3: -7920324843654008612
+      jazar-atlas_30: 5909935064057606758
+      jazar-atlas_31: 3684636995299518451
+      jazar-atlas_32: -7719830736107771343
+      jazar-atlas_33: -8587718151981171240
+      jazar-atlas_34: 456653081658369972
+      jazar-atlas_35: -8147425859905086065
+      jazar-atlas_36: 4611163960672871091
+      jazar-atlas_37: 170903572092142362
+      jazar-atlas_38: -8044873908667184626
+      jazar-atlas_39: -3493322093999338165
+      jazar-atlas_4: -1995804442107716550
+      jazar-atlas_40: -1616686752388002910
+      jazar-atlas_41: 8973288141132897731
+      jazar-atlas_42: 6674088082250017246
+      jazar-atlas_43: -6338725351945899444
+      jazar-atlas_44: -7606095122244492830
+      jazar-atlas_45: 7171936938639070019
+      jazar-atlas_46: -8025772056437564820
+      jazar-atlas_47: -5914623641905358664
+      jazar-atlas_5: -8495293862948764569
+      jazar-atlas_6: -3761855725403707363
+      jazar-atlas_7: -3050766587628542688
+      jazar-atlas_8: 7946941439211703065
+      jazar-atlas_9: -4723342784247224043
+      jazar-directional-v1-r00-f00: 1212084543
+      jazar-directional-v1-r00-f01: -1048404604
+      jazar-directional-v1-r00-f02: 429893850
+      jazar-directional-v1-r00-f03: 59088589
+      jazar-directional-v1-r00-f04: -1227139656
+      jazar-directional-v1-r00-f05: 1242454707
+      jazar-directional-v1-r00-f06: -1910839523
+      jazar-directional-v1-r00-f07: -645411197
+      jazar-directional-v1-r00-f08: 523051426
+      jazar-directional-v1-r00-f09: -1659697959
+      jazar-directional-v1-r01-f00: 1756569056
+      jazar-directional-v1-r01-f01: -1586614643
+      jazar-directional-v1-r01-f02: -866060025
+      jazar-directional-v1-r01-f03: -1042261614
+      jazar-directional-v1-r01-f04: -1789954884
+      jazar-directional-v1-r01-f05: -1057389815
+      jazar-directional-v1-r01-f06: 595539787
+      jazar-directional-v1-r01-f07: 290964116
+      jazar-directional-v1-r01-f08: 1486294402
+      jazar-directional-v1-r01-f09: -1565708180
+      jazar-directional-v1-r02-f00: 1069756014
+      jazar-directional-v1-r02-f01: 1826453887
+      jazar-directional-v1-r02-f02: -1161527212
+      jazar-directional-v1-r02-f03: 2020097459
+      jazar-directional-v1-r02-f04: 2125060893
+      jazar-directional-v1-r02-f05: 1701513346
+      jazar-directional-v1-r02-f06: 646187611
+      jazar-directional-v1-r02-f07: -564878269
+      jazar-directional-v1-r02-f08: -1953993761
+      jazar-directional-v1-r02-f09: 1600544893
+      jazar-directional-v1-r03-f00: -2134807531
+      jazar-directional-v1-r03-f01: 1490537146
+      jazar-directional-v1-r03-f02: -1149056418
+      jazar-directional-v1-r03-f03: -1335106460
+      jazar-directional-v1-r03-f04: -1876603386
+      jazar-directional-v1-r03-f05: 1816027829
+      jazar-directional-v1-r03-f06: 558110520
+      jazar-directional-v1-r03-f07: 1353213478
+      jazar-directional-v1-r03-f08: -1550187065
+      jazar-directional-v1-r03-f09: -1186750755
+      jazar-directional-v1-r04-f00: 697294220
+      jazar-directional-v1-r04-f01: 568425172
+      jazar-directional-v1-r04-f02: -2034335315
+      jazar-directional-v1-r04-f03: -166731312
+      jazar-directional-v1-r04-f04: 1971597173
+      jazar-directional-v1-r04-f05: -1433032105
+      jazar-directional-v1-r04-f06: 2130042083
+      jazar-directional-v1-r04-f07: 2041599059
+      jazar-directional-v1-r04-f08: 1438334758
+      jazar-directional-v1-r04-f09: 976456505
+      jazar-directional-v1-r05-f00: -1658748728
+      jazar-directional-v1-r05-f01: 2021377655
+      jazar-directional-v1-r05-f02: -571096567
+      jazar-directional-v1-r05-f03: -732007993
+      jazar-directional-v1-r05-f04: -530196044
+      jazar-directional-v1-r05-f05: -1102234068
+      jazar-directional-v1-r05-f06: -1446067865
+      jazar-directional-v1-r05-f07: 1247528345
+      jazar-directional-v1-r05-f08: -1832354547
+      jazar-directional-v1-r05-f09: 800925564
+      jazar-directional-v1-r06-f00: 1948229139
+      jazar-directional-v1-r06-f01: 371195255
+      jazar-directional-v1-r06-f02: -452026846
+      jazar-directional-v1-r06-f03: -278496024
+      jazar-directional-v1-r06-f04: 299137235
+      jazar-directional-v1-r06-f05: -655155378
+      jazar-directional-v1-r06-f06: -1575414658
+      jazar-directional-v1-r06-f07: 2138784155
+      jazar-directional-v1-r06-f08: -1366596146
+      jazar-directional-v1-r06-f09: -611894571
+      jazar-directional-v1-r07-f00: 1192194846
+      jazar-directional-v1-r07-f01: -196650704
+      jazar-directional-v1-r07-f02: 2137126269
+      jazar-directional-v1-r07-f03: -230101615
+      jazar-directional-v1-r07-f04: 393404582
+      jazar-directional-v1-r07-f05: 447564426
+      jazar-directional-v1-r07-f06: 1425898554
+      jazar-directional-v1-r07-f07: 1996862346
+      jazar-directional-v1-r07-f08: -866659904
+      jazar-directional-v1-r07-f09: -1817000067
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

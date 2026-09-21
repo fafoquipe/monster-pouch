@@ -1,0 +1,2516 @@
+fileFormatVersion: 2
+guid: a88709a634ab97f4b834599a944e16b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5084281015848396277
+    second: hymay-atlas_0
+  - first:
+      213: 1385533458863900465
+    second: hymay-atlas_1
+  - first:
+      213: -798318904326366282
+    second: hymay-atlas_2
+  - first:
+      213: 1431546406222755137
+    second: hymay-atlas_3
+  - first:
+      213: 3682216879778469112
+    second: hymay-atlas_4
+  - first:
+      213: -2011938535735972552
+    second: hymay-atlas_5
+  - first:
+      213: 4728199784937491932
+    second: hymay-atlas_6
+  - first:
+      213: 195080683534147629
+    second: hymay-atlas_7
+  - first:
+      213: 5594654322545729854
+    second: hymay-atlas_8
+  - first:
+      213: -3572313506733887817
+    second: hymay-atlas_9
+  - first:
+      213: 489340337289000844
+    second: hymay-atlas_10
+  - first:
+      213: 2715051174284564642
+    second: hymay-atlas_11
+  - first:
+      213: 2553178654371224148
+    second: hymay-atlas_12
+  - first:
+      213: -2036839753194141050
+    second: hymay-atlas_13
+  - first:
+      213: -4772529333291735214
+    second: hymay-atlas_14
+  - first:
+      213: 7124511939264316267
+    second: hymay-atlas_15
+  - first:
+      213: -7850120443157486493
+    second: hymay-atlas_16
+  - first:
+      213: -2935323987082592399
+    second: hymay-atlas_17
+  - first:
+      213: -8777598432043500275
+    second: hymay-atlas_18
+  - first:
+      213: -2455932819224242259
+    second: hymay-atlas_19
+  - first:
+      213: 2060422970614666677
+    second: hymay-atlas_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10.526316
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hymay-atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1124
+        width: 327
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a18109a510179b0800000000000000
+      internalID: -5084281015848396277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1146
+        width: 110
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137400807576a3310800000000000000
+      internalID: 1385533458863900465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1144
+        width: 338
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbd52aaf2dcbe4f0800000000000000
+      internalID: -798318904326366282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_3
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1142
+        width: 399
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145f46e2fdfddd310800000000000000
+      internalID: 1431546406222755137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 114
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f494213ebcd91330800000000000000
+      internalID: 3682216879778469112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 706
+        width: 109
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83da98bbf882414e0800000000000000
+      internalID: -2011938535735972552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1000
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd074047a0fd9140800000000000000
+      internalID: 4728199784937491932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_7
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 998
+        width: 208
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20e79c19d015b200800000000000000
+      internalID: 195080683534147629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_8
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 998
+        width: 236
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e312170f67434ad40800000000000000
+      internalID: 5594654322545729854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_9
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 998
+        width: 402
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7beebc4eac79c6ec0800000000000000
+      internalID: -3572313506733887817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 796
+        height: 684
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c877162b17c7ac600800000000000000
+      internalID: 489340337289000844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 707
+        width: 105
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a81d3678accda520800000000000000
+      internalID: 2715051174284564642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 707
+        width: 109
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a18e57576be6320800000000000000
+      internalID: 2553178654371224148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 707
+        width: 108
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a087e3901bbb3e0800000000000000
+      internalID: -2036839753194141050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_14
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 401
+        width: 339
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257a3097bd194cdb0800000000000000
+      internalID: -4772529333291735214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_15
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 398
+        width: 503
+        height: 593
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6301e98cd95fd260800000000000000
+      internalID: 7124511939264316267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_16
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 700
+        width: 138
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364e0957c05ce0390800000000000000
+      internalID: -7850120443157486493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_17
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 400
+        width: 267
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f3241c262a347d0800000000000000
+      internalID: -2935323987082592399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 49
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d75055bb4bf2680800000000000000
+      internalID: -8777598432043500275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_19
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 0
+        width: 409
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da75aedec16caedd0800000000000000
+      internalID: -2455932819224242259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-atlas_20
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 37
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5da8276c7189c10800000000000000
+      internalID: 2060422970614666677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1151
+        width: 88
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5681818, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155735714b2c05f4ab17f5ee845b81ab
+      internalID: 592084907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1151
+        width: 87
+        height: 126
+      alignment: 9
+      pivot: {x: 0.57471263, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e411b0992a09d4d8ddd1aecadd27ed
+      internalID: -720053048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1151
+        width: 87
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5689655, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d025d6a4ad17d54296fb6ab241f0a63
+      internalID: 66261090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1150
+        width: 88
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5681818, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39df35ec360b5ee419d88a3fcfe024e7
+      internalID: 2031235693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1151
+        width: 90
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5777778, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecf57871737b794488f46a44f1df53a
+      internalID: 403096804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1148
+        width: 100
+        height: 127
+      alignment: 9
+      pivot: {x: 0.505, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92398a6cda757e243a7078195b287a78
+      internalID: 399323146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1150
+        width: 89
+        height: 126
+      alignment: 9
+      pivot: {x: 0.55617976, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4105e4f6873834bab7de1c84177b48
+      internalID: 153458845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1150
+        width: 107
+        height: 126
+      alignment: 9
+      pivot: {x: 0.43925235, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91622bc6e34e0d944a202ca1dbc2d800
+      internalID: -182609950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1150
+        width: 108
+        height: 123
+      alignment: 9
+      pivot: {x: 0.6018519, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac467a16e808d6e489fe16a562d96669
+      internalID: -2031293230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1151
+        width: 133
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5150376, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49022f493f107a4d970a69485c77fde
+      internalID: 1373561585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1004
+        width: 87
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5689655, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83103246a461534ca10499dc164c4f7
+      internalID: -1855021222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1004
+        width: 85
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5470588, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f1cd1d381e1204ca442160daddcd3f
+      internalID: -1270756892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1004
+        width: 84
+        height: 126
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd7c9650d9f09b43a23741d5d7b6e98
+      internalID: -312761098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1004
+        width: 85
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5176471, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728821ef39fc42f49ace1ea97673a479
+      internalID: -44318966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1004
+        width: 84
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5535714, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d4086e513f74c4ca6bd40862f0656b
+      internalID: -928020354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1004
+        width: 111
+        height: 126
+      alignment: 9
+      pivot: {x: 0.3918919, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7325f8e571808458df985e38e6c7e5
+      internalID: 1766032217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1004
+        width: 85
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5176471, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8118086a3fadaf640a88483ac36b241b
+      internalID: 866326559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1004
+        width: 108
+        height: 126
+      alignment: 9
+      pivot: {x: 0.3564815, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2dc25c46ff3394aa0e7b9bf7ee2ba8
+      internalID: -540866735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1003
+        width: 105
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5761905, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796a1e14cd42c264e93536efdc634388
+      internalID: -837834276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1003
+        width: 127
+        height: 76
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.039473683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c545dc37b79e70545b21e6f4fe6177de
+      internalID: -555710295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 855
+        width: 75
+        height: 129
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ba6b735b148d740a60a889db1dfb52
+      internalID: 1255054795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 854
+        width: 73
+        height: 130
+      alignment: 9
+      pivot: {x: 0.43835616, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f078eae760b555d4098ab5769355fb53
+      internalID: 1906130404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 854
+        width: 78
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4679487, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c285c479b464d984ca083cc7dbcac1f6
+      internalID: -1764642106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 854
+        width: 80
+        height: 130
+      alignment: 9
+      pivot: {x: 0.475, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7249fb26d7398a6489cbcadcd693f4a3
+      internalID: 1923264179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 854
+        width: 79
+        height: 129
+      alignment: 9
+      pivot: {x: 0.47468355, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5815752974705af4fbaf0b0f07d5df01
+      internalID: -1650444851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 854
+        width: 96
+        height: 127
+      alignment: 9
+      pivot: {x: 0.36458334, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1165c613f204b804b856ee3e79fa070c
+      internalID: -515227046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 854
+        width: 80
+        height: 130
+      alignment: 9
+      pivot: {x: 0.45625, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9158dea3d74322d4a900054a417f7d68
+      internalID: -1907095602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 854
+        width: 99
+        height: 129
+      alignment: 9
+      pivot: {x: 0.35353535, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6296ef63583ec344eb0d53cc4c95149b
+      internalID: -896474279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 854
+        width: 94
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5638298, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25733ae8c79d00c4b83e2f979f7a3432
+      internalID: 1521744552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 853
+        width: 124
+        height: 67
+      alignment: 9
+      pivot: {x: 0.46774194, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae9736a2a2318540aa0974b2400412c
+      internalID: -1283896522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 710
+        width: 86
+        height: 124
+      alignment: 9
+      pivot: {x: 0.43023255, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ee5ee0285e62b46aadb64aa67ffd59
+      internalID: -1046507591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 710
+        width: 87
+        height: 124
+      alignment: 9
+      pivot: {x: 0.43103448, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0dfc77933ec284ab1ee2f838480feb
+      internalID: 615463633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 709
+        width: 90
+        height: 125
+      alignment: 9
+      pivot: {x: 0.42222223, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785df844a6f81f14a976ee0e6125c298
+      internalID: 158999725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 709
+        width: 89
+        height: 125
+      alignment: 9
+      pivot: {x: 0.3988764, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc8c9f0c66781e44a7ff50435613c80
+      internalID: 1385390929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 710
+        width: 89
+        height: 124
+      alignment: 9
+      pivot: {x: 0.4550562, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf5d02d3abd05047b67f75fad4ad9ef
+      internalID: -365081704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 709
+        width: 102
+        height: 124
+      alignment: 9
+      pivot: {x: 0.3872549, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf509ddf07907184c824ae41e2f832e9
+      internalID: 1685950510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 709
+        width: 88
+        height: 124
+      alignment: 9
+      pivot: {x: 0.41477272, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ee0c4f4b0dcc54aad71ccc9bde727e
+      internalID: -1314366348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 709
+        width: 109
+        height: 125
+      alignment: 9
+      pivot: {x: 0.35321102, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d1e0ae6bc6323469513108693f9b41
+      internalID: 195326760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 709
+        width: 98
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5153061, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c30fe4c7183ee745b362cd9ee2db298
+      internalID: -1314649553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 709
+        width: 124
+        height: 69
+      alignment: 9
+      pivot: {x: 0.46370968, y: 0.04347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17bf70c328ea604cb79397610d60aca
+      internalID: 366666162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 561
+        width: 92
+        height: 129
+      alignment: 9
+      pivot: {x: 0.38586956, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecdbc51f09e8a84e958d919efd85d9a
+      internalID: 1431497686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 561
+        width: 91
+        height: 128
+      alignment: 9
+      pivot: {x: 0.3956044, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4b6a08210ada247908eef66affbb2f
+      internalID: 2026804389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 561
+        width: 90
+        height: 129
+      alignment: 9
+      pivot: {x: 0.3888889, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010abcb0eb1f59f419e5307a283c15db
+      internalID: -113290151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 561
+        width: 90
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac685e16a810d574f9b6660fb14155ac
+      internalID: -1630033200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 561
+        width: 92
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4021739, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbdd59c94a10af4e914c7add2fe5013
+      internalID: 1107206281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 561
+        width: 91
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4065934, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e17effbc8d672468a4e8045ec7d5c8
+      internalID: -1012883179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 561
+        width: 92
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5380435, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6ef3f8fb39d9245b4f94b014a19b85
+      internalID: 173697903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 561
+        width: 107
+        height: 128
+      alignment: 9
+      pivot: {x: 0.3504673, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13083776fe34fb4d90ca314ddde45d6
+      internalID: -442830667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 560
+        width: 94
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48404256, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201fa22c905b2db41befa94e3c3e7330
+      internalID: 1306329293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 557
+        width: 107
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5046729, y: 0.033707865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd69ac37407051545960e8da0694706b
+      internalID: -2041442791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 408
+        width: 80
+        height: 130
+      alignment: 9
+      pivot: {x: 0.56875, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5ad120188f2d74c8d712b5ded4cd0c
+      internalID: -369258873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 408
+        width: 79
+        height: 130
+      alignment: 9
+      pivot: {x: 0.56962025, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14c60efd7f8aff4ab2f570255d809dd
+      internalID: 200965737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 408
+        width: 80
+        height: 129
+      alignment: 9
+      pivot: {x: 0.50625, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c08652dce02e489ff1d7b5e62047d
+      internalID: 1671924938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 408
+        width: 79
+        height: 128
+      alignment: 9
+      pivot: {x: 0.51265824, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc48524eb70ced47b6b0eedff034612
+      internalID: -1301891404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 407
+        width: 81
+        height: 131
+      alignment: 9
+      pivot: {x: 0.56790125, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9846fb891dccdd409725b1eb344b0c5
+      internalID: -1940977066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 407
+        width: 95
+        height: 127
+      alignment: 9
+      pivot: {x: 0.4526316, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4acf1cc111eb1499e2bd165ee726d7
+      internalID: -89132568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 406
+        width: 82
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5365854, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4195080cb3d99e24a8cd5db2f475be38
+      internalID: -1389527766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 408
+        width: 97
+        height: 128
+      alignment: 9
+      pivot: {x: 0.41237113, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0192b9ceb179d074ea13201b1cfcd4b7
+      internalID: -848281428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 407
+        width: 95
+        height: 125
+      alignment: 9
+      pivot: {x: 0.6105263, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b469485a3dbbe4f80007ed1c01c10a
+      internalID: 805812096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 404
+        width: 135
+        height: 72
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.041666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7047d35b5f4c3e743921e784c7d6f69d
+      internalID: -2051105283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 256
+        width: 77
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.022727273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938771460dc31b244a3d2372f1166ee5
+      internalID: -431818098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 255
+        width: 75
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5466667, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f159db28d9a7649959fc8065d75856
+      internalID: -137408477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 251
+        width: 79
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02189781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4ace1ee1c64d847b70f24678abb84a
+      internalID: -1945902814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 252
+        width: 77
+        height: 136
+      alignment: 9
+      pivot: {x: 0.4935065, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c321183bf73e748bf1abaf25c99423
+      internalID: 815029144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 254
+        width: 81
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5493827, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aeeab54a819e0438c4b3e5d6e7c0dd
+      internalID: -1528147878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 254
+        width: 89
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5898876, y: 0.02255639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb7fb9a4b62de5418882b0700956974
+      internalID: 1742531895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 254
+        width: 82
+        height: 134
+      alignment: 9
+      pivot: {x: 0.54268295, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8029ba6197696024d880743a4873e4cf
+      internalID: -986629356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 252
+        width: 100
+        height: 136
+      alignment: 9
+      pivot: {x: 0.595, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf7a9c678784ad43abb88d559044584
+      internalID: 597550867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 254
+        width: 93
+        height: 126
+      alignment: 9
+      pivot: {x: 0.62903225, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7042a6cfdf4756458243881543133ba
+      internalID: 1691625632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 251
+        width: 127
+        height: 69
+      alignment: 9
+      pivot: {x: 0.48818898, y: 0.04347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8765346c55fc6249953f010cf74ca41
+      internalID: -1515512022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 99
+        width: 98
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5255102, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690fd5469de3c4646a5cb26a4a8ebcf9
+      internalID: -1019247939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 99
+        width: 94
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5531915, y: 0.022222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8426d552c1a6644cb49de549ef2cd41
+      internalID: 1480516446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 99
+        width: 97
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5670103, y: 0.022058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d91e7fac0f9b8748a9a9e30a83782b0
+      internalID: -922469837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 99
+        width: 98
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5561224, y: 0.022222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eb09a02d890bc438b763bd621f514b
+      internalID: -1106281180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 99
+        width: 96
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5677083, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02248e1b75ab26478d87c6e689f0383
+      internalID: -1277465328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 99
+        width: 112
+        height: 134
+      alignment: 9
+      pivot: {x: 0.38392857, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacf472f04eb22345b7375d0536de434
+      internalID: 1231647403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 99
+        width: 91
+        height: 134
+      alignment: 9
+      pivot: {x: 0.55494505, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c58bf13d696cd4aa716428b18b91f4
+      internalID: 1527341542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 99
+        width: 112
+        height: 134
+      alignment: 9
+      pivot: {x: 0.41517857, y: 0.02238806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7546b2ba26ee7d40b36fde2ebc24971
+      internalID: 1285336581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 99
+        width: 113
+        height: 127
+      alignment: 9
+      pivot: {x: 0.63716817, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a02a0b6a968e8c4aa4ae745b5a752bb
+      internalID: 1218564288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hymay-directional-v1-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 98
+        width: 130
+        height: 72
+      alignment: 9
+      pivot: {x: 0.49615383, y: 0.041666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8247e75328617ff46a883126a1b0e943
+      internalID: 1421034318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4202f05b6061fb7429cd3a75a9b77145
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hymay-atlas_0: -5084281015848396277
+      hymay-atlas_1: 1385533458863900465
+      hymay-atlas_10: 489340337289000844
+      hymay-atlas_11: 2715051174284564642
+      hymay-atlas_12: 2553178654371224148
+      hymay-atlas_13: -2036839753194141050
+      hymay-atlas_14: -4772529333291735214
+      hymay-atlas_15: 7124511939264316267
+      hymay-atlas_16: -7850120443157486493
+      hymay-atlas_17: -2935323987082592399
+      hymay-atlas_18: -8777598432043500275
+      hymay-atlas_19: -2455932819224242259
+      hymay-atlas_2: -798318904326366282
+      hymay-atlas_20: 2060422970614666677
+      hymay-atlas_3: 1431546406222755137
+      hymay-atlas_4: 3682216879778469112
+      hymay-atlas_5: -2011938535735972552
+      hymay-atlas_6: 4728199784937491932
+      hymay-atlas_7: 195080683534147629
+      hymay-atlas_8: 5594654322545729854
+      hymay-atlas_9: -3572313506733887817
+      hymay-directional-v1-r00-f00: 592084907
+      hymay-directional-v1-r00-f01: -720053048
+      hymay-directional-v1-r00-f02: 66261090
+      hymay-directional-v1-r00-f03: 2031235693
+      hymay-directional-v1-r00-f04: 403096804
+      hymay-directional-v1-r00-f05: 399323146
+      hymay-directional-v1-r00-f06: 153458845
+      hymay-directional-v1-r00-f07: -182609950
+      hymay-directional-v1-r00-f08: -2031293230
+      hymay-directional-v1-r00-f09: 1373561585
+      hymay-directional-v1-r01-f00: -1855021222
+      hymay-directional-v1-r01-f01: -1270756892
+      hymay-directional-v1-r01-f02: -312761098
+      hymay-directional-v1-r01-f03: -44318966
+      hymay-directional-v1-r01-f04: -928020354
+      hymay-directional-v1-r01-f05: 1766032217
+      hymay-directional-v1-r01-f06: 866326559
+      hymay-directional-v1-r01-f07: -540866735
+      hymay-directional-v1-r01-f08: -837834276
+      hymay-directional-v1-r01-f09: -555710295
+      hymay-directional-v1-r02-f00: 1255054795
+      hymay-directional-v1-r02-f01: 1906130404
+      hymay-directional-v1-r02-f02: -1764642106
+      hymay-directional-v1-r02-f03: 1923264179
+      hymay-directional-v1-r02-f04: -1650444851
+      hymay-directional-v1-r02-f05: -515227046
+      hymay-directional-v1-r02-f06: -1907095602
+      hymay-directional-v1-r02-f07: -896474279
+      hymay-directional-v1-r02-f08: 1521744552
+      hymay-directional-v1-r02-f09: -1283896522
+      hymay-directional-v1-r03-f00: -1046507591
+      hymay-directional-v1-r03-f01: 615463633
+      hymay-directional-v1-r03-f02: 158999725
+      hymay-directional-v1-r03-f03: 1385390929
+      hymay-directional-v1-r03-f04: -365081704
+      hymay-directional-v1-r03-f05: 1685950510
+      hymay-directional-v1-r03-f06: -1314366348
+      hymay-directional-v1-r03-f07: 195326760
+      hymay-directional-v1-r03-f08: -1314649553
+      hymay-directional-v1-r03-f09: 366666162
+      hymay-directional-v1-r04-f00: 1431497686
+      hymay-directional-v1-r04-f01: 2026804389
+      hymay-directional-v1-r04-f02: -113290151
+      hymay-directional-v1-r04-f03: -1630033200
+      hymay-directional-v1-r04-f04: 1107206281
+      hymay-directional-v1-r04-f05: -1012883179
+      hymay-directional-v1-r04-f06: 173697903
+      hymay-directional-v1-r04-f07: -442830667
+      hymay-directional-v1-r04-f08: 1306329293
+      hymay-directional-v1-r04-f09: -2041442791
+      hymay-directional-v1-r05-f00: -369258873
+      hymay-directional-v1-r05-f01: 200965737
+      hymay-directional-v1-r05-f02: 1671924938
+      hymay-directional-v1-r05-f03: -1301891404
+      hymay-directional-v1-r05-f04: -1940977066
+      hymay-directional-v1-r05-f05: -89132568
+      hymay-directional-v1-r05-f06: -1389527766
+      hymay-directional-v1-r05-f07: -848281428
+      hymay-directional-v1-r05-f08: 805812096
+      hymay-directional-v1-r05-f09: -2051105283
+      hymay-directional-v1-r06-f00: -431818098
+      hymay-directional-v1-r06-f01: -137408477
+      hymay-directional-v1-r06-f02: -1945902814
+      hymay-directional-v1-r06-f03: 815029144
+      hymay-directional-v1-r06-f04: -1528147878
+      hymay-directional-v1-r06-f05: 1742531895
+      hymay-directional-v1-r06-f06: -986629356
+      hymay-directional-v1-r06-f07: 597550867
+      hymay-directional-v1-r06-f08: 1691625632
+      hymay-directional-v1-r06-f09: -1515512022
+      hymay-directional-v1-r07-f00: -1019247939
+      hymay-directional-v1-r07-f01: 1480516446
+      hymay-directional-v1-r07-f02: -922469837
+      hymay-directional-v1-r07-f03: -1106281180
+      hymay-directional-v1-r07-f04: -1277465328
+      hymay-directional-v1-r07-f05: 1231647403
+      hymay-directional-v1-r07-f06: 1527341542
+      hymay-directional-v1-r07-f07: 1285336581
+      hymay-directional-v1-r07-f08: 1218564288
+      hymay-directional-v1-r07-f09: 1421034318
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

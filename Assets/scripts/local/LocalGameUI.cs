@@ -109,10 +109,12 @@ namespace MonsterPouch.Local
             Match.Died += actor => { if (visuals.TryGetValue(actor,out var v)) v.Die(); };
             Match.Reviving += (actor,duration) => { if(visuals.TryGetValue(actor,out var v))v.BeginRevive(duration); };
             Match.Revived += actor => { if(visuals.TryGetValue(actor,out var v))v.Revive(); StartCoroutine(ImpactEffect(actor,actor,false)); };
-            Match.Impacted += (actor,target,damage) => { if(damage>0)StartCoroutine(ImpactEffect(actor,target,false)); };
+            Match.Impacted += (actor,target,damage) => { if(damage>0){if(visuals.TryGetValue(target,out var hitView))hitView.Hit();StartCoroutine(ImpactEffect(actor,target,false));} };
+            Match.AbilityUsed += (actor,kind) => { if(visuals.TryGetValue(actor,out var abilityView))abilityView.UseAbility(kind); };
             Match.LethalImpacted += (actor,target) => StartCoroutine(ImpactEffect(actor,target,true));
             Match.Sound += PlaySound;
             gameObject.AddComponent<DocumentedBattleEffects>().Configure(Match,CanvasRoot,GameCamera);
+            gameObject.AddComponent<CombatStatusEffects>().Configure(Match,CanvasRoot,GameCamera);
             RenderPage();
         }
         void BuildCanvas()
@@ -644,8 +646,9 @@ namespace MonsterPouch.Local
             var simulation=Match.Simulation;
             bool charged=simulation!=null&&simulation.IsNextHitLethal(actor);
             float windup=CombatSimulation.GetAttackWindup(actor),t=0;
-            while(t<windup&&Match.Phase==MatchPhase.Combat&&Match.Simulation==simulation){t+=Time.deltaTime;yield return null;}
-            if(Match.Phase!=MatchPhase.Combat||Match.Simulation!=simulation||actor==null||target==null)yield break;
+            int attackVersion=actor.AttackResetVersion;
+            while(t<windup&&Match.Phase==MatchPhase.Combat&&Match.Simulation==simulation&&actor!=null&&actor.AttackResetVersion==attackVersion){t+=Time.deltaTime;yield return null;}
+            if(Match.Phase!=MatchPhase.Combat||Match.Simulation!=simulation||actor==null||target==null||actor.AttackResetVersion!=attackVersion)yield break;
             Vector3 from=actor.transform.position+Vector3.up*.5f;
             var sprite=NewEffect("projectile-"+style.UnitId);t=0;float travel=Mathf.Max(.1f,impactDelay-windup);
             while(t<travel&&Match.Phase==MatchPhase.Combat&&Match.Simulation==simulation&&target!=null)

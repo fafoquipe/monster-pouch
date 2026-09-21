@@ -26,6 +26,32 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         public void TearDown() { Object.DestroyImmediate(actorObject); }
 
         [Test]
+        public void ResetRestartsAttackAnimationFromItsWindup()
+        {
+            view.Attack(Vector3.right,false,.5f);view.AdvancePresentation(.4f);
+            actor.ResetForCombat();view.AdvancePresentation(.01f);Assert.IsFalse(view.IsAttacking);
+            view.Attack(Vector3.right,false,.5f);view.AdvancePresentation(.1f);
+            Assert.IsTrue(view.IsAttacking);Assert.IsFalse(view.AttackContactReached);
+        }
+
+        [Test]
+        public void EveryRosterCharacterHasProceduralFallbackForMissingClips()
+        {
+            foreach(var definition in MonsterPouch.Gameplay.Match.DocumentedRoster.CreateAll())
+            {
+                actor.transform.position=Vector3.zero;
+                view.Configure(actor,null,new UnitArt{Id=definition.Id});
+                view.AdvancePresentation(.2f);Assert.AreNotEqual(Vector3.one,view.VisualRoot.localScale,definition.Id+" idle");
+                view.Move(Vector3.zero,Vector3.right,1);view.AdvancePresentation(.25f);
+                Assert.Greater(view.VisualRoot.localPosition.y,0,definition.Id+" move");
+                view.Attack(Vector3.up,definition.AttackRange>1,.2f);view.AdvancePresentation(.1f);
+                Assert.IsTrue(view.IsAttacking,definition.Id+" attack");
+                view.Hit();view.AdvancePresentation(.05f);Assert.Less(view.Renderer.color.g,1,definition.Id+" hit");
+                view.Die();view.AdvancePresentation(.7f);Assert.IsTrue(view.DeathFinished,definition.Id+" death");
+            }
+        }
+
+        [Test]
         public void MeleeContactAndRecovery_FollowImpactDelayAndFitFastCadence()
         {
             view.Attack(Vector3.right, false, .2f);

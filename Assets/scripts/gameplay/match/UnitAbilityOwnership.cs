@@ -37,6 +37,7 @@ namespace MonsterPouch.Gameplay.Match
                 MaxHealth = definition.MaxHealth, Damage = definition.Damage,
                 AttackRange = definition.AttackRange, AttackInterval = definition.AttackInterval,
                 AttackWindup = definition.AttackWindup, MoveInterval = definition.MoveInterval,
+                ProjectileSpeed = definition.ProjectileSpeed,
                 IQSpeed = definition.IQSpeed, BaseCost = definition.BaseCost,
                 Formation = definition.Formation, TargetPolicy = definition.TargetPolicy,
                 EnergyMax = hasEnergy ? definition.EnergyMax : 0,
@@ -71,6 +72,7 @@ namespace MonsterPouch.Gameplay.Match
             {
                 Id = canonical.Id, EffectId = canonical.EffectId, Trigger = canonical.Trigger,
                 Name = canonical.Name, Description = canonical.Description, Cost = balance.Cost,
+                Parameters = AbilityBalance.Resolve(balance),
                 EveryAttacks = canonical.EveryAttacks > 0 ? balance.EveryAttacks : 0,
                 HealthBonus = canonical.HealthBonus != 0 ? balance.HealthBonus : 0,
                 DamageBonus = canonical.DamageBonus != 0 ? balance.DamageBonus : 0,

@@ -1,0 +1,2516 @@
+fileFormatVersion: 2
+guid: 017c23c7cb00011418b63e3f04debd1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1135010781948828459
+    second: tokoro-atlas_0
+  - first:
+      213: 2465962581352843523
+    second: tokoro-atlas_1
+  - first:
+      213: -2736182833504320652
+    second: tokoro-atlas_2
+  - first:
+      213: 2143621697791764734
+    second: tokoro-atlas_3
+  - first:
+      213: 6879825024933448360
+    second: tokoro-atlas_4
+  - first:
+      213: 8409078161740604298
+    second: tokoro-atlas_5
+  - first:
+      213: 2668035413085828439
+    second: tokoro-atlas_6
+  - first:
+      213: 8480791241573081846
+    second: tokoro-atlas_7
+  - first:
+      213: -8278685299146115193
+    second: tokoro-atlas_8
+  - first:
+      213: 2209464578957852226
+    second: tokoro-atlas_9
+  - first:
+      213: 4866679199670738254
+    second: tokoro-atlas_10
+  - first:
+      213: 5619832535894252448
+    second: tokoro-atlas_11
+  - first:
+      213: 3991411533489589728
+    second: tokoro-atlas_12
+  - first:
+      213: 7812267787788707556
+    second: tokoro-atlas_13
+  - first:
+      213: -165555002954574692
+    second: tokoro-atlas_14
+  - first:
+      213: 4635772019350879001
+    second: tokoro-atlas_15
+  - first:
+      213: -4955315008002947584
+    second: tokoro-atlas_16
+  - first:
+      213: 291987696314709487
+    second: tokoro-atlas_17
+  - first:
+      213: -7719574019533185413
+    second: tokoro-atlas_18
+  - first:
+      213: 6167859690774154435
+    second: tokoro-atlas_19
+  - first:
+      213: 4743368507496013828
+    second: tokoro-atlas_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12.149532
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tokoro-atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1096
+        width: 1206
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b5c4aea4e50cf00800000000000000
+      internalID: 1135010781948828459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 953
+        width: 1223
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30901fa07ebd83220800000000000000
+      internalID: 2465962581352843523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 651
+        width: 1211
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4730478b530270ad0800000000000000
+      internalID: -2736182833504320652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 457
+        width: 1211
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8a2b5a39cafbd10800000000000000
+      internalID: 2143621697791764734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_4
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 650
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa4008c86c0a7f50800000000000000
+      internalID: 6879825024933448360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 357
+        width: 221
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a832b0fe80c03b470800000000000000
+      internalID: 8409078161740604298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_6
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 359
+        width: 108
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755b4258214c60520800000000000000
+      internalID: 2668035413085828439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 366
+        width: 367
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2253873b2d1b570800000000000000
+      internalID: 8480791241573081846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 499
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787b52135933c1d80800000000000000
+      internalID: -8278685299146115193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_9
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 362
+        width: 108
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e379c045899ae10800000000000000
+      internalID: 2209464578957852226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 353
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d182482fae98340800000000000000
+      internalID: 4866679199670738254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 356
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abd82f8ae7adfd40800000000000000
+      internalID: 5619832535894252448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_12
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 365
+        width: 367
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed4b0e64a7546730800000000000000
+      internalID: 3991411533489589728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 222
+        width: 224
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e66f5d6920ca6c60800000000000000
+      internalID: 7812267787788707556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_14
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 222
+        width: 105
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c949a1a1a94d3bdf0800000000000000
+      internalID: -165555002954574692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_15
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 222
+        width: 128
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bba191712955040800000000000000
+      internalID: 4635772019350879001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_16
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 218
+        width: 110
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00682dd214f2b3bb0800000000000000
+      internalID: -4955315008002947584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_17
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 220
+        width: 124
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe57f9543495d0400800000000000000
+      internalID: 291987696314709487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_18
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 221
+        width: 471
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ed36c44509ed490800000000000000
+      internalID: -7719574019533185413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1223
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc4b05c5b3a89550800000000000000
+      internalID: 6167859690774154435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-atlas_20
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 50
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4002310b684d3d140800000000000000
+      internalID: 4743368507496013828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1114
+        width: 108
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f116572c49e1a4da6924e4b7dec9b7
+      internalID: 794468726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1114
+        width: 108
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04398af3fe63a04f840cab7461410b4
+      internalID: 1623053853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1114
+        width: 119
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80d7d6bcab9f254ea231e72f30abc21
+      internalID: -1153191274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1114
+        width: 112
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4419643, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98865ea127a67684bb6fc4f5bc325a7b
+      internalID: -50308821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1114
+        width: 107
+        height: 110
+      alignment: 9
+      pivot: {x: 0.46261683, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e322ed1cbc6b52849a5e7349f3129b8a
+      internalID: -1881569633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1114
+        width: 97
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5051546, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8109cdeaafed543a5fe028f5a44508
+      internalID: -1341240847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1114
+        width: 112
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5089286, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda51e7518d06664ca57d55f382468db
+      internalID: -1698682207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1114
+        width: 112
+        height: 93
+      alignment: 9
+      pivot: {x: 0.48214287, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcfa299977399940b5d4162b62f8112
+      internalID: 313146692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1114
+        width: 109
+        height: 95
+      alignment: 9
+      pivot: {x: 0.47706422, y: 0.031578947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55810ba6c79b2dc49b5e8705febcf9ce
+      internalID: -554364705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1114
+        width: 124
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed3a2fab9bc0bd4a96b6edab0479ec7
+      internalID: -1004272860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 965
+        width: 104
+        height: 120
+      alignment: 9
+      pivot: {x: 0.46634614, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c5c12c2c297c748b3ca9c2d17e4f58
+      internalID: 2018165663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 965
+        width: 103
+        height: 120
+      alignment: 9
+      pivot: {x: 0.47087377, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9491ab5c5168a34b9d9cb643c1c7afa
+      internalID: -910435540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 965
+        width: 107
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5373832, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f1156fe05413348b65a1bc61c4d7b8
+      internalID: -883302415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 965
+        width: 116
+        height: 119
+      alignment: 9
+      pivot: {x: 0.45689654, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dea5d3d93f19c4a89c593ca7a3be66
+      internalID: -1494715761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 965
+        width: 106
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3962264, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80caa9d4b1d0de2469c2aa15cfe1a9a8
+      internalID: -823648079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 965
+        width: 105
+        height: 115
+      alignment: 9
+      pivot: {x: 0.40952381, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917a4ab95e62bde46ac9abdc9f784970
+      internalID: 265084599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 965
+        width: 96
+        height: 130
+      alignment: 9
+      pivot: {x: 0.49479166, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80d271f41d4f7546a0f760556801169
+      internalID: 709636182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 965
+        width: 107
+        height: 91
+      alignment: 9
+      pivot: {x: 0.53271025, y: 0.032967035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815e3efd81186af4ab4be5e1dbc02477
+      internalID: -848147217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 965
+        width: 113
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5265487, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826dd1ead0c2f4f458b3eb5212f30b08
+      internalID: -252675499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 964
+        width: 120
+        height: 69
+      alignment: 9
+      pivot: {x: 0.49166667, y: 0.04347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf61081b514df564195ea9b9eec1e5ed
+      internalID: 1259232490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 815
+        width: 94
+        height: 125
+      alignment: 9
+      pivot: {x: 0.45212767, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5759add16d119fb44b00414d822264eb
+      internalID: 1669177771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 815
+        width: 95
+        height: 125
+      alignment: 9
+      pivot: {x: 0.42631578, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48d7bb80f886284c875bda8e16e04b3
+      internalID: 157184301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 815
+        width: 101
+        height: 122
+      alignment: 9
+      pivot: {x: 0.46534654, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91c14d3b0de57f45899f01ae6f48286
+      internalID: 1272845768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 815
+        width: 100
+        height: 121
+      alignment: 9
+      pivot: {x: 0.445, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c96fbb20d39d458040bdf200b19aa
+      internalID: -1345104183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 815
+        width: 98
+        height: 122
+      alignment: 9
+      pivot: {x: 0.44387755, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704ae2bd01b0918479a9077de97f7ab3
+      internalID: 624988902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 815
+        width: 108
+        height: 121
+      alignment: 9
+      pivot: {x: 0.36574075, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118b5294aac40984dba118e041baea7f
+      internalID: 252306986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 815
+        width: 89
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5168539, y: 0.022900764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0619dee02d564d741b9227759b8007c2
+      internalID: 1022720966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 816
+        width: 119
+        height: 89
+      alignment: 9
+      pivot: {x: 0.4579832, y: 0.033707865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e609a4a2fa304d45a3634bac9b6198a
+      internalID: -1676719454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 815
+        width: 105
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690ecbe1aceb74b4894a5b8217a8fe84
+      internalID: -1666440355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 816
+        width: 121
+        height: 68
+      alignment: 9
+      pivot: {x: 0.49173555, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460eff833af886444a52915fcd1c037a
+      internalID: -522092545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 668
+        width: 108
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ce249730a59e043876bb622e8c820f
+      internalID: -440341589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 668
+        width: 107
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a60142500755cd44a1802b606b0f163
+      internalID: -1560417455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 668
+        width: 117
+        height: 115
+      alignment: 9
+      pivot: {x: 0.508547, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b8c4c568eb5e54eb79ae21b6a02158
+      internalID: 636998903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 667
+        width: 109
+        height: 115
+      alignment: 9
+      pivot: {x: 0.4678899, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d17dff445a84940a9a53a2b1dd88bf
+      internalID: -1783503604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 668
+        width: 116
+        height: 118
+      alignment: 9
+      pivot: {x: 0.39655173, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b5f6838cc0b494b80c39a6d14d3bb6
+      internalID: -1313938199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 668
+        width: 106
+        height: 112
+      alignment: 9
+      pivot: {x: 0.45754716, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd95b8d6b7c56041a1f15fb02ad3d43
+      internalID: -252619541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 668
+        width: 105
+        height: 129
+      alignment: 9
+      pivot: {x: 0.48095238, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbf073292c890746bcf2065df36f9c3
+      internalID: 1991338862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 668
+        width: 109
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4587156, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7912dac0c3230c47a074bcb95672db1
+      internalID: 875742672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 666
+        width: 114
+        height: 103
+      alignment: 9
+      pivot: {x: 0.43421054, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4fc28069ab1f5498c8d9891b6c71ff
+      internalID: 154241920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 666
+        width: 127
+        height: 72
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.041666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedfe0da784047248a14c7ac1d0a6233
+      internalID: -1821163945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 528
+        width: 112
+        height: 111
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4276f99cc97d75e499dc8899a7f4549a
+      internalID: -351138937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 528
+        width: 113
+        height: 111
+      alignment: 9
+      pivot: {x: 0.46460176, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcd2b1983190794da5a4768f9b3e851
+      internalID: 580142744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 529
+        width: 116
+        height: 109
+      alignment: 9
+      pivot: {x: 0.48706895, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7ce0fc6450f144ba50941be6e0d0ed
+      internalID: 858086930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 527
+        width: 109
+        height: 110
+      alignment: 9
+      pivot: {x: 0.49541286, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9374214c2f67c4ab43a0d20af39a7c
+      internalID: -1561779109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 528
+        width: 115
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5043478, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04e0f625bd8d7740a5aa644a8321523
+      internalID: -359153583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 527
+        width: 105
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4952381, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b920e810cc30d7e4ea60e80c4452758b
+      internalID: 553973057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 529
+        width: 113
+        height: 111
+      alignment: 9
+      pivot: {x: 0.49557522, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9794a3b8c5d56a94bb35aa7bcbad713b
+      internalID: -354977862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 527
+        width: 116
+        height: 106
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed3731b7e96a0446b3af9b144de1fdc
+      internalID: -1436674097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 527
+        width: 113
+        height: 106
+      alignment: 9
+      pivot: {x: 0.53539824, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8fb66a8869e494b99740a5bcade88f
+      internalID: -1615803340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 526
+        width: 127
+        height: 74
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.04054054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b53c458c7087c746bc4fc9c771a8b0a
+      internalID: -415423091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 377
+        width: 91
+        height: 125
+      alignment: 9
+      pivot: {x: 0.53296703, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f03432f55488b45a7722063496a99c
+      internalID: -860949152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 377
+        width: 95
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5473684, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cc1eed8a6060241917bf36a9289b6a
+      internalID: 816245035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 377
+        width: 97
+        height: 124
+      alignment: 9
+      pivot: {x: 0.556701, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7048ecb7994edb489333a74ff7df359
+      internalID: 987559529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 377
+        width: 97
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5979381, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4c06b7b17a7434a87c2393c35604f8
+      internalID: -205495129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 377
+        width: 101
+        height: 123
+      alignment: 9
+      pivot: {x: 0.55445546, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882d8ebd6cb196047888783fdb708ba0
+      internalID: 1606107552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 377
+        width: 111
+        height: 121
+      alignment: 9
+      pivot: {x: 0.6306306, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9843f05e935d6ce42a55b3c0f9afe93c
+      internalID: 470337785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 377
+        width: 85
+        height: 132
+      alignment: 9
+      pivot: {x: 0.46470588, y: 0.022727273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95372ef002f29d4780c759c4f4a6948
+      internalID: 1061864513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 377
+        width: 113
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5663717, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c579c35673bda4fbdab0b642111e9b
+      internalID: 12305988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 377
+        width: 103
+        height: 104
+      alignment: 9
+      pivot: {x: 0.592233, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e329f829b1c2e4044a53d41df9a18e2e
+      internalID: -1015686906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 376
+        width: 122
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710e1aad6fd72884f9be2d4bc4a28868
+      internalID: -2009968606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 226
+        width: 93
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5483871, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f58b70b24cf45449a88498a53d1e00f
+      internalID: -1044631329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 226
+        width: 95
+        height: 128
+      alignment: 9
+      pivot: {x: 0.55789477, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9496af04e0c335844864dd4b2af54a3d
+      internalID: 1690176413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 226
+        width: 96
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71288f55ddba5b24895099d22aec88be
+      internalID: 482309516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 226
+        width: 99
+        height: 125
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ada40f1c8c6fc42839b48ab1d505d1
+      internalID: -360503705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 226
+        width: 100
+        height: 125
+      alignment: 9
+      pivot: {x: 0.555, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d220d82d80618441b885f9c8fa98794
+      internalID: 91934394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 226
+        width: 105
+        height: 123
+      alignment: 9
+      pivot: {x: 0.61904764, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ce08a163d84a1438c2c655ff5bc728
+      internalID: -1631467719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 225
+        width: 85
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5117647, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96f2352ab0cbaf4b89c3acb392ad499
+      internalID: -2123119249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 226
+        width: 109
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5321101, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b88778354c16f4488525ee047940def
+      internalID: 26446655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 226
+        width: 111
+        height: 112
+      alignment: 9
+      pivot: {x: 0.545045, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787347b8fab8405458436651b7fd39c6
+      internalID: 1207887510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 226
+        width: 119
+        height: 64
+      alignment: 9
+      pivot: {x: 0.48739496, y: 0.046875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e115fa1da7036ae449f6cd1022928e46
+      internalID: 1758987098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 76
+        width: 105
+        height: 120
+      alignment: 9
+      pivot: {x: 0.54285717, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d359d1d07c829ff4e9787e17e8320a5b
+      internalID: 2007438582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 76
+        width: 103
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5291262, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704103a568a4eea45a21e0d682f50db7
+      internalID: 779636932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 76
+        width: 116
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48706895, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7905f237aadde45a8159e8b2a5d01d
+      internalID: 2051817406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 76
+        width: 106
+        height: 119
+      alignment: 9
+      pivot: {x: 0.504717, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c741cbd7fca2649b9e523214285d44
+      internalID: -463912697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 76
+        width: 103
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5825243, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3c997b898b2084a87df71e8417c395
+      internalID: 309544602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 78
+        width: 107
+        height: 113
+      alignment: 9
+      pivot: {x: 0.57476634, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c760a0a6bebeb74c9f5100600fe2bb4
+      internalID: 379131636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 74
+        width: 108
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5046296, y: 0.023076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50791e73f08c685429f130822f9ef611
+      internalID: -951869850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 74
+        width: 116
+        height: 87
+      alignment: 9
+      pivot: {x: 0.51293105, y: 0.03448276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e89117e33de15448b973cfa3914a90
+      internalID: -1354043560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 72
+        width: 107
+        height: 107
+      alignment: 9
+      pivot: {x: 0.4906542, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6293c16986d50124d86b7b78451bc1e0
+      internalID: -1314731085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tokoro-directional-v1-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 71
+        width: 122
+        height: 70
+      alignment: 9
+      pivot: {x: 0.48770493, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edaff4cac9c353446afb26652eb53986
+      internalID: -826334778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9d0ffb848a931fb45835e148834f1e2e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tokoro-atlas_0: 1135010781948828459
+      tokoro-atlas_1: 2465962581352843523
+      tokoro-atlas_10: 4866679199670738254
+      tokoro-atlas_11: 5619832535894252448
+      tokoro-atlas_12: 3991411533489589728
+      tokoro-atlas_13: 7812267787788707556
+      tokoro-atlas_14: -165555002954574692
+      tokoro-atlas_15: 4635772019350879001
+      tokoro-atlas_16: -4955315008002947584
+      tokoro-atlas_17: 291987696314709487
+      tokoro-atlas_18: -7719574019533185413
+      tokoro-atlas_19: 6167859690774154435
+      tokoro-atlas_2: -2736182833504320652
+      tokoro-atlas_20: 4743368507496013828
+      tokoro-atlas_3: 2143621697791764734
+      tokoro-atlas_4: 6879825024933448360
+      tokoro-atlas_5: 8409078161740604298
+      tokoro-atlas_6: 2668035413085828439
+      tokoro-atlas_7: 8480791241573081846
+      tokoro-atlas_8: -8278685299146115193
+      tokoro-atlas_9: 2209464578957852226
+      tokoro-directional-v1-r00-f00: 794468726
+      tokoro-directional-v1-r00-f01: 1623053853
+      tokoro-directional-v1-r00-f02: -1153191274
+      tokoro-directional-v1-r00-f03: -50308821
+      tokoro-directional-v1-r00-f04: -1881569633
+      tokoro-directional-v1-r00-f05: -1341240847
+      tokoro-directional-v1-r00-f06: -1698682207
+      tokoro-directional-v1-r00-f07: 313146692
+      tokoro-directional-v1-r00-f08: -554364705
+      tokoro-directional-v1-r00-f09: -1004272860
+      tokoro-directional-v1-r01-f00: 2018165663
+      tokoro-directional-v1-r01-f01: -910435540
+      tokoro-directional-v1-r01-f02: -883302415
+      tokoro-directional-v1-r01-f03: -1494715761
+      tokoro-directional-v1-r01-f04: -823648079
+      tokoro-directional-v1-r01-f05: 265084599
+      tokoro-directional-v1-r01-f06: 709636182
+      tokoro-directional-v1-r01-f07: -848147217
+      tokoro-directional-v1-r01-f08: -252675499
+      tokoro-directional-v1-r01-f09: 1259232490
+      tokoro-directional-v1-r02-f00: 1669177771
+      tokoro-directional-v1-r02-f01: 157184301
+      tokoro-directional-v1-r02-f02: 1272845768
+      tokoro-directional-v1-r02-f03: -1345104183
+      tokoro-directional-v1-r02-f04: 624988902
+      tokoro-directional-v1-r02-f05: 252306986
+      tokoro-directional-v1-r02-f06: 1022720966
+      tokoro-directional-v1-r02-f07: -1676719454
+      tokoro-directional-v1-r02-f08: -1666440355
+      tokoro-directional-v1-r02-f09: -522092545
+      tokoro-directional-v1-r03-f00: -440341589
+      tokoro-directional-v1-r03-f01: -1560417455
+      tokoro-directional-v1-r03-f02: 636998903
+      tokoro-directional-v1-r03-f03: -1783503604
+      tokoro-directional-v1-r03-f04: -1313938199
+      tokoro-directional-v1-r03-f05: -252619541
+      tokoro-directional-v1-r03-f06: 1991338862
+      tokoro-directional-v1-r03-f07: 875742672
+      tokoro-directional-v1-r03-f08: 154241920
+      tokoro-directional-v1-r03-f09: -1821163945
+      tokoro-directional-v1-r04-f00: -351138937
+      tokoro-directional-v1-r04-f01: 580142744
+      tokoro-directional-v1-r04-f02: 858086930
+      tokoro-directional-v1-r04-f03: -1561779109
+      tokoro-directional-v1-r04-f04: -359153583
+      tokoro-directional-v1-r04-f05: 553973057
+      tokoro-directional-v1-r04-f06: -354977862
+      tokoro-directional-v1-r04-f07: -1436674097
+      tokoro-directional-v1-r04-f08: -1615803340
+      tokoro-directional-v1-r04-f09: -415423091
+      tokoro-directional-v1-r05-f00: -860949152
+      tokoro-directional-v1-r05-f01: 816245035
+      tokoro-directional-v1-r05-f02: 987559529
+      tokoro-directional-v1-r05-f03: -205495129
+      tokoro-directional-v1-r05-f04: 1606107552
+      tokoro-directional-v1-r05-f05: 470337785
+      tokoro-directional-v1-r05-f06: 1061864513
+      tokoro-directional-v1-r05-f07: 12305988
+      tokoro-directional-v1-r05-f08: -1015686906
+      tokoro-directional-v1-r05-f09: -2009968606
+      tokoro-directional-v1-r06-f00: -1044631329
+      tokoro-directional-v1-r06-f01: 1690176413
+      tokoro-directional-v1-r06-f02: 482309516
+      tokoro-directional-v1-r06-f03: -360503705
+      tokoro-directional-v1-r06-f04: 91934394
+      tokoro-directional-v1-r06-f05: -1631467719
+      tokoro-directional-v1-r06-f06: -2123119249
+      tokoro-directional-v1-r06-f07: 26446655
+      tokoro-directional-v1-r06-f08: 1207887510
+      tokoro-directional-v1-r06-f09: 1758987098
+      tokoro-directional-v1-r07-f00: 2007438582
+      tokoro-directional-v1-r07-f01: 779636932
+      tokoro-directional-v1-r07-f02: 2051817406
+      tokoro-directional-v1-r07-f03: -463912697
+      tokoro-directional-v1-r07-f04: 309544602
+      tokoro-directional-v1-r07-f05: 379131636
+      tokoro-directional-v1-r07-f06: -951869850
+      tokoro-directional-v1-r07-f07: -1354043560
+      tokoro-directional-v1-r07-f08: -1314731085
+      tokoro-directional-v1-r07-f09: -826334778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2752 @@
+fileFormatVersion: 2
+guid: 96cddb7e5e064c646a2e37454f59bc03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5124901887449934107
+    second: tsu-atlas_0
+  - first:
+      213: 9103838272762190037
+    second: tsu-atlas_1
+  - first:
+      213: 2566366523473269716
+    second: tsu-atlas_2
+  - first:
+      213: -7817084601820340902
+    second: tsu-atlas_3
+  - first:
+      213: -3874042035163717691
+    second: tsu-atlas_4
+  - first:
+      213: 2936482846829929822
+    second: tsu-atlas_5
+  - first:
+      213: 8359160002673980799
+    second: tsu-atlas_6
+  - first:
+      213: 8341487072621479527
+    second: tsu-atlas_7
+  - first:
+      213: 4523214548006584698
+    second: tsu-atlas_8
+  - first:
+      213: 1473544471967742799
+    second: tsu-atlas_9
+  - first:
+      213: -1640094854622966671
+    second: tsu-atlas_10
+  - first:
+      213: -7456737751231663981
+    second: tsu-atlas_11
+  - first:
+      213: -1106818240394168480
+    second: tsu-atlas_12
+  - first:
+      213: -5979360624985857030
+    second: tsu-atlas_13
+  - first:
+      213: 7471434400773370759
+    second: tsu-atlas_14
+  - first:
+      213: -7426108461492191115
+    second: tsu-atlas_15
+  - first:
+      213: 5926491412642320597
+    second: tsu-atlas_16
+  - first:
+      213: -125578909566192960
+    second: tsu-atlas_17
+  - first:
+      213: -3401628320563138849
+    second: tsu-atlas_18
+  - first:
+      213: -1693672009719730913
+    second: tsu-atlas_19
+  - first:
+      213: -2115467516489841971
+    second: tsu-atlas_20
+  - first:
+      213: 1200140399695746619
+    second: tsu-atlas_21
+  - first:
+      213: 1678311742383649365
+    second: tsu-atlas_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10.709988
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tsu-atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 247
+        height: 531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e651d1e2e0b0e8b0800000000000000
+      internalID: -5124901887449934107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 183
+        width: 463
+        height: 921
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d89894cca4575e70800000000000000
+      internalID: 9103838272762190037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_2
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 714
+        width: 133
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3141381c09d9320800000000000000
+      internalID: 2566366523473269716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_3
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 584
+        width: 124
+        height: 507
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d9259a8f2248390800000000000000
+      internalID: -7817084601820340902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_4
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 588
+        width: 125
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf92296b43ac3ac0800000000000000
+      internalID: -3874042035163717691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_5
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 187
+        width: 130
+        height: 903
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55635e479b70c820800000000000000
+      internalID: 2936482846829929822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_6
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 974
+        width: 121
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f753904dbb3b10470800000000000000
+      internalID: 8359160002673980799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_7
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 844
+        width: 129
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766cd162c4ae2c370800000000000000
+      internalID: 8341487072621479527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_8
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 586
+        width: 134
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71cfc89aafa5ce30800000000000000
+      internalID: 4523214548006584698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_9
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 715
+        width: 131
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bb06cd3e4137410800000000000000
+      internalID: 1473544471967742799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_10
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 587
+        width: 117
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c80485b663d39e0800000000000000
+      internalID: -1640094854622966671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 55
+        width: 231
+        height: 526
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3907792d588548890800000000000000
+      internalID: -7456737751231663981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_12
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 57
+        width: 112
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067f16eacaac3a0f0800000000000000
+      internalID: -1106818240394168480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_13
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 51
+        width: 345
+        height: 534
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3a2cb013b050da0800000000000000
+      internalID: -5979360624985857030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_14
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 58
+        width: 235
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783fabc800edfa760800000000000000
+      internalID: 7471434400773370759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_15
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 54
+        width: 124
+        height: 527
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5704c3113b921f890800000000000000
+      internalID: -7426108461492191115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_16
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 54
+        width: 112
+        height: 527
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0d2f63a802f3250800000000000000
+      internalID: 5926491412642320597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_17
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 513
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2b608a5aad14ef0800000000000000
+      internalID: -125578909566192960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_18
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 459
+        width: 117
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdeece6a01dfac0d0800000000000000
+      internalID: -3401628320563138849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_19
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 334
+        width: 119
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d22a6d74ede78e0800000000000000
+      internalID: -1693672009719730913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_20
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 205
+        width: 129
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2ceb1808954a2e0800000000000000
+      internalID: -2115467516489841971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_21
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 57
+        width: 117
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36d57cb551c7a010800000000000000
+      internalID: 1200140399695746619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-atlas_22
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 55
+        width: 132
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552f42b33af8a4710800000000000000
+      internalID: 1678311742383649365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 968
+        width: 93
+        height: 113
+      alignment: 9
+      pivot: {x: 0.49462366, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d5f9f8a5102fc4abcc0739ed2ec856
+      internalID: -426811507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 968
+        width: 93
+        height: 113
+      alignment: 9
+      pivot: {x: 0.49462366, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2e3fc844892cd41bd57b2d9f162d91
+      internalID: 1477229696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 968
+        width: 93
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5107527, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c2d5790786680489c52b1f5f27c476
+      internalID: -587299306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 968
+        width: 91
+        height: 113
+      alignment: 9
+      pivot: {x: 0.47802198, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308e4f8977e95d9438060aba1bc8bfc2
+      internalID: 1870345670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 968
+        width: 92
+        height: 113
+      alignment: 9
+      pivot: {x: 0.49456522, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4ab78891f80364fb5965c295af35bb
+      internalID: -943643131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 968
+        width: 92
+        height: 112
+      alignment: 9
+      pivot: {x: 0.49456522, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567605b33b93cb64bb1cfb6da7ee47ce
+      internalID: -660093977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 968
+        width: 93
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c157ed3ea1389774bb36da7c1e25534f
+      internalID: 1526095840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 968
+        width: 94
+        height: 113
+      alignment: 9
+      pivot: {x: 0.49468085, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9508a5bf85a7a3646bb9104294f0cbd7
+      internalID: 1900311434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 968
+        width: 95
+        height: 114
+      alignment: 9
+      pivot: {x: 0.48421052, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa89fc070ff730c47866f76b46de8baa
+      internalID: 438893613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 968
+        width: 95
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4526316, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6cbcaf028fc134a8f5d7f18b24db38
+      internalID: -1117054326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 980
+        width: 108
+        height: 79
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.03797468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2823d3e1f89ac1d438a1cbbdc707761c
+      internalID: -973393002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 847
+        width: 92
+        height: 114
+      alignment: 9
+      pivot: {x: 0.49456522, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfd657e059b11041b7e07a37b708ed3
+      internalID: 751140023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 846
+        width: 93
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afd99d623c402047ba5781a1122a066
+      internalID: -622217266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 847
+        width: 91
+        height: 114
+      alignment: 9
+      pivot: {x: 0.47802198, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7388eeae9818c419dae96173d0f396
+      internalID: 413592256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 846
+        width: 89
+        height: 115
+      alignment: 9
+      pivot: {x: 0.48876405, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d8cd4c6be2f92468f4668c6051d0f0
+      internalID: -252901256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 847
+        width: 90
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8949b3996128ad4d9507807ca622996
+      internalID: 198618214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 847
+        width: 91
+        height: 113
+      alignment: 9
+      pivot: {x: 0.489011, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2157a67c9768e9a4b8f5b464317f60a9
+      internalID: -1781119649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 846
+        width: 109
+        height: 115
+      alignment: 9
+      pivot: {x: 0.4174312, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52385a58fba1c8741bf4dd7a1101cc2e
+      internalID: -1516892134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 846
+        width: 91
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c1a56f20203f743bc1462b0c307325
+      internalID: 1329403585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 846
+        width: 93
+        height: 116
+      alignment: 9
+      pivot: {x: 0.48924732, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60869e3a23f2b748b7b2f957d3c5419
+      internalID: 1298374771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 846
+        width: 93
+        height: 113
+      alignment: 9
+      pivot: {x: 0.43548387, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cf0cbf07ae27640ba18d8d641f6338
+      internalID: -377920221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 858
+        width: 113
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4778761, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626372e0dc0e36a4fbb5596817c64ca2
+      internalID: -715727383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 716
+        width: 88
+        height: 114
+      alignment: 9
+      pivot: {x: 0.53409094, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1326c61894682924d93b78f6cc073338
+      internalID: 1631745833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 716
+        width: 86
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5406977, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc25cf29246b56848b7c28a05f6d0970
+      internalID: -1988619900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 716
+        width: 85
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5411765, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aca4d45e6b1c0b41a6adf160a42bc37
+      internalID: -410843891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 716
+        width: 85
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6276a53df24c0cc439e6515519918d0e
+      internalID: 1280901079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 716
+        width: 85
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35480c809650a2647a29a88748a77430
+      internalID: 1648921961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 716
+        width: 86
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5232558, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e938ca82f2faf8d449d5f86f34e7021a
+      internalID: -504697138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 716
+        width: 115
+        height: 114
+      alignment: 9
+      pivot: {x: 0.4, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950205f5a6a27774bbc8404eeb3f4184
+      internalID: -797476858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 716
+        width: 87
+        height: 114
+      alignment: 9
+      pivot: {x: 0.54022986, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbfbae8e2034754b96d4544626f0ab1
+      internalID: -2029308763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 716
+        width: 96
+        height: 114
+      alignment: 9
+      pivot: {x: 0.47916666, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c2e21899c6ea64cb1de15657222dc9
+      internalID: -538507596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 716
+        width: 90
+        height: 114
+      alignment: 9
+      pivot: {x: 0.43888888, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e0d643c49189346a88d62ace62926b
+      internalID: -1771553587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 727
+        width: 118
+        height: 73
+      alignment: 9
+      pivot: {x: 0.48305085, y: 0.04109589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a759c2cbf2eda047b59b3643753e69b
+      internalID: -1490957128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 591
+        width: 93
+        height: 111
+      alignment: 9
+      pivot: {x: 0.49462366, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d39eacfdfbf6344882e0d27208c5e4
+      internalID: -2039423358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 591
+        width: 92
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a4a150924c199408f5491b821ea632
+      internalID: 869381477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 590
+        width: 91
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51648355, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a19ce8415a60e946aa546b606f279f0
+      internalID: -1064641295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 590
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deedb08d6e3d514b804ce7c0ec3c1ec
+      internalID: -694565369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 590
+        width: 91
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3b9d2556d89014987ea26375bab4eb
+      internalID: -294774451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 591
+        width: 92
+        height: 111
+      alignment: 9
+      pivot: {x: 0.49456522, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1199417e2d6a0f244a55ac6b390026f8
+      internalID: 1962641960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 591
+        width: 117
+        height: 111
+      alignment: 9
+      pivot: {x: 0.3888889, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77db9fc42dbe75c4e8ebd94ad6fc5136
+      internalID: 599162594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 591
+        width: 99
+        height: 111
+      alignment: 9
+      pivot: {x: 0.44949496, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8eb96e85ec6394eac5ea176c644c10
+      internalID: -1232967701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 591
+        width: 108
+        height: 112
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd863e32ea15564db6d0a8e12a91e28
+      internalID: 1542988655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 590
+        width: 92
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4293478, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50300e6cbe6c334d8ce5fba5df6007a
+      internalID: 1306257943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 601
+        width: 110
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.041666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d23e22adf53724bb1b88b57ab4ed54
+      internalID: -338982260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 460
+        width: 92
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fecb9b5a573114cab077cd48cfea71
+      internalID: 1566897028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 460
+        width: 92
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf685a25de270143a5148934c41d07e
+      internalID: -1791653465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 460
+        width: 91
+        height: 115
+      alignment: 9
+      pivot: {x: 0.489011, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efa85b05d636c24eb386a162b718f31
+      internalID: -867596140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 460
+        width: 90
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf5c28dad61f9e49a9d6b229a190008
+      internalID: -1822169894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 460
+        width: 91
+        height: 115
+      alignment: 9
+      pivot: {x: 0.4945055, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34a162c4bd6748489cd9df1067827eb
+      internalID: 1691735422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 460
+        width: 92
+        height: 115
+      alignment: 9
+      pivot: {x: 0.49456522, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff2920a93959ea47b99957182f0b6ac
+      internalID: 212482470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 460
+        width: 109
+        height: 115
+      alignment: 9
+      pivot: {x: 0.4174312, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b7c9b388f7dfa46a996ba0de438ede
+      internalID: 1504990416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 460
+        width: 91
+        height: 115
+      alignment: 9
+      pivot: {x: 0.47802198, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9d26536732a664ba9a39a2ca12fdb7
+      internalID: 1465847184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 460
+        width: 92
+        height: 115
+      alignment: 9
+      pivot: {x: 0.49456522, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dac142ff9596743b75966127a2ca94
+      internalID: -1408510023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 460
+        width: 92
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5054348, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1816cbacc6c5f1d4291c1d0b792fce07
+      internalID: 545513444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 471
+        width: 111
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04054054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59d9888b61f9b04ea817fda229725b0
+      internalID: 27912467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 327
+        width: 89
+        height: 116
+      alignment: 9
+      pivot: {x: 0.44382024, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82755ea12cfbefc499c442a6a9453321
+      internalID: -179575291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 327
+        width: 88
+        height: 116
+      alignment: 9
+      pivot: {x: 0.46022728, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49828f41989241846a5b9cec76c5e939
+      internalID: 806529700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 327
+        width: 86
+        height: 117
+      alignment: 9
+      pivot: {x: 0.47674417, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472339e0a9e6eab4f8cb9aec1d5a12f4
+      internalID: -384249212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 327
+        width: 86
+        height: 117
+      alignment: 9
+      pivot: {x: 0.4244186, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba268b34ef9ad64492675cdd6f770b8
+      internalID: -1968908944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 327
+        width: 86
+        height: 116
+      alignment: 9
+      pivot: {x: 0.44767442, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d94ef3ed63eec4dbda0686610705d2
+      internalID: -1890270038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 327
+        width: 88
+        height: 116
+      alignment: 9
+      pivot: {x: 0.46022728, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a2b81300196ae45bf1e75f9594bd1a
+      internalID: -555660637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 327
+        width: 109
+        height: 116
+      alignment: 9
+      pivot: {x: 0.55504584, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cea61c4ff6a63e468f1ffd2716ce393
+      internalID: 535611747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 327
+        width: 89
+        height: 116
+      alignment: 9
+      pivot: {x: 0.4494382, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6383dd1d4ef76ad41a0b5b2b96df4fb4
+      internalID: -725434498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 327
+        width: 97
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5051546, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8072b70462dc1c4ebf8c6a4c7816c25
+      internalID: -923123720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 327
+        width: 91
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5494506, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b385aff78b1964d4c89ba143877fec51
+      internalID: -1046177325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r05-f10
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 338
+        width: 112
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03797468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ade86a2927f564dbff461c0fab712e
+      internalID: -1283724391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 197
+        width: 87
+        height: 116
+      alignment: 9
+      pivot: {x: 0.45402297, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1648de325063994aa2a48358b6ffc7b
+      internalID: -1903693565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 196
+        width: 86
+        height: 118
+      alignment: 9
+      pivot: {x: 0.45930234, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f3a69a01b76d6469328df57c8fd94e
+      internalID: 793778551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 197
+        width: 86
+        height: 117
+      alignment: 9
+      pivot: {x: 0.48255813, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e524b1524d56df47915bf33e430b678
+      internalID: -168133948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 197
+        width: 85
+        height: 117
+      alignment: 9
+      pivot: {x: 0.45294118, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4babb062c6bc74484d3b58ec5f07b7
+      internalID: -1478272236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 196
+        width: 86
+        height: 118
+      alignment: 9
+      pivot: {x: 0.44767442, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6671941702fa843b8f7f7486628c02
+      internalID: -1413899859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 196
+        width: 87
+        height: 117
+      alignment: 9
+      pivot: {x: 0.4597701, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b041f08b0d9a94a87b76965489cf1f
+      internalID: -690938871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 196
+        width: 111
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5720721, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76abe18d68947f499901a1c910ace66
+      internalID: 702095451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 197
+        width: 91
+        height: 117
+      alignment: 9
+      pivot: {x: 0.44505495, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78a2bb59f53fcf4b9ad85bec20da260
+      internalID: 1775307332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 197
+        width: 94
+        height: 117
+      alignment: 9
+      pivot: {x: 0.4787234, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e58c9e2d77d1f948999e5b3d7a7f6e8
+      internalID: -1423412139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 196
+        width: 92
+        height: 117
+      alignment: 9
+      pivot: {x: 0.52717394, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228689a5bbc331941b21b7d2d20914ca
+      internalID: 621184033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r06-f10
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 208
+        width: 116
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.039473683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab248ba8f1988847b0898b9c77073f3
+      internalID: -2093201328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 60
+        width: 95
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48421052, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b23bdeaece5f4845b3ef7d9a5e9a57f
+      internalID: 2080529876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 60
+        width: 94
+        height: 120
+      alignment: 9
+      pivot: {x: 0.4893617, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aced973148f5648aa4cfb14dd1651b
+      internalID: 751839804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 60
+        width: 94
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48404256, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3b83b48851b1e49a5baf4b8fdda268
+      internalID: 2042172041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 60
+        width: 92
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48369566, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7c52236c621b94eb1d9c6de538013b
+      internalID: 489133208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 60
+        width: 93
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d5e8db48107fc4b82ccc0088a64e48
+      internalID: -633571478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 61
+        width: 94
+        height: 118
+      alignment: 9
+      pivot: {x: 0.48404256, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7356694b9affce8428b9a2b5ed9c9e72
+      internalID: -952409786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 61
+        width: 114
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5745614, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9999032265b5f64e90329f5e16c5624
+      internalID: -81483236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 60
+        width: 95
+        height: 120
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c49764dedf368a4682a8d9b84ca3bc6
+      internalID: -2101665675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 60
+        width: 95
+        height: 120
+      alignment: 9
+      pivot: {x: 0.4526316, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59f23714b225c84aa3913a756958cbd
+      internalID: 1369615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 60
+        width: 94
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5053192, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5802af6c17117ae458a9c6f6dac8099e
+      internalID: -2024474020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-directional-v1-r07-f10
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 71
+        width: 107
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03797468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07bcd5671c14c7478c14fcff1576006
+      internalID: 1527246258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 587dbd0d9719c324da2e709f18d353ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tsu-atlas_0: -5124901887449934107
+      tsu-atlas_1: 9103838272762190037
+      tsu-atlas_10: -1640094854622966671
+      tsu-atlas_11: -7456737751231663981
+      tsu-atlas_12: -1106818240394168480
+      tsu-atlas_13: -5979360624985857030
+      tsu-atlas_14: 7471434400773370759
+      tsu-atlas_15: -7426108461492191115
+      tsu-atlas_16: 5926491412642320597
+      tsu-atlas_17: -125578909566192960
+      tsu-atlas_18: -3401628320563138849
+      tsu-atlas_19: -1693672009719730913
+      tsu-atlas_2: 2566366523473269716
+      tsu-atlas_20: -2115467516489841971
+      tsu-atlas_21: 1200140399695746619
+      tsu-atlas_22: 1678311742383649365
+      tsu-atlas_3: -7817084601820340902
+      tsu-atlas_4: -3874042035163717691
+      tsu-atlas_5: 2936482846829929822
+      tsu-atlas_6: 8359160002673980799
+      tsu-atlas_7: 8341487072621479527
+      tsu-atlas_8: 4523214548006584698
+      tsu-atlas_9: 1473544471967742799
+      tsu-directional-v1-r00-f00: -426811507
+      tsu-directional-v1-r00-f01: 1477229696
+      tsu-directional-v1-r00-f02: -587299306
+      tsu-directional-v1-r00-f03: 1870345670
+      tsu-directional-v1-r00-f04: -943643131
+      tsu-directional-v1-r00-f05: -660093977
+      tsu-directional-v1-r00-f06: 1526095840
+      tsu-directional-v1-r00-f07: 1900311434
+      tsu-directional-v1-r00-f08: 438893613
+      tsu-directional-v1-r00-f09: -1117054326
+      tsu-directional-v1-r00-f10: -973393002
+      tsu-directional-v1-r01-f00: 751140023
+      tsu-directional-v1-r01-f01: -622217266
+      tsu-directional-v1-r01-f02: 413592256
+      tsu-directional-v1-r01-f03: -252901256
+      tsu-directional-v1-r01-f04: 198618214
+      tsu-directional-v1-r01-f05: -1781119649
+      tsu-directional-v1-r01-f06: -1516892134
+      tsu-directional-v1-r01-f07: 1329403585
+      tsu-directional-v1-r01-f08: 1298374771
+      tsu-directional-v1-r01-f09: -377920221
+      tsu-directional-v1-r01-f10: -715727383
+      tsu-directional-v1-r02-f00: 1631745833
+      tsu-directional-v1-r02-f01: -1988619900
+      tsu-directional-v1-r02-f02: -410843891
+      tsu-directional-v1-r02-f03: 1280901079
+      tsu-directional-v1-r02-f04: 1648921961
+      tsu-directional-v1-r02-f05: -504697138
+      tsu-directional-v1-r02-f06: -797476858
+      tsu-directional-v1-r02-f07: -2029308763
+      tsu-directional-v1-r02-f08: -538507596
+      tsu-directional-v1-r02-f09: -1771553587
+      tsu-directional-v1-r02-f10: -1490957128
+      tsu-directional-v1-r03-f00: -2039423358
+      tsu-directional-v1-r03-f01: 869381477
+      tsu-directional-v1-r03-f02: -1064641295
+      tsu-directional-v1-r03-f03: -694565369
+      tsu-directional-v1-r03-f04: -294774451
+      tsu-directional-v1-r03-f05: 1962641960
+      tsu-directional-v1-r03-f06: 599162594
+      tsu-directional-v1-r03-f07: -1232967701
+      tsu-directional-v1-r03-f08: 1542988655
+      tsu-directional-v1-r03-f09: 1306257943
+      tsu-directional-v1-r03-f10: -338982260
+      tsu-directional-v1-r04-f00: 1566897028
+      tsu-directional-v1-r04-f01: -1791653465
+      tsu-directional-v1-r04-f02: -867596140
+      tsu-directional-v1-r04-f03: -1822169894
+      tsu-directional-v1-r04-f04: 1691735422
+      tsu-directional-v1-r04-f05: 212482470
+      tsu-directional-v1-r04-f06: 1504990416
+      tsu-directional-v1-r04-f07: 1465847184
+      tsu-directional-v1-r04-f08: -1408510023
+      tsu-directional-v1-r04-f09: 545513444
+      tsu-directional-v1-r04-f10: 27912467
+      tsu-directional-v1-r05-f00: -179575291
+      tsu-directional-v1-r05-f01: 806529700
+      tsu-directional-v1-r05-f02: -384249212
+      tsu-directional-v1-r05-f03: -1968908944
+      tsu-directional-v1-r05-f04: -1890270038
+      tsu-directional-v1-r05-f05: -555660637
+      tsu-directional-v1-r05-f06: 535611747
+      tsu-directional-v1-r05-f07: -725434498
+      tsu-directional-v1-r05-f08: -923123720
+      tsu-directional-v1-r05-f09: -1046177325
+      tsu-directional-v1-r05-f10: -1283724391
+      tsu-directional-v1-r06-f00: -1903693565
+      tsu-directional-v1-r06-f01: 793778551
+      tsu-directional-v1-r06-f02: -168133948
+      tsu-directional-v1-r06-f03: -1478272236
+      tsu-directional-v1-r06-f04: -1413899859
+      tsu-directional-v1-r06-f05: -690938871
+      tsu-directional-v1-r06-f06: 702095451
+      tsu-directional-v1-r06-f07: 1775307332
+      tsu-directional-v1-r06-f08: -1423412139
+      tsu-directional-v1-r06-f09: 621184033
+      tsu-directional-v1-r06-f10: -2093201328
+      tsu-directional-v1-r07-f00: 2080529876
+      tsu-directional-v1-r07-f01: 751839804
+      tsu-directional-v1-r07-f02: 2042172041
+      tsu-directional-v1-r07-f03: 489133208
+      tsu-directional-v1-r07-f04: -633571478
+      tsu-directional-v1-r07-f05: -952409786
+      tsu-directional-v1-r07-f06: -81483236
+      tsu-directional-v1-r07-f07: -2101665675
+      tsu-directional-v1-r07-f08: 1369615
+      tsu-directional-v1-r07-f09: -2024474020
+      tsu-directional-v1-r07-f10: 1527246258
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -279,6 +279,8 @@ namespace MonsterPouch.Gameplay.Match
         {
             if (!RequirePreparation(out reason)) return false;
             if (!Monster.Definition.UsesDocumentedRules) return TryUpgradeMonster(out reason);
+            if (Monster.TrickCount > 0 || Monster.HasMonsterUpgrade)
+                return Reject("Tu héroe ya eligió su única mejora para esta partida.", out reason);
             if (index < 0 || index >= 3 || Monster.Tricks[index] || Monster.Definition.Tricks[index] == null)
                 return Reject("Mejora ya adquirida o no disponible.", out reason);
             int price = Mathf.Max(0, Monster.Definition.Tricks[index].Cost);

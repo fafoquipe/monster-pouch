@@ -53,7 +53,7 @@ public static class MonsterPouchSpriteAnimationImporter
     }
 
     /// <summary>Returns [top-to-bottom row, left-to-right column]. Dimensions need not divide evenly.</summary>
-    public static Sprite[,] ImportGrid(string path, float ppu, int columns, int rows, string prefix)
+    public static Sprite[,] ImportGrid(string path, float ppu, int columns, int rows, string prefix, bool adaptive = false, int[] rowEdgesTop = null)
     {
         if (columns < 1 || rows < 1 || ppu <= 0) throw new ArgumentOutOfRangeException(nameof(columns));
         Texture2D texture = ReadSource(path);
@@ -63,24 +63,42 @@ public static class MonsterPouchSpriteAnimationImporter
             if (!pixels.Any(p => p.a < 128)) throw new InvalidDataException("Atlas must contain actual transparent alpha: " + path);
             // Generated atlases may have unequal outer margins. Real transparent gutters, not canvas division,
             // determine the cell boundaries when their projected count matches the requested layout.
-            int[] columnEdges = FindGridEdges(pixels, texture.width, texture.height, columns, true);
-            int[] rowEdges = FindGridEdges(pixels, texture.width, texture.height, rows, false);
+            bool exactColumns = false;
+            int[] columnEdges = adaptive
+                ? FindAdaptiveEdges(pixels, texture.width, texture.height, columns, true, 0, texture.height, out exactColumns)
+                : FindGridEdges(pixels, texture.width, texture.height, columns, true);
+            int[] rowEdges = adaptive
+                ? FindAdaptiveEdges(pixels, texture.width, texture.height, rows, false, 0, texture.width, out _)
+                : FindGridEdges(pixels, texture.width, texture.height, rows, false);
+            if (rowEdgesTop != null)
+            {
+                if (rowEdgesTop.Length != rows + 1 || rowEdgesTop[0] != 0 || rowEdgesTop[rows] != texture.height ||
+                    Enumerable.Range(1, rows).Any(i => rowEdgesTop[i] <= rowEdgesTop[i - 1]))
+                    throw new InvalidDataException("Explicit top-down row edges do not match " + path);
+                rowEdges = rowEdgesTop.Reverse().Select(edge => texture.height - edge).ToArray();
+            }
             var rects = new List<SpriteRect>();
             for (int row = 0; row < rows; row++)
-            for (int col = 0; col < columns; col++)
             {
-                int x0 = columnEdges[col];
-                int x1 = columnEdges[col + 1];
                 int y0 = rowEdges[rows - row - 1];
                 int y1 = rowEdges[rows - row];
-                RectInt cell = new RectInt(x0, y0, x1 - x0, y1 - y0);
-                RectInt visible = AlphaBounds(pixels, texture.width, cell);
-                Vector2 foot = FootAnchor(pixels, texture.width, visible);
-                int padding = 2;
-                Rect rect = Rect.MinMaxRect(Mathf.Max(x0, visible.xMin - padding), Mathf.Max(y0, visible.yMin - padding),
-                    Mathf.Min(x1, visible.xMax + padding), Mathf.Min(y1, visible.yMax + padding));
-                Vector2 pivot = new Vector2((foot.x - rect.xMin) / rect.width, (foot.y - rect.yMin) / rect.height);
-                rects.Add(new SpriteRect { name = FrameName(prefix, row, col), rect = rect, pivot = pivot, alignment = SpriteAlignment.Custom });
+                // A wide arm in one row must not obscure the transparent gutters in every other row.
+                int[] localColumns = adaptive && !exactColumns
+                    ? FindAdaptiveEdges(pixels, texture.width, texture.height, columns, true, y0, y1, out _)
+                    : columnEdges;
+                for (int col = 0; col < columns; col++)
+                {
+                    int x0 = localColumns[col];
+                    int x1 = localColumns[col + 1];
+                    RectInt cell = new RectInt(x0, y0, x1 - x0, y1 - y0);
+                    RectInt visible = AlphaBounds(pixels, texture.width, cell);
+                    Vector2 foot = FootAnchor(pixels, texture.width, visible);
+                    int padding = 2;
+                    Rect rect = Rect.MinMaxRect(Mathf.Max(x0, visible.xMin - padding), Mathf.Max(y0, visible.yMin - padding),
+                        Mathf.Min(x1, visible.xMax + padding), Mathf.Min(y1, visible.yMax + padding));
+                    Vector2 pivot = new Vector2((foot.x - rect.xMin) / rect.width, (foot.y - rect.yMin) / rect.height);
+                    rects.Add(new SpriteRect { name = FrameName(prefix, row, col), rect = rect, pivot = pivot, alignment = SpriteAlignment.Custom });
+                }
             }
             Dictionary<string, Sprite> sprites = ApplySlices(path, ppu, rects);
             var result = new Sprite[rows, columns];
@@ -92,6 +110,75 @@ public static class MonsterPouchSpriteAnimationImporter
     }
 
     public static string FrameName(string prefix, int row, int col) => $"{prefix}-r{row:D2}-f{col:D2}";
+
+    // Opt-in for newly generated sheets. Existing curated sheets retain their original slicing behavior.
+    private static int[] FindAdaptiveEdges(Color32[] pixels, int width, int height, int count, bool horizontal,
+        int perpendicularStart, int perpendicularEnd, out bool exact)
+    {
+        int length = horizontal ? width : height;
+        int perpendicular = perpendicularEnd - perpendicularStart;
+        var occupancy = new int[length];
+        for (int axis = 0; axis < length; axis++)
+        for (int cross = perpendicularStart; cross < perpendicularEnd; cross++)
+        {
+            int index = horizontal ? cross * width + axis : axis * width + cross;
+            if (pixels[index].a > 128) occupancy[axis]++;
+        }
+        int threshold = Mathf.Max(2, Mathf.RoundToInt(perpendicular * .004f));
+        int internalGap = Mathf.Max(2, length / (count * 30));
+        var starts = new List<int>();
+        var ends = new List<int>();
+        int start = -1, last = -1;
+        for (int i = 0; i < length; i++)
+        {
+            if (occupancy[i] < threshold) continue;
+            if (start < 0) start = i;
+            else if (i - last > internalGap + 1) { starts.Add(start); ends.Add(last + 1); start = i; }
+            last = i;
+        }
+        if (start >= 0) { starts.Add(start); ends.Add(last + 1); }
+        var edges = new int[count + 1];
+        edges[count] = length;
+        exact = starts.Count == count;
+        if (exact)
+        {
+            for (int i = 1; i < count; i++) edges[i] = (ends[i - 1] + starts[i]) / 2;
+            return edges;
+        }
+
+        float step = length / (float)count;
+        float firstCenter = step * .5f;
+        // Fit occupied endpoint centers when outer margins are asymmetric; merged internal bands do not matter.
+        if (starts.Count >= 2 && count > 1)
+        {
+            int final = starts.Count - 1;
+            float firstWidth = ends[0] - starts[0], lastWidth = ends[final] - starts[final];
+            float candidateFirst = (starts[0] + ends[0]) * .5f;
+            float candidateStep = ((starts[final] + ends[final]) * .5f - candidateFirst) / (count - 1);
+            if (firstWidth > step * .25f && firstWidth < step * 1.25f && lastWidth > step * .25f && lastWidth < step * 1.25f &&
+                candidateStep > step * .8f && candidateStep < step * 1.2f)
+            { firstCenter = candidateFirst; step = candidateStep; }
+        }
+        for (int i = 1; i < count; i++)
+        {
+            float expected = firstCenter + (i - .5f) * step;
+            int low = Mathf.Max(edges[i - 1] + 1, Mathf.FloorToInt(expected - step * .25f));
+            int high = Mathf.Min(length - (count - i), Mathf.CeilToInt(expected + step * .25f));
+            int best = Mathf.Clamp(Mathf.RoundToInt(expected), low, high), bestCoverage = int.MaxValue;
+            float bestDistance = float.MaxValue;
+            for (int cut = low; cut <= high; cut++)
+            {
+                // Five-pixel band favors real gutters with room for sprite padding over one-pixel holes.
+                int coverage = 0;
+                for (int sample = Mathf.Max(0, cut - 2); sample <= Mathf.Min(length - 1, cut + 2); sample++) coverage += occupancy[sample];
+                float distance = Mathf.Abs(cut - expected);
+                if (coverage < bestCoverage || coverage == bestCoverage && distance < bestDistance)
+                { best = cut; bestCoverage = coverage; bestDistance = distance; }
+            }
+            edges[i] = best;
+        }
+        return edges;
+    }
 
     private static int[] FindGridEdges(Color32[] pixels, int width, int height, int count, bool horizontal)
     {

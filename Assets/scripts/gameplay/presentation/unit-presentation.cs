@@ -34,10 +34,26 @@ namespace MonsterPouch.Gameplay.Presentation
         private float idleElapsed;
         private float baseScale = 1f;
         private bool moving;
+        private bool flightMotion;
         private bool attacking;
         private bool dead;
         private bool rangedAttack;
         private bool frozen;
+        private int observedAttackReset;
+        private float hitRemaining, abilityRemaining;
+        private bool Heavy => art != null && (art.Id=="trimol"||art.Id=="tokoro"||art.Id=="tauris"||art.Id=="gochan");
+        public void Hit() { if(!dead)hitRemaining=.2f; }
+        private float specialElapsed, specialDuration;
+        private bool specialActive;
+        public bool IsUsingAbility => specialActive;
+        public void UseAbility(string kind = null)
+        {
+            if(dead||reviving||frozen)return;
+            abilityRemaining=.5f;
+            var clip=art?.Animation(facing);
+            if(clip?.Special==null||clip.Special.Length==0)return;
+            specialElapsed=0;specialDuration=Mathf.Max(.1f,clip.SpecialDuration);specialActive=true;
+        }
         private static Sprite shadowSprite;
         private static Material sharedSpriteMaterial;
         // Presentation only: 20% larger art/rig around the unchanged foot anchor; stats and timing are unchanged.
@@ -79,7 +95,10 @@ namespace MonsterPouch.Gameplay.Presentation
             SpriteRenderer oldRenderer = GetComponent<SpriteRenderer>();
             if (oldRenderer != null) oldRenderer.enabled = false;
             moving = attacking = dead = frozen = reviving = false;
+            flightMotion=false;
+            specialActive=false;
             deathElapsed = idleElapsed = walkElapsed = 0;
+            observedAttackReset=unit?.AttackResetVersion??0;hitRemaining=abilityRemaining=0;
             facing = unit != null && unit.Side == BoardSide.Blue ? UnitFacing.North : UnitFacing.South;
             Sprite reference = art != null ? art.Portrait : null;
             baseScale = reference != null
@@ -106,6 +125,8 @@ namespace MonsterPouch.Gameplay.Presentation
         public void Move(Vector3 from, Vector3 to, float duration)
         {
             if (dead || reviving || frozen || visualRoot == null) return;
+            flightMotion=unit!=null&&unit.IsFlying;
+            if(flightMotion){duration=unit.FlightDuration;attacking=false;}
             Vector3 direction = to - from;
             Face(Mathf.RoundToInt(Mathf.Sign(direction.x)) * (Mathf.Abs(direction.x) > .001f ? 1 : 0),
                 -Mathf.RoundToInt(Mathf.Sign(direction.y)) * (Mathf.Abs(direction.y) > .001f ? 1 : 0));
@@ -140,6 +161,7 @@ namespace MonsterPouch.Gameplay.Presentation
             attackRecoveryDuration = Mathf.Clamp(interval - attackContactDelay - .02f, .01f, DefaultRecoveryDuration);
             attackElapsed = 0;
             attacking = true;
+            observedAttackReset=unit?.AttackResetVersion??0;
         }
 
         public void Attack(Transform target, bool projectile)
@@ -158,6 +180,7 @@ namespace MonsterPouch.Gameplay.Presentation
         public void SetFrozen(bool value)
         {
             frozen = value;
+            if(value) specialActive=false;
             if(value && reviving) { reviving = false; dead = true; deathElapsed = 0; }
             if (!value || dead || visualRoot == null) return;
             attacking = moving = false;
@@ -171,6 +194,7 @@ namespace MonsterPouch.Gameplay.Presentation
         public void Die()
         {
             if (dead) return;
+            specialActive=false;
             reviving = false;
             dead = true;
             attacking = moving = false;
@@ -180,6 +204,7 @@ namespace MonsterPouch.Gameplay.Presentation
 
         public void BeginRevive(float duration)
         {
+            specialActive=false;
             dead = attacking = moving = false;
             reviving = true;
             reviveElapsed = 0;
@@ -191,6 +216,7 @@ namespace MonsterPouch.Gameplay.Presentation
 
         public void Revive()
         {
+            specialActive=false;
             reviving = dead = attacking = moving = false;
             deathElapsed = 0;
             SnapToCell();
@@ -203,6 +229,7 @@ namespace MonsterPouch.Gameplay.Presentation
             if (unit == null || mapper == null || unit.CurrentCell == null) return;
             if (mapper.TryGetWorldPosition(unit.CurrentCell, out Vector3 position)) transform.position = position;
             moving = false;
+            flightMotion=false;
         }
 
         private void FaceWorld(Vector3 delta)
@@ -222,7 +249,10 @@ namespace MonsterPouch.Gameplay.Presentation
             if (art == null || visualRoot == null) return;
             if (frozen && !dead) return;
             float dt = float.IsNaN(deltaTime) || float.IsInfinity(deltaTime) ? 0 : Mathf.Max(0, deltaTime);
+            if(unit!=null&&observedAttackReset!=unit.AttackResetVersion)
+            { observedAttackReset=unit.AttackResetVersion;attacking=false;attackElapsed=0;specialActive=false; }
             idleElapsed += dt;
+            if(flightMotion && (unit==null||!unit.IsFlying))SnapToCell();
             if (moving && !dead)
             {
                 moveElapsed += dt;
@@ -233,11 +263,42 @@ namespace MonsterPouch.Gameplay.Presentation
             ResetPose();
             if (reviving) AnimateRevive(dt);
             else if (dead) AnimateDeath(dt);
+            else if(flightMotion)AnimateFlight();
+            else if(specialActive)
+            {
+                if(attacking){attackElapsed+=dt;if(attackElapsed>=attackContactDelay+attackRecoveryDuration)attacking=false;}
+                AnimateSpecial(dt);
+            }
             else if (attacking) AnimateAttack(dt);
             else if (moving) AnimateWalk();
+            else if(unit!=null&&unit.IsEnergyLocked&&!unit.IsStunned&&art.Animation(facing)?.Special?.Length>0)
+                ShowSpecialFrame(art.Animation(facing),Mathf.FloorToInt(idleElapsed*4)%art.Animation(facing).Special.Length);
             else AnimateIdle();
+            if(!dead&&!reviving)
+            {
+                if(unit!=null&&unit.IsStunned)
+                { attacking=false;visualRoot.localRotation=Quaternion.Euler(0,0,Mathf.Sin(idleElapsed*32)*3); }
+                if(hitRemaining>0)
+                { hitRemaining=Mathf.Max(0,hitRemaining-dt);body.color=Color.Lerp(Color.white,new Color(1,.48f,.48f),hitRemaining/.2f);visualRoot.localPosition+=Vector3.down*(hitRemaining*.08f); }
+                if(abilityRemaining>0)
+                { abilityRemaining=Mathf.Max(0,abilityRemaining-dt);float pulse=Mathf.Sin((1-abilityRemaining/.5f)*Mathf.PI);visualRoot.localScale*=1+pulse*.09f; }
+            }
             if (!dead && !reviving) ApplyDirectionalArticulation();
             UpdateSorting();
+        }
+
+        private void AnimateFlight()
+        {
+            var clip=art.Animation(facing);
+            if(clip?.Special?.Length>0)
+                ShowSpecialFrame(clip,Mathf.Min(clip.Special.Length-1,Mathf.FloorToInt(moveElapsed*6)));
+            else AnimateIdle();
+            float progress=Mathf.Clamp01(moveElapsed/moveDuration);
+            float lift=Mathf.Sin(progress*Mathf.PI)*.42f;
+            visualRoot.localPosition=Vector3.up*lift;
+            visualRoot.localRotation=Quaternion.Euler(0,0,Mathf.Sin(progress*Mathf.PI*2)*4);
+            shadow.color=new Color(.015f,.025f,.035f,.22f-lift*.2f);
+            specialActive=false;
         }
 
         private void ResetPose()
@@ -262,6 +323,13 @@ namespace MonsterPouch.Gameplay.Presentation
             if (clip != null && ShowLoop(clip.Idle, idleElapsed, clip.IdleFramesPerSecond, clip)) return;
             if (art.ProvisionalDirectionalProjection) SetRig();
             float breath = Mathf.Sin(idleElapsed * 2.4f) * .008f;
+            if(clip==null||clip.Idle==null||clip.Idle.Length==0)
+            {
+                float rate=Heavy?1.8f:3.1f;
+                breath=Mathf.Sin(idleElapsed*rate)*.018f;
+                visualRoot.localRotation=Quaternion.Euler(0,0,Mathf.Sin(idleElapsed*rate*.5f)*(Heavy?.6f:1.5f));
+                if(unit!=null&&unit.IsEnergyLocked)visualRoot.localPosition=Vector3.up*(.015f+Mathf.Abs(Mathf.Sin(idleElapsed*11))*.025f);
+            }
             float projection = DirectionProjection();
             visualRoot.localScale = new Vector3(baseScale * projection * (1 - breath * .4f), baseScale * (1 + breath), 1);
         }
@@ -282,7 +350,9 @@ namespace MonsterPouch.Gameplay.Presentation
                 torso.transform.localPosition = (Vector3)rig.BodyOffset + new Vector3(step * .008f, Mathf.Abs(step) * .012f, 0);
                 torso.transform.localRotation = Quaternion.Euler(0, 0, -step * 1.1f);
             }
-            visualRoot.localPosition = new Vector3(0, Mathf.Abs(step) * .018f, 0);
+            bool authoredRig=art.WalkRigs!=null&&art.WalkRigs.Length>(int)facing&&art.WalkRigs[(int)facing]?.Body!=null;
+            visualRoot.localPosition = new Vector3(authoredRig?0:step*.012f, Mathf.Abs(step) * (authoredRig?.018f:Heavy?.035f:.065f), 0);
+            if(!authoredRig)visualRoot.localRotation=Quaternion.Euler(0,0,step*(Heavy?2.5f:5f));
             visualRoot.localScale = new Vector3(baseScale * DirectionProjection(), baseScale, 1);
         }
 
@@ -336,7 +406,10 @@ namespace MonsterPouch.Gameplay.Presentation
                     rightFoot.transform.localRotation = Quaternion.Euler(0, 0, -release * 7);
                 }
                 visualRoot.localScale = new Vector3(baseScale * DirectionProjection() * (1 + release * .035f), baseScale * (1 - windup * (1 - extension) * .08f), 1);
-                visualRoot.localPosition = attackDirection * release * (rangedAttack ? .035f : .1f);
+                float anticipation=windup*(1-extension)*(hasContact?0:1);
+                visualRoot.localPosition = attackDirection * (release * (rangedAttack ? -.07f : Heavy?.19f:.14f)-anticipation*.05f);
+                visualRoot.localRotation=Quaternion.Euler(0,0,-attackDirection.x*(release*7-anticipation*4));
+                if(!rangedAttack)visualRoot.localScale=new Vector3(baseScale*DirectionProjection()*(1+impact*.13f),baseScale*(1-anticipation*.09f-impact*.06f),1);
             }
             if (hasContact && recovery >= 1) attacking = false;
         }
@@ -364,7 +437,26 @@ namespace MonsterPouch.Gameplay.Presentation
                 int frame = Mathf.Min(clip.Revive.Length - 1, Mathf.FloorToInt(progress * clip.Revive.Length));
                 ShowFrame(clip.Revive[frame], clip);
             }
+            else
+            {
+                visualRoot.localRotation=Quaternion.Euler(0,0,Mathf.Lerp(180,360,Mathf.SmoothStep(0,1,progress)));
+                visualRoot.localPosition=Vector3.up*Mathf.Sin(progress*Mathf.PI)*.18f;
+                visualRoot.localScale*=.75f+.25f*progress;
+            }
             // Health and return to idle are controlled solely by the simulation's Revived event.
+        }
+
+        private void AnimateSpecial(float dt)
+        {
+            specialElapsed+=dt;var clip=art.Animation(facing);
+            if(clip?.Special==null||clip.Special.Length==0){specialActive=false;return;}
+            int frame=Mathf.Min(clip.Special.Length-1,Mathf.FloorToInt(specialElapsed/specialDuration*clip.Special.Length));
+            ShowSpecialFrame(clip,frame);
+            if(specialElapsed>=specialDuration)specialActive=false;
+        }
+        private void ShowSpecialFrame(UnitDirectionalAnimation clip,int frame)
+        {
+            ShowFrame(clip.Special[frame],clip);body.flipX=clip.SpecialFlipX;
         }
 
         private void AnimateDeath(float dt)
@@ -444,7 +536,7 @@ namespace MonsterPouch.Gameplay.Presentation
         private void UpdateSorting()
         {
             if (body == null) return;
-            int order = 120 - Mathf.RoundToInt(transform.position.y * 4);
+            int order = 120 - Mathf.RoundToInt(transform.position.y * 4)+(flightMotion?80:0);
             body.sortingOrder = torso.sortingOrder = order + 2;
             leftFoot.sortingOrder = rightFoot.sortingOrder = order + 1;
             shadow.sortingOrder = 18;

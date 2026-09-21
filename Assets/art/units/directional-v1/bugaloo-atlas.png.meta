@@ -1,0 +1,3166 @@
+fileFormatVersion: 2
+guid: 955275b0773cf584ba7cfbea3204456c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7267323685705196983
+    second: bugaloo-atlas_0
+  - first:
+      213: 5791404198592497446
+    second: bugaloo-atlas_1
+  - first:
+      213: -6372900611545676485
+    second: bugaloo-atlas_2
+  - first:
+      213: -6476374476355401536
+    second: bugaloo-atlas_3
+  - first:
+      213: -8914258039085449089
+    second: bugaloo-atlas_4
+  - first:
+      213: 3003805167670317023
+    second: bugaloo-atlas_5
+  - first:
+      213: 8661336313734035575
+    second: bugaloo-atlas_6
+  - first:
+      213: -6564224601598820760
+    second: bugaloo-atlas_7
+  - first:
+      213: -1871659748675723914
+    second: bugaloo-atlas_8
+  - first:
+      213: -7326018379652181775
+    second: bugaloo-atlas_9
+  - first:
+      213: 3641514823094640260
+    second: bugaloo-atlas_10
+  - first:
+      213: 5895364774607404513
+    second: bugaloo-atlas_11
+  - first:
+      213: -6528284067843755335
+    second: bugaloo-atlas_12
+  - first:
+      213: 7323864347249707019
+    second: bugaloo-atlas_13
+  - first:
+      213: 2502429429848703430
+    second: bugaloo-atlas_14
+  - first:
+      213: -7023070531581003377
+    second: bugaloo-atlas_15
+  - first:
+      213: 7317423212438414130
+    second: bugaloo-atlas_16
+  - first:
+      213: -2661841418335958779
+    second: bugaloo-atlas_17
+  - first:
+      213: -1248683152080995915
+    second: bugaloo-atlas_18
+  - first:
+      213: 3322458853940834301
+    second: bugaloo-atlas_19
+  - first:
+      213: -4388616900940021253
+    second: bugaloo-atlas_20
+  - first:
+      213: -6872018663787199131
+    second: bugaloo-atlas_21
+  - first:
+      213: -28169502720166810
+    second: bugaloo-atlas_22
+  - first:
+      213: 6839535673715112909
+    second: bugaloo-atlas_23
+  - first:
+      213: 1920830843960062846
+    second: bugaloo-atlas_24
+  - first:
+      213: -444409627159145635
+    second: bugaloo-atlas_25
+  - first:
+      213: 10612849684256798
+    second: bugaloo-atlas_26
+  - first:
+      213: -1806368079632427899
+    second: bugaloo-atlas_27
+  - first:
+      213: -5484564474058622155
+    second: bugaloo-atlas_28
+  - first:
+      213: 2990140331279964588
+    second: bugaloo-atlas_29
+  - first:
+      213: 1364762576496947404
+    second: bugaloo-atlas_30
+  - first:
+      213: 3864320017667573321
+    second: bugaloo-atlas_31
+  - first:
+      213: 247644096350144131
+    second: bugaloo-atlas_32
+  - first:
+      213: 6461660561391530576
+    second: bugaloo-atlas_33
+  - first:
+      213: -5464173312308818605
+    second: bugaloo-atlas_34
+  - first:
+      213: 8171012860983699620
+    second: bugaloo-atlas_35
+  - first:
+      213: -2502332252992560715
+    second: bugaloo-atlas_36
+  - first:
+      213: -502585873389858675
+    second: bugaloo-atlas_37
+  - first:
+      213: 1767448961353736032
+    second: bugaloo-atlas_38
+  - first:
+      213: -4503955405632127624
+    second: bugaloo-atlas_39
+  - first:
+      213: -4552284617598320243
+    second: bugaloo-atlas_40
+  - first:
+      213: 3983309797719495395
+    second: bugaloo-atlas_41
+  - first:
+      213: -8832811504499895219
+    second: bugaloo-atlas_42
+  - first:
+      213: 4332516276384005182
+    second: bugaloo-atlas_43
+  - first:
+      213: -2871441684494104888
+    second: bugaloo-atlas_44
+  - first:
+      213: -1845342336116576232
+    second: bugaloo-atlas_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 107.746475
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bugaloo-atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1079
+        width: 1206
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5ad326368bad460800000000000000
+      internalID: 7267323685705196983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 950
+        width: 1064
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627cfc73f633f5050800000000000000
+      internalID: 5791404198592497446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_2
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 979
+        width: 139
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3543fba8a8ee87a0800000000000000
+      internalID: -6372900611545676485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 643
+        width: 966
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c80e602abb4f16a0800000000000000
+      internalID: -6476374476355401536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 825
+        width: 94
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7044201b813a4480800000000000000
+      internalID: -8914258039085449089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 811
+        width: 101
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfc87992e8afa920800000000000000
+      internalID: 3003805167670317023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_6
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 807
+        width: 99
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778fe44dc7f333870800000000000000
+      internalID: 8661336313734035575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 829
+        width: 101
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e72dbe08037e4a0800000000000000
+      internalID: -6564224601598820760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_8
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 805
+        width: 231
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d59c300678606e0800000000000000
+      internalID: -1871659748675723914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_9
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 801
+        width: 251
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f059de3911c45a90800000000000000
+      internalID: -7326018379652181775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_10
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 789
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e10e22072498230800000000000000
+      internalID: 3641514823094640260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_11
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 789
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed33db070b80d150800000000000000
+      internalID: 5895364774607404513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_12
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 807
+        width: 111
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2b4578a30e665a0800000000000000
+      internalID: -6528284067843755335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_13
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 671
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0887f002d793a560800000000000000
+      internalID: 7323864347249707019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_14
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 777
+        width: 147
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c18d99de4a6ab220800000000000000
+      internalID: 2502429429848703430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_15
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 671
+        width: 139
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89b994bf8a098e90800000000000000
+      internalID: -7023070531581003377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453
+        width: 1213
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233e69074a5bc8560800000000000000
+      internalID: 7317423212438414130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_17
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 640
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509c9a3455d3f0bd0800000000000000
+      internalID: -2661841418335958779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_18
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 646
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9723bf949cbaee0800000000000000
+      internalID: -1248683152080995915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_19
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 644
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffaef979bebb1e20800000000000000
+      internalID: 3322458853940834301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_20
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 527
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1c1343e208813c0800000000000000
+      internalID: -4388616900940021253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 351
+        width: 102
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5650c1f4f6fa1a0a0800000000000000
+      internalID: -6872018663787199131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 345
+        width: 109
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6647ddc8cfbeb9ff0800000000000000
+      internalID: -28169502720166810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_23
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 337
+        width: 104
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbb6643579eaee50800000000000000
+      internalID: 6839535673715112909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_24
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 351
+        width: 105
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e737adfb97928aa10800000000000000
+      internalID: 1920830843960062846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_25
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 351
+        width: 104
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d535a667cc325d9f0800000000000000
+      internalID: -444409627159145635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_26
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 351
+        width: 112
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e181c7f9454b52000800000000000000
+      internalID: 10612849684256798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_27
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 333
+        width: 364
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58497e75dcd7ee6e0800000000000000
+      internalID: -1806368079632427899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_28
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 463
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b32085ba9e2e3b0800000000000000
+      internalID: -5484564474058622155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_29
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 451
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9d282f9cc1f7920800000000000000
+      internalID: 2990140331279964588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_30
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 350
+        width: 138
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0f8de155c90f210800000000000000
+      internalID: 1364762576496947404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_31
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 206
+        width: 99
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946c18ff492d0a530800000000000000
+      internalID: 3864320017667573321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 328
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3864ca95efecf6300800000000000000
+      internalID: 247644096350144131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_33
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 309
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052b4e49b0e6ca950800000000000000
+      internalID: 6461660561391530576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_34
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 190
+        width: 507
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dc9a8a25b5b24b0800000000000000
+      internalID: -5464173312308818605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_35
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 329
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8e41ab7e4456170800000000000000
+      internalID: 8171012860983699620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 204
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b12066e21ee54dd0800000000000000
+      internalID: -2502332252992560715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_37
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 196
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80d77b9fc47609f0800000000000000
+      internalID: -502585873389858675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_38
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 205
+        width: 89
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f5f1c477d378810800000000000000
+      internalID: 1767448961353736032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_39
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 206
+        width: 123
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87db81beb6cbe71c0800000000000000
+      internalID: -4503955405632127624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_40
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 305
+        width: 58
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81c393624903d0c0800000000000000
+      internalID: -4552284617598320243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_41
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 204
+        width: 137
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e25763182f874730800000000000000
+      internalID: 3983309797719495395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1209
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44dc422cbc8b6580800000000000000
+      internalID: -8832811504499895219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_43
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 184
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c77754990302c30800000000000000
+      internalID: 4332516276384005182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_44
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 34
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6ca7260079628d0800000000000000
+      internalID: -2871441684494104888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-atlas_45
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 12
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81038ce1ce60466e0800000000000000
+      internalID: -1845342336116576232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1134
+        width: 106
+        height: 105
+      alignment: 9
+      pivot: {x: 0.504717, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62b4c697fd9c9f49a10bbde6806d741
+      internalID: -1112062065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1134
+        width: 108
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a0bc8a796a38546819a12bf0d633ba
+      internalID: 1784772002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1134
+        width: 99
+        height: 105
+      alignment: 9
+      pivot: {x: 0.53535354, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363de8225d795d145947dc6a927dec1e
+      internalID: 826272026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1133
+        width: 105
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4904762, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffde736e02cdf0448c7af7dd460a25d
+      internalID: -749556876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1133
+        width: 96
+        height: 105
+      alignment: 9
+      pivot: {x: 0.44270834, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc5e5736dea00443804d8bf302315a8
+      internalID: 721102923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1133
+        width: 115
+        height: 104
+      alignment: 9
+      pivot: {x: 0.39565217, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50984d90b8bbf7744a05841556dd7e72
+      internalID: -1215362485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1133
+        width: 134
+        height: 106
+      alignment: 9
+      pivot: {x: 0.41044775, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c91a35eee76cf64a973ab25faa18b01
+      internalID: 1767899017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1133
+        width: 122
+        height: 115
+      alignment: 9
+      pivot: {x: 0.38114753, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630c5a519d8ba564591c43ff2eecd3b0
+      internalID: -256097100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1134
+        width: 106
+        height: 94
+      alignment: 9
+      pivot: {x: 0.4481132, y: 0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4dfb74be6019343946cc1f6ae51ac5
+      internalID: 251848713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1135
+        width: 134
+        height: 66
+      alignment: 9
+      pivot: {x: 0.49253732, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50223f0bc124694f8a6b4af094c8db8
+      internalID: 834957023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 985
+        width: 105
+        height: 108
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b616cadebfe8043acc559cb3b816b2
+      internalID: -1910190277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 984
+        width: 109
+        height: 109
+      alignment: 9
+      pivot: {x: 0.51376146, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889d3a019b38cb94e879a26208e76651
+      internalID: 2087749111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 985
+        width: 94
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5053192, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f4ff2d5e2d06f4ab2d3caf8aee9f09
+      internalID: -1020032325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 984
+        width: 107
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5046729, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b927a96e641b54b93aeaf2297b7746
+      internalID: 1537241858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 985
+        width: 98
+        height: 104
+      alignment: 9
+      pivot: {x: 0.39795917, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34333428f3f26fc4091d441c1746186c
+      internalID: 1812854585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 985
+        width: 110
+        height: 107
+      alignment: 9
+      pivot: {x: 0.38636363, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c250a4fde1d0d4240a57e13331a00208
+      internalID: -802261183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 985
+        width: 109
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49082568, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8b47d21ddc8e24dae1c49bba2e670d
+      internalID: -1996136697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 984
+        width: 137
+        height: 113
+      alignment: 9
+      pivot: {x: 0.46350366, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51448045f736ed844bec6b6c8c8b1391
+      internalID: 1303887346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 987
+        width: 102
+        height: 93
+      alignment: 9
+      pivot: {x: 0.46078432, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35127c83458f71546a93997c478ccb1e
+      internalID: 1354279385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 991
+        width: 132
+        height: 67
+      alignment: 9
+      pivot: {x: 0.49621212, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbcce725f084414590de334601e96d2
+      internalID: -1803398997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 80
+        height: 107
+      alignment: 9
+      pivot: {x: 0.50625, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c281e74281066bb44a4a61b54b70cb6d
+      internalID: -1274441980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 833
+        width: 80
+        height: 107
+      alignment: 9
+      pivot: {x: 0.55, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26a958dc0412094c97c2563f0450faf
+      internalID: 1890053136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 833
+        width: 77
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5194805, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7456cc1ddf0c5b4daa10a9911a43254
+      internalID: 3003553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 834
+        width: 77
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53896105, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548fb91cb4752ce4aab52bd50b67e7bc
+      internalID: -19374856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 832
+        width: 84
+        height: 107
+      alignment: 9
+      pivot: {x: 0.44047618, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a288c296d897f7429fc58307e90c76b
+      internalID: -2147396721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 831
+        width: 106
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3726415, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08890cb628bbb3146b4926c65868fad4
+      internalID: -292529095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 832
+        width: 88
+        height: 109
+      alignment: 9
+      pivot: {x: 0.53409094, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f3e2068d4f5cf40a87d539cf2c8333
+      internalID: 807135962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 833
+        width: 128
+        height: 108
+      alignment: 9
+      pivot: {x: 0.51953125, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4361f677bcc9540880a04723a98d63
+      internalID: -886954753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 833
+        width: 82
+        height: 96
+      alignment: 9
+      pivot: {x: 0.55487806, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268fa1acc6cc71d4985f0caa46783fcd
+      internalID: 1247802063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 836
+        width: 131
+        height: 63
+      alignment: 9
+      pivot: {x: 0.519084, y: 0.04761905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512f6147c0365b24fbd6414b1546b4bc
+      internalID: 604639327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 678
+        width: 104
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5048077, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a69a7d15bf1e3d4bbaa5dfedbd51035
+      internalID: 2146333922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 678
+        width: 106
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8b553201818754198f1a17bd34163d
+      internalID: 236783034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 676
+        width: 94
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49468085, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2013ec0ea11e248846ecab888683d1
+      internalID: 1830851939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 676
+        width: 108
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ff0617038d6a446b1f7c7f83cf6253
+      internalID: 1317486766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 676
+        width: 107
+        height: 106
+      alignment: 9
+      pivot: {x: 0.48598132, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06827899e174f1b4eadf7d844485bb31
+      internalID: -971663124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 678
+        width: 106
+        height: 105
+      alignment: 9
+      pivot: {x: 0.4245283, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c539ffce6904f204a8e611da988a6d8e
+      internalID: -1755744623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 678
+        width: 112
+        height: 107
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ca51f9fd0c522438691345e888a5fc
+      internalID: -1913185378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 677
+        width: 134
+        height: 113
+      alignment: 9
+      pivot: {x: 0.46268657, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2556e4352694800409693e4c41c3113b
+      internalID: 1277312204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 679
+        width: 89
+        height: 95
+      alignment: 9
+      pivot: {x: 0.43258426, y: 0.031578947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd33e7f7527e0b4f8ea9106e90a5db2
+      internalID: -729039139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 679
+        width: 129
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467c12d8eab63df49b29c7d61f19e86f
+      internalID: 1955108926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 524
+        width: 101
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5148515, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf18749eee697d49ba1377dc6451fc8
+      internalID: -1819945902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 524
+        width: 105
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d7cf20147783642b42be4cd0eeb75c
+      internalID: -1811769653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 520
+        width: 93
+        height: 107
+      alignment: 9
+      pivot: {x: 0.4784946, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e0446652a18b245b3f5e0af9d9f3c3
+      internalID: -1834821091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 522
+        width: 103
+        height: 108
+      alignment: 9
+      pivot: {x: 0.50970876, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb5effc89cb19e43b44141083cc3925
+      internalID: 1300537514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 520
+        width: 102
+        height: 107
+      alignment: 9
+      pivot: {x: 0.49509802, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4ae34a67b97544aa5377c7097c4d6c
+      internalID: -263012610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 522
+        width: 113
+        height: 106
+      alignment: 9
+      pivot: {x: 0.46460176, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95ae124daca028499b5a2a56f9107cf
+      internalID: 967011732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 520
+        width: 116
+        height: 107
+      alignment: 9
+      pivot: {x: 0.50431037, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ddd02fb32c78a4ea2d9a03d83dc8cb
+      internalID: 1003898539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 521
+        width: 127
+        height: 108
+      alignment: 9
+      pivot: {x: 0.503937, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2bce834d798214e9aa8456398077db
+      internalID: -1764038689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 520
+        width: 99
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5050505, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8bac95b860b554684dd0a562dafd07
+      internalID: -490188801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 524
+        width: 136
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc15dbed7078fca449ebb3dfe9295a3e
+      internalID: 2143875601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 361
+        width: 79
+        height: 107
+      alignment: 9
+      pivot: {x: 0.49367088, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f94a50d575fa84fa8bbb01db649982
+      internalID: 74251266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 361
+        width: 79
+        height: 109
+      alignment: 9
+      pivot: {x: 0.48734176, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f7c7fccf8671c43b3fc943b0cd3245
+      internalID: 339044808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 362
+        width: 78
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5448718, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52458fdf0e2e0aa4e8526bc8946438fa
+      internalID: 471103342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 360
+        width: 85
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90006c9cf50bf9d48a3d52bca1b372b8
+      internalID: 792845720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 360
+        width: 83
+        height: 106
+      alignment: 9
+      pivot: {x: 0.44578314, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c7eafa1b3f09142887b5e4d21e2b85
+      internalID: 1098483614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 360
+        width: 99
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4040404, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148d17d8cac055b4d8990e4a33574d44
+      internalID: -1266386093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 359
+        width: 89
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a212259a692fa449c2a307ff8a1bbd
+      internalID: 1599623885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 359
+        width: 129
+        height: 111
+      alignment: 9
+      pivot: {x: 0.46899223, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a981f957f04ac7e499bab1a7cdd4bd91
+      internalID: -1941561988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 361
+        width: 84
+        height: 99
+      alignment: 9
+      pivot: {x: 0.4940476, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70561ef13f99a43499a3cb650c660136
+      internalID: -403682275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 363
+        width: 128
+        height: 64
+      alignment: 9
+      pivot: {x: 0.50390625, y: 0.046875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ea1acc2c4363f47834af49a393a46f
+      internalID: -1413144864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 209
+        width: 78
+        height: 109
+      alignment: 9
+      pivot: {x: 0.47435898, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a44ca4d2cc857498258ce57bccd7ee
+      internalID: -378156885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 209
+        width: 76
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4868421, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df598617f3b07a64dac1adb3ea3eaefa
+      internalID: -133616503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 209
+        width: 75
+        height: 111
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfc2d6063995f24ba154e7adbca59df
+      internalID: -482579034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 210
+        width: 76
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5197368, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d471cf54769c24ebc20c5fb8c72b3f
+      internalID: 234848147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 210
+        width: 81
+        height: 107
+      alignment: 9
+      pivot: {x: 0.4691358, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c0d58e38350ed409279fa7d84ce65f
+      internalID: 1625110006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 209
+        width: 105
+        height: 105
+      alignment: 9
+      pivot: {x: 0.4, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dbef74b4b833f4b969bae7dd94a565
+      internalID: 2097142313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 209
+        width: 91
+        height: 110
+      alignment: 9
+      pivot: {x: 0.54395604, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae620034d0e4e24490f4c2888fbcbcb
+      internalID: -1913966574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 209
+        width: 132
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5265151, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b6050a562c10c45b0827a82a208127
+      internalID: 784643225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 209
+        width: 82
+        height: 96
+      alignment: 9
+      pivot: {x: 0.55487806, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a6612f1e4e8f14787f89279b5910e6
+      internalID: 151001890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 209
+        width: 128
+        height: 66
+      alignment: 9
+      pivot: {x: 0.49609375, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec24b48855109cb449c0ccdd171d45ed
+      internalID: -1206054842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 62
+        width: 106
+        height: 105
+      alignment: 9
+      pivot: {x: 0.504717, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4a428439d3b8541b987b98b5672455
+      internalID: -1943522109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 59
+        width: 103
+        height: 108
+      alignment: 9
+      pivot: {x: 0.51941746, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc8ef37cd3122d4096eb064f8679595
+      internalID: 1607954596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 58
+        width: 99
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5252525, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf035ea5e988124aaae5d4f18c8767b
+      internalID: 930655090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 57
+        width: 105
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4904762, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e3168474c51534f8a9a3489d49c210
+      internalID: -994957931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 59
+        width: 98
+        height: 105
+      alignment: 9
+      pivot: {x: 0.46938777, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846166f374b38de4ba973f895baf0925
+      internalID: 989281245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 59
+        width: 115
+        height: 103
+      alignment: 9
+      pivot: {x: 0.46086955, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd25d783da3a42429fef1da78ad5d5c
+      internalID: -1453008877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 57
+        width: 104
+        height: 106
+      alignment: 9
+      pivot: {x: 0.49519232, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e6376e0589b994b8d6b9dc2e4cbd9a
+      internalID: 428541657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 57
+        width: 143
+        height: 112
+      alignment: 9
+      pivot: {x: 0.47202796, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c884da1fe1c8240bf0432c725afb01
+      internalID: -453466803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 59
+        width: 105
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5095238, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc8bec283a17804ea3bb54ccbbd557c
+      internalID: -193998254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo-directional-v1-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 64
+        width: 134
+        height: 62
+      alignment: 9
+      pivot: {x: 0.48507464, y: 0.048387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bbc1c204fad1e4da0e9f8a1cffc5ad
+      internalID: -378215797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fb685c6a2408def41987e21a38aa7e14
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bugaloo-atlas_0: 7267323685705196983
+      bugaloo-atlas_1: 5791404198592497446
+      bugaloo-atlas_10: 3641514823094640260
+      bugaloo-atlas_11: 5895364774607404513
+      bugaloo-atlas_12: -6528284067843755335
+      bugaloo-atlas_13: 7323864347249707019
+      bugaloo-atlas_14: 2502429429848703430
+      bugaloo-atlas_15: -7023070531581003377
+      bugaloo-atlas_16: 7317423212438414130
+      bugaloo-atlas_17: -2661841418335958779
+      bugaloo-atlas_18: -1248683152080995915
+      bugaloo-atlas_19: 3322458853940834301
+      bugaloo-atlas_2: -6372900611545676485
+      bugaloo-atlas_20: -4388616900940021253
+      bugaloo-atlas_21: -6872018663787199131
+      bugaloo-atlas_22: -28169502720166810
+      bugaloo-atlas_23: 6839535673715112909
+      bugaloo-atlas_24: 1920830843960062846
+      bugaloo-atlas_25: -444409627159145635
+      bugaloo-atlas_26: 10612849684256798
+      bugaloo-atlas_27: -1806368079632427899
+      bugaloo-atlas_28: -5484564474058622155
+      bugaloo-atlas_29: 2990140331279964588
+      bugaloo-atlas_3: -6476374476355401536
+      bugaloo-atlas_30: 1364762576496947404
+      bugaloo-atlas_31: 3864320017667573321
+      bugaloo-atlas_32: 247644096350144131
+      bugaloo-atlas_33: 6461660561391530576
+      bugaloo-atlas_34: -5464173312308818605
+      bugaloo-atlas_35: 8171012860983699620
+      bugaloo-atlas_36: -2502332252992560715
+      bugaloo-atlas_37: -502585873389858675
+      bugaloo-atlas_38: 1767448961353736032
+      bugaloo-atlas_39: -4503955405632127624
+      bugaloo-atlas_4: -8914258039085449089
+      bugaloo-atlas_40: -4552284617598320243
+      bugaloo-atlas_41: 3983309797719495395
+      bugaloo-atlas_42: -8832811504499895219
+      bugaloo-atlas_43: 4332516276384005182
+      bugaloo-atlas_44: -2871441684494104888
+      bugaloo-atlas_45: -1845342336116576232
+      bugaloo-atlas_5: 3003805167670317023
+      bugaloo-atlas_6: 8661336313734035575
+      bugaloo-atlas_7: -6564224601598820760
+      bugaloo-atlas_8: -1871659748675723914
+      bugaloo-atlas_9: -7326018379652181775
+      bugaloo-directional-v1-r00-f00: -1112062065
+      bugaloo-directional-v1-r00-f01: 1784772002
+      bugaloo-directional-v1-r00-f02: 826272026
+      bugaloo-directional-v1-r00-f03: -749556876
+      bugaloo-directional-v1-r00-f04: 721102923
+      bugaloo-directional-v1-r00-f05: -1215362485
+      bugaloo-directional-v1-r00-f06: 1767899017
+      bugaloo-directional-v1-r00-f07: -256097100
+      bugaloo-directional-v1-r00-f08: 251848713
+      bugaloo-directional-v1-r00-f09: 834957023
+      bugaloo-directional-v1-r01-f00: -1910190277
+      bugaloo-directional-v1-r01-f01: 2087749111
+      bugaloo-directional-v1-r01-f02: -1020032325
+      bugaloo-directional-v1-r01-f03: 1537241858
+      bugaloo-directional-v1-r01-f04: 1812854585
+      bugaloo-directional-v1-r01-f05: -802261183
+      bugaloo-directional-v1-r01-f06: -1996136697
+      bugaloo-directional-v1-r01-f07: 1303887346
+      bugaloo-directional-v1-r01-f08: 1354279385
+      bugaloo-directional-v1-r01-f09: -1803398997
+      bugaloo-directional-v1-r02-f00: -1274441980
+      bugaloo-directional-v1-r02-f01: 1890053136
+      bugaloo-directional-v1-r02-f02: 3003553
+      bugaloo-directional-v1-r02-f03: -19374856
+      bugaloo-directional-v1-r02-f04: -2147396721
+      bugaloo-directional-v1-r02-f05: -292529095
+      bugaloo-directional-v1-r02-f06: 807135962
+      bugaloo-directional-v1-r02-f07: -886954753
+      bugaloo-directional-v1-r02-f08: 1247802063
+      bugaloo-directional-v1-r02-f09: 604639327
+      bugaloo-directional-v1-r03-f00: 2146333922
+      bugaloo-directional-v1-r03-f01: 236783034
+      bugaloo-directional-v1-r03-f02: 1830851939
+      bugaloo-directional-v1-r03-f03: 1317486766
+      bugaloo-directional-v1-r03-f04: -971663124
+      bugaloo-directional-v1-r03-f05: -1755744623
+      bugaloo-directional-v1-r03-f06: -1913185378
+      bugaloo-directional-v1-r03-f07: 1277312204
+      bugaloo-directional-v1-r03-f08: -729039139
+      bugaloo-directional-v1-r03-f09: 1955108926
+      bugaloo-directional-v1-r04-f00: -1819945902
+      bugaloo-directional-v1-r04-f01: -1811769653
+      bugaloo-directional-v1-r04-f02: -1834821091
+      bugaloo-directional-v1-r04-f03: 1300537514
+      bugaloo-directional-v1-r04-f04: -263012610
+      bugaloo-directional-v1-r04-f05: 967011732
+      bugaloo-directional-v1-r04-f06: 1003898539
+      bugaloo-directional-v1-r04-f07: -1764038689
+      bugaloo-directional-v1-r04-f08: -490188801
+      bugaloo-directional-v1-r04-f09: 2143875601
+      bugaloo-directional-v1-r05-f00: 74251266
+      bugaloo-directional-v1-r05-f01: 339044808
+      bugaloo-directional-v1-r05-f02: 471103342
+      bugaloo-directional-v1-r05-f03: 792845720
+      bugaloo-directional-v1-r05-f04: 1098483614
+      bugaloo-directional-v1-r05-f05: -1266386093
+      bugaloo-directional-v1-r05-f06: 1599623885
+      bugaloo-directional-v1-r05-f07: -1941561988
+      bugaloo-directional-v1-r05-f08: -403682275
+      bugaloo-directional-v1-r05-f09: -1413144864
+      bugaloo-directional-v1-r06-f00: -378156885
+      bugaloo-directional-v1-r06-f01: -133616503
+      bugaloo-directional-v1-r06-f02: -482579034
+      bugaloo-directional-v1-r06-f03: 234848147
+      bugaloo-directional-v1-r06-f04: 1625110006
+      bugaloo-directional-v1-r06-f05: 2097142313
+      bugaloo-directional-v1-r06-f06: -1913966574
+      bugaloo-directional-v1-r06-f07: 784643225
+      bugaloo-directional-v1-r06-f08: 151001890
+      bugaloo-directional-v1-r06-f09: -1206054842
+      bugaloo-directional-v1-r07-f00: -1943522109
+      bugaloo-directional-v1-r07-f01: 1607954596
+      bugaloo-directional-v1-r07-f02: 930655090
+      bugaloo-directional-v1-r07-f03: -994957931
+      bugaloo-directional-v1-r07-f04: 989281245
+      bugaloo-directional-v1-r07-f05: -1453008877
+      bugaloo-directional-v1-r07-f06: 428541657
+      bugaloo-directional-v1-r07-f07: -453466803
+      bugaloo-directional-v1-r07-f08: -193998254
+      bugaloo-directional-v1-r07-f09: -378215797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

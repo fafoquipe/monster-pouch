@@ -1,0 +1,3246 @@
+fileFormatVersion: 2
+guid: da80169dae5a9ef469532e57ff19c570
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5541156785890848106
+    second: sepora-atlas_0
+  - first:
+      213: -3767483149956710154
+    second: sepora-atlas_1
+  - first:
+      213: -7214188505433302572
+    second: sepora-atlas_2
+  - first:
+      213: 4441081096059403506
+    second: sepora-atlas_3
+  - first:
+      213: 3062726320238192462
+    second: sepora-atlas_4
+  - first:
+      213: 363597744528022993
+    second: sepora-atlas_5
+  - first:
+      213: 727662039555042787
+    second: sepora-atlas_6
+  - first:
+      213: -4404705165782697937
+    second: sepora-atlas_7
+  - first:
+      213: 5870790586063553855
+    second: sepora-atlas_8
+  - first:
+      213: 2779479572595058761
+    second: sepora-atlas_9
+  - first:
+      213: 7581710164507529461
+    second: sepora-atlas_10
+  - first:
+      213: 3958366533939458162
+    second: sepora-atlas_11
+  - first:
+      213: -7324420753296167834
+    second: sepora-atlas_12
+  - first:
+      213: 5046935494730217239
+    second: sepora-atlas_13
+  - first:
+      213: -111747406504909092
+    second: sepora-atlas_14
+  - first:
+      213: 2278882290627447103
+    second: sepora-atlas_15
+  - first:
+      213: -5138245195137852667
+    second: sepora-atlas_16
+  - first:
+      213: 1257310461467767449
+    second: sepora-atlas_17
+  - first:
+      213: -5539958326606686361
+    second: sepora-atlas_18
+  - first:
+      213: -7512749564072573889
+    second: sepora-atlas_19
+  - first:
+      213: 5809719334114489667
+    second: sepora-atlas_20
+  - first:
+      213: -3702002671985340263
+    second: sepora-atlas_21
+  - first:
+      213: -494153161127499172
+    second: sepora-atlas_22
+  - first:
+      213: 3246878615599459594
+    second: sepora-atlas_23
+  - first:
+      213: 6745372219675085335
+    second: sepora-atlas_24
+  - first:
+      213: -392403581051905966
+    second: sepora-atlas_25
+  - first:
+      213: 1056889146764284078
+    second: sepora-atlas_26
+  - first:
+      213: -243428084274261761
+    second: sepora-atlas_27
+  - first:
+      213: -4418706249808695815
+    second: sepora-atlas_28
+  - first:
+      213: -2104384975884548999
+    second: sepora-atlas_29
+  - first:
+      213: 583196060405332469
+    second: sepora-atlas_30
+  - first:
+      213: 8844839908435533083
+    second: sepora-atlas_31
+  - first:
+      213: 1721163965342376138
+    second: sepora-atlas_32
+  - first:
+      213: 138911720953139425
+    second: sepora-atlas_33
+  - first:
+      213: -1180391047684767760
+    second: sepora-atlas_34
+  - first:
+      213: 82436619126707144
+    second: sepora-atlas_35
+  - first:
+      213: -5699714187994470015
+    second: sepora-atlas_36
+  - first:
+      213: 5683345770682815564
+    second: sepora-atlas_37
+  - first:
+      213: -1548732944250615818
+    second: sepora-atlas_38
+  - first:
+      213: 3975454851657209723
+    second: sepora-atlas_39
+  - first:
+      213: -639138664254539980
+    second: sepora-atlas_40
+  - first:
+      213: -2980182557488216920
+    second: sepora-atlas_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 9.18614
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sepora-atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 965
+        width: 1402
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6de4cb0db426ec40800000000000000
+      internalID: 5541156785890848106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 504
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f08f8d390637bbc0800000000000000
+      internalID: -3767483149956710154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 963
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d911f6d6cd02eb90800000000000000
+      internalID: -7214188505433302572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 969
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcb25d1ab3e1ad30800000000000000
+      internalID: 4441081096059403506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_4
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 963
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47690a7c5df08a20800000000000000
+      internalID: 3062726320238192462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 845
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddd9b3e832cb0500800000000000000
+      internalID: 363597744528022993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_6
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 845
+        width: 501
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ede63805cc291a00800000000000000
+      internalID: 727662039555042787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 506
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28b1352df75fd2c0800000000000000
+      internalID: -4404705165782697937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 716
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f358609eeec397150800000000000000
+      internalID: 5870790586063553855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_9
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 562
+        width: 776
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948abf8e1f1b29620800000000000000
+      internalID: 2779479572595058761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_10
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 844
+        width: 138
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f090799935a73960800000000000000
+      internalID: 7581710164507529461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_11
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 822
+        width: 133
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270714ae361fee630800000000000000
+      internalID: 3958366533939458162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_12
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 716
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c684e912e6a5a90800000000000000
+      internalID: -7324420753296167834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 642
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71774b7b7115a0640800000000000000
+      internalID: 5046935494730217239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_14
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 589
+        width: 116
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd624ba635ef27ef0800000000000000
+      internalID: -111747406504909092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 1277
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3907c98e5730af10800000000000000
+      internalID: 2278882290627447103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_16
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 562
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b53f6f73941b8b0800000000000000
+      internalID: -5138245195137852667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_17
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 445
+        width: 135
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9923b24043dd27110800000000000000
+      internalID: 1257310461467767449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 116
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7671420014d1e13b0800000000000000
+      internalID: -5539958326606686361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_19
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 315
+        width: 105
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34cbf2631a5db790800000000000000
+      internalID: -7512749564072573889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_20
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 317
+        width: 116
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345fc9204f440a050800000000000000
+      internalID: 5809719334114489667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_21
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 299
+        width: 129
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99054c21f28df9cc0800000000000000
+      internalID: -3702002671985340263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_22
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 315
+        width: 116
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5aeb5e615a6429f0800000000000000
+      internalID: -494153161127499172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_23
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 315
+        width: 112
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d2e9fe5ea3f0d20800000000000000
+      internalID: 3246878615599459594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 317
+        width: 121
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a85879b406c9d50800000000000000
+      internalID: 6745372219675085335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_25
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 315
+        width: 253
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2585fc6a507ed8af0800000000000000
+      internalID: -392403581051905966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_26
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 318
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0d9df4413daae00800000000000000
+      internalID: 1056889146764284078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_27
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 277
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff09a74727b2f9cf0800000000000000
+      internalID: -243428084274261761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 118
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdaa5db31a9da2c0800000000000000
+      internalID: -4418706249808695815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 301
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9748bb19309bbc2e0800000000000000
+      internalID: -2104384975884548999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_30
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 171
+        width: 106
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9fdde1abde71800800000000000000
+      internalID: 583196060405332469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_31
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 169
+        width: 121
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d9f75e80f2fba70800000000000000
+      internalID: 8844839908435533083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_32
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 171
+        width: 118
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac06f62e18dc2e710800000000000000
+      internalID: 1721163965342376138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_33
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 169
+        width: 386
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0dc8669738de100800000000000000
+      internalID: 138911720953139425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_34
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 170
+        width: 103
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffb2ba98986e9fe0800000000000000
+      internalID: -1180391047684767760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_35
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 173
+        width: 91
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c318871bafd42100800000000000000
+      internalID: 82436619126707144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_36
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 172
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189e557f42c86e0b0800000000000000
+      internalID: -5699714187994470015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_37
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 231
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c449445eddc4fde40800000000000000
+      internalID: 5683345770682815564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_38
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 169
+        width: 135
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f74ffdb79bc18ae0800000000000000
+      internalID: -1548732944250615818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1402
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7791adef17ab2730800000000000000
+      internalID: 3975454851657209723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_40
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 158
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437f3ea65c25127f0800000000000000
+      internalID: -639138664254539980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-atlas_41
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 167
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4891fe0c344a6d0800000000000000
+      internalID: -2980182557488216920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 991
+        width: 118
+        height: 93
+      alignment: 9
+      pivot: {x: 0.4957627, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b946acee2c77b49b956ca8c430c081
+      internalID: 1382370061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 991
+        width: 118
+        height: 94
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dab7f73713752d4b9f4ff8444a79018
+      internalID: -894846190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 991
+        width: 114
+        height: 90
+      alignment: 9
+      pivot: {x: 0.50877196, y: 0.033333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fab6fca008e1046b81b846cc9052dd
+      internalID: -1482015924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 991
+        width: 116
+        height: 93
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea3be30199951e40bb4239b74f07c0d
+      internalID: -101792134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 991
+        width: 112
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5320951c28fe76e41836601baada8e62
+      internalID: -1895769932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 990
+        width: 116
+        height: 91
+      alignment: 9
+      pivot: {x: 0.46120688, y: 0.032967035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296ec5caa281fa4409d89a242e61a3e5
+      internalID: 1929266802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 991
+        width: 115
+        height: 93
+      alignment: 9
+      pivot: {x: 0.49130434, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b71ff3f97031754083274e98c2e2913
+      internalID: -1085513642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 991
+        width: 129
+        height: 96
+      alignment: 9
+      pivot: {x: 0.47674417, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6764519dd39167441b9795dbb8fe1ddc
+      internalID: -954319275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 991
+        width: 112
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4955357, y: 0.033333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571023cf02e96504986bdb0cd17efafc
+      internalID: -974269159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 991
+        width: 110
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de73def67bc8894595882d14c0948c9
+      internalID: -149658440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 990
+        width: 121
+        height: 58
+      alignment: 9
+      pivot: {x: 0.56198347, y: 0.05172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fc66074e727424ea0cbfc4b54bd4e8
+      internalID: 1062987506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 858
+        width: 108
+        height: 96
+      alignment: 9
+      pivot: {x: 0.49537036, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5808a3b5d90e94a48ba48083d3b1ef3e
+      internalID: -1709422151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 858
+        width: 110
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46758116c81ed9e4985b70438840fd35
+      internalID: 847890037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 858
+        width: 107
+        height: 94
+      alignment: 9
+      pivot: {x: 0.42056075, y: 0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b61d4140e4e1c94e8615946fbde94f1
+      internalID: -1035820403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 857
+        width: 107
+        height: 97
+      alignment: 9
+      pivot: {x: 0.47663552, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb0e874c4e254d49b5765de18734af8
+      internalID: -1542688770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 857
+        width: 108
+        height: 97
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94870e14697438f4a878502ec6c50647
+      internalID: -644074491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 858
+        width: 119
+        height: 92
+      alignment: 9
+      pivot: {x: 0.38235295, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdcc811be9cf0e4a98b918323d9d915
+      internalID: -376599111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 858
+        width: 109
+        height: 96
+      alignment: 9
+      pivot: {x: 0.47247708, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78452778b12586d48b03e9acb1d15555
+      internalID: -1891472509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 858
+        width: 132
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5189394, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9b88b9180ef89499de6f7877981b67
+      internalID: 781478852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 858
+        width: 104
+        height: 99
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32857ea446ed4b145ab8b06ed4fd2aea
+      internalID: 962836535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 858
+        width: 104
+        height: 96
+      alignment: 9
+      pivot: {x: 0.46634614, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a985e55f37490d642ac4bb8488826844
+      internalID: 1249997515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 858
+        width: 119
+        height: 68
+      alignment: 9
+      pivot: {x: 0.57983196, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09242d94687348447a35b977f934b066
+      internalID: -115497414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 721
+        width: 85
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5647059, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141ea187285b1b74993756118f794539
+      internalID: -1002465622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 722
+        width: 84
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5535714, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6101eca80ca9db6448f1b3e043504564
+      internalID: -661169426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 722
+        width: 82
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09568cf4a3cf5334c837e596e05bc94e
+      internalID: 1967009048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 721
+        width: 83
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c264e9180da4a5745bd31b91dc77ad32
+      internalID: 1950605048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 722
+        width: 84
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5297619, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfe6fbbab60af548b282ce5626ba0d9
+      internalID: 172423510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 721
+        width: 103
+        height: 105
+      alignment: 9
+      pivot: {x: 0.33495146, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2892345753d37294490598543d20970e
+      internalID: 1339199448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 722
+        width: 103
+        height: 105
+      alignment: 9
+      pivot: {x: 0.36893204, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68116dc182c3d644d8a71344838254b7
+      internalID: -593951617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 722
+        width: 118
+        height: 106
+      alignment: 9
+      pivot: {x: 0.41101694, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5304c7960c3cd33478a5a6f8bbdd2d1e
+      internalID: -1354376119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 721
+        width: 110
+        height: 106
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e413443453cb24690a9f8b45b4e380
+      internalID: 167005725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 722
+        width: 78
+        height: 104
+      alignment: 9
+      pivot: {x: 0.41025642, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce7a3b2f788bcf4bab43a6daba3e669
+      internalID: 1726906021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 722
+        width: 117
+        height: 67
+      alignment: 9
+      pivot: {x: 0.45726496, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b60cbf607cee648a177492827034f4
+      internalID: -292379853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 592
+        width: 107
+        height: 103
+      alignment: 9
+      pivot: {x: 0.50934577, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec4a36dfb9dc594fb928f29b745732f
+      internalID: 1888147971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 592
+        width: 108
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5138889, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b000b7b4ef00c1f4c80254111ce740c9
+      internalID: -2089358532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 592
+        width: 105
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5190476, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a397b222973d67f4bbb343f7fc53caf2
+      internalID: -1122854293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 592
+        width: 106
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5188679, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a43a678ec97c44ba0cb924f80058b0
+      internalID: -1954541201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 592
+        width: 107
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5140187, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae9d3d876e73b34d91e4d81f1976bb3
+      internalID: 772893649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 592
+        width: 112
+        height: 100
+      alignment: 9
+      pivot: {x: 0.42410713, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c488ca0c6bbba4a889c95dbf7a0236
+      internalID: 313857232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 592
+        width: 106
+        height: 101
+      alignment: 9
+      pivot: {x: 0.49056605, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4b7b093a1bbac418444eaa6673792c
+      internalID: 71575411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 592
+        width: 126
+        height: 105
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739a55bff6232574bb1ca66305648916
+      internalID: 1089078387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 592
+        width: 108
+        height: 99
+      alignment: 9
+      pivot: {x: 0.47685185, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a76a8f023c1a704b9ac85902b63df3d
+      internalID: -1771240217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 592
+        width: 105
+        height: 101
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a3509efe3a64c44bd80acbb67e7a9e
+      internalID: 316945692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 593
+        width: 108
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5509259, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94446fdb78d6a4498bcd7c81f041d3a
+      internalID: 669759688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 458
+        width: 116
+        height: 97
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00864b010b88ab4fa74b4cceeb32149
+      internalID: 1936789766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 458
+        width: 115
+        height: 97
+      alignment: 9
+      pivot: {x: 0.49130434, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df46bdf53dcca74bb5466534c85500e
+      internalID: 282594899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 458
+        width: 114
+        height: 95
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.031578947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986b3a16daaad0140acd1fa9c9b016cb
+      internalID: 525119972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 457
+        width: 114
+        height: 98
+      alignment: 9
+      pivot: {x: 0.4868421, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af59a4745de330541af4c76c95b7e77d
+      internalID: -1308842741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 458
+        width: 111
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dde269f5183f8b4da8a815ad5abed32
+      internalID: 874429144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 458
+        width: 115
+        height: 95
+      alignment: 9
+      pivot: {x: 0.50869566, y: 0.031578947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb1262ed7ab1eb4394ea4c3edaa66e0
+      internalID: -906578583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 458
+        width: 112
+        height: 97
+      alignment: 9
+      pivot: {x: 0.48660713, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9fe27234c930848bf302549d5e974e
+      internalID: 1704452522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 458
+        width: 124
+        height: 99
+      alignment: 9
+      pivot: {x: 0.48790324, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70751b602ecb81f4e8f76d26198919a7
+      internalID: 836185854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 458
+        width: 112
+        height: 97
+      alignment: 9
+      pivot: {x: 0.48660713, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6168488c141ee3d4abd836310a0fadf9
+      internalID: -1928744203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 458
+        width: 112
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247ba81ac7cfe364ebc6bf9303568742
+      internalID: 1319344672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 458
+        width: 113
+        height: 56
+      alignment: 9
+      pivot: {x: 0.49115044, y: 0.05357143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc96394ab8e338645b4c7e6d1cb3c49a
+      internalID: 2060410508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 321
+        width: 87
+        height: 106
+      alignment: 9
+      pivot: {x: 0.42528737, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc333644ca999624da58b30f91761664
+      internalID: -1550946976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 321
+        width: 85
+        height: 106
+      alignment: 9
+      pivot: {x: 0.42941177, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b388476bb92067447b3d7947dcc0859b
+      internalID: -1962638454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 321
+        width: 86
+        height: 108
+      alignment: 9
+      pivot: {x: 0.43023255, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5667e4308b48840bf67c26ea55565b
+      internalID: 1051215897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 321
+        width: 89
+        height: 106
+      alignment: 9
+      pivot: {x: 0.43258426, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f5771d0b2e25e44b1cb0892a954af1
+      internalID: 1242808897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 322
+        width: 88
+        height: 105
+      alignment: 9
+      pivot: {x: 0.4431818, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f144b480f2a9e84409af9d9d3b3d0cbf
+      internalID: 2107065695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 321
+        width: 91
+        height: 106
+      alignment: 9
+      pivot: {x: 0.36813188, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2c245c9d7436445b6da66ec25de472
+      internalID: 430545069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 321
+        width: 94
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb3dd5fe35057c46a858360600b5425
+      internalID: 447766930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 321
+        width: 113
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5265487, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015589e67421142478e0855aa74d4985
+      internalID: -1576447546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 321
+        width: 107
+        height: 107
+      alignment: 9
+      pivot: {x: 0.47663552, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0797a9275108b448bb9abebc8bc9d7
+      internalID: 749351605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 321
+        width: 84
+        height: 107
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0fdfd1df853e74ca8550588e124429
+      internalID: 1954636997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r05-f10
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 321
+        width: 117
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5641026, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d60477f94d0d242960f95fb05e421e
+      internalID: 1986655110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 184
+        width: 80
+        height: 107
+      alignment: 9
+      pivot: {x: 0.50625, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa505c58c9fca24088a7d507b3c1364
+      internalID: -84981218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 184
+        width: 81
+        height: 107
+      alignment: 9
+      pivot: {x: 0.50617284, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8988c31001dc9f64784c631c58ac5790
+      internalID: 140363718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 184
+        width: 81
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d75875753149e4abf430f4a7051c51
+      internalID: -744648581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 185
+        width: 84
+        height: 107
+      alignment: 9
+      pivot: {x: 0.4702381, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb8675161a60d04bb747660fa8f86aa
+      internalID: -287239213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 185
+        width: 86
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5290698, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211743857a853824ba135382c262cf82
+      internalID: 229809398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 184
+        width: 102
+        height: 106
+      alignment: 9
+      pivot: {x: 0.3480392, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2276fe276809a2f4bb93bf7aafb0ac4e
+      internalID: -1444152527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 184
+        width: 96
+        height: 107
+      alignment: 9
+      pivot: {x: 0.38020834, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c50a7ed7c92ef4c9d6838a83e0acec
+      internalID: 1087732827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 184
+        width: 118
+        height: 107
+      alignment: 9
+      pivot: {x: 0.3983051, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb68e5c1eaf86a841bcd7fa516e3d2a3
+      internalID: -1791004835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 184
+        width: 118
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4957627, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac8308e3f8b8ab4e83b86123044ce57
+      internalID: 334445682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 185
+        width: 83
+        height: 105
+      alignment: 9
+      pivot: {x: 0.42168674, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a836c652940ea294c998b965fe0f02db
+      internalID: -1836479528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r06-f10
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 184
+        width: 119
+        height: 67
+      alignment: 9
+      pivot: {x: 0.52100843, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6f49e73f4fad6409a2c0a9feb19cb5
+      internalID: 161718809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 49
+        width: 111
+        height: 100
+      alignment: 9
+      pivot: {x: 0.46396396, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b306b0dddfcce8c4c8c6c94416928340
+      internalID: -1483844737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 49
+        width: 112
+        height: 101
+      alignment: 9
+      pivot: {x: 0.45982143, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09346a55582366448b9360283f9efde6
+      internalID: 1563131302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 49
+        width: 109
+        height: 101
+      alignment: 9
+      pivot: {x: 0.48165137, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4decf700e8a59544ca43282dd85c485a
+      internalID: 1348006171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 49
+        width: 112
+        height: 101
+      alignment: 9
+      pivot: {x: 0.48214287, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d321a0ff42da78a45a2ead1e90d9597d
+      internalID: 558099077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 49
+        width: 110
+        height: 104
+      alignment: 9
+      pivot: {x: 0.46818182, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048d7abf856b90e4191b2151fd865008
+      internalID: 1151365578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 49
+        width: 122
+        height: 97
+      alignment: 9
+      pivot: {x: 0.53688526, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac709ed296cb843488c6b8be497500e3
+      internalID: -2064908817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 49
+        width: 120
+        height: 102
+      alignment: 9
+      pivot: {x: 0.50416666, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab56cea5b189ca47a67778d9d3956bb
+      internalID: 556814466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 49
+        width: 130
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efb7608c715dd844a9cb63397e50bd1
+      internalID: -250439514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 49
+        width: 109
+        height: 101
+      alignment: 9
+      pivot: {x: 0.46330276, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d035ad24996a184db17f89a2baa7332
+      internalID: -1741652352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 49
+        width: 109
+        height: 99
+      alignment: 9
+      pivot: {x: 0.54587156, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91eb4da9f8039bd4ea3fd8ccc5ef8e3a
+      internalID: -247632352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sepora-directional-v1-r07-f10
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 47
+        width: 121
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5495868, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407c600e92262664a8a1ac0e93a27c59
+      internalID: 395185518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b96d76a6d26c3c140892e4874e69cd44
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sepora-atlas_0: 5541156785890848106
+      sepora-atlas_1: -3767483149956710154
+      sepora-atlas_10: 7581710164507529461
+      sepora-atlas_11: 3958366533939458162
+      sepora-atlas_12: -7324420753296167834
+      sepora-atlas_13: 5046935494730217239
+      sepora-atlas_14: -111747406504909092
+      sepora-atlas_15: 2278882290627447103
+      sepora-atlas_16: -5138245195137852667
+      sepora-atlas_17: 1257310461467767449
+      sepora-atlas_18: -5539958326606686361
+      sepora-atlas_19: -7512749564072573889
+      sepora-atlas_2: -7214188505433302572
+      sepora-atlas_20: 5809719334114489667
+      sepora-atlas_21: -3702002671985340263
+      sepora-atlas_22: -494153161127499172
+      sepora-atlas_23: 3246878615599459594
+      sepora-atlas_24: 6745372219675085335
+      sepora-atlas_25: -392403581051905966
+      sepora-atlas_26: 1056889146764284078
+      sepora-atlas_27: -243428084274261761
+      sepora-atlas_28: -4418706249808695815
+      sepora-atlas_29: -2104384975884548999
+      sepora-atlas_3: 4441081096059403506
+      sepora-atlas_30: 583196060405332469
+      sepora-atlas_31: 8844839908435533083
+      sepora-atlas_32: 1721163965342376138
+      sepora-atlas_33: 138911720953139425
+      sepora-atlas_34: -1180391047684767760
+      sepora-atlas_35: 82436619126707144
+      sepora-atlas_36: -5699714187994470015
+      sepora-atlas_37: 5683345770682815564
+      sepora-atlas_38: -1548732944250615818
+      sepora-atlas_39: 3975454851657209723
+      sepora-atlas_4: 3062726320238192462
+      sepora-atlas_40: -639138664254539980
+      sepora-atlas_41: -2980182557488216920
+      sepora-atlas_5: 363597744528022993
+      sepora-atlas_6: 727662039555042787
+      sepora-atlas_7: -4404705165782697937
+      sepora-atlas_8: 5870790586063553855
+      sepora-atlas_9: 2779479572595058761
+      sepora-directional-v1-r00-f00: 1382370061
+      sepora-directional-v1-r00-f01: -894846190
+      sepora-directional-v1-r00-f02: -1482015924
+      sepora-directional-v1-r00-f03: -101792134
+      sepora-directional-v1-r00-f04: -1895769932
+      sepora-directional-v1-r00-f05: 1929266802
+      sepora-directional-v1-r00-f06: -1085513642
+      sepora-directional-v1-r00-f07: -954319275
+      sepora-directional-v1-r00-f08: -974269159
+      sepora-directional-v1-r00-f09: -149658440
+      sepora-directional-v1-r00-f10: 1062987506
+      sepora-directional-v1-r01-f00: -1709422151
+      sepora-directional-v1-r01-f01: 847890037
+      sepora-directional-v1-r01-f02: -1035820403
+      sepora-directional-v1-r01-f03: -1542688770
+      sepora-directional-v1-r01-f04: -644074491
+      sepora-directional-v1-r01-f05: -376599111
+      sepora-directional-v1-r01-f06: -1891472509
+      sepora-directional-v1-r01-f07: 781478852
+      sepora-directional-v1-r01-f08: 962836535
+      sepora-directional-v1-r01-f09: 1249997515
+      sepora-directional-v1-r01-f10: -115497414
+      sepora-directional-v1-r02-f00: -1002465622
+      sepora-directional-v1-r02-f01: -661169426
+      sepora-directional-v1-r02-f02: 1967009048
+      sepora-directional-v1-r02-f03: 1950605048
+      sepora-directional-v1-r02-f04: 172423510
+      sepora-directional-v1-r02-f05: 1339199448
+      sepora-directional-v1-r02-f06: -593951617
+      sepora-directional-v1-r02-f07: -1354376119
+      sepora-directional-v1-r02-f08: 167005725
+      sepora-directional-v1-r02-f09: 1726906021
+      sepora-directional-v1-r02-f10: -292379853
+      sepora-directional-v1-r03-f00: 1888147971
+      sepora-directional-v1-r03-f01: -2089358532
+      sepora-directional-v1-r03-f02: -1122854293
+      sepora-directional-v1-r03-f03: -1954541201
+      sepora-directional-v1-r03-f04: 772893649
+      sepora-directional-v1-r03-f05: 313857232
+      sepora-directional-v1-r03-f06: 71575411
+      sepora-directional-v1-r03-f07: 1089078387
+      sepora-directional-v1-r03-f08: -1771240217
+      sepora-directional-v1-r03-f09: 316945692
+      sepora-directional-v1-r03-f10: 669759688
+      sepora-directional-v1-r04-f00: 1936789766
+      sepora-directional-v1-r04-f01: 282594899
+      sepora-directional-v1-r04-f02: 525119972
+      sepora-directional-v1-r04-f03: -1308842741
+      sepora-directional-v1-r04-f04: 874429144
+      sepora-directional-v1-r04-f05: -906578583
+      sepora-directional-v1-r04-f06: 1704452522
+      sepora-directional-v1-r04-f07: 836185854
+      sepora-directional-v1-r04-f08: -1928744203
+      sepora-directional-v1-r04-f09: 1319344672
+      sepora-directional-v1-r04-f10: 2060410508
+      sepora-directional-v1-r05-f00: -1550946976
+      sepora-directional-v1-r05-f01: -1962638454
+      sepora-directional-v1-r05-f02: 1051215897
+      sepora-directional-v1-r05-f03: 1242808897
+      sepora-directional-v1-r05-f04: 2107065695
+      sepora-directional-v1-r05-f05: 430545069
+      sepora-directional-v1-r05-f06: 447766930
+      sepora-directional-v1-r05-f07: -1576447546
+      sepora-directional-v1-r05-f08: 749351605
+      sepora-directional-v1-r05-f09: 1954636997
+      sepora-directional-v1-r05-f10: 1986655110
+      sepora-directional-v1-r06-f00: -84981218
+      sepora-directional-v1-r06-f01: 140363718
+      sepora-directional-v1-r06-f02: -744648581
+      sepora-directional-v1-r06-f03: -287239213
+      sepora-directional-v1-r06-f04: 229809398
+      sepora-directional-v1-r06-f05: -1444152527
+      sepora-directional-v1-r06-f06: 1087732827
+      sepora-directional-v1-r06-f07: -1791004835
+      sepora-directional-v1-r06-f08: 334445682
+      sepora-directional-v1-r06-f09: -1836479528
+      sepora-directional-v1-r06-f10: 161718809
+      sepora-directional-v1-r07-f00: -1483844737
+      sepora-directional-v1-r07-f01: 1563131302
+      sepora-directional-v1-r07-f02: 1348006171
+      sepora-directional-v1-r07-f03: 558099077
+      sepora-directional-v1-r07-f04: 1151365578
+      sepora-directional-v1-r07-f05: -2064908817
+      sepora-directional-v1-r07-f06: 556814466
+      sepora-directional-v1-r07-f07: -250439514
+      sepora-directional-v1-r07-f08: -1741652352
+      sepora-directional-v1-r07-f09: -247632352
+      sepora-directional-v1-r07-f10: 395185518
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

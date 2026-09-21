@@ -33,6 +33,7 @@ namespace MonsterPouch.Gameplay.Match
             public int SuperUntil, WeakUntil, AntiHealUntil, LastHealTick, NextIncome, GumCycle, LastBasicTick;
             public int ChocolateNext, ChocolateStacks;
             public float SpeedBonus, AttackSpeedMultiplier = 1, DamageMultiplier = 1, Weakness = 1;
+            public float AntiHealMultiplier = .4f;
             public bool StealthUsed, SleepStarted, DeathHandled;
             public string SummonKind;
             public BattleUnit LastDamager, ChocolateSource;
@@ -45,9 +46,12 @@ namespace MonsterPouch.Gameplay.Match
             public ActorClock Source;
             public BattleUnit Target;
             public int DueTick;
+            public int ReleaseTick;
+            public bool Projectile;
             public int Damage;
             public string Effect;
             public bool Super;
+            public bool Critical;
         }
 
         private readonly BoardManager board;
@@ -70,6 +74,10 @@ namespace MonsterPouch.Gameplay.Match
         public event Action<BattleUnit, BoardCell, BoardCell> Moved;
         public event Action<BattleUnit, BattleUnit, bool> Attacked;
         public event Action<BattleUnit, BattleUnit, int> Impacted;
+        public event Action<BattleUnit, int> Healed;
+        public event Action<BattleUnit, BattleUnit> CriticalImpacted;
+        public event Action<BattleUnit> AttackReset;
+        public event Action<BoardCell> HealingArea;
         public event Action<BattleUnit> Died;
         public event Action<BattleUnit, float> Reviving;
         public event Action<BattleUnit> Revived;
@@ -134,6 +142,7 @@ namespace MonsterPouch.Gameplay.Match
             for (int i = 0; i < actors.Count; i++)
                 if (actors[i].Unit != null)
                 {
+                    ClearTimedSuper(actors[i]);
                     actors[i].LockedTarget = null;
                     board.CancelReservation(actors[i].Unit);
                     actors[i].Unit.CancelRevival();
@@ -157,6 +166,7 @@ namespace MonsterPouch.Gameplay.Match
         {
             if (documentedCombat) { ExecuteDocumentedTick(); return; }
             tick++;
+            SyncCombatResets();
             CompleteRevivals();
             var live = new List<BattleUnit>();
             for (int i = 0; i < actors.Count; i++)
@@ -181,6 +191,7 @@ namespace MonsterPouch.Gameplay.Match
                     {
                         Source = clock, Target = selection.Target,
                         DueTick = tick + impactDelay,
+                        ReleaseTick = tick + windup, Projectile = projectile,
                         Damage = unit.BaseStats.Attack
                     });
                     clock.NextAttack = tick + Mathf.Max(windup + 1, ToTicks(unit.BaseStats.AttackInterval));
@@ -245,6 +256,35 @@ namespace MonsterPouch.Gameplay.Match
             return acquired;
         }
 
+        private void SyncCombatResets()
+        {
+            foreach(var clock in actors)
+                if(clock.Unit!=null && clock.UnitResetVersion!=clock.Unit.CombatResetVersion)
+                {
+                    pending.RemoveAll(p=>p.Source==clock);
+                    clock.UnitResetVersion=clock.Unit.CombatResetVersion;
+                    clock.LockedTarget=clock.TauntTarget=clock.FocusTarget=null;
+                    clock.NextAttack=clock.NextMove=tick;
+                    clock.StunUntil=clock.RootUntil=0;
+                    ClearTimedSuper(clock);
+                    clock.AttackSpeedMultiplier=1;AttackReset?.Invoke(clock.Unit);
+                }
+        }
+
+        private void InterruptAttack(ActorClock actor)
+        {
+            actor.Unit.InterruptAttack();
+            AttackReset?.Invoke(actor.Unit);
+            pending.RemoveAll(p=>p.Source==actor && (!p.Projectile || p.ReleaseTick>tick));
+            actor.NextAttack=Mathf.Max(tick+1,actor.StunUntil);
+        }
+
+        private static void ClearTimedSuper(ActorClock actor)
+        {
+            actor.SuperUntil = 0;
+            if (actor.Unit != null) actor.Unit.ClearTimedSuperState();
+        }
+
         private bool CanKeepTarget(ActorClock clock)
         {
             BattleUnit target = clock.LockedTarget;
@@ -299,7 +339,7 @@ namespace MonsterPouch.Gameplay.Match
             foreach (KeyValuePair<BattleUnit, int> hit in damage)
                 if (hit.Key.ApplyDamage(hit.Value) > 0) lastChangeTick = tick;
             foreach (KeyValuePair<BattleUnit, int> heal in healing)
-                if (heal.Key.Heal(heal.Value) > 0) lastChangeTick = tick;
+                { int restored=heal.Key.Heal(heal.Value);if(restored>0){lastChangeTick=tick;Healed?.Invoke(heal.Key,restored);} }
             for (int i = 0; i < resolved.Count; i++)
             {
                 Impacted?.Invoke(resolved[i].Source.Unit, resolved[i].Target, amounts[i]);
@@ -377,6 +417,7 @@ namespace MonsterPouch.Gameplay.Match
             {
                 actors[i].LockedTarget = null;
                 if (actors[i].Unit == null) continue;
+                ClearTimedSuper(actors[i]);
                 board.CancelReservation(actors[i].Unit);
                 if (actors[i].Unit.IsReviving)
                 {
@@ -404,7 +445,7 @@ namespace MonsterPouch.Gameplay.Match
             {
                 ActorClock clock = actors[i];
                 if (clock.Unit == null || !clock.Unit.IsReviving || tick < clock.ReviveDueTick) continue;
-                clock.Unit.CompleteRevival(documentedCombat && clock.RevivesUsed > 1 ? .25f : -1);
+                clock.Unit.CompleteRevival(documentedCombat && clock.RevivesUsed > 1 ? V(clock,"anuik-second-revive","healthPercent",25)/100f : -1);
                 clock.LockedTarget = null;
                 clock.NextAttack = clock.NextMove = tick + 1;
                 lastChangeTick = tick;
@@ -500,7 +541,7 @@ namespace MonsterPouch.Gameplay.Match
                 actor.CurrentCell == null || target.CurrentCell == null) return 0;
             int distance = Mathf.Max(Mathf.Abs(actor.CurrentCell.X - target.CurrentCell.X),
                 Mathf.Abs(actor.CurrentCell.Y - target.CurrentCell.Y));
-            return Mathf.Max(2, distance) * TickDuration;
+            return ToTicks(distance / actor.BaseStats.ProjectileSpeed) * TickDuration;
         }
 
         public static float GetImpactDelay(BattleUnit actor, BattleUnit target)

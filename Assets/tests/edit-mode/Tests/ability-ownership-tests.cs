@@ -14,6 +14,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.AreEqual(19, roster.Length);
             foreach (var expected in roster)
             foreach (var foreign in roster.Where(unit => unit.Id != expected.Id))
+            for(int selected=0;selected<(expected.IsMonster?3:1);selected++)
             {
                 var altered = DocumentedRoster.CreateAll().Single(unit => unit.Id == expected.Id);
                 altered.BaseAbility = foreign.BaseAbility;
@@ -24,9 +25,9 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
                 altered.SummonInterval = .1f;
                 altered.MaxLivingSummons = 99;
                 var owned = new OwnedUnit(altered);
-                for (int i = 0; i < 3; i++) owned.Tricks[i] = true;
+                for (int i = 0; i < 3; i++) owned.Tricks[i] = !expected.IsMonster || i==selected;
                 var stats = UnitStats.FromDefinition(altered, owned);
-                var effects = new[] { expected.BaseAbility.EffectId }.Concat(expected.Tricks.Select(t => t.EffectId));
+                var effects = new[] { expected.BaseAbility.EffectId }.Concat(expected.Tricks.Where((t,i)=>!expected.IsMonster || i==selected).Select(t => t.EffectId));
                 CollectionAssert.AreEquivalent(effects, stats.EffectIds, expected.Id + " <- " + foreign.Id);
                 Assert.AreEqual(0, stats.LethalEveryHits);
                 Assert.AreEqual(0, stats.SummonInterval);

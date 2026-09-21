@@ -144,14 +144,14 @@ namespace MonsterPouch.Local
         void RenderNavigation()
         {
             BluePanel(page,"Navigation",new Rect(0,841,540,119));
-            string[] labels={"FIGURAS","BRIEF","JUGAR","GUÍA","SONIDO"};
-            string[] symbols={"♦","▣","⚔","?","♫"};
+            string[] labels={"FIGURAS","BRIEF","BATALLA","GUÍA","SONIDO"};
+            string[] icons={"figuras","brief","batalla","guia","sonido"};
             Action[] actions={() =>OpenCollection(),OpenDecks,OpenHome,ShowHelp,ShowAudio};
             for(int i=0;i<5;i++)
             {
                 bool selected=i==1&&menuPage=="decks"||i==2&&menuPage=="home";
                 var tab=GameButton(page,"",new Rect(3+i*108,846,102,110),actions[i],selected);
-                Label(tab,symbols[i],new Rect(4,10,94,52),38,selected?blueFrame:Color.white).font=symbolFont;
+                Image(tab,MenuItem(icons[i]),new Rect(17,5,68,68));
                 Label(tab,labels[i],new Rect(2,76,98,23),14,selected?blueFrame:Color.white,FontStyle.Bold);
                 tab.name="nav-"+labels[i];
             }
@@ -206,25 +206,7 @@ namespace MonsterPouch.Local
                     if(decks.Remove(slot)){ApplyDeck();PersistDeck();CloseModal();RenderPage();}
                 },false,15);
         }
-        void ShowCollectionInfo(UnitDefinition definition)
-        {
-            CloseModal();modal=Panel(CanvasRoot,"Character details",new Rect(0,0,540,960),new Color(.005f,.045f,.13f,.9f));
-            var box=BluePanel(modal,"Character sheet",new Rect(21,81,498,795),paper);
-            Figure(box,definition.Id,new Rect(18,21,112,117),false);
-            Label(box,definition.DisplayName.ToUpperInvariant(),new Rect(144,24,336,39),26,blueFrame,FontStyle.Bold,TextAnchor.MiddleLeft);
-            Label(box,definition.IsMonster?"MONSTER":"WHELP",new Rect(144,64,320,23),13,brightBlue,FontStyle.Bold,TextAnchor.MiddleLeft);
-            Label(box,"VIDA "+definition.MaxHealth+"    DAÑO "+definition.Damage+"    RANGO "+definition.AttackRange,new Rect(144,95,328,48),13,blueFrame,FontStyle.Normal,TextAnchor.UpperLeft);
-            Label(box,definition.BaseAbility.Name.ToUpperInvariant(),new Rect(23,159,450,26),18,brightBlue,FontStyle.Bold,TextAnchor.MiddleLeft);
-            Label(box,definition.BaseAbility.Description,new Rect(23,194,450,113),16,blueFrame,FontStyle.Normal,TextAnchor.UpperLeft);
-            for(int i=0;i<3;i++)
-            {
-                var trick=definition.Tricks[i];if(trick==null)continue;float y=322+i*121;
-                var row=BluePanel(box,"Ability "+i,new Rect(18,y,462,111),new Color(.73f,.90f,1));
-                Label(row,(i+1)+" · "+trick.Name,new Rect(14,10,434,24),17,blueFrame,FontStyle.Bold,TextAnchor.MiddleLeft);
-                Label(row,trick.Description,new Rect(14,40,434,64),15,blueFrame,FontStyle.Normal,TextAnchor.UpperLeft);
-            }
-            GameButton(box,"VOLVER A LA COLECCIÓN",new Rect(34,722,430,48),OpenCollection,false,17);
-        }
+        void ShowCollectionInfo(UnitDefinition definition) => ShowAbilityCard(new OwnedUnit(definition),false,true);
         void ShowSettings()
         {
             CloseModal();modal=Panel(CanvasRoot,"Settings",new Rect(0,0,540,960),new Color(.015f,.06f,.18f,.97f));

@@ -24,12 +24,23 @@ namespace MonsterPouch.Gameplay.Units
         public bool IsCombatSummon { get; private set; }
         public float Energy { get; private set; }
         public bool IsEnergyLocked { get; internal set; }
+        public bool IsReflecting { get; internal set; }
+        public bool IsProtected { get; internal set; }
         public int Shield { get; private set; }
         public bool IsStunned { get; internal set; }
         public bool IsRooted { get; internal set; }
         public bool IsInvisible { get; internal set; }
         public bool IsSleeping { get; internal set; }
+        public bool IsSlowed { get; internal set; }
+        public bool IsFlying => FlightRemaining > 0;
+        public float FlightDuration { get; private set; }
+        public float FlightRemaining { get; private set; }
+        internal void BeginFlight(float duration) { FlightDuration=FlightRemaining=Mathf.Max(.1f,duration); }
+        internal void AdvanceFlight(float delta) { FlightRemaining=Mathf.Max(0,FlightRemaining-delta); if(FlightRemaining<.0001f)EndFlight(); }
+        internal void EndFlight() { FlightRemaining=0; }
         internal int CombatResetVersion { get; private set; }
+        public int AttackResetVersion { get; private set; }
+        internal void InterruptAttack() { unchecked { AttackResetVersion++; } }
 
         public BoardCell CurrentCell { get; private set; }
         public BoardCell ReservedCell { get; private set; }
@@ -48,15 +59,19 @@ namespace MonsterPouch.Gameplay.Units
         public void ResetForCombat()
         {
             unchecked { CombatResetVersion++; }
+            InterruptAttack();
             CurrentHealth = baseStats.MaxHealth;
             State = UnitState.Idle;
             IsReviving = false;
             Energy = 0; Shield = 0; IsEnergyLocked = false;
-            IsStunned = IsRooted = IsInvisible = IsSleeping = false;
+            EndFlight();
+            IsReflecting = IsProtected = false;
+            IsStunned = IsRooted = IsInvisible = IsSleeping = IsSlowed = false;
         }
 
         internal void BeginReviving()
         {
+            ClearTimedSuperState();
             CurrentHealth = 0;
             State = UnitState.Dead;
             IsReviving = true;
@@ -73,12 +88,17 @@ namespace MonsterPouch.Gameplay.Units
 
         public float AddEnergy(float amount)
         {
-            if (IsEnergyLocked && amount > 0) return 0;
+            if (amount > 0 && (IsEnergyLocked || !IsAlive)) return 0;
             float before = Energy;
             Energy = Mathf.Clamp(Energy + amount, 0, Mathf.Max(0, baseStats.EnergyMax));
             return Energy - before;
         }
         internal void ClearEnergy() { Energy = 0; }
+        internal void ClearTimedSuperState()
+        {
+            if (IsEnergyLocked) ClearEnergy();
+            IsEnergyLocked = IsReflecting = IsProtected = false;
+        }
         internal void AddShield(int amount) { Shield += Mathf.Max(0, amount); }
         internal int AbsorbShield(int damage)
         {
@@ -88,9 +108,10 @@ namespace MonsterPouch.Gameplay.Units
 
         public int ApplyDamage(int amount)
         {
+            if(IsFlying)return 0;
             int applied = Mathf.Min(CurrentHealth, Mathf.Max(0, amount));
             CurrentHealth -= applied;
-            if (CurrentHealth == 0) State = UnitState.Dead;
+            if (CurrentHealth == 0) { State = UnitState.Dead; ClearTimedSuperState(); }
             return applied;
         }
 

@@ -30,11 +30,12 @@ MonoBehaviour:
     Id: anuik
     DisplayName: Anuik
     IsMonster: 1
-    MaxHealth: 90
+    MaxHealth: 65
     Damage: 10
     AttackInterval: 1
-    AttackWindup: 0.3
-    AttackRange: 3
+    AttackWindup: 0.5
+    ProjectileSpeed: 6
+    AttackRange: 4
     MoveInterval: 0.6
     IQSpeed: 4
     BaseCost: 0
@@ -46,8 +47,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: anuik-revive
       Name: Siempre de Pie
-      Description: "La primera vez que Anuik es derrotado, cae de pie y revive con
-        50% de su vida m\xE1xima."
+      Description: Revive una vez con el 50% de vida.
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -63,8 +64,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: anuik-second-revive
       Name: "Una Vez M\xE1s"
-      Description: "Despu\xE9s de utilizar Siempre de Pie, Anuik puede revivir una
-        segunda vez al ser derrotado, esta vez con 25% de su vida m\xE1xima."
+      Description: Revive otra vez con 25% de vida.
+      Parameters:
+      - Key: healthPercent
+        Value: 50
       Cost: 4
       HealthBonus: 0
       DamageBonus: 0
@@ -79,8 +82,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: anuik-revive-impact
       Name: Impacto de Retorno
-      Description: "Cuando Anuik revive mediante Siempre de Pie, inflige da\xF1o
-        a todos los enemigos en las casillas adyacentes y los empuja."
+      Description: "Al revivir, causa 10 de da\xF1o y empuja a los enemigos cercanos."
+      Parameters:
+      - Key: damage
+        Value: 30
       Cost: 2
       HealthBonus: 0
       DamageBonus: 0
@@ -95,8 +100,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: anuik-revive-jump
       Name: Salto de Regreso
-      Description: Cuando Anuik revive mediante Siempre de Pie, en lugar de reaparecer
-        donde fue derrotado, aparece 4 casillas hacia adelante.
+      Description: Al revivir, salta 4 casillas hacia delante.
+      Parameters:
+      - Key: distance
+        Value: 10
       Cost: 2
       HealthBonus: 0
       DamageBonus: 0
@@ -113,6 +120,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -139,17 +147,18 @@ MonoBehaviour:
     SourceDocument: Monsters.pdf
     SourcePages: 2
     HasProvisionalBalance: 1
-    EnergyMax: 100
-    EnergyPerAttack: 25
-    EnergyOnDamage: 0
+    EnergyMax: 25
+    EnergyPerAttack: 1
+    EnergyOnDamage: 3
     EnergyPerSecond: 0
     Id: bugaloo
     DisplayName: Bugaloo
     IsMonster: 1
-    MaxHealth: 110
-    Damage: 10
-    AttackInterval: 1.2
+    MaxHealth: 180
+    Damage: 5
+    AttackInterval: 1.7
     AttackWindup: 0.3
+    ProjectileSpeed: 10
     AttackRange: 1
     MoveInterval: 0.6
     IQSpeed: 4
@@ -162,8 +171,12 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: bugaloo-reflect
       Name: Rebote Lunar
-      Description: "Durante 3 segundos, Bugaloo provoca a los enemigos cercanos para
-        que lo ataquen y refleja el da\xF1o recibido hacia ellos."
+      Description: "Provoca a enemigos cercanos y refleja su da\xF1o durante 3 s."
+      Parameters:
+      - Key: duration
+        Value: 5
+      - Key: radius
+        Value: 3
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -179,9 +192,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: bugaloo-protection
       Name: Eclipse Protector
-      Description: "Mientras Rebote Lunar est\xE1 activo, Bugaloo recibe solo el
-        50% del da\xF1o entrante. El da\xF1o reflejado se calcula con el da\xF1o
-        original y no se reduce."
+      Description: "Recibe un 50% menos de da\xF1o durante su s\xFAper."
+      Parameters:
+      - Key: reduction
+        Value: 50
       Cost: 4
       HealthBonus: 0
       DamageBonus: 0
@@ -196,8 +210,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: bugaloo-revenge
       Name: Luna Vengativa
-      Description: "Mientras Rebote Lunar est\xE1 activo, Bugaloo refleja 150% del
-        da\xF1o recibido."
+      Description: "Refleja el 150% del da\xF1o recibido durante su s\xFAper."
+      Parameters:
+      - Key: reflectPercent
+        Value: 150
       Cost: 4
       HealthBonus: 0
       DamageBonus: 0
@@ -212,7 +228,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: bugaloo-healing
       Name: Luz Reparadora
-      Description: "Las curaciones que recibe Bugaloo son 50% m\xE1s efectivas."
+      Description: "Recibe un 50% m\xE1s de curaci\xF3n."
+      Parameters:
+      - Key: bonusPercent
+        Value: 50
       Cost: 4
       HealthBonus: 0
       DamageBonus: 0
@@ -229,6 +248,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -255,17 +275,18 @@ MonoBehaviour:
     SourceDocument: Monsters.pdf
     SourcePages: 3
     HasProvisionalBalance: 1
-    EnergyMax: 100
-    EnergyPerAttack: 25
-    EnergyOnDamage: 0
+    EnergyMax: 50
+    EnergyPerAttack: 5
+    EnergyOnDamage: 2
     EnergyPerSecond: 0
     Id: popow
     DisplayName: Popow
     IsMonster: 1
-    MaxHealth: 90
-    Damage: 8
+    MaxHealth: 130
+    Damage: 7
     AttackInterval: 0.85
     AttackWindup: 0.3
+    ProjectileSpeed: 10
     AttackRange: 1
     MoveInterval: 0.4
     IQSpeed: 6
@@ -278,9 +299,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: popow-dash
       Name: Embestida Imparable
-      Description: "Popow se lanza hacia el enemigo m\xE1s alejado de su posici\xF3n.
-        Durante el recorrido, todos los enemigos que atraviesa quedan aturdidos durante
-        1 segundo."
+      Description: "Embiste al enemigo m\xE1s lejano. Aturde 1 s a quienes atraviesa."
+      Parameters:
+      - Key: duration
+        Value: 1
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -296,9 +318,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: popow-dash-stun
       Name: Impacto Demoledor
-      Description: Los enemigos alcanzados durante Embestida Imparable quedan aturdidos
-        durante 2 segundos en lugar de 1.
-      Cost: 4
+      Description: La embestida aturde durante 2 s.
+      Parameters:
+      - Key: duration
+        Value: 2
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -312,12 +336,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: popow-sweep
       Name: Gancho Barrido
-      Description: "Los pu\xF1etazos de Popow golpean 3 casillas a la vez: la casilla
-        del objetivo y las 2 casillas adyacentes a esta dentro del \xE1rea 3\xD73
-        que rodea a Popow. Los enemigos alcanzados quedan aturdidos durante 0,5 segundos.
-        Por ejemplo, si Popow golpea una de las esquinas del \xE1rea 3\xD73 que lo
-        rodea, tambi\xE9n golpea las dos casillas centrales que tocan esa esquina."
-      Cost: 4
+      Description: Golpea 3 casillas y aturde durante 0.5 s.
+      Parameters:
+      - Key: duration
+        Value: 0.5
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -331,10 +354,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: popow-dash-charge
       Name: Carga de Impacto
-      Description: "Por cada enemigo que Popow impacta durante Embestida Imparable,
-        acumula +3 de da\xF1o. Al finalizar la embestida, todo el da\xF1o acumulado
-        se a\xF1ade a su siguiente ataque b\xE1sico. Despu\xE9s de realizar ese ataque,
-        la bonificaci\xF3n desaparece."
+      Description: "El siguiente golpe gana +3 de da\xF1o por enemigo embestido."
+      Parameters:
+      - Key: damage
+        Value: 3
       Cost: 4
       HealthBonus: 0
       DamageBonus: 0
@@ -351,6 +374,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -377,18 +401,19 @@ MonoBehaviour:
     SourceDocument: Monsters.pdf
     SourcePages: 4
     HasProvisionalBalance: 1
-    EnergyMax: 120
-    EnergyPerAttack: 25
+    EnergyMax: 25
+    EnergyPerAttack: 5
     EnergyOnDamage: 0
     EnergyPerSecond: 0
     Id: sepora
     DisplayName: Sepora
     IsMonster: 1
-    MaxHealth: 50
-    Damage: 2
-    AttackInterval: 1.2
+    MaxHealth: 40
+    Damage: 4
+    AttackInterval: 1.3
     AttackWindup: 0.3
-    AttackRange: 5
+    ProjectileSpeed: 10
+    AttackRange: 6
     MoveInterval: 0.55
     IQSpeed: 5
     BaseCost: 0
@@ -400,9 +425,15 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: sepora-storm
       Name: "Tormenta El\xE9ctrica"
-      Description: "Durante 5 segundos, Sepora ataca a 3 objetivos con rayos instant\xE1neos
-        y mayor velocidad de ataque. No acumula energ\xEDa durante la tormenta y
-        termina con energ\xEDa cero."
+      Description: "Durante 5 s, ataca a 3 enemigos un 50% m\xE1s r\xE1pido. No carga
+        energ\xEDa."
+      Parameters:
+      - Key: duration
+        Value: 5
+      - Key: targets
+        Value: 3
+      - Key: speedPercent
+        Value: 100
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -418,8 +449,13 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: sepora-stealth
       Name: Velo de Tormenta
-      Description: Cuando la vida de Sepora baja del 50%, Sepora y sus aliados adyacentes
-        se vuelven invisibles.
+      Description: Al bajar del 50% de vida, ella y sus aliados cercanos se ocultan
+        2 s.
+      Parameters:
+      - Key: threshold
+        Value: 50
+      - Key: duration
+        Value: 4
       Cost: 4
       HealthBonus: 0
       DamageBonus: 0
@@ -434,8 +470,12 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: sepora-multishot
       Name: "Descarga M\xFAltiple"
-      Description: "Sepora pasa a atacar 2 objetivos simult\xE1neamente con sus ataques
-        b\xE1sicos. Al usar Tormenta El\xE9ctrica, pasa a atacar 5 objetivos."
+      Description: "Ataca a 2 enemigos. Durante el s\xFAper, a 5."
+      Parameters:
+      - Key: targets
+        Value: 2
+      - Key: superTargets
+        Value: 5
       Cost: 2
       HealthBonus: 0
       DamageBonus: 0
@@ -450,8 +490,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: sepora-kill-power
       Name: Poder Acumulado
-      Description: "Por cada enemigo que Sepora derrota, obtiene +1 de da\xF1o permanente
-        entre rondas durante esa partida."
+      Description: "Cada baja otorga +1 de da\xF1o para el resto de la partida."
+      Parameters:
+      - Key: damage
+        Value: 2
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -468,6 +510,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -494,17 +537,18 @@ MonoBehaviour:
     SourceDocument: Monsters.pdf
     SourcePages: 5
     HasProvisionalBalance: 1
-    EnergyMax: 100
-    EnergyPerAttack: 25
-    EnergyOnDamage: 0
-    EnergyPerSecond: 0
+    EnergyMax: 25
+    EnergyPerAttack: 3
+    EnergyOnDamage: 1
+    EnergyPerSecond: 1
     Id: tauris
     DisplayName: Tauris
     IsMonster: 1
-    MaxHealth: 100
-    Damage: 6
+    MaxHealth: 110
+    Damage: 10
     AttackInterval: 1.4
     AttackWindup: 0.3
+    ProjectileSpeed: 10
     AttackRange: 1
     MoveInterval: 0.6
     IQSpeed: 4
@@ -517,8 +561,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tauris-execute
       Name: Mordisco Letal
-      Description: "Tauris ejecuta un mordisco letal que elimina instant\xE1neamente
-        al enemigo objetivo."
+      Description: Elimina al objetivo de un mordisco.
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -534,9 +578,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tauris-mark
       Name: Presa Marcada
-      Description: "Al inicio de la ronda, Tauris obtiene energ\xEDa por cada enemigo
-        situado en su misma fila. Adem\xE1s, esos enemigos quedan marcados por Tauris
-        y el rival no podr\xE1 cambiar su posici\xF3n en las siguientes rondas."
+      Description: "Al inicio, marca a enemigos de su fila y gana 25 de energ\xEDa
+        por cada uno."
+      Parameters:
+      - Key: energy
+        Value: 25
       Cost: 4
       HealthBonus: 0
       DamageBonus: 0
@@ -551,10 +597,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tauris-sweep
       Name: "Mand\xEDbula Barrida"
-      Description: "Mordisco Letal pasa a afectar 3 casillas: la casilla del objetivo
-        y las 2 casillas adyacentes a ella dentro del \xE1rea 3\xD73 que rodea a
-        Tauris, siguiendo la misma geometr\xEDa que el gancho de Popow. Los enemigos
-        alcanzados por esa zona reciben el efecto del Super."
+      Description: El mordisco alcanza 3 casillas frente a Tauris.
+      Parameters: []
       Cost: 4
       HealthBonus: 0
       DamageBonus: 0
@@ -569,11 +613,14 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tauris-hunger
       Name: Hambre Insaciable
-      Description: "Mordisco Letal deja de ejecutar instant\xE1neamente al objetivo
-        y, en su lugar, le quita 50% de su vida. A cambio, cada vez que Tauris elimina
-        a un enemigo, recupera el 100% de su vida y su ataque principal hace un 50%
-        m\xE1s de da\xF1o."
-      Cost: 4
+      Description: "El s\xFAper quita 50% de vida actual. Cada baja cura toda su
+        vida y da +50% de da\xF1o."
+      Parameters:
+      - Key: healthPercent
+        Value: 50
+      - Key: damagePercent
+        Value: 100
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -589,6 +636,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -622,14 +670,15 @@ MonoBehaviour:
     Id: atori
     DisplayName: Atori
     IsMonster: 0
-    MaxHealth: 36
-    Damage: 6
-    AttackInterval: 1.1
+    MaxHealth: 40
+    Damage: 10
+    AttackInterval: 2
     AttackWindup: 0.3
+    ProjectileSpeed: 10
     AttackRange: 1
     MoveInterval: 0.45
     IQSpeed: 5
-    BaseCost: 3
+    BaseCost: 2
     TargetPolicy: 1
     Formation: 0
     BaseAbility:
@@ -638,8 +687,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: atori-hunt
       Name: "Caza al D\xE9bil"
-      Description: Atori persigue y ataca prioritariamente al personaje enemigo con
-        menor vida actual.
+      Description: Busca al enemigo con menos vida.
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -655,9 +704,13 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: atori-hard-head
       Name: Cabeza dura
-      Description: "Durante los primeros 5 segundos del combate, Atori reduce en
-        20% el da\xF1o recibido."
-      Cost: 3
+      Description: "Recibe 20% menos de da\xF1o durante los primeros 5 s."
+      Parameters:
+      - Key: reduction
+        Value: 20
+      - Key: duration
+        Value: 5
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -671,9 +724,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: atori-hunt-speed
       Name: Impulso de Caza
-      Description: Cada vez que Atori elimina a un enemigo, obtiene un 50% de velocidad
-        adicional.
-      Cost: 3
+      Description: Cada baja aumenta 50% su velocidad.
+      Parameters:
+      - Key: speedPercent
+        Value: 50
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -687,9 +742,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: atori-kill-heal
       Name: Instinto Voraz
-      Description: Cada vez que Atori elimina a un enemigo, recupera 20 puntos de
-        vida.
-      Cost: 3
+      Description: Recupera 20 de vida por cada baja.
+      Parameters:
+      - Key: heal
+        Value: 20
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -705,6 +762,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -738,14 +796,15 @@ MonoBehaviour:
     Id: blotan
     DisplayName: Blotan
     IsMonster: 0
-    MaxHealth: 50
+    MaxHealth: 60
     Damage: 3
     AttackInterval: 1.4
     AttackWindup: 0.3
+    ProjectileSpeed: 10
     AttackRange: 1
     MoveInterval: 0.65
     IQSpeed: 3
-    BaseCost: 3
+    BaseCost: 2
     TargetPolicy: 0
     Formation: 0
     BaseAbility:
@@ -754,8 +813,12 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: blotan-income
       Name: Buscatesoros
-      Description: Blotan encuentra 1 Moon-Ken cada 20 segundos mientras permanece
-        en combate.
+      Description: Consigue 1 munken cada 20 s.
+      Parameters:
+      - Key: coins
+        Value: 1
+      - Key: interval
+        Value: 20
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -771,8 +834,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: blotan-fast-income
       Name: Fortuna Acelerada
-      Description: Blotan pasa a encontrar 1 Moon-Ken cada 10 segundos.
-      Cost: 3
+      Description: Consigue munkens cada 10 s.
+      Parameters:
+      - Key: interval
+        Value: 10
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -786,8 +852,9 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: blotan-health
       Name: Reserva Dorada
-      Description: "Blotan aumenta su vida m\xE1xima en 20 puntos."
-      Cost: 3
+      Description: "+20 de vida m\xE1xima."
+      Parameters: []
+      Cost: 2
       HealthBonus: 20
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -801,9 +868,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: blotan-steal
       Name: "Bot\xEDn de Guerra"
-      Description: Si Blotan permanece con vida al terminar la ronda, roba 2 Moon-Ken
-        al rival.
-      Cost: 3
+      Description: Si sobrevive, roba 2 munkens al rival.
+      Parameters:
+      - Key: coins
+        Value: 2
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -819,6 +888,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -856,6 +926,7 @@ MonoBehaviour:
     Damage: 4
     AttackInterval: 0.9
     AttackWindup: 0.3
+    ProjectileSpeed: 10
     AttackRange: 3
     MoveInterval: 0.5
     IQSpeed: 5
@@ -868,8 +939,12 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: bugui-rhythm
       Name: Ritmo Creciente
-      Description: "Cada ataque aumenta la velocidad de ataque de Bugui, hasta un
-        m\xE1ximo de 10 acumulaciones."
+      Description: "Cada ataque da +5% de velocidad. M\xE1ximo 10 cargas."
+      Parameters:
+      - Key: speedPercent
+        Value: 5
+      - Key: stacks
+        Value: 10
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -885,7 +960,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: bugui-unlimited-range
       Name: Sin Fronteras
-      Description: El alcance de los ataques de Bugui pasa a ser ilimitado.
+      Description: Sus ataques alcanzan todo el tablero.
+      Parameters: []
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -900,9 +976,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: bugui-unlimited-stacks
       Name: "Aceleraci\xF3n Infinita"
-      Description: "La bonificaci\xF3n de velocidad de ataque obtenida por cada acumulaci\xF3n
-        es menor, pero Ritmo Creciente ya no tiene l\xEDmite de acumulaciones."
-      Cost: 3
+      Description: "Cada ataque da +2.5% de velocidad, sin l\xEDmite."
+      Parameters:
+      - Key: speedPercent
+        Value: 2.5
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -916,8 +994,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: bugui-kill-power
       Name: Hambre de Poder
-      Description: "Cada vez que Bugui elimina a un enemigo, obtiene +1 de da\xF1o
-        permanentemente durante esa ronda, acumulable."
+      Description: "Cada baja otorga +1 de da\xF1o esta ronda."
+      Parameters:
+      - Key: damage
+        Value: 1
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -934,6 +1014,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -960,21 +1041,22 @@ MonoBehaviour:
     SourceDocument: whelps.pdf
     SourcePages: 4
     HasProvisionalBalance: 1
-    EnergyMax: 100
-    EnergyPerAttack: 25
-    EnergyOnDamage: 0
+    EnergyMax: 25
+    EnergyPerAttack: 1
+    EnergyOnDamage: 2
     EnergyPerSecond: 0
     Id: flo
     DisplayName: Flo
     IsMonster: 0
-    MaxHealth: 38
-    Damage: 3
-    AttackInterval: 1.4
+    MaxHealth: 75
+    Damage: 4
+    AttackInterval: 1.5
     AttackWindup: 0.3
+    ProjectileSpeed: 10
     AttackRange: 1
     MoveInterval: 0.6
     IQSpeed: 3
-    BaseCost: 3
+    BaseCost: 4
     TargetPolicy: 0
     Formation: 2
     BaseAbility:
@@ -983,9 +1065,13 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: flo-flower
       Name: Flor de Auxilio
-      Description: "Flo genera una maceta con una flor en la casilla frente a \xE9l.
-        La flor tiene 20 de vida y, al ser derrotada, cura 20 de vida a los aliados
-        a su alrededor."
+      Description: Invoca una flor con 20 de vida. Al caer, cura 20 a los aliados
+        cercanos.
+      Parameters:
+      - Key: health
+        Value: 20
+      - Key: heal
+        Value: 20
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1001,7 +1087,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: flo-flower-heal
       Name: "Floraci\xF3n Intensa"
-      Description: La flor pasa a curar 40 de vida al ser derrotada.
+      Description: La flor cura 40 de vida al caer.
+      Parameters:
+      - Key: heal
+        Value: 40
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1016,8 +1105,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: flo-full-energy
       Name: Brote Preparado
-      Description: "La barra de energ\xEDa de Flo comienza completamente cargada
-        al inicio de la ronda."
+      Description: "Empieza con la energ\xEDa al m\xE1ximo."
+      Parameters: []
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1032,8 +1121,12 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: flo-flower-invulnerability
       Name: Flor Eterna
-      Description: "La flor tiene solo 1 punto de vida, pero es invulnerable durante
-        1 segundo despu\xE9s de aparecer. Durante ese tiempo no puede ser derrotada."
+      Description: La flor tiene 1 de vida y es invulnerable durante 1 s.
+      Parameters:
+      - Key: health
+        Value: 1
+      - Key: duration
+        Value: 1
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1050,6 +1143,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1077,8 +1171,8 @@ MonoBehaviour:
     SourceDocument: whelps.pdf
     SourcePages: 5
     HasProvisionalBalance: 1
-    EnergyMax: 100
-    EnergyPerAttack: 25
+    EnergyMax: 20
+    EnergyPerAttack: 4
     EnergyOnDamage: 0
     EnergyPerSecond: 0
     Id: gochan
@@ -1088,10 +1182,11 @@ MonoBehaviour:
     Damage: 4
     AttackInterval: 1.3
     AttackWindup: 0.3
-    AttackRange: 3
+    ProjectileSpeed: 7
+    AttackRange: 5
     MoveInterval: 0.6
     IQSpeed: 4
-    BaseCost: 3
+    BaseCost: 2
     TargetPolicy: 0
     Formation: 2
     BaseAbility:
@@ -1100,9 +1195,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: gochan-seal-burst
       Name: "Explosi\xF3n del Sello"
-      Description: "Al activar su energ\xEDa, el impacto genera un \xE1rea de 3\xD73
-        alrededor del enemigo alcanzado e inflige 20 de da\xF1o a todos los enemigos
-        dentro de esa zona."
+      Description: "Inflige 20 de da\xF1o en un \xE1rea de 3 \xD7 3."
+      Parameters:
+      - Key: damage
+        Value: 20
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1118,8 +1214,12 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: gochan-anti-heal
       Name: Sello Marchitante
-      Description: "Los ataques de Gochan reducen en 60% la curaci\xF3n recibida
-        por los enemigos afectados."
+      Description: "Sus ataques reducen la curaci\xF3n 60% durante 4 s."
+      Parameters:
+      - Key: reduction
+        Value: 60
+      - Key: duration
+        Value: 4
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1134,9 +1234,13 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: gochan-burn
       Name: Marca Ardiente
-      Description: "La habilidad de energ\xEDa deja una marca sobre los enemigos
-        afectados. Cada marca inflige 2 de da\xF1o por segundo durante 4 segundos
-        y puede acumularse."
+      Description: "El s\xFAper quema: 2 de da\xF1o cada segundo durante 4 s. Se
+        acumula."
+      Parameters:
+      - Key: damage
+        Value: 2
+      - Key: duration
+        Value: 4
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1151,9 +1255,9 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: gochan-expanded-seal
       Name: Sello Expandido
-      Description: "El ataque b\xE1sico de Gochan deja de golpear en forma de cruz
-        y pasa a afectar un \xE1rea completa de 3\xD73 alrededor del objetivo."
-      Cost: 3
+      Description: "Sus ataques b\xE1sicos da\xF1an un \xE1rea de 3 \xD7 3."
+      Parameters: []
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1169,6 +1273,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1200,16 +1305,17 @@ MonoBehaviour:
     EnergyOnDamage: 0
     EnergyPerSecond: 0
     Id: jazar
-    DisplayName: Jazar
+    DisplayName: Jazzar
     IsMonster: 0
-    MaxHealth: 42
+    MaxHealth: 30
     Damage: 3
     AttackInterval: 1.3
-    AttackWindup: 0.3
-    AttackRange: 3
-    MoveInterval: 0.65
+    AttackWindup: 1
+    ProjectileSpeed: 7
+    AttackRange: 4
+    MoveInterval: 0.7
     IQSpeed: 3
-    BaseCost: 3
+    BaseCost: 2
     TargetPolicy: 0
     Formation: 2
     BaseAbility:
@@ -1218,8 +1324,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: jazar-radiation
       Name: "Contaminaci\xF3n"
-      Description: Los enemigos alcanzados por los ataques de Jazar quedan irradiados,
-        haciendo que su velocidad de ataque se reduzca en 25%.
+      Description: Reduce 25% la velocidad de ataque del objetivo.
+      Parameters:
+      - Key: reduction
+        Value: 25
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1235,9 +1343,9 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: jazar-cross
       Name: Onda Radiactiva
-      Description: "Los ataques de Jazar pasan a afectar un \xE1rea en forma de cruz
-        alrededor del objetivo alcanzado."
-      Cost: 3
+      Description: "Sus ataques da\xF1an en cruz alrededor del objetivo."
+      Parameters: []
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1251,9 +1359,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: jazar-intense-radiation
       Name: "Radiaci\xF3n Intensa"
-      Description: "La reducci\xF3n de velocidad de ataque provocada por Contaminaci\xF3n
-        aumenta de 25% a 50%."
-      Cost: 3
+      Description: "La radiaci\xF3n reduce 50% la velocidad de ataque."
+      Parameters:
+      - Key: reduction
+        Value: 50
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1267,11 +1377,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: jazar-front-row
       Name: Zona Contaminada
-      Description: "Al inicio de la ronda, Jazar cubre con materia radiactiva las
-        casillas de la primera fila enemiga ubicada junto al centro del tablero.
-        La materia permanece durante 1 segundo y aplica Contaminaci\xF3n a los enemigos
-        que se encuentren sobre esas casillas."
-      Cost: 3
+      Description: Al inicio, contamina la primera fila enemiga durante 1 s.
+      Parameters:
+      - Key: duration
+        Value: 1
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1287,6 +1397,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1313,18 +1424,19 @@ MonoBehaviour:
     SourceDocument: whelps.pdf
     SourcePages: 7
     HasProvisionalBalance: 1
-    EnergyMax: 100
-    EnergyPerAttack: 25
+    EnergyMax: 15
+    EnergyPerAttack: 2
     EnergyOnDamage: 0
     EnergyPerSecond: 0
     Id: kayon
     DisplayName: Kayon
     IsMonster: 0
-    MaxHealth: 28
+    MaxHealth: 30
     Damage: 2
-    AttackInterval: 1.5
+    AttackInterval: 1
     AttackWindup: 0.3
-    AttackRange: 4
+    ProjectileSpeed: 10
+    AttackRange: 5
     MoveInterval: 0.6
     IQSpeed: 3
     BaseCost: 3
@@ -1336,7 +1448,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: kayon-summon
       Name: Refuerzo Dummy
-      Description: Kayon invoca 1 Dummy para ayudarlo durante el combate.
+      Description: Invoca 1 Dummy para luchar a su lado.
+      Parameters:
+      - Key: count
+        Value: 1
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1352,8 +1467,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: kayon-double-summon
       Name: Doble Refuerzo
-      Description: Al usar Refuerzo Dummy, Kayon invoca 2 Dummys en lugar de 1.
-      Cost: 3
+      Description: "Invoca 2 Dummys con cada s\xFAper."
+      Parameters:
+      - Key: count
+        Value: 2
+      Cost: 4
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1367,9 +1485,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: kayon-dummy-legacy
       Name: Legado del Dummy
-      Description: "Cuando un Dummy es derrotado, los aliados a su alrededor obtienen
-        +1 de da\xF1o."
-      Cost: 3
+      Description: "Al caer un Dummy, los aliados cercanos ganan +1 de da\xF1o."
+      Parameters:
+      - Key: damage
+        Value: 1
+      Cost: 4
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1383,8 +1503,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: kayon-dummy-health
       Name: Dummy Reforzado
-      Description: "Los Dummys invocados por Kayon tienen +4 de vida m\xE1xima."
-      Cost: 3
+      Description: Los Dummys tienen +4 de vida.
+      Parameters:
+      - Key: health
+        Value: 4
+      Cost: 4
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1400,6 +1523,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1415,10 +1539,10 @@ MonoBehaviour:
     LethalEveryHits: 0
     SummonInterval: 0
     MaxLivingSummons: 0
-    SummonHealth: 14
-    SummonDamage: 2
-    SummonAttackInterval: 1.4
-    SummonMoveInterval: 0.7
+    SummonHealth: 15
+    SummonDamage: 3
+    SummonAttackInterval: 1
+    SummonMoveInterval: 1
   - UsesDocumentedRules: 1
     AttackKind: 1
     BasicAttackName: Descarga Gemela
@@ -1434,13 +1558,14 @@ MonoBehaviour:
     Id: stein
     DisplayName: Stein
     IsMonster: 0
-    MaxHealth: 26
-    Damage: 6
-    AttackInterval: 1.2
+    MaxHealth: 25
+    Damage: 4
+    AttackInterval: 1.5
     AttackWindup: 0.3
-    AttackRange: 4
+    ProjectileSpeed: 10
+    AttackRange: 5
     MoveInterval: 0.6
-    IQSpeed: 5
+    IQSpeed: 2
     BaseCost: 3
     TargetPolicy: 0
     Formation: 2
@@ -1450,7 +1575,12 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: stein-stun
       Name: Microdescarga
-      Description: Cada impacto de Stein aturde al enemigo durante 0,1 segundos.
+      Description: Lanza 2 descargas. Cada impacto aturde 0.1 s.
+      Parameters:
+      - Key: targets
+        Value: 2
+      - Key: duration
+        Value: 0.1
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1466,8 +1596,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: stein-long-stun
       Name: Sobrecarga
-      Description: "La duraci\xF3n del aturdimiento de Microdescarga aumenta de 0,1
-        a 0,2 segundos por impacto."
+      Description: Cada impacto aturde durante 0.2 s.
+      Parameters:
+      - Key: duration
+        Value: 0.2
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1482,9 +1614,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: stein-energy-gift
       Name: "Transferencia de Energ\xEDa"
-      Description: "Al inicio de la ronda, Stein otorga energ\xEDa a los aliados
-        situados inmediatamente a su derecha y a su izquierda."
-      Cost: 3
+      Description: "Al inicio, da 25 de energ\xEDa a los aliados de ambos lados."
+      Parameters:
+      - Key: energy
+        Value: 25
+      Cost: 2
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1498,8 +1632,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: stein-triple
       Name: Triple Descarga
-      Description: "Stein pasa de poder atacar 2 objetivos a 3 objetivos simult\xE1neamente."
-      Cost: 3
+      Description: Dispara a 3 objetivos a la vez.
+      Parameters:
+      - Key: targets
+        Value: 3
+      Cost: 4
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1515,6 +1652,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1548,25 +1686,32 @@ MonoBehaviour:
     Id: trimol
     DisplayName: Trimol
     IsMonster: 0
-    MaxHealth: 46
+    MaxHealth: 50
     Damage: 5
     AttackInterval: 1.4
     AttackWindup: 0.3
+    ProjectileSpeed: 4
     AttackRange: 3
     MoveInterval: 0.65
-    IQSpeed: 3
+    IQSpeed: 1
     BaseCost: 3
     TargetPolicy: 0
     Formation: 2
     BaseAbility:
       EffectId: trimol-boulder
       Trigger: 2
-      EveryAttacks: 4
+      EveryAttacks: 3
       Id: trimol-boulder
       Name: Pedrada Salvaje
-      Description: "Cada 4 ataques, Trimol lanza una roca gigante en l\xEDnea recta.
-        La roca atraviesa a los enemigos que encuentra en su recorrido y los aturde
-        durante 1 segundo."
+      Description: "Cada 4 ataques, lanza una roca: da\xF1o \xD72 y 1 s de aturdimiento
+        en su recorrido."
+      Parameters:
+      - Key: every
+        Value: 4
+      - Key: multiplier
+        Value: 2
+      - Key: duration
+        Value: 1
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1582,8 +1727,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: trimol-opening-boulder
       Name: Lanzamiento Inicial
-      Description: "Al comenzar la ronda, Trimol lanza inmediatamente una roca gigante
-        en l\xEDnea recta, aunque no tenga ning\xFAn enemigo frente a \xE9l."
+      Description: Lanza una roca al empezar la ronda.
+      Parameters: []
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1598,9 +1743,9 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: trimol-infinite-boulder
       Name: Roca Imparable
-      Description: "Las rocas lanzadas por Trimol pasan a tener recorrido infinito,
-        continuando en l\xEDnea recta hasta salir del tablero."
-      Cost: 3
+      Description: La roca recorre todo el tablero.
+      Parameters: []
+      Cost: 4
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1614,8 +1759,12 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: trimol-brutal-boulder
       Name: Pedrada Brutal
-      Description: "Las rocas de Trimol infligen m\xE1s da\xF1o y el aturdimiento
-        aumenta de 1 a 2 segundos."
+      Description: "La roca inflige da\xF1o \xD73 y aturde 2 s."
+      Parameters:
+      - Key: multiplier
+        Value: 3
+      - Key: duration
+        Value: 2
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1632,6 +1781,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1665,26 +1815,29 @@ MonoBehaviour:
     Id: tsu
     DisplayName: Tsu
     IsMonster: 0
-    MaxHealth: 34
-    Damage: 3
+    MaxHealth: 20
+    Damage: 2
     AttackInterval: 1.1
-    AttackWindup: 0.3
-    AttackRange: 3
+    AttackWindup: 0.5
+    ProjectileSpeed: 3
+    AttackRange: 8
     MoveInterval: 0.55
     IQSpeed: 4
-    BaseCost: 3
+    BaseCost: 2
     TargetPolicy: 0
     Formation: 2
     BaseAbility:
       EffectId: tsu-root
       Trigger: 2
-      EveryAttacks: 4
+      EveryAttacks: 2
       Id: tsu-root
       Name: Chicle Pegajoso
-      Description: 'Cada 4 ataques, Tsu arranca una bola de chicle de su propio cabello
-        y la lanza contra su objetivo. El enemigo alcanzado queda inmovilizado durante
-        2 segundos: puede continuar atacando normalmente, pero no puede cambiar de
-        casilla.'
+      Description: Cada 4 ataques, inmoviliza al objetivo durante 2 s.
+      Parameters:
+      - Key: every
+        Value: 4
+      - Key: duration
+        Value: 2
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1700,12 +1853,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tsu-death-trap
       Name: Cabello Pegajoso
-      Description: "Cuando Tsu es derrotado, deja caer su cabello de chicle sobre
-        la casilla donde muri\xF3. La casilla queda convertida en una trampa permanente.
-        El primer enemigo que entre en ella queda inmovilizado en esa casilla y no
-        puede abandonarla. La trampa permanece activa mientras ese enemigo siga vivo
-        y desaparece cuando es derrotado."
-      Cost: 3
+      Description: Al caer, deja una trampa que inmoviliza al primer enemigo que
+        la pisa.
+      Parameters: []
+      Cost: 1
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1719,9 +1870,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tsu-chocolate
       Name: Chocolates Explosivos
-      Description: "Los enemigos inmovilizados por el Chicle Pegajoso reciben chocolates
-        explosivos. Mientras permanezcan inmovilizados, los chocolates explotan cada
-        segundo e infligen da\xF1o progresivo."
+      Description: "Mientras dura la inmovilizaci\xF3n, causa da\xF1o creciente:
+        +2 por segundo."
+      Parameters:
+      - Key: damage
+        Value: 15
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1736,14 +1889,13 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tsu-colored-gum
       Name: Chicles de Colores
-      Description: "Cada vez que Tsu activa Chicle Pegajoso, adem\xE1s lanza un chicle
-        especial al aliado vivo m\xE1s cercano. Si no queda ning\xFAn aliado vivo,
-        Tsu se lo aplica a s\xED mismo. Los chicles siguen este ciclo: 1. Primer
-        chicle \u2014 Rosa veloz: +20% de velocidad de ataque y movimiento. 2. Segundo
-        chicle \u2014 Chicle protector: otorga un escudo equivalente al 10%. 3. Tercer
-        chicle \u2014 Chicle potente: aumenta el da\xF1o en 20%. Despu\xE9s del tercer
-        efecto, el ciclo puede volver a comenzar desde el primero."
-      Cost: 3
+      Description: "Alterna regalos a un aliado: +20% velocidad, escudo o da\xF1o."
+      Parameters:
+      - Key: bonusPercent
+        Value: 50
+      - Key: shieldPercent
+        Value: 10
+      Cost: 4
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -1759,6 +1911,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1792,13 +1945,14 @@ MonoBehaviour:
     Id: atong
     DisplayName: Atong
     IsMonster: 0
-    MaxHealth: 58
-    Damage: 10
-    AttackInterval: 1.8
-    AttackWindup: 0.3
+    MaxHealth: 100
+    Damage: 40
+    AttackInterval: 3
+    AttackWindup: 3
+    ProjectileSpeed: 10
     AttackRange: 1
-    MoveInterval: 0.7
-    IQSpeed: 2
+    MoveInterval: 2.5
+    IQSpeed: 3
     BaseCost: 3
     TargetPolicy: 0
     Formation: 0
@@ -1808,8 +1962,12 @@ MonoBehaviour:
       EveryAttacks: 2
       Id: atong-critical
       Name: Golpe Calculado
-      Description: "Cada segundo ataque de Atong es un golpe cr\xEDtico e inflige
-        50% m\xE1s de da\xF1o."
+      Description: "Cada 2 golpes, inflige 150% de da\xF1o."
+      Parameters:
+      - Key: every
+        Value: 2
+      - Key: damagePercent
+        Value: 100
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1825,8 +1983,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: atong-critical-damage
       Name: "Cr\xEDtico Devastador"
-      Description: "El da\xF1o adicional de sus golpes cr\xEDticos aumenta de 50%
-        a 100%."
+      Description: "Los golpes cr\xEDticos infligen 200% de da\xF1o."
+      Parameters:
+      - Key: damagePercent
+        Value: 150
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1841,7 +2001,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: atong-always-critical
       Name: Golpe Perfecto
-      Description: "Todos los ataques de Atong pasan a ser golpes cr\xEDticos."
+      Description: "Todos sus golpes son cr\xEDticos."
+      Parameters: []
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1856,8 +2017,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: atong-control-immunity
       Name: Voluntad Inquebrantable
-      Description: "Durante los primeros 5 segundos de la ronda, Atong obtiene Inamovible:
-        los efectos de control no tienen efecto sobre \xE9l."
+      Description: Inmune al control durante los primeros 5 s.
+      Parameters:
+      - Key: duration
+        Value: 10
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1874,6 +2037,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1900,20 +2064,21 @@ MonoBehaviour:
     SourceDocument: whelps.pdf
     SourcePages: 12
     HasProvisionalBalance: 1
-    EnergyMax: 100
-    EnergyPerAttack: 25
-    EnergyOnDamage: 0
+    EnergyMax: 20
+    EnergyPerAttack: 1
+    EnergyOnDamage: 2
     EnergyPerSecond: 0
     Id: tokoro
     DisplayName: Tokoro
     IsMonster: 0
-    MaxHealth: 75
+    MaxHealth: 120
     Damage: 5
-    AttackInterval: 1.5
+    AttackInterval: 2
     AttackWindup: 0.3
+    ProjectileSpeed: 10
     AttackRange: 1
     MoveInterval: 0.75
-    IQSpeed: 2
+    IQSpeed: 1
     BaseCost: 3
     TargetPolicy: 0
     Formation: 0
@@ -1923,8 +2088,12 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tokoro-headbutt
       Name: Cabezazo Somnoliento
-      Description: "Tokoro lanza un poderoso cabezazo contra su objetivo. Despu\xE9s
-        del impacto, Tokoro y el enemigo quedan aturdidos durante 3 segundos."
+      Description: "Cabezazo de da\xF1o \xD72. Ambos quedan aturdidos 3 s."
+      Parameters:
+      - Key: multiplier
+        Value: 2
+      - Key: duration
+        Value: 3
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -1940,9 +2109,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tokoro-stun-heal
       Name: Siesta Reparadora
-      Description: "Mientras Tokoro est\xE9 aturdido, recupera 8 de vida por segundo,
-        comenzando desde el segundo 0 del aturdimiento. As\xED, un aturdimiento de
-        3 segundos puede activar la curaci\xF3n desde el instante en que comienza."
+      Description: "Mientras est\xE1 aturdido, recupera 8 de vida cada segundo."
+      Parameters:
+      - Key: heal
+        Value: 20
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1957,13 +2127,15 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tokoro-ice-cream
       Name: "Helader\xEDa Improvisada"
-      Description: "Mientras Tokoro est\xE9 aturdido, genera conitos de helado en
-        las casillas a su alrededor. \u25CF Si un aliado entra en una casilla con
-        un cono, lo consume y recupera 10 de vida. \u25CF Si un enemigo lo consume,
-        recibe Debilidad, haciendo que reciba 20% m\xE1s de da\xF1o por 3 segundos.
-        \u25CF Solo puede existir 1 cono por casilla. \u25CF Si se intenta generar
-        otro cono en una casilla que ya contiene uno, el nuevo reemplaza al anterior,
-        evitando acumulaciones en la misma casilla."
+      Description: "Al aturdirse, deja helados: curan 10 o hacen recibir +20% de
+        da\xF1o durante 3 s."
+      Parameters:
+      - Key: heal
+        Value: 10
+      - Key: weaknessPercent
+        Value: 20
+      - Key: duration
+        Value: 3
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1978,9 +2150,12 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: tokoro-sleep
       Name: Hora de Dormir
-      Description: "Durante los \xFAltimos 10 segundos de la ronda, Tokoro se queda
-        dormido. Mientras duerme: \u25CF Recupera 15 de vida por segundo. \u25CF
-        Deja de atacar por completo."
+      Description: "Los \xFAltimos 10 s duerme: deja de atacar y cura 15 por segundo."
+      Parameters:
+      - Key: duration
+        Value: 10
+      - Key: heal
+        Value: 15
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -1997,6 +2172,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -2030,13 +2206,14 @@ MonoBehaviour:
     Id: aky
     DisplayName: Aky
     IsMonster: 0
-    MaxHealth: 36
-    Damage: 5
+    MaxHealth: 50
+    Damage: 6
     AttackInterval: 1
-    AttackWindup: 0.3
+    AttackWindup: 1.4
+    ProjectileSpeed: 10
     AttackRange: 1
-    MoveInterval: 0.4
-    IQSpeed: 6
+    MoveInterval: 0.8
+    IQSpeed: 3
     BaseCost: 3
     TargetPolicy: 0
     Formation: 0
@@ -2046,8 +2223,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: aky-energy-drain
       Name: "Drenaje de Energ\xEDa"
-      Description: "Los ataques de Aky drenan una cierta cantidad de energ\xEDa del
-        enemigo alcanzado."
+      Description: "Cada golpe roba 20 de energ\xEDa al objetivo."
+      Parameters:
+      - Key: energy
+        Value: 5
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -2063,8 +2242,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: aky-opening-flight
       Name: Vuelo Rasante
-      Description: "Al iniciar la ronda, Aky vuela en l\xEDnea recta hasta el final
-        del mapa."
+      Description: Al inicio, vuela al fondo de su columna.
+      Parameters:
+      - Key: duration
+        Value: 2
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -2079,8 +2260,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: aky-drain-heal
       Name: "Absorci\xF3n Vital"
-      Description: "Cada vez que Aky drena energ\xEDa, recupera vida equivalente
-        al 50% de la energ\xEDa drenada."
+      Description: "Se cura el 50% de la energ\xEDa que roba."
+      Parameters:
+      - Key: healPercent
+        Value: 500
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -2095,9 +2278,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: aky-sweep
       Name: Golpe Amplio
-      Description: "El ataque b\xE1sico de Aky pasa a afectar 3 casillas, con la
-        misma geometr\xEDa del gancho de Popow: la casilla objetivo y las 2 casillas
-        adyacentes dentro del \xE1rea 3\xD73 que lo rodea."
+      Description: Sus golpes alcanzan 3 casillas.
+      Parameters: []
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -2114,6 +2296,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -2141,20 +2324,21 @@ MonoBehaviour:
     SourceDocument: whelps.pdf
     SourcePages: 14
     HasProvisionalBalance: 1
-    EnergyMax: 100
-    EnergyPerAttack: 25
+    EnergyMax: 20
+    EnergyPerAttack: 5
     EnergyOnDamage: 0
     EnergyPerSecond: 0
     Id: hymay
     DisplayName: Hymay
     IsMonster: 0
-    MaxHealth: 40
-    Damage: 4
-    AttackInterval: 1.2
-    AttackWindup: 0.3
-    AttackRange: 4
-    MoveInterval: 0.5
-    IQSpeed: 5
+    MaxHealth: 70
+    Damage: 3
+    AttackInterval: 1.5
+    AttackWindup: 0.4
+    ProjectileSpeed: 7
+    AttackRange: 3
+    MoveInterval: 0.8
+    IQSpeed: 3
     BaseCost: 3
     TargetPolicy: 0
     Formation: 2
@@ -2164,8 +2348,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: hymay-pull
       Name: "Tir\xF3n de L\xE1tigo"
-      Description: "Hymay atrapa con su l\xE1tigo al enemigo que est\xE1 atacando
-        y lo arrastra hasta la casilla situada delante de Hymay."
+      Description: Atrae al objetivo a la casilla de enfrente.
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0
@@ -2181,8 +2365,8 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: hymay-focus
       Name: Objetivo Marcado
-      Description: "Cuando Hymay atrae a un enemigo con Tir\xF3n de L\xE1tigo, provoca
-        que sus aliados concentren sus ataques sobre ese enemigo."
+      Description: "Los aliados concentran sus ataques en el enemigo atra\xEDdo."
+      Parameters: []
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -2197,9 +2381,11 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: hymay-weakness
       Name: Presa Vulnerable
-      Description: "El enemigo atra\xEDdo por Tir\xF3n de L\xE1tigo recibe Debilidad,
-        haciendo que reciba 25% m\xE1s de da\xF1o."
-      Cost: 3
+      Description: "El enemigo atra\xEDdo recibe 25% m\xE1s de da\xF1o."
+      Parameters:
+      - Key: bonusPercent
+        Value: 50
+      Cost: 4
       HealthBonus: 0
       DamageBonus: 0
       AttackIntervalMultiplier: 1
@@ -2213,9 +2399,10 @@ MonoBehaviour:
       EveryAttacks: 0
       Id: hymay-backstep
       Name: "Tir\xF3n Acrob\xE1tico"
-      Description: "Inmediatamente despu\xE9s de atraer a un enemigo, Hymay realiza
-        una maniobra acrob\xE1tica y retrocede 1 casilla, recuperando distancia respecto
-        al enemigo."
+      Description: Tras atraer al enemigo, retrocede 1 casilla.
+      Parameters:
+      - Key: distance
+        Value: 3
       Cost: 3
       HealthBonus: 0
       DamageBonus: 0
@@ -2232,6 +2419,7 @@ MonoBehaviour:
       Id: 
       Name: 
       Description: 
+      Parameters: []
       Cost: 0
       HealthBonus: 0
       DamageBonus: 0

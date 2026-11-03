@@ -68,17 +68,22 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void AuthoredIdleAndSteps_ChangeDrawingsWithoutMovingTheVisualFootAnchor()
+        public void AuthoredIdleAndHop_HoldsDirectionalPoseWhileLiftingTheBody()
         {
             view.AdvancePresentation(.51f);
             Assert.AreSame(frames[1], view.Renderer.sprite);
             view.Move(Vector3.zero, Vector3.right, .4f);
             view.AdvancePresentation(.11f);
-            Assert.AreSame(frames[3], view.Renderer.sprite);
-            Assert.That(actorObject.transform.position.x, Is.EqualTo(.275f).Within(.00001f));
+            Assert.AreSame(frames[0], view.Renderer.sprite,"Hops never cycle the old walking drawings.");
+            Assert.AreEqual(Vector3.zero, actorObject.transform.position, "Anticipation remains planted.");
+            view.AdvancePresentation(.14f);
+            Assert.That(actorObject.transform.position.x, Is.GreaterThan(0f).And.LessThan(1f));
+            Assert.That(actorObject.transform.position.y, Is.GreaterThan(0f), "The visual movement follows a small presentation-only arc.");
             Assert.AreEqual(Vector3.zero, view.VisualRoot.localPosition);
             Assert.AreEqual(Quaternion.identity, view.VisualRoot.localRotation);
             Assert.IsFalse(view.Renderer.flipX);
+            view.AdvancePresentation(.15f);
+            Assert.That(Vector3.Distance(actorObject.transform.position,Vector3.right),Is.LessThan(.00001f));
             view.Face(-1, 0);
             Assert.IsTrue(view.Renderer.flipX, "Only the symmetric west view uses its explicitly configured mirror.");
         }

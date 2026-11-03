@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: dc0668b19fd6f7547a9814de6d786a7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9110050418456937535
+    second: classic-props_0
+  - first:
+      213: 6784697722174005606
+    second: classic-props_1
+  - first:
+      213: 2225762835577315197
+    second: classic-props_2
+  - first:
+      213: 7114050342524372768
+    second: classic-props_3
+  - first:
+      213: -2084129762806831249
+    second: classic-props_4
+  - first:
+      213: 2220784787328885099
+    second: classic-props_5
+  - first:
+      213: -4408159333244880564
+    second: classic-props_6
+  - first:
+      213: -5146067803529553734
+    second: classic-props_7
+  - first:
+      213: 1313450515423336774
+    second: classic-props_8
+  - first:
+      213: 5692996790213977281
+    second: classic-props_9
+  - first:
+      213: 2800038282569951684
+    second: classic-props_10
+  - first:
+      213: -8021636675177616227
+    second: classic-props_11
+  - first:
+      213: 8718830400366004395
+    second: classic-props_12
+  - first:
+      213: -1000358281224888419
+    second: classic-props_13
+  - first:
+      213: 2492780730195892441
+    second: classic-props_14
+  - first:
+      213: 5635369333835333836
+    second: classic-props_15
+  - first:
+      213: -9132362893245875210
+    second: classic-props_16
+  - first:
+      213: 6419013359550420300
+    second: classic-props_17
+  - first:
+      213: -2768126692109755054
+    second: classic-props_18
+  - first:
+      213: 2925825112280049568
+    second: classic-props_19
+  - first:
+      213: -5537124657078756857
+    second: classic-props_20
+  - first:
+      213: -5673922169066727048
+    second: classic-props_21
+  - first:
+      213: 1707316617931118874
+    second: classic-props_22
+  - first:
+      213: -224758999060449463
+    second: classic-props_23
+  - first:
+      213: -508502981655130817
+    second: classic-props_24
+  - first:
+      213: -5771678267901790763
+    second: classic-props_25
+  - first:
+      213: 7712688238581989110
+    second: classic-props_26
+  - first:
+      213: -7273327835569268953
+    second: classic-props_27
+  - first:
+      213: 8778148810896413
+    second: classic-props_28
+  - first:
+      213: -7008732767506691949
+    second: classic-props_29
+  - first:
+      213: -7272529369879980796
+    second: classic-props_30
+  - first:
+      213: 5476547259078986400
+    second: classic-props_31
+  - first:
+      213: 361127223145816277
+    second: classic-props_32
+  - first:
+      213: 2479937847354505781
+    second: classic-props_33
+  - first:
+      213: -8878904092554842545
+    second: classic-props_34
+  - first:
+      213: 3502701820300465529
+    second: classic-props_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: castle
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 611
+        width: 790
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6dc651f01600d4490d6f93c873128e
+      internalID: -1058242191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shelf
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 586
+        width: 372
+        height: 435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d151f6552a81f764ca61b33674682d86
+      internalID: -1798001712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foam
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 140
+        width: 538
+        height: 316
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bda0f5d83e21e4c9ef20e8703799f7
+      internalID: 703376079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunting
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 216
+        width: 585
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45849a4887469e648ad77ea5d7f56d9d
+      internalID: 1759775529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7d4f93f7cd3bdcd45b575092adf38b0e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bunting: 1759775529
+      castle: -1058242191
+      foam: 703376079
+      shelf: -1798001712
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

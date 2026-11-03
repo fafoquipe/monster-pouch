@@ -1,0 +1,2750 @@
+fileFormatVersion: 2
+guid: b8269e7ee0bf651488b49a1af945846e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1072811513172376591
+    second: aky-combat_0
+  - first:
+      213: 8614952565448328120
+    second: aky-combat_1
+  - first:
+      213: -8822807478333657920
+    second: aky-combat_2
+  - first:
+      213: 1874137542192371725
+    second: aky-combat_3
+  - first:
+      213: 8533975009084456648
+    second: aky-combat_4
+  - first:
+      213: 7718892847299353262
+    second: aky-combat_5
+  - first:
+      213: 3274869189063742648
+    second: aky-combat_6
+  - first:
+      213: 3061299049476490507
+    second: aky-combat_7
+  - first:
+      213: -2155541854278237466
+    second: aky-combat_8
+  - first:
+      213: -5470611205480542701
+    second: aky-combat_9
+  - first:
+      213: -5285579240850125807
+    second: aky-combat_10
+  - first:
+      213: 8982540226533494693
+    second: aky-combat_11
+  - first:
+      213: -9031452577740088861
+    second: aky-combat_12
+  - first:
+      213: 37888388573544822
+    second: aky-combat_13
+  - first:
+      213: -4032970801398523169
+    second: aky-combat_14
+  - first:
+      213: 7227137944515452506
+    second: aky-combat_15
+  - first:
+      213: 5068286508347625805
+    second: aky-combat_16
+  - first:
+      213: -6542042465557662976
+    second: aky-combat_17
+  - first:
+      213: -8459801253152887493
+    second: aky-combat_18
+  - first:
+      213: 2459359460628646962
+    second: aky-combat_19
+  - first:
+      213: 3817223124299737577
+    second: aky-combat_20
+  - first:
+      213: 2516870688350546187
+    second: aky-combat_21
+  - first:
+      213: 2540956341108418367
+    second: aky-combat_22
+  - first:
+      213: 7637699581644498302
+    second: aky-combat_23
+  - first:
+      213: 4990078671618578793
+    second: aky-combat_24
+  - first:
+      213: 7527148905673678981
+    second: aky-combat_25
+  - first:
+      213: 1675365147771336205
+    second: aky-combat_26
+  - first:
+      213: 815181909862714598
+    second: aky-combat_27
+  - first:
+      213: 4290764906578662081
+    second: aky-combat_28
+  - first:
+      213: 6916633440514712197
+    second: aky-combat_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12.078549
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aky-combat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 975
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3496edc9b9c11f0800000000000000
+      internalID: -1072811513172376591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 975
+        width: 124
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3436cd6b57e8770800000000000000
+      internalID: 8614952565448328120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 975
+        width: 128
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc234cf7571f8580800000000000000
+      internalID: -8822807478333657920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_3
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 974
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08999e3a26420a10800000000000000
+      internalID: 1874137542192371725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 975
+        width: 273
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce3a8a4e05ce6670800000000000000
+      internalID: 8533975009084456648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 975
+        width: 132
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaad49ee5240f1b60800000000000000
+      internalID: 7718892847299353262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_6
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 973
+        width: 451
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4140c2d2ca27d20800000000000000
+      internalID: 3274869189063742648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 847
+        width: 130
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05894b144beb7a20800000000000000
+      internalID: 3061299049476490507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 838
+        width: 115
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e24245aa1af512e0800000000000000
+      internalID: -2155541854278237466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 846
+        width: 121
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e8f09d71c7414b0800000000000000
+      internalID: -5470611205480542701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_10
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 845
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c03f44fa9d5a6b0800000000000000
+      internalID: -5285579240850125807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_11
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 845
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af8f279eb468ac70800000000000000
+      internalID: 8982540226533494693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_12
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 846
+        width: 136
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e914023bb5d9a280800000000000000
+      internalID: -9031452577740088861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_13
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 844
+        width: 559
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671c906e94b968000800000000000000
+      internalID: 37888388573544822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_14
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 718
+        width: 107
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda5e197c620808c0800000000000000
+      internalID: -4032970801398523169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 219
+        width: 128
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e17956ba3fb4460800000000000000
+      internalID: 7227137944515452506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_16
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 90
+        width: 122
+        height: 747
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4117f5f9bb265640800000000000000
+      internalID: 5068286508347625805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_17
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 717
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0033aeee90ff535a0800000000000000
+      internalID: -6542042465557662976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_18
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 289
+        height: 838
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dea6b059fb89a80800000000000000
+      internalID: -8459801253152887493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_19
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 336
+        width: 566
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c44c13666612220800000000000000
+      internalID: 2459359460628646962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 474
+        width: 120
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9ea40053089f430800000000000000
+      internalID: 3817223124299737577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_21
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 217
+        width: 128
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b092abc5e88bde220800000000000000
+      internalID: 2516870688350546187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 217
+        width: 106
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f372b85645a434320800000000000000
+      internalID: 2540956341108418367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_23
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 209
+        width: 121
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75e111ad4f8ef960800000000000000
+      internalID: 7637699581644498302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_24
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 209
+        width: 139
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969141ffc12504540800000000000000
+      internalID: 4990078671618578793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_25
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 207
+        width: 259
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58066269c0ec57860800000000000000
+      internalID: 7527148905673678981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 91
+        width: 117
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06faf5b9b7104710800000000000000
+      internalID: 1675365147771336205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_27
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 89
+        width: 120
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec01b4c0ab105b00800000000000000
+      internalID: 815181909862714598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_28
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 19
+        width: 126
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c25557f2fbdb8b30800000000000000
+      internalID: 4290764906578662081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-combat_29
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 23
+        width: 562
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582a77fd771dcff50800000000000000
+      internalID: 6916633440514712197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 978
+        width: 111
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10dd3d7d1a329b46917518c7faa7d7a
+      internalID: 215966701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 978
+        width: 111
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e8daa7ea14bb04f887502a7ff93b67
+      internalID: -1628580934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 977
+        width: 119
+        height: 109
+      alignment: 9
+      pivot: {x: 0.52100843, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc9b69637eca55498e9d714680300f3
+      internalID: -772380519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 977
+        width: 117
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4957265, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464de132b6e99954da0aa22b92faa36d
+      internalID: 168403439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 978
+        width: 120
+        height: 108
+      alignment: 9
+      pivot: {x: 0.65, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0007412800861c4d9a05bfbaffec859
+      internalID: 1382154857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 977
+        width: 139
+        height: 109
+      alignment: 9
+      pivot: {x: 0.6798561, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b5a380927542a4d82134310843ecbf
+      internalID: -1147851640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 978
+        width: 116
+        height: 90
+      alignment: 9
+      pivot: {x: 0.49568966, y: 0.033333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543d775dbfd7e784e9b3af781efacf89
+      internalID: -976297251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 978
+        width: 170
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5029412, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3e4beb0a0bde647b33062336196c76
+      internalID: -13661261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 977
+        width: 112
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb80090b0496734ab632dee74f576e8
+      internalID: 847632396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 978
+        width: 137
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d768b4b29c6a44c8b72cc0553e888a
+      internalID: -1673304047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 851
+        width: 107
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49532712, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e3473a758c44545a26aa5ebbfb5494
+      internalID: 1680933943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 851
+        width: 105
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d696c59f5c99a48bf5066e9e62fa9c
+      internalID: -404994868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 852
+        width: 117
+        height: 107
+      alignment: 9
+      pivot: {x: 0.52136755, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a575b7b1da43b46bb241da30f0c67c
+      internalID: 1995893582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 851
+        width: 106
+        height: 107
+      alignment: 9
+      pivot: {x: 0.49056605, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df2a356e0593b043a6191ed91331f27
+      internalID: 1774337810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 851
+        width: 116
+        height: 108
+      alignment: 9
+      pivot: {x: 0.6336207, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f989e3f84776d4e87064618ac41040
+      internalID: 2017324575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 851
+        width: 125
+        height: 107
+      alignment: 9
+      pivot: {x: 0.684, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce40c1734e9f8a646a7e1de75ec6bbe8
+      internalID: 2122796003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 850
+        width: 107
+        height: 94
+      alignment: 9
+      pivot: {x: 0.49532712, y: 0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4175d847f8eda5148af316ab848eda93
+      internalID: 250443827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 850
+        width: 163
+        height: 102
+      alignment: 9
+      pivot: {x: 0.47239265, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04782287222151c47b7e459658009448
+      internalID: -900621332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 850
+        width: 108
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5138889, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0b0067f63be5a448f8080aea598ea2
+      internalID: 310467239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 850
+        width: 137
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04109589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff68279a1b113148a623bf05200c8d7
+      internalID: -1388530288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 728
+        width: 89
+        height: 107
+      alignment: 9
+      pivot: {x: 0.47191012, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfda17284a7ffa0498f099653ffd5ac2
+      internalID: -617217491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 728
+        width: 85
+        height: 107
+      alignment: 9
+      pivot: {x: 0.48235294, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4978f648ae55f054c9dd58a3fcd3c6f2
+      internalID: -475103155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 728
+        width: 94
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a07324f3318cf447abd524577bb0e86
+      internalID: -1001026494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 725
+        width: 92
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5380435, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e903aa12a551e49b1e724a622c936c
+      internalID: -1179532450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 726
+        width: 107
+        height: 110
+      alignment: 9
+      pivot: {x: 0.60747665, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef52e7a8a6c2b842896307f6e9fe913
+      internalID: -1409355997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 725
+        width: 124
+        height: 110
+      alignment: 9
+      pivot: {x: 0.66935486, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b42608ede8073745a1cffcf7364ba1c
+      internalID: 1571508930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 725
+        width: 105
+        height: 90
+      alignment: 9
+      pivot: {x: 0.48095238, y: 0.033333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2fe47da99494b418b9cc180b71cb09
+      internalID: 522388858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 724
+        width: 120
+        height: 100
+      alignment: 9
+      pivot: {x: 0.4125, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bd03ed09e06bd4a99c45ead07988ab
+      internalID: 1938810942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 725
+        width: 106
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4528302, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9985e5ca7c7f44e800ded76bcba057
+      internalID: -1339463175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 725
+        width: 131
+        height: 70
+      alignment: 9
+      pivot: {x: 0.49618322, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5f185ee445b24409ab87bfd5e8de74
+      internalID: 1855168064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 603
+        width: 106
+        height: 106
+      alignment: 9
+      pivot: {x: 0.509434, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e74f439b7cae0f429cbece7bec614ca
+      internalID: -1003525601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 603
+        width: 108
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290d2f68338209c47a04f848fe1f161e
+      internalID: 1584420565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 603
+        width: 114
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50438595, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f8a3e7ae2217e4cbbceb4f0729e593
+      internalID: 1084516411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 603
+        width: 108
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5046296, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79b8f9e158ae8f4a8d6b4760118d04a
+      internalID: 1570996829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 603
+        width: 119
+        height: 106
+      alignment: 9
+      pivot: {x: 0.61764705, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaa76a04330943438a51fafc38d0b72
+      internalID: -1605494087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 602
+        width: 131
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6755725, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa24920e16da014bae6438803a8e757
+      internalID: -1873353345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 602
+        width: 116
+        height: 89
+      alignment: 9
+      pivot: {x: 0.49568966, y: 0.033707865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ea26936f7ada34b8d911d9e03b5430
+      internalID: 272623757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 603
+        width: 163
+        height: 98
+      alignment: 9
+      pivot: {x: 0.49079755, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6a30ebc4186c54690e8861dc68f4b7
+      internalID: 981361476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 603
+        width: 114
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e45fad4252fd049a0d10b35d8c70c9
+      internalID: -1440282527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 603
+        width: 133
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8a62cc4676c4f4abb8d9c35c12edd3
+      internalID: 1428650255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 477
+        width: 108
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5046296, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5f049f0f3f0c644886ed592159eb83
+      internalID: -354130354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 477
+        width: 111
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4954955, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317ff524ef8dfaf4e87c4feb3449e5e0
+      internalID: -1711310724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 477
+        width: 115
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2137f7babda692e41a41ada535786f5a
+      internalID: -339788033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 477
+        width: 111
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c3f3a72f19d3b429436ea1f6b1ff4e
+      internalID: 295130135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 477
+        width: 119
+        height: 109
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798a7282e72d6d14b96827de574c2b5b
+      internalID: -1765861449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 476
+        width: 123
+        height: 110
+      alignment: 9
+      pivot: {x: 0.64634144, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c3cdacbd796b9468fbdd3f43c91ab9
+      internalID: 457476833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 475
+        width: 118
+        height: 94
+      alignment: 9
+      pivot: {x: 0.4957627, y: 0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46df3bce8a0d25748bd9ecdcbd06828b
+      internalID: 317706879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 476
+        width: 155
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4935484, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a923ee4dde8ca504b8d08c55cb2fb80d
+      internalID: 931786852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 477
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5090909, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13004957bcf7164ea45c2bd0519986f
+      internalID: -2132264478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 478
+        width: 137
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04109589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ec835db4d062141934b1b1f79b303a
+      internalID: 162907034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 349
+        width: 100
+        height: 112
+      alignment: 9
+      pivot: {x: 0.49, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff91340392c7c3e40a9b2d575447af18
+      internalID: 214091727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 348
+        width: 100
+        height: 112
+      alignment: 9
+      pivot: {x: 0.475, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a123eacb6c046bf46845e16f999e492c
+      internalID: 796732291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 348
+        width: 110
+        height: 113
+      alignment: 9
+      pivot: {x: 0.46363637, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429bfa427a2efb94ab1c9a995a37ace2
+      internalID: 1749485356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 348
+        width: 97
+        height: 113
+      alignment: 9
+      pivot: {x: 0.36597937, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f510d89c54d2f8f42beb3f2338073135
+      internalID: -12022977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 348
+        width: 113
+        height: 113
+      alignment: 9
+      pivot: {x: 0.6283186, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dfc19aa0d1bc84589d044fc999c782
+      internalID: -158078069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 347
+        width: 126
+        height: 113
+      alignment: 9
+      pivot: {x: 0.6825397, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93c82bb6a120e6498354e3cccc20488
+      internalID: -1439173026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 345
+        width: 111
+        height: 99
+      alignment: 9
+      pivot: {x: 0.490991, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679320b6b32476d498250b241f7a5f49
+      internalID: -1497659495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 346
+        width: 144
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5347222, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44320bd63e0d3f48bbebad9b8b64424
+      internalID: 2035628435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 349
+        width: 114
+        height: 108
+      alignment: 9
+      pivot: {x: 0.50438595, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916d992d2fa7d01479101a4211ef266e
+      internalID: 733296957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 350
+        width: 129
+        height: 71
+      alignment: 9
+      pivot: {x: 0.49612403, y: 0.04225352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fd098a83eb3ba4c8e4f1e2e6b3fcf0
+      internalID: -1119206094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 221
+        width: 84
+        height: 111
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf013926a0d6604a949ce3777ca46b9
+      internalID: -735796097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 222
+        width: 85
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5176471, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a0109f6ed10314dbc797c41be7fdfa
+      internalID: -1989666324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 220
+        width: 85
+        height: 112
+      alignment: 9
+      pivot: {x: 0.42352942, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aafc318da762a44b58930a163d1503
+      internalID: 228344702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 221
+        width: 92
+        height: 111
+      alignment: 9
+      pivot: {x: 0.4728261, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dc401e5281e4c49900246cf3b56258
+      internalID: -845397765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 222
+        width: 100
+        height: 112
+      alignment: 9
+      pivot: {x: 0.425, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1383287d8d2ab4e9d86853a0b8d0a0
+      internalID: -1751464873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 219
+        width: 117
+        height: 113
+      alignment: 9
+      pivot: {x: 0.7222222, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6506eadaff7f6f544ad59a11569d010f
+      internalID: -1891505520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 218
+        width: 107
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5420561, y: 0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b92cabbde367df47a05e4eab2a7bb77
+      internalID: -1744253829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 219
+        width: 123
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5243902, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95782992e61c4ad4b8066ba505980e07
+      internalID: -337581756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 219
+        width: 99
+        height: 105
+      alignment: 9
+      pivot: {x: 0.59090906, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c35f032fc330447b37119acb3b911b
+      internalID: -1980521249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 218
+        width: 133
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6053a140f9d2a664a86c901eaea317fd
+      internalID: 1262896577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 93
+        width: 110
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5090909, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63261155f2780b249883c871f9a8212c
+      internalID: 2078367451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 93
+        width: 108
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8adf59ed8ad3c4ea910f6c9eccdac3
+      internalID: 2144109272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 93
+        width: 117
+        height: 110
+      alignment: 9
+      pivot: {x: 0.52136755, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aea81faf31acb640bed250bd81f154b
+      internalID: -342002256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 93
+        width: 114
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65375d39eaf44b04fa6a396685d38906
+      internalID: 656270027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 93
+        width: 123
+        height: 110
+      alignment: 9
+      pivot: {x: 0.64634144, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88775c6ca027884cb5625faaf40e023
+      internalID: -1984489178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 93
+        width: 129
+        height: 110
+      alignment: 9
+      pivot: {x: 0.6744186, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1307002f8dd0bd14c92e22bbb5c83430
+      internalID: -708193022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 93
+        width: 118
+        height: 93
+      alignment: 9
+      pivot: {x: 0.4957627, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e2fdd68addf4a4aa62b1b922d3ec9e
+      internalID: -1926800980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 93
+        width: 168
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5208333, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a4cfe0601c63147a2c2c2dbb3b51eb
+      internalID: -1525309960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 93
+        width: 113
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c4b4ae222bfcc488b52ac4723b304a
+      internalID: 1029105088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aky-battle-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 93
+        width: 138
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b1f6eccdbb48b4bb5ac1186752d7e1
+      internalID: 381027621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 73b1cecc4c5eb1942950ae7135362fd7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      aky-battle-r00-f00: 215966701
+      aky-battle-r00-f01: -1628580934
+      aky-battle-r00-f02: -772380519
+      aky-battle-r00-f03: 168403439
+      aky-battle-r00-f04: 1382154857
+      aky-battle-r00-f05: -1147851640
+      aky-battle-r00-f06: -976297251
+      aky-battle-r00-f07: -13661261
+      aky-battle-r00-f08: 847632396
+      aky-battle-r00-f09: -1673304047
+      aky-battle-r01-f00: 1680933943
+      aky-battle-r01-f01: -404994868
+      aky-battle-r01-f02: 1995893582
+      aky-battle-r01-f03: 1774337810
+      aky-battle-r01-f04: 2017324575
+      aky-battle-r01-f05: 2122796003
+      aky-battle-r01-f06: 250443827
+      aky-battle-r01-f07: -900621332
+      aky-battle-r01-f08: 310467239
+      aky-battle-r01-f09: -1388530288
+      aky-battle-r02-f00: -617217491
+      aky-battle-r02-f01: -475103155
+      aky-battle-r02-f02: -1001026494
+      aky-battle-r02-f03: -1179532450
+      aky-battle-r02-f04: -1409355997
+      aky-battle-r02-f05: 1571508930
+      aky-battle-r02-f06: 522388858
+      aky-battle-r02-f07: 1938810942
+      aky-battle-r02-f08: -1339463175
+      aky-battle-r02-f09: 1855168064
+      aky-battle-r03-f00: -1003525601
+      aky-battle-r03-f01: 1584420565
+      aky-battle-r03-f02: 1084516411
+      aky-battle-r03-f03: 1570996829
+      aky-battle-r03-f04: -1605494087
+      aky-battle-r03-f05: -1873353345
+      aky-battle-r03-f06: 272623757
+      aky-battle-r03-f07: 981361476
+      aky-battle-r03-f08: -1440282527
+      aky-battle-r03-f09: 1428650255
+      aky-battle-r04-f00: -354130354
+      aky-battle-r04-f01: -1711310724
+      aky-battle-r04-f02: -339788033
+      aky-battle-r04-f03: 295130135
+      aky-battle-r04-f04: -1765861449
+      aky-battle-r04-f05: 457476833
+      aky-battle-r04-f06: 317706879
+      aky-battle-r04-f07: 931786852
+      aky-battle-r04-f08: -2132264478
+      aky-battle-r04-f09: 162907034
+      aky-battle-r05-f00: 214091727
+      aky-battle-r05-f01: 796732291
+      aky-battle-r05-f02: 1749485356
+      aky-battle-r05-f03: -12022977
+      aky-battle-r05-f04: -158078069
+      aky-battle-r05-f05: -1439173026
+      aky-battle-r05-f06: -1497659495
+      aky-battle-r05-f07: 2035628435
+      aky-battle-r05-f08: 733296957
+      aky-battle-r05-f09: -1119206094
+      aky-battle-r06-f00: -735796097
+      aky-battle-r06-f01: -1989666324
+      aky-battle-r06-f02: 228344702
+      aky-battle-r06-f03: -845397765
+      aky-battle-r06-f04: -1751464873
+      aky-battle-r06-f05: -1891505520
+      aky-battle-r06-f06: -1744253829
+      aky-battle-r06-f07: -337581756
+      aky-battle-r06-f08: -1980521249
+      aky-battle-r06-f09: 1262896577
+      aky-battle-r07-f00: 2078367451
+      aky-battle-r07-f01: 2144109272
+      aky-battle-r07-f02: -342002256
+      aky-battle-r07-f03: 656270027
+      aky-battle-r07-f04: -1984489178
+      aky-battle-r07-f05: -708193022
+      aky-battle-r07-f06: -1926800980
+      aky-battle-r07-f07: -1525309960
+      aky-battle-r07-f08: 1029105088
+      aky-battle-r07-f09: 381027621
+      aky-combat_0: -1072811513172376591
+      aky-combat_1: 8614952565448328120
+      aky-combat_10: -5285579240850125807
+      aky-combat_11: 8982540226533494693
+      aky-combat_12: -9031452577740088861
+      aky-combat_13: 37888388573544822
+      aky-combat_14: -4032970801398523169
+      aky-combat_15: 7227137944515452506
+      aky-combat_16: 5068286508347625805
+      aky-combat_17: -6542042465557662976
+      aky-combat_18: -8459801253152887493
+      aky-combat_19: 2459359460628646962
+      aky-combat_2: -8822807478333657920
+      aky-combat_20: 3817223124299737577
+      aky-combat_21: 2516870688350546187
+      aky-combat_22: 2540956341108418367
+      aky-combat_23: 7637699581644498302
+      aky-combat_24: 4990078671618578793
+      aky-combat_25: 7527148905673678981
+      aky-combat_26: 1675365147771336205
+      aky-combat_27: 815181909862714598
+      aky-combat_28: 4290764906578662081
+      aky-combat_29: 6916633440514712197
+      aky-combat_3: 1874137542192371725
+      aky-combat_4: 8533975009084456648
+      aky-combat_5: 7718892847299353262
+      aky-combat_6: 3274869189063742648
+      aky-combat_7: 3061299049476490507
+      aky-combat_8: -2155541854278237466
+      aky-combat_9: -5470611205480542701
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

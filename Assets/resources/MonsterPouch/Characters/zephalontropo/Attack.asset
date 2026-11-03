@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511ff38c74f24bcaaebcfb1a3166968f, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAttack
+  Kind: 1
+  DisplayName: "Ataque b\xE1sico"
+  Description: "Da\xF1o f\xEDsico: 8. Alcance: 8. Cada 1,4 s."
+  Damage: 4
+  Range: 7
+  Interval: 1.4
+  Windup: 0.3
+  Hold: 0.1
+  Recovery: 0.22
+  ProjectileSpeed: 6
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: aireola-crossbow
+    NameEnglish: Crossbow bolt
+    NameSpanish: Virote de ballesta
+    OverrideSize: 1
+    SizePercent: 33.3
+    LegacyPercent: -1
+    LegacyNoteEnglish: Shared Aireola sampler; fixed flight envelope at alpha >=
+      16
+    LegacyNoteSpanish: Sampler Aireola compartido; envolvente fija del vuelo con
+      alfa >= 16
+    Frames:
+    - Sprite: {fileID: 21300000, guid: 214ca97ae5ed5218b2bbdc9c7cecddd9, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.18359375
+        y: 0.140625
+        width: 0.6484375
+        height: 0.32421875
+    - Sprite: {fileID: 21300000, guid: 6297bd1935e656149063e81844f5b049, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.16015625
+        y: 0.1328125
+        width: 0.69921875
+        height: 0.33203125
+    - Sprite: {fileID: 21300000, guid: c22c6f9d6c3f52dd8376c5186b44a990, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.171875
+        y: 0.09375
+        width: 0.6875
+        height: 0.4296875
+    - Sprite: {fileID: 21300000, guid: 314600ecd0965d6ba3452fb34e64d12b, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.1875
+        y: 0.078125
+        width: 0.6796875
+        height: 0.4609375
+  ProjectilePrefab: {fileID: 0}
+  Sound: {fileID: 0}

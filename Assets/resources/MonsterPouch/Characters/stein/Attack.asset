@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511ff38c74f24bcaaebcfb1a3166968f, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAttack
+  Kind: 1
+  DisplayName: Chispa
+  Description: "Ataca a un solo enemigo y carga energ\xEDa para su s\xFAper."
+  Damage: 4
+  Range: 5
+  Interval: 1.5
+  Windup: 0.3
+  Hold: 0.1
+  Recovery: 0.22
+  ProjectileSpeed: 10
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: catalog
+    NameEnglish: Basic projectile
+    NameSpanish: "Proyectil b\xE1sico"
+    OverrideSize: 1
+    SizePercent: 17.5
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames:
+    - Sprite: {fileID: 787229736, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.004854369
+        y: 0.012345679
+        width: 0.9854369
+        height: 0.9876543
+    - Sprite: {fileID: 452205323, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.004716981
+        y: 0.0088495575
+        width: 0.995283
+        height: 0.9823009
+    - Sprite: {fileID: -600062529, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.0050251256
+        y: 0.008695652
+        width: 0.98994976
+        height: 0.9826087
+    - Sprite: {fileID: 69966731, guid: 34f9f528bba2a534ba4d9b4003c9208d, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.004651163
+        y: 0.008130081
+        width: 0.9906977
+        height: 0.9756098
+  ProjectilePrefab: {fileID: 0}
+  Sound: {fileID: 0}

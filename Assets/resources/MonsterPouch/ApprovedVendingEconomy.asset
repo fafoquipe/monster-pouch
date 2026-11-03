@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaabfdc470074a40a3fe56d7434d0919, type: 3}
+  m_Name: ApprovedVendingEconomy
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Machines.ApprovedPlayerMachineEconomy
+  approvalId: creator-vending-economy-2026-10-24-v1
+  policyId: character-pity-ten-equal-prizes-v1
+  policyVersion: 1
+  cost:
+    Currency: 2
+    Amount: 5
+  characterChanceByDraw:
+  - 0.01
+  - 0.01
+  - 0.01
+  - 0.01
+  - 0.01
+  - 0.02
+  - 0.04
+  - 0.08
+  - 0.2
+  - 1
+  rewardWeight: 1
+  packages:
+  - RewardId: earth-10
+    Amounts:
+    - Currency: 0
+      Amount: 10
+  - RewardId: earth-20
+    Amounts:
+    - Currency: 0
+      Amount: 20
+  - RewardId: earth-30
+    Amounts:
+    - Currency: 0
+      Amount: 30
+  - RewardId: earth-50
+    Amounts:
+    - Currency: 0
+      Amount: 50
+  - RewardId: sun-10
+    Amounts:
+    - Currency: 1
+      Amount: 10
+  - RewardId: sun-20
+    Amounts:
+    - Currency: 1
+      Amount: 20
+  - RewardId: sun-30
+    Amounts:
+    - Currency: 1
+      Amount: 30
+  - RewardId: sun-50
+    Amounts:
+    - Currency: 1
+      Amount: 50
+  - RewardId: earth-10-sun-10
+    Amounts:
+    - Currency: 0
+      Amount: 10
+    - Currency: 1
+      Amount: 10
+  - RewardId: earth-20-sun-20
+    Amounts:
+    - Currency: 0
+      Amount: 20
+    - Currency: 1
+      Amount: 20

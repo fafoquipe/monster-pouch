@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: f26ace58be2ba454bbfe7c0b2de6ce97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -105708813218760434
+    second: casino-accessories-props_0
+  - first:
+      213: -3533275364942042084
+    second: casino-accessories-props_1
+  - first:
+      213: 8404357156541861998
+    second: casino-accessories-props_2
+  - first:
+      213: 7753615802251741279
+    second: casino-accessories-props_3
+  - first:
+      213: -1560519562163975799
+    second: casino-accessories-props_4
+  - first:
+      213: 5164306710114882818
+    second: casino-accessories-props_5
+  - first:
+      213: -2177547236145170247
+    second: casino-accessories-props_6
+  - first:
+      213: -2310835143805722672
+    second: casino-accessories-props_7
+  - first:
+      213: 7359878995690228020
+    second: casino-accessories-props_8
+  - first:
+      213: 3244405888790543934
+    second: casino-accessories-props_9
+  - first:
+      213: 3231546812475713206
+    second: casino-accessories-props_10
+  - first:
+      213: 6727993993821443955
+    second: casino-accessories-props_11
+  - first:
+      213: -5296501961239880944
+    second: casino-accessories-props_12
+  - first:
+      213: 7202079201055841381
+    second: casino-accessories-props_13
+  - first:
+      213: -2314970874473395245
+    second: casino-accessories-props_14
+  - first:
+      213: 7625934633769272630
+    second: casino-accessories-props_15
+  - first:
+      213: -5441717606912413307
+    second: casino-accessories-props_16
+  - first:
+      213: 4487535404532775568
+    second: casino-accessories-props_17
+  - first:
+      213: 8711010782235019923
+    second: casino-accessories-props_18
+  - first:
+      213: -4908224891491233891
+    second: casino-accessories-props_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tray
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 671
+        width: 784
+        height: 383
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5330bce1a7ff5bb4db9c8cfb26d510d8
+      internalID: 2021972776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 631
+        width: 409
+        height: 524
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4ffc7d5252f5f4987e029d9a458eb6
+      internalID: -1605926098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cards
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 83
+        width: 667
+        height: 462
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b4cb0c7948f0b4db5cf12bc84df04e
+      internalID: -135597856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoe
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 61
+        width: 486
+        height: 493
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8486de9151d92414d97a2989336207d6
+      internalID: 1927547527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ce661c141c6bbc04cb07bc9141309028
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cards: -135597856
+      lamp: -1605926098
+      shoe: 1927547527
+      tray: 2021972776
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

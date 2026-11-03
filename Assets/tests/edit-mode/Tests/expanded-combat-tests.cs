@@ -70,14 +70,14 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             sim.Step(.8f); Assert.IsTrue(sim.Finished); Assert.AreEqual(BoardSide.Blue, sim.Winner); Assert.AreEqual(5, anuik.CurrentHealth);
         }
 
-        [Test] public void SimultaneousRevivals_BothContinueAndSecondMutualWipeIsDraw()
+        [Test] public void SimultaneousRevivals_SecondMutualWipeUsesBoardPriority()
         {
             BattleUnit blue = Unit("blue", BoardSide.Blue, 2, 4, new UnitStats(10, 10, revivesPerCombat: 1));
             BattleUnit red = Unit("red", BoardSide.Red, 3, 4, new UnitStats(10, 10, revivesPerCombat: 1));
             CombatSimulation sim = Begin(red, blue);
             sim.Step(.2f); Assert.IsTrue(blue.IsReviving && red.IsReviving); Assert.IsFalse(sim.Finished);
             sim.Step(.8f); Assert.AreEqual(5, blue.CurrentHealth); Assert.AreEqual(5, red.CurrentHealth); Assert.IsFalse(sim.Finished);
-            sim.Step(.2f); Assert.IsTrue(sim.Finished); Assert.IsNull(sim.Winner);
+            sim.Step(.2f); Assert.IsTrue(sim.Finished); Assert.AreEqual(BoardSide.Red,sim.Winner);
             Assert.IsFalse(blue.IsReviving || red.IsReviving);
         }
 
@@ -148,17 +148,17 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             for (int tick = 0; tick < 100 && !sim.Finished; tick++) sim.Step(.1f);
             Assert.IsTrue(sim.Finished); Assert.AreEqual(side, sim.Winner);
             Assert.AreEqual(4, attacks); Assert.AreEqual(1, lethal);
-            CollectionAssert.AreEqual(new[] { 1, 1, 1, 997 }, hits);
+            CollectionAssert.AreEqual(new[] { 6, 6, 6, 982 }, hits);
             Assert.AreEqual(CombatSimulation.GetAttackWindup(tauris), firstImpact - firstAttack, .0001f);
             Assert.AreEqual(100, tauris.CurrentHealth); Assert.AreEqual(6, tauris.BaseStats.Attack);
         }
 
-        [Test] public void SimultaneousLethalBites_ObserveSameLifeSnapshotAndDraw()
+        [Test] public void SimultaneousLethalBites_ObserveSameLifeSnapshotThenUseBoardPriority()
         {
             BattleUnit blue = Unit("blue", BoardSide.Blue, 2, 4, new UnitStats(100, 1, armor: 999, lethalEveryHits: 1));
             BattleUnit red = Unit("red", BoardSide.Red, 3, 4, new UnitStats(100, 1, armor: 999, lethalEveryHits: 1));
             CombatSimulation sim = Begin(red, blue); int lethal = 0; sim.LethalImpacted += (a, b) => lethal++;
-            sim.Step(.2f); Assert.AreEqual(2, lethal); Assert.IsTrue(sim.Finished); Assert.IsNull(sim.Winner);
+            sim.Step(.2f); Assert.AreEqual(2, lethal); Assert.IsTrue(sim.Finished); Assert.AreEqual(BoardSide.Red,sim.Winner);
         }
 
         [Test] public void ZeroDamageLethalImpactPending_PreventsPrematureStalemate()
@@ -324,9 +324,9 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             BattleUnit enemy = Unit("enemy", BoardSide.Red, 2, 1, new UnitStats(9999, 0, 9));
             Assert.IsTrue(board.TrySetCellBlocked(2, 7, true)); Assert.IsTrue(board.TrySetCellBlocked(1, 8, true));
             Assert.IsTrue(board.TrySetCellBlocked(3, 8, true)); Assert.IsTrue(board.TrySetCellBlocked(2, 9, true));
-            CombatSimulation sim = Begin(kayon, enemy); sim.Step(10.1f);
+            CombatSimulation sim = Begin(kayon, enemy); sim.Step(40f);
             Assert.AreEqual(0, sim.CombatOnlyUnits.Count); Assert.IsTrue(sim.Finished);
-            StringAssert.Contains("Sin progreso", sim.Reason); Assert.AreEqual(10f, sim.Elapsed, .0001f);
+            Assert.NotNull(sim.TimeoutResult); Assert.AreEqual(BoardSide.Red,sim.Winner); Assert.AreEqual(40f, sim.Elapsed, .0001f);
         }
 
         [Test] public void NewFactories_ProduceSelectableDefinitionsAndDetachedCombatValues()
@@ -371,8 +371,8 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             sim.Step(39.7f); Assert.IsFalse(sim.Finished);
             anuik.ApplyDamage(anuik.CurrentHealth); sim.Step(.1f);
             Assert.IsTrue(anuik.IsReviving); Assert.AreSame(anuik, origin.OccupiedBy); Assert.AreEqual(0, finalDeaths);
-            sim.Step(.2f); Assert.IsTrue(sim.Finished); Assert.IsNull(sim.Winner);
-            StringAssert.Contains("Tiempo", sim.Reason); Assert.AreEqual(40f, sim.Elapsed, .0001f);
+            sim.Step(.2f); Assert.IsTrue(sim.Finished); Assert.AreEqual(BoardSide.Red,sim.Winner);
+            Assert.NotNull(sim.TimeoutResult); Assert.AreEqual(40f, sim.Elapsed, .0001f);
             Assert.IsFalse(anuik.IsReviving); Assert.IsNull(anuik.CurrentCell); Assert.IsNull(origin.OccupiedBy);
             Assert.AreEqual(1, finalDeaths); sim.Step(1f); Assert.AreEqual(1, finalDeaths);
         }

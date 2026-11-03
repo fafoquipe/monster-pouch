@@ -1,0 +1,1248 @@
+{
+  "version": 1,
+  "state": "PREPARED_SEPARATE_REVIEW_REQUIRED_NOT_APPLIED",
+  "createdUtc": "2026-11-02T03:43:27.561Z",
+  "project": "C:/Users/HP VICTUS/Juegos Unity/mini-gogos/game/monster-pouch",
+  "archiveRoot": "ArtArchive/LegacyCleanup-20261102",
+  "recoveryRoot": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery",
+  "firstPlanPath": "Docs/legacy-build-cleanup-20261102/first-safe-plan.json",
+  "firstPlanSha256": "ccc636c71851333ea41a208199754083536ad96dca6815de35f7cadd75503dd6",
+  "priorArchives": [
+    {
+      "path": "Assets/art/units/generated/anuik/anuik-animation-source-v1.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/generated/anuik/anuik-animation-source-v1.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/generated/anuik/anuik-animation-source-v1.png",
+      "guid": "2dd8edf1f2737d140833e8fdb1fc85bc",
+      "sha256": "f67b86632a8205d1173fc80dbd4317a5d9a18f4f3a417ba825c56227dd231c87",
+      "metaSha256": "212ca361e0c7cdadd5f13ba7bc9b3e42eea2eaa6b7ef35a8eea622bed023a3c9",
+      "bytes": 1673985,
+      "metaBytes": 3299,
+      "category": "superseded-variants"
+    },
+    {
+      "path": "Assets/art/units/generated/anuik-approved/anuik-animation-source-v1.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/generated/anuik-approved/anuik-animation-source-v1.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/generated/anuik-approved/anuik-animation-source-v1.png",
+      "guid": "01ec6712070d3da4e99a716e3260cf50",
+      "sha256": "59959146372d840a240e8b85f3e5b028399d9a792ae3fb3a63330df8bd41af3b",
+      "metaSha256": "0e90685f86703d22a87d581d32bb1c93f8128ba88e5e9aa3af6bc324c9b4dfe4",
+      "bytes": 1640081,
+      "metaBytes": 3299,
+      "category": "superseded-variants"
+    },
+    {
+      "path": "Assets/art/units/generated/tauris-approved/tauris-animation-rgba-v2.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/generated/tauris-approved/tauris-animation-rgba-v2.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/generated/tauris-approved/tauris-animation-rgba-v2.png",
+      "guid": "125c44c3ca4a6b748bedd4707e345c46",
+      "sha256": "931973b7afc6567957bf09bf61eeaf6cb92a227a60e796dfb6c2e9cd45116270",
+      "metaSha256": "6c8bb8102eac10a9da5b74d13433ee3a25648a66cba62b6313b66fd4a06b8884",
+      "bytes": 2553796,
+      "metaBytes": 94915,
+      "category": "superseded-variants"
+    },
+    {
+      "path": "Assets/art/units/generated/tauris-approved/tauris-animation-source-v2.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/generated/tauris-approved/tauris-animation-source-v2.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/generated/tauris-approved/tauris-animation-source-v2.png",
+      "guid": "f2b4b6530eaffc14ea6be3eff9f1fbeb",
+      "sha256": "e1ba98db49b8f64a59cec1062441365607653425850224ef06e487d89bfc7057",
+      "metaSha256": "cb64decb35b600b4c3031f8f6ca0e937051da783dd6e67663d97179cd318669c",
+      "bytes": 1870557,
+      "metaBytes": 3302,
+      "category": "superseded-variants"
+    },
+    {
+      "path": "Assets/art/units/generated/tauris-approved/tauris-ball-portrait-checker-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/generated/tauris-approved/tauris-ball-portrait-checker-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/generated/tauris-approved/tauris-ball-portrait-checker-source.png",
+      "guid": "2e1762e11e7531f4fb4594cc209ec947",
+      "sha256": "809df06dda0a1a63549f9c18c57f4a8a293856a84c27caf18b6b799992ccda67",
+      "metaSha256": "af7e103324aea10ac81adc8fafdaa38e4b799ea22d9dea0bee6e7c8d382b99d7",
+      "bytes": 1744286,
+      "metaBytes": 3333,
+      "category": "superseded-variants"
+    },
+    {
+      "path": "Assets/art/units/generated/tauris-approved/tauris-ball-user-reference.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/generated/tauris-approved/tauris-ball-user-reference.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/generated/tauris-approved/tauris-ball-user-reference.png",
+      "guid": "2d53de6a4173a094a85f33302a44b5cb",
+      "sha256": "4f1fe7d6a0c814e3abadebe2cdc66a18bdd832ce72a5a66fbd443a8fc41c7116",
+      "metaSha256": "12ab07da3469fcc79e5200fd304e7ff5834fcdbf3dc2da075b00e80564fe2219",
+      "bytes": 736943,
+      "metaBytes": 5941,
+      "category": "superseded-variants"
+    },
+    {
+      "path": "Assets/art/units/generated/tauris-approved/tauris-compact-user-reference.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/generated/tauris-approved/tauris-compact-user-reference.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/generated/tauris-approved/tauris-compact-user-reference.png",
+      "guid": "8e33dcf4be11b954a994b48829302fb9",
+      "sha256": "779e72bc6d327ec7738e0cbcea98b87af9cd106e349b62d8d0c538dbec80da3e",
+      "metaSha256": "62161f6694d53acfbf90b86d313fef16233d2dfd9987a1eb04d24477436d7c56",
+      "bytes": 60046,
+      "metaBytes": 3310,
+      "category": "superseded-variants"
+    },
+    {
+      "path": "Assets/art/units/generated/tauris-approved/tauris-portrait-rgba-v1.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/generated/tauris-approved/tauris-portrait-rgba-v1.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/generated/tauris-approved/tauris-portrait-rgba-v1.png",
+      "guid": "cc24a0a15785673478161ef32bea4595",
+      "sha256": "c14bc287273308e1f60803b8961d09207fd49caa47d656f6aaf818ffbbc5b378",
+      "metaSha256": "26f52e90338ae870bef5e5cb4bd12b6430a41102c779db64565581c959dc282f",
+      "bytes": 518941,
+      "metaBytes": 6528,
+      "category": "superseded-variants"
+    },
+    {
+      "path": "Assets/art/units/generated/tauris-approved/tauris-portrait-source-v1.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/generated/tauris-approved/tauris-portrait-source-v1.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/generated/tauris-approved/tauris-portrait-source-v1.png",
+      "guid": "ef838d9923b33b6419e5d57481d39933",
+      "sha256": "c14bc287273308e1f60803b8961d09207fd49caa47d656f6aaf818ffbbc5b378",
+      "metaSha256": "ec37377684347c73a14e2154d7366bc76fddad22ccdb482246b028e25703e4c1",
+      "bytes": 518941,
+      "metaBytes": 5926,
+      "category": "superseded-variants"
+    },
+    {
+      "path": "Assets/art/units/generated/tauris-approved/tauris-user-reference.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/generated/tauris-approved/tauris-user-reference.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/generated/tauris-approved/tauris-user-reference.png",
+      "guid": "c4e389ab49f8fa143b8e335ffc68f881",
+      "sha256": "7dd4829903090b389e64da0cb6f6c00ddadd0cc6ddfe0cbe273b971333f1b126",
+      "metaSha256": "a052180af2a4217be0d01044bae7ccd763b366bad0e475ad0b3a84236381d94a",
+      "bytes": 1302892,
+      "metaBytes": 3291,
+      "category": "superseded-variants"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/anuik-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/anuik-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/anuik-idle.png",
+      "guid": "d9042e0da22a2d846b380529e573f858",
+      "sha256": "02d4149196d59d6d17c35140d669b4e861fe2055d6c9da48dd6b7efa7d278d9e",
+      "metaSha256": "e5d06c460f4b244f4280313243c252fac813e5eabdf310f8c3d66e3dba4b9207",
+      "bytes": 508477,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/aky-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/aky-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/aky-idle.png",
+      "guid": "64e82700f9aa6244ca2899f1e4dcbafc",
+      "sha256": "15fe47f4ba27709053a20321304f511e4e9e6a141f3e8708078de02f7450edb1",
+      "metaSha256": "9e4edc400ac99a2a9abd695a1422b7c90b7272366e787055a8c86199f2f3f093",
+      "bytes": 610356,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/atong-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/atong-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/atong-idle.png",
+      "guid": "0897e94ca8da17b45a227626a6958df6",
+      "sha256": "c5d825faba05bbff17400c00deaf59702ce514c3d5f7eff44bac56534e0dccad",
+      "metaSha256": "34a9244e7a6797e55ca0eb6fea416898113d8c8de7b5ae4f3e710d939907e067",
+      "bytes": 785918,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/atori-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/atori-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/atori-idle.png",
+      "guid": "067008953cbf07f43967c72eb2e89062",
+      "sha256": "7a9399482ebd8fd68d48786b3636fd6f6dfa925526dd0937c440005b6695f338",
+      "metaSha256": "107e4fee3d6e72d1cbb337dc2fd725bd1cb4906ad159c95ae83c0a95e0c3c509",
+      "bytes": 533240,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/blotan-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/blotan-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/blotan-idle.png",
+      "guid": "9a8a223df773dc54a9c3df0738f388e5",
+      "sha256": "8413630d48371b3d49353cda881ecccabc9e3358a33d08060dab346e24f5f81a",
+      "metaSha256": "f77d521389dabed50b27c73c0b1e137e23ccfdfde64e8a496f0a826c4f622ca1",
+      "bytes": 726577,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/bugaloo-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/bugaloo-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/bugaloo-idle.png",
+      "guid": "84e57c17e0bee8d49bff2704f7e78d30",
+      "sha256": "c061f898abfdf36e6698d3d346c1478f34b35ebb504252617ffe68aac5974775",
+      "metaSha256": "60775ce34b2eca6d64e7007f448b5fd39fa336ea0d4f6022ffe723fb9e34e3e7",
+      "bytes": 1363735,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/bugui-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/bugui-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/bugui-idle.png",
+      "guid": "adfdf64f1842e784eab0757831b9ed50",
+      "sha256": "4d867f15aa5c0ab6e7e1238df1e38c78ff2f0485885d20faa58b086a3a4f23af",
+      "metaSha256": "d643bb1ec49ce04456c367fb9d17e3570a38669a5ba8923be2d0ddda9528560b",
+      "bytes": 26747,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/flo-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/flo-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/flo-idle.png",
+      "guid": "82d4f0fe753fd3240bb9ae88623fe107",
+      "sha256": "024ab6c7869d08f20d1c68376ce2d02a67f977907e9664545f6efda68cfe348b",
+      "metaSha256": "b8ca0d5cb7516d51d641160240d4c5e8ae6df7818b293c1fc210bcfdcbeca4ff",
+      "bytes": 678842,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/gochan-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/gochan-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/gochan-idle.png",
+      "guid": "3254047187cbbbc45a630c4d6fa7040f",
+      "sha256": "3d0ef8f39c02d3f48a62d3c256212dcbf690a9327cad6dc817c18c28711d1d62",
+      "metaSha256": "ef445e07624d848ae413ddd9ef1b536bf03aff6c7c96cc3d90dd40973e208916",
+      "bytes": 709332,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/hymay-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/hymay-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/hymay-idle.png",
+      "guid": "73a85b7214fb79645b96912741260998",
+      "sha256": "b02ef0628cbfb0ff3ce9e3a25b4094a4b84892c8a4f06a14626c02dfe7a51877",
+      "metaSha256": "cc24f89569876e9794cc81aaa566c8552605a0517dff2e5cdbf19f2cc44b6d7d",
+      "bytes": 665006,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/jazar-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/jazar-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/jazar-idle.png",
+      "guid": "6f479aa9bdbfa9349965039cc18092c3",
+      "sha256": "3c97cce60643f341ba135aa259acb25a3ae16421a6c7a9e97335dc1a82f45122",
+      "metaSha256": "60bece298b7e32867a5c538efe4534a38519a8169e83e2f717af0025410f72bb",
+      "bytes": 853782,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/kayon-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/kayon-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/kayon-idle.png",
+      "guid": "671b568616626ed45b319d5417e7d879",
+      "sha256": "20959470d6474ad8c52da0664fca412ad5242400cb50df20ae27dd0a8477fa75",
+      "metaSha256": "d3ba2e51095c98afce6ab1046da2bfa11d0eecc6c4f6ff974f7e0cb5b7f9ee7b",
+      "bytes": 750708,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/popow-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/popow-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/popow-idle.png",
+      "guid": "402441e0276001f438c4c2d21b7c5500",
+      "sha256": "5d8cacb8e8a5ec27a164c21b4d62711995880291b985bcfe17f0cf8fc716c5f7",
+      "metaSha256": "8165d05cecb0bcc5c0b3274bbf74720285513d22b76e2a32e5d37182d18767a0",
+      "bytes": 27990,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/sepora-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/sepora-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/sepora-idle.png",
+      "guid": "76a54cb3b94a76149a9efb670ebc0775",
+      "sha256": "0acd3fae4dfdfb05dbe03ae6c68b0aa326163d1aa6e4a48d01102bbd4d87e397",
+      "metaSha256": "56193a32a93788ab89a553cce527292be370ef4a11c090a9a0118c25bb4e2b45",
+      "bytes": 681424,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/stein-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/stein-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/stein-idle.png",
+      "guid": "fd11c64187b155a4fac12bad810a2b2a",
+      "sha256": "1f16aea4b18e4e9682e7ff903c4cb6d1424f9ba2658ad45f63d742003e511cdc",
+      "metaSha256": "a16a729c09ea4be926f634d0df20e818ed77466de976d0e34853f277d8210ccd",
+      "bytes": 706498,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/tokoro-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/tokoro-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/tokoro-idle.png",
+      "guid": "7d02fc272c447964cb8d53b679fc849d",
+      "sha256": "7677988f6774016221ff20ceebaf0226a832ddea26125d44b11dba986ab4dd43",
+      "metaSha256": "5bac01cdb7403ce425c1eb8cdbc5f5a8d16fea274e05cb0239979c7eb5aa5868",
+      "bytes": 671649,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/trimol-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/trimol-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/trimol-idle.png",
+      "guid": "3ec2fa339e73ce441b00a2cc3c05909f",
+      "sha256": "da9e287d92b2eb7808f24c18463dea8261f256b8a2357bcb69447629b1e41372",
+      "metaSha256": "20189974c2532e9b3ef02d239b2a4c3f507d714a5727beb42f990244c26d61f0",
+      "bytes": 756723,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/tsu-idle.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyGestures/tsu-idle.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyGestures/tsu-idle.png",
+      "guid": "3152d264f113975449bfbb1df8b4a245",
+      "sha256": "93a52aa8683b42257b53b7ec217f0982a16c831667fdc3d6f2055e3957e528de",
+      "metaSha256": "e466b9a5916434c53ce9f2c63e7defad4a096aa353bf24f237f14a5fff86ce74",
+      "bytes": 664415,
+      "metaBytes": 3009,
+      "category": "superseded-resource-idle"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/ReferenceRedesign/blotan-clean-v3.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/ReferenceRedesign/blotan-clean-v3.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/ReferenceRedesign/blotan-clean-v3.png",
+      "guid": "f9484bc35ea7ee74b895f047223147d6",
+      "sha256": "824a1e537dc070cf582f12e90f97cf4e4f099498f5bfe6e1935948f1e8706974",
+      "metaSha256": "6c8c30a7bdaffbbf754eb24c1ff7c93096551ae4e6af368b6d0a1feb87a1723d",
+      "bytes": 2545029,
+      "metaBytes": 119443,
+      "category": "superseded-resource-derived"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/ReferenceRedesign/stein-clean-v3.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/ReferenceRedesign/stein-clean-v3.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/ReferenceRedesign/stein-clean-v3.png",
+      "guid": "1d177c5c9e2519d47b625623f035260c",
+      "sha256": "b0b7988fd2edf3743ab8c80f701fb93b9113abb6bd1e1e9d0ccebb9ebf2f355e",
+      "metaSha256": "9ed1b2394d99f08a1bf180012d491b4ee5020b60691258c076606520d6df755c",
+      "bytes": 1893060,
+      "metaBytes": 75456,
+      "category": "superseded-resource-derived"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyFrames/popow-idle-polished.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/resources/MonsterPouch/UI/LobbyFrames/popow-idle-polished.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/resources/MonsterPouch/UI/LobbyFrames/popow-idle-polished.png",
+      "guid": "a9dedf339010ee94bb0df38df9b588a0",
+      "sha256": "f2331e15a1c424f8d8b21da21e47c18dd4d514fa610d2f790974711244a67621",
+      "metaSha256": "5c15975c277900a188dc3b0425b6bf21ec03a699082ef7f5253bb2ef82b5c143",
+      "bytes": 439618,
+      "metaBytes": 2292,
+      "category": "superseded-resource-derived"
+    }
+  ],
+  "priorFiles": [
+    {
+      "path": "Assets/Editor/MonsterPouchReferenceQuality.cs",
+      "beforeSha256": "f732b4c5f9357da673f9df6ba77feecb4600eaa1553a131434db94f9e6de90e5",
+      "afterSha256": "d86ebee02e3f2f0deecbd5d733918d9efeb34bb1508fe6d1f5ddd3ae86537a32",
+      "operation": "modify"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/clips.json",
+      "beforeSha256": "5070d6d194e87b4656196da99d0104a280a4dab57bd4e53173ca72f4eda38e05",
+      "afterSha256": "e6f15be5533fc0cf6a4cdd541d5601c058ad48c62377a0df85e9b69b87c659eb",
+      "operation": "modify"
+    },
+    {
+      "path": "Assets/tests/edit-mode/Tests/legacy-art-archive-tests.cs",
+      "beforeSha256": null,
+      "afterSha256": "0bf6dae523f2c30069d4c2d9420028e502533d4623ad2788c11e67c07a45a014",
+      "operation": "add"
+    },
+    {
+      "path": "Assets/tests/edit-mode/Tests/legacy-art-archive-tests.cs.meta",
+      "beforeSha256": null,
+      "afterSha256": "1ab9c8ef0cd087e179dd98878cdea0a5f799be1e06d2ded229426d42e5074667",
+      "operation": "add"
+    }
+  ],
+  "archives": [
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/aky-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/aky-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/aky-combat.png",
+      "guid": "2e9d490e25189eb47b0dee28389e8e78",
+      "sha256": "60743c241646dc46a80089936ccc8cc69836a6c05d4e67b61ad4e66d9b6cd752",
+      "metaSha256": "f608ad42fa4186a1d868f3e8952d205e91c838ca74096ba871a338fe3f937507",
+      "bytes": 2846562,
+      "metaBytes": 4227,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/anuik-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/anuik-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/anuik-combat.png",
+      "guid": "755c2caa3a443a34aab1431036b8be92",
+      "sha256": "a75efcf5fda3085776521193fc398d3ce4a191e0eb65cda73fcf60823998d6bb",
+      "metaSha256": "c734d16d0053be7491c4cadbe7707d5e8d389cfff243ddf00a31b4f67978f0bd",
+      "bytes": 2092944,
+      "metaBytes": 5478,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/atong-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/atong-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/atong-combat.png",
+      "guid": "7353915ddcada534db7b2a343fc487ad",
+      "sha256": "f51aa342766630f1a6e202670cc2c125599a42eb343e773a2b83120da9671c14",
+      "metaSha256": "8856bb126bbf11ef4fed376b09763a05061ee8906d24b272f9fc819b48603807",
+      "bytes": 3100149,
+      "metaBytes": 3618,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/atori-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/atori-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/atori-combat.png",
+      "guid": "cbf1f15b697633c459e1491d2b72d3ef",
+      "sha256": "55e66bf6b5c9123203fe8fffce860841c4cf02c97e54aef8afa49be32c9c4981",
+      "metaSha256": "c94a03a845eba1a62ddda5731c3f6c8d6d8ffccfeb261f07ca07bf98dc2027b1",
+      "bytes": 2590641,
+      "metaBytes": 5485,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/blotan-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/blotan-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/blotan-combat.png",
+      "guid": "0fc1c735a5a0c154994b2bc0e628dea0",
+      "sha256": "a008a1135ba13c1b5902f766e1917d8790537dfc57e7f0719ef57898533043f9",
+      "metaSha256": "69dc569db8149374625f06065531afdf63e2390de5fa56d6014cbd897e36e2d8",
+      "bytes": 3144135,
+      "metaBytes": 14239,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/bugaloo-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/bugaloo-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/bugaloo-combat.png",
+      "guid": "5b203fb0315ee9947b4db7cbc7d3ee21",
+      "sha256": "1f96dc202573bb455bb6ac315494019f9acedf9de2712faa47d981f722c9d0d1",
+      "metaSha256": "9a0ccb9966e727ae461fedffc6747c52768dbd66fb193734769e5f425a17bbc2",
+      "bytes": 2645364,
+      "metaBytes": 3624,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/bugui-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/bugui-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/bugui-combat.png",
+      "guid": "e597e4735f381464b9863e24a59c6f76",
+      "sha256": "f2349b444b1e8361c5c67c14b9cd26d52b156e2f104e97c0ab98b46ebe7727b2",
+      "metaSha256": "9177e8122e0d4601062185c2879d904172bd1a1a838fadb9803b09d992fdcb85",
+      "bytes": 2937990,
+      "metaBytes": 5478,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/flo-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/flo-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/flo-combat.png",
+      "guid": "29ffb9fb0acf151449ee6e594fddf1b4",
+      "sha256": "179c0aaa4d97c310acb3ea9b4f7356a799a69a7eff76a2e963b2667fa809b743",
+      "metaSha256": "00bf7d14b578e1dfaff295d753cc57fd44c98122f91caba72138f3bc830930f7",
+      "bytes": 3004934,
+      "metaBytes": 3615,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/gochan-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/gochan-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/gochan-combat.png",
+      "guid": "895ef8e890632e548a2cde13835783a2",
+      "sha256": "86402e2922de46eba64890fab9b7e66742b423d0eeb47370dd8be839f12f3217",
+      "metaSha256": "dec8caf2d1bd5e73dbf7707e9d1fbd0ece51fde5ac6a81b40c85359df6f44f83",
+      "bytes": 2934695,
+      "metaBytes": 27428,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/hymay-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/hymay-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/hymay-combat.png",
+      "guid": "a557b2067402bcd4da9124a92946e36a",
+      "sha256": "95f83f30983a9db7667d5b2117bfdbbef5e222fdf877647ad9b4d7df522d25a8",
+      "metaSha256": "18d718958ad5b126355683c28f760b3cd05c80668d379d0237eb1b593825909f",
+      "bytes": 2693972,
+      "metaBytes": 7955,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/jazar-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/jazar-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/jazar-combat.png",
+      "guid": "ea6e2774e74817746bf23fdebf671dd0",
+      "sha256": "2c05ce4c3aa307cbb94072c830b51023f2cb788fa63ea99eb7ed82201ec1a4f0",
+      "metaSha256": "911c4cbd3ad3ef51e9da5ca74e0c71ba56031757e8c9e6aead5aca68d8acc2d2",
+      "bytes": 3211887,
+      "metaBytes": 3621,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/kayon-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/kayon-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/kayon-combat.png",
+      "guid": "42577d3e1ae421c4885a52009ce70bf2",
+      "sha256": "28f452934d1b3e4557601c76db1bfbe0b070e3609520d24b7b22f56611f1cde5",
+      "metaSha256": "433391155465d937544391e0eca21ef86218339afd2048f1bc215d7ab2110e0e",
+      "bytes": 3212630,
+      "metaBytes": 3621,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/popow-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/popow-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/popow-combat.png",
+      "guid": "2b33566b4fe9d5249bd28a4c530f9d37",
+      "sha256": "e75fb72ddc3fee0dc5b012bb503a8570673332a81ac15f0787a17dc16722f50b",
+      "metaSha256": "55ad69c6409fbe357dd6513d7b71ec44dcb120c3939e01a8e890631eea55db1c",
+      "bytes": 2805514,
+      "metaBytes": 13575,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/sepora-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/sepora-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/sepora-combat.png",
+      "guid": "90bd9e4d70e0024429442846aae71644",
+      "sha256": "39cf89479330b1a7d1991e65c07e45746f0b7c8c7c73cc1f4907d4ed80e86842",
+      "metaSha256": "a0d088143bdbab10ede9db8800ee9cfc59fdb3d6489cb5743800711bb3fb6653",
+      "bytes": 3095264,
+      "metaBytes": 4245,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/stein-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/stein-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/stein-combat.png",
+      "guid": "55cf94c34cc4d414d99b582ff1785a48",
+      "sha256": "cd516dfa9d9b7af342b9a2956fae633afc17909e8f49688ce588362f5c922666",
+      "metaSha256": "1784dfd2a98748fc07ddafc4eaa1a4facc4109e860410f4577a5603f4563070d",
+      "bytes": 2184963,
+      "metaBytes": 4232,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/tauris-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/tauris-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/tauris-combat.png",
+      "guid": "7ac0f0b16c159754da272a75575e86c5",
+      "sha256": "94228be215a273034d63d15b5cfeafc8c63d84a37b9dab2bbb0b83ae1a7fb63e",
+      "metaSha256": "61b433da4f58da9a6eb546d60a495b018ee5014bfbfe498e135258f83a74b4ba",
+      "bytes": 2764410,
+      "metaBytes": 3624,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/tokoro-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/tokoro-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/tokoro-combat.png",
+      "guid": "4425d66435e438149bb2113aa1467d82",
+      "sha256": "57a2a99aa9a8e8db95ce7fa9578ef508d8b6537544988560b322911c3a9cf076",
+      "metaSha256": "188681a80a7a8f71a0fca124f7ac8f4a8db33bcc711a132693626fe2023654a9",
+      "bytes": 2605123,
+      "metaBytes": 3620,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/trimol-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/trimol-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/trimol-combat.png",
+      "guid": "3e6707ff4b1fb684fb0c2e16d0ed6724",
+      "sha256": "e92a4b50d4c5d9b1b12b5881c5bf0b87509a5f2d1d7cab3e896751eb6d01fede",
+      "metaSha256": "058ce4f8c390ddf101906f3a4dd23b0406fee5dd10362d2082b7c58b4870811e",
+      "bytes": 2912657,
+      "metaBytes": 6743,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/ReferenceRedesign/Sources/tsu-combat.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/ReferenceRedesign/Sources/tsu-combat.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/ReferenceRedesign/Sources/tsu-combat.png",
+      "guid": "1d2f79f94ae5c3340a5bc9b7247ec0a7",
+      "sha256": "dbd10d1bdea68678b043b78bee60d5e26b6c6f35ca918890a4c53c9cbcf944a0",
+      "metaSha256": "6a881780d0f4603a579b74c16f3f38ca934a90cc37409696d0bc06a5fc9e8d74",
+      "bytes": 2784571,
+      "metaBytes": 3615,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/aky/aky-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/aky/aky-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/aky/aky-source.png",
+      "guid": "6c3e64837dbd1d7429cbfae20be92e09",
+      "sha256": "15fe47f4ba27709053a20321304f511e4e9e6a141f3e8708078de02f7450edb1",
+      "metaSha256": "b446d0efeaf50f33ed1bfb6d4adf68e61aa9a1d0c8f222b1729a3387830df930",
+      "bytes": 610356,
+      "metaBytes": 17143,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/anuik/anuik-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/anuik/anuik-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/anuik/anuik-source.png",
+      "guid": "ff202c629fb99e84eafeb86eea91285c",
+      "sha256": "410a62932b8ec9bfad28756be65a014588cefc2159697ba1a64e0c258da839ae",
+      "metaSha256": "bca6e72f5c8db7a1d39d9b29b65887aa33006fa3d73e8271e71f71559f143f19",
+      "bytes": 862991,
+      "metaBytes": 3618,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/atong/atong-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/atong/atong-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/atong/atong-source.png",
+      "guid": "50b859a99c688e94b98b29187dd87f26",
+      "sha256": "f0f4d1e135c6e0c5f02de31970228af0438b8d35c172c26066cea6be16598b21",
+      "metaSha256": "a46d415c4e80acb6ffde008ee6a92884ae11c9a8b0f60cc3641ff8289d7f58d5",
+      "bytes": 995645,
+      "metaBytes": 3621,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/atori/atori-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/atori/atori-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/atori/atori-source.png",
+      "guid": "48c2ca5499ff4284da7a73e226ff461a",
+      "sha256": "7a9399482ebd8fd68d48786b3636fd6f6dfa925526dd0937c440005b6695f338",
+      "metaSha256": "1eff845ab12e6e330fe4042097fdcee7531cba977d5a86c68d0bb73d0ef5d86b",
+      "bytes": 533240,
+      "metaBytes": 3620,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/blotan/blotan-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/blotan/blotan-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/blotan/blotan-source.png",
+      "guid": "de4671ac41d4e534cb7507278d57b976",
+      "sha256": "8413630d48371b3d49353cda881ecccabc9e3358a33d08060dab346e24f5f81a",
+      "metaSha256": "197b451e3780e65b779f182093868bcb7bdd09b8ca9760bdabb441a0790fc122",
+      "bytes": 726577,
+      "metaBytes": 3622,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/bugaloo/bugaloo-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/bugaloo/bugaloo-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/bugaloo/bugaloo-source.png",
+      "guid": "ea38cf42ab855dd468b1e1fddea9034f",
+      "sha256": "c061f898abfdf36e6698d3d346c1478f34b35ebb504252617ffe68aac5974775",
+      "metaSha256": "841751443d9d8b2d9fdff1a4f8b7e9afef1047991edd66cf06cf0f1d20f58e76",
+      "bytes": 1363735,
+      "metaBytes": 3625,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/bugui/bugui-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/bugui/bugui-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/bugui/bugui-source.png",
+      "guid": "da20af8dc1e789341b04d40b59f49d41",
+      "sha256": "4d867f15aa5c0ab6e7e1238df1e38c78ff2f0485885d20faa58b086a3a4f23af",
+      "metaSha256": "3b1911d9031be0ab47f9b0bdfe950a31707605bfc74510e862587454dbba3cd0",
+      "bytes": 26747,
+      "metaBytes": 3620,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/flo/flo-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/flo/flo-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/flo/flo-source.png",
+      "guid": "82a182585a05e894fb48a49bf7bc8454",
+      "sha256": "13ed4a152bb6514d135c3abf6012d91d97670843c0c4c4086fbad1e5ee03d721",
+      "metaSha256": "ed6e53237866d7601eb7bf03c71d6f604cee4fc1ddd3f5315da505a5fb4a126c",
+      "bytes": 1003635,
+      "metaBytes": 3615,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/gochan/gochan-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/gochan/gochan-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/gochan/gochan-source.png",
+      "guid": "fa6fdd5a52cc83b4094436c6cd3ebdc7",
+      "sha256": "3d0ef8f39c02d3f48a62d3c256212dcbf690a9327cad6dc817c18c28711d1d62",
+      "metaSha256": "ae13f2471b1a1c95a9fe8fa444bfa714b059caac7147bbbd6ff6c1c77126d311",
+      "bytes": 709332,
+      "metaBytes": 3622,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/hymay/hymay-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/hymay/hymay-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/hymay/hymay-source.png",
+      "guid": "9ce94099792232c41b60c8711aa094d3",
+      "sha256": "6772654d6239805e4a6c99f4625352b0e0f30fdf1fa87075c6050dcb24bf2f5c",
+      "metaSha256": "47ba9e2e808eada2a275c9531ee84a035689126370b9ffb28805e9575b86d230",
+      "bytes": 1206111,
+      "metaBytes": 3621,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/jazar/jazar-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/jazar/jazar-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/jazar/jazar-source.png",
+      "guid": "bf908d6c43d6cab4381a62ac24d34f04",
+      "sha256": "3c97cce60643f341ba135aa259acb25a3ae16421a6c7a9e97335dc1a82f45122",
+      "metaSha256": "adda2ed6aa2e27c3a4f4c8ac99806fa8875db0916afa79e9ac34f31f25d5cf6f",
+      "bytes": 853782,
+      "metaBytes": 3623,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/kayon/kayon-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/kayon/kayon-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/kayon/kayon-source.png",
+      "guid": "4e80099acfecc1546bf969f9275cb100",
+      "sha256": "c7ca465f661bab947aa9075a7ebd45fbf3b7bb8eb96acc1e8322032c02a3a6ab",
+      "metaSha256": "8e8a820171bb2e2e0b61f8e3104fa0e64fc01dfcf8da5c3b74e18617e11c42ff",
+      "bytes": 863257,
+      "metaBytes": 3621,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/popow/popow-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/popow/popow-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/popow/popow-source.png",
+      "guid": "dfe47ee7957fb1c43889e92af3edf90c",
+      "sha256": "5d8cacb8e8a5ec27a164c21b4d62711995880291b985bcfe17f0cf8fc716c5f7",
+      "metaSha256": "d63ba5f33cec2fd626685c1715321f20801c03d755a834b7c3dc789123c2c388",
+      "bytes": 27990,
+      "metaBytes": 3621,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/sepora/sepora-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/sepora/sepora-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/sepora/sepora-source.png",
+      "guid": "e7ea5d061a8988b42b4839d906fa4a31",
+      "sha256": "0cdab0f2914e8a2a43930df24425016ec40c8b26d4155d86acb6abdfd829958c",
+      "metaSha256": "0e9d64af2e685e80585dfb67a5c753cf20ee262743cb539648b9123971da1632",
+      "bytes": 1000540,
+      "metaBytes": 3624,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/stein/stein-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/stein/stein-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/stein/stein-source.png",
+      "guid": "88bd8121ebd7adb4099d2c123752c157",
+      "sha256": "921cf18f3beff6eb863b3f7a7d6477d788d7b9a519250dbfd2ae90c3b5d3905f",
+      "metaSha256": "b205750f844f56ebc276e4891153fa4b0ced4e31d45a52458795bc111d972c28",
+      "bytes": 849169,
+      "metaBytes": 3618,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/tauris/tauris-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/tauris/tauris-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/tauris/tauris-source.png",
+      "guid": "3e6d414c5b3093b44988638c378062da",
+      "sha256": "fb65488a3c603389c9b0cb77d9c01dc6eb245bdd35e018d5a7d91e5caeffa463",
+      "metaSha256": "f73c32d9548a605b539192f3ce9c7836e679276aa6b76ac816c7afb21bf6fc2c",
+      "bytes": 594032,
+      "metaBytes": 26724,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/tokoro/tokoro-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/tokoro/tokoro-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/tokoro/tokoro-source.png",
+      "guid": "be4084d26c919e347ad199776814cc01",
+      "sha256": "2177781e6b681a73c6ec6a07d401190cd1f70f108bfb88c98fdf1ec4b8996dd5",
+      "metaSha256": "499f26ab00096b0d27e488abc89b79fdfd5aedc4d0bcd32a7ca6efe0c6196b52",
+      "bytes": 940895,
+      "metaBytes": 3621,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/trimol/trimol-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/trimol/trimol-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/trimol/trimol-source.png",
+      "guid": "760c514bbc42e61449889ef418fc8b94",
+      "sha256": "da9e287d92b2eb7808f24c18463dea8261f256b8a2357bcb69447629b1e41372",
+      "metaSha256": "099de6224fea50730db5965b01c9944ef7945a65467c5c26c6ee600c4828ad54",
+      "bytes": 756723,
+      "metaBytes": 4244,
+      "category": "source-archive"
+    },
+    {
+      "path": "Assets/art/units/user-sept14/tsu/tsu-source.png",
+      "destination": "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/tsu/tsu-source.png",
+      "backup": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-build-cleanup-20261102/recovery/Assets/art/units/user-sept14/tsu/tsu-source.png",
+      "guid": "0d8d35fbbae9bf84eb4fed2d2649aa61",
+      "sha256": "93a52aa8683b42257b53b7ec217f0982a16c831667fdc3d6f2055e3957e528de",
+      "metaSha256": "ad284a84d6acc9f6e50117372bc1d93d4c9494fd09396c52159c60ba789f5392",
+      "bytes": 664415,
+      "metaBytes": 6070,
+      "category": "source-archive"
+    }
+  ],
+  "files": [
+    {
+      "path": "Assets/Editor/MonsterPouchReferenceRedesign.cs",
+      "beforeSha256": "5256215ee2ce834f88303967ac27ac65bf4f91694b81980e4adcd764d980c68e",
+      "afterSha256": "085f14ac53d2c3cc579d333c60b93183a749f7643df7f9fefd001078c63a7886",
+      "operation": "modify"
+    },
+    {
+      "path": "Assets/Editor/MonsterPouchSeptemberArtSetup.cs",
+      "beforeSha256": "4885c02f27d283bb5ac9311f1038c1da7e3dbdae192d26c944524127e4cfe9a5",
+      "afterSha256": "22cf7524e4a43cd11a740115a0893b23c40fd8ab3d97e2588d612db1eed5faef",
+      "operation": "modify"
+    },
+    {
+      "path": "Assets/tests/edit-mode/Tests/legacy-source-archive-tests.cs",
+      "operation": "add",
+      "beforeSha256": null,
+      "afterSha256": "aacb1b9eccaa22664635494729658d4a9eea15b7e4701af2cddf4a846033a709"
+    },
+    {
+      "path": "Assets/tests/edit-mode/Tests/legacy-source-archive-tests.cs.meta",
+      "operation": "add",
+      "beforeSha256": null,
+      "afterSha256": "b4415d22c17ae059cf90bcb121d342a70a76218d24ed24dc7a2dd9a960a6efb3"
+    }
+  ],
+  "workspaceReaderChanges": [
+    {
+      "path": "C:/Users/HP VICTUS/OneDrive/Documentos/ChatGPT/monsters-pouch/legacy-animation-sharpness-20261101/verify_sources.py",
+      "relativePath": "legacy-animation-sharpness-20261101/verify_sources.py",
+      "beforeSha256": "a784914bf0c9a5060905890e56a843f0e66a0e5103f2acb218a9aa18900122b1",
+      "afterSha256": "0387a4c6190ca43a066148dbc129c73ccd9602272901db10bcf1d29f5598cf50",
+      "operation": "modify",
+      "owner": "Existing sharpness verification tool; representative/integrator must review and apply this scoped compatibility hunk"
+    }
+  ],
+  "protectedAssets": [
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/aky/Character.asset",
+      "sha256": "2dabca8c53b0c32282c612d4980199d25e2f5797b9d3d7210c8d35553ee41323"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/alboguera/Character.asset",
+      "sha256": "b2d8552711a106f7024772815da3061dac848852bfd50bfc54bb1b5bc12daee3"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/alveyr/Character.asset",
+      "sha256": "d020bf0b28e283725a607ff742029615f9bc706b5a166bc855b8e0f878419dc8"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/antidota/Character.asset",
+      "sha256": "76acefcf7129a13ab4df907bb8f34e55318ac0d2a8c5eb6b1f75a3a4c1d306a6"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/anuik/Character.asset",
+      "sha256": "b2c373cf531cee3e3419e2065c65b7c78ac032e26ec662e238ac6261aa1ad7a2"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/arboreo/Character.asset",
+      "sha256": "66107774a801762013575bb9442322d23f7d52ba9ac0b5574bed8a6a1a400007"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/atong/Character.asset",
+      "sha256": "56b2e7e61d212bac91112957803cae81ec84e45a07d2a04bd2038f2836317494"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/atori/Character.asset",
+      "sha256": "e344079302a50d9828eb594c606e3f34457714008ad2b0d839263d36eec0529c"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/blotan/Character.asset",
+      "sha256": "ed60d47a245995c478d4b58ba028815d2d9bc110264aedb9802059694e811875"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/bugaloo/Character.asset",
+      "sha256": "c8e31ce9bd6903e5a0d838aeadcab5aa335e8d3738d56c09d4b2bff1b295bfb2"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/bugui/Character.asset",
+      "sha256": "04e0fd6f3c33dd4a71c77b0b939518adc820d14d740882f11044cfbe0790640f"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/cael/Character.asset",
+      "sha256": "2ce50a6ad27c91c4d12023ebab253f3e8bba9a97424ea9d5d20bb4d2262b8171"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/canonero-del-orvek/Character.asset",
+      "sha256": "83d20b70a59e77fe75199ba14e31aecae85c22cf8443341d7e8d7522fca9d5cf"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/dagata/Character.asset",
+      "sha256": "8a6022b10df5dead06149f218c4d8fc0eb893839dea740713be9d55ddfb7d05c"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/drayven/Character.asset",
+      "sha256": "fea4716e6234f8c62f6f876bb85803256094d602c8d6b948cbd478527ccb10ad"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/flo/Character.asset",
+      "sha256": "1f3eb498edd5d0843608610e037fd6e185768cb3a8c3abb73413c166a532fbe0"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/gochan/Character.asset",
+      "sha256": "9f5b6ee62b83033cf8d1be34f288638afa7039c64e45ad03a9d59e095105990b"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/golem-tectonico/Character.asset",
+      "sha256": "6abfde7f60c7736766a07ef7f6113c27bc4bb100825c4821f292e475cf0466a8"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/guarda-veterano/Character.asset",
+      "sha256": "16c5d018380d87d17705a98892b78ca91b21a3100880c8f3debd92375276928d"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/hymay/Character.asset",
+      "sha256": "7a1fe5873e461b5b48611cc3bea2cbee25723438c17d81f413ea3affaa1cbddb"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/jabalinero/Character.asset",
+      "sha256": "bbf897ec9510cf9f7d42c524d7474afda78403c9b11806ea3dac9eb8bc7abaa3"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/jazar/Character.asset",
+      "sha256": "dac365791139aa5e534b4393a02e4c9c25e6b83324394650a5570fc2e74863a8"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/kayon/Character.asset",
+      "sha256": "e6ad11861a76629ee0e9f924e9c6ea2ac03cd5d4e958860dc61f4d0c1d56e9bb"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/kazuru/Character.asset",
+      "sha256": "cb5afdb67d3ea85678885323895601561d028019fe1fa0cd551bdfa6a02cbae5"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/korran/Character.asset",
+      "sha256": "472206febd7509756a191d6fff387431153485e407621ee7b7b365490bc8e047"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/la-minera/Character.asset",
+      "sha256": "f44b8ecd8a8893ca9d1cb0457dca8546ffb458d19ed3630323f441f1d19862c6"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/legionario/Character.asset",
+      "sha256": "7389139d76759b46a1fe50955e9a9b9f9cd97f7f4666361b82d944c34e392819"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/maestro-de-las-mareas/Character.asset",
+      "sha256": "c993687247dcd46e018247b6b15c6b67c211de9945d898d91653fd5de6146a3d"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/martio/Character.asset",
+      "sha256": "c8542ec07bb90ad1cb51091c978bb4b94d1480ddf39f8179834f97879c9c6def"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/palista/Character.asset",
+      "sha256": "93e7e1818304ea9d0636b1874e3b6ee144b3ac539cad841255a4b97236f44e41"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/pokrak/Character.asset",
+      "sha256": "21f38b5b23bffb790321337ccffebc5bc6855c533fd530c43b2c7e16c8288404"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/popow/Character.asset",
+      "sha256": "8b2b73949d16b07c34c4fead8be6c66f1f762a36781eb8e1e85db2846a950c63"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/protectora-del-mausoleo/Character.asset",
+      "sha256": "972ee8deaa8140d5fd6a637f1523e7282820b6d9f81891c7a10cdbe7aac8a9a0"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/rosie/Character.asset",
+      "sha256": "bb30ccbaf68809b931638c917362f861c39a45b03b2986fcb36773103570d215"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/sepora/Character.asset",
+      "sha256": "91e8e57955087d8990d71712047ccc4a2fd4a2ba0aadda10307c2832e0c088e2"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/serya/Character.asset",
+      "sha256": "7843d00393f5628524c4b2581ad5741eccb1ebe4fb96890f51d55621b0f5826b"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/stein/Character.asset",
+      "sha256": "a86a25c643e924136cf4e006fbf00662b5cdb64c6b340dcccc59ac6256bc5091"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/suki/Character.asset",
+      "sha256": "162e2a638e1b6bfaa08317b65306b0afe9c6eaccf69765d46ee14c690363cb85"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/tauris/Character.asset",
+      "sha256": "d767881e2faacc076a4a16bf5ce0deb6df085424a16cc28f594412f73f4cc218"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/titanica/Character.asset",
+      "sha256": "01efdbee4f9f65153180e84a1756f83c493decdb1c63f7030ff46fe42ae58d0d"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/tokoro/Character.asset",
+      "sha256": "b1599cf91445e9042aa9121a0a539908814805f796ad253504195c352e2bdd1d"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/trimol/Character.asset",
+      "sha256": "dcf085a133dfd5cf1004f44200e85681e20d6d4a3df7fde767e794571681eaf4"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/tsu/Character.asset",
+      "sha256": "38e73598f9944a045d4c5ffd3a3f5fb27e082735b7e852db71eab1102d906927"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/Characters/zephalontropo/Character.asset",
+      "sha256": "4f994ee3b8330910f0016fa7e715968d3facc0be329c746226f808b8acc779d1"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UnitArt.asset",
+      "sha256": "1c7ad387f80044ca3246da0c3325e2843e78164b531015df704dea171433c71c"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/MatchConfig.asset",
+      "sha256": "8bd4788719c2c1301a56e65aa7341d587346bf2a91b818ea85ccf0110b5520c2"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyFrames/clips.json",
+      "sha256": "c42796477a6229757e77cdd650a2ca577a6b160b91ea38872a30e1c212632d70"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/BattleHomeIdles/clips.json",
+      "sha256": "6b2f345e3455c3744890759554b91468ceec12ee43b83213122450310cefacf5"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/ReferenceRedesign/tauris-clean-v3.png",
+      "sha256": "0225e8bfa21c5ba6e9e347ce4aed495113f0daf5de819b91c4523fa79c59c913"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/ReferenceRedesign/anuik-clean-v3.png",
+      "sha256": "dc82b6d11ba8e52180c38d2bedea8559f70634b5ed3b4897e566ac96109da4dd"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyGestures/tauris-idle.png",
+      "sha256": "fb65488a3c603389c9b0cb77d9c01dc6eb245bdd35e018d5a7d91e5caeffa463"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/LobbyIdles/tauris.png",
+      "sha256": "151fe65b56dc70670083b10428473e9851f0973936a73cc23a294b93ecd05be8"
+    },
+    {
+      "path": "Assets/resources/MonsterPouch/UI/BattleHomeIdles/tauris.png",
+      "sha256": "16cedc68fcad2c8ed8b36a7a468617194c78d72266552e68c7095ec0444420b1"
+    }
+  ],
+  "roster": [
+    {
+      "id": "aky",
+      "path": "Assets/resources/MonsterPouch/Characters/aky/Character.asset"
+    },
+    {
+      "id": "alboguera",
+      "path": "Assets/resources/MonsterPouch/Characters/alboguera/Character.asset"
+    },
+    {
+      "id": "alveyr",
+      "path": "Assets/resources/MonsterPouch/Characters/alveyr/Character.asset"
+    },
+    {
+      "id": "antidota",
+      "path": "Assets/resources/MonsterPouch/Characters/antidota/Character.asset"
+    },
+    {
+      "id": "anuik",
+      "path": "Assets/resources/MonsterPouch/Characters/anuik/Character.asset"
+    },
+    {
+      "id": "arboreo",
+      "path": "Assets/resources/MonsterPouch/Characters/arboreo/Character.asset"
+    },
+    {
+      "id": "atong",
+      "path": "Assets/resources/MonsterPouch/Characters/atong/Character.asset"
+    },
+    {
+      "id": "atori",
+      "path": "Assets/resources/MonsterPouch/Characters/atori/Character.asset"
+    },
+    {
+      "id": "blotan",
+      "path": "Assets/resources/MonsterPouch/Characters/blotan/Character.asset"
+    },
+    {
+      "id": "bugaloo",
+      "path": "Assets/resources/MonsterPouch/Characters/bugaloo/Character.asset"
+    },
+    {
+      "id": "bugui",
+      "path": "Assets/resources/MonsterPouch/Characters/bugui/Character.asset"
+    },
+    {
+      "id": "cael",
+      "path": "Assets/resources/MonsterPouch/Characters/cael/Character.asset"
+    },
+    {
+      "id": "canonero-del-orvek",
+      "path": "Assets/resources/MonsterPouch/Characters/canonero-del-orvek/Character.asset"
+    },
+    {
+      "id": "dagata",
+      "path": "Assets/resources/MonsterPouch/Characters/dagata/Character.asset"
+    },
+    {
+      "id": "drayven",
+      "path": "Assets/resources/MonsterPouch/Characters/drayven/Character.asset"
+    },
+    {
+      "id": "flo",
+      "path": "Assets/resources/MonsterPouch/Characters/flo/Character.asset"
+    },
+    {
+      "id": "gochan",
+      "path": "Assets/resources/MonsterPouch/Characters/gochan/Character.asset"
+    },
+    {
+      "id": "golem-tectonico",
+      "path": "Assets/resources/MonsterPouch/Characters/golem-tectonico/Character.asset"
+    },
+    {
+      "id": "guarda-veterano",
+      "path": "Assets/resources/MonsterPouch/Characters/guarda-veterano/Character.asset"
+    },
+    {
+      "id": "hymay",
+      "path": "Assets/resources/MonsterPouch/Characters/hymay/Character.asset"
+    },
+    {
+      "id": "jabalinero",
+      "path": "Assets/resources/MonsterPouch/Characters/jabalinero/Character.asset"
+    },
+    {
+      "id": "jazar",
+      "path": "Assets/resources/MonsterPouch/Characters/jazar/Character.asset"
+    },
+    {
+      "id": "kayon",
+      "path": "Assets/resources/MonsterPouch/Characters/kayon/Character.asset"
+    },
+    {
+      "id": "kazuru",
+      "path": "Assets/resources/MonsterPouch/Characters/kazuru/Character.asset"
+    },
+    {
+      "id": "korran",
+      "path": "Assets/resources/MonsterPouch/Characters/korran/Character.asset"
+    },
+    {
+      "id": "la-minera",
+      "path": "Assets/resources/MonsterPouch/Characters/la-minera/Character.asset"
+    },
+    {
+      "id": "legionario",
+      "path": "Assets/resources/MonsterPouch/Characters/legionario/Character.asset"
+    },
+    {
+      "id": "maestro-de-las-mareas",
+      "path": "Assets/resources/MonsterPouch/Characters/maestro-de-las-mareas/Character.asset"
+    },
+    {
+      "id": "martio",
+      "path": "Assets/resources/MonsterPouch/Characters/martio/Character.asset"
+    },
+    {
+      "id": "palista",
+      "path": "Assets/resources/MonsterPouch/Characters/palista/Character.asset"
+    },
+    {
+      "id": "pokrak",
+      "path": "Assets/resources/MonsterPouch/Characters/pokrak/Character.asset"
+    },
+    {
+      "id": "popow",
+      "path": "Assets/resources/MonsterPouch/Characters/popow/Character.asset"
+    },
+    {
+      "id": "protectora-del-mausoleo",
+      "path": "Assets/resources/MonsterPouch/Characters/protectora-del-mausoleo/Character.asset"
+    },
+    {
+      "id": "rosie",
+      "path": "Assets/resources/MonsterPouch/Characters/rosie/Character.asset"
+    },
+    {
+      "id": "sepora",
+      "path": "Assets/resources/MonsterPouch/Characters/sepora/Character.asset"
+    },
+    {
+      "id": "serya",
+      "path": "Assets/resources/MonsterPouch/Characters/serya/Character.asset"
+    },
+    {
+      "id": "stein",
+      "path": "Assets/resources/MonsterPouch/Characters/stein/Character.asset"
+    },
+    {
+      "id": "suki",
+      "path": "Assets/resources/MonsterPouch/Characters/suki/Character.asset"
+    },
+    {
+      "id": "tauris",
+      "path": "Assets/resources/MonsterPouch/Characters/tauris/Character.asset"
+    },
+    {
+      "id": "titanica",
+      "path": "Assets/resources/MonsterPouch/Characters/titanica/Character.asset"
+    },
+    {
+      "id": "tokoro",
+      "path": "Assets/resources/MonsterPouch/Characters/tokoro/Character.asset"
+    },
+    {
+      "id": "trimol",
+      "path": "Assets/resources/MonsterPouch/Characters/trimol/Character.asset"
+    },
+    {
+      "id": "tsu",
+      "path": "Assets/resources/MonsterPouch/Characters/tsu/Character.asset"
+    },
+    {
+      "id": "zephalontropo",
+      "path": "Assets/resources/MonsterPouch/Characters/zephalontropo/Character.asset"
+    }
+  ],
+  "totals": {
+    "images": 38,
+    "sourceBytes": 68157577,
+    "metaBytes": 236536,
+    "resources": 0,
+    "apkSavingsMeasured": false
+  },
+  "documents": [
+    {
+      "source": "second-sources/plan.json",
+      "destination": "Docs/legacy-build-cleanup-20261102/second-sources-plan.json",
+      "mode": "copy exact prepared plan bytes"
+    }
+  ],
+  "pending": [
+    "Independent reference review",
+    "First batch actual completion receipt",
+    "Native preflight",
+    "Native compilation and tests after memory pressure subsides"
+  ],
+  "excluded": "18 historical portrait outputs and 2 non-focus user references remain deferred; no LobbyViews cache changes"
+}

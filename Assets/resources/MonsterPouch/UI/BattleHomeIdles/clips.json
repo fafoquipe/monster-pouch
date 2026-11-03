@@ -1,0 +1,602 @@
+{
+  "clips": [
+    {
+      "id": "anuik",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/BattleHomeIdles/anuik",
+      "idleRect": [
+        0.0,
+        0.0,
+        1254.0,
+        1254.0
+      ],
+      "idleBounds": [
+        96.0,
+        161.0,
+        1119.0,
+        912.0
+      ],
+      "idleAnchor": [
+        576.8400268554688,
+        161.0
+      ],
+      "referenceHeight": 0.0,
+      "frames": []
+    },
+    {
+      "id": "bugaloo",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/BattleHomeIdles/bugaloo",
+      "idleRect": [
+        0.0,
+        0.0,
+        1254.0,
+        1254.0
+      ],
+      "idleBounds": [
+        188.0,
+        61.0,
+        910.0,
+        1112.0
+      ],
+      "idleAnchor": [
+        643.0,
+        61.0
+      ],
+      "referenceHeight": 0.0,
+      "frames": []
+    },
+    {
+      "id": "popow",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/BattleHomeIdles/popow",
+      "idleRect": [
+        0.0,
+        0.0,
+        1254.0,
+        1254.0
+      ],
+      "idleBounds": [
+        265.0,
+        78.0,
+        784.0,
+        1076.0
+      ],
+      "idleAnchor": [
+        657.0,
+        78.0
+      ],
+      "referenceHeight": 0.0,
+      "frames": []
+    },
+    {
+      "id": "sepora",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/BattleHomeIdles/sepora",
+      "idleRect": [
+        0.0,
+        0.0,
+        1199.0,
+        1312.0
+      ],
+      "idleBounds": [
+        195.0,
+        31.0,
+        937.0,
+        1177.0
+      ],
+      "idleAnchor": [
+        599.5,
+        31.0
+      ],
+      "referenceHeight": 0.0,
+      "frames": []
+    },
+    {
+      "id": "tauris",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/BattleHomeIdles/tauris",
+      "idleRect": [
+        0.0,
+        0.0,
+        1254.0,
+        1254.0
+      ],
+      "idleBounds": [
+        215.0,
+        28.0,
+        855.0,
+        1146.0
+      ],
+      "idleAnchor": [
+        642.5,
+        28.0
+      ],
+      "referenceHeight": 0.0,
+      "frames": []
+    },
+    {
+      "id": "kazuru",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Kazuru/kazuru-idle-v1",
+      "idleRect": [
+        0.0,
+        0.0,
+        1379.0,
+        1141.0
+      ],
+      "idleBounds": [
+        44.0,
+        42.0,
+        1302.0,
+        1065.0
+      ],
+      "idleAnchor": [
+        695.0,
+        42.0
+      ],
+      "referenceHeight": 0.0,
+      "frames": []
+    },
+    {
+      "id": "golem-tectonico",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/golem-tectonico/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        118,
+        82,
+        169,
+        129
+      ],
+      "idleAnchor": [
+        192.0,
+        84.0
+      ],
+      "referenceHeight": 129,
+      "texture": "",
+      "frames": []
+    },
+    {
+      "id": "korran",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/korran/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        100,
+        81,
+        145,
+        119
+      ],
+      "idleAnchor": [
+        192.0,
+        84.0
+      ],
+      "referenceHeight": 119,
+      "texture": "",
+      "frames": []
+    },
+    {
+      "id": "la-minera",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/la-minera/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        119,
+        81,
+        146,
+        137
+      ],
+      "idleAnchor": [
+        192.0,
+        84.0
+      ],
+      "referenceHeight": 137,
+      "texture": "",
+      "frames": []
+    },
+    {
+      "id": "protectora-del-mausoleo",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/protectora-del-mausoleo/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        120,
+        82,
+        146,
+        119
+      ],
+      "idleAnchor": [
+        192.0,
+        84.0
+      ],
+      "referenceHeight": 119,
+      "texture": "",
+      "frames": []
+    },
+    {
+      "id": "alveyr",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/alveyr/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        84,
+        79,
+        401,
+        487
+      ],
+      "idleAnchor": [
+        271.0,
+        79
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "zephalontropo",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/zephalontropo/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        92,
+        147,
+        295,
+        338
+      ],
+      "idleAnchor": [
+        260.0,
+        147
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "alboguera",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/alboguera/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        67,
+        119,
+        413,
+        402
+      ],
+      "idleAnchor": [
+        302.0,
+        119
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "palista",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/palista/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        25,
+        162,
+        455,
+        317
+      ],
+      "idleAnchor": [
+        196.0,
+        162
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "drayven",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/drayven-portrait",
+      "idleRect": [
+        0,
+        0,
+        126,
+        134
+      ],
+      "idleBounds": [
+        2,
+        2,
+        122,
+        130
+      ],
+      "idleAnchor": [
+        70,
+        3
+      ],
+      "referenceHeight": 128,
+      "frames": []
+    },
+    {
+      "id": "titanica",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/titanica-portrait",
+      "idleRect": [
+        0,
+        0,
+        148,
+        132
+      ],
+      "idleBounds": [
+        2,
+        2,
+        144,
+        128
+      ],
+      "idleAnchor": [
+        80,
+        2
+      ],
+      "referenceHeight": 128,
+      "frames": []
+    },
+    {
+      "id": "jabalinero",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/jabalinero-portrait",
+      "idleRect": [
+        0,
+        0,
+        130,
+        133
+      ],
+      "idleBounds": [
+        2,
+        2,
+        126,
+        129
+      ],
+      "idleAnchor": [
+        68,
+        3
+      ],
+      "referenceHeight": 128,
+      "frames": []
+    },
+    {
+      "id": "maestro-de-las-mareas",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/maestro-de-las-mareas-portrait",
+      "idleRect": [
+        0,
+        0,
+        134,
+        133
+      ],
+      "idleBounds": [
+        2,
+        2,
+        130,
+        129
+      ],
+      "idleAnchor": [
+        71,
+        3
+      ],
+      "referenceHeight": 128,
+      "frames": []
+    },
+    {
+      "id": "cael",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Characters/cael/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        77,
+        61,
+        373,
+        383
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "guarda-veterano",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Characters/guarda-veterano/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        31,
+        11,
+        444,
+        443
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "arboreo",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Characters/arboreo/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        41,
+        54,
+        439,
+        428
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "antidota",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Characters/antidota/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        64,
+        22,
+        409,
+        426
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "serya",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/serya/portrait",
+      "idleRect": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "idleBounds": [
+        89,
+        32,
+        146,
+        162
+      ],
+      "idleAnchor": [
+        160.0,
+        32.0
+      ],
+      "referenceHeight": 160.0,
+      "frames": []
+    },
+    {
+      "id": "legionario",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/legionario/portrait",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        101,
+        32,
+        162,
+        164
+      ],
+      "idleAnchor": [
+        192.0,
+        32.0
+      ],
+      "referenceHeight": 160.0,
+      "frames": []
+    },
+    {
+      "id": "dagata",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/dagata/portrait",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        107,
+        32,
+        172,
+        162
+      ],
+      "idleAnchor": [
+        192.0,
+        32.0
+      ],
+      "referenceHeight": 160.0,
+      "frames": []
+    },
+    {
+      "id": "canonero-del-orvek",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/canonero-del-orvek/portrait",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        112,
+        32,
+        165,
+        160
+      ],
+      "idleAnchor": [
+        192.0,
+        32.0
+      ],
+      "referenceHeight": 160.0,
+      "frames": []
+    }
+  ]
+}

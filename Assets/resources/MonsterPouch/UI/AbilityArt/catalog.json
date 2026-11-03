@@ -1,0 +1,956 @@
+{
+  "entries": [
+    {
+      "key": "blotan-health",
+      "resource": "MonsterPouch/UI/AbilityArt/eronya/blotan-health"
+    },
+    {
+      "key": "aky/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/aky"
+    },
+    {
+      "key": "anuik/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/anuik"
+    },
+    {
+      "key": "atong/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/atong"
+    },
+    {
+      "key": "atori/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/atori"
+    },
+    {
+      "key": "blotan/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/blotan"
+    },
+    {
+      "key": "bugaloo/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/bugaloo"
+    },
+    {
+      "key": "bugui/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/bugui"
+    },
+    {
+      "key": "flo/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/flo"
+    },
+    {
+      "key": "gochan/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/gochan"
+    },
+    {
+      "key": "hymay/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/hymay"
+    },
+    {
+      "key": "jazar/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/jazar"
+    },
+    {
+      "key": "kayon/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/kayon"
+    },
+    {
+      "key": "kazuru/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/kazuru"
+    },
+    {
+      "key": "martio/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/martio"
+    },
+    {
+      "key": "pokrak/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/pokrak"
+    },
+    {
+      "key": "popow/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/popow"
+    },
+    {
+      "key": "rosie/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/rosie"
+    },
+    {
+      "key": "sepora/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/sepora"
+    },
+    {
+      "key": "stein/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/stein"
+    },
+    {
+      "key": "suki/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/suki"
+    },
+    {
+      "key": "tauris/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/tauris"
+    },
+    {
+      "key": "tokoro/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/tokoro"
+    },
+    {
+      "key": "trimol/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/trimol"
+    },
+    {
+      "key": "tsu/basic",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/tsu"
+    },
+    {
+      "key": "martio-orbits",
+      "resource": "MonsterPouch/UI/AbilityArt/basics/martio"
+    },
+    {
+      "key": "korran/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "Daño : {basicDamage}. Alcance: {basicRange}. Cada {basicInterval} s.",
+      "descriptionEn": "Damage: {basicDamage}. Range: {basicRange}. Every {basicInterval} s."
+    },
+    {
+      "key": "korran-juramento-de-permanencia",
+      "titleEs": "Juramento de permanencia",
+      "titleEn": "Oath of Permanence",
+      "descriptionEs": "Tras {stationarySeconds} s sin moverse: daño recibido −{damageReductionPercent}%. Moverse reinicia la espera.",
+      "descriptionEn": "After {stationarySeconds} s without moving: {damageReductionPercent}% less damage taken. Moving resets the wait."
+    },
+    {
+      "key": "korran-bastion-imperial",
+      "titleEs": "Bastión imperial",
+      "titleEn": "Imperial Bastion",
+      "descriptionEs": "Escudo {shield} por {duration} s. Provoca {tauntDuration} s a enemigos adyacentes que puedan alcanzarlo. Si el daño rompe el escudo: {breakDamage} de daño adyacente.",
+      "descriptionEn": "Shield {shield} for {duration} s. Taunts adjacent foes able to reach him for {tauntDuration} s. If damage breaks the shield: {breakDamage} damage to adjacent foes."
+    },
+    {
+      "key": "korran-raiz-de-piedra",
+      "titleEs": "Raíz de piedra",
+      "titleEn": "Stone Root",
+      "descriptionEs": "Bastión da escudo +{allyShield} por {duration} s a otros aliados adyacentes.",
+      "descriptionEn": "Bastion gives other adjacent allies a +{allyShield} shield for {duration} s."
+    },
+    {
+      "key": "korran-mandato-firme",
+      "titleEs": "Mandato firme",
+      "titleEn": "Steadfast Command",
+      "descriptionEs": "Ruptura: daño {breakDamage:delta:korran-bastion-imperial}. Provocación: duración {tauntDuration:delta:korran-bastion-imperial} s.",
+      "descriptionEn": "Shield break: damage {breakDamage:delta:korran-bastion-imperial}. Taunt: duration {tauntDuration:delta:korran-bastion-imperial} s."
+    },
+    {
+      "key": "korran-el-hogar-resiste",
+      "titleEs": "El hogar resiste",
+      "titleEn": "The Home Endures",
+      "descriptionEs": "Una vez por ronda, con vida bajo {healthThresholdPercent}%: escudo +{shield} por {duration} s y elimina estados negativos.",
+      "descriptionEn": "Once per round, while alive below {healthThresholdPercent}% health: shield +{shield} for {duration} s and removes negative effects."
+    },
+    {
+      "key": "golem-tectonico/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "Daño : {basicDamage}. Alcance: {basicRange}. Cada {basicInterval} s.",
+      "descriptionEn": "Damage: {basicDamage}. Range: {basicRange}. Every {basicInterval} s."
+    },
+    {
+      "key": "golem-tectonico-puerta-cerrada",
+      "titleEs": "Puerta cerrada",
+      "titleEn": "Closed Gate",
+      "descriptionEs": "Más de {stationarySeconds} s sin moverse: daño recibido −{damageReductionPercent}%. Se pierde al moverse.",
+      "descriptionEn": "After more than {stationarySeconds} s without moving: {damageReductionPercent}% less damage taken. Lost on movement."
+    },
+    {
+      "key": "golem-tectonico-guardia-de-piedra",
+      "titleEs": "Guardia de piedra",
+      "titleEn": "Stone Guard",
+      "descriptionEs": "Escudo {shield} por {duration} s. Provoca {tauntDuration} s a su objetivo básico a alcance {range}.",
+      "descriptionEn": "Shield {shield} for {duration} s. Taunts its basic target within range {range} for {tauntDuration} s."
+    },
+    {
+      "key": "golem-tectonico-escudo-reforzado",
+      "titleEs": "Escudo reforzado",
+      "titleEn": "Reinforced Shield",
+      "descriptionEs": "Guardia de piedra: escudo {shield:delta:golem-tectonico-guardia-de-piedra}.",
+      "descriptionEn": "Stone Guard: shield {shield:delta:golem-tectonico-guardia-de-piedra}."
+    },
+    {
+      "key": "golem-tectonico-amparo",
+      "titleEs": "Amparo",
+      "titleEn": "Shelter",
+      "descriptionEs": "Guardia da escudo +{allyShield} por {duration} s al otro aliado adyacente más herido.",
+      "descriptionEn": "Guard gives the most injured other adjacent ally a +{allyShield} shield for {duration} s."
+    },
+    {
+      "key": "golem-tectonico-relevo-de-guardia",
+      "titleEs": "Relevo de guardia",
+      "titleEn": "Changing of the Guard",
+      "descriptionEs": "Cura {heal} si sigue vivo cuando Guardia expira o se consume por daño.",
+      "descriptionEn": "Heals {heal} if alive when Guard expires or damage consumes it."
+    },
+    {
+      "key": "la-minera/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "Daño : {basicDamage}. Alcance: {basicRange}. Cada {basicInterval} s.",
+      "descriptionEn": "Damage: {basicDamage}. Range: {basicRange}. Every {basicInterval} s."
+    },
+    {
+      "key": "la-minera-tunel-subterraneo",
+      "titleEs": "Túnel subterráneo",
+      "titleEn": "Underground Tunnel",
+      "descriptionEs": "Al inicio, cava {distance} casillas hacia el rival. Tiempo bajo tierra: {duration} s. Provoca durante {tauntDuration} s al primer enemigo al que causa daño.",
+      "descriptionEn": "At round start, tunnels {distance} tiles toward the enemy. Time underground: {duration} s. Taunts the first enemy she damages for {tauntDuration} s."
+    },
+    {
+      "key": "la-minera-fractura",
+      "titleEs": "Fractura",
+      "titleEn": "Fracture",
+      "descriptionEs": "Daño: {damage}. +{shieldBonusDamage} de daño si el objetivo tiene un escudo temporal al impactar. Alcance: {range}.",
+      "descriptionEn": "Damage: {damage}. +{shieldBonusDamage} damage if the target has a temporary shield on impact. Range: {range}."
+    },
+    {
+      "key": "la-minera-veta-expuesta",
+      "titleEs": "Veta expuesta",
+      "titleEn": "Exposed Vein",
+      "descriptionEs": "Fractura drena {manaDrain} de energía a su objetivo principal.",
+      "descriptionEn": "Fracture drains {manaDrain} energy from its primary target."
+    },
+    {
+      "key": "la-minera-recuperacion-de-veta",
+      "titleEs": "Recuperación de veta",
+      "titleEn": "Vein Recovery",
+      "descriptionEs": "Al lograr una baja: Cura {healPerSecond}/s durante {duration} s.",
+      "descriptionEn": "On a kill: heals {healPerSecond}/s for {duration} s."
+    },
+    {
+      "key": "la-minera-derrumbe",
+      "titleEs": "Derrumbe",
+      "titleEn": "Cave-in",
+      "descriptionEs": "Fractura causa {secondaryDamage} de daño a otros enemigos en radio {radius} del objetivo.",
+      "descriptionEn": "Fracture deals {secondaryDamage} damage to other foes within radius {radius} of the target."
+    },
+    {
+      "key": "protectora-del-mausoleo/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "Daño : {basicDamage}. Alcance: {basicRange}. Cada {basicInterval} s.",
+      "descriptionEn": "Damage: {basicDamage}. Range: {basicRange}. Every {basicInterval} s."
+    },
+    {
+      "key": "protectora-del-mausoleo-memoria-de-la-roca",
+      "titleEs": "Memoria de la roca",
+      "titleEn": "Memory of Stone",
+      "descriptionEs": "Al iniciar la ronda, otorga {shield} de escudo durante {duration} s al otro aliado más cercano. El escudo permanece si la Protectora cae.",
+      "descriptionEn": "At round start, grants a {shield} shield for {duration} s to the nearest other ally. The shield remains if the Protector falls."
+    },
+    {
+      "key": "protectora-del-mausoleo-sello-ancestral",
+      "titleEs": "Sello ancestral",
+      "titleEn": "Ancestral Seal",
+      "descriptionEs": "Escudo {shield} por {duration} s al aliado más herido a alcance {range}; puede ser ella.",
+      "descriptionEn": "Shield {shield} for {duration} s to the most injured ally within range {range}; can target herself."
+    },
+    {
+      "key": "protectora-del-mausoleo-nombre-protegido",
+      "titleEs": "Nombre protegido",
+      "titleEn": "Protected Name",
+      "descriptionEs": "Sello también Cura {heal} al protegido.",
+      "descriptionEn": "Seal also heals its recipient for {heal}."
+    },
+    {
+      "key": "protectora-del-mausoleo-memoria-compartida",
+      "titleEs": "Memoria compartida",
+      "titleEn": "Shared Memory",
+      "descriptionEs": "Memoria de la roca: objetivos {targetCount:delta:1}. Alcance limitado a {range} casillas. Solo otros aliados; conserva el escudo temporal.",
+      "descriptionEn": "Memory of Stone: targets {targetCount:delta:1}. Range limited to {range} tiles. Other allies only; retains the temporary shield."
+    },
+    {
+      "key": "protectora-del-mausoleo-ultima-inscripcion",
+      "titleEs": "Última inscripción",
+      "titleEn": "Final Inscription",
+      "descriptionEs": "Si el daño consume Sello: velocidad de ataque +{attackSpeedPercent}% por {duration} s al protegido. No se activa al expirar.",
+      "descriptionEn": "If damage consumes Seal: its recipient gains +{attackSpeedPercent}% attack speed for {duration} s. No effect on expiry."
+    },
+    {
+      "key": "alveyr/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic Attack",
+      "descriptionEs": "Daño {basicDamage} · Alcance {basicRange} · Cada {basicInterval} s.",
+      "descriptionEn": "Damage {basicDamage} · Range {basicRange} · Every {basicInterval} s."
+    },
+    {
+      "key": "alveyr-anillo-al-cielo",
+      "titleEs": "Anillo al cielo",
+      "titleEn": "Ring to the Sky",
+      "descriptionEs": "Al inicio, anula {duration} s el daño del enemigo más cercano delante, en su columna.",
+      "descriptionEn": "At round start, suppresses damage from the nearest enemy ahead in his column for {duration} s."
+    },
+    {
+      "key": "alveyr-escudo-de-los-vientos",
+      "titleEs": "Escudo de los vientos",
+      "titleEn": "Shield of the Winds",
+      "descriptionEs": "Durante {duration} s, provoca a quienes pueden alcanzarlo, reduce {reduction:percent}% el daño y devuelve lo evitado. Cada {receivedDamageThreshold} de daño a vida o escudo: +{manaPerThreshold} energía (máx. {manaPerCastCap} por uso).",
+      "descriptionEn": "For {duration} s, taunts enemies able to reach him, reduces damage by {reduction:percent}% and returns the amount prevented. Every {receivedDamageThreshold} damage to health or shields grants +{manaPerThreshold} energy (max. {manaPerCastCap} per use)."
+    },
+    {
+      "key": "alveyr-paso-de-nube",
+      "titleEs": "Paso de nube",
+      "titleEn": "Cloud Step",
+      "descriptionEs": "Al terminar la súper: +{attackSpeed:percent}% de velocidad de ataque durante {duration} s.",
+      "descriptionEn": "After the Super ends: +{attackSpeed:percent}% attack speed for {duration} s."
+    },
+    {
+      "key": "alveyr-viento-disciplinado",
+      "titleEs": "Viento disciplinado",
+      "titleEn": "Disciplined Wind",
+      "descriptionEs": "Con vida inferior al {healthThreshold:percent} %: efectividad del escudo {reduction:deltaPercent:alveyr-escudo-de-los-vientos} %. Devuelve el daño evitado.",
+      "descriptionEn": "Below {healthThreshold:percent} % health: shield effectiveness {reduction:deltaPercent:alveyr-escudo-de-los-vientos} %. Returns prevented damage."
+    },
+    {
+      "key": "alveyr-circulo-de-calma",
+      "titleEs": "Círculo de calma",
+      "titleEn": "Circle of Calm",
+      "descriptionEs": "Al lanzar la súper, limpia los estados negativos de los otros aliados adyacentes.",
+      "descriptionEn": "Casting the Super cleanses negative statuses from other adjacent allies."
+    },
+    {
+      "key": "zephalontropo/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic Attack",
+      "descriptionEs": "Daño {basicDamage} · Alcance {basicRange} · Cada {basicInterval} s.",
+      "descriptionEn": "Damage {basicDamage} · Range {basicRange} · Every {basicInterval} s."
+    },
+    {
+      "key": "zephalontropo-presion-calibrada",
+      "titleEs": "Presión calibrada",
+      "titleEn": "Calibrated Pressure",
+      "descriptionEs": "Los básicos causan +{shieldBonusDamage} de daño a objetivos con escudo temporal.",
+      "descriptionEn": "Basic attacks deal +{shieldBonusDamage} damage to targets with a temporary shield."
+    },
+    {
+      "key": "zephalontropo-esfera-comprimida",
+      "titleEs": "Esfera comprimida",
+      "titleEn": "Compressed Sphere",
+      "descriptionEs": "Alcance {range}: {damage} de daño al objetivo y {secondaryDamage} a los demás enemigos en radio {radius}.",
+      "descriptionEn": "Range {range}: {damage} damage to the target and {secondaryDamage} to other enemies within radius {radius}."
+    },
+    {
+      "key": "zephalontropo-camara-de-precision",
+      "titleEs": "Cámara de precisión",
+      "titleEn": "Precision Chamber",
+      "descriptionEs": "Presión calibrada: daño {shieldBonusDamage:delta:zephalontropo-presion-calibrada} contra escudos temporales.",
+      "descriptionEn": "Calibrated Pressure: damage {shieldBonusDamage:delta:zephalontropo-presion-calibrada} against temporary shields."
+    },
+    {
+      "key": "zephalontropo-carga-expandida",
+      "titleEs": "Carga expandida",
+      "titleEn": "Expanded Charge",
+      "descriptionEs": "Súper: daño {damage:delta:zephalontropo-esfera-comprimida} al objetivo; {secondaryDamage:delta:zephalontropo-esfera-comprimida} a los demás.",
+      "descriptionEn": "Super: damage {damage:delta:zephalontropo-esfera-comprimida} to the target; {secondaryDamage:delta:zephalontropo-esfera-comprimida} to others."
+    },
+    {
+      "key": "zephalontropo-onda-de-choque",
+      "titleEs": "Onda de choque",
+      "titleEn": "Shock Wave",
+      "descriptionEs": "La esfera empuja {pushCells} casillas al objetivo principal y le causa Aturdimiento durante {stunDuration} s.",
+      "descriptionEn": "The sphere pushes the main target {pushCells} tiles and applies Stun for {stunDuration} s."
+    },
+    {
+      "key": "alboguera/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic Attack",
+      "descriptionEs": "Daño {basicDamage} · Alcance {basicRange} · Cada {basicInterval} s.",
+      "descriptionEn": "Damage {basicDamage} · Range {basicRange} · Every {basicInterval} s."
+    },
+    {
+      "key": "alboguera-afinacion",
+      "titleEs": "Afinación",
+      "titleEn": "Tuning",
+      "descriptionEs": "Al inicio, da +{mana} energía a los otros aliados adyacentes.",
+      "descriptionEn": "At round start, grants +{mana} energy to other adjacent allies."
+    },
+    {
+      "key": "alboguera-compas-ascendente",
+      "titleEs": "Compás ascendente",
+      "titleEn": "Rising Rhythm",
+      "descriptionEs": "El aliado con mayor daño básico actual a alcance {range}, incluida ella, y sus aliados en radio {radius}: +{attackSpeed:percent}% de velocidad de ataque durante {duration} s.",
+      "descriptionEn": "The ally with the highest current basic damage within range {range}, including herself, and allies within radius {radius}: +{attackSpeed:percent}% attack speed for {duration} s."
+    },
+    {
+      "key": "alboguera-armonia-protectora",
+      "titleEs": "Armonía protectora",
+      "titleEn": "Protective Harmony",
+      "descriptionEs": "Compás ascendente da +{shield} de escudo durante {duration} s a sus afectados.",
+      "descriptionEn": "Rising Rhythm grants affected allies a +{shield} shield for {duration} s."
+    },
+    {
+      "key": "alboguera-tempo-vivo",
+      "titleEs": "Tempo vivo",
+      "titleEn": "Lively Tempo",
+      "descriptionEs": "Compás ascendente: velocidad de ataque {primaryAttackSpeed:deltaPercent:alboguera-compas-ascendente:attackSpeed} % al elegido; {secondaryAttackSpeed:deltaPercent:alboguera-compas-ascendente:attackSpeed} % a los demás.",
+      "descriptionEn": "Rising Rhythm: attack speed {primaryAttackSpeed:deltaPercent:alboguera-compas-ascendente:attackSpeed} % for the chosen ally; {secondaryAttackSpeed:deltaPercent:alboguera-compas-ascendente:attackSpeed} % for others."
+    },
+    {
+      "key": "alboguera-final-sostenido",
+      "titleEs": "Final sostenido",
+      "titleEn": "Sustained Finale",
+      "descriptionEs": "Compás ascendente: duración {duration:delta:alboguera-compas-ascendente} s. Con Armonía protectora: duración del escudo {duration:delta:alboguera-armonia-protectora} s.",
+      "descriptionEn": "Rising Rhythm: duration {duration:delta:alboguera-compas-ascendente} s. With Protective Harmony: shield duration {duration:delta:alboguera-armonia-protectora} s."
+    },
+    {
+      "key": "palista/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic Attack",
+      "descriptionEs": "Daño {basicDamage} · Alcance {basicRange} · Cada {basicInterval} s.",
+      "descriptionEn": "Damage {basicDamage} · Range {basicRange} · Every {basicInterval} s."
+    },
+    {
+      "key": "palista-respiracion-templaria",
+      "titleEs": "Respiración templaria",
+      "titleEn": "Templar Breathing",
+      "descriptionEs": "Inmune a Aturdimiento.",
+      "descriptionEn": "Immune to Stun."
+    },
+    {
+      "key": "palista-golpe-de-vendaval",
+      "titleEs": "Golpe de vendaval",
+      "titleEn": "Gale Strike",
+      "descriptionEs": "Causa {damage} de daño y empuja al objetivo {pushCells} casillas.",
+      "descriptionEn": "Deals {damage} damage and pushes the target {pushCells} tiles."
+    },
+    {
+      "key": "palista-palma-firme",
+      "titleEs": "Palma firme",
+      "titleEn": "Steady Palm",
+      "descriptionEs": "Súper: daño {damage:delta:palista-golpe-de-vendaval}.",
+      "descriptionEn": "Super: damage {damage:delta:palista-golpe-de-vendaval}."
+    },
+    {
+      "key": "palista-paso-ligero",
+      "titleEs": "Paso ligero",
+      "titleEn": "Light Step",
+      "descriptionEs": "Tras Golpe de vendaval: +{attackSpeed:percent}% de velocidad de ataque durante {duration} s.",
+      "descriptionEn": "After Gale Strike: +{attackSpeed:percent}% attack speed for {duration} s."
+    },
+    {
+      "key": "palista-aire-cortante",
+      "titleEs": "Aire cortante",
+      "titleEn": "Cutting Air",
+      "descriptionEs": "Golpe de vendaval reduce {slow:percent}% la velocidad de movimiento y ataque del objetivo durante {duration} s.",
+      "descriptionEn": "Gale Strike reduces the target’s movement and attack speed by {slow:percent}% for {duration} s."
+    },
+    {
+      "key": "drayven/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "Golpe cuerpo a cuerpo con el báculo.",
+      "descriptionEn": "A close-range staff strike."
+    },
+    {
+      "key": "drayven-dominio-de-las-mareas",
+      "titleEs": "Dominio de las mareas",
+      "titleEn": "Tide Mastery",
+      "descriptionEs": "Cada {everyHits} impactos básicos: daño +{damage}; Ralentización {slowPercent}% por {duration} s.",
+      "descriptionEn": "Every {everyHits} basic hits: +{damage} damage; Slow {slowPercent}% for {duration} s."
+    },
+    {
+      "key": "drayven-marea-del-norte",
+      "titleEs": "Marea del norte",
+      "titleEn": "Northern Tide",
+      "descriptionEs": "Línea de {length} casillas; alcance {range}. Daño {damage}; Ralentización {slowPercent}% por {duration} s.",
+      "descriptionEn": "A {length}-tile line; range {range}. Damage {damage}; Slow {slowPercent}% for {duration} s."
+    },
+    {
+      "key": "drayven-escarcha-del-puerto",
+      "titleEs": "Escarcha del puerto",
+      "titleEn": "Harbor Frost",
+      "descriptionEs": "Marea del norte: Aturdimiento {stunDuration} s al primer enemigo.",
+      "descriptionEn": "Northern Tide: Stun the first enemy for {stunDuration} s."
+    },
+    {
+      "key": "drayven-mar-obediente",
+      "titleEs": "Mar obediente",
+      "titleEn": "Obedient Sea",
+      "descriptionEs": "Súper: daño {damage:delta:drayven-marea-del-norte}.",
+      "descriptionEn": "Super: damage {damage:delta:drayven-marea-del-norte}."
+    },
+    {
+      "key": "drayven-juramento-de-skeldris",
+      "titleEs": "Juramento de Skeldris",
+      "titleEn": "Oath of Skeldris",
+      "descriptionEs": "Marea del norte: escudo +{shield} por {duration} s para Drayven y aliados adyacentes.",
+      "descriptionEn": "Northern Tide: +{shield} shield for {duration} s on Drayven and adjacent allies."
+    },
+    {
+      "key": "titanica/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "Golpe de hielo cuerpo a cuerpo.",
+      "descriptionEn": "A close-range ice strike."
+    },
+    {
+      "key": "titanica-hielo-firme",
+      "titleEs": "Hielo firme",
+      "titleEn": "Firm Ice",
+      "descriptionEs": "Básicos: Ralentización {slowPercent}% por {duration} s. Bloquea cada {magicEvery}.º ataque básico o de habilidad recibido.",
+      "descriptionEn": "Basic hits: Slow {slowPercent}% for {duration} s. Blocks the last of every {magicEvery} incoming basic or ability attacks."
+    },
+    {
+      "key": "titanica-ancla-glacial",
+      "titleEs": "Ancla glacial",
+      "titleEn": "Glacial Anchor",
+      "descriptionEs": "Alcance {range}. Daño {damage}; Inmovilización {rootDuration} s.",
+      "descriptionEn": "Range {range}. Damage {damage}; Immobilization for {rootDuration} s."
+    },
+    {
+      "key": "titanica-hielo-grueso",
+      "titleEs": "Hielo grueso",
+      "titleEn": "Thick Ice",
+      "descriptionEs": "Ancla glacial: escudo propio +{shield} por {duration} s.",
+      "descriptionEn": "Glacial Anchor: +{shield} self shield for {duration} s."
+    },
+    {
+      "key": "titanica-ancla-profunda",
+      "titleEs": "Ancla profunda",
+      "titleEn": "Deep Anchor",
+      "descriptionEs": "Ancla: inmovilización {rootDuration:delta:titanica-ancla-glacial} s. Bloqueo adicional cada {physicalEvery}.º ataque básico o de habilidad recibido.",
+      "descriptionEn": "Anchor: immobilization {rootDuration:delta:titanica-ancla-glacial} s. Additional block every {physicalEvery}th incoming basic or ability attack."
+    },
+    {
+      "key": "titanica-frente-helado",
+      "titleEs": "Frente helado",
+      "titleEn": "Frozen Front",
+      "descriptionEs": "Ancla: daño {damage} a otros enemigos adyacentes a Titánica; Ralentización {slowPercent}% por {duration} s.",
+      "descriptionEn": "Anchor: {damage} damage to other enemies adjacent to Titanica; Slow {slowPercent}% for {duration} s."
+    },
+    {
+      "key": "jabalinero/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "Arroja una jabalina al objetivo.",
+      "descriptionEn": "Throws a javelin at the target."
+    },
+    {
+      "key": "jabalinero-punta-toxica",
+      "titleEs": "Punta tóxica",
+      "titleEn": "Toxic Tip",
+      "descriptionEs": "Cada {everyHits} impactos básicos: Veneno {damagePerSecond}/s por {duration} s; Cura recibida -{antiHealPercent}%.",
+      "descriptionEn": "Every {everyHits} basic hits: Poison {damagePerSecond}/s for {duration} s; healing received -{antiHealPercent}%."
+    },
+    {
+      "key": "jabalinero-red-de-cienaga",
+      "titleEs": "Red de ciénaga",
+      "titleEn": "Bog Net",
+      "descriptionEs": "Alcance {range}. Daño {damage}; Inmovilización {rootDuration} s.",
+      "descriptionEn": "Range {range}. Damage {damage}; Immobilization for {rootDuration} s."
+    },
+    {
+      "key": "jabalinero-veneno-maduro",
+      "titleEs": "Veneno maduro",
+      "titleEn": "Mature Venom",
+      "descriptionEs": "Punta tóxica: daño de veneno {damagePerSecond:delta:jabalinero-punta-toxica}/s.",
+      "descriptionEn": "Toxic point: poison damage {damagePerSecond:delta:jabalinero-punta-toxica}/s."
+    },
+    {
+      "key": "jabalinero-red-lastrada",
+      "titleEs": "Red lastrada",
+      "titleEn": "Weighted Net",
+      "descriptionEs": "Red de ciénaga: inmovilización {rootDuration:delta:jabalinero-red-de-cienaga} s.",
+      "descriptionEn": "Marsh net: immobilization {rootDuration:delta:jabalinero-red-de-cienaga} s."
+    },
+    {
+      "key": "jabalinero-cienaga-cerrada",
+      "titleEs": "Ciénaga cerrada",
+      "titleEn": "Closed Bog",
+      "descriptionEs": "Red de ciénaga aplica el Veneno actual de Punta tóxica.",
+      "descriptionEn": "Bog Net applies the current Toxic Tip Poison."
+    },
+    {
+      "key": "maestro-de-las-mareas/basic",
+      "titleEs": "Ataque básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "Dispara un orbe de agua.",
+      "descriptionEn": "Fires a water orb."
+    },
+    {
+      "key": "maestro-de-las-mareas-reflejo-lunar",
+      "titleEs": "Reflejo lunar",
+      "titleEn": "Moon Reflection",
+      "descriptionEs": "Inicia con {startingMana} de energía.",
+      "descriptionEn": "Starts with {startingMana} energy."
+    },
+    {
+      "key": "maestro-de-las-mareas-oleaje",
+      "titleEs": "Oleaje",
+      "titleEn": "Surge",
+      "descriptionEs": "Una ola de {width} casillas de ancho recorre hasta {length} casillas a {waveSpeed} casillas/s. Atraviesa enemigos: {damage} de daño y aturdimiento {stunDuration} s una vez a cada uno. Termina al completar el recorrido o tocar el borde.",
+      "descriptionEn": "A {width}-tile-wide wave travels up to {length} tiles at {waveSpeed} tiles/s. Passes through enemies: {damage} damage and Stun for {stunDuration} s once per enemy. Ends at its travel limit or the board edge."
+    },
+    {
+      "key": "maestro-de-las-mareas-luz-sobre-el-agua",
+      "titleEs": "Luz sobre el agua",
+      "titleEn": "Light on Water",
+      "descriptionEs": "Oleaje: daño {damage:delta:maestro-de-las-mareas-oleaje}.",
+      "descriptionEn": "Surge: damage {damage:delta:maestro-de-las-mareas-oleaje}."
+    },
+    {
+      "key": "maestro-de-las-mareas-manto-lunar",
+      "titleEs": "Manto lunar",
+      "titleEn": "Lunar Mantle",
+      "descriptionEs": "Oleaje: escudo +{selfShield} propio y +{allyShield} a aliados adyacentes por {duration} s.",
+      "descriptionEn": "Surge: +{selfShield} self shield and +{allyShield} for adjacent allies, lasting {duration} s."
+    },
+    {
+      "key": "maestro-de-las-mareas-marea-compartida",
+      "titleEs": "Marea compartida",
+      "titleEn": "Shared Tide",
+      "descriptionEs": "Oleaje: Cura +{heal} a otros aliados en su recorrido.",
+      "descriptionEn": "Surge: Heal other allies along its path for {heal}."
+    },
+    {
+      "key": "martio-moons",
+      "resource": "MonsterPouch/UI/AbilityArt/martio-planetary-fan",
+      "titleEs": "Abanico planetario",
+      "titleEn": "Planetary Fan",
+      "descriptionEs": "Añade dos grupos de Marte y lunas a ±{fanAngleDegrees}°.\nRecorrido lateral: {lateralTravelRange} casillas.\nConservan el daño base y las mejoras de explosión y perforación.",
+      "descriptionEn": "Adds two Mars-and-moons groups at ±{fanAngleDegrees}°.\nSide travel: {lateralTravelRange} tiles.\nThey retain base damage and the explosion and piercing upgrades."
+    },
+    {
+      "key": "cael/basic",
+      "titleEs": "Básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "{basicDamage} daño. Alcance {basicRange}.",
+      "descriptionEn": "{basicDamage} damage. Range {basicRange}."
+    },
+    {
+      "key": "cael-voluntad-del-guardian",
+      "titleEs": "Voluntad del guardián",
+      "titleEn": "Guardian's Will",
+      "descriptionEs": "Cada {everyAttacks} básicos impactados: Inmovilización {rootDuration} s.",
+      "descriptionEn": "Every {everyAttacks} landed basics: Immobilization for {rootDuration} s."
+    },
+    {
+      "key": "cael-torbellino-de-hojas",
+      "titleEs": "Torbellino de hojas",
+      "titleEn": "Leaf Whirlwind",
+      "descriptionEs": "{damage} daño al objetivo; {secondaryDamage} a otros enemigos en radio {radius}. Alcance {range}.",
+      "descriptionEn": "{damage} damage to the target; {secondaryDamage} to other enemies in radius {radius}. Range {range}."
+    },
+    {
+      "key": "cael-hojas-tenaces",
+      "titleEs": "Hojas tenaces",
+      "titleEn": "Clinging Leaves",
+      "descriptionEs": "Torbellino: ralentización {slowPercent}% durante {duration} s.",
+      "descriptionEn": "Whirlwind: {slowPercent}% Slow for {duration} s."
+    },
+    {
+      "key": "cael-savia-dorada",
+      "titleEs": "Savia dorada",
+      "titleEn": "Golden Sap",
+      "descriptionEs": "Tras Torbellino: Cura {heal} propia y {allyHeal} al otro aliado más herido a {range} casillas.",
+      "descriptionEn": "After Whirlwind: Heal self for {heal} and the most injured other ally within {range} tiles for {allyHeal}."
+    },
+    {
+      "key": "cael-mandato-de-raiz-madre",
+      "titleEs": "Mandato de Raíz Madre",
+      "titleEn": "Mother Root Decree",
+      "descriptionEs": "Súper: daño {damage:delta:cael-torbellino-de-hojas} al objetivo; {secondaryDamage:delta:cael-torbellino-de-hojas} a los demás. Inmovilización: {rootDuration} s al objetivo.",
+      "descriptionEn": "Super: damage {damage:delta:cael-torbellino-de-hojas} to the target; {secondaryDamage:delta:cael-torbellino-de-hojas} to others. Immobilization: {rootDuration} s on the target."
+    },
+    {
+      "key": "guarda-veterano/basic",
+      "titleEs": "Básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "{basicDamage} daño. Alcance {basicRange}.",
+      "descriptionEn": "{basicDamage} damage. Range {basicRange}."
+    },
+    {
+      "key": "guarda-veterano-dialogo-con-la-raiz",
+      "titleEs": "Diálogo con la raíz",
+      "titleEn": "Root Communion",
+      "descriptionEs": "Tras {stationaryDuration} s quieto, reduce el daño recibido un {reduction}% hasta empezar a moverse.",
+      "descriptionEn": "After {stationaryDuration} s stationary, reduces damage taken by {reduction}% until movement starts."
+    },
+    {
+      "key": "guarda-veterano-liana-vinculante",
+      "titleEs": "Liana vinculante",
+      "titleEn": "Binding Vine",
+      "descriptionEs": "{damage} daño. Inmovilización {rootDuration} s. Alcance {range}.",
+      "descriptionEn": "{damage} damage. Immobilization for {rootDuration} s. Range {range}."
+    },
+    {
+      "key": "guarda-veterano-vinculo-profundo",
+      "titleEs": "Vínculo profundo",
+      "titleEn": "Deep Bond",
+      "descriptionEs": "Liana: inmovilización {rootDuration:delta:guarda-veterano-liana-vinculante} s.",
+      "descriptionEn": "Vine: immobilization {rootDuration:delta:guarda-veterano-liana-vinculante} s."
+    },
+    {
+      "key": "guarda-veterano-corteza-compartida",
+      "titleEs": "Corteza compartida",
+      "titleEn": "Shared Bark",
+      "descriptionEs": "Liana: escudo +{shield} durante {duration} s al aliado más herido a {range} casillas; puede ser él mismo.",
+      "descriptionEn": "Vine: +{shield} shield for {duration} s to the most injured ally within {range} tiles; may target self."
+    },
+    {
+      "key": "guarda-veterano-zarza-despierta",
+      "titleEs": "Zarza despierta",
+      "titleEn": "Awakened Bramble",
+      "descriptionEs": "Liana: daño {damage:delta:guarda-veterano-liana-vinculante}. Veneno: {poisonDamage}/s durante {poisonDuration} s; reduce la cura recibida.",
+      "descriptionEn": "Vine: damage {damage:delta:guarda-veterano-liana-vinculante}. Poison: {poisonDamage}/s for {poisonDuration} s; reduces healing received."
+    },
+    {
+      "key": "arboreo/basic",
+      "titleEs": "Básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "{basicDamage} daño. Alcance {basicRange}.",
+      "descriptionEn": "{basicDamage} damage. Range {basicRange}."
+    },
+    {
+      "key": "arboreo-raices-profundas",
+      "titleEs": "Raíces profundas",
+      "titleEn": "Deep Roots",
+      "descriptionEs": "Inmune a empuje, Inmovilización y Aturdimiento. Si intentan inmovilizarlo: velocidad de ataque +{speedPercent}% durante {duration} s; solo renueva.",
+      "descriptionEn": "Immune to knockback, Immobilization and Stun. An immobilization attempt grants +{speedPercent}% attack speed for {duration} s; refreshes only."
+    },
+    {
+      "key": "arboreo-abrazo-del-bosque",
+      "titleEs": "Abrazo del bosque",
+      "titleEn": "Forest Embrace",
+      "descriptionEs": "{damage} daño a enemigos adyacentes. Provocación {tauntDuration} s si pueden alcanzarlo.",
+      "descriptionEn": "{damage} damage to adjacent enemies. Taunt for {tauntDuration} s if they can reach him."
+    },
+    {
+      "key": "arboreo-corteza-renovada",
+      "titleEs": "Corteza renovada",
+      "titleEn": "Renewed Bark",
+      "descriptionEs": "Al lanzar Abrazo: escudo +{shield} durante {duration} s.",
+      "descriptionEn": "On Embrace: +{shield} shield for {duration} s."
+    },
+    {
+      "key": "arboreo-bosque-cerrado",
+      "titleEs": "Bosque cerrado",
+      "titleEn": "Closed Forest",
+      "descriptionEs": "Abrazo: Inmovilización {rootDuration} s a los afectados.",
+      "descriptionEn": "Embrace: Immobilization for {rootDuration} s on affected enemies."
+    },
+    {
+      "key": "arboreo-corazon-ancestral",
+      "titleEs": "Corazón ancestral",
+      "titleEn": "Ancestral Heart",
+      "descriptionEs": "Al terminar un paso vivo bajo {thresholdPercent}% de vida: Cura {heal} propia y {allyHeal} a otros aliados adyacentes. Límite {limitPerRound}/ronda.",
+      "descriptionEn": "Ending a step alive below {thresholdPercent}% health: Heal self for {heal} and other adjacent allies for {allyHeal}. Limit {limitPerRound}/round."
+    },
+    {
+      "key": "antidota/basic",
+      "titleEs": "Básico",
+      "titleEn": "Basic attack",
+      "descriptionEs": "{basicDamage} daño. Alcance {basicRange}.",
+      "descriptionEn": "{basicDamage} damage. Range {basicRange}."
+    },
+    {
+      "key": "antidota-savia-compartida",
+      "titleEs": "Savia compartida",
+      "titleEn": "Shared Sap",
+      "descriptionEs": "Cada {everyAttacks} básicos impactados: Cura {heal} al aliado más herido a {range} casillas. Después limpia un veneno o quemadura; prioriza veneno.",
+      "descriptionEn": "Every {everyAttacks} landed basics: Heal the most injured ally within {range} tiles for {heal}. Then cleanse one Poison or Burn; Poison first."
+    },
+    {
+      "key": "antidota-brote-vital",
+      "titleEs": "Brote vital",
+      "titleEn": "Vital Bud",
+      "descriptionEs": "Cura {heal} al aliado más herido a {range} casillas; regenera {regen}/s durante {duration} s.",
+      "descriptionEn": "Heal the most injured ally within {range} tiles for {heal}; regenerate {regen}/s for {duration} s."
+    },
+    {
+      "key": "antidota-raiz-nutritiva",
+      "titleEs": "Raíz nutritiva",
+      "titleEn": "Nourishing Root",
+      "descriptionEs": "Brote: cura inicial {heal:delta:antidota-brote-vital}.",
+      "descriptionEn": "Sprout: initial healing {heal:delta:antidota-brote-vital}."
+    },
+    {
+      "key": "antidota-ciclo-fertil",
+      "titleEs": "Ciclo fértil",
+      "titleEn": "Fertile Cycle",
+      "descriptionEs": "Brote: duración de regeneración {duration:delta:antidota-brote-vital} s.",
+      "descriptionEn": "Sprout: regeneration duration {duration:delta:antidota-brote-vital} s."
+    },
+    {
+      "key": "antidota-floracion",
+      "titleEs": "Floración",
+      "titleEn": "Bloom",
+      "descriptionEs": "Brote: Cura {heal} al otro aliado más herido adyacente al objetivo; sin regeneración.",
+      "descriptionEn": "Bud: Heal the most injured other ally adjacent to the target for {heal}; no regeneration."
+    },
+    {
+      "key": "serya/basic",
+      "titleEs": "Tajo",
+      "titleEn": "Slash",
+      "descriptionEs": "Daño {basicDamage}. Alcance {basicRange}. Cada {basicInterval} s.",
+      "descriptionEn": "Damage {basicDamage}. Range {basicRange}. Every {basicInterval} s."
+    },
+    {
+      "key": "serya-impetu",
+      "titleEs": "Ímpetu",
+      "titleEn": "Impetus",
+      "descriptionEs": "Básicos: Quemadura de {damage}/s durante {duration} s. No se acumula.",
+      "descriptionEn": "Basic hits: Burn for {damage}/s over {duration} s. Does not stack."
+    },
+    {
+      "key": "serya-avance-de-la-llama",
+      "titleEs": "Avance de la llama",
+      "titleEn": "Flame Advance",
+      "descriptionEs": "{damage} de daño al objetivo; {secondaryDamage} a los demás en radio {radius} de Serya. Quemadura {burnDamage}/s por {burnDuration} s. Alcance {range}.",
+      "descriptionEn": "{damage} damage to the target; {secondaryDamage} to other enemies within radius {radius} of Serya. Burn {burnDamage}/s for {burnDuration} s. Range {range}."
+    },
+    {
+      "key": "serya-combustion",
+      "titleEs": "Combustión",
+      "titleEn": "Combustion",
+      "descriptionEs": "Velocidad de ataque +{attackSpeed}% mientras su objetivo tenga Quemadura.",
+      "descriptionEn": "Attack speed +{attackSpeed}% while her basic target has Burn."
+    },
+    {
+      "key": "serya-frente-abrasador",
+      "titleEs": "Frente abrasador",
+      "titleEn": "Searing Front",
+      "descriptionEs": "Súper: daño {damage:delta:serya-avance-de-la-llama} al objetivo; {secondaryDamage:delta:serya-avance-de-la-llama} a los demás.",
+      "descriptionEn": "Super: damage {damage:delta:serya-avance-de-la-llama} to the target; {secondaryDamage:delta:serya-avance-de-la-llama} to others."
+    },
+    {
+      "key": "serya-conquista",
+      "titleEs": "Conquista",
+      "titleEn": "Conquest",
+      "descriptionEs": "Al eliminar: Cura {heal}; velocidad de ataque +{attackSpeed}% por {duration} s. Máx. {maxActivations}/ronda.",
+      "descriptionEn": "On a kill: Heal {heal}; attack speed +{attackSpeed}% for {duration} s. Up to {maxActivations}/round."
+    },
+    {
+      "key": "legionario/basic",
+      "titleEs": "Estocada",
+      "titleEn": "Thrust",
+      "descriptionEs": "Daño {basicDamage}. Alcance {basicRange}. Cada {basicInterval} s.",
+      "descriptionEn": "Damage {basicDamage}. Range {basicRange}. Every {basicInterval} s."
+    },
+    {
+      "key": "legionario-paso-ardiente",
+      "titleEs": "Paso ardiente",
+      "titleEn": "Burning Step",
+      "descriptionEs": "Velocidad de ataque +{attackSpeed}% los primeros {duration} s de la ronda.",
+      "descriptionEn": "Attack speed +{attackSpeed}% for the first {duration} s of the round."
+    },
+    {
+      "key": "legionario-tajo-de-forja",
+      "titleEs": "Tajo de forja",
+      "titleEn": "Forge Slash",
+      "descriptionEs": "{damage} de daño y Quemadura de {burnDamage}/s por {burnDuration} s. Alcance {range}.",
+      "descriptionEn": "{damage} damage and Burn for {burnDamage}/s over {burnDuration} s. Range {range}."
+    },
+    {
+      "key": "legionario-acero-vivo",
+      "titleEs": "Acero vivo",
+      "titleEn": "Living Steel",
+      "descriptionEs": "Súper: daño {damage:delta:legionario-tajo-de-forja}.",
+      "descriptionEn": "Super: damage {damage:delta:legionario-tajo-de-forja}."
+    },
+    {
+      "key": "legionario-segunda-marcha",
+      "titleEs": "Segunda marcha",
+      "titleEn": "Second March",
+      "descriptionEs": "Paso ardiente: duración {duration:delta:legionario-paso-ardiente} s.",
+      "descriptionEn": "Burning Step: duration {duration:delta:legionario-paso-ardiente} s."
+    },
+    {
+      "key": "legionario-fuego-interior",
+      "titleEs": "Fuego interior",
+      "titleEn": "Inner Fire",
+      "descriptionEs": "Súper: Cura {heal} si el objetivo ya tenía Quemadura.",
+      "descriptionEn": "Super: Heal {heal} if the target already had Burn before the hit."
+    },
+    {
+      "key": "dagata/basic",
+      "titleEs": "Puñalada",
+      "titleEn": "Stab",
+      "descriptionEs": "Daño {basicDamage}. Alcance {basicRange}. Cada {basicInterval} s.",
+      "descriptionEn": "Damage {basicDamage}. Range {basicRange}. Every {basicInterval} s."
+    },
+    {
+      "key": "dagata-entrada-entre-humo",
+      "titleEs": "Entrada entre humo",
+      "titleEn": "Smoke Entry",
+      "descriptionEs": "Inicio de ronda: salta a una casilla libre junto al enemigo más lejano y lo toma como objetivo.",
+      "descriptionEn": "At round start, jumps to a free cell beside the farthest enemy and targets it."
+    },
+    {
+      "key": "dagata-doble-ascua",
+      "titleEs": "Doble ascua",
+      "titleEn": "Twin Embers",
+      "descriptionEs": "{hitCount} golpes a la vez, de {damagePerHit} de daño cada uno. Alcance {range}.",
+      "descriptionEn": "{hitCount} simultaneous hits for {damagePerHit} damage each. Range {range}."
+    },
+    {
+      "key": "dagata-hoja-oculta",
+      "titleEs": "Hoja oculta",
+      "titleEn": "Hidden Blade",
+      "descriptionEs": "Primer básico que acierta tras el salto inicial: +{bonusDamage} de daño.",
+      "descriptionEn": "First basic hit that lands after the opening jump: +{bonusDamage} damage."
+    },
+    {
+      "key": "dagata-humo-protector",
+      "titleEs": "Humo protector",
+      "titleEn": "Protective Smoke",
+      "descriptionEs": "Al completar el salto inicial: escudo de +{shield} durante {duration} s.",
+      "descriptionEn": "After completing the opening jump: +{shield} shield for {duration} s."
+    },
+    {
+      "key": "dagata-caza-de-brasas",
+      "titleEs": "Caza de brasas",
+      "titleEn": "Ember Hunt",
+      "descriptionEs": "Súper: golpe extra de {bonusDamage} si el objetivo tiene menos del {healthThreshold}% de Vida al resolverla.",
+      "descriptionEn": "Super: an extra hit for {bonusDamage} if the target is below {healthThreshold}% Health when it resolves."
+    },
+    {
+      "key": "canonero-del-orvek/basic",
+      "titleEs": "Cañonazo",
+      "titleEn": "Cannon Shot",
+      "descriptionEs": "Daño {basicDamage}. Alcance {basicRange}. Cada {basicInterval} s.",
+      "descriptionEn": "Damage {basicDamage}. Range {basicRange}. Every {basicInterval} s."
+    },
+    {
+      "key": "canonero-del-orvek-escoria",
+      "titleEs": "Escoria",
+      "titleEn": "Slag",
+      "descriptionEs": "Básicos: Quemadura de {damage}/s durante {duration} s. No se acumula.",
+      "descriptionEn": "Basic hits: Burn for {damage}/s over {duration} s. Does not stack."
+    },
+    {
+      "key": "canonero-del-orvek-bomba-de-crater",
+      "titleEs": "Bomba de cráter",
+      "titleEn": "Crater Bomb",
+      "descriptionEs": "Bomba al enemigo más cercano: {damage} de daño en radio {radius} del objetivo. Quemadura {burnDamage}/s por {burnDuration} s. Alcance {range}.",
+      "descriptionEn": "Bombs the nearest enemy: {damage} damage within radius {radius} of the target. Burn {burnDamage}/s for {burnDuration} s. Range {range}."
+    },
+    {
+      "key": "canonero-del-orvek-carga-fundida",
+      "titleEs": "Carga fundida",
+      "titleEn": "Molten Charge",
+      "descriptionEs": "Súper: daño {damage:delta:canonero-del-orvek-bomba-de-crater}.",
+      "descriptionEn": "Super: damage {damage:delta:canonero-del-orvek-bomba-de-crater}."
+    },
+    {
+      "key": "canonero-del-orvek-ascuas-persistentes",
+      "titleEs": "Ascuas persistentes",
+      "titleEn": "Lingering Embers",
+      "descriptionEs": "Quemadura del súper: duración {duration:delta:canonero-del-orvek-bomba-de-crater:burnDuration} s.",
+      "descriptionEn": "Super burn: duration {duration:delta:canonero-del-orvek-bomba-de-crater:burnDuration} s."
+    },
+    {
+      "key": "canonero-del-orvek-horno-abierto",
+      "titleEs": "Horno abierto",
+      "titleEn": "Open Furnace",
+      "descriptionEs": "Bomba: Cura recibida −{healingReduction}% por {duration} s. Con veneno, se aplica el mayor.",
+      "descriptionEn": "Bomb: healing received −{healingReduction}% for {duration} s. With poison, the stronger reduction applies."
+    }
+  ]
+}

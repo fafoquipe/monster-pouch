@@ -1,0 +1,2602 @@
+fileFormatVersion: 2
+guid: 92e5d067ede8d3145bd9b6504b566ff5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4085957219385759628
+    second: anuik-combat-v3_0
+  - first:
+      213: -4949803608640722472
+    second: anuik-combat-v3_1
+  - first:
+      213: 5749727116194492442
+    second: anuik-combat-v3_2
+  - first:
+      213: 4429992464984396584
+    second: anuik-combat-v3_3
+  - first:
+      213: 3446360086882654625
+    second: anuik-combat-v3_4
+  - first:
+      213: 7546297644803135994
+    second: anuik-combat-v3_5
+  - first:
+      213: 4890458427032299144
+    second: anuik-combat-v3_6
+  - first:
+      213: 550308236892726137
+    second: anuik-combat-v3_7
+  - first:
+      213: -8681729190995560517
+    second: anuik-combat-v3_8
+  - first:
+      213: -1435404946702747566
+    second: anuik-combat-v3_9
+  - first:
+      213: 5605691428842822760
+    second: anuik-combat-v3_10
+  - first:
+      213: 960104245591275730
+    second: anuik-combat-v3_11
+  - first:
+      213: -5732161884311178950
+    second: anuik-combat-v3_12
+  - first:
+      213: -1685323060950810878
+    second: anuik-combat-v3_13
+  - first:
+      213: -8113899087400342705
+    second: anuik-combat-v3_14
+  - first:
+      213: -8210742440548927555
+    second: anuik-combat-v3_15
+  - first:
+      213: 3404884084943013597
+    second: anuik-combat-v3_16
+  - first:
+      213: -6982443958219689603
+    second: anuik-combat-v3_17
+  - first:
+      213: 8441006509749933710
+    second: anuik-combat-v3_18
+  - first:
+      213: 8631350296587265719
+    second: anuik-combat-v3_19
+  - first:
+      213: -6107617558588294609
+    second: anuik-combat-v3_20
+  - first:
+      213: -1246871597172416219
+    second: anuik-combat-v3_21
+  - first:
+      213: 3907598860712927996
+    second: anuik-combat-v3_22
+  - first:
+      213: -6806702603287019818
+    second: anuik-combat-v3_23
+  - first:
+      213: -1250707243675815461
+    second: anuik-combat-v3_24
+  - first:
+      213: -2210665699673442391
+    second: anuik-combat-v3_25
+  - first:
+      213: 2042544464327344893
+    second: anuik-combat-v3_26
+  - first:
+      213: 2454122001610347780
+    second: anuik-combat-v3_27
+  - first:
+      213: 1603578164799367752
+    second: anuik-combat-v3_28
+  - first:
+      213: -1029613025107149560
+    second: anuik-combat-v3_29
+  - first:
+      213: -4821784514541435163
+    second: anuik-combat-v3_30
+  - first:
+      213: 4168702329985597517
+    second: anuik-combat-v3_31
+  - first:
+      213: 8408534443088373425
+    second: anuik-combat-v3_32
+  - first:
+      213: 8476758719828872865
+    second: anuik-combat-v3_33
+  - first:
+      213: 6195180741528674504
+    second: anuik-combat-v3_34
+  - first:
+      213: 6351459768359779341
+    second: anuik-combat-v3_35
+  - first:
+      213: 7444119403352170658
+    second: anuik-combat-v3_36
+  - first:
+      213: 7537255134664752568
+    second: anuik-combat-v3_37
+  - first:
+      213: 4272764567446758678
+    second: anuik-combat-v3_38
+  - first:
+      213: -1913248003691565766
+    second: anuik-combat-v3_39
+  - first:
+      213: 7515896197421525278
+    second: anuik-combat-v3_40
+  - first:
+      213: -8261976472827398598
+    second: anuik-combat-v3_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anuik-combat-v3_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 643
+        width: 1179
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c875ee4517c34b830800000000000000
+      internalID: 4085957219385759628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_1
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 642
+        width: 146
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9e507d7d3ce4bb0800000000000000
+      internalID: -4949803608640722472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_2
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 646
+        width: 150
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10343c49522bcf40800000000000000
+      internalID: 5749727116194492442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_3
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 351
+        width: 211
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8235d010dae7a7d30800000000000000
+      internalID: 4429992464984396584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_4
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 659
+        width: 180
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a999ba4d3ee3df20800000000000000
+      internalID: 3446360086882654625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 500
+        width: 152
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af99bd7d9b5d9b860800000000000000
+      internalID: 7546297644803135994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 352
+        width: 106
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886631457066ed340800000000000000
+      internalID: 4890458427032299144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 353
+        width: 124
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97366f00d6613a700800000000000000
+      internalID: 550308236892726137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 494
+        width: 138
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7f19e6c4d448780800000000000000
+      internalID: -8681729190995560517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 498
+        width: 136
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258b1fa5eca641ce0800000000000000
+      internalID: -1435404946702747566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 351
+        width: 134
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cd0a087aa6bcd40800000000000000
+      internalID: 5605691428842822760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_11
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 497
+        width: 283
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8ffc979b9f25d00800000000000000
+      internalID: 960104245591275730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 353
+        width: 120
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a313992f2254370b0800000000000000
+      internalID: -5732161884311178950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_13
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 352
+        width: 105
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fb044fa978c98e0800000000000000
+      internalID: -1685323060950810878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_14
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 500
+        width: 150
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4be220f4c3a56f80800000000000000
+      internalID: -8113899087400342705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_15
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 353
+        width: 122
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db77bd0b0459d0e80800000000000000
+      internalID: -8210742440548927555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_16
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 353
+        width: 155
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6c8601904904f20800000000000000
+      internalID: 3404884084943013597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_17
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 503
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d713e3ee630691f90800000000000000
+      internalID: -6982443958219689603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_18
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 351
+        width: 112
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e869760c2ba742570800000000000000
+      internalID: 8441006509749933710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_19
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 480
+        width: 156
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6eb082d57b8c770800000000000000
+      internalID: 8631350296587265719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_20
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 351
+        width: 133
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2af764a0326d3ba0800000000000000
+      internalID: -6107617558588294609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_21
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 499
+        width: 140
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521a30a73e832bee0800000000000000
+      internalID: -1246871597172416219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_22
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 353
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2e381e5749a3630800000000000000
+      internalID: 3907598860712927996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_23
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 476
+        width: 183
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6deb957bb0cb981a0800000000000000
+      internalID: -6806702603287019818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_24
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 367
+        width: 178
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1f1be636894aee0800000000000000
+      internalID: -1250707243675815461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 207
+        width: 148
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7f2dd32432251e0800000000000000
+      internalID: -2210665699673442391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_26
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 207
+        width: 133
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df20c225e53985c10800000000000000
+      internalID: 2042544464327344893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_27
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 208
+        width: 144
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405947d35face0220800000000000000
+      internalID: 2454122001610347780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_28
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 207
+        width: 137
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a607248dd014610800000000000000
+      internalID: 1603578164799367752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_29
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 207
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d7f56a86416b1f0800000000000000
+      internalID: -1029613025107149560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_30
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 203
+        width: 140
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6474be784951db0800000000000000
+      internalID: -4821784514541435163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_31
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 207
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d408221bea43ad930800000000000000
+      internalID: 4168702329985597517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_32
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 207
+        width: 135
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b66be1968d11b470800000000000000
+      internalID: 8408534443088373425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_33
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 207
+        width: 141
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae4816d42f73a570800000000000000
+      internalID: 8476758719828872865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_34
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 207
+        width: 154
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0682a9f04b9f550800000000000000
+      internalID: 6195180741528674504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_35
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 205
+        width: 201
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cf442020be42850800000000000000
+      internalID: 6351459768359779341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_36
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 212
+        width: 185
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0266e1823de4760800000000000000
+      internalID: 7444119403352170658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_37
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 41
+        width: 1338
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd7e236c95b99860800000000000000
+      internalID: 7537255134664752568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_38
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 51
+        width: 156
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6152a8b6cb8eb4b30800000000000000
+      internalID: 4272764567446758678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_39
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 47
+        width: 157
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d2db4d317c275e0800000000000000
+      internalID: -1913248003691565766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_40
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 62
+        width: 181
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19e40845c3dd4860800000000000000
+      internalID: 7515896197421525278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-combat-v3_41
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 31
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36fc7afb20975d80800000000000000
+      internalID: -8261976472827398598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 657
+        width: 132
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e2577ebab0d914299cae7c508e31b3
+      internalID: 2062949079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 657
+        width: 131
+        height: 102
+      alignment: 9
+      pivot: {x: 0.49618322, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011d79914e5d75b4faf6e4fecc0a74fa
+      internalID: 1953842371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 657
+        width: 131
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee429f3bfe330c4db36fd17ee62413a
+      internalID: -2064766828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 657
+        width: 131
+        height: 102
+      alignment: 9
+      pivot: {x: 0.48854962, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0b6f259f315b64ebff542e742f7087
+      internalID: -496887630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 656
+        width: 129
+        height: 103
+      alignment: 9
+      pivot: {x: 0.48062015, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4084e60b00ce34cab6f5300ca39db1
+      internalID: -1797661150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 657
+        width: 129
+        height: 102
+      alignment: 9
+      pivot: {x: 0.49612403, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3ca12a4ad15ee4ab99d33c57525c2a
+      internalID: -185499670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 657
+        width: 129
+        height: 103
+      alignment: 9
+      pivot: {x: 0.49224806, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705407f5efbcb3c49bda682c36eb2a69
+      internalID: 379858075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 657
+        width: 130
+        height: 103
+      alignment: 9
+      pivot: {x: 0.48846152, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3a0647642ee9f42bfeeaa758c881cb
+      internalID: -999105210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 657
+        width: 131
+        height: 102
+      alignment: 9
+      pivot: {x: 0.49618322, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8944cd99574788e46ad76ac787e1a85f
+      internalID: 378423803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 658
+        width: 135
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5037037, y: 0.033333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a4ecddbcf8bea49ac3c57f93302600
+      internalID: -1166373793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 657
+        width: 137
+        height: 119
+      alignment: 9
+      pivot: {x: 0.46715328, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adf3bc6e4fa59e4891f2f2eb1ab5013
+      internalID: 1730499214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 665
+        width: 170
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5029412, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccdc4c35fce4134c81311621b499ac2
+      internalID: 794800599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 512
+        width: 129
+        height: 114
+      alignment: 9
+      pivot: {x: 0.503876, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e251161d56a1d374a8c02f3c9ced0b5b
+      internalID: -1771205968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 512
+        width: 126
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2137518ba16632541aa9c41c892e2358
+      internalID: -771114939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 512
+        width: 122
+        height: 114
+      alignment: 9
+      pivot: {x: 0.48360655, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea41bc8a6ffac14d95b5eac08c8f834
+      internalID: 1257819790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 512
+        width: 122
+        height: 115
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13efc259e8b47b448c86483e6eb5dbd
+      internalID: -482333744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 513
+        width: 119
+        height: 115
+      alignment: 9
+      pivot: {x: 0.48319328, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3478110a20e45fe40ba69c914e4a0803
+      internalID: 227661113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 512
+        width: 121
+        height: 114
+      alignment: 9
+      pivot: {x: 0.47107437, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b6e38b39835634b91d1c9f4dff6a19
+      internalID: 1131585462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 512
+        width: 120
+        height: 115
+      alignment: 9
+      pivot: {x: 0.47916666, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de578b11b74fc940a28e56b766d25aa
+      internalID: 897173908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 512
+        width: 122
+        height: 115
+      alignment: 9
+      pivot: {x: 0.45901638, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac0e4842497395439e5e43103e06865
+      internalID: -387578139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 512
+        width: 122
+        height: 115
+      alignment: 9
+      pivot: {x: 0.4795082, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b48b669869d674e8f573247137d11a
+      internalID: -1231854970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 512
+        width: 130
+        height: 100
+      alignment: 9
+      pivot: {x: 0.50384617, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10aa9d3b9672944ea74889afff191b1
+      internalID: -862293484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 514
+        width: 142
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4964789, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c71f8b035880524eb04b3a6c4ff68fc
+      internalID: -2144826503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 523
+        width: 171
+        height: 71
+      alignment: 9
+      pivot: {x: 0.50292397, y: 0.04225352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497c59225720209498b1831a52d0ce30
+      internalID: 555112833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 360
+        width: 94
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4574468, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9864e2407e5c74cae34c386e3de653
+      internalID: -150887397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 360
+        width: 90
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45555556, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af1362a3018df54782e144867f13124
+      internalID: -495578591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 360
+        width: 90
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45555556, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960852826cc42a54b8b981ba20d76648
+      internalID: -318377010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 360
+        width: 89
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46067417, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1ce93682db49e43b56fc5db899e3a0
+      internalID: 48474721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 360
+        width: 89
+        height: 128
+      alignment: 9
+      pivot: {x: 0.44382024, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acab68bcb0fa4c44b6554bb14992ca3
+      internalID: -449732884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 360
+        width: 90
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef472070fb8a5064cbe7de0510c29b00
+      internalID: 658678756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 360
+        width: 89
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4494382, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd228f0af5fa6a438805e0068b44251
+      internalID: 1143690079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 360
+        width: 91
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53326bcbadb1ae24497226ee865dea6b
+      internalID: 1717921623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 360
+        width: 90
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45, y: 0.0234375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cf3a631fafd8549a0cc85b1a8b82cf
+      internalID: -410970185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 364
+        width: 90
+        height: 108
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e4ff34ae3e8644ebd8d49e2951e5e6
+      internalID: -397431431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 364
+        width: 139
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5071942, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97c1bcf6eaca2a4186f50848987da05
+      internalID: -2033652596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 375
+        width: 167
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632f6a58a8794aa4894e35f7f61bb891
+      internalID: -711153053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 213
+        width: 125
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bba5446550e604ba54565baea04669
+      internalID: -368462917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 213
+        width: 120
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5125, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f5c721b90c311418064ee217f60350
+      internalID: -865573680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 212
+        width: 119
+        height: 117
+      alignment: 9
+      pivot: {x: 0.49579832, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8be917781aa414abb9801f8a17b45c
+      internalID: 1105196826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 212
+        width: 119
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae0987569d3c704eacc34a93434652d
+      internalID: -2018280866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 212
+        width: 118
+        height: 117
+      alignment: 9
+      pivot: {x: 0.4957627, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d641e038a98ef4d409f88d8df524f381
+      internalID: -537342748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 212
+        width: 118
+        height: 114
+      alignment: 9
+      pivot: {x: 0.48728815, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c85e23270730a4d9972e74b605d2a6
+      internalID: -1577116613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 212
+        width: 117
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3810421a666da3a47b617121f18dcfe7
+      internalID: -517996243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 213
+        width: 119
+        height: 113
+      alignment: 9
+      pivot: {x: 0.46638656, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d21ccb372841d469f610ad5a3f857a
+      internalID: -1428879955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 212
+        width: 117
+        height: 114
+      alignment: 9
+      pivot: {x: 0.491453, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403d62c8f21045e48a6bb95bbab513f8
+      internalID: -2074508256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 213
+        width: 124
+        height: 99
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c4fcfa28ea633499210d989a049ccc
+      internalID: 416127512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 216
+        width: 138
+        height: 125
+      alignment: 9
+      pivot: {x: 0.46376812, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8a074a4108af74faa7cef76c5006d4
+      internalID: -1467705437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 222
+        width: 167
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e0f14ff5a4e3f4684c031b563d1212
+      internalID: 867680708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 54
+        width: 135
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4962963, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac6f5ccac28d65488d2945546402406
+      internalID: 2136278344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 55
+        width: 133
+        height: 110
+      alignment: 9
+      pivot: {x: 0.48872182, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fca72cb127205442a5f4eade9d5aa4c
+      internalID: 704209694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 55
+        width: 134
+        height: 111
+      alignment: 9
+      pivot: {x: 0.49626866, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06c89c42458b87419271b8932c1c61b
+      internalID: -249794235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 54
+        width: 134
+        height: 110
+      alignment: 9
+      pivot: {x: 0.47761193, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae61ebbcd1e49de4aac32dc7c32e01ac
+      internalID: 667931577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 55
+        width: 133
+        height: 111
+      alignment: 9
+      pivot: {x: 0.48872182, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a455193ca6cbec0469df827d5f6e9afa
+      internalID: 936957555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 54
+        width: 134
+        height: 110
+      alignment: 9
+      pivot: {x: 0.48880598, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2eaf166102c0b4592907f8df4423c4
+      internalID: 1719430734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 54
+        width: 133
+        height: 109
+      alignment: 9
+      pivot: {x: 0.49624062, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aabc1f1a6c150044a95c56f9a89e3e9
+      internalID: 641241651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 54
+        width: 135
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1a6f500b11d8c47ae55d03049d2a24
+      internalID: 886494873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 54
+        width: 134
+        height: 109
+      alignment: 9
+      pivot: {x: 0.49253732, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998f18e5476763e4898c2990076ca7c3
+      internalID: 1596504273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 58
+        width: 136
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a56edb0d9f41674b9ce5f593cccf10f
+      internalID: -2125843937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 56
+        width: 135
+        height: 127
+      alignment: 9
+      pivot: {x: 0.45925927, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be189d1f03a0fc4c98a8da8af3561d1
+      internalID: -947576932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 65
+        width: 166
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea31db5e1a5467640987f248b433df73
+      internalID: 240988564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a4aadf865dfea7748828ae8a915fbc55
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      anuik-clean-r00-f00: 2062949079
+      anuik-clean-r00-f01: 1953842371
+      anuik-clean-r00-f02: -2064766828
+      anuik-clean-r00-f03: -496887630
+      anuik-clean-r00-f04: -1797661150
+      anuik-clean-r00-f05: -185499670
+      anuik-clean-r00-f06: 379858075
+      anuik-clean-r00-f07: -999105210
+      anuik-clean-r00-f08: 378423803
+      anuik-clean-r00-f09: -1166373793
+      anuik-clean-r00-f10: 1730499214
+      anuik-clean-r00-f11: 794800599
+      anuik-clean-r01-f00: -1771205968
+      anuik-clean-r01-f01: -771114939
+      anuik-clean-r01-f02: 1257819790
+      anuik-clean-r01-f03: -482333744
+      anuik-clean-r01-f04: 227661113
+      anuik-clean-r01-f05: 1131585462
+      anuik-clean-r01-f06: 897173908
+      anuik-clean-r01-f07: -387578139
+      anuik-clean-r01-f08: -1231854970
+      anuik-clean-r01-f09: -862293484
+      anuik-clean-r01-f10: -2144826503
+      anuik-clean-r01-f11: 555112833
+      anuik-clean-r02-f00: -150887397
+      anuik-clean-r02-f01: -495578591
+      anuik-clean-r02-f02: -318377010
+      anuik-clean-r02-f03: 48474721
+      anuik-clean-r02-f04: -449732884
+      anuik-clean-r02-f05: 658678756
+      anuik-clean-r02-f06: 1143690079
+      anuik-clean-r02-f07: 1717921623
+      anuik-clean-r02-f08: -410970185
+      anuik-clean-r02-f09: -397431431
+      anuik-clean-r02-f10: -2033652596
+      anuik-clean-r02-f11: -711153053
+      anuik-clean-r03-f00: -368462917
+      anuik-clean-r03-f01: -865573680
+      anuik-clean-r03-f02: 1105196826
+      anuik-clean-r03-f03: -2018280866
+      anuik-clean-r03-f04: -537342748
+      anuik-clean-r03-f05: -1577116613
+      anuik-clean-r03-f06: -517996243
+      anuik-clean-r03-f07: -1428879955
+      anuik-clean-r03-f08: -2074508256
+      anuik-clean-r03-f09: 416127512
+      anuik-clean-r03-f10: -1467705437
+      anuik-clean-r03-f11: 867680708
+      anuik-clean-r04-f00: 2136278344
+      anuik-clean-r04-f01: 704209694
+      anuik-clean-r04-f02: -249794235
+      anuik-clean-r04-f03: 667931577
+      anuik-clean-r04-f04: 936957555
+      anuik-clean-r04-f05: 1719430734
+      anuik-clean-r04-f06: 641241651
+      anuik-clean-r04-f07: 886494873
+      anuik-clean-r04-f08: 1596504273
+      anuik-clean-r04-f09: -2125843937
+      anuik-clean-r04-f10: -947576932
+      anuik-clean-r04-f11: 240988564
+      anuik-combat-v3_0: 4085957219385759628
+      anuik-combat-v3_1: -4949803608640722472
+      anuik-combat-v3_10: 5605691428842822760
+      anuik-combat-v3_11: 960104245591275730
+      anuik-combat-v3_12: -5732161884311178950
+      anuik-combat-v3_13: -1685323060950810878
+      anuik-combat-v3_14: -8113899087400342705
+      anuik-combat-v3_15: -8210742440548927555
+      anuik-combat-v3_16: 3404884084943013597
+      anuik-combat-v3_17: -6982443958219689603
+      anuik-combat-v3_18: 8441006509749933710
+      anuik-combat-v3_19: 8631350296587265719
+      anuik-combat-v3_2: 5749727116194492442
+      anuik-combat-v3_20: -6107617558588294609
+      anuik-combat-v3_21: -1246871597172416219
+      anuik-combat-v3_22: 3907598860712927996
+      anuik-combat-v3_23: -6806702603287019818
+      anuik-combat-v3_24: -1250707243675815461
+      anuik-combat-v3_25: -2210665699673442391
+      anuik-combat-v3_26: 2042544464327344893
+      anuik-combat-v3_27: 2454122001610347780
+      anuik-combat-v3_28: 1603578164799367752
+      anuik-combat-v3_29: -1029613025107149560
+      anuik-combat-v3_3: 4429992464984396584
+      anuik-combat-v3_30: -4821784514541435163
+      anuik-combat-v3_31: 4168702329985597517
+      anuik-combat-v3_32: 8408534443088373425
+      anuik-combat-v3_33: 8476758719828872865
+      anuik-combat-v3_34: 6195180741528674504
+      anuik-combat-v3_35: 6351459768359779341
+      anuik-combat-v3_36: 7444119403352170658
+      anuik-combat-v3_37: 7537255134664752568
+      anuik-combat-v3_38: 4272764567446758678
+      anuik-combat-v3_39: -1913248003691565766
+      anuik-combat-v3_4: 3446360086882654625
+      anuik-combat-v3_40: 7515896197421525278
+      anuik-combat-v3_41: -8261976472827398598
+      anuik-combat-v3_5: 7546297644803135994
+      anuik-combat-v3_6: 4890458427032299144
+      anuik-combat-v3_7: 550308236892726137
+      anuik-combat-v3_8: -8681729190995560517
+      anuik-combat-v3_9: -1435404946702747566
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: 895ef8e890632e548a2cde13835783a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1468412293898911751
+    second: gochan-combat_0
+  - first:
+      213: -8937347137190841937
+    second: gochan-combat_1
+  - first:
+      213: 167179434961405551
+    second: gochan-combat_2
+  - first:
+      213: -8337618168385543549
+    second: gochan-combat_3
+  - first:
+      213: 6419369494056804130
+    second: gochan-combat_4
+  - first:
+      213: -3421182440576218725
+    second: gochan-combat_5
+  - first:
+      213: 5623614245846944915
+    second: gochan-combat_6
+  - first:
+      213: 4749307069600236504
+    second: gochan-combat_7
+  - first:
+      213: -1182525012494422461
+    second: gochan-combat_8
+  - first:
+      213: 287308903315987015
+    second: gochan-combat_9
+  - first:
+      213: -4124369586175524141
+    second: gochan-combat_10
+  - first:
+      213: -5402416145857050001
+    second: gochan-combat_11
+  - first:
+      213: 6025715963527415378
+    second: gochan-combat_12
+  - first:
+      213: 3577875613176807006
+    second: gochan-combat_13
+  - first:
+      213: -2341628372527983784
+    second: gochan-combat_14
+  - first:
+      213: -900101365580069191
+    second: gochan-combat_15
+  - first:
+      213: 6546589477552672988
+    second: gochan-combat_16
+  - first:
+      213: 8520843786338200222
+    second: gochan-combat_17
+  - first:
+      213: -1407347625589134497
+    second: gochan-combat_18
+  - first:
+      213: -6121061849989729384
+    second: gochan-combat_19
+  - first:
+      213: -6707880249223263190
+    second: gochan-combat_20
+  - first:
+      213: 4288933968457856650
+    second: gochan-combat_21
+  - first:
+      213: -1798742912345146116
+    second: gochan-combat_22
+  - first:
+      213: 978620794740545950
+    second: gochan-combat_23
+  - first:
+      213: 8572141782158567770
+    second: gochan-combat_24
+  - first:
+      213: -6278416903994250968
+    second: gochan-combat_25
+  - first:
+      213: -5042217005562723450
+    second: gochan-combat_26
+  - first:
+      213: 3103161760989581947
+    second: gochan-combat_27
+  - first:
+      213: 6442458043984639901
+    second: gochan-combat_28
+  - first:
+      213: -420357819514502862
+    second: gochan-combat_29
+  - first:
+      213: 9207471072286680280
+    second: gochan-combat_30
+  - first:
+      213: -1646211305297802520
+    second: gochan-combat_31
+  - first:
+      213: 8135640925136734588
+    second: gochan-combat_32
+  - first:
+      213: -6893133984318813245
+    second: gochan-combat_33
+  - first:
+      213: 5026899141867458879
+    second: gochan-combat_34
+  - first:
+      213: -2219517546663725341
+    second: gochan-combat_35
+  - first:
+      213: -1883120258348874152
+    second: gochan-combat_36
+  - first:
+      213: -1293632588537673841
+    second: gochan-combat_37
+  - first:
+      213: -8432864481892056007
+    second: gochan-combat_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gochan-combat_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 126
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffb6567cc62f9be0800000000000000
+      internalID: -1468412293898911751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 892
+        width: 115
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1b26d712a28f380800000000000000
+      internalID: -8937347137190841937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 889
+        width: 119
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6600a27fc0f15200800000000000000
+      internalID: 167179434961405551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 765
+        width: 126
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38269805374da4c80800000000000000
+      internalID: -8337618168385543549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 883
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f1c372b8e261950800000000000000
+      internalID: 6419369494056804130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 893
+        width: 119
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9986ad42b48580d0800000000000000
+      internalID: -3421182440576218725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_6
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 887
+        width: 108
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c88858c571b0e40800000000000000
+      internalID: 5623614245846944915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_7
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 893
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d306cced9de8e140800000000000000
+      internalID: 4749307069600236504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_8
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 889
+        width: 239
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e614434c3d69fe0800000000000000
+      internalID: -1182525012494422461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_9
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 891
+        width: 115
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ad4f2ece9bcf300800000000000000
+      internalID: 287308903315987015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_10
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 891
+        width: 133
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2459596bb43c6c0800000000000000
+      internalID: -4124369586175524141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_11
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 633
+        width: 115
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a0b597323c605b0800000000000000
+      internalID: -5402416145857050001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 764
+        width: 118
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256c3734eb4af9350800000000000000
+      internalID: 6025715963527415378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_13
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 764
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ebfede9ea27a130800000000000000
+      internalID: 3577875613176807006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_14
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 761
+        width: 114
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8535e73d66dd08fd0800000000000000
+      internalID: -2341628372527983784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_15
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 127
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b681c2b3923283f0800000000000000
+      internalID: -900101365580069191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_16
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 765
+        width: 123
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd056dbc1782ada50800000000000000
+      internalID: 6546589477552672988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 764
+        width: 135
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a684f374e104670800000000000000
+      internalID: 8520843786338200222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_18
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 765
+        width: 127
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b254d7ac8187ce0800000000000000
+      internalID: -1407347625589134497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_19
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 758
+        width: 111
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893ba2f9dae9d0ba0800000000000000
+      internalID: -6121061849989729384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_20
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 763
+        width: 127
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c40350472d8e2a0800000000000000
+      internalID: -6707880249223263190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 492
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86790778ba558b30800000000000000
+      internalID: 4288933968457856650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_22
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 133
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc7a63f9d49907e0800000000000000
+      internalID: -1798742912345146116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_23
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 636
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9912588d62c49d00800000000000000
+      internalID: 978620794740545950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_24
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 633
+        width: 111
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5968d1a88d56f670800000000000000
+      internalID: 8572141782158567770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_25
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 753
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8296d9d17159ed8a0800000000000000
+      internalID: -6278416903994250968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_26
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 700
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68300072952760ab0800000000000000
+      internalID: -5042217005562723450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_27
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 635
+        width: 257
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b721c5c2e25a01b20800000000000000
+      internalID: 3103161760989581947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_28
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 636
+        width: 135
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97ff081575386950800000000000000
+      internalID: 6442458043984639901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_29
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 253
+        width: 130
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231c7415ac69a2af0800000000000000
+      internalID: -420357819514502862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_30
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 379
+        width: 125
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4255f282287cf70800000000000000
+      internalID: 9207471072286680280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_31
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 503
+        width: 246
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea0e723a8b7729e0800000000000000
+      internalID: -1646211305297802520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_32
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 0
+        width: 258
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79c7e2215a97e070800000000000000
+      internalID: 8135640925136734588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_33
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 379
+        width: 249
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb0183a92ba650a0800000000000000
+      internalID: -6893133984318813245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_34
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 0
+        width: 135
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31d9b8c22223c540800000000000000
+      internalID: 5026899141867458879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_35
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 250
+        width: 258
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6bc520d80b231e0800000000000000
+      internalID: -2219517546663725341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_36
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 123
+        width: 123
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85606cb2a10ddd5e0800000000000000
+      internalID: -1883120258348874152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_37
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 125
+        width: 128
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87c752c3081c0ee0800000000000000
+      internalID: -1293632588537673841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-combat_38
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 0
+        width: 248
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934c0d5de6278fa80800000000000000
+      internalID: -8432864481892056007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gochan-combat_0: -1468412293898911751
+      gochan-combat_1: -8937347137190841937
+      gochan-combat_10: -4124369586175524141
+      gochan-combat_11: -5402416145857050001
+      gochan-combat_12: 6025715963527415378
+      gochan-combat_13: 3577875613176807006
+      gochan-combat_14: -2341628372527983784
+      gochan-combat_15: -900101365580069191
+      gochan-combat_16: 6546589477552672988
+      gochan-combat_17: 8520843786338200222
+      gochan-combat_18: -1407347625589134497
+      gochan-combat_19: -6121061849989729384
+      gochan-combat_2: 167179434961405551
+      gochan-combat_20: -6707880249223263190
+      gochan-combat_21: 4288933968457856650
+      gochan-combat_22: -1798742912345146116
+      gochan-combat_23: 978620794740545950
+      gochan-combat_24: 8572141782158567770
+      gochan-combat_25: -6278416903994250968
+      gochan-combat_26: -5042217005562723450
+      gochan-combat_27: 3103161760989581947
+      gochan-combat_28: 6442458043984639901
+      gochan-combat_29: -420357819514502862
+      gochan-combat_3: -8337618168385543549
+      gochan-combat_30: 9207471072286680280
+      gochan-combat_31: -1646211305297802520
+      gochan-combat_32: 8135640925136734588
+      gochan-combat_33: -6893133984318813245
+      gochan-combat_34: 5026899141867458879
+      gochan-combat_35: -2219517546663725341
+      gochan-combat_36: -1883120258348874152
+      gochan-combat_37: -1293632588537673841
+      gochan-combat_38: -8432864481892056007
+      gochan-combat_4: 6419369494056804130
+      gochan-combat_5: -3421182440576218725
+      gochan-combat_6: 5623614245846944915
+      gochan-combat_7: 4749307069600236504
+      gochan-combat_8: -1182525012494422461
+      gochan-combat_9: 287308903315987015
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

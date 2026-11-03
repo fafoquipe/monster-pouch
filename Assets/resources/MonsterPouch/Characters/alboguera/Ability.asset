@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Ability
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: alboguera-compas-ascendente
+    Trigger: 1
+    EveryAttacks: 0
+    Id: alboguera-compas-ascendente
+    Name: "Comp\xE1s ascendente"
+    Description: "Elige al aliado con mayor DA\xD1O dentro de alcance 4; \xE9l y
+      los aliados a radio 1 ganan +20 % de velocidad de ataque durante 4 s."
+    Parameters:
+    - Key: range
+      Value: 4
+    - Key: radius
+      Value: 1
+    - Key: attackSpeed
+      Value: 0.3
+    - Key: duration
+      Value: 4
+    - Key: recoveryDuration
+      Value: 0.3
+    - Key: holdDuration
+      Value: 0.5
+    Area:
+      Shape: 1
+      SquareSize: 3
+      IncludeCenter: 0
+      UpWidth: 1
+      UpDepth: 0
+      RightWidth: 1
+      RightDepth: 0
+      DownWidth: 1
+      DownDepth: 0
+      LeftWidth: 1
+      LeftDepth: 0
+    Cost: 0
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals: []
+  Icon: {fileID: 21300000, guid: c14376ea94c85c30a7e22ff71c969c40, type: 3}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

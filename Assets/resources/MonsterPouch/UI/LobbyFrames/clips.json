@@ -1,0 +1,4605 @@
+{
+  "clips": [
+    {
+      "id": "aky",
+      "texture": "MonsterPouch/ReferenceRedesign/aky-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/aky",
+      "idleRect": [
+        0.0,
+        0.0,
+        64.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        60.0,
+        64.0
+      ],
+      "idleAnchor": [
+        32.0,
+        2.0
+      ],
+      "referenceHeight": 226.0,
+      "frames": [
+        {
+          "rect": [
+            766.0,
+            276.0,
+            206.0,
+            234.0
+          ],
+          "anchor": [
+            102.0,
+            6.0
+          ],
+          "height": 226.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            534.0,
+            276.0,
+            208.0,
+            234.0
+          ],
+          "anchor": [
+            104.0,
+            6.0
+          ],
+          "height": 226.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1268.0,
+            1770.0,
+            262.0,
+            202.0
+          ],
+          "anchor": [
+            131.0,
+            6.0
+          ],
+          "height": 194.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            12.0,
+            440.0,
+            240.0
+          ],
+          "anchor": [
+            223.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            12.0,
+            440.0,
+            240.0
+          ],
+          "anchor": [
+            223.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1268.0,
+            1770.0,
+            262.0,
+            202.0
+          ],
+          "anchor": [
+            131.0,
+            6.0
+          ],
+          "height": 194.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            534.0,
+            276.0,
+            208.0,
+            234.0
+          ],
+          "anchor": [
+            104.0,
+            6.0
+          ],
+          "height": 226.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            766.0,
+            276.0,
+            206.0,
+            234.0
+          ],
+          "anchor": [
+            102.0,
+            6.0
+          ],
+          "height": 226.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "anuik",
+      "texture": "MonsterPouch/ReferenceRedesign/anuik-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/anuik",
+      "idleRect": [
+        0.0,
+        0.0,
+        78.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        74.0,
+        64.0
+      ],
+      "idleAnchor": [
+        37.5,
+        2.0
+      ],
+      "referenceHeight": 234.0,
+      "frames": [
+        {
+          "rect": [
+            1028.0,
+            1144.0,
+            314.0,
+            242.0
+          ],
+          "anchor": [
+            158.0,
+            6.0
+          ],
+          "height": 234.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1350.0,
+            1410.0,
+            314.0,
+            238.0
+          ],
+          "anchor": [
+            157.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            350.0,
+            1410.0,
+            298.0,
+            240.0
+          ],
+          "anchor": [
+            134.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2362.0,
+            1144.0,
+            316.0,
+            240.0
+          ],
+          "anchor": [
+            158.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2362.0,
+            1144.0,
+            316.0,
+            240.0
+          ],
+          "anchor": [
+            158.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            350.0,
+            1410.0,
+            298.0,
+            240.0
+          ],
+          "anchor": [
+            134.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1350.0,
+            1410.0,
+            314.0,
+            238.0
+          ],
+          "anchor": [
+            157.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1028.0,
+            1144.0,
+            314.0,
+            242.0
+          ],
+          "anchor": [
+            158.0,
+            6.0
+          ],
+          "height": 234.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "atong",
+      "texture": "MonsterPouch/ReferenceRedesign/atong-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/atong",
+      "idleRect": [
+        0.0,
+        0.0,
+        64.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        60.0,
+        64.0
+      ],
+      "idleAnchor": [
+        33.5,
+        2.0
+      ],
+      "referenceHeight": 232.0,
+      "frames": [
+        {
+          "rect": [
+            1254.0,
+            1918.0,
+            230.0,
+            240.0
+          ],
+          "anchor": [
+            113.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            532.0,
+            1114.0,
+            226.0,
+            246.0
+          ],
+          "anchor": [
+            113.0,
+            6.0
+          ],
+          "height": 238.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            12.0,
+            242.0,
+            258.0
+          ],
+          "anchor": [
+            113.0,
+            6.0
+          ],
+          "height": 250.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            430.0,
+            1918.0,
+            268.0,
+            240.0
+          ],
+          "anchor": [
+            159.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            430.0,
+            1918.0,
+            268.0,
+            240.0
+          ],
+          "anchor": [
+            159.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            12.0,
+            242.0,
+            258.0
+          ],
+          "anchor": [
+            113.0,
+            6.0
+          ],
+          "height": 250.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            532.0,
+            1114.0,
+            226.0,
+            246.0
+          ],
+          "anchor": [
+            113.0,
+            6.0
+          ],
+          "height": 238.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1254.0,
+            1918.0,
+            230.0,
+            240.0
+          ],
+          "anchor": [
+            113.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "atori",
+      "texture": "MonsterPouch/ReferenceRedesign/atori-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/atori",
+      "idleRect": [
+        0.0,
+        0.0,
+        60.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        56.0,
+        64.0
+      ],
+      "idleAnchor": [
+        29.5,
+        2.0
+      ],
+      "referenceHeight": 228.0,
+      "frames": [
+        {
+          "rect": [
+            12.0,
+            286.0,
+            200.0,
+            236.0
+          ],
+          "anchor": [
+            100.0,
+            6.0
+          ],
+          "height": 228.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2508.0,
+            12.0,
+            202.0,
+            236.0
+          ],
+          "anchor": [
+            101.0,
+            6.0
+          ],
+          "height": 228.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2094.0,
+            1534.0,
+            200.0,
+            208.0
+          ],
+          "anchor": [
+            103.0,
+            6.0
+          ],
+          "height": 200.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            800.0,
+            12.0,
+            244.0,
+            238.0
+          ],
+          "anchor": [
+            123.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            800.0,
+            12.0,
+            244.0,
+            238.0
+          ],
+          "anchor": [
+            123.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2094.0,
+            1534.0,
+            200.0,
+            208.0
+          ],
+          "anchor": [
+            103.0,
+            6.0
+          ],
+          "height": 200.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2508.0,
+            12.0,
+            202.0,
+            236.0
+          ],
+          "anchor": [
+            101.0,
+            6.0
+          ],
+          "height": 228.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            286.0,
+            200.0,
+            236.0
+          ],
+          "anchor": [
+            100.0,
+            6.0
+          ],
+          "height": 228.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "blotan",
+      "texture": "MonsterPouch/BlotanMoonken/blotan-moonken",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/blotan",
+      "idleRect": [
+        0.0,
+        0.0,
+        67.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        63.0,
+        64.0
+      ],
+      "idleAnchor": [
+        31.5,
+        2.0
+      ],
+      "referenceHeight": 120.0,
+      "frames": [
+        {
+          "rect": [
+            12.0,
+            612.0,
+            148.0,
+            128.0
+          ],
+          "anchor": [
+            76.0,
+            6.0
+          ],
+          "height": 120.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            182.0,
+            610.0,
+            142.0,
+            130.0
+          ],
+          "anchor": [
+            71.0,
+            6.0
+          ],
+          "height": 122.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1296.0,
+            610.0,
+            144.0,
+            128.0
+          ],
+          "anchor": [
+            68.0,
+            6.0
+          ],
+          "height": 120.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1452.0,
+            608.0,
+            138.0,
+            184.0
+          ],
+          "anchor": [
+            72.0,
+            2.0
+          ],
+          "height": 180.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1452.0,
+            608.0,
+            138.0,
+            184.0
+          ],
+          "anchor": [
+            72.0,
+            2.0
+          ],
+          "height": 180.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1296.0,
+            610.0,
+            144.0,
+            128.0
+          ],
+          "anchor": [
+            68.0,
+            6.0
+          ],
+          "height": 120.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            182.0,
+            610.0,
+            142.0,
+            130.0
+          ],
+          "anchor": [
+            71.0,
+            6.0
+          ],
+          "height": 122.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            612.0,
+            148.0,
+            128.0
+          ],
+          "anchor": [
+            76.0,
+            6.0
+          ],
+          "height": 120.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "bugaloo",
+      "texture": "MonsterPouch/ReferenceRedesign/bugaloo-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/bugaloo",
+      "idleRect": [
+        0.0,
+        0.0,
+        65.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        61.0,
+        64.0
+      ],
+      "idleAnchor": [
+        32.0,
+        2.0
+      ],
+      "referenceHeight": 230.0,
+      "frames": [
+        {
+          "rect": [
+            2172.0,
+            12.0,
+            230.0,
+            238.0
+          ],
+          "anchor": [
+            115.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            490.0,
+            284.0,
+            228.0,
+            236.0
+          ],
+          "anchor": [
+            114.0,
+            6.0
+          ],
+          "height": 228.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1892.0,
+            12.0,
+            256.0,
+            238.0
+          ],
+          "anchor": [
+            125.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1034.0,
+            12.0,
+            278.0,
+            240.0
+          ],
+          "anchor": [
+            136.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1034.0,
+            12.0,
+            278.0,
+            240.0
+          ],
+          "anchor": [
+            136.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1892.0,
+            12.0,
+            256.0,
+            238.0
+          ],
+          "anchor": [
+            125.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            490.0,
+            284.0,
+            228.0,
+            236.0
+          ],
+          "anchor": [
+            114.0,
+            6.0
+          ],
+          "height": 228.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2172.0,
+            12.0,
+            230.0,
+            238.0
+          ],
+          "anchor": [
+            115.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "bugui",
+      "texture": "MonsterPouch/ReferenceRedesign/bugui-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/bugui",
+      "idleRect": [
+        0.0,
+        0.0,
+        67.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        63.0,
+        64.0
+      ],
+      "idleAnchor": [
+        30.0,
+        2.0
+      ],
+      "referenceHeight": 230.0,
+      "frames": [
+        {
+          "rect": [
+            1502.0,
+            1632.0,
+            240.0,
+            238.0
+          ],
+          "anchor": [
+            118.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1766.0,
+            1632.0,
+            238.0,
+            238.0
+          ],
+          "anchor": [
+            118.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            1896.0,
+            230.0,
+            238.0
+          ],
+          "anchor": [
+            117.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            1368.0,
+            256.0,
+            240.0
+          ],
+          "anchor": [
+            115.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            1368.0,
+            256.0,
+            240.0
+          ],
+          "anchor": [
+            115.0,
+            6.0
+          ],
+          "height": 232.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            1896.0,
+            230.0,
+            238.0
+          ],
+          "anchor": [
+            117.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1766.0,
+            1632.0,
+            238.0,
+            238.0
+          ],
+          "anchor": [
+            118.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1502.0,
+            1632.0,
+            240.0,
+            238.0
+          ],
+          "anchor": [
+            118.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "flo",
+      "texture": "MonsterPouch/ReferenceRedesign/flo-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/flo",
+      "idleRect": [
+        0.0,
+        0.0,
+        68.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        64.0,
+        64.0
+      ],
+      "idleAnchor": [
+        33.0,
+        2.0
+      ],
+      "referenceHeight": 214.0,
+      "frames": [
+        {
+          "rect": [
+            270.0,
+            2578.0,
+            226.0,
+            222.0
+          ],
+          "anchor": [
+            113.99999237060547,
+            6.0
+          ],
+          "height": 214.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            520.0,
+            2578.0,
+            220.0,
+            222.0
+          ],
+          "anchor": [
+            110.0,
+            6.0
+          ],
+          "height": 214.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1240.0,
+            1828.0,
+            244.0,
+            226.0
+          ],
+          "anchor": [
+            118.0,
+            6.0
+          ],
+          "height": 218.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            522.0,
+            1828.0,
+            220.0,
+            228.0
+          ],
+          "anchor": [
+            110.0,
+            6.0
+          ],
+          "height": 220.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            522.0,
+            1828.0,
+            220.0,
+            228.0
+          ],
+          "anchor": [
+            110.0,
+            6.0
+          ],
+          "height": 220.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1240.0,
+            1828.0,
+            244.0,
+            226.0
+          ],
+          "anchor": [
+            118.0,
+            6.0
+          ],
+          "height": 218.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            520.0,
+            2578.0,
+            220.0,
+            222.0
+          ],
+          "anchor": [
+            110.0,
+            6.0
+          ],
+          "height": 214.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            270.0,
+            2578.0,
+            226.0,
+            222.0
+          ],
+          "anchor": [
+            113.99999237060547,
+            6.0
+          ],
+          "height": 214.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "gochan",
+      "texture": "MonsterPouch/ReferenceRedesign/gochan-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/gochan",
+      "idleRect": [
+        0.0,
+        0.0,
+        66.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        62.0,
+        64.0
+      ],
+      "idleAnchor": [
+        32.0,
+        2.0
+      ],
+      "referenceHeight": 224.0,
+      "frames": [
+        {
+          "rect": [
+            464.0,
+            1066.0,
+            202.0,
+            232.0
+          ],
+          "anchor": [
+            92.0,
+            6.0
+          ],
+          "height": 224.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            690.0,
+            1066.0,
+            202.0,
+            232.0
+          ],
+          "anchor": [
+            94.0,
+            6.0
+          ],
+          "height": 224.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            2282.0,
+            214.0,
+            178.0
+          ],
+          "anchor": [
+            107.0,
+            6.0
+          ],
+          "height": 170.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            1822.0,
+            220.0,
+            212.0
+          ],
+          "anchor": [
+            108.0,
+            6.0
+          ],
+          "height": 204.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            1822.0,
+            220.0,
+            212.0
+          ],
+          "anchor": [
+            108.0,
+            6.0
+          ],
+          "height": 204.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            2282.0,
+            214.0,
+            178.0
+          ],
+          "anchor": [
+            107.0,
+            6.0
+          ],
+          "height": 170.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            690.0,
+            1066.0,
+            202.0,
+            232.0
+          ],
+          "anchor": [
+            94.0,
+            6.0
+          ],
+          "height": 224.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            464.0,
+            1066.0,
+            202.0,
+            232.0
+          ],
+          "anchor": [
+            92.0,
+            6.0
+          ],
+          "height": 224.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "hymay",
+      "texture": "MonsterPouch/ReferenceRedesign/hymay-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/hymay",
+      "idleRect": [
+        0.0,
+        0.0,
+        70.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        66.0,
+        64.0
+      ],
+      "idleAnchor": [
+        36.5,
+        2.0
+      ],
+      "referenceHeight": 218.0,
+      "frames": [
+        {
+          "rect": [
+            788.0,
+            1314.0,
+            226.0,
+            226.0
+          ],
+          "anchor": [
+            113.0,
+            6.0
+          ],
+          "height": 218.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1286.0,
+            1314.0,
+            222.0,
+            226.0
+          ],
+          "anchor": [
+            111.0,
+            6.0
+          ],
+          "height": 218.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1472.0,
+            808.0,
+            246.0,
+            228.0
+          ],
+          "anchor": [
+            116.0,
+            6.0
+          ],
+          "height": 220.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            230.0,
+            286.0,
+            214.0,
+            238.0
+          ],
+          "anchor": [
+            123.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            230.0,
+            286.0,
+            214.0,
+            238.0
+          ],
+          "anchor": [
+            123.0,
+            6.0
+          ],
+          "height": 230.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1472.0,
+            808.0,
+            246.0,
+            228.0
+          ],
+          "anchor": [
+            116.0,
+            6.0
+          ],
+          "height": 220.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1286.0,
+            1314.0,
+            222.0,
+            226.0
+          ],
+          "anchor": [
+            111.0,
+            6.0
+          ],
+          "height": 218.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            788.0,
+            1314.0,
+            226.0,
+            226.0
+          ],
+          "anchor": [
+            113.0,
+            6.0
+          ],
+          "height": 218.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "jazar",
+      "texture": "MonsterPouch/ReferenceRedesign/jazar-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/jazar",
+      "idleRect": [
+        0.0,
+        0.0,
+        67.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        63.0,
+        64.0
+      ],
+      "idleAnchor": [
+        32.0,
+        2.0
+      ],
+      "referenceHeight": 228.0,
+      "frames": [
+        {
+          "rect": [
+            234.0,
+            1614.0,
+            234.0,
+            236.0
+          ],
+          "anchor": [
+            115.0,
+            6.0
+          ],
+          "height": 228.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            262.0,
+            1876.0,
+            224.0,
+            234.0
+          ],
+          "anchor": [
+            111.0,
+            6.0
+          ],
+          "height": 226.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            958.0,
+            1614.0,
+            322.0,
+            234.0
+          ],
+          "anchor": [
+            162.0,
+            6.0
+          ],
+          "height": 226.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            492.0,
+            1614.0,
+            216.0,
+            236.0
+          ],
+          "anchor": [
+            109.0,
+            6.0
+          ],
+          "height": 228.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            492.0,
+            1614.0,
+            216.0,
+            236.0
+          ],
+          "anchor": [
+            109.0,
+            6.0
+          ],
+          "height": 228.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            958.0,
+            1614.0,
+            322.0,
+            234.0
+          ],
+          "anchor": [
+            162.0,
+            6.0
+          ],
+          "height": 226.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            262.0,
+            1876.0,
+            224.0,
+            234.0
+          ],
+          "anchor": [
+            111.0,
+            6.0
+          ],
+          "height": 226.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            234.0,
+            1614.0,
+            234.0,
+            236.0
+          ],
+          "anchor": [
+            115.0,
+            6.0
+          ],
+          "height": 228.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "kayon",
+      "texture": "MonsterPouch/ReferenceRedesign/kayon-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/kayon",
+      "idleRect": [
+        0.0,
+        0.0,
+        63.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        59.0,
+        64.0
+      ],
+      "idleAnchor": [
+        38.0,
+        2.0
+      ],
+      "referenceHeight": 226.0,
+      "frames": [
+        {
+          "rect": [
+            1848.0,
+            804.0,
+            220.0,
+            234.0
+          ],
+          "anchor": [
+            140.0,
+            6.0
+          ],
+          "height": 226.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1058.0,
+            1062.0,
+            218.0,
+            232.0
+          ],
+          "anchor": [
+            131.0,
+            6.0
+          ],
+          "height": 224.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1522.0,
+            1572.0,
+            242.0,
+            224.0
+          ],
+          "anchor": [
+            97.0,
+            6.0
+          ],
+          "height": 216.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1078.0,
+            1822.0,
+            214.0,
+            222.0
+          ],
+          "anchor": [
+            117.0,
+            6.0
+          ],
+          "height": 214.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1078.0,
+            1822.0,
+            214.0,
+            222.0
+          ],
+          "anchor": [
+            117.0,
+            6.0
+          ],
+          "height": 214.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1522.0,
+            1572.0,
+            242.0,
+            224.0
+          ],
+          "anchor": [
+            97.0,
+            6.0
+          ],
+          "height": 216.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1058.0,
+            1062.0,
+            218.0,
+            232.0
+          ],
+          "anchor": [
+            131.0,
+            6.0
+          ],
+          "height": 224.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1848.0,
+            804.0,
+            220.0,
+            234.0
+          ],
+          "anchor": [
+            140.0,
+            6.0
+          ],
+          "height": 226.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "popow",
+      "texture": "MonsterPouch/ReferenceRedesign/popow-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/popow",
+      "idleRect": [
+        0.0,
+        0.0,
+        56.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        52.0,
+        64.0
+      ],
+      "idleAnchor": [
+        29.5,
+        2.0
+      ],
+      "referenceHeight": 216.0,
+      "frames": [
+        {
+          "rect": [
+            2402.0,
+            292.0,
+            208.0,
+            224.0
+          ],
+          "anchor": [
+            104.0,
+            6.0
+          ],
+          "height": 216.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1914.0,
+            556.0,
+            206.0,
+            228.0
+          ],
+          "anchor": [
+            102.0,
+            6.0
+          ],
+          "height": 220.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1628.0,
+            1776.0,
+            202.0,
+            198.0
+          ],
+          "anchor": [
+            78.0,
+            6.0
+          ],
+          "height": 190.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1162.0,
+            12.0,
+            202.0,
+            246.0
+          ],
+          "anchor": [
+            120.99999237060547,
+            6.0
+          ],
+          "height": 238.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1162.0,
+            12.0,
+            202.0,
+            246.0
+          ],
+          "anchor": [
+            120.99999237060547,
+            6.0
+          ],
+          "height": 238.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1628.0,
+            1776.0,
+            202.0,
+            198.0
+          ],
+          "anchor": [
+            78.0,
+            6.0
+          ],
+          "height": 190.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1914.0,
+            556.0,
+            206.0,
+            228.0
+          ],
+          "anchor": [
+            102.0,
+            6.0
+          ],
+          "height": 220.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2402.0,
+            292.0,
+            208.0,
+            224.0
+          ],
+          "anchor": [
+            104.0,
+            6.0
+          ],
+          "height": 216.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "sepora",
+      "texture": "MonsterPouch/ReferenceRedesign/sepora-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/sepora",
+      "idleRect": [
+        0.0,
+        0.0,
+        61.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        57.0,
+        64.0
+      ],
+      "idleAnchor": [
+        28.0,
+        2.0
+      ],
+      "referenceHeight": 208.0,
+      "frames": [
+        {
+          "rect": [
+            970.0,
+            1524.0,
+            226.0,
+            216.0
+          ],
+          "anchor": [
+            119.0,
+            6.0
+          ],
+          "height": 208.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1476.0,
+            1280.0,
+            222.0,
+            218.0
+          ],
+          "anchor": [
+            106.0,
+            6.0
+          ],
+          "height": 210.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            222.0,
+            530.0,
+            266.0,
+            228.0
+          ],
+          "anchor": [
+            134.0,
+            6.0
+          ],
+          "height": 220.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            714.0,
+            2240.0,
+            228.0,
+            200.0
+          ],
+          "anchor": [
+            118.99999237060547,
+            6.0
+          ],
+          "height": 192.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            714.0,
+            2240.0,
+            228.0,
+            200.0
+          ],
+          "anchor": [
+            118.99999237060547,
+            6.0
+          ],
+          "height": 192.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            222.0,
+            530.0,
+            266.0,
+            228.0
+          ],
+          "anchor": [
+            134.0,
+            6.0
+          ],
+          "height": 220.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1476.0,
+            1280.0,
+            222.0,
+            218.0
+          ],
+          "anchor": [
+            106.0,
+            6.0
+          ],
+          "height": 210.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            970.0,
+            1524.0,
+            226.0,
+            216.0
+          ],
+          "anchor": [
+            119.0,
+            6.0
+          ],
+          "height": 208.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "stein",
+      "texture": "MonsterPouch/SteinScientist/stein-scientist",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/stein",
+      "idleRect": [
+        0.0,
+        0.0,
+        50.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        46.0,
+        64.0
+      ],
+      "idleAnchor": [
+        25.5,
+        2.0
+      ],
+      "referenceHeight": 156.0,
+      "frames": [
+        {
+          "rect": [
+            18.0,
+            636.0,
+            120.0,
+            164.0
+          ],
+          "anchor": [
+            58.0,
+            6.0
+          ],
+          "height": 156.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            176.0,
+            636.0,
+            122.0,
+            164.0
+          ],
+          "anchor": [
+            59.0,
+            6.0
+          ],
+          "height": 156.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1296.0,
+            636.0,
+            122.0,
+            158.0
+          ],
+          "anchor": [
+            59.0,
+            5.999999523162842
+          ],
+          "height": 150.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1458.0,
+            636.0,
+            124.0,
+            164.0
+          ],
+          "anchor": [
+            59.0,
+            6.0
+          ],
+          "height": 156.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1458.0,
+            636.0,
+            124.0,
+            164.0
+          ],
+          "anchor": [
+            59.0,
+            6.0
+          ],
+          "height": 156.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1296.0,
+            636.0,
+            122.0,
+            158.0
+          ],
+          "anchor": [
+            59.0,
+            5.999999523162842
+          ],
+          "height": 150.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            176.0,
+            636.0,
+            122.0,
+            164.0
+          ],
+          "anchor": [
+            59.0,
+            6.0
+          ],
+          "height": 156.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            18.0,
+            636.0,
+            120.0,
+            164.0
+          ],
+          "anchor": [
+            58.0,
+            6.0
+          ],
+          "height": 156.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "tauris",
+      "texture": "MonsterPouch/ReferenceRedesign/tauris-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/tauris",
+      "idleRect": [
+        0.0,
+        0.0,
+        59.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        55.0,
+        64.0
+      ],
+      "idleAnchor": [
+        29.0,
+        2.0
+      ],
+      "referenceHeight": 218.0,
+      "frames": [
+        {
+          "rect": [
+            228.0,
+            1096.0,
+            184.0,
+            226.0
+          ],
+          "anchor": [
+            91.0,
+            6.0
+          ],
+          "height": 218.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2006.0,
+            1346.0,
+            194.0,
+            218.0
+          ],
+          "anchor": [
+            96.0,
+            6.0
+          ],
+          "height": 210.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1648.0,
+            1592.0,
+            234.0,
+            214.0
+          ],
+          "anchor": [
+            124.00000762939453,
+            6.0
+          ],
+          "height": 206.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            366.0,
+            12.0,
+            334.0,
+            264.0
+          ],
+          "anchor": [
+            145.0,
+            6.0
+          ],
+          "height": 256.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            366.0,
+            12.0,
+            334.0,
+            264.0
+          ],
+          "anchor": [
+            145.0,
+            6.0
+          ],
+          "height": 256.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1648.0,
+            1592.0,
+            234.0,
+            214.0
+          ],
+          "anchor": [
+            124.00000762939453,
+            6.0
+          ],
+          "height": 206.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2006.0,
+            1346.0,
+            194.0,
+            218.0
+          ],
+          "anchor": [
+            96.0,
+            6.0
+          ],
+          "height": 210.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            228.0,
+            1096.0,
+            184.0,
+            226.0
+          ],
+          "anchor": [
+            91.0,
+            6.0
+          ],
+          "height": 218.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "tokoro",
+      "texture": "MonsterPouch/ReferenceRedesign/tokoro-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/tokoro",
+      "idleRect": [
+        0.0,
+        0.0,
+        70.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        66.0,
+        64.0
+      ],
+      "idleAnchor": [
+        34.5,
+        2.0
+      ],
+      "referenceHeight": 276.0,
+      "frames": [
+        {
+          "rect": [
+            2810.0,
+            664.0,
+            310.0,
+            284.0
+          ],
+          "anchor": [
+            155.0,
+            6.0
+          ],
+          "height": 276.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            970.0,
+            978.0,
+            300.0,
+            280.0
+          ],
+          "anchor": [
+            151.0,
+            6.0
+          ],
+          "height": 272.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1940.0,
+            1284.0,
+            282.0,
+            262.0
+          ],
+          "anchor": [
+            142.0,
+            6.0
+          ],
+          "height": 254.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            876.0,
+            12.0,
+            412.0,
+            306.0
+          ],
+          "anchor": [
+            205.0,
+            6.0
+          ],
+          "height": 298.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            876.0,
+            12.0,
+            412.0,
+            306.0
+          ],
+          "anchor": [
+            205.0,
+            6.0
+          ],
+          "height": 298.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1940.0,
+            1284.0,
+            282.0,
+            262.0
+          ],
+          "anchor": [
+            142.0,
+            6.0
+          ],
+          "height": 254.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            970.0,
+            978.0,
+            300.0,
+            280.0
+          ],
+          "anchor": [
+            151.0,
+            6.0
+          ],
+          "height": 272.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            2810.0,
+            664.0,
+            310.0,
+            284.0
+          ],
+          "anchor": [
+            155.0,
+            6.0
+          ],
+          "height": 276.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "trimol",
+      "texture": "MonsterPouch/ReferenceRedesign/trimol-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/trimol",
+      "idleRect": [
+        0.0,
+        0.0,
+        77.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        73.0,
+        64.0
+      ],
+      "idleAnchor": [
+        38.5,
+        2.0
+      ],
+      "referenceHeight": 186.0,
+      "frames": [
+        {
+          "rect": [
+            3088.0,
+            952.0,
+            226.0,
+            194.0
+          ],
+          "anchor": [
+            109.0,
+            6.0
+          ],
+          "height": 186.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            3594.0,
+            952.0,
+            222.0,
+            192.0
+          ],
+          "anchor": [
+            108.0,
+            6.0
+          ],
+          "height": 184.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            278.0,
+            494.0,
+            242.0,
+            206.0
+          ],
+          "anchor": [
+            124.0,
+            6.0
+          ],
+          "height": 198.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            1174.0,
+            248.0,
+            190.0
+          ],
+          "anchor": [
+            99.0,
+            6.0
+          ],
+          "height": 182.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            1174.0,
+            248.0,
+            190.0
+          ],
+          "anchor": [
+            99.0,
+            6.0
+          ],
+          "height": 182.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            278.0,
+            494.0,
+            242.0,
+            206.0
+          ],
+          "anchor": [
+            124.0,
+            6.0
+          ],
+          "height": 198.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            3594.0,
+            952.0,
+            222.0,
+            192.0
+          ],
+          "anchor": [
+            108.0,
+            6.0
+          ],
+          "height": 184.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            3088.0,
+            952.0,
+            226.0,
+            194.0
+          ],
+          "anchor": [
+            109.0,
+            6.0
+          ],
+          "height": 186.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "tsu",
+      "texture": "MonsterPouch/ReferenceRedesign/tsu-clean-v3",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/tsu",
+      "idleRect": [
+        0.0,
+        0.0,
+        65.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        61.0,
+        64.0
+      ],
+      "idleAnchor": [
+        34.0,
+        2.0
+      ],
+      "referenceHeight": 236.0,
+      "frames": [
+        {
+          "rect": [
+            270.0,
+            1652.0,
+            228.0,
+            244.0
+          ],
+          "anchor": [
+            114.0,
+            6.0
+          ],
+          "height": 236.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            522.0,
+            1652.0,
+            226.0,
+            244.0
+          ],
+          "anchor": [
+            112.0,
+            6.0
+          ],
+          "height": 236.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            2188.0,
+            228.0,
+            242.0
+          ],
+          "anchor": [
+            112.0,
+            6.0
+          ],
+          "height": 234.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            512.0,
+            2188.0,
+            220.0,
+            242.0
+          ],
+          "anchor": [
+            107.0,
+            6.0
+          ],
+          "height": 234.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            512.0,
+            2188.0,
+            220.0,
+            242.0
+          ],
+          "anchor": [
+            107.0,
+            6.0
+          ],
+          "height": 234.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            12.0,
+            2188.0,
+            228.0,
+            242.0
+          ],
+          "anchor": [
+            112.0,
+            6.0
+          ],
+          "height": 234.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            522.0,
+            1652.0,
+            226.0,
+            244.0
+          ],
+          "anchor": [
+            112.0,
+            6.0
+          ],
+          "height": 236.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            270.0,
+            1652.0,
+            228.0,
+            244.0
+          ],
+          "anchor": [
+            114.0,
+            6.0
+          ],
+          "height": 236.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "rosie",
+      "texture": "MonsterPouch/Rosie/rosie-combat",
+      "idleTexture": "MonsterPouch/UI/NewWhelpIdles/rosie",
+      "idleRect": [
+        0.0,
+        0.0,
+        61.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        57.0,
+        64.0
+      ],
+      "idleAnchor": [
+        30.5,
+        2.0
+      ],
+      "referenceHeight": 252.0,
+      "frames": [
+        {
+          "rect": [
+            1137.0,
+            844.0,
+            236.0,
+            252.0
+          ],
+          "anchor": [
+            118.0,
+            0.0
+          ],
+          "height": 252.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1143.0,
+            280.0,
+            238.0,
+            273.0
+          ],
+          "anchor": [
+            119.0,
+            0.0
+          ],
+          "height": 273.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1125.0,
+            33.0,
+            256.0,
+            247.0
+          ],
+          "anchor": [
+            128.0,
+            0.0
+          ],
+          "height": 247.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1125.0,
+            33.0,
+            256.0,
+            247.0
+          ],
+          "anchor": [
+            128.0,
+            0.0
+          ],
+          "height": 247.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1137.0,
+            844.0,
+            236.0,
+            252.0
+          ],
+          "anchor": [
+            118.0,
+            0.0
+          ],
+          "height": 252.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "pokrak",
+      "texture": "MonsterPouch/Pokrak/pokrak-combat",
+      "idleTexture": "MonsterPouch/UI/NewWhelpIdles/pokrak",
+      "idleRect": [
+        0.0,
+        0.0,
+        73.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        69.0,
+        64.0
+      ],
+      "idleAnchor": [
+        36.5,
+        2.0
+      ],
+      "referenceHeight": 229.0,
+      "frames": [
+        {
+          "rect": [
+            1152.0,
+            1088.0,
+            288.0,
+            272.0
+          ],
+          "anchor": [
+            144.0,
+            8.0
+          ],
+          "height": 229.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1152.0,
+            544.0,
+            288.0,
+            272.0
+          ],
+          "anchor": [
+            144.0,
+            8.0
+          ],
+          "height": 229.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1152.0,
+            272.0,
+            288.0,
+            272.0
+          ],
+          "anchor": [
+            144.0,
+            8.0
+          ],
+          "height": 229.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1152.0,
+            272.0,
+            288.0,
+            272.0
+          ],
+          "anchor": [
+            144.0,
+            8.0
+          ],
+          "height": 229.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1152.0,
+            1088.0,
+            288.0,
+            272.0
+          ],
+          "anchor": [
+            144.0,
+            8.0
+          ],
+          "height": 229.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "suki",
+      "texture": "MonsterPouch/Suki/suki-combat",
+      "idleTexture": "MonsterPouch/UI/NewWhelpIdles/suki",
+      "idleRect": [
+        0.0,
+        0.0,
+        71.0,
+        68.0
+      ],
+      "idleBounds": [
+        2.0,
+        2.0,
+        67.0,
+        64.0
+      ],
+      "idleAnchor": [
+        35.5,
+        2.0
+      ],
+      "referenceHeight": 180.0,
+      "frames": [
+        {
+          "rect": [
+            1152.0,
+            2352.0,
+            288.0,
+            336.0
+          ],
+          "anchor": [
+            144.0,
+            24.0
+          ],
+          "height": 180.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1152.0,
+            672.0,
+            288.0,
+            336.0
+          ],
+          "anchor": [
+            144.0,
+            24.0
+          ],
+          "height": 180.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1152.0,
+            336.0,
+            288.0,
+            336.0
+          ],
+          "anchor": [
+            144.0,
+            24.0
+          ],
+          "height": 180.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1152.0,
+            336.0,
+            288.0,
+            336.0
+          ],
+          "anchor": [
+            144.0,
+            24.0
+          ],
+          "height": 180.0,
+          "registrationScale": 1.0
+        },
+        {
+          "rect": [
+            1152.0,
+            2352.0,
+            288.0,
+            336.0
+          ],
+          "anchor": [
+            144.0,
+            24.0
+          ],
+          "height": 180.0,
+          "registrationScale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "kazuru",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Kazuru/kazuru-idle-pixel-v2",
+      "idleRect": [
+        0.0,
+        0.0,
+        128.0,
+        128.0
+      ],
+      "idleBounds": [
+        21.0,
+        4.0,
+        86.0,
+        120.0
+      ],
+      "idleAnchor": [
+        64.0,
+        4.0
+      ],
+      "referenceHeight": 0.0,
+      "frames": []
+    },
+    {
+      "id": "korran",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/korran/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        100,
+        81,
+        145,
+        119
+      ],
+      "idleAnchor": [
+        192.0,
+        84.0
+      ],
+      "referenceHeight": 119,
+      "texture": "MonsterPouch/Eronya/Geothar/korran/lobby/gesture",
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 119,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 119,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            768,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 119,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 119,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "golem-tectonico",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/golem-tectonico/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        118,
+        82,
+        169,
+        129
+      ],
+      "idleAnchor": [
+        192.0,
+        84.0
+      ],
+      "referenceHeight": 129,
+      "texture": "MonsterPouch/Eronya/Geothar/golem-tectonico/lobby/gesture",
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 129,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 129,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            768,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 129,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 129,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "la-minera",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/la-minera/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        119,
+        81,
+        146,
+        137
+      ],
+      "idleAnchor": [
+        192.0,
+        84.0
+      ],
+      "referenceHeight": 137,
+      "texture": "MonsterPouch/Eronya/Geothar/la-minera/lobby/gesture",
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 137,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 137,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            768,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 137,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 137,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "protectora-del-mausoleo",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/protectora-del-mausoleo/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        120,
+        82,
+        146,
+        119
+      ],
+      "idleAnchor": [
+        192.0,
+        84.0
+      ],
+      "referenceHeight": 119,
+      "texture": "MonsterPouch/Eronya/Geothar/protectora-del-mausoleo/lobby/gesture",
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 119,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 119,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            768,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 119,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            84.0
+          ],
+          "height": 119,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "alveyr",
+      "texture": "MonsterPouch/UI/AireolaLobby/alveyr/gesture",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/alveyr/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        84,
+        79,
+        401,
+        487
+      ],
+      "idleAnchor": [
+        271.0,
+        79
+      ],
+      "referenceHeight": 119,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            208,
+            176
+          ],
+          "anchor": [
+            93,
+            33
+          ],
+          "height": 119,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            208,
+            0,
+            208,
+            176
+          ],
+          "anchor": [
+            93,
+            33
+          ],
+          "height": 119,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            416,
+            0,
+            208,
+            176
+          ],
+          "anchor": [
+            93,
+            33
+          ],
+          "height": 119,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            624,
+            0,
+            208,
+            176
+          ],
+          "anchor": [
+            93,
+            33
+          ],
+          "height": 119,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            832,
+            0,
+            208,
+            176
+          ],
+          "anchor": [
+            93,
+            33
+          ],
+          "height": 119,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "zephalontropo",
+      "texture": "MonsterPouch/UI/AireolaLobby/zephalontropo/gesture",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/zephalontropo/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        92,
+        147,
+        295,
+        338
+      ],
+      "idleAnchor": [
+        260.0,
+        147
+      ],
+      "referenceHeight": 168,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            288,
+            256
+          ],
+          "anchor": [
+            128,
+            46
+          ],
+          "height": 168,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            288,
+            0,
+            288,
+            256
+          ],
+          "anchor": [
+            128,
+            46
+          ],
+          "height": 168,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            576,
+            0,
+            288,
+            256
+          ],
+          "anchor": [
+            128,
+            46
+          ],
+          "height": 168,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            864,
+            0,
+            288,
+            256
+          ],
+          "anchor": [
+            128,
+            46
+          ],
+          "height": 168,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1152,
+            0,
+            288,
+            256
+          ],
+          "anchor": [
+            128,
+            46
+          ],
+          "height": 168,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "alboguera",
+      "texture": "MonsterPouch/UI/AireolaLobby/alboguera/gesture",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/alboguera/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        67,
+        119,
+        413,
+        402
+      ],
+      "idleAnchor": [
+        302.0,
+        119
+      ],
+      "referenceHeight": 116,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "anchor": [
+            96,
+            50
+          ],
+          "height": 116,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            192,
+            0,
+            192,
+            192
+          ],
+          "anchor": [
+            96,
+            50
+          ],
+          "height": 116,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            384,
+            0,
+            192,
+            192
+          ],
+          "anchor": [
+            96,
+            50
+          ],
+          "height": 116,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            576,
+            0,
+            192,
+            192
+          ],
+          "anchor": [
+            96,
+            50
+          ],
+          "height": 116,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            768,
+            0,
+            192,
+            192
+          ],
+          "anchor": [
+            96,
+            50
+          ],
+          "height": 116,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "palista",
+      "texture": "MonsterPouch/UI/AireolaLobby/palista/gesture",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/palista/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        25,
+        162,
+        455,
+        317
+      ],
+      "idleAnchor": [
+        196.0,
+        162
+      ],
+      "referenceHeight": 203,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            480,
+            464
+          ],
+          "anchor": [
+            241,
+            93
+          ],
+          "height": 203,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            480,
+            0,
+            480,
+            464
+          ],
+          "anchor": [
+            241,
+            93
+          ],
+          "height": 203,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            960,
+            0,
+            480,
+            464
+          ],
+          "anchor": [
+            241,
+            93
+          ],
+          "height": 203,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1440,
+            0,
+            480,
+            464
+          ],
+          "anchor": [
+            241,
+            93
+          ],
+          "height": 203,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1920,
+            0,
+            480,
+            464
+          ],
+          "anchor": [
+            241,
+            93
+          ],
+          "height": 203,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "drayven",
+      "texture": "MonsterPouch/Eronya/Aquarion/Characters/drayven/Lobby/gesture",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/drayven-portrait",
+      "idleRect": [
+        0,
+        0,
+        126,
+        134
+      ],
+      "idleBounds": [
+        2,
+        2,
+        122,
+        130
+      ],
+      "idleAnchor": [
+        70,
+        3
+      ],
+      "referenceHeight": 128,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            320,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            640,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            960,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "titanica",
+      "texture": "MonsterPouch/Eronya/Aquarion/Characters/titanica/Lobby/gesture",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/titanica-portrait",
+      "idleRect": [
+        0,
+        0,
+        148,
+        132
+      ],
+      "idleBounds": [
+        2,
+        2,
+        144,
+        128
+      ],
+      "idleAnchor": [
+        80,
+        2
+      ],
+      "referenceHeight": 128,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            320,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            640,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            960,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "jabalinero",
+      "texture": "MonsterPouch/Eronya/Aquarion/Characters/jabalinero/Lobby/gesture",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/jabalinero-portrait",
+      "idleRect": [
+        0,
+        0,
+        130,
+        133
+      ],
+      "idleBounds": [
+        2,
+        2,
+        126,
+        129
+      ],
+      "idleAnchor": [
+        68,
+        3
+      ],
+      "referenceHeight": 128,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            320,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            640,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            960,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "maestro-de-las-mareas",
+      "texture": "MonsterPouch/Eronya/Aquarion/Characters/maestro-de-las-mareas/Lobby/gesture",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/maestro-de-las-mareas-portrait",
+      "idleRect": [
+        0,
+        0,
+        134,
+        133
+      ],
+      "idleBounds": [
+        2,
+        2,
+        130,
+        129
+      ],
+      "idleAnchor": [
+        71,
+        3
+      ],
+      "referenceHeight": 128,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            320,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            640,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            960,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160,
+            32
+          ],
+          "height": 128,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "cael",
+      "texture": "MonsterPouch/Characters/cael/Art/lobby-gesture",
+      "idleTexture": "MonsterPouch/Characters/cael/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        77,
+        61,
+        373,
+        383
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 187,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 187,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 187,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 187,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 187,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 187,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 187,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "guarda-veterano",
+      "texture": "MonsterPouch/Characters/guarda-veterano/Art/lobby-gesture",
+      "idleTexture": "MonsterPouch/Characters/guarda-veterano/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        31,
+        11,
+        444,
+        443
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 182,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 182,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 182,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 182,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 182,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 182,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 182,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "arboreo",
+      "texture": "MonsterPouch/Characters/arboreo/Art/lobby-gesture",
+      "idleTexture": "MonsterPouch/Characters/arboreo/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        41,
+        54,
+        439,
+        428
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 207,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 207,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 207,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 207,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 207,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 207,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 207,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "antidota",
+      "texture": "MonsterPouch/Characters/antidota/Art/lobby-gesture",
+      "idleTexture": "MonsterPouch/Characters/antidota/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        64,
+        22,
+        409,
+        426
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 190,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 190,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 190,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 190,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 190,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 190,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            64
+          ],
+          "height": 190,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "serya",
+      "texture": "MonsterPouch/Eronya/Volkanar/serya/lobby-frames",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/serya/portrait",
+      "idleRect": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "idleBounds": [
+        89,
+        32,
+        146,
+        162
+      ],
+      "idleAnchor": [
+        160.0,
+        32.0
+      ],
+      "referenceHeight": 160.0,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            320,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            640,
+            0,
+            320,
+            320
+          ],
+          "anchor": [
+            160.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "legionario",
+      "texture": "MonsterPouch/Eronya/Volkanar/legionario/lobby-frames",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/legionario/portrait",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        101,
+        32,
+        162,
+        164
+      ],
+      "idleAnchor": [
+        192.0,
+        32.0
+      ],
+      "referenceHeight": 160.0,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            768,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "dagata",
+      "texture": "MonsterPouch/Eronya/Volkanar/dagata/lobby-frames",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/dagata/portrait",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        107,
+        32,
+        172,
+        162
+      ],
+      "idleAnchor": [
+        192.0,
+        32.0
+      ],
+      "referenceHeight": 160.0,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            768,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        }
+      ]
+    },
+    {
+      "id": "canonero-del-orvek",
+      "texture": "MonsterPouch/Eronya/Volkanar/canonero-del-orvek/lobby-frames",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/canonero-del-orvek/portrait",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        112,
+        32,
+        165,
+        160
+      ],
+      "idleAnchor": [
+        192.0,
+        32.0
+      ],
+      "referenceHeight": 160.0,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            384,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        },
+        {
+          "rect": [
+            768,
+            0,
+            384,
+            384
+          ],
+          "anchor": [
+            192.0,
+            32.0
+          ],
+          "height": 160.0,
+          "registrationScale": 1
+        }
+      ]
+    }
+  ]
+}

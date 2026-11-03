@@ -1,0 +1,249 @@
+{
+  "sourceReferences": {
+    "classic": "Assets/resources/MonsterPouch/UI/deck-background-clean.png",
+    "lounge": "Assets/resources/MonsterPouch/UI/TableSkins/lounge-deck.png",
+    "royal": "Assets/resources/MonsterPouch/UI/TableSkins/royal-deck.png"
+  },
+  "kits": {
+    "royal": {
+      "file": "Assets/art/ambientations/modular/brief-royal-cabinet-v2.png",
+      "generatedSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a13881-6416-7833-bb9e-a4bf4198316d\\exec-d198c6a7-16f0-4539-9641-2ebd309e43d9.png",
+      "parts": [
+        {
+          "name": "shelf",
+          "rect": [
+            10,
+            814,
+            445,
+            106
+          ],
+          "fileID": 21300100
+        },
+        {
+          "name": "pedestal",
+          "rect": [
+            465,
+            803,
+            346,
+            166
+          ],
+          "fileID": 21300101
+        },
+        {
+          "name": "crest",
+          "rect": [
+            819,
+            807,
+            423,
+            209
+          ],
+          "fileID": 21300102
+        },
+        {
+          "name": "post",
+          "rect": [
+            45,
+            278,
+            82,
+            408
+          ],
+          "fileID": 21300103
+        },
+        {
+          "name": "backing",
+          "rect": [
+            178,
+            323,
+            521,
+            296
+          ],
+          "fileID": 21300104
+        },
+        {
+          "name": "upper",
+          "rect": [
+            735,
+            323,
+            481,
+            296
+          ],
+          "fileID": 21300105
+        },
+        {
+          "name": "cornice",
+          "rect": [
+            10,
+            814,
+            445,
+            54
+          ],
+          "fileID": 21300106
+        }
+      ],
+      "configuration": "Assets\\resources\\MonsterPouch\\Styles\\Furniture\\royal.asset",
+      "saturation": 0.64
+    },
+    "lounge": {
+      "file": "Assets/art/ambientations/modular/brief-lounge-cabinet-v2.png",
+      "generatedSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a13881-6416-7833-bb9e-a4bf4198316d\\exec-4b81961b-e0dc-4261-99ae-d43011a3410e.png",
+      "parts": [
+        {
+          "name": "shelf",
+          "rect": [
+            25,
+            474,
+            633,
+            146
+          ],
+          "fileID": 21300100
+        },
+        {
+          "name": "pedestal",
+          "rect": [
+            674,
+            474,
+            410,
+            182
+          ],
+          "fileID": 21300101
+        },
+        {
+          "name": "crest",
+          "rect": [
+            1105,
+            484,
+            645,
+            223
+          ],
+          "fileID": 21300102
+        },
+        {
+          "name": "post",
+          "rect": [
+            57,
+            101,
+            94,
+            350
+          ],
+          "fileID": 21300103
+        },
+        {
+          "name": "backing",
+          "rect": [
+            227,
+            120,
+            733,
+            263
+          ],
+          "fileID": 21300104
+        },
+        {
+          "name": "upper",
+          "rect": [
+            1017,
+            120,
+            693,
+            263
+          ],
+          "fileID": 21300105
+        },
+        {
+          "name": "cornice",
+          "rect": [
+            25,
+            474,
+            633,
+            66
+          ],
+          "fileID": 21300106
+        }
+      ],
+      "configuration": "Assets\\resources\\MonsterPouch\\Styles\\Furniture\\lounge.asset",
+      "saturation": 0.72
+    },
+    "classic": {
+      "file": "Assets/art/ambientations/modular/brief-classic-cabinet-v2.png",
+      "generatedSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a13881-6416-7833-bb9e-a4bf4198316d\\exec-d200180e-f82d-418b-8013-fd68312c7532.png",
+      "parts": [
+        {
+          "name": "shelf",
+          "rect": [
+            27,
+            579,
+            617,
+            173
+          ],
+          "fileID": 21300100
+        },
+        {
+          "name": "pedestal",
+          "rect": [
+            670,
+            579,
+            496,
+            187
+          ],
+          "fileID": 21300101
+        },
+        {
+          "name": "crest",
+          "rect": [
+            1167,
+            582,
+            582,
+            214
+          ],
+          "fileID": 21300102
+        },
+        {
+          "name": "post",
+          "rect": [
+            48,
+            113,
+            113,
+            392
+          ],
+          "fileID": 21300103
+        },
+        {
+          "name": "backing",
+          "rect": [
+            247,
+            118,
+            696,
+            325
+          ],
+          "fileID": 21300104
+        },
+        {
+          "name": "upper",
+          "rect": [
+            1036,
+            118,
+            698,
+            325
+          ],
+          "fileID": 21300105
+        },
+        {
+          "name": "cornice",
+          "rect": [
+            27,
+            579,
+            617,
+            60
+          ],
+          "fileID": 21300106
+        }
+      ],
+      "configuration": "Assets\\resources\\MonsterPouch\\Styles\\Furniture\\classic.asset",
+      "saturation": 0.68
+    }
+  },
+  "prompts": {
+    "mode": "built-in image_gen, transparent reference edits",
+    "royal": "Use case: background-extraction / precise-object-edit.\nAsset type: transparent modular sprite atlas for a Unity pixel art character cabinet.\nInput image: the original ROYAL display cabinet, style and exact design reference.\nPrimary request: faithfully recover the SAME furniture design as separate modular parts. Almost identical carved honey-brown wood, burgundy velvet, brass trim, cream oval podium, crown motifs. Reduce saturation significantly: aged warm walnut/oak, muted burgundy and old brass, cream not dazzling white. Still daylight, NOT nighttime. Crisp hand-placed pixel art edges matching original reference, no blur, no glossy 3D rendering, no change of theme.\nOutput square transparent image, 3 columns x 2 rows, SIX fully separated components with generous completely transparent gaps. No labels, no characters, no floor, no room, no checker pattern baked in.\nTop left cell: ONE long empty horizontal shelf, front view with shallow visible burgundy top surface, thick carved wooden front lip and brass square corner rivets, matching reference shelf. Aspect approx 3.3:1.\nTop middle cell: ONE empty cream oval display pedestal, wooden lower drum, brass rim and small burgundy plaque with crown; very wide shallow ellipse, aspect 2.4:1.\nTop right cell: ONE ornate cabinet header/cornice from reference, with centered crown crest, stepped wood shoulders, muted brass leaves and blank plaque. Aspect about 2.8:1.\nBottom left cell: ONE tall vertical carved wood support post, diamond brass detail, square end blocks. Aspect approx 1:3.\nBottom middle cell: ONE rectangular burgundy upholstered backing panel with subtle grain, thin old brass border and centered small crown motif, matching lower original cabinet back. Front facing, no perspective, aspect 1.6:1.\nBottom right cell: ONE pale warm parchment upholstered upper backing panel with a fine old brass border, no symbols, same rectangular aspect 1.6:1.\nUse every item as a faithful extraction/reconstruction from the reference, preserve silhouettes. Each item entirely in its own cell, no overlap. Parallel horizontal shelves, no vanishing point. Actual alpha transparency outside all six items. Flat ambient lighting from above left; retain inset contact shadows and dark undersides within objects, NO cast shadow outside objects. This is for direct game integration.",
+    "lounge": "Use case: background-extraction / precise-object-edit.\nAsset type: transparent modular pixel-art cabinet sprite atlas for Unity.\nInput: the original HOTEL display cabinet, exact design and style reference.\nRecover almost identical furniture from this reference, split into SIX separated reusable parts. Keep dark walnut wood, teal velvet, cream oval pedestals and brass diamond symbols, and book/pouch ornamental header. Reduce saturation: quiet dark walnut, subdued deep teal, aged brass, cream. Daylit color readability, not a nighttime scene. Crisp pixel art, clean stepped edges, limited color ramps, no blur, no photorealism, no new design.\nTransparent square canvas. Top row left to right: (1) long EMPTY shelf with shallow visible teal fabric top, thick wooden front lip, square brass corner studs, aspect about 3.5:1. (2) ONE empty wide shallow cream oval podium with dark walnut drum, thin old-brass rim and teal plaque with diamond, aspect 2.4:1. (3) ornate stepped wood HEADER with the two books, coin pouch, small brass leaves and blank plaque from reference, aspect about 2.8:1.\nBottom row: (4) ONE tall wood side post with diamond brass ornament, square endblocks, aspect 1:3. (5) front-facing rectangular teal fabric backing panel with thin dull brass ornamental border and a SMALL centered diamond, aspect 1.6:1. (6) upper cabinet backing in teal with ornamental thin brass border but no middle symbol, aspect 1.6:1.\nEvery part fully detached, transparent margins between all objects. Actual alpha background, no black or checkers baked in. No other furniture, no room, no floor, no lamps, no plants, no characters, no text, no labels. Parallel horizontal shelves, shallow orthographic depth, no vanishing point. Preserve the reference's recognizable silhouette and craftsmanship; simply separate the parts and soften the saturation. No cast shadows outside the isolated parts.",
+    "classic": "Use case: background-extraction / precise-object-edit.\nAsset type: transparent modular pixel-art display cabinet atlas for Unity.\nInput reference: original blue and ochre toy cabinet. Recreate almost the SAME shapes and identifying details as SIX SEPARATE components. Preserve blue cabinet trim, warm ochre wood and ivory/light blue podium, monster-mask crest, paw plaque. Reduce the very strong saturation to dusty denim blue, muted ochre, lavender-grey and ivory. Warm readable daytime appearance. Handcrafted crisp pixel art, square stepped outlines, limited color ramps, no glossy plastic, no 3D rendering, no blur.\nOutput transparent square canvas with generous alpha gaps.\nTop row left to right: 1) one long EMPTY shelf, muted ochre top and thick wooden front lip, squared denim blue endcaps, shallow visible top plane. Aspect 3.5:1. 2) one empty broad shallow oval podium, ivory/light lavender top, denim blue base and small blue plaque with a subtle cream paw symbol. Aspect 2.4:1. 3) the original ornate stepped blue cabinet header with purple monster-mask emblem, curved muted ochre side details and blank ochre plaque, aspect about 2.8:1.\nBottom row: 4) one tall straight denim blue cabinet side post with squared caps, aspect 1:3; 5) one front-facing warm muted ochre wood backing panel with thin darker ochre inset border and tiny central paw motif; 6) one matching warm ochre backing panel with inset border and no central symbol. Both backings rectangular, aspect about 1.6:1.\nTransparent background around every separate part. No assembled cabinet, no floor, no room, no extra props, no plants, no characters, no text, no labels. Keep source shapes nearly identical. Parallel horizontal furniture, no perspective convergence. No external cast shadows; dark undersides within parts allowed. Every component fully inside canvas, not touching another."
+  }
+}

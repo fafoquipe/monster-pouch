@@ -169,5 +169,82 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             view.AdvancePresentation(0);
             Assert.AreSame(frames[0], view.Renderer.sprite);
         }
+
+        [Test]
+        public void ConfiguredAbilityDurationShowsAllPosesAndEndsAtTheConfiguredTime()
+        {
+            art.AbilityAnimationDuration = 1.4f;
+            view.UseAbility();
+            Assert.AreEqual(1.4f, view.AbilityAnimationDuration, .00001f);
+            view.AdvancePresentation(.7f);
+            Assert.IsTrue(view.IsUsingAbility);
+            Assert.AreSame(frames[8], view.Renderer.sprite, "Half the duration must reach the third of four poses.");
+            view.AdvancePresentation(.7f);
+            Assert.IsFalse(view.IsUsingAbility);
+            view.AdvancePresentation(0);
+            Assert.AreSame(frames[0], view.Renderer.sprite);
+        }
+
+        [Test]
+        public void ZeroDurationUsesEachDirectionalClipAndAnOverrideAppliesToAllDirections()
+        {
+            art.AbilityAnimationDuration = 0;
+            for (int direction = 0; direction < 8; direction++)
+            {
+                var facing = (UnitFacing)direction;
+                art.Animation(facing).SpecialDuration = .4f + direction * .1f;
+                Assert.AreEqual(.4f + direction * .1f, art.GetAbilityAnimationDuration(facing), .00001f);
+            }
+            var unrelated = new UnitArt { Id = "unrelated" };
+            unrelated.DirectionalAnimations[0] = new UnitDirectionalAnimation { SpecialDuration = .9f };
+            art.AbilityAnimationDuration = 1.4f;
+            for (int direction = 0; direction < 8; direction++)
+                Assert.AreEqual(1.4f, art.GetAbilityAnimationDuration((UnitFacing)direction), .00001f);
+            Assert.AreEqual(.9f, unrelated.GetAbilityAnimationDuration(UnitFacing.North), .00001f,
+                "One character's presentation setting must not alter another character.");
+        }
+
+        [Test]
+        public void LongAbilityAnimationDoesNotDelayBasicAttackOrChangeItsCombatStats()
+        {
+            art.AbilityAnimationDuration = 1.4f;
+            UnitStats stats = actor.BaseStats;
+            int version = actor.AttackResetVersion;
+            view.Attack(Vector3.right, false, .2f); view.UseAbility();
+            view.AdvancePresentation(.199f); Assert.IsFalse(view.AttackContactReached);
+            view.AdvancePresentation(.001f); Assert.IsTrue(view.AttackContactReached);
+            view.AdvancePresentation(.181f); Assert.IsFalse(view.IsAttacking);
+            view.AdvancePresentation(.6f); Assert.IsTrue(view.IsUsingAbility);
+            Assert.AreSame(stats, actor.BaseStats);
+            Assert.AreEqual(.2f, view.AttackContactDelay, .00001f);
+            Assert.AreEqual(.595f, actor.BaseStats.AttackInterval, .00001f);
+            Assert.AreEqual(version, actor.AttackResetVersion);
+            Assert.AreEqual(100, actor.CurrentHealth); Assert.AreEqual(0, actor.Energy);
+        }
+
+        [Test]
+        public void FlowerPreparationKeepsItsAuthoritativePlantingTimeDespiteTheVisualOverride()
+        {
+            art.Id = "flo"; art.AbilityAnimationDuration = 2;
+            view.PrepareFlower(.45f); view.AdvancePresentation(.2f);
+            view.UseAbility("flo-super");
+            view.AdvancePresentation(.24f); Assert.IsTrue(view.IsUsingAbility);
+            view.AdvancePresentation(.02f); Assert.IsFalse(view.IsUsingAbility,
+                "The flower must finish preparing at its simulation cast time, not the generic visual duration.");
+        }
+
+        [Test]
+        public void ResetImmediatelyCancelsAnExtendedAbilityAndLeavesTheNextAttackWithAFreshWindup()
+        {
+            art.AbilityAnimationDuration = 3;
+            view.UseAbility(); view.AdvancePresentation(1);
+            Assert.IsTrue(view.IsUsingAbility);
+            actor.ResetForCombat(); view.AdvancePresentation(0);
+            Assert.IsFalse(view.IsUsingAbility); Assert.AreSame(frames[0], view.Renderer.sprite);
+            view.Attack(Vector3.right, false, .2f);
+            view.AdvancePresentation(.1f); Assert.IsFalse(view.AttackContactReached);
+            view.AdvancePresentation(.1f); Assert.IsTrue(view.AttackContactReached);
+            Assert.IsFalse(view.IsUsingAbility, "A reset ability must not resume behind the new attack.");
+        }
     }
 }

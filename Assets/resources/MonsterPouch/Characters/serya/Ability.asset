@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Ability
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: serya-avance-de-la-llama
+    Trigger: 1
+    EveryAttacks: 0
+    Id: serya-avance-de-la-llama
+    Name: Avance de la llama
+    Description: "{damage} f\xEDsico al objetivo; {secondaryDamage} m\xE1gico a los
+      dem\xE1s enemigos en radio {radius} alrededor de Serya. Quemadura: {burnDamage}/s,
+      {burnDuration} s. Alcance: {range}. Man\xE1: {manaCost}."
+    Parameters:
+    - Key: damage
+      Value: 12
+    - Key: secondaryDamage
+      Value: 5
+    - Key: radius
+      Value: 2
+    - Key: burnDamage
+      Value: 2
+    - Key: burnDuration
+      Value: 3
+    - Key: range
+      Value: 1
+    Cost: 0
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals: []
+  Icon: {fileID: 21300000, guid: 486f1dfedccc5419a3c81131bab3f24c, type: 3}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

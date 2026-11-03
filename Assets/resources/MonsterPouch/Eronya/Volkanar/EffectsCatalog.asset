@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb8f52524b4504892149b7717560439, type: 3}
+  m_Name: EffectsCatalog
+  m_EditorClassIdentifier: MonsterPouch.Local::MonsterPouch.Local.VolkanarEffectsCatalog
+  SeryaSlash:
+  - {fileID: 21300000, guid: e0350318499550cea32d3dd18201bd1f, type: 3}
+  - {fileID: 21300000, guid: d35a17c3595c52269cc887cb7334109c, type: 3}
+  - {fileID: 21300000, guid: bed7c63001155513b7871a98854d63e7, type: 3}
+  LegionSlash:
+  - {fileID: 21300000, guid: a91f046000f357c28fa5c14fc717f428, type: 3}
+  - {fileID: 21300000, guid: 81d0dc90f675593caaff0718b36aadb1, type: 3}
+  - {fileID: 21300000, guid: c9ccd1c37b855d39a3de42e607ceabcc, type: 3}
+  DagataSlash:
+  - {fileID: 21300000, guid: fb58119eb5545c0990e27466da874f65, type: 3}
+  - {fileID: 21300000, guid: 3f800d45f6b0552482e1772ea78443f6, type: 3}
+  - {fileID: 21300000, guid: 002b2629afd35635a6d312b6093d8aa7, type: 3}
+  DagataSmoke:
+  - {fileID: 21300000, guid: 832034b769fa5fbe9dfcfa5eaf8c2d24, type: 3}
+  - {fileID: 21300000, guid: 55faf0e3c31154d89c3d6aa204fdc99d, type: 3}
+  - {fileID: 21300000, guid: c69a75ccd4755c6089c5658bdba49625, type: 3}
+  OrvekImpact:
+  - {fileID: 21300000, guid: 6418556ac3f050f1bdaf45dd969730a5, type: 3}
+  - {fileID: 21300000, guid: 1281a80d2fb25e3999b32fb2470dfa82, type: 3}
+  - {fileID: 21300000, guid: b8b45e4717ee50e7a7a65175ec329a6d, type: 3}
+  OrvekMuzzle:
+  - {fileID: 21300000, guid: d332dd6529b05da4895e42222ca77e44, type: 3}
+  - {fileID: 21300000, guid: 9866ef72022a54e8a4b4f094f578e6b3, type: 3}
+  - {fileID: 21300000, guid: 623006e5e3b25e6da5c208f761238de6, type: 3}
+  SlagFlight:
+  - {fileID: 21300000, guid: d3d2fb68a3405a01b5eaf9105a8c83a1, type: 3}
+  - {fileID: 21300000, guid: 9bda5f8b97ea5fa29f020d682c2b57b6, type: 3}
+  - {fileID: 21300000, guid: 1aed3d3ed3b651fba9ecdd59866e1e02, type: 3}
+  - {fileID: 21300000, guid: ed4c5ac268ca5c44adc4438e77ef47a6, type: 3}
+  CraterBombFlight:
+  - {fileID: 21300000, guid: 1c23dc1b784a5baeb35dc10b9d9c5ded, type: 3}
+  - {fileID: 21300000, guid: 777eb57e33f65229a4a2ffb97a528487, type: 3}
+  - {fileID: 21300000, guid: d73970b2b7ad57f1aad04fe4205009b1, type: 3}
+  - {fileID: 21300000, guid: 4c592d1b464e5f30afb62971b94027a4, type: 3}

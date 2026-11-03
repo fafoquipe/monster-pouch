@@ -1,0 +1,66 @@
+using System.Collections.Generic;
+using System.Linq;
+using MonsterPouch.Local;
+using NUnit.Framework;
+
+namespace MonsterPouch.Gameplay.Tests.EditMode
+{
+    // Replaces tests of obsolete procedural stone trajectories. The art itself
+    // is reviewed visually; these tests verify its chronological presentation.
+    public sealed class LobbyFrameTimingTests
+    {
+        static readonly string[] Roster={"anuik","tokoro","atong","flo","gochan","jazar","kayon","bugaloo","popow",
+            "sepora","tauris","atori","blotan","bugui","stein","trimol","tsu","aky","hymay"};
+
+        [Test] public void FortyEightDrawingsAllocateFourteenRevealTwentyMainAndFourteenReturn()
+        {
+            Assert.AreEqual(14,LobbyFramePlayback.FrameCountForPhase(48,0));
+            Assert.AreEqual(20,LobbyFramePlayback.FrameCountForPhase(48,1));
+            Assert.AreEqual(14,LobbyFramePlayback.FrameCountForPhase(48,2));
+        }
+
+        [TestCaseSource(nameof(Roster))]
+        public void EveryCharacterVisitsEveryDrawingInChronologicalOrderAtSupportedClipLengths(string id)
+        {
+            foreach(int count in new[]{24,48,64})
+            {
+                var seen=new HashSet<int>();int previous=-1;
+                Assert.AreEqual(count,Enumerable.Range(0,3).Sum(p=>LobbyFramePlayback.FrameCountForPhase(count,p)));
+                for(int i=0;i<4096;i++)
+                {
+                    int frame=LobbyFramePlayback.FrameAtTime(id,count,i/4096f);
+                    Assert.That(frame,Is.InRange(0,count-1),id);
+                    Assert.That(frame-previous,Is.InRange(0,1),id+": skipped or reversed frame.");
+                    seen.Add(frame);previous=frame;
+                }
+                CollectionAssert.AreEquivalent(Enumerable.Range(0,count),seen,id);
+                Assert.AreEqual(-1,LobbyFramePlayback.FrameAtTime(id,count,1),id+": gesture must return to original idle.");
+            }
+        }
+
+        [TestCaseSource(nameof(Roster))]
+        public void PhaseBoundariesPreserveOrderAndReserveTheReadableMainAction(string id)
+        {
+            var timing=LobbyGestureTiming.For(id);const int count=48;
+            Assert.Greater(timing.Main,timing.Reveal+timing.Return,id);
+            Assert.Greater(timing.Main/20f,timing.Reveal/14f,id);
+            Assert.Greater(timing.Main/20f,timing.Return/14f,id);
+            float reveal=timing.Reveal/timing.Duration,finish=(timing.Reveal+timing.Main)/timing.Duration;
+            const float epsilon=.00001f;
+            Assert.AreEqual(13,LobbyFramePlayback.FrameAtTime(id,count,reveal-epsilon),id);
+            Assert.AreEqual(14,LobbyFramePlayback.FrameAtTime(id,count,reveal+epsilon),id);
+            Assert.AreEqual(33,LobbyFramePlayback.FrameAtTime(id,count,finish-epsilon),id);
+            Assert.AreEqual(34,LobbyFramePlayback.FrameAtTime(id,count,finish+epsilon),id);
+            Assert.AreEqual(47,LobbyFramePlayback.FrameAtTime(id,count,1-epsilon),id);
+            Assert.AreEqual(-1,LobbyFramePlayback.FrameAtTime(id,count,1),id);
+        }
+
+        [Test] public void InvalidTimeOrMissingDrawingsNeverSelectsAnAtlasRectangle()
+        {
+            foreach(float invalid in new[]{float.NaN,float.PositiveInfinity,float.NegativeInfinity})
+                Assert.AreEqual(-1,LobbyFramePlayback.FrameAtTime("trimol",48,invalid));
+            Assert.AreEqual(-1,LobbyFramePlayback.FrameAtTime("trimol",0,.5f));
+            Assert.AreEqual(-1,LobbyFramePlayback.FrameAtTime("trimol",48,1.5f));
+        }
+    }
+}

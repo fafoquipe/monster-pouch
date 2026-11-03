@@ -1,0 +1,88 @@
+{
+  "mode": "Built-in image_gen",
+  "assets": [
+    {
+      "id": "suki",
+      "kind": "whelp",
+      "prompt": "Use case: stylized-concept. Production UI IDLE sprite for Monster Pouch. First image is the authoritative STYLE roster; second image is the authoritative CHARACTER identity. Draw ONE full body character only, centered front view, resting representative idle pose. Match the other Whelps EXACT chunky 16-bit pixel art: logical 80x80 canvas with about 64px visible height, enlarged nearest-neighbor; coarse stepped dark pixel outlines and clean flat grouped pixel shading with 3 shades per material. Compact collectible-toy body, huge head, very short limbs. True transparent RGBA background. Generous transparent margins. NO text, labels, panels, gradient, soft lighting, floor/shadow, border, attack or action effects. Avoid extra saturation. Preserve character identity and palette. SUKI: small cute cream-faced fish mage wearing enormous raspberry pink floppy pointed hat with cream fishbone emblem, pink pompom, raspberry mittens and tiny boots, short cape with cream corner patches. Relaxed gentle smile and slight head tilt. Both mittens cradle one small cream fishbone horizontally at belly, recognizable but simple. Head+hat 65% height, no long legs. Only one Suki, not a sheet.",
+      "references": [
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/docs/lobby-polish-20261015/all-19-idles.png",
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/ArtArchive/suki/combat-source.png"
+      ],
+      "source": "ArtArchive/IdleArtwork-20261017/suki-source.png",
+      "asset": "Assets/resources/MonsterPouch/UI/NewWhelpIdles/suki.png"
+    },
+    {
+      "id": "rosie",
+      "kind": "whelp",
+      "prompt": "Use case: stylized-concept. Production UI IDLE sprite for Monster Pouch. First image is the authoritative STYLE roster; second image is the authoritative CHARACTER identity. Draw ONE full body character only, centered front view, resting representative idle pose. Match the other Whelps EXACT chunky 16-bit pixel art: logical 80x80 canvas with about 64px visible height, enlarged nearest-neighbor; coarse stepped dark pixel outlines and clean flat grouped pixel shading with 3 shades per material. Compact collectible-toy body, huge head, very short limbs. True transparent RGBA background. Generous transparent margins. NO text, labels, panels, gradient, soft lighting, floor/shadow, border, attack or action effects. Avoid extra saturation. Preserve character identity and palette. ROSIE: squat golden-yellow rose goblin, large pointed ears, pink-red eyes and cheek marks, tiny cheerful fanged grin. Red/pink rose atop head with dark green leaf; simple winding green thorn vines around one eye and body, green leaf collar and red petal skirt, tiny yellow feet. Hold one red rose upright beside cheek, other hand rests on hip, charming relaxed stance. Simplify the reference to match Whelp pixel size, keep giant head and squat compact body. Only one Rosie, not a sheet.",
+      "references": [
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/docs/lobby-polish-20261015/all-19-idles.png",
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/docs/rosie-20261017/user-reference.png"
+      ],
+      "source": "ArtArchive/IdleArtwork-20261017/rosie-source.png",
+      "asset": "Assets/resources/MonsterPouch/UI/NewWhelpIdles/rosie.png"
+    },
+    {
+      "id": "pokrak",
+      "kind": "whelp",
+      "prompt": "Use case: stylized-concept. Production UI IDLE sprite for Monster Pouch. First image is the authoritative STYLE roster; second image is the authoritative CHARACTER identity. Draw ONE full body character only, centered front view, resting representative idle pose. Match the other Whelps EXACT chunky 16-bit pixel art: logical 80x80 canvas with about 64px visible height, enlarged nearest-neighbor; coarse stepped dark pixel outlines and clean flat grouped pixel shading with 3 shades per material. Compact collectible-toy body, huge head, very short limbs. True transparent RGBA background. Generous transparent margins. NO text, labels, panels, gradient, soft lighting, floor/shadow, border, attack or action effects. Avoid extra saturation. Preserve character identity and palette. POKRAK: squat pirate crab whelp, dark burgundy-plum shell with restrained burnt orange and cream accents. Oversized tricorn pirate hat, cream crab/skull badge, curled claw-like horns at hat edges, mischievous warm eyes, little tentacle moustache, cream belly and stubby feet. Both big claws rest loosely at waist, one slightly open; proud slight head tilt, friendly confident idle. Keep compact broad silhouette, matching existing Whelps. No bubbles in this resting pose. Only one Pokrak, not a sheet.",
+      "references": [
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/docs/lobby-polish-20261015/all-19-idles.png",
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/ArtArchive/pokrak/combat-source.png"
+      ],
+      "source": "ArtArchive/IdleArtwork-20261017/pokrak-source.png",
+      "asset": "Assets/resources/MonsterPouch/UI/NewWhelpIdles/pokrak.png"
+    },
+    {
+      "id": "bugaloo",
+      "kind": "monster-home",
+      "prompt": "Use case: style-transfer. Asset: ONE transparent full-body RESTING IDLE portrait for the main BATALLA lobby of Monster Pouch. Image 1 is a detailed STYLE reference provided by the user. Image 2 is the roster currently in the game and governs the exact character IDENTITY, silhouette, proportions and colors. Adapt image 1 to the current game's named character, making a more detailed finely pixelated version of that actual game design. This is high-detail pixel art with crisp stepped outlines and shaded pixel clusters, approximately 160-200 native pixels tall, displayed large; finer than the 64px in-game sprites, NOT coarse giant blocks, NOT smooth vector or 3D. Keep compact collectible toy proportions, short stubby limbs, large head, readable silhouette, restrained colors matching the game, no increase in saturation. Front or slight three-quarter resting pose, full body within generous transparent margins. True transparent alpha, no background, floor, shadow, text, frames or labels. No detached particles or extra equipment. ONE character only. BUGALOO, roster row2 column1: blue round moon genie, curled blue head, simple small closed sleepy eyes and little smile, pink cheeks, short round blue hands gently resting together at belly, gold bracelets/trim, deep blue round belly with yellow crescent and small stars, stubby blue feet. Keep CURRENT squat wide silhouette and friendly face, no angry glowing eyes, no long flowing cape or detached stars. The new portrait must resemble the CURRENT Bugaloo with finer pixel shading.",
+      "references": [
+        "C:/Users/HPVICT~1/AppData/Local/Temp/codex-clipboard-581017f8-d3a4-47ff-9981-95f7c3c85888.png",
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/docs/lobby-polish-20261015/all-19-idles.png"
+      ],
+      "asset": "Assets/resources/MonsterPouch/UI/BattleHomeIdles/bugaloo.png"
+    },
+    {
+      "id": "tauris",
+      "kind": "monster-home",
+      "prompt": "Use case: style-transfer. Asset: ONE transparent full-body RESTING IDLE portrait for the main BATALLA lobby of Monster Pouch. Image 1 is a detailed STYLE reference provided by the user. Image 2 is the roster currently in the game and governs the exact character IDENTITY, silhouette, proportions and colors. Adapt image 1 to the current game's named character, making a more detailed finely pixelated version of that actual game design. This is high-detail pixel art with crisp stepped outlines and shaded pixel clusters, approximately 160-200 native pixels tall, displayed large; finer than the 64px in-game sprites, NOT coarse giant blocks, NOT smooth vector or 3D. Keep compact collectible toy proportions, short stubby limbs, large head, readable silhouette, restrained colors matching the game, no increase in saturation. Front or slight three-quarter resting pose, full body within generous transparent margins. True transparent alpha, no background, floor, shadow, text, frames or labels. No detached particles or extra equipment. ONE character only. TAURIS, roster bottom row column1: compact stout muscular monster with two pointed ear/horns, crossed thick arms, sly white eyes, broad white toothy grin, pale/light desaturated SKY STEEL BLUE body with icy highlights. Match CURRENT light-blue palette and wide short proportions, no tall torso, no dark gray-blue replacement. Keep skin mostly smooth as current sprite, no added stone spikes or lumps. Both stubby feet grounded.",
+      "references": [
+        "C:/Users/HPVICT~1/AppData/Local/Temp/codex-clipboard-334e62df-62cd-4761-b087-d2a8da14308b.png",
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/docs/lobby-polish-20261015/all-19-idles.png"
+      ],
+      "asset": "Assets/resources/MonsterPouch/UI/BattleHomeIdles/tauris.png"
+    },
+    {
+      "id": "popow",
+      "kind": "monster-home",
+      "prompt": "Use case: style-transfer. Asset: ONE transparent full-body RESTING IDLE portrait for the main BATALLA lobby of Monster Pouch. Image 1 is a detailed STYLE reference provided by the user. Image 2 is the roster currently in the game and governs the exact character IDENTITY, silhouette, proportions and colors. Adapt image 1 to the current game's named character, making a more detailed finely pixelated version of that actual game design. This is high-detail pixel art with crisp stepped outlines and shaded pixel clusters, approximately 160-200 native pixels tall, displayed large; finer than the 64px in-game sprites, NOT coarse giant blocks, NOT smooth vector or 3D. Keep compact collectible toy proportions, short stubby limbs, large head, readable silhouette, restrained colors matching the game, no increase in saturation. Front or slight three-quarter resting pose, full body within generous transparent margins. True transparent alpha, no background, floor, shadow, text, frames or labels. No detached particles or extra equipment. ONE character only. POPOW, roster row3 column3: compact red fire boxer, big red head with simple yellow-orange flame crest, confident mischievous grin, white eyes with black pupils, red boxing-glove fists with cream cuffs, cream/yellow chest and simple gold flame accents, stubby red boots. Match current very short wide toy proportions, no intricate superhero armor, no extra tail, no tall muscular human. Relaxed ready stance with one glove near chest and one at waist. Simplify complex decorative markings of image1 to current design.",
+      "references": [
+        "C:/Users/HPVICT~1/AppData/Local/Temp/codex-clipboard-2fceda38-24a2-424c-a070-b9649f62663e.png",
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/docs/lobby-polish-20261015/all-19-idles.png"
+      ],
+      "asset": "Assets/resources/MonsterPouch/UI/BattleHomeIdles/popow.png"
+    },
+    {
+      "id": "sepora",
+      "kind": "monster-home",
+      "prompt": "Use case: style-transfer. Asset: ONE transparent full-body RESTING IDLE portrait for the main BATALLA lobby of Monster Pouch. Image 1 is a detailed STYLE reference provided by the user. Image 2 is the roster currently in the game and governs the exact character IDENTITY, silhouette, proportions and colors. Adapt image 1 to the current game's named character, making a more detailed finely pixelated version of that actual game design. This is high-detail pixel art with crisp stepped outlines and shaded pixel clusters, approximately 160-200 native pixels tall, displayed large; finer than the 64px in-game sprites, NOT coarse giant blocks, NOT smooth vector or 3D. Keep compact collectible toy proportions, short stubby limbs, large head, readable silhouette, restrained colors matching the game, no increase in saturation. Front or slight three-quarter resting pose, full body within generous transparent margins. True transparent alpha, no background, floor, shadow, text, frames or labels. No detached particles or extra equipment. ONE character only. SEPORA, roster row3 column4: compact magenta/pink petal-armored cat creature with huge head, pointy swept petal ears, large yellow eyes with narrow black pupils, pale cream forehead patch and little cream chest, short petal hands and chunky pointed petal feet. Match current friendly sly face, narrow torso, tiny short legs and current moderate pink palette. Two arms only, two legs only. No additional long tentacles, no extra white ornamental stars or markings. Relaxed pose, gentle head tilt, one paw at hip.",
+      "references": [
+        "C:/Users/HPVICT~1/AppData/Local/Temp/codex-clipboard-038c16c2-9985-4af2-b58b-ca348b0564f2.png",
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/docs/lobby-polish-20261015/all-19-idles.png"
+      ],
+      "asset": "Assets/resources/MonsterPouch/UI/BattleHomeIdles/sepora.png"
+    },
+    {
+      "id": "anuik",
+      "kind": "monster-home",
+      "prompt": "Use case: style-transfer. Asset: ONE transparent full-body RESTING IDLE portrait for the main BATALLA lobby of Monster Pouch. Image 1 is a detailed STYLE reference provided by the user. Image 2 is the roster currently in the game and governs the exact character IDENTITY, silhouette, proportions and colors. Adapt image 1 to the current game's named character, making a more detailed finely pixelated version of that actual game design. This is high-detail pixel art with crisp stepped outlines and shaded pixel clusters, approximately 160-200 native pixels tall, displayed large; finer than the 64px in-game sprites, NOT coarse giant blocks, NOT smooth vector or 3D. Keep compact collectible toy proportions, short stubby limbs, large head, readable silhouette, restrained colors matching the game, no increase in saturation. Front or slight three-quarter resting pose, full body within generous transparent margins. True transparent alpha, no background, floor, shadow, text, frames or labels. No detached particles or extra equipment. ONE character only. ANUIK, roster top row column2: tiny yellow angel fairy with very large pointed yellow ears and soft pink interiors, simple small BLACK oval eyes with little white glints, pink cheeks and cheerful small mouth, two yellow mitten hands holding ONE big pink heart at belly, little WHITE feathered wings, tiny yellow pointed feet. Keep current plain yellow fairy body: NO blue clothes, no blue earrings, no blue eyes, no ribbons or floating hearts. Match current simple cute giant-eared silhouette with a slight charming head tilt, finely shaded pixel clusters and visible crisp outline.",
+      "references": [
+        "C:/Users/HPVICT~1/AppData/Local/Temp/codex-clipboard-e78cf036-7c6e-4650-8481-83d13f3fb9d4.png",
+        "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch/docs/lobby-polish-20261015/all-19-idles.png"
+      ],
+      "asset": "Assets/resources/MonsterPouch/UI/BattleHomeIdles/anuik.png"
+    }
+  ]
+}

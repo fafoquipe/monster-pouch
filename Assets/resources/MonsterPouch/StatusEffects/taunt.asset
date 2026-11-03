@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac243905db94da1819091ff7c607d76, type: 3}
+  m_Name: taunt
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Status.StatusEffectDefinition
+  Id: taunt
+  DisplayName: "Provocaci\xF3n"
+  ShortLabel: '!'
+  DefaultDuration: 0
+  DefaultIntensity: 1
+  Stacking: 0
+  Ends: 0
+  Priority: 90
+  ShowBadge: 0
+  Icon: {fileID: 0}
+  Color: {r: 0.45, g: 0.72, b: 0.75, a: 1}
+  VisualEffect: {fileID: 0}

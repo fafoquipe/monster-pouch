@@ -1,0 +1,212 @@
+{
+  "badges": [
+    {
+      "faction": "monsters",
+      "normal": "MonsterPouch/UI/LeaderBadges/monsters-normal",
+      "upgraded": "MonsterPouch/UI/LeaderBadges/monsters-upgraded"
+    },
+    {
+      "faction": "geothar",
+      "normal": "leader/geothar/normal",
+      "upgraded": "leader/geothar/upgraded"
+    },
+    {
+      "faction": "aireola",
+      "normal": "leader/aireola/normal",
+      "upgraded": "leader/aireola/upgraded"
+    },
+    {
+      "faction": "aquarion",
+      "normal": "leader/aquarion/normal",
+      "upgraded": "leader/aquarion/upgraded"
+    },
+    {
+      "faction": "naturalis",
+      "normal": "leader/naturalis/normal",
+      "upgraded": "leader/naturalis/upgraded"
+    },
+    {
+      "faction": "volkanar",
+      "normal": "leader/volkanar/normal",
+      "upgraded": "leader/volkanar/upgraded"
+    }
+  ],
+  "characters": [
+    {
+      "characterId": "aky",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "anuik",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "atong",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "atori",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "blotan",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "bugaloo",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "bugui",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "flo",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "gochan",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "hymay",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "jazar",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "kayon",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "kazuru",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "martio",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "pokrak",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "popow",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "rosie",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "sepora",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "stein",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "suki",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "tauris",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "tokoro",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "trimol",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "tsu",
+      "faction": "monsters"
+    },
+    {
+      "characterId": "alveyr",
+      "faction": "aireola"
+    },
+    {
+      "characterId": "zephalontropo",
+      "faction": "aireola"
+    },
+    {
+      "characterId": "alboguera",
+      "faction": "aireola"
+    },
+    {
+      "characterId": "palista",
+      "faction": "aireola"
+    },
+    {
+      "characterId": "drayven",
+      "faction": "aquarion"
+    },
+    {
+      "characterId": "titanica",
+      "faction": "aquarion"
+    },
+    {
+      "characterId": "jabalinero",
+      "faction": "aquarion"
+    },
+    {
+      "characterId": "maestro-de-las-mareas",
+      "faction": "aquarion"
+    },
+    {
+      "characterId": "korran",
+      "faction": "geothar"
+    },
+    {
+      "characterId": "golem-tectonico",
+      "faction": "geothar"
+    },
+    {
+      "characterId": "la-minera",
+      "faction": "geothar"
+    },
+    {
+      "characterId": "protectora-del-mausoleo",
+      "faction": "geothar"
+    },
+    {
+      "characterId": "cael",
+      "faction": "naturalis"
+    },
+    {
+      "characterId": "guarda-veterano",
+      "faction": "naturalis"
+    },
+    {
+      "characterId": "arboreo",
+      "faction": "naturalis"
+    },
+    {
+      "characterId": "antidota",
+      "faction": "naturalis"
+    },
+    {
+      "characterId": "serya",
+      "faction": "volkanar"
+    },
+    {
+      "characterId": "legionario",
+      "faction": "volkanar"
+    },
+    {
+      "characterId": "dagata",
+      "faction": "volkanar"
+    },
+    {
+      "characterId": "canonero-del-orvek",
+      "faction": "volkanar"
+    }
+  ]
+}

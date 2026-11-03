@@ -29,8 +29,10 @@ public static class MonsterPouchSeptemberSetup
     public static string CancelInterruptedValidation()
     {
         var api=typeof(UnityEditor.TestTools.TestRunner.Api.TestRunnerApi);
-        var field=api.GetField("m_testJobDataHolder",System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.NonPublic);
-        var holder=field?.GetValue(null);
+        const System.Reflection.BindingFlags flags=System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Public;
+        var holder=api.GetProperty("m_testJobDataHolder",flags)?.GetValue(null)
+            ??api.GetField("m_testJobDataHolder",flags)?.GetValue(null);
+        if(holder==null)throw new MissingMemberException(api.FullName,"m_testJobDataHolder");
         int canceled=0;
         if(holder!=null)
         {
@@ -42,9 +44,9 @@ public static class MonsterPouchSeptemberSetup
                 if(UnityEditor.TestTools.TestRunner.Api.TestRunnerApi.CancelTestRun(guid))canceled++;
             }
         }
-        SessionState.EraseString("MonsterPouch.Validation.PendingRun");
-        EditorApplication.isPlaying=false;
-        return "Canceled interrupted validation runs: "+canceled+"; exit requested.";
+        // Cancellation is asynchronous. Let the runner finish cleanup and keep
+        // PendingRun available for the existing result/progress callbacks.
+        return "Cancellation requested for validation runs: "+canceled+"; waiting for Test Runner cleanup.";
     }
     public static string RepairVisualReferences()
     {

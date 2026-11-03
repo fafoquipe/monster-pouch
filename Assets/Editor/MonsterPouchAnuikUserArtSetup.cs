@@ -28,6 +28,9 @@ public static class MonsterPouchAnuikUserArtSetup
         Prepare(MainSource, MainAtlas);
         Prepare(ReviveSource, ReviveAtlas);
         Prepare(PortraitSource, PortraitAtlas);
+        int removedOutline = MonsterPouchOutlineCleanup.RemoveWhiteExteriorHalo(MainAtlas) +
+            MonsterPouchOutlineCleanup.RemoveWhiteExteriorHalo(ReviveAtlas) +
+            MonsterPouchOutlineCleanup.RemoveWhiteExteriorHalo(PortraitAtlas);
         var frames = MonsterPouchSpriteAnimationImporter.ImportGrid(MainAtlas, 100, 12, 5, "anuik-approved");
         var revive = MonsterPouchSpriteAnimationImporter.ImportGrid(ReviveAtlas, 100, 5, 5, "anuik-approved-revive");
         float standingWidth = Mathf.Max(1, frames[0,0].rect.width - 4);
@@ -57,11 +60,11 @@ public static class MonsterPouchAnuikUserArtSetup
             };
         }
         art.FootPivot=new Vector2(frames[0,0].pivot.x/frames[0,0].rect.width,frames[0,0].pivot.y/frames[0,0].rect.height);
-        art.SourceNotes="User-selected Anuik design, September 12 2026: golden yellow, broad upward ears, closed chevron eyes, no mouth, blue shirt, white heart and white pixel outline. User reference preserved in anuik-approved/anuik-user-reference.png. Supersedes the rejected peach/gray design. Five authored views and three mirrored directions; 60 combat poses and 25 revival poses, with calibrated headstand scale. Built-in imagegen prompts: docs/anuik-user-design.md. Combat rules unchanged.";
+        art.SourceNotes="User-selected Anuik design, September 12 2026: golden yellow, broad upward ears, closed chevron eyes, no mouth, blue shirt and white heart. The unwanted exterior white halo is removed while internal white details remain. User reference preserved in anuik-approved/anuik-user-reference.png. Supersedes the rejected peach/gray design. Five authored views and three mirrored directions; 60 combat poses and 25 revival poses, with calibrated headstand scale. Built-in imagegen prompts: docs/anuik-user-design.md. Combat rules unchanged.";
         EditorUtility.SetDirty(catalog);
         AssetDatabase.SaveAssets();
         Directory.CreateDirectory("docs");
-        File.WriteAllText("docs/anuik-user-import-report.md", $"# Anuik elegido por el usuario\n\nMain sprite width: {standingWidth}. Revival PPU: {revivePpu}. Portrait: {art.Portrait.rect}. World width retained: {art.WorldWidth}.\n\n60 movement/combat and 25 revive sprites assigned across eight directions. Three directions use explicit mirroring. Sources preserved. Only UnitArt changed; no MatchConfig or gameplay values were written.\n",new UTF8Encoding(false));
+        File.WriteAllText("docs/anuik-user-import-report.md", $"# Anuik elegido por el usuario\n\nMain sprite width: {standingWidth}. Revival PPU: {revivePpu}. Portrait: {art.Portrait.rect}. World width retained: {art.WorldWidth}. Exterior halo pixels removed: {removedOutline}.\n\n60 movement/combat and 25 revive sprites assigned across eight directions. Three directions use explicit mirroring. Sources preserved. Only UnitArt changed; no MatchConfig or gameplay values were written.\n",new UTF8Encoding(false));
         Debug.Log("Anuik actualizado al diseño amarillo y azul elegido por el usuario, con resurrección de cabeza y retrato propio.");
     }
 

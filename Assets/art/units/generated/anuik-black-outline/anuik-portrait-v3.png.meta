@@ -1,0 +1,933 @@
+fileFormatVersion: 2
+guid: cc1074374a18417499e3939f4170e41c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7024303937371701920
+    second: anuik-portrait-v3_0
+  - first:
+      213: -7852276394874935321
+    second: anuik-portrait-v3_1
+  - first:
+      213: -1104272601857377309
+    second: anuik-portrait-v3_2
+  - first:
+      213: 6973221028318172371
+    second: anuik-portrait-v3_3
+  - first:
+      213: 4917470148801186561
+    second: anuik-portrait-v3_4
+  - first:
+      213: -1491561195992537710
+    second: anuik-portrait-v3_5
+  - first:
+      213: -4771806647568402790
+    second: anuik-portrait-v3_6
+  - first:
+      213: -3344614010328853614
+    second: anuik-portrait-v3_7
+  - first:
+      213: 5680298695926864297
+    second: anuik-portrait-v3_8
+  - first:
+      213: 6270371779005653004
+    second: anuik-portrait-v3_9
+  - first:
+      213: -3342006270724815085
+    second: anuik-portrait-v3_10
+  - first:
+      213: 8667342421382934873
+    second: anuik-portrait-v3_11
+  - first:
+      213: 9170632484709890056
+    second: anuik-portrait-v3_12
+  - first:
+      213: -1750257298926971586
+    second: anuik-portrait-v3_13
+  - first:
+      213: -1066008205064319747
+    second: anuik-portrait-v3_14
+  - first:
+      213: -2222136491681208968
+    second: anuik-portrait-v3_15
+  - first:
+      213: 8715421949533303094
+    second: anuik-portrait-v3_16
+  - first:
+      213: 8500307535572153426
+    second: anuik-portrait-v3_17
+  - first:
+      213: 7665408488587818383
+    second: anuik-portrait-v3_18
+  - first:
+      213: 2132045030503660704
+    second: anuik-portrait-v3_19
+  - first:
+      213: -2116639663903820535
+    second: anuik-portrait-v3_20
+  - first:
+      213: -4339563536633315939
+    second: anuik-portrait-v3_21
+  - first:
+      213: 6977373644356014263
+    second: anuik-portrait-v3_22
+  - first:
+      213: -6752589128508122702
+    second: anuik-portrait-v3_23
+  - first:
+      213: 8771542631630465582
+    second: anuik-portrait-v3_24
+  - first:
+      213: -5273560823984795003
+    second: anuik-portrait-v3_25
+  - first:
+      213: 2742186149177269612
+    second: anuik-portrait-v3_26
+  - first:
+      213: -2448741756754967164
+    second: anuik-portrait-v3_27
+  - first:
+      213: -753638026030481505
+    second: anuik-portrait-v3_28
+  - first:
+      213: 2125956937045541781
+    second: anuik-portrait-v3_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anuik-portrait-v3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 1221
+        height: 1158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a20b65f6375b7160800000000000000
+      internalID: 7024303937371701920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1140
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e76b45d83c170390800000000000000
+      internalID: -7852276394874935321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1012
+        width: 42
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb38175be5dca0f0800000000000000
+      internalID: -1104272601857377309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_3
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1148
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4503d549bd5c060800000000000000
+      internalID: 6973221028318172371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_4
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bc1e4eb0d5e3440800000000000000
+      internalID: 4917470148801186561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1126
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295ab10bef8ec4be0800000000000000
+      internalID: -1491561195992537710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_6
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9676dad22327cdb0800000000000000
+      internalID: -4771806647568402790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1067
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293dd83374b8591d0800000000000000
+      internalID: -3344614010328853614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1058
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9d5d4819974de40800000000000000
+      internalID: 5680298695926864297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_9
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1046
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00244149e5d40750800000000000000
+      internalID: 6270371779005653004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_10
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1022
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317c154e00fce91d0800000000000000
+      internalID: -3342006270724815085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1020
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951343db206984870800000000000000
+      internalID: 8667342421382934873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_12
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1029
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8087ac028a1a44f70800000000000000
+      internalID: 9170632484709890056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_13
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1021
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e355ce78246d5b7e0800000000000000
+      internalID: -1750257298926971586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_14
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1012
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc4d797f27c431f0800000000000000
+      internalID: -1066008205064319747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875a8ea52a26921e0800000000000000
+      internalID: -2222136491681208968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 87
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6313399361663f870800000000000000
+      internalID: 8715421949533303094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_17
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 85
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254ba53caa827f570800000000000000
+      internalID: 8500307535572153426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_18
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 89
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f857a844860016a60800000000000000
+      internalID: 7665408488587818383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_19
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 85
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acbe40c8ab869d10800000000000000
+      internalID: 2132045030503660704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_20
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 93
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905b28ba07f20a2e0800000000000000
+      internalID: -2116639663903820535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_21
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 35
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dbbb694f5c6c3c0800000000000000
+      internalID: -4339563536633315939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_22
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b05301ac5c94d060800000000000000
+      internalID: 6977373644356014263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_23
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 55
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9db11e6fbf942a0800000000000000
+      internalID: -6752589128508122702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_24
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 53
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a6782cc87cab970800000000000000
+      internalID: 8771542631630465582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58258f00f5c80d6b0800000000000000
+      internalID: -5273560823984795003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 15
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d15b126c33e0620800000000000000
+      internalID: 2742186149177269612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_27
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 15
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48544f1a852540ed0800000000000000
+      internalID: -2448741756754967164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_28
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 19
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ff931553a8a85f0800000000000000
+      internalID: -753638026030481505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-portrait-v3_29
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 9
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5938068029ae08d10800000000000000
+      internalID: 2125956937045541781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anuik-clean-portrait-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 149
+        width: 1180
+        height: 882
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0034013605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5180780746afb5b40a1c7285c8106459
+      internalID: 475279377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e277e1b2e26fe6b44b5de8286175e1b1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      anuik-clean-portrait-r00-f00: 475279377
+      anuik-portrait-v3_0: 7024303937371701920
+      anuik-portrait-v3_1: -7852276394874935321
+      anuik-portrait-v3_10: -3342006270724815085
+      anuik-portrait-v3_11: 8667342421382934873
+      anuik-portrait-v3_12: 9170632484709890056
+      anuik-portrait-v3_13: -1750257298926971586
+      anuik-portrait-v3_14: -1066008205064319747
+      anuik-portrait-v3_15: -2222136491681208968
+      anuik-portrait-v3_16: 8715421949533303094
+      anuik-portrait-v3_17: 8500307535572153426
+      anuik-portrait-v3_18: 7665408488587818383
+      anuik-portrait-v3_19: 2132045030503660704
+      anuik-portrait-v3_2: -1104272601857377309
+      anuik-portrait-v3_20: -2116639663903820535
+      anuik-portrait-v3_21: -4339563536633315939
+      anuik-portrait-v3_22: 6977373644356014263
+      anuik-portrait-v3_23: -6752589128508122702
+      anuik-portrait-v3_24: 8771542631630465582
+      anuik-portrait-v3_25: -5273560823984795003
+      anuik-portrait-v3_26: 2742186149177269612
+      anuik-portrait-v3_27: -2448741756754967164
+      anuik-portrait-v3_28: -753638026030481505
+      anuik-portrait-v3_29: 2125956937045541781
+      anuik-portrait-v3_3: 6973221028318172371
+      anuik-portrait-v3_4: 4917470148801186561
+      anuik-portrait-v3_5: -1491561195992537710
+      anuik-portrait-v3_6: -4771806647568402790
+      anuik-portrait-v3_7: -3344614010328853614
+      anuik-portrait-v3_8: 5680298695926864297
+      anuik-portrait-v3_9: 6270371779005653004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

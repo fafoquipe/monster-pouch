@@ -1,13 +1,19 @@
 {
-"name": "MonsterPouch.Gameplay.Tests.EditMode",
-"references": [
-"MonsterPouch.Gameplay"
-],
-"includePlatforms": [
-"Editor"
-],
-"excludePlatforms": [],
-"optionalUnityReferences": [
-"TestAssemblies"
-]
+  "name": "MonsterPouch.Gameplay.Tests.EditMode",
+  "references": [
+    "MonsterPouch.Gameplay",
+    "MonsterPouch.Local"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
 }

@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: cd5d573fbe841404494537ca4c12a68a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1676326747343962374
+    second: table-decor_0
+  - first:
+      213: 2317617860864069450
+    second: table-decor_1
+  - first:
+      213: -1658336934709755280
+    second: table-decor_2
+  - first:
+      213: -7085367979195397957
+    second: table-decor_3
+  - first:
+      213: -1948555142409965922
+    second: table-decor_4
+  - first:
+      213: 6133375638185280461
+    second: table-decor_5
+  - first:
+      213: 188059752266780777
+    second: table-decor_6
+  - first:
+      213: 6635830519995106221
+    second: table-decor_7
+  - first:
+      213: 7878125821611370331
+    second: table-decor_8
+  - first:
+      213: 5009213456994568692
+    second: table-decor_9
+  - first:
+      213: 2718606548377714298
+    second: table-decor_10
+  - first:
+      213: 2731524620444185291
+    second: table-decor_11
+  - first:
+      213: -4895913807434928165
+    second: table-decor_12
+  - first:
+      213: -3177165928631168221
+    second: table-decor_13
+  - first:
+      213: 7708426295434987703
+    second: table-decor_14
+  - first:
+      213: 729676959498827671
+    second: table-decor_15
+  - first:
+      213: 5699158277117236011
+    second: table-decor_16
+  - first:
+      213: -6129898585980858994
+    second: table-decor_17
+  - first:
+      213: 6015321201639056828
+    second: table-decor_18
+  - first:
+      213: 1464097210049908378
+    second: table-decor_19
+  - first:
+      213: -4282223994397708208
+    second: table-decor_20
+  - first:
+      213: 1885913874572788243
+    second: table-decor_21
+  - first:
+      213: -725113999011872705
+    second: table-decor_22
+  - first:
+      213: -736133495444705708
+    second: table-decor_23
+  - first:
+      213: -8532777442660994550
+    second: table-decor_24
+  - first:
+      213: 2720465807980003762
+    second: table-decor_25
+  - first:
+      213: 2113615990352134168
+    second: table-decor_26
+  - first:
+      213: -3634720266954441958
+    second: table-decor_27
+  - first:
+      213: 6445797486856948281
+    second: table-decor_28
+  - first:
+      213: -5529456493988746074
+    second: table-decor_29
+  - first:
+      213: -9037064714603833073
+    second: table-decor_30
+  - first:
+      213: 5648763973530477944
+    second: table-decor_31
+  - first:
+      213: -1599009257421653658
+    second: table-decor_32
+  - first:
+      213: -6863358160607965088
+    second: table-decor_33
+  - first:
+      213: -7616342555128067001
+    second: table-decor_34
+  - first:
+      213: -8282458583987630173
+    second: table-decor_35
+  - first:
+      213: 8780009736705352402
+    second: table-decor_36
+  - first:
+      213: -8972715127582043211
+    second: table-decor_37
+  - first:
+      213: -2921441035604791550
+    second: table-decor_38
+  - first:
+      213: 2758776971582419656
+    second: table-decor_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: table-decor_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1162
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6014cee8b42834710800000000000000
+      internalID: 1676326747343962374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_1
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1245
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f47e94a25d92020800000000000000
+      internalID: 2317617860864069450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1213
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07207b818576cf8e0800000000000000
+      internalID: -1658336934709755280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1179
+        width: 74
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb88121ec57bbad90800000000000000
+      internalID: -7085367979195397957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_4
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1179
+        width: 76
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ea46ffb6755f4e0800000000000000
+      internalID: -1948555142409965922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_5
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1149
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3811c95a02e1550800000000000000
+      internalID: 6133375638185280461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_6
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1197
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960d86a295f1c9200800000000000000
+      internalID: 188059752266780777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 590
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3010623b4371c50800000000000000
+      internalID: 6635830519995106221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_8
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 562
+        width: 642
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b576af4d1b9b45d60800000000000000
+      internalID: 7878125821611370331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_9
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1144
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f98444691d448540800000000000000
+      internalID: 5009213456994568692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 763
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7eba10804e6ab520800000000000000
+      internalID: 2718606548377714298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_11
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 652
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc23fc88b2358e520800000000000000
+      internalID: 2731524620444185291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_12
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 650
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf29e0f4583e0cb0800000000000000
+      internalID: -4895913807434928165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_13
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 625
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3231777db6078e3d0800000000000000
+      internalID: -3177165928631168221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_14
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 610
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8ceacefd4d9fa60800000000000000
+      internalID: 7708426295434987703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_15
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 633
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797f6b32455502a00800000000000000
+      internalID: 729676959498827671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_16
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 630
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23dc42f14a771f40800000000000000
+      internalID: 5699158277117236011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_17
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 636
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d0171b6b93eeaa0800000000000000
+      internalID: -6129898585980858994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_18
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 626
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5629923c6ba7350800000000000000
+      internalID: 6015321201639056828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 596
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e4aa9c7a4815410800000000000000
+      internalID: 1464097210049908378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 612
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050354d17fb7294c0800000000000000
+      internalID: -4282223994397708208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_21
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 612
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31244ea4dac1c2a10800000000000000
+      internalID: 1885913874572788243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 634
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f300c33e8a0efe5f0800000000000000
+      internalID: -725113999011872705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_23
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 590
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e60c07c7ab8c5f0800000000000000
+      internalID: -736133495444705708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_24
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 594
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02b9bedf1c759980800000000000000
+      internalID: -8532777442660994550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_25
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 580
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b18e3c1d3901c520800000000000000
+      internalID: 2720465807980003762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_26
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 570
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81046887b82155d10800000000000000
+      internalID: 2113615990352134168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_27
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 576
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b744ebc21ee8dc0800000000000000
+      internalID: -3634720266954441958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_28
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 562
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ac63ab9a2147950800000000000000
+      internalID: 6445797486856948281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_29
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 531
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ace2d27d9c6343b0800000000000000
+      internalID: -5529456493988746074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_30
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 0
+        width: 612
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0952d1c585e59280800000000000000
+      internalID: -9037064714603833073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 361
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875ee4ec7e0746e40800000000000000
+      internalID: 5648763973530477944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_32
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 224
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66932d26d8d2fc9e0800000000000000
+      internalID: -1599009257421653658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_33
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 216
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0601fa6dd1470c0a0800000000000000
+      internalID: -6863358160607965088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_34
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 205
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c86e99cc05d4690800000000000000
+      internalID: -7616342555128067001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_35
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 202
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af488adccbce0d80800000000000000
+      internalID: -8282458583987630173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_36
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 178
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d22bc8465cd8d970800000000000000
+      internalID: 8780009736705352402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_37
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 130
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3d2b581238a7380800000000000000
+      internalID: -8972715127582043211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_38
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 135
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fe6884bd4f477d0800000000000000
+      internalID: -2921441035604791550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table-decor_39
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 69
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2b2bdf905294620800000000000000
+      internalID: 2758776971582419656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      table-decor_0: 1676326747343962374
+      table-decor_1: 2317617860864069450
+      table-decor_10: 2718606548377714298
+      table-decor_11: 2731524620444185291
+      table-decor_12: -4895913807434928165
+      table-decor_13: -3177165928631168221
+      table-decor_14: 7708426295434987703
+      table-decor_15: 729676959498827671
+      table-decor_16: 5699158277117236011
+      table-decor_17: -6129898585980858994
+      table-decor_18: 6015321201639056828
+      table-decor_19: 1464097210049908378
+      table-decor_2: -1658336934709755280
+      table-decor_20: -4282223994397708208
+      table-decor_21: 1885913874572788243
+      table-decor_22: -725113999011872705
+      table-decor_23: -736133495444705708
+      table-decor_24: -8532777442660994550
+      table-decor_25: 2720465807980003762
+      table-decor_26: 2113615990352134168
+      table-decor_27: -3634720266954441958
+      table-decor_28: 6445797486856948281
+      table-decor_29: -5529456493988746074
+      table-decor_3: -7085367979195397957
+      table-decor_30: -9037064714603833073
+      table-decor_31: 5648763973530477944
+      table-decor_32: -1599009257421653658
+      table-decor_33: -6863358160607965088
+      table-decor_34: -7616342555128067001
+      table-decor_35: -8282458583987630173
+      table-decor_36: 8780009736705352402
+      table-decor_37: -8972715127582043211
+      table-decor_38: -2921441035604791550
+      table-decor_39: 2758776971582419656
+      table-decor_4: -1948555142409965922
+      table-decor_5: 6133375638185280461
+      table-decor_6: 188059752266780777
+      table-decor_7: 6635830519995106221
+      table-decor_8: 7878125821611370331
+      table-decor_9: 5009213456994568692
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

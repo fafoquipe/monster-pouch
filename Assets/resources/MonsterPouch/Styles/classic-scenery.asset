@@ -1,0 +1,5231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92b2e751e1c7204785d329593be2200, type: 3}
+  m_Name: classic-scenery
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Presentation.ArenaSceneryDefinition
+  Floor: {r: 0.86, g: 0.92, b: 0.92, a: 1}
+  Wall: {r: 0.62, g: 0.54, b: 0.85, a: 1}
+  WallDetail: {r: 0.48, g: 0.39, b: 0.71, a: 1}
+  Trim: {r: 0.5, g: 0.41, b: 0.65, a: 1}
+  Carpet: {r: 0.38, g: 0.13, b: 0.18, a: 1}
+  StoneWall: 0
+  Carpets: 0
+  Saturation: 0.86
+  FloorTexture: {fileID: 21300000, guid: 453a9a39915506546b6f58d7eba1bad9, type: 3}
+  FloorTileWidth: 360
+  FloorStartsAboveBoard: 16
+  ShadowDirection: {x: 0.65, y: 1}
+  ShadowLength: 0.26
+  Elements:
+  - Name: Castillo inflable central
+    Sprite: {fileID: -1058242191, guid: dc0668b19fd6f7547a9814de6d786a7c, type: 3}
+    Anchor: 1
+    Foot: {x: 0, y: -10}
+    Width: 270
+    FlipX: 0
+    Shadow: 0.14
+    Order: 12
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Estante alto -1
+    Sprite: {fileID: -131471722, guid: 56b9dd049a5cf9048b06020216a5bf6c, type: 3}
+    Anchor: 1
+    Foot: {x: -205, y: -16}
+    Width: 112
+    FlipX: 0
+    Shadow: 0.1
+    Order: 10
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Estante estrecho -1
+    Sprite: {fileID: 2119465432, guid: 56b9dd049a5cf9048b06020216a5bf6c, type: 3}
+    Anchor: 1
+    Foot: {x: -140, y: -13}
+    Width: 54
+    FlipX: 0
+    Shadow: 0.08
+    Order: 11
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Estante bajo -1
+    Sprite: {fileID: 1799558382, guid: 56b9dd049a5cf9048b06020216a5bf6c, type: 3}
+    Anchor: 1
+    Foot: {x: -304, y: -7}
+    Width: 112
+    FlipX: 0
+    Shadow: 0.1
+    Order: 13
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Estante exterior -1
+    Sprite: {fileID: 1159541484, guid: 56b9dd049a5cf9048b06020216a5bf6c, type: 3}
+    Anchor: 1
+    Foot: {x: -414, y: -16}
+    Width: 100
+    FlipX: 0
+    Shadow: 0.1
+    Order: 10
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Estante exterior bajo -1
+    Sprite: {fileID: 1799558382, guid: 56b9dd049a5cf9048b06020216a5bf6c, type: 3}
+    Anchor: 1
+    Foot: {x: -520, y: -5}
+    Width: 114
+    FlipX: 0
+    Shadow: 0.08
+    Order: 13
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Estante alto 1
+    Sprite: {fileID: 1159541484, guid: 56b9dd049a5cf9048b06020216a5bf6c, type: 3}
+    Anchor: 1
+    Foot: {x: 205, y: -16}
+    Width: 112
+    FlipX: 0
+    Shadow: 0.1
+    Order: 10
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Estante estrecho 1
+    Sprite: {fileID: 2119465432, guid: 56b9dd049a5cf9048b06020216a5bf6c, type: 3}
+    Anchor: 1
+    Foot: {x: 140, y: -13}
+    Width: 54
+    FlipX: 0
+    Shadow: 0.08
+    Order: 11
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Estante bajo 1
+    Sprite: {fileID: 1799558382, guid: 56b9dd049a5cf9048b06020216a5bf6c, type: 3}
+    Anchor: 1
+    Foot: {x: 304, y: -7}
+    Width: 112
+    FlipX: 0
+    Shadow: 0.1
+    Order: 13
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Estante exterior 1
+    Sprite: {fileID: -131471722, guid: 56b9dd049a5cf9048b06020216a5bf6c, type: 3}
+    Anchor: 1
+    Foot: {x: 414, y: -16}
+    Width: 100
+    FlipX: 0
+    Shadow: 0.1
+    Order: 10
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Estante exterior bajo 1
+    Sprite: {fileID: 1799558382, guid: 56b9dd049a5cf9048b06020216a5bf6c, type: 3}
+    Anchor: 1
+    Foot: {x: 520, y: -5}
+    Width: 114
+    FlipX: 0
+    Shadow: 0.08
+    Order: 13
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Banderines 0
+    Sprite: {fileID: 1759775529, guid: dc0668b19fd6f7547a9814de6d786a7c, type: 3}
+    Anchor: 1
+    Foot: {x: -600, y: -160}
+    Width: 218
+    FlipX: 0
+    Shadow: 0
+    Order: -20
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Banderines 1
+    Sprite: {fileID: 1759775529, guid: dc0668b19fd6f7547a9814de6d786a7c, type: 3}
+    Anchor: 1
+    Foot: {x: -400, y: -148}
+    Width: 218
+    FlipX: 0
+    Shadow: 0
+    Order: -20
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Banderines 2
+    Sprite: {fileID: 1759775529, guid: dc0668b19fd6f7547a9814de6d786a7c, type: 3}
+    Anchor: 1
+    Foot: {x: -200, y: -160}
+    Width: 218
+    FlipX: 0
+    Shadow: 0
+    Order: -20
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Banderines 3
+    Sprite: {fileID: 1759775529, guid: dc0668b19fd6f7547a9814de6d786a7c, type: 3}
+    Anchor: 1
+    Foot: {x: 0, y: -148}
+    Width: 218
+    FlipX: 0
+    Shadow: 0
+    Order: -20
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Banderines 4
+    Sprite: {fileID: 1759775529, guid: dc0668b19fd6f7547a9814de6d786a7c, type: 3}
+    Anchor: 1
+    Foot: {x: 200, y: -160}
+    Width: 218
+    FlipX: 0
+    Shadow: 0
+    Order: -20
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Banderines 5
+    Sprite: {fileID: 1759775529, guid: dc0668b19fd6f7547a9814de6d786a7c, type: 3}
+    Anchor: 1
+    Foot: {x: 400, y: -148}
+    Width: 218
+    FlipX: 0
+    Shadow: 0
+    Order: -20
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Banderines 6
+    Sprite: {fileID: 1759775529, guid: dc0668b19fd6f7547a9814de6d786a7c, type: 3}
+    Anchor: 1
+    Foot: {x: 600, y: -160}
+    Width: 218
+    FlipX: 0
+    Shadow: 0
+    Order: -20
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 0
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -850, y: -225}
+    Width: 46
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 0
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -814, y: -336}
+    Width: 42
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 1
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -755, y: -193}
+    Width: 54
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 1
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -719, y: -322}
+    Width: 49
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 2
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -660, y: -161}
+    Width: 62
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 2
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -624, y: -308}
+    Width: 56
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 3
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -565, y: -225}
+    Width: 46
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 3
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -529, y: -294}
+    Width: 42
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 4
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -470, y: -193}
+    Width: 54
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 4
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -434, y: -336}
+    Width: 49
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 5
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -375, y: -161}
+    Width: 62
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 5
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -339, y: -322}
+    Width: 56
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 6
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -280, y: -225}
+    Width: 46
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 6
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -244, y: -308}
+    Width: 42
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 7
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -185, y: -193}
+    Width: 54
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 7
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -149, y: -294}
+    Width: 49
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 8
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -90, y: -161}
+    Width: 62
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 8
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: -54, y: -336}
+    Width: 56
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 9
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 5, y: -225}
+    Width: 46
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 9
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 41, y: -322}
+    Width: 42
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 10
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 100, y: -193}
+    Width: 54
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 10
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 136, y: -308}
+    Width: 49
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 11
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 195, y: -161}
+    Width: 62
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 11
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 231, y: -294}
+    Width: 56
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 12
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 290, y: -225}
+    Width: 46
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 12
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 326, y: -336}
+    Width: 42
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 13
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 385, y: -193}
+    Width: 54
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 13
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 421, y: -322}
+    Width: 49
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 14
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 480, y: -161}
+    Width: 62
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 14
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 516, y: -308}
+    Width: 56
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 15
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 575, y: -225}
+    Width: 46
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 15
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 611, y: -294}
+    Width: 42
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 16
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 670, y: -193}
+    Width: 54
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 16
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 706, y: -336}
+    Width: 49
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 17
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 765, y: -161}
+    Width: 62
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 17
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 801, y: -322}
+    Width: 56
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube de pared 18
+    Sprite: {fileID: 730407715, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 860, y: -225}
+    Width: 46
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Nube superior 18
+    Sprite: {fileID: -766848865, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 1
+    Foot: {x: 896, y: -308}
+    Width: 42
+    FlipX: 0
+    Shadow: 0
+    Order: -30
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 0
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -24, y: -263}
+    Width: 48
+    FlipX: 0
+    Shadow: 0.13
+    Order: 100
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 0
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: -251}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 105
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 0 0
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -41.28, y: -249}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 106
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 1
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -45, y: -214}
+    Width: 56
+    FlipX: 0
+    Shadow: 0.13
+    Order: 110
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 1
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -16.800001, y: -202}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 115
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 2
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -38, y: -165}
+    Width: 64
+    FlipX: 0
+    Shadow: 0.13
+    Order: 120
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 2
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: -153}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 125
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 0 2
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -61.04, y: -151}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 126
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 3
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -31, y: -131}
+    Width: 52
+    FlipX: 0
+    Shadow: 0.13
+    Order: 130
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 3
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: -119}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 135
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 4
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -24, y: -82}
+    Width: 60
+    FlipX: 0
+    Shadow: 0.13
+    Order: 140
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 4
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: -70}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 145
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 0 4
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -45.600002, y: -68}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 146
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 5
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -45, y: -33}
+    Width: 48
+    FlipX: 0
+    Shadow: 0.13
+    Order: 150
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 5
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -20.400002, y: -21}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 155
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 6
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -38, y: 1}
+    Width: 56
+    FlipX: 0
+    Shadow: 0.13
+    Order: 160
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 6
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: 13}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 165
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 0 6
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -58.16, y: 15}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 166
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 7
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -31, y: 50}
+    Width: 64
+    FlipX: 0
+    Shadow: 0.13
+    Order: 170
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 7
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: 62}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 175
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 8
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -24, y: 99}
+    Width: 52
+    FlipX: 0
+    Shadow: 0.13
+    Order: 180
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 8
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: 111}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 185
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 0 8
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -42.72, y: 113}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 186
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 9
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -45, y: 133}
+    Width: 60
+    FlipX: 0
+    Shadow: 0.13
+    Order: 190
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 9
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -15.000001, y: 145}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 195
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 10
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -38, y: 182}
+    Width: 48
+    FlipX: 0
+    Shadow: 0.13
+    Order: 200
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 10
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -13.400001, y: 194}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 205
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 0 10
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -55.28, y: 196}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 206
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 11
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -31, y: 231}
+    Width: 56
+    FlipX: 0
+    Shadow: 0.13
+    Order: 210
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 11
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: 243}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 215
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 12
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -24, y: 265}
+    Width: 64
+    FlipX: 0
+    Shadow: 0.13
+    Order: 220
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 12
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: 277}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 225
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 0 12
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -47.04, y: 279}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 226
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 13
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -45, y: 314}
+    Width: 52
+    FlipX: 0
+    Shadow: 0.13
+    Order: 230
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 13
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -18.6, y: 326}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 235
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 14
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -38, y: 363}
+    Width: 60
+    FlipX: 0
+    Shadow: 0.13
+    Order: 240
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 14
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: 375}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 245
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 0 14
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -59.600002, y: 377}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 246
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 15
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -31, y: 397}
+    Width: 48
+    FlipX: 0
+    Shadow: 0.13
+    Order: 250
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 15
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: 409}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 255
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 16
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -24, y: 446}
+    Width: 56
+    FlipX: 0
+    Shadow: 0.13
+    Order: 260
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 16
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: 458}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 265
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 0 16
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -44.16, y: 460}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 266
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 17
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -45, y: 495}
+    Width: 64
+    FlipX: 0
+    Shadow: 0.13
+    Order: 270
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 17
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -13.200001, y: 507}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 275
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 0 18
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -38, y: 529}
+    Width: 52
+    FlipX: 0
+    Shadow: 0.13
+    Order: 280
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 0 18
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -12, y: 541}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 285
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 0 18
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -56.72, y: 543}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 286
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 0
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -97, y: -240}
+    Width: 55
+    FlipX: 0
+    Shadow: 0.13
+    Order: 101
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 0
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -69.25, y: -228}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 106
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 1 0
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -116.8, y: -226}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 107
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 1
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -90, y: -206}
+    Width: 63
+    FlipX: 0
+    Shadow: 0.13
+    Order: 111
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 1
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -58.65, y: -194}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 116
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 2
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -83, y: -157}
+    Width: 51
+    FlipX: 0
+    Shadow: 0.13
+    Order: 121
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 2
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -57.05, y: -145}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 126
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 1 2
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -101.36, y: -143}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 127
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 3
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -76, y: -108}
+    Width: 59
+    FlipX: 0
+    Shadow: 0.13
+    Order: 131
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 3
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -46.45, y: -96}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 136
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 4
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -97, y: -74}
+    Width: 67
+    FlipX: 0
+    Shadow: 0.13
+    Order: 141
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 4
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -63.850002, y: -62}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 146
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 1 4
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -121.12, y: -60}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 147
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 5
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -90, y: -25}
+    Width: 55
+    FlipX: 0
+    Shadow: 0.13
+    Order: 151
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 5
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -62.25, y: -13}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 156
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 6
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -83, y: 24}
+    Width: 63
+    FlipX: 0
+    Shadow: 0.13
+    Order: 161
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 6
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -51.65, y: 36}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 166
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 1 6
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -105.68, y: 38}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 167
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 7
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -76, y: 58}
+    Width: 51
+    FlipX: 0
+    Shadow: 0.13
+    Order: 171
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 7
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -50.05, y: 70}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 176
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 8
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -97, y: 107}
+    Width: 59
+    FlipX: 0
+    Shadow: 0.13
+    Order: 181
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 8
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -67.45, y: 119}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 186
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 1 8
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -118.24, y: 121}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 187
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 9
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -90, y: 156}
+    Width: 67
+    FlipX: 0
+    Shadow: 0.13
+    Order: 191
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 9
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -56.850002, y: 168}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 196
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 10
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -83, y: 190}
+    Width: 55
+    FlipX: 0
+    Shadow: 0.13
+    Order: 201
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 10
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -55.25, y: 202}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 206
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 1 10
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -102.8, y: 204}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 207
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 11
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -76, y: 239}
+    Width: 63
+    FlipX: 0
+    Shadow: 0.13
+    Order: 211
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 11
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -44.65, y: 251}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 216
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 12
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -97, y: 288}
+    Width: 51
+    FlipX: 0
+    Shadow: 0.13
+    Order: 221
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 12
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -71.05, y: 300}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 226
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 1 12
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -115.36, y: 302}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 227
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 13
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -90, y: 322}
+    Width: 59
+    FlipX: 0
+    Shadow: 0.13
+    Order: 231
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 13
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -60.45, y: 334}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 236
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 14
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -83, y: 371}
+    Width: 67
+    FlipX: 0
+    Shadow: 0.13
+    Order: 241
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 14
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -49.850002, y: 383}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 246
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 1 14
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -107.12, y: 385}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 247
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 15
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -76, y: 420}
+    Width: 55
+    FlipX: 0
+    Shadow: 0.13
+    Order: 251
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 15
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -48.25, y: 432}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 256
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 16
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -97, y: 454}
+    Width: 63
+    FlipX: 0
+    Shadow: 0.13
+    Order: 261
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 16
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -65.65, y: 466}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 266
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 1 16
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -119.68, y: 468}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 267
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 17
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -90, y: 503}
+    Width: 51
+    FlipX: 0
+    Shadow: 0.13
+    Order: 271
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 17
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -64.05, y: 515}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 276
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 1 18
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -83, y: 552}
+    Width: 59
+    FlipX: 0
+    Shadow: 0.13
+    Order: 281
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 1 18
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -53.45, y: 564}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 286
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 1 18
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -104.24, y: 566}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 287
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 0
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -142, y: -232}
+    Width: 62
+    FlipX: 0
+    Shadow: 0.13
+    Order: 102
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 0
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -111.1, y: -220}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 107
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 2 0
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -164.32, y: -218}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 108
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 1
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -135, y: -183}
+    Width: 70
+    FlipX: 0
+    Shadow: 0.13
+    Order: 112
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 1
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -100.5, y: -171}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 117
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 2
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -128, y: -149}
+    Width: 58
+    FlipX: 0
+    Shadow: 0.13
+    Order: 122
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 2
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -98.9, y: -137}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 127
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 2 2
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -148.88, y: -135}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 128
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 3
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -149, y: -100}
+    Width: 66
+    FlipX: 0
+    Shadow: 0.13
+    Order: 132
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 3
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -116.3, y: -88}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 137
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 4
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -142, y: -51}
+    Width: 54
+    FlipX: 0
+    Shadow: 0.13
+    Order: 142
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 4
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -114.7, y: -39}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 147
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 2 4
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -161.44, y: -37}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 148
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 5
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -135, y: -17}
+    Width: 62
+    FlipX: 0
+    Shadow: 0.13
+    Order: 152
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 5
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -104.1, y: -5}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 157
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 6
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -128, y: 32}
+    Width: 70
+    FlipX: 0
+    Shadow: 0.13
+    Order: 162
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 6
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -93.5, y: 44}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 167
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 2 6
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -153.2, y: 46}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 168
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 7
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -149, y: 81}
+    Width: 58
+    FlipX: 0
+    Shadow: 0.13
+    Order: 172
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 7
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -119.9, y: 93}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 177
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 8
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -142, y: 115}
+    Width: 66
+    FlipX: 0
+    Shadow: 0.13
+    Order: 182
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 8
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -109.3, y: 127}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 187
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 2 8
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -165.76, y: 129}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 188
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 9
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -135, y: 164}
+    Width: 54
+    FlipX: 0
+    Shadow: 0.13
+    Order: 192
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 9
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -107.7, y: 176}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 197
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 10
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -128, y: 213}
+    Width: 62
+    FlipX: 0
+    Shadow: 0.13
+    Order: 202
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 10
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -97.1, y: 225}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 207
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 2 10
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -150.32, y: 227}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 208
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 11
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -149, y: 247}
+    Width: 70
+    FlipX: 0
+    Shadow: 0.13
+    Order: 212
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 11
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -114.5, y: 259}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 217
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 12
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -142, y: 296}
+    Width: 58
+    FlipX: 0
+    Shadow: 0.13
+    Order: 222
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 12
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -112.9, y: 308}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 227
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 2 12
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -162.88, y: 310}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 228
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 13
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -135, y: 345}
+    Width: 66
+    FlipX: 0
+    Shadow: 0.13
+    Order: 232
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 13
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -102.3, y: 357}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 237
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 14
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -128, y: 379}
+    Width: 54
+    FlipX: 0
+    Shadow: 0.13
+    Order: 242
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 14
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -100.7, y: 391}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 247
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 2 14
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -147.44, y: 393}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 248
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 15
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -149, y: 428}
+    Width: 62
+    FlipX: 0
+    Shadow: 0.13
+    Order: 252
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 15
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -118.1, y: 440}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 257
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 16
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -142, y: 477}
+    Width: 70
+    FlipX: 0
+    Shadow: 0.13
+    Order: 262
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 16
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -107.5, y: 489}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 267
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 2 16
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -167.2, y: 491}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 268
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 17
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -135, y: 511}
+    Width: 58
+    FlipX: 0
+    Shadow: 0.13
+    Order: 272
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 17
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -105.9, y: 523}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 277
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 2 18
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -128, y: 560}
+    Width: 66
+    FlipX: 0
+    Shadow: 0.13
+    Order: 282
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 2 18
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -95.3, y: 572}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 287
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 2 18
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -151.76, y: 574}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 288
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 0
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -187, y: -224}
+    Width: 69
+    FlipX: 0
+    Shadow: 0.13
+    Order: 103
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 0
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -152.95, y: -212}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 108
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 3 0
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -211.84, y: -210}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 109
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 1
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -180, y: -175}
+    Width: 57
+    FlipX: 0
+    Shadow: 0.13
+    Order: 113
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 1
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -151.35, y: -163}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 118
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 2
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -201, y: -126}
+    Width: 65
+    FlipX: 0
+    Shadow: 0.13
+    Order: 123
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 2
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -168.75, y: -114}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 128
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 3 2
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -224.4, y: -112}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 129
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 3
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -194, y: -92}
+    Width: 73
+    FlipX: 0
+    Shadow: 0.13
+    Order: 133
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 3
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -158.15, y: -80}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 138
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 4
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -187, y: -43}
+    Width: 61
+    FlipX: 0
+    Shadow: 0.13
+    Order: 143
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 4
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -156.55, y: -31}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 148
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 3 4
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -208.96, y: -29}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 149
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 5
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -180, y: 6}
+    Width: 69
+    FlipX: 0
+    Shadow: 0.13
+    Order: 153
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 5
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -145.95, y: 18}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 158
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 6
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -201, y: 40}
+    Width: 57
+    FlipX: 0
+    Shadow: 0.13
+    Order: 163
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 6
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -172.35, y: 52}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 168
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 3 6
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -221.52, y: 54}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 169
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 7
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -194, y: 89}
+    Width: 65
+    FlipX: 0
+    Shadow: 0.13
+    Order: 173
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 7
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -161.75, y: 101}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 178
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 8
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -187, y: 138}
+    Width: 73
+    FlipX: 0
+    Shadow: 0.13
+    Order: 183
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 8
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -151.15, y: 150}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 188
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 3 8
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -213.28, y: 152}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 189
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 9
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -180, y: 172}
+    Width: 61
+    FlipX: 0
+    Shadow: 0.13
+    Order: 193
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 9
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -149.55, y: 184}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 198
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 10
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -201, y: 221}
+    Width: 69
+    FlipX: 0
+    Shadow: 0.13
+    Order: 203
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 10
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -166.95, y: 233}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 208
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 3 10
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -225.84, y: 235}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 209
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 11
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -194, y: 270}
+    Width: 57
+    FlipX: 0
+    Shadow: 0.13
+    Order: 213
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 11
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -165.35, y: 282}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 218
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 12
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -187, y: 304}
+    Width: 65
+    FlipX: 0
+    Shadow: 0.13
+    Order: 223
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 12
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -154.75, y: 316}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 228
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 3 12
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -210.4, y: 318}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 229
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 13
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -180, y: 353}
+    Width: 73
+    FlipX: 0
+    Shadow: 0.13
+    Order: 233
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 13
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -144.15, y: 365}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 238
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 14
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -201, y: 402}
+    Width: 61
+    FlipX: 0
+    Shadow: 0.13
+    Order: 243
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 14
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -170.55, y: 414}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 248
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 3 14
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -222.96, y: 416}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 249
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 15
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -194, y: 436}
+    Width: 69
+    FlipX: 0
+    Shadow: 0.13
+    Order: 253
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 15
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -159.95, y: 448}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 258
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 16
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -187, y: 485}
+    Width: 57
+    FlipX: 0
+    Shadow: 0.13
+    Order: 263
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 16
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -158.35, y: 497}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 268
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 3 16
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -207.52, y: 499}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 269
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 17
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -180, y: 534}
+    Width: 65
+    FlipX: 0
+    Shadow: 0.13
+    Order: 273
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 17
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -147.75, y: 546}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 278
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque -1 3 18
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -201, y: 568}
+    Width: 73
+    FlipX: 0
+    Shadow: 0.13
+    Order: 283
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota -1 3 18
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -165.15, y: 580}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 288
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena -1 3 18
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 2
+    Foot: {x: -227.28, y: 582}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 289
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 0
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 31, y: -239}
+    Width: 48
+    FlipX: 0
+    Shadow: 0.13
+    Order: 100
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 0
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: -227}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 105
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 0 0
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 48.28, y: -225}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 106
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 1
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 24, y: -205}
+    Width: 56
+    FlipX: 0
+    Shadow: 0.13
+    Order: 110
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 1
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: -193}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 115
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 2
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 45, y: -156}
+    Width: 64
+    FlipX: 0
+    Shadow: 0.13
+    Order: 120
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 2
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 13.200001, y: -144}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 125
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 0 2
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 68.04, y: -142}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 126
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 3
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 38, y: -107}
+    Width: 52
+    FlipX: 0
+    Shadow: 0.13
+    Order: 130
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 3
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: -95}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 135
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 4
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 31, y: -73}
+    Width: 60
+    FlipX: 0
+    Shadow: 0.13
+    Order: 140
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 4
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: -61}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 145
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 0 4
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 52.600002, y: -59}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 146
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 5
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 24, y: -24}
+    Width: 48
+    FlipX: 0
+    Shadow: 0.13
+    Order: 150
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 5
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: -12}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 155
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 6
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 45, y: 25}
+    Width: 56
+    FlipX: 0
+    Shadow: 0.13
+    Order: 160
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 6
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 16.800001, y: 37}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 165
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 0 6
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 65.16, y: 39}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 166
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 7
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 38, y: 59}
+    Width: 64
+    FlipX: 0
+    Shadow: 0.13
+    Order: 170
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 7
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: 71}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 175
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 8
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 31, y: 108}
+    Width: 52
+    FlipX: 0
+    Shadow: 0.13
+    Order: 180
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 8
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: 120}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 185
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 0 8
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 49.72, y: 122}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 186
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 9
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 24, y: 157}
+    Width: 60
+    FlipX: 0
+    Shadow: 0.13
+    Order: 190
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 9
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: 169}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 195
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 10
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 45, y: 191}
+    Width: 48
+    FlipX: 0
+    Shadow: 0.13
+    Order: 200
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 10
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 20.400002, y: 203}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 205
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 0 10
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 62.28, y: 205}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 206
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 11
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 38, y: 240}
+    Width: 56
+    FlipX: 0
+    Shadow: 0.13
+    Order: 210
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 11
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: 252}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 215
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 12
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 31, y: 289}
+    Width: 64
+    FlipX: 0
+    Shadow: 0.13
+    Order: 220
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 12
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: 301}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 225
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 0 12
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 54.04, y: 303}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 226
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 13
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 24, y: 323}
+    Width: 52
+    FlipX: 0
+    Shadow: 0.13
+    Order: 230
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 13
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: 335}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 235
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 14
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 45, y: 372}
+    Width: 60
+    FlipX: 0
+    Shadow: 0.13
+    Order: 240
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 14
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 15.000001, y: 384}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 245
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 0 14
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 66.6, y: 386}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 246
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 15
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 38, y: 421}
+    Width: 48
+    FlipX: 0
+    Shadow: 0.13
+    Order: 250
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 15
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 13.400001, y: 433}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 255
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 16
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 31, y: 455}
+    Width: 56
+    FlipX: 0
+    Shadow: 0.13
+    Order: 260
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 16
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: 467}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 265
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 0 16
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 51.16, y: 469}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 266
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 17
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 24, y: 504}
+    Width: 64
+    FlipX: 0
+    Shadow: 0.13
+    Order: 270
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 17
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 12, y: 516}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 275
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 0 18
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 45, y: 553}
+    Width: 52
+    FlipX: 0
+    Shadow: 0.13
+    Order: 280
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 0 18
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 18.6, y: 565}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 285
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 0 18
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 63.72, y: 567}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 286
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 0
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 76, y: -231}
+    Width: 55
+    FlipX: 0
+    Shadow: 0.13
+    Order: 101
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 0
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 48.25, y: -219}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 106
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 1 0
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 95.8, y: -217}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 107
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 1
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 97, y: -182}
+    Width: 63
+    FlipX: 0
+    Shadow: 0.13
+    Order: 111
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 1
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 65.65, y: -170}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 116
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 2
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 90, y: -148}
+    Width: 51
+    FlipX: 0
+    Shadow: 0.13
+    Order: 121
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 2
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 64.05, y: -136}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 126
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 1 2
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 108.36, y: -134}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 127
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 3
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 83, y: -99}
+    Width: 59
+    FlipX: 0
+    Shadow: 0.13
+    Order: 131
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 3
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 53.45, y: -87}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 136
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 4
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 76, y: -50}
+    Width: 67
+    FlipX: 0
+    Shadow: 0.13
+    Order: 141
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 4
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 42.850002, y: -38}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 146
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 1 4
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 100.12, y: -36}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 147
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 5
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 97, y: -16}
+    Width: 55
+    FlipX: 0
+    Shadow: 0.13
+    Order: 151
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 5
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 69.25, y: -4}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 156
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 6
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 90, y: 33}
+    Width: 63
+    FlipX: 0
+    Shadow: 0.13
+    Order: 161
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 6
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 58.65, y: 45}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 166
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 1 6
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 112.68, y: 47}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 167
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 7
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 83, y: 82}
+    Width: 51
+    FlipX: 0
+    Shadow: 0.13
+    Order: 171
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 7
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 57.05, y: 94}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 176
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 8
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 76, y: 116}
+    Width: 59
+    FlipX: 0
+    Shadow: 0.13
+    Order: 181
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 8
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 46.45, y: 128}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 186
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 1 8
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 97.24, y: 130}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 187
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 9
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 97, y: 165}
+    Width: 67
+    FlipX: 0
+    Shadow: 0.13
+    Order: 191
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 9
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 63.850002, y: 177}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 196
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 10
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 90, y: 214}
+    Width: 55
+    FlipX: 0
+    Shadow: 0.13
+    Order: 201
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 10
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 62.25, y: 226}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 206
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 1 10
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 109.8, y: 228}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 207
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 11
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 83, y: 248}
+    Width: 63
+    FlipX: 0
+    Shadow: 0.13
+    Order: 211
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 11
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 51.65, y: 260}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 216
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 12
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 76, y: 297}
+    Width: 51
+    FlipX: 0
+    Shadow: 0.13
+    Order: 221
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 12
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 50.05, y: 309}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 226
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 1 12
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 94.36, y: 311}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 227
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 13
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 97, y: 346}
+    Width: 59
+    FlipX: 0
+    Shadow: 0.13
+    Order: 231
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 13
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 67.45, y: 358}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 236
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 14
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 90, y: 380}
+    Width: 67
+    FlipX: 0
+    Shadow: 0.13
+    Order: 241
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 14
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 56.850002, y: 392}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 246
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 1 14
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 114.12, y: 394}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 247
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 15
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 83, y: 429}
+    Width: 55
+    FlipX: 0
+    Shadow: 0.13
+    Order: 251
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 15
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 55.25, y: 441}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 256
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 16
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 76, y: 478}
+    Width: 63
+    FlipX: 0
+    Shadow: 0.13
+    Order: 261
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 16
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 44.65, y: 490}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 266
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 1 16
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 98.68, y: 492}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 267
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 17
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 97, y: 512}
+    Width: 51
+    FlipX: 0
+    Shadow: 0.13
+    Order: 271
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 17
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 71.05, y: 524}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 276
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 1 18
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 90, y: 561}
+    Width: 59
+    FlipX: 0
+    Shadow: 0.13
+    Order: 281
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 1 18
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 60.45, y: 573}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 286
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 1 18
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 111.24, y: 575}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 287
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 0
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 149, y: -223}
+    Width: 62
+    FlipX: 0
+    Shadow: 0.13
+    Order: 102
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 0
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 118.1, y: -211}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 107
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 2 0
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 171.32, y: -209}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 108
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 1
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 142, y: -174}
+    Width: 70
+    FlipX: 0
+    Shadow: 0.13
+    Order: 112
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 1
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 107.5, y: -162}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 117
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 2
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 135, y: -125}
+    Width: 58
+    FlipX: 0
+    Shadow: 0.13
+    Order: 122
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 2
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 105.9, y: -113}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 127
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 2 2
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 155.88, y: -111}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 128
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 3
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 128, y: -91}
+    Width: 66
+    FlipX: 0
+    Shadow: 0.13
+    Order: 132
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 3
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 95.3, y: -79}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 137
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 4
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 149, y: -42}
+    Width: 54
+    FlipX: 0
+    Shadow: 0.13
+    Order: 142
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 4
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 121.7, y: -30}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 147
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 2 4
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 168.44, y: -28}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 148
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 5
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 142, y: 7}
+    Width: 62
+    FlipX: 0
+    Shadow: 0.13
+    Order: 152
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 5
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 111.1, y: 19}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 157
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 6
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 135, y: 41}
+    Width: 70
+    FlipX: 0
+    Shadow: 0.13
+    Order: 162
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 6
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 100.5, y: 53}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 167
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 2 6
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 160.2, y: 55}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 168
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 7
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 128, y: 90}
+    Width: 58
+    FlipX: 0
+    Shadow: 0.13
+    Order: 172
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 7
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 98.9, y: 102}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 177
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 8
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 149, y: 139}
+    Width: 66
+    FlipX: 0
+    Shadow: 0.13
+    Order: 182
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 8
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 116.3, y: 151}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 187
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 2 8
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 172.76, y: 153}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 188
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 9
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 142, y: 173}
+    Width: 54
+    FlipX: 0
+    Shadow: 0.13
+    Order: 192
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 9
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 114.7, y: 185}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 197
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 10
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 135, y: 222}
+    Width: 62
+    FlipX: 0
+    Shadow: 0.13
+    Order: 202
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 10
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 104.1, y: 234}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 207
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 2 10
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 157.32, y: 236}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 208
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 11
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 128, y: 271}
+    Width: 70
+    FlipX: 0
+    Shadow: 0.13
+    Order: 212
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 11
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 93.5, y: 283}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 217
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 12
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 149, y: 305}
+    Width: 58
+    FlipX: 0
+    Shadow: 0.13
+    Order: 222
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 12
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 119.9, y: 317}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 227
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 2 12
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 169.88, y: 319}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 228
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 13
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 142, y: 354}
+    Width: 66
+    FlipX: 0
+    Shadow: 0.13
+    Order: 232
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 13
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 109.3, y: 366}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 237
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 14
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 135, y: 403}
+    Width: 54
+    FlipX: 0
+    Shadow: 0.13
+    Order: 242
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 14
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 107.7, y: 415}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 247
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 2 14
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 154.44, y: 417}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 248
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 15
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 128, y: 437}
+    Width: 62
+    FlipX: 0
+    Shadow: 0.13
+    Order: 252
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 15
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 97.1, y: 449}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 257
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 16
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 149, y: 486}
+    Width: 70
+    FlipX: 0
+    Shadow: 0.13
+    Order: 262
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 16
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 114.5, y: 498}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 267
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 2 16
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 174.2, y: 500}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 268
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 17
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 142, y: 535}
+    Width: 58
+    FlipX: 0
+    Shadow: 0.13
+    Order: 272
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 17
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 112.9, y: 547}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 277
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 2 18
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 135, y: 569}
+    Width: 66
+    FlipX: 0
+    Shadow: 0.13
+    Order: 282
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 2 18
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 102.3, y: 581}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 287
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 2 18
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 158.76, y: 583}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 288
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 0
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 194, y: -200}
+    Width: 69
+    FlipX: 0
+    Shadow: 0.13
+    Order: 103
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 0
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 159.95, y: -188}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 108
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 3 0
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 218.84, y: -186}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 109
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 1
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 187, y: -166}
+    Width: 57
+    FlipX: 0
+    Shadow: 0.13
+    Order: 113
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 1
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 158.35, y: -154}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 118
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 2
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 180, y: -117}
+    Width: 65
+    FlipX: 0
+    Shadow: 0.13
+    Order: 123
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 2
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 147.75, y: -105}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 128
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 3 2
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 203.4, y: -103}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 129
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 3
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 201, y: -68}
+    Width: 73
+    FlipX: 0
+    Shadow: 0.13
+    Order: 133
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 3
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 165.15, y: -56}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 138
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 4
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 194, y: -34}
+    Width: 61
+    FlipX: 0
+    Shadow: 0.13
+    Order: 143
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 4
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 163.55, y: -22}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 148
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 3 4
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 215.96, y: -20}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 149
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 5
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 187, y: 15}
+    Width: 69
+    FlipX: 0
+    Shadow: 0.13
+    Order: 153
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 5
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 152.95, y: 27}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 158
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 6
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 180, y: 64}
+    Width: 57
+    FlipX: 0
+    Shadow: 0.13
+    Order: 163
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 6
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 151.35, y: 76}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 168
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 3 6
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 200.52, y: 78}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 169
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 7
+    Sprite: {fileID: -1114276458, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 201, y: 98}
+    Width: 65
+    FlipX: 0
+    Shadow: 0.13
+    Order: 173
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 7
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 168.75, y: 110}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 178
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 8
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 194, y: 147}
+    Width: 73
+    FlipX: 0
+    Shadow: 0.13
+    Order: 183
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 8
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 158.15, y: 159}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 188
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 3 8
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 220.28, y: 161}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 189
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 9
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 187, y: 196}
+    Width: 61
+    FlipX: 0
+    Shadow: 0.13
+    Order: 193
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 9
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 156.55, y: 208}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 198
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 10
+    Sprite: {fileID: 1897785851, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 180, y: 230}
+    Width: 69
+    FlipX: 0
+    Shadow: 0.13
+    Order: 203
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 10
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 145.95, y: 242}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 208
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 3 10
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 204.84, y: 244}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 209
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 11
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 201, y: 279}
+    Width: 57
+    FlipX: 0
+    Shadow: 0.13
+    Order: 213
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 11
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 172.35, y: 291}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 218
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 12
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 194, y: 328}
+    Width: 65
+    FlipX: 0
+    Shadow: 0.13
+    Order: 223
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 12
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 161.75, y: 340}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 228
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 3 12
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 217.4, y: 342}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 229
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 13
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 187, y: 362}
+    Width: 73
+    FlipX: 0
+    Shadow: 0.13
+    Order: 233
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 13
+    Sprite: {fileID: -990854988, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 151.15, y: 374}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 238
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 14
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 180, y: 411}
+    Width: 61
+    FlipX: 0
+    Shadow: 0.13
+    Order: 243
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 14
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 149.55, y: 423}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 248
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 3 14
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 201.96, y: 425}
+    Width: 21
+    FlipX: 0
+    Shadow: 0.12
+    Order: 249
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 15
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 201, y: 460}
+    Width: 69
+    FlipX: 0
+    Shadow: 0.13
+    Order: 253
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 15
+    Sprite: {fileID: -168223125, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 166.95, y: 472}
+    Width: 31
+    FlipX: 0
+    Shadow: 0.12
+    Order: 258
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 16
+    Sprite: {fileID: -1420626400, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 194, y: 494}
+    Width: 57
+    FlipX: 0
+    Shadow: 0.13
+    Order: 263
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 16
+    Sprite: {fileID: 1277160231, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 165.35, y: 506}
+    Width: 28
+    FlipX: 0
+    Shadow: 0.12
+    Order: 268
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 3 16
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 214.52, y: 508}
+    Width: 18
+    FlipX: 0
+    Shadow: 0.12
+    Order: 269
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 17
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 187, y: 543}
+    Width: 65
+    FlipX: 0
+    Shadow: 0.13
+    Order: 273
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 17
+    Sprite: {fileID: -1936054097, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 154.75, y: 555}
+    Width: 25
+    FlipX: 0
+    Shadow: 0.12
+    Order: 278
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque 1 3 18
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 180, y: 592}
+    Width: 73
+    FlipX: 0
+    Shadow: 0.13
+    Order: 283
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota 1 3 18
+    Sprite: {fileID: -204057742, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 144.15, y: 604}
+    Width: 22
+    FlipX: 0
+    Shadow: 0.12
+    Order: 288
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Pelota pequena 1 3 18
+    Sprite: {fileID: -57003665, guid: ab99d969d6f8b1242aa8fab9a0a437bf, type: 3}
+    Anchor: 3
+    Foot: {x: 206.28, y: 606}
+    Width: 24
+    FlipX: 0
+    Shadow: 0.12
+    Order: 289
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior -1 0
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -270, y: -225}
+    Width: 100
+    FlipX: 0
+    Shadow: 0.13
+    Order: 100
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior -1 1
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -338, y: -111}
+    Width: 112
+    FlipX: 0
+    Shadow: 0.13
+    Order: 122
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior -1 2
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -406, y: 3}
+    Width: 124
+    FlipX: 0
+    Shadow: 0.13
+    Order: 144
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior -1 3
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -270, y: 117}
+    Width: 100
+    FlipX: 0
+    Shadow: 0.13
+    Order: 166
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior -1 4
+    Sprite: {fileID: 1316261123, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -338, y: 231}
+    Width: 112
+    FlipX: 0
+    Shadow: 0.13
+    Order: 188
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior -1 5
+    Sprite: {fileID: -164666818, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -406, y: 345}
+    Width: 124
+    FlipX: 0
+    Shadow: 0.13
+    Order: 210
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior -1 6
+    Sprite: {fileID: -1586588860, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -270, y: 459}
+    Width: 100
+    FlipX: 0
+    Shadow: 0.13
+    Order: 232
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior -1 7
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 2
+    Foot: {x: -338, y: 573}
+    Width: 112
+    FlipX: 0
+    Shadow: 0.13
+    Order: 254
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior 1 0
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 270, y: -225}
+    Width: 100
+    FlipX: 0
+    Shadow: 0.13
+    Order: 100
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior 1 1
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 338, y: -111}
+    Width: 112
+    FlipX: 0
+    Shadow: 0.13
+    Order: 122
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior 1 2
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 406, y: 3}
+    Width: 124
+    FlipX: 0
+    Shadow: 0.13
+    Order: 144
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior 1 3
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 270, y: 117}
+    Width: 100
+    FlipX: 0
+    Shadow: 0.13
+    Order: 166
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior 1 4
+    Sprite: {fileID: 1533863403, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 338, y: 231}
+    Width: 112
+    FlipX: 0
+    Shadow: 0.13
+    Order: 188
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior 1 5
+    Sprite: {fileID: -1800231244, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 406, y: 345}
+    Width: 124
+    FlipX: 0
+    Shadow: 0.13
+    Order: 210
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior 1 6
+    Sprite: {fileID: -1695557610, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 270, y: 459}
+    Width: 100
+    FlipX: 0
+    Shadow: 0.13
+    Order: 232
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bloque exterior 1 7
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 3
+    Foot: {x: 338, y: 573}
+    Width: 112
+    FlipX: 0
+    Shadow: 0.13
+    Order: 254
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 0
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: -400, y: 310}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 500
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 1
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: -318, y: 322}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 501
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 2
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: -236, y: 310}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 502
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 3
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: -154, y: 322}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 503
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 4
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: -72, y: 310}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 504
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 5
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 10, y: 322}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 505
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 6
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 92, y: 310}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 506
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 7
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 174, y: 322}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 507
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 8
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 256, y: 310}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 508
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 9
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 338, y: 322}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 509
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 10
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 420, y: 310}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 510
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 11
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 502, y: 322}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 511
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 12
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 584, y: 310}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 512
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 13
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 666, y: 322}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 513
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 14
+    Sprite: {fileID: -1841065075, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 748, y: 310}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 514
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 15
+    Sprite: {fileID: 1439917840, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 830, y: 322}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 515
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Borde frontal 16
+    Sprite: {fileID: 1194448207, guid: 5a0bb233f9288db44ae2948e613668f6, type: 3}
+    Anchor: 4
+    Foot: {x: 912, y: 310}
+    Width: 92
+    FlipX: 0
+    Shadow: 0.14
+    Order: 516
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}

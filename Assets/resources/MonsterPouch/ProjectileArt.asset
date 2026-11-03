@@ -83,3 +83,115 @@ MonoBehaviour:
     ReferencePixels: 237
     DisplaySize: 34
     OrientToTarget: 0
+  - UnitId: rosie
+    Flight:
+    - {fileID: 21300000, guid: 7ea88fa2e1731a446b919b03e5a55088, type: 3}
+    Impact: []
+    ReferencePixels: 1215
+    DisplaySize: 25
+    OrientToTarget: 1
+  - UnitId: kazuru
+    Flight:
+    - {fileID: 1637675861, guid: 5aa513a2693057b4b8ed27649219a6c5, type: 3}
+    Impact: []
+    ReferencePixels: 128
+    DisplaySize: 27
+    OrientToTarget: 0
+  - UnitId: protectora-del-mausoleo
+    Flight:
+    - {fileID: 21300000, guid: 900c39513e135b358fa099956fad358a, type: 3}
+    - {fileID: 21300000, guid: 0a1a4cfd46fa5f6d8f6bcf03dead2a11, type: 3}
+    - {fileID: 21300000, guid: dca4effb787d5f268a666ff6be625070, type: 3}
+    - {fileID: 21300000, guid: 049ed9efac885543b165a162b3d74b46, type: 3}
+    Impact:
+    - {fileID: 21300000, guid: 21ce1867ed305cc1a0e3363b604ab136, type: 3}
+    - {fileID: 21300000, guid: ca87be0681ee5abb842deac6613eae2c, type: 3}
+    - {fileID: 21300000, guid: 16212ae5e7195327837238e50cf08390, type: 3}
+    - {fileID: 21300000, guid: 4db9dc6bf2815d178a8a01103088a6ee, type: 3}
+    ReferencePixels: 143.0
+    DisplaySize: 46
+    OrientToTarget: 1
+  - UnitId: jabalinero
+    Flight:
+    - {fileID: 21300000, guid: 1237fffa49b8725f4847b566abc79e10, type: 3}
+    Impact: []
+    ReferencePixels: 222
+    DisplaySize: 46
+    OrientToTarget: 1
+  - UnitId: maestro-de-las-mareas
+    Flight:
+    - {fileID: 21300000, guid: 6b1c681a98c65cf8160e2a00648102d9, type: 3}
+    Impact: []
+    ReferencePixels: 181
+    DisplaySize: 32
+    OrientToTarget: 1
+  - UnitId: cael
+    Flight:
+    - {fileID: 21300000, guid: 9b613c1f88f850ecb297eeeb1ce09a58, type: 3}
+    - {fileID: 21300000, guid: 2db2f22d530d5eeb9a37ad092ec0ce7f, type: 3}
+    - {fileID: 21300000, guid: 2fd90a3909e95961a84843ed1738847d, type: 3}
+    - {fileID: 21300000, guid: 765522da5c7452489149d863ef20285c, type: 3}
+    Impact:
+    - {fileID: 21300000, guid: 339bcb5408df5ee38cfc4a4ec14da644, type: 3}
+    - {fileID: 21300000, guid: 6088f211438a5cd7b71e398fdb7b5886, type: 3}
+    - {fileID: 21300000, guid: 5c6692525b715501bfa2c3b9e6f91317, type: 3}
+    - {fileID: 21300000, guid: 0dd2d4ce8abc52c4862e03412d615849, type: 3}
+    ReferencePixels: 256
+    DisplaySize: 46
+    OrientToTarget: 1
+  - UnitId: guarda-veterano
+    Flight:
+    - {fileID: 21300000, guid: 62e6d0b08b3c5292b17eeaa3cee66e6c, type: 3}
+    - {fileID: 21300000, guid: 5a7c33b0ad9d5011a7ddca233228724c, type: 3}
+    - {fileID: 21300000, guid: 9d175c7462b75f409d93b658f9642e8b, type: 3}
+    - {fileID: 21300000, guid: d3051df56b96599d8b94e24428465399, type: 3}
+    Impact:
+    - {fileID: 21300000, guid: 77a397e7ad015a2a9ee31dc11f1bb98b, type: 3}
+    - {fileID: 21300000, guid: 7cbe58d37b9253d2b5b2e88ab0cef1f4, type: 3}
+    - {fileID: 21300000, guid: 99885ca705e054018a4ccec08a712507, type: 3}
+    - {fileID: 21300000, guid: 744ecd251f5f519babe5e845ee001d62, type: 3}
+    ReferencePixels: 256
+    DisplaySize: 46
+    OrientToTarget: 1
+  - UnitId: antidota
+    Flight:
+    - {fileID: 21300000, guid: 5259238170c251a9869cfd8a87a029fd, type: 3}
+    - {fileID: 21300000, guid: 7487a5fc1c445d40a25dfcddd3b9c8bf, type: 3}
+    - {fileID: 21300000, guid: eef04bb856835888b3e9525eb1388c15, type: 3}
+    - {fileID: 21300000, guid: a392aa8fec03501eb435dc18e794892f, type: 3}
+    Impact:
+    - {fileID: 21300000, guid: 378ad19506e75368812e92a612b7e386, type: 3}
+    - {fileID: 21300000, guid: 3f4be40072a25db49f1d5ba7211bd75e, type: 3}
+    - {fileID: 21300000, guid: 08fb70bf80a0522cb22ea9b3d987b9f7, type: 3}
+    - {fileID: 21300000, guid: 54fcdb717d24549b933f4fe1793547f1, type: 3}
+    ReferencePixels: 256
+    DisplaySize: 46
+    OrientToTarget: 1
+  - UnitId: zephalontropo
+    Flight:
+    - {fileID: 21300000, guid: 214ca97ae5ed5218b2bbdc9c7cecddd9, type: 3}
+    - {fileID: 21300000, guid: 6297bd1935e656149063e81844f5b049, type: 3}
+    - {fileID: 21300000, guid: c22c6f9d6c3f52dd8376c5186b44a990, type: 3}
+    - {fileID: 21300000, guid: 314600ecd0965d6ba3452fb34e64d12b, type: 3}
+    Impact:
+    - {fileID: 21300000, guid: 6a730faf40505a48a27a12e83cfe63a3, type: 3}
+    - {fileID: 21300000, guid: a7d9e1f6fd535fc383e80aa121fb9008, type: 3}
+    - {fileID: 21300000, guid: cbd348bcd68d5422b5ef2533cbdb5261, type: 3}
+    - {fileID: 21300000, guid: e1a216e6d765575094a1efc5ddb4f11b, type: 3}
+    ReferencePixels: 256
+    DisplaySize: 59.49497206703911
+    OrientToTarget: 1
+  - UnitId: alboguera
+    Flight:
+    - {fileID: 21300000, guid: bd1195de08ac5ecdb9ade4b7ccaf28fa, type: 3}
+    - {fileID: 21300000, guid: 367b6e8d1ef75d50a08209f312d2fb8f, type: 3}
+    - {fileID: 21300000, guid: bce4f5473fc05b569ec8c697d966b42b, type: 3}
+    - {fileID: 21300000, guid: 0d0cf99d3fda5e6cae2219bec4974d7c, type: 3}
+    Impact:
+    - {fileID: 21300000, guid: 1c562a7caf6855a5bc61310614af7a8e, type: 3}
+    - {fileID: 21300000, guid: a0de9c9c34575f55b597464d03df0126, type: 3}
+    - {fileID: 21300000, guid: b12ee75214a150a1a673921c77ee27d6, type: 3}
+    - {fileID: 21300000, guid: b25811bbcfac5d7bbce1f8ca887c8b04, type: 3}
+    ReferencePixels: 256
+    DisplaySize: 48.709189189189196
+    OrientToTarget: 1

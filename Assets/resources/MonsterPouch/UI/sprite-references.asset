@@ -1,0 +1,395 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027c9e5f86ec562dafbbe81a5f955d7a, type: 3}
+  m_Name: sprite-references
+  m_EditorClassIdentifier: MonsterPouch.Local::MonsterPouch.Local.UiSpriteReferences
+  Entries:
+  - Key: alboguera-afinacion
+    Sprite: {fileID: 21300000, guid: 0de244ec590d5b268690e8d3bfaf489f, type: 3}
+  - Key: alboguera-armonia-protectora
+    Sprite: {fileID: 21300000, guid: cf73f52d31cd54c5a4c9af9cca23c3e9, type: 3}
+  - Key: alboguera-compas-ascendente
+    Sprite: {fileID: 21300000, guid: c14376ea94c85c30a7e22ff71c969c40, type: 3}
+  - Key: alboguera-final-sostenido
+    Sprite: {fileID: 21300000, guid: 5ac09c73616757ac8f47e1ecc3dd81f6, type: 3}
+  - Key: alboguera-tempo-vivo
+    Sprite: {fileID: 21300000, guid: c3f6616ed7055208a0bc6fb200b7de26, type: 3}
+  - Key: alboguera/basic
+    Sprite: {fileID: 21300000, guid: 47641e152aa556b39b362d3fe5d9db4e, type: 3}
+  - Key: alveyr-anillo-al-cielo
+    Sprite: {fileID: 21300000, guid: 42769ea39ab25b4ba3a77bba722a2684, type: 3}
+  - Key: alveyr-circulo-de-calma
+    Sprite: {fileID: 21300000, guid: 00be079026f55ca2a4c997641b2811eb, type: 3}
+  - Key: alveyr-escudo-de-los-vientos
+    Sprite: {fileID: 21300000, guid: 75f88fe5868b5ece8ab3938e8c4ea70d, type: 3}
+  - Key: alveyr-paso-de-nube
+    Sprite: {fileID: 21300000, guid: f2cc832e6e1e597eaa1f06a35d52d2f8, type: 3}
+  - Key: alveyr-viento-disciplinado
+    Sprite: {fileID: 21300000, guid: a49f6c7b0b8451e499a069a0cec34d9e, type: 3}
+  - Key: alveyr/basic
+    Sprite: {fileID: 21300000, guid: ed3f208b961f5063b721a846f2282ce3, type: 3}
+  - Key: antidota-brote-vital
+    Sprite: {fileID: 21300000, guid: 5a79e8b87c1c5665904d52b565a78291, type: 3}
+  - Key: antidota-ciclo-fertil
+    Sprite: {fileID: 21300000, guid: d709be3a18fc5fa0889a5b0f4855f7fc, type: 3}
+  - Key: antidota-floracion
+    Sprite: {fileID: 21300000, guid: 3a47f22ef98b5aa597ece7d30f81c21f, type: 3}
+  - Key: antidota-raiz-nutritiva
+    Sprite: {fileID: 21300000, guid: 6332294ac69a52019fed1e98915e6979, type: 3}
+  - Key: antidota-savia-compartida
+    Sprite: {fileID: 21300000, guid: f68e1d14fed15bbb96c83bf16872936d, type: 3}
+  - Key: antidota/basic
+    Sprite: {fileID: 21300000, guid: 4f20c6af8b34583f8ab8d55c3e5ee668, type: 3}
+  - Key: arboreo-abrazo-del-bosque
+    Sprite: {fileID: 21300000, guid: 5aa9152f51b35ca7b286fa0f93f2602e, type: 3}
+  - Key: arboreo-bosque-cerrado
+    Sprite: {fileID: 21300000, guid: ef04cb55736d55078a2c396796d8929b, type: 3}
+  - Key: arboreo-corazon-ancestral
+    Sprite: {fileID: 21300000, guid: f2adaaab92e6563880ec616503685348, type: 3}
+  - Key: arboreo-corteza-renovada
+    Sprite: {fileID: 21300000, guid: b2fdc6a999eb580c8ce4203c95d69bc8, type: 3}
+  - Key: arboreo-raices-profundas
+    Sprite: {fileID: 21300000, guid: 61bd4490b79b5f718c7a1ab046bddd0b, type: 3}
+  - Key: arboreo/basic
+    Sprite: {fileID: 21300000, guid: 550d67bcf1705ccf8877fb8074611370, type: 3}
+  - Key: cael-hojas-tenaces
+    Sprite: {fileID: 21300000, guid: 0f1228c3a57353d69018800f7421f55a, type: 3}
+  - Key: cael-mandato-de-raiz-madre
+    Sprite: {fileID: 21300000, guid: fac5634c0a2b54b39ffc0e13a3edd9bc, type: 3}
+  - Key: cael-savia-dorada
+    Sprite: {fileID: 21300000, guid: ca9df1d67e3d55e8a80161f196e05813, type: 3}
+  - Key: cael-torbellino-de-hojas
+    Sprite: {fileID: 21300000, guid: 0eaf5546d8485d1986ad2519557b8c3b, type: 3}
+  - Key: cael-voluntad-del-guardian
+    Sprite: {fileID: 21300000, guid: c760d4eacfc7536f8a6b7a8a76ebf72c, type: 3}
+  - Key: cael/basic
+    Sprite: {fileID: 21300000, guid: fdafc3a423f75efda19ee8137b376335, type: 3}
+  - Key: canonero-del-orvek-ascuas-persistentes
+    Sprite: {fileID: 21300000, guid: 31d9251f99f05280a26571a5dfcf9975, type: 3}
+  - Key: canonero-del-orvek-bomba-de-crater
+    Sprite: {fileID: 21300000, guid: 7700bcc2859e55d595af4fee2cad9784, type: 3}
+  - Key: canonero-del-orvek-carga-fundida
+    Sprite: {fileID: 21300000, guid: 2a99405662275713b177798b0c115779, type: 3}
+  - Key: canonero-del-orvek-escoria
+    Sprite: {fileID: 21300000, guid: c28c6d8f7e145b94b9d6dd828bb68d45, type: 3}
+  - Key: canonero-del-orvek-horno-abierto
+    Sprite: {fileID: 21300000, guid: 4ea4cd9e699f5f99a59a8ee66d246cfd, type: 3}
+  - Key: canonero-del-orvek/basic
+    Sprite: {fileID: 21300000, guid: b1b98faccaf65f89abe6cd6fafba71a3, type: 3}
+  - Key: card/alboguera
+    Sprite: {fileID: 21300000, guid: 8a19370b6aba58dd8b9268f5adb6a116, type: 3}
+  - Key: card/alveyr
+    Sprite: {fileID: 21300000, guid: 78e4d974ce145cb0aec28410e6a21a7b, type: 3}
+  - Key: card/antidota
+    Sprite: {fileID: 21300000, guid: 7e51010feb6e53ef86c92ed1cf1bc9c8, type: 3}
+  - Key: card/arboreo
+    Sprite: {fileID: 21300000, guid: 076a1ebb7e085720a0f3b67597af11d2, type: 3}
+  - Key: card/cael
+    Sprite: {fileID: 21300000, guid: fba07a19f1445112ba9f0c05a73707d3, type: 3}
+  - Key: card/canonero-del-orvek
+    Sprite: {fileID: 21300000, guid: 7cc29134c8215af0a14cca55e523228b, type: 3}
+  - Key: card/dagata
+    Sprite: {fileID: 21300000, guid: 60cdb8a52ad45cc39517079b03af93ce, type: 3}
+  - Key: card/drayven
+    Sprite: {fileID: 21300000, guid: e605b3e694bd37296e575bb8ac8f4a45, type: 3}
+  - Key: card/golem-tectonico
+    Sprite: {fileID: 21300000, guid: 5f17b63bb7f0578cbffb39ca1ddb8567, type: 3}
+  - Key: card/guarda-veterano
+    Sprite: {fileID: 21300000, guid: 1d536bd2f49c51898b599f69cf772fce, type: 3}
+  - Key: card/jabalinero
+    Sprite: {fileID: 21300000, guid: 9d94e6af78fcda02415dc4cda280cee0, type: 3}
+  - Key: card/korran
+    Sprite: {fileID: 21300000, guid: 29c6cc988a4d532eb726b6b2578e76e2, type: 3}
+  - Key: card/la-minera
+    Sprite: {fileID: 21300000, guid: 1a01962363dd55b48ba5cc17293ec8cb, type: 3}
+  - Key: card/legionario
+    Sprite: {fileID: 21300000, guid: dacdec54e72e51e594b07543ddc0d911, type: 3}
+  - Key: card/maestro-de-las-mareas
+    Sprite: {fileID: 21300000, guid: 060a6fa3239face8092f14963809b23c, type: 3}
+  - Key: card/palista
+    Sprite: {fileID: 21300000, guid: 84a53b4196e65aa19c123a9eabc3c6c2, type: 3}
+  - Key: card/protectora-del-mausoleo
+    Sprite: {fileID: 21300000, guid: 0dba723d5f365ddd8d4a24b31ce5035d, type: 3}
+  - Key: card/serya
+    Sprite: {fileID: 21300000, guid: e9b5f52808145ac0b11b43722f163b6c, type: 3}
+  - Key: card/titanica
+    Sprite: {fileID: 21300000, guid: c0b1f40368ce7fb73d5350ea139ad27a, type: 3}
+  - Key: card/zephalontropo
+    Sprite: {fileID: 21300000, guid: cbb63ef6942a58a1a38cc3d87d6973cb, type: 3}
+  - Key: character/alboguera
+    Sprite: {fileID: 21300000, guid: 6fbb1d0b92a1596fb0ce861829859a57, type: 3}
+  - Key: character/alveyr
+    Sprite: {fileID: 21300000, guid: 168bd93caed85e239f5260062dcd4ba3, type: 3}
+  - Key: character/antidota
+    Sprite: {fileID: 21300000, guid: 0a5313562aa1549581f3deae4be8cdd3, type: 3}
+  - Key: character/arboreo
+    Sprite: {fileID: 21300000, guid: 1ac6e017d5e55c99a7d3717bb74c16c6, type: 3}
+  - Key: character/cael
+    Sprite: {fileID: 21300000, guid: ff11ab3443bb598fa879b87b8163048f, type: 3}
+  - Key: character/canonero-del-orvek
+    Sprite: {fileID: 21300000, guid: 43500c51fd855e4298f0ecfbfb109c5e, type: 3}
+  - Key: character/dagata
+    Sprite: {fileID: 21300000, guid: 409d113b4fae5f0b83cc8e43cbb5bae9, type: 3}
+  - Key: character/drayven
+    Sprite: {fileID: 21300000, guid: 27853cce0744377efaabb1ee94f980f1, type: 3}
+  - Key: character/golem-tectonico
+    Sprite: {fileID: 21300000, guid: 5bf7c4f8b40752efa224c99078a7e4fd, type: 3}
+  - Key: character/guarda-veterano
+    Sprite: {fileID: 21300000, guid: f0ff9217f25450eba398e4c7986d7c3e, type: 3}
+  - Key: character/jabalinero
+    Sprite: {fileID: 21300000, guid: cf315a704ce5de26559262eef6806397, type: 3}
+  - Key: character/korran
+    Sprite: {fileID: 21300000, guid: 92c9ce8195f658ce996efb3dc5d8f91c, type: 3}
+  - Key: character/la-minera
+    Sprite: {fileID: 21300000, guid: 90adfcfde05f5ef7bc85ee592de99cc1, type: 3}
+  - Key: character/legionario
+    Sprite: {fileID: 21300000, guid: b9ac4fe09fbe532a9b47bcbe6c98d4c8, type: 3}
+  - Key: character/maestro-de-las-mareas
+    Sprite: {fileID: 21300000, guid: 8483a13aa24a5c9021f9db01a8dd5b88, type: 3}
+  - Key: character/palista
+    Sprite: {fileID: 21300000, guid: 231a5840510356a19e95f7c910811476, type: 3}
+  - Key: character/protectora-del-mausoleo
+    Sprite: {fileID: 21300000, guid: dbcfb0541edf5d5eac282f801b9d015b, type: 3}
+  - Key: character/serya
+    Sprite: {fileID: 21300000, guid: 8c54443e65d05e0b9373af4b37a82aa1, type: 3}
+  - Key: character/titanica
+    Sprite: {fileID: 21300000, guid: 8075ad41a535e4b80eb42632b291c092, type: 3}
+  - Key: character/zephalontropo
+    Sprite: {fileID: 21300000, guid: 32d807db99965912926f778ae4b8677b, type: 3}
+  - Key: dagata-caza-de-brasas
+    Sprite: {fileID: 21300000, guid: c89eb754fec15896bc6a061bafebaf95, type: 3}
+  - Key: dagata-doble-ascua
+    Sprite: {fileID: 21300000, guid: 59de6eb9ce41588eb2d9701261ec7ebf, type: 3}
+  - Key: dagata-entrada-entre-humo
+    Sprite: {fileID: 21300000, guid: 4779667b126b5cff926f99e613465aaf, type: 3}
+  - Key: dagata-hoja-oculta
+    Sprite: {fileID: 21300000, guid: c7c68c2d07305a8bad5b4ae32dcc9b6b, type: 3}
+  - Key: dagata-humo-protector
+    Sprite: {fileID: 21300000, guid: e51e9bdb24515c8991829de5764ecc77, type: 3}
+  - Key: dagata/basic
+    Sprite: {fileID: 21300000, guid: 7ad62f784c335f829db30abdca9e9ca1, type: 3}
+  - Key: drayven-dominio-de-las-mareas
+    Sprite: {fileID: 21300000, guid: 3abbb859c6f2703a19217f95e5cec7e8, type: 3}
+  - Key: drayven-escarcha-del-puerto
+    Sprite: {fileID: 21300000, guid: a255eef4bd19f72426be0520bf33d313, type: 3}
+  - Key: drayven-juramento-de-skeldris
+    Sprite: {fileID: 21300000, guid: d6c392bfb23d63e1cc2c2a41a739bef5, type: 3}
+  - Key: drayven-mar-obediente
+    Sprite: {fileID: 21300000, guid: 47ce597a6f5185bd11cb71db714e1347, type: 3}
+  - Key: drayven-marea-del-norte
+    Sprite: {fileID: 21300000, guid: 5e394d9d6d8f124302f43c5ff7afe87d, type: 3}
+  - Key: drayven/basic
+    Sprite: {fileID: 21300000, guid: e169da1f1ebc7b0279d3c91b65bd5ee6, type: 3}
+  - Key: golem-tectonico-amparo
+    Sprite: {fileID: 21300000, guid: 9263fa8804725b6fac7d4d971bf4e785, type: 3}
+  - Key: golem-tectonico-escudo-reforzado
+    Sprite: {fileID: 21300000, guid: bdbb58dded455165bcbabbc975b50314, type: 3}
+  - Key: golem-tectonico-guardia-de-piedra
+    Sprite: {fileID: 21300000, guid: 7ddfe7d146565289879d9891ed71ec55, type: 3}
+  - Key: golem-tectonico-puerta-cerrada
+    Sprite: {fileID: 21300000, guid: 539d767e692e5081aa4ecc24eacba5cd, type: 3}
+  - Key: golem-tectonico-relevo-de-guardia
+    Sprite: {fileID: 21300000, guid: 131672d5938f5293a0768ed8cf826985, type: 3}
+  - Key: golem-tectonico/basic
+    Sprite: {fileID: 21300000, guid: 82eef742760c5c22a1e9f0b08a981ea8, type: 3}
+  - Key: guarda-veterano-corteza-compartida
+    Sprite: {fileID: 21300000, guid: 3ec78a35a30a5763b69816879ef0e56a, type: 3}
+  - Key: guarda-veterano-dialogo-con-la-raiz
+    Sprite: {fileID: 21300000, guid: 82a1ebd4b9f95ac49cec63afdd67dfd7, type: 3}
+  - Key: guarda-veterano-liana-vinculante
+    Sprite: {fileID: 21300000, guid: 23acfa14ad2952e4a5ef28e3b9a0e6f5, type: 3}
+  - Key: guarda-veterano-vinculo-profundo
+    Sprite: {fileID: 21300000, guid: 45968806e2ba5ccea613edb27f97ce80, type: 3}
+  - Key: guarda-veterano-zarza-despierta
+    Sprite: {fileID: 21300000, guid: 793b3e06de7057f7a8af42fd54a12475, type: 3}
+  - Key: guarda-veterano/basic
+    Sprite: {fileID: 21300000, guid: 4ac87a7327365080876c138555490c6e, type: 3}
+  - Key: jabalinero-cienaga-cerrada
+    Sprite: {fileID: 21300000, guid: a53b06b1f262024993f9ff22505dfca5, type: 3}
+  - Key: jabalinero-punta-toxica
+    Sprite: {fileID: 21300000, guid: 83b2e500667ffebee4dcb4458f3d8dea, type: 3}
+  - Key: jabalinero-red-de-cienaga
+    Sprite: {fileID: 21300000, guid: 6b2307c7f0b4015b48ca9067993656fc, type: 3}
+  - Key: jabalinero-red-lastrada
+    Sprite: {fileID: 21300000, guid: 59ca4055b2aa6060bb68153ced1473cc, type: 3}
+  - Key: jabalinero-veneno-maduro
+    Sprite: {fileID: 21300000, guid: 692521cc6be68ea2223f58e148a04221, type: 3}
+  - Key: jabalinero/basic
+    Sprite: {fileID: 21300000, guid: 96565b4aa667bb08c7ada538e802cdba, type: 3}
+  - Key: korran-bastion-imperial
+    Sprite: {fileID: 21300000, guid: f4b4fcfcd0e754a090c144d5e3421635, type: 3}
+  - Key: korran-el-hogar-resiste
+    Sprite: {fileID: 21300000, guid: 02d8a57f0df8577cbe35461618f967cd, type: 3}
+  - Key: korran-juramento-de-permanencia
+    Sprite: {fileID: 21300000, guid: 8040f37bd0ea57bd907cf67657b363d8, type: 3}
+  - Key: korran-mandato-firme
+    Sprite: {fileID: 21300000, guid: 4df2592f06015b6f85f1a47535f08f59, type: 3}
+  - Key: korran-raiz-de-piedra
+    Sprite: {fileID: 21300000, guid: daebd951609c55e4b1144b828270fc71, type: 3}
+  - Key: korran/basic
+    Sprite: {fileID: 21300000, guid: b55e94ca1cc65423b113d9d1ae6141fc, type: 3}
+  - Key: la-minera-derrumbe
+    Sprite: {fileID: 21300000, guid: 8a46d8e9e26651af97ec2ce212201c5f, type: 3}
+  - Key: la-minera-fractura
+    Sprite: {fileID: 21300000, guid: 8de3c84999c75fe6b84e69d37258cab5, type: 3}
+  - Key: la-minera-recuperacion-de-veta
+    Sprite: {fileID: 21300000, guid: 2a1a3901f4655d8d9b72bc64219014dc, type: 3}
+  - Key: la-minera-tunel-subterraneo
+    Sprite: {fileID: 21300000, guid: 55414754d5c5551e9e10efb42c19fcf6, type: 3}
+  - Key: la-minera-veta-expuesta
+    Sprite: {fileID: 21300000, guid: 1cf2596ed78653d8a6ac5abb92beedef, type: 3}
+  - Key: la-minera/basic
+    Sprite: {fileID: 21300000, guid: 3b98afc9e5c95c0e8e26ea0da8f8464e, type: 3}
+  - Key: leader/aireola/normal
+    Sprite: {fileID: 21300000, guid: 0b40bd8bcdab588cb43dd39b84cd16ca, type: 3}
+  - Key: leader/aireola/upgraded
+    Sprite: {fileID: 21300000, guid: 3e2cb62d731a5b2c921748ee971c3e80, type: 3}
+  - Key: leader/aquarion/normal
+    Sprite: {fileID: 21300000, guid: 4f859f51849a4e7cf67e88345a6a20d8, type: 3}
+  - Key: leader/aquarion/upgraded
+    Sprite: {fileID: 21300000, guid: dea500c8dc2c77d34ce56285b78a3115, type: 3}
+  - Key: leader/geothar/normal
+    Sprite: {fileID: 21300000, guid: 2cc4abb7c6815693a5d875ebbdb219ef, type: 3}
+  - Key: leader/geothar/upgraded
+    Sprite: {fileID: 21300000, guid: d2b3691fbca95be9847ddaa431e9664e, type: 3}
+  - Key: leader/naturalis/normal
+    Sprite: {fileID: 21300000, guid: d194177c64ad50d1a1800fac48d72abf, type: 3}
+  - Key: leader/naturalis/upgraded
+    Sprite: {fileID: 21300000, guid: a6f7f8e19e7a5cfbb6393f01e66eb184, type: 3}
+  - Key: leader/volkanar/normal
+    Sprite: {fileID: 21300000, guid: 800d0e1c7dbd5b81a80a03333e000f8d, type: 3}
+  - Key: leader/volkanar/upgraded
+    Sprite: {fileID: 21300000, guid: ab6c42120763518ea52348f509b66c49, type: 3}
+  - Key: legionario-acero-vivo
+    Sprite: {fileID: 21300000, guid: cca65d2fc2e957db87a93227f93bc60b, type: 3}
+  - Key: legionario-fuego-interior
+    Sprite: {fileID: 21300000, guid: da9b3a7fe5dc572bb50ee67e5c7485fe, type: 3}
+  - Key: legionario-paso-ardiente
+    Sprite: {fileID: 21300000, guid: f84785159d5d5130a4cfd07e37919ed5, type: 3}
+  - Key: legionario-segunda-marcha
+    Sprite: {fileID: 21300000, guid: b1aef542c12c5aa4b97623fde1ea46b9, type: 3}
+  - Key: legionario-tajo-de-forja
+    Sprite: {fileID: 21300000, guid: aedf5a0ee298524fb992bf23d5f8d345, type: 3}
+  - Key: legionario/basic
+    Sprite: {fileID: 21300000, guid: 9bb3ae3d287b5ddfa40d3dfde787389a, type: 3}
+  - Key: maestro-de-las-mareas-luz-sobre-el-agua
+    Sprite: {fileID: 21300000, guid: db16242b08fc034011718c5288f309d5, type: 3}
+  - Key: maestro-de-las-mareas-manto-lunar
+    Sprite: {fileID: 21300000, guid: f33740d5567cbab53a5d00545740c1dc, type: 3}
+  - Key: maestro-de-las-mareas-marea-compartida
+    Sprite: {fileID: 21300000, guid: edf50c9754daa075ea953b3017486da5, type: 3}
+  - Key: maestro-de-las-mareas-oleaje
+    Sprite: {fileID: 21300000, guid: 104d5afa9153a0ba054b219389f1cdef, type: 3}
+  - Key: maestro-de-las-mareas-reflejo-lunar
+    Sprite: {fileID: 21300000, guid: 140141571be1a18f2bcc8c4b72c11320, type: 3}
+  - Key: maestro-de-las-mareas/basic
+    Sprite: {fileID: 21300000, guid: 1338b31ad25e103a459842104db673d9, type: 3}
+  - Key: palista-aire-cortante
+    Sprite: {fileID: 21300000, guid: be4c8171f5335a249ba221fc2fce310a, type: 3}
+  - Key: palista-golpe-de-vendaval
+    Sprite: {fileID: 21300000, guid: 9186568571e3536fb46eb71208a652ef, type: 3}
+  - Key: palista-palma-firme
+    Sprite: {fileID: 21300000, guid: f115a49ff2ac55c89097538450cd82c9, type: 3}
+  - Key: palista-paso-ligero
+    Sprite: {fileID: 21300000, guid: 6e098d5dd5e1597fa8038780a2577e36, type: 3}
+  - Key: palista-respiracion-templaria
+    Sprite: {fileID: 21300000, guid: 08aea74f54575d65b968fec683d6b832, type: 3}
+  - Key: palista/basic
+    Sprite: {fileID: 21300000, guid: 49e7b51970f8558badf0095ce161b306, type: 3}
+  - Key: portrait/alboguera
+    Sprite: {fileID: 21300000, guid: c589e0f1c8b0540a88202dae8c6419c9, type: 3}
+  - Key: portrait/alveyr
+    Sprite: {fileID: 21300000, guid: 3835194654c4530488b8ab495cd20580, type: 3}
+  - Key: portrait/antidota
+    Sprite: {fileID: 21300000, guid: 4b9b0528bc1b52f5a070bd663153f383, type: 3}
+  - Key: portrait/arboreo
+    Sprite: {fileID: 21300000, guid: 6567983ce73f58a98f6721050635feff, type: 3}
+  - Key: portrait/cael
+    Sprite: {fileID: 21300000, guid: 80860d1f7e565fdd86a5b80f5bd55a4d, type: 3}
+  - Key: portrait/canonero-del-orvek
+    Sprite: {fileID: 21300000, guid: 53c338ce1dbf59c29353159b737b4373, type: 3}
+  - Key: portrait/dagata
+    Sprite: {fileID: 21300000, guid: f538979101615ac29f1ed52d9f721674, type: 3}
+  - Key: portrait/drayven
+    Sprite: {fileID: 21300000, guid: eb03bcd1b3340c1afa18ce8564e4c1d2, type: 3}
+  - Key: portrait/golem-tectonico
+    Sprite: {fileID: 21300000, guid: 9dc211647cca52f4984056d737707982, type: 3}
+  - Key: portrait/guarda-veterano
+    Sprite: {fileID: 21300000, guid: f87299f6dd9c55218a9c75d28892bd1c, type: 3}
+  - Key: portrait/jabalinero
+    Sprite: {fileID: 21300000, guid: 2ff52233c2e41b51ae68fa76cd791f34, type: 3}
+  - Key: portrait/korran
+    Sprite: {fileID: 21300000, guid: 7a81dbcb589c5a4a90ba39f81a0ae707, type: 3}
+  - Key: portrait/la-minera
+    Sprite: {fileID: 21300000, guid: b28b3a550c2a51fc9fd872f5a7c074a1, type: 3}
+  - Key: portrait/legionario
+    Sprite: {fileID: 21300000, guid: 3d204efff5675561abda89f879df94b3, type: 3}
+  - Key: portrait/maestro-de-las-mareas
+    Sprite: {fileID: 21300000, guid: 1df30188f79bd930e149fd032ff286f7, type: 3}
+  - Key: portrait/palista
+    Sprite: {fileID: 21300000, guid: 0cc02ad0166f5bf2800533e0cb7f0e3a, type: 3}
+  - Key: portrait/protectora-del-mausoleo
+    Sprite: {fileID: 21300000, guid: 61eb9c2d86d358f08b1c76962785fe3c, type: 3}
+  - Key: portrait/serya
+    Sprite: {fileID: 21300000, guid: e1c6b60cf74d5242b65680860b40912d, type: 3}
+  - Key: portrait/titanica
+    Sprite: {fileID: 21300000, guid: 518712dea4be343ac58919ef3d0f1813, type: 3}
+  - Key: portrait/zephalontropo
+    Sprite: {fileID: 21300000, guid: 0dfbe70c0a30570ca6f7790c862c8ed3, type: 3}
+  - Key: protectora-del-mausoleo-memoria-compartida
+    Sprite: {fileID: 21300000, guid: 2fbef012368655c0976e3fd5f1934bea, type: 3}
+  - Key: protectora-del-mausoleo-memoria-de-la-roca
+    Sprite: {fileID: 21300000, guid: 8c8b9fb8c1ac5347968b01c84d18209c, type: 3}
+  - Key: protectora-del-mausoleo-nombre-protegido
+    Sprite: {fileID: 21300000, guid: 3b28ccb226945642b6a3332c3f50757a, type: 3}
+  - Key: protectora-del-mausoleo-sello-ancestral
+    Sprite: {fileID: 21300000, guid: 3539474530b75285b1f93855d983d649, type: 3}
+  - Key: protectora-del-mausoleo-ultima-inscripcion
+    Sprite: {fileID: 21300000, guid: d061a01f027e5879ac7c68464aefa8d1, type: 3}
+  - Key: protectora-del-mausoleo/basic
+    Sprite: {fileID: 21300000, guid: 9934a3bfa6be559095a295e89364574f, type: 3}
+  - Key: serya-avance-de-la-llama
+    Sprite: {fileID: 21300000, guid: 486f1dfedccc5419a3c81131bab3f24c, type: 3}
+  - Key: serya-combustion
+    Sprite: {fileID: 21300000, guid: fb34ac840c3556f19eb4f047cc9bfd8b, type: 3}
+  - Key: serya-conquista
+    Sprite: {fileID: 21300000, guid: 15b8781d7e04586b822f7a14c41b509c, type: 3}
+  - Key: serya-frente-abrasador
+    Sprite: {fileID: 21300000, guid: 9c39e3a90c8959b2bfaca6d433c85abf, type: 3}
+  - Key: serya-impetu
+    Sprite: {fileID: 21300000, guid: ed18c296f3ff5455945218e3b2ad10b7, type: 3}
+  - Key: serya/basic
+    Sprite: {fileID: 21300000, guid: 1d845c138bf559f58cad053bfe21341f, type: 3}
+  - Key: titanica-ancla-glacial
+    Sprite: {fileID: 21300000, guid: 67bd86bdba52eb08669aa99fc753c365, type: 3}
+  - Key: titanica-ancla-profunda
+    Sprite: {fileID: 21300000, guid: 6cc3c88ed5006ae8e8826245c4cd63e5, type: 3}
+  - Key: titanica-frente-helado
+    Sprite: {fileID: 21300000, guid: c71254abd8fff40973544b24f2440c41, type: 3}
+  - Key: titanica-hielo-firme
+    Sprite: {fileID: 21300000, guid: 8c4ddf2e5a71019b03dd4c144bc92f84, type: 3}
+  - Key: titanica-hielo-grueso
+    Sprite: {fileID: 21300000, guid: 02809c7154900a9139838d2931e97c41, type: 3}
+  - Key: titanica/basic
+    Sprite: {fileID: 21300000, guid: bbfccb65de228376c16bfb56a0a8e2ee, type: 3}
+  - Key: zephalontropo-camara-de-precision
+    Sprite: {fileID: 21300000, guid: 0bc8876e52d158dfa1067bb4cd5ee10f, type: 3}
+  - Key: zephalontropo-carga-expandida
+    Sprite: {fileID: 21300000, guid: 36b824fd07465ed08a532a0ed997dcc4, type: 3}
+  - Key: zephalontropo-esfera-comprimida
+    Sprite: {fileID: 21300000, guid: bc84fa95e9915ff29188645517efd377, type: 3}
+  - Key: zephalontropo-onda-de-choque
+    Sprite: {fileID: 21300000, guid: 5045aa29445850ce92e993ea1c917289, type: 3}
+  - Key: zephalontropo-presion-calibrada
+    Sprite: {fileID: 21300000, guid: 35f7b985b8d155b8bfce6224d54afede, type: 3}
+  - Key: zephalontropo/basic
+    Sprite: {fileID: 21300000, guid: ebba34a736fc5f80812dc16206aaf2f3, type: 3}

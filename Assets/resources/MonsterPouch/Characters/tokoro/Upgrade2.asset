@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Upgrade2
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: tokoro-ice-cream
+    Trigger: 0
+    EveryAttacks: 0
+    Id: tokoro-ice-cream
+    Name: "Helader\xEDa Improvisada"
+    Description: "Al aturdirse, deja helados: curan 10 o hacen recibir +20% de da\xF1o
+      durante 3 s."
+    Parameters:
+    - Key: heal
+      Value: 15
+    - Key: weaknessPercent
+      Value: 20
+    - Key: duration
+      Value: 2
+    - Key: travelDuration
+      Value: 0.9
+    Cost: 3
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: cone
+    NameEnglish: Thrown ice cream
+    NameSpanish: Helado arrojado
+    OverrideSize: 1
+    SizePercent: 30
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames: []
+  Icon: {fileID: 0}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

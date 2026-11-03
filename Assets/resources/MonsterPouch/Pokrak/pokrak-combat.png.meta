@@ -1,0 +1,803 @@
+fileFormatVersion: 2
+guid: 18e5f856371b9704291819cca1833014
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -558261706075688731
+    second: pokrak-combat_0
+  - first:
+      213: 4817643796936848115
+    second: pokrak-combat_1
+  - first:
+      213: 3860248507370166824
+    second: pokrak-combat_2
+  - first:
+      213: -1017777105015231240
+    second: pokrak-combat_3
+  - first:
+      213: -8283225809582816094
+    second: pokrak-combat_4
+  - first:
+      213: 6313181069563032824
+    second: pokrak-combat_5
+  - first:
+      213: 2202138005317559974
+    second: pokrak-combat_6
+  - first:
+      213: -8856260607433676546
+    second: pokrak-combat_7
+  - first:
+      213: 767921750499905127
+    second: pokrak-combat_8
+  - first:
+      213: 2865661463798937044
+    second: pokrak-combat_9
+  - first:
+      213: -5392085604040471010
+    second: pokrak-combat_10
+  - first:
+      213: 2233154382993253860
+    second: pokrak-combat_11
+  - first:
+      213: 9093931224819755776
+    second: pokrak-combat_12
+  - first:
+      213: -4378035374303503797
+    second: pokrak-combat_13
+  - first:
+      213: 1677100410513902946
+    second: pokrak-combat_14
+  - first:
+      213: -7765620926060921858
+    second: pokrak-combat_15
+  - first:
+      213: -8998295642426591963
+    second: pokrak-combat_16
+  - first:
+      213: 986362813499232138
+    second: pokrak-combat_17
+  - first:
+      213: 4484201957638947232
+    second: pokrak-combat_18
+  - first:
+      213: 5195782861575612993
+    second: pokrak-combat_19
+  - first:
+      213: 7495317686702628927
+    second: pokrak-combat_20
+  - first:
+      213: -5088668740642729757
+    second: pokrak-combat_21
+  - first:
+      213: 4555326838842237466
+    second: pokrak-combat_22
+  - first:
+      213: 5167186726802561002
+    second: pokrak-combat_23
+  - first:
+      213: 3284713140612836609
+    second: pokrak-combat_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle-0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768261df96757294586ba74743fc67a0
+      internalID: -1437441833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1088
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3f4542986cbc145a4fc93a830ca468
+      internalID: -1919314909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1088
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043ae55d6c119414e84ed721c293c084
+      internalID: 423836780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1088
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6081dff7e0b4df48882402e71fe9d49
+      internalID: -1741584734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1088
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecd791ec27ca014bbfb47eacc59096c
+      internalID: -1676587086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a69d443afcf01841b3ef079f59d979d
+      internalID: -966472594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 816
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1322fca8ab4d0b4409f515bfb5da868f
+      internalID: -11913516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 816
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db419d0e176a4a141bcfac4643632b54
+      internalID: -601355247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 816
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b6cd16b3407af41b681d25edf7a32f
+      internalID: 1185741294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 816
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074c89fa23d88534d8c6920ca26bfdba
+      internalID: -1630450047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dcc6793f1827b4b834c1d4dcc22de1
+      internalID: 1609852353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 544
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc25b7153cd10b44b05069fc1fcda38
+      internalID: -1572748927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 544
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aa42ce904df3b4d8a73a45713ed02a
+      internalID: 625271624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 544
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22de43641be6bc14bb0eef39a81bc206
+      internalID: -1568788818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 544
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e36aa79cb38404898b534070fe51ab
+      internalID: 495525879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard-0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51be8bd5ba694b488025a4edce4f2d3
+      internalID: -106739426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard-1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 272
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486bc23a6c56a054cb865e243f7071cd
+      internalID: -2143964659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard-2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 272
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8692c908c410a4c418d7ec313f89901c
+      internalID: 598199362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard-3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 272
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37023b5b2d0c4a0478730b0a9aefa6f9
+      internalID: 1722714279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guard-4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 272
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92f1ca991d4f714fbc5c9c3a91971f8
+      internalID: -524293850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat-0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64ee38f0af102c4689fbc16d20e8d8c
+      internalID: -1282430758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat-1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caed71306b4aa564ab5adbeb8abae114
+      internalID: 2042339184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat-2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af92b3dcad4db264388392dd013bab7e
+      internalID: -1149892385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat-3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d358bc1037179b24ba2dc91f93cc2de6
+      internalID: -96250100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat-4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d051635e8a1da7d46bb4f87d217eb309
+      internalID: -101073939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokrak-brief-portrait
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1092
+        width: 248
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcecd9eb0b43884fb56acd590102d62
+      internalID: 2039593688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f11c87f3bf4ead849adf0d5f43916101
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack-0: 1609852353
+      attack-1: -1572748927
+      attack-2: 625271624
+      attack-3: -1568788818
+      attack-4: 495525879
+      defeat-0: -1282430758
+      defeat-1: 2042339184
+      defeat-2: -1149892385
+      defeat-3: -96250100
+      defeat-4: -101073939
+      guard-0: -106739426
+      guard-1: -2143964659
+      guard-2: 598199362
+      guard-3: 1722714279
+      guard-4: -524293850
+      idle-0: -1437441833
+      idle-1: -1919314909
+      idle-2: 423836780
+      idle-3: -1741584734
+      idle-4: -1676587086
+      move-0: -966472594
+      move-1: -11913516
+      move-2: -601355247
+      move-3: 1185741294
+      move-4: -1630450047
+      pokrak-brief-portrait: 2039593688
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

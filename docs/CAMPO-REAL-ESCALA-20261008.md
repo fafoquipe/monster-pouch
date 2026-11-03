@@ -1,0 +1,12 @@
+# Campo Real: personajes a escala de juguetes
+
+Se aumentó aproximadamente al doble el tamaño visual del trono, las columnas, las plantas y los candelabros del entorno. Los muebles se recortan naturalmente en los bordes y las vetas del suelo son más grandes. El fondo original se conserva.
+
+Recurso usado en partida: `Assets/resources/MonsterPouch/UI/TableSkins/royal-arena-giant-props.png`. Consumidor: `Assets/scripts/local/RoyalArenaScenery.cs`.
+
+Edición realizada con la herramienta integrada ImageGen, usando `royal-arena.png` como referencia y objetivo de edición. No se modifican los tamaños de los personajes, las casillas ni la cámara.
+
+## Prompt final
+
+Use case: precise-object-edit. Asset type: production pixel-art background for the Campo Real mobile game battlefield, tall portrait 9:16. Input image is the existing background to edit; preserve its warm oak floor, burgundy/gold royal palace identity, crisp detailed pixel-art rendering, elevated near-overhead game camera and lighting. Primary change: make the EXISTING surrounding royal furniture and decorations dramatically bigger, approximately twice their apparent size, so small game characters overlaid later will feel like tiny toy figurines. Make the throne much broader, with its upper back extending beyond the top image edge; greatly enlarge the column bases, ornate plant pots and plants, and golden candelabra at the peripheral edges. Show only portions of some large peripheral objects cut off naturally by the left, right and top edges, giving convincing room-scale props. Enlarge the wood plank grain/width modestly to support the miniature scale. Composition: center must remain a clean empty wooden floor for a separately rendered board. Keep the entire central rectangle from 10% to 90% of image width and from 19% to 80% of image height free of furniture, foliage, candles, shadows with hard silhouettes, or any painted game board; peripheral oversized decorations can hug the outermost sides and the top 18%. Keep bottom center clear for game controls, with burgundy carpet/gold ornament only at the very outer side edges. This is a background ONLY: no characters, no toys, no checkerboard, no UI, no letters, no logos or watermarks. Retain existing types of decorations; do not add unrelated objects. The change in object scale should be unmistakable, not a slight zoom or a change of art style. Full opaque seamless-looking scene across the canvas.
+

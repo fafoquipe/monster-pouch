@@ -114,3 +114,53 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Local recovery material: not part of the reproducible project
+/Backups/
+/_recovered_from_recycle_bin/
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+/Assets/Scenes/backups/
+/Assets/Scenes/backups.meta
+
+# Retain only source artwork required by the existing archive tests and importers.
+/ArtArchive/*
+!/ArtArchive/LegacyCleanup-20261102/
+!/ArtArchive/IdleArtwork-20261017/
+!/ArtArchive/kazuru/
+!/ArtArchive/pokrak/
+!/ArtArchive/suki/
+/ArtArchive/IdleArtwork-20261017/*
+!/ArtArchive/IdleArtwork-20261017/suki-source.png
+!/ArtArchive/IdleArtwork-20261017/rosie-source.png
+!/ArtArchive/IdleArtwork-20261017/pokrak-source.png
+/ArtArchive/kazuru/*
+!/ArtArchive/kazuru/abilities-source.png
+!/ArtArchive/kazuru/rings-source-v1.png
+!/ArtArchive/kazuru/combat-source-v1.png
+!/ArtArchive/kazuru/idle-source-v1.png
+!/ArtArchive/kazuru/brief-source-v2.png
+/ArtArchive/pokrak/*
+!/ArtArchive/pokrak/combat-reference-20261017.png
+!/ArtArchive/pokrak/abilities-source.png
+/ArtArchive/suki/*
+!/ArtArchive/suki/combat-source-v2.png
+!/ArtArchive/suki/abilities-source.png
+!/ArtArchive/suki/fish-source.png
+
+# Private credentials and signing material
+.env
+.env.*
+!.env.example
+!.env.template
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key
+service-account*.json
+service_account*.json
+
+# Local audit and integration evidence
+/security-release-audit-*/
+/integration-preimages/

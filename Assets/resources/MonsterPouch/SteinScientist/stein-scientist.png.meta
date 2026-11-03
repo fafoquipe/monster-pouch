@@ -1,0 +1,1978 @@
+fileFormatVersion: 2
+guid: 012f695677951364e86b75ab3b6336e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4457168172029969765
+    second: stein-scientist_0
+  - first:
+      213: -3548938743252761226
+    second: stein-scientist_1
+  - first:
+      213: -8570400767573306207
+    second: stein-scientist_2
+  - first:
+      213: 1120641881820242764
+    second: stein-scientist_3
+  - first:
+      213: 6018370537745393919
+    second: stein-scientist_4
+  - first:
+      213: -2726179992275012357
+    second: stein-scientist_5
+  - first:
+      213: 2306814499081898728
+    second: stein-scientist_6
+  - first:
+      213: 6781790750967331117
+    second: stein-scientist_7
+  - first:
+      213: 137610529291648549
+    second: stein-scientist_8
+  - first:
+      213: -2640691070413093584
+    second: stein-scientist_9
+  - first:
+      213: -1749136048418092602
+    second: stein-scientist_10
+  - first:
+      213: 367721658883771827
+    second: stein-scientist_11
+  - first:
+      213: -5793788285582577591
+    second: stein-scientist_12
+  - first:
+      213: -8423653411648433299
+    second: stein-scientist_13
+  - first:
+      213: -2982733627092481573
+    second: stein-scientist_14
+  - first:
+      213: 5523674952935941298
+    second: stein-scientist_15
+  - first:
+      213: -1754406010325216728
+    second: stein-scientist_16
+  - first:
+      213: -8009618471891383596
+    second: stein-scientist_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stein-scientist_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 138
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9af9f1a925f422c0800000000000000
+      internalID: -4457168172029969765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 140
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6754cce1403afbec0800000000000000
+      internalID: -3548938743252761226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 162
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4de0ae8e1df0980800000000000000
+      internalID: -8570400767573306207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 138
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c432256aad15d8f00800000000000000
+      internalID: 1120641881820242764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_4
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 136
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8adfc0e1c858350800000000000000
+      internalID: 6018370537745393919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_5
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 0
+        width: 146
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4bbaeadb9aa2ad0800000000000000
+      internalID: -2726179992275012357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 162
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea4f7c9093730020800000000000000
+      internalID: 2306814499081898728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_7
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 0
+        width: 154
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29ff6ca1c2cd1e50800000000000000
+      internalID: 6781790750967331117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_8
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 0
+        width: 154
+        height: 794
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e38cb1c04e8e100800000000000000
+      internalID: 137610529291648549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_9
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 0
+        width: 154
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0354b7266716a5bd0800000000000000
+      internalID: -2640691070413093584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_10
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 0
+        width: 140
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c985320802d9b7e0800000000000000
+      internalID: -1749136048418092602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_11
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 634
+        width: 178
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd0cf586e86a1500800000000000000
+      internalID: 367721658883771827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_12
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 504
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940f7064044589fa0800000000000000
+      internalID: -5793788285582577591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_13
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 468
+        width: 164
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6310bf3adb291b80800000000000000
+      internalID: -8423653411648433299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 342
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd94a81c1933b96d0800000000000000
+      internalID: -2982733627092481573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_15
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 314
+        width: 180
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b42870aa1908ac40800000000000000
+      internalID: 5523674952935941298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_16
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 156
+        width: 180
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82251c2670917a7e0800000000000000
+      internalID: -1754406010325216728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist_17
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 0
+        width: 178
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dac184cf6e18d090800000000000000
+      internalID: -8009618471891383596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 636
+        width: 120
+        height: 164
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11a3a316076e3f43aca1fc329e4855e
+      internalID: -1584311595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 636
+        width: 122
+        height: 164
+      alignment: 9
+      pivot: {x: 0.48360655, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb8f3f61cfba1d458d173404f619de8
+      internalID: 435024638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 636
+        width: 120
+        height: 164
+      alignment: 9
+      pivot: {x: 0.49166667, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c531b931046ef2c4ca67f87f3020df68
+      internalID: 2026542099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 636
+        width: 120
+        height: 164
+      alignment: 9
+      pivot: {x: 0.475, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96eda98875e182145851263e0e30d280
+      internalID: 773609971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 636
+        width: 120
+        height: 164
+      alignment: 9
+      pivot: {x: 0.49166667, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe96e67787f324940905637c178c0694
+      internalID: -1944297934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 636
+        width: 122
+        height: 164
+      alignment: 9
+      pivot: {x: 0.47540984, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07c98fcda1754744b1ec9f6e1a5bdee
+      internalID: -1097101579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 636
+        width: 120
+        height: 164
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816a4b88d1887924b9ffbd6f65ecf422
+      internalID: 239431908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 636
+        width: 120
+        height: 164
+      alignment: 9
+      pivot: {x: 0.425, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68213c66a922dd449263b1682bea769
+      internalID: 741444387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 636
+        width: 122
+        height: 158
+      alignment: 9
+      pivot: {x: 0.48360655, y: 0.03797468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6df5aaeaf93ab6409cc41a0bbc79406
+      internalID: 2123584893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 636
+        width: 124
+        height: 164
+      alignment: 9
+      pivot: {x: 0.47580644, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f21ce0b80f0f2943a8e8fef55510cae
+      internalID: 1985703223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 636
+        width: 120
+        height: 158
+      alignment: 9
+      pivot: {x: 0.56666666, y: 0.03797468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4444c70cd3e3be64a8d1b59c030549a3
+      internalID: 820156675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 636
+        width: 164
+        height: 94
+      alignment: 9
+      pivot: {x: 0.51829267, y: 0.06382979}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e5a7e039bf3a34e9b915a67f8f04b0
+      internalID: -1767747321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 472
+        width: 120
+        height: 162
+      alignment: 9
+      pivot: {x: 0.5, y: 0.012345679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68290abbc2bed1046aac547c141844fd
+      internalID: -883773843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 472
+        width: 122
+        height: 162
+      alignment: 9
+      pivot: {x: 0.45901638, y: 0.012345679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236baa33fdfd2854cb387d9a7fe4b151
+      internalID: -247049218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 472
+        width: 120
+        height: 162
+      alignment: 9
+      pivot: {x: 0.5083333, y: 0.012345679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3e64f2e224da74999d046bdc9c603e
+      internalID: 2115732563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 472
+        width: 118
+        height: 162
+      alignment: 9
+      pivot: {x: 0.5, y: 0.012345679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f614dcab2c383e4c92d048b113e5a2d
+      internalID: -248669389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 472
+        width: 122
+        height: 162
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.012345679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dba897759ad1a4ab0aa3f746a607dc
+      internalID: -965195995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 472
+        width: 120
+        height: 162
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.012345679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c62ffa50abaff429cdbe9c23e2ffe0
+      internalID: -1344228898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 472
+        width: 128
+        height: 162
+      alignment: 9
+      pivot: {x: 0.4296875, y: 0.012345679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1606b333ecabce4f922750651965397
+      internalID: -482905482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 472
+        width: 122
+        height: 162
+      alignment: 9
+      pivot: {x: 0.40983605, y: 0.012345679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f481112f0fd71ef438552ec682708edb
+      internalID: 513191916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 474
+        width: 122
+        height: 160
+      alignment: 9
+      pivot: {x: 0.45901638, y: 0.0375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb31a69e5f040847a3c1af98a983737
+      internalID: 1898438255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 472
+        width: 130
+        height: 162
+      alignment: 9
+      pivot: {x: 0.47692308, y: 0.012345679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf856d95e42dc146b9d4b96cbfda357
+      internalID: -1216411365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 474
+        width: 120
+        height: 160
+      alignment: 9
+      pivot: {x: 0.45, y: 0.0375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26253668b9dc8da4180d844530b1ffa6
+      internalID: -1018954497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 474
+        width: 160
+        height: 96
+      alignment: 9
+      pivot: {x: 0.50625, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8ae20fca3a68b47b1a911a824bab20
+      internalID: 758740883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 318
+        width: 106
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5377358, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d3d9ccfef5cc74c87ad110fc5987ae
+      internalID: -1749255119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 318
+        width: 106
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5377358, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2192d365c0273f4c896a739b3959cab
+      internalID: 1750691118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 318
+        width: 106
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5283019, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b0e45de40fb8247a11ab669dc24fdd
+      internalID: 1277579188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 318
+        width: 106
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5660377, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec440a0da357e2e4d9fb2b7bae74402f
+      internalID: 915027751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 318
+        width: 106
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5283019, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a96a637eeafbf94eac59f74fa17eb8b
+      internalID: 697242832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 318
+        width: 106
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5471698, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113cebd6ea672304ab9303b3c1749d62
+      internalID: -562144235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 318
+        width: 114
+        height: 154
+      alignment: 9
+      pivot: {x: 0.45614034, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b44b67ba86f53438190e1cd1c0428e
+      internalID: 914752914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 318
+        width: 114
+        height: 154
+      alignment: 9
+      pivot: {x: 0.4385965, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849bb4b65c1f47342996244c93949acf
+      internalID: 110739046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 318
+        width: 120
+        height: 152
+      alignment: 9
+      pivot: {x: 0.45, y: 0.039473683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91de76c418737d94ba4c604eadd713bd
+      internalID: -981858551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 316
+        width: 118
+        height: 156
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.012820513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427fa3cbfdccd6f42a5ab00abe0de316
+      internalID: 209213090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 318
+        width: 112
+        height: 154
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cee2d97360c2d04891bfdeb651278e2
+      internalID: 1790961452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 318
+        width: 174
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd630b181a49e844896e8ae51f17452
+      internalID: 1528390945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 158
+        width: 114
+        height: 158
+      alignment: 9
+      pivot: {x: 0.50877196, y: 0.012658228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f54d9bedf675154ab2aee08d4886be1
+      internalID: 915246704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 158
+        width: 112
+        height: 158
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.012658228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c84f5c31f2f4e94ba3d1888854dbd00
+      internalID: -867485561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 158
+        width: 112
+        height: 158
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.012658228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39a3511276fdd74ea4bc62866d8d618
+      internalID: 846069345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 158
+        width: 112
+        height: 158
+      alignment: 9
+      pivot: {x: 0.58035713, y: 0.012658228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1146647c8791e0f4c8b0dce5c7001207
+      internalID: 1392063221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 160
+        width: 112
+        height: 156
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80330df343be81f4d96928468bf9fac4
+      internalID: -1421380539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 158
+        width: 112
+        height: 158
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.03797468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba2ef5720dcb8f4c99fec9788f1a302
+      internalID: -641266065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 158
+        width: 122
+        height: 158
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.012658228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddfe65fe0f9d1245889d128b33bff7a
+      internalID: 1368689593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 158
+        width: 124
+        height: 158
+      alignment: 9
+      pivot: {x: 0.45967743, y: 0.012658228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c562e0ab51d1c64a972e0d03fa1cc0d
+      internalID: 1117682648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 158
+        width: 118
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5b4161c34953440b3fc32329101827
+      internalID: 1167018547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 158
+        width: 134
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.012658228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df7e01843d5e024eb30bc418f13b8ae
+      internalID: 1731141536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 158
+        width: 116
+        height: 156
+      alignment: 9
+      pivot: {x: 0.44827586, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c4a0ae6776cea4490c5c4bd318b8c4
+      internalID: 287979643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 162
+        width: 172
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a15469584d4614ab501a19f3d35a27
+      internalID: 455926328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 122
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5081967, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8993f62edf80a7648baabb9e6ba99eb6
+      internalID: -1030567597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2
+        width: 122
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf645ad5418d5747ba8bdffc49440f0
+      internalID: 948653862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 122
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03797468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a287b2c4534d9a54793f03aaf4ada67e
+      internalID: -1049703869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2
+        width: 120
+        height: 156
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac34b151ac0f4434abfd9f7b5f74c333
+      internalID: -1691361313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2
+        width: 122
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee197f5da9e52b469df4ebea9fbe04a
+      internalID: 1771677891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 122
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03797468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db1626ca35f45e46963571f7e1997e1
+      internalID: 2054961774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 2
+        width: 122
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c937972a7ac386f44b43ce9896e6f087
+      internalID: 1675521878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 2
+        width: 122
+        height: 156
+      alignment: 9
+      pivot: {x: 0.48360655, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c434f8aea2a17d40b401ae5442a7f2a
+      internalID: 799093502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 120
+        height: 158
+      alignment: 9
+      pivot: {x: 0.49166667, y: 0.03797468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac0581e663288f408b4154a9b463c5a
+      internalID: -1545608898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2
+        width: 130
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a6d08765a004647b3e052ccdfcda4d
+      internalID: 1762685391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2
+        width: 120
+        height: 156
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e9e4b927fc5df4abd0c7ce35199652
+      internalID: -2079856432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stein-scientist-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 6
+        width: 176
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.057692308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e25d1ce953241429ead6b50aa87646
+      internalID: -857448917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 30c0d1d5ada8d3b4f96924db58f045cf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stein-scientist-r00-f00: -1584311595
+      stein-scientist-r00-f01: 435024638
+      stein-scientist-r00-f02: 2026542099
+      stein-scientist-r00-f03: 773609971
+      stein-scientist-r00-f04: -1944297934
+      stein-scientist-r00-f05: -1097101579
+      stein-scientist-r00-f06: 239431908
+      stein-scientist-r00-f07: 741444387
+      stein-scientist-r00-f08: 2123584893
+      stein-scientist-r00-f09: 1985703223
+      stein-scientist-r00-f10: 820156675
+      stein-scientist-r00-f11: -1767747321
+      stein-scientist-r01-f00: -883773843
+      stein-scientist-r01-f01: -247049218
+      stein-scientist-r01-f02: 2115732563
+      stein-scientist-r01-f03: -248669389
+      stein-scientist-r01-f04: -965195995
+      stein-scientist-r01-f05: -1344228898
+      stein-scientist-r01-f06: -482905482
+      stein-scientist-r01-f07: 513191916
+      stein-scientist-r01-f08: 1898438255
+      stein-scientist-r01-f09: -1216411365
+      stein-scientist-r01-f10: -1018954497
+      stein-scientist-r01-f11: 758740883
+      stein-scientist-r02-f00: -1749255119
+      stein-scientist-r02-f01: 1750691118
+      stein-scientist-r02-f02: 1277579188
+      stein-scientist-r02-f03: 915027751
+      stein-scientist-r02-f04: 697242832
+      stein-scientist-r02-f05: -562144235
+      stein-scientist-r02-f06: 914752914
+      stein-scientist-r02-f07: 110739046
+      stein-scientist-r02-f08: -981858551
+      stein-scientist-r02-f09: 209213090
+      stein-scientist-r02-f10: 1790961452
+      stein-scientist-r02-f11: 1528390945
+      stein-scientist-r03-f00: 915246704
+      stein-scientist-r03-f01: -867485561
+      stein-scientist-r03-f02: 846069345
+      stein-scientist-r03-f03: 1392063221
+      stein-scientist-r03-f04: -1421380539
+      stein-scientist-r03-f05: -641266065
+      stein-scientist-r03-f06: 1368689593
+      stein-scientist-r03-f07: 1117682648
+      stein-scientist-r03-f08: 1167018547
+      stein-scientist-r03-f09: 1731141536
+      stein-scientist-r03-f10: 287979643
+      stein-scientist-r03-f11: 455926328
+      stein-scientist-r04-f00: -1030567597
+      stein-scientist-r04-f01: 948653862
+      stein-scientist-r04-f02: -1049703869
+      stein-scientist-r04-f03: -1691361313
+      stein-scientist-r04-f04: 1771677891
+      stein-scientist-r04-f05: 2054961774
+      stein-scientist-r04-f06: 1675521878
+      stein-scientist-r04-f07: 799093502
+      stein-scientist-r04-f08: -1545608898
+      stein-scientist-r04-f09: 1762685391
+      stein-scientist-r04-f10: -2079856432
+      stein-scientist-r04-f11: -857448917
+      stein-scientist_0: -4457168172029969765
+      stein-scientist_1: -3548938743252761226
+      stein-scientist_10: -1749136048418092602
+      stein-scientist_11: 367721658883771827
+      stein-scientist_12: -5793788285582577591
+      stein-scientist_13: -8423653411648433299
+      stein-scientist_14: -2982733627092481573
+      stein-scientist_15: 5523674952935941298
+      stein-scientist_16: -1754406010325216728
+      stein-scientist_17: -8009618471891383596
+      stein-scientist_2: -8570400767573306207
+      stein-scientist_3: 1120641881820242764
+      stein-scientist_4: 6018370537745393919
+      stein-scientist_5: -2726179992275012357
+      stein-scientist_6: 2306814499081898728
+      stein-scientist_7: 6781790750967331117
+      stein-scientist_8: 137610529291648549
+      stein-scientist_9: -2640691070413093584
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

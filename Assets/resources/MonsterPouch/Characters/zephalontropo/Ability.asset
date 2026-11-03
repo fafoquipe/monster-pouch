@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Ability
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: zephalontropo-esfera-comprimida
+    Trigger: 1
+    EveryAttacks: 0
+    Id: zephalontropo-esfera-comprimida
+    Name: Esfera comprimida
+    Description: "Inflige 18 de da\xF1o f\xEDsico al objetivo a alcance 4 y 9 a los
+      dem\xE1s enemigos a radio 1. La activa no hereda la penetraci\xF3n de la pasiva."
+    Parameters:
+    - Key: damage
+      Value: 15
+    - Key: secondaryDamage
+      Value: 5
+    - Key: range
+      Value: 7
+    - Key: radius
+      Value: 1
+    - Key: holdDuration
+      Value: 0.2
+    - Key: recoveryDuration
+      Value: 0.3
+    Area:
+      Shape: 1
+      SquareSize: 3
+      IncludeCenter: 0
+      UpWidth: 1
+      UpDepth: 0
+      RightWidth: 1
+      RightDepth: 0
+      DownWidth: 1
+      DownDepth: 0
+      LeftWidth: 1
+      LeftDepth: 0
+    Cost: 0
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: aireola-sphere
+    NameEnglish: Compressed sphere
+    NameSpanish: Esfera comprimida
+    OverrideSize: 1
+    SizePercent: 41.9
+    LegacyPercent: -1
+    LegacyNoteEnglish: Shared Aireola sampler; fixed flight envelope at alpha >=
+      16
+    LegacyNoteSpanish: Sampler Aireola compartido; envolvente fija del vuelo con
+      alfa >= 16
+    Frames:
+    - Sprite: {fileID: 21300000, guid: 9b80645af5ad511d91a13a45b3ae33c3, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.13671875
+        y: 0.1875
+        width: 0.6328125
+        height: 0.3984375
+    - Sprite: {fileID: 21300000, guid: 77fb52820e205a7d9c90c5121a3e7be1, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.13671875
+        y: 0.125
+        width: 0.69140625
+        height: 0.51953125
+    - Sprite: {fileID: 21300000, guid: 6abd768d19fb5da7a50c5c7e6dd1eff3, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.1171875
+        y: 0.1171875
+        width: 0.71875
+        height: 0.578125
+    - Sprite: {fileID: 21300000, guid: 216415f5ed925d32a882f52df03088a9, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.14453125
+        y: 0.0859375
+        width: 0.73046875
+        height: 0.62109375
+  Icon: {fileID: 21300000, guid: bc84fa95e9915ff29188645517efd377, type: 3}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

@@ -8,7 +8,7 @@ public class DeckLibraryTests
     MatchConfig config;
     [SetUp] public void Setup(){config=MatchConfig.CreateDocumented();}
     [TearDown] public void Cleanup(){Object.DestroyImmediate(config);}
-    [Test] public void ThreeDecksKeepIndependentSelectionsAcrossSerialization()
+    [Test] public void FiveDecksKeepIndependentSelectionsAcrossSerialization()
     {
         var library=DeckLibrary.Restore(null,config,"anuik",new[]{"stein","kayon"});
         library.Assign(0,"flo",config);library.Active=1;library.Assign(-1,"sepora",config);
@@ -27,8 +27,9 @@ public class DeckLibraryTests
     [Test] public void DamagedOrOutdatedSaveIsRepairedToAPlayableDeck()
     {
         var library=DeckLibrary.Restore("{\"Active\":20,\"Decks\":[{\"Monster\":\"missing\",\"Whelps\":[\"dummy\",\"dummy\"]}]}",config,"missing",null);
-        Assert.AreEqual(2,library.Active);
-        foreach(var deck in library.Decks)
+        Assert.AreEqual(4,library.Active);
+        Assert.IsTrue(library.Current.IsEmpty);
+        foreach(var deck in library.Decks.Where(d=>!d.IsEmpty))
         {
             Assert.IsTrue(config.Get(deck.Monster).IsMonster);
             Assert.IsTrue(config.TryResolveWhelpSelection(deck.Whelps.Where(id=>id!=null),out _,out _));

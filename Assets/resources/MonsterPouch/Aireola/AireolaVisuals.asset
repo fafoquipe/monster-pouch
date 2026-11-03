@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49ac096bff9e5dfb870783417a0802fa, type: 3}
+  m_Name: AireolaVisuals
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Presentation.AireolaVisualCatalog
+  Clips:
+  - Id: zephalontropo/basic-flight
+    Frames:
+    - {fileID: 21300000, guid: 214ca97ae5ed5218b2bbdc9c7cecddd9, type: 3}
+    - {fileID: 21300000, guid: 6297bd1935e656149063e81844f5b049, type: 3}
+    - {fileID: 21300000, guid: c22c6f9d6c3f52dd8376c5186b44a990, type: 3}
+    - {fileID: 21300000, guid: 314600ecd0965d6ba3452fb34e64d12b, type: 3}
+    VisibleEnvelopePixels: 179
+    WidthCells: 0.5
+    FramesPerSecond: 12
+    DisplaySize: 45.76536
+    OrientToTarget: 1
+  - Id: zephalontropo/basic-impact
+    Frames:
+    - {fileID: 21300000, guid: 6a730faf40505a48a27a12e83cfe63a3, type: 3}
+    - {fileID: 21300000, guid: a7d9e1f6fd535fc383e80aa121fb9008, type: 3}
+    - {fileID: 21300000, guid: cbd348bcd68d5422b5ef2533cbdb5261, type: 3}
+    - {fileID: 21300000, guid: e1a216e6d765575094a1efc5ddb4f11b, type: 3}
+    VisibleEnvelopePixels: 192
+    WidthCells: 1
+    FramesPerSecond: 12
+    DisplaySize: 0
+    OrientToTarget: 0
+  - Id: zephalontropo/sphere-flight
+    Frames:
+    - {fileID: 21300000, guid: 9b80645af5ad511d91a13a45b3ae33c3, type: 3}
+    - {fileID: 21300000, guid: 77fb52820e205a7d9c90c5121a3e7be1, type: 3}
+    - {fileID: 21300000, guid: 6abd768d19fb5da7a50c5c7e6dd1eff3, type: 3}
+    - {fileID: 21300000, guid: 216415f5ed925d32a882f52df03088a9, type: 3}
+    VisibleEnvelopePixels: 187
+    WidthCells: 0.5
+    FramesPerSecond: 12
+    DisplaySize: 43.807487
+    OrientToTarget: 1
+  - Id: zephalontropo/sphere-impact
+    Frames:
+    - {fileID: 21300000, guid: 20fe0c17a62154c4be6400fba63f042c, type: 3}
+    - {fileID: 21300000, guid: 9d7d7f957b6f56ad8cff1950384e3b57, type: 3}
+    - {fileID: 21300000, guid: 68101e771a0459e08d5fb105190df623, type: 3}
+    - {fileID: 21300000, guid: 5a73f02c3db4547b8ad4a74e6bc8f543, type: 3}
+    VisibleEnvelopePixels: 202
+    WidthCells: 1
+    FramesPerSecond: 12
+    DisplaySize: 0
+    OrientToTarget: 0
+  - Id: alboguera/basic-flight
+    Frames:
+    - {fileID: 21300000, guid: bd1195de08ac5ecdb9ade4b7ccaf28fa, type: 3}
+    - {fileID: 21300000, guid: 367b6e8d1ef75d50a08209f312d2fb8f, type: 3}
+    - {fileID: 21300000, guid: bce4f5473fc05b569ec8c697d966b42b, type: 3}
+    - {fileID: 21300000, guid: 0d0cf99d3fda5e6cae2219bec4974d7c, type: 3}
+    VisibleEnvelopePixels: 185
+    WidthCells: 0.5
+    FramesPerSecond: 12
+    DisplaySize: 44.281082
+    OrientToTarget: 1
+  - Id: alboguera/basic-impact
+    Frames:
+    - {fileID: 21300000, guid: 1c562a7caf6855a5bc61310614af7a8e, type: 3}
+    - {fileID: 21300000, guid: a0de9c9c34575f55b597464d03df0126, type: 3}
+    - {fileID: 21300000, guid: b12ee75214a150a1a673921c77ee27d6, type: 3}
+    - {fileID: 21300000, guid: b25811bbcfac5d7bbce1f8ca887c8b04, type: 3}
+    VisibleEnvelopePixels: 217
+    WidthCells: 1
+    FramesPerSecond: 12
+    DisplaySize: 0
+    OrientToTarget: 0
+  - Id: alboguera/resonance-onset
+    Frames:
+    - {fileID: 21300000, guid: e0f38bd343315ad181aecb884abedc29, type: 3}
+    - {fileID: 21300000, guid: fcf7d92c4e44511f94cb72d53a4dd772, type: 3}
+    - {fileID: 21300000, guid: 3d26a01e766e55dba27e57d95a0ecca2, type: 3}
+    - {fileID: 21300000, guid: 082941c8ea7b519fafd188757bc2f907, type: 3}
+    VisibleEnvelopePixels: 223
+    WidthCells: 1
+    FramesPerSecond: 12
+    DisplaySize: 0
+    OrientToTarget: 0
+  - Id: palista/basic-slash
+    Frames:
+    - {fileID: 21300000, guid: 91b26e0520f15c24b72fc3a44a76a645, type: 3}
+    - {fileID: 21300000, guid: 6279a1cdd2c857a3841855f6563d59e5, type: 3}
+    - {fileID: 21300000, guid: fa8c9125f09f59adba0db2df7edf361d, type: 3}
+    - {fileID: 21300000, guid: 31886b68d75055d18d6e8236faa1e64b, type: 3}
+    VisibleEnvelopePixels: 188
+    WidthCells: 1
+    FramesPerSecond: 12
+    DisplaySize: 0
+    OrientToTarget: 0
+  - Id: palista/gale-impact
+    Frames:
+    - {fileID: 21300000, guid: eadfbcf9885759c491ec145df2522883, type: 3}
+    - {fileID: 21300000, guid: d102b2b9fe105b50853be011e100971b, type: 3}
+    - {fileID: 21300000, guid: 679a0d19004c51ae96e70ad8998ee511, type: 3}
+    - {fileID: 21300000, guid: 6823a88e24985a98a42cb450f20c6f62, type: 3}
+    VisibleEnvelopePixels: 216
+    WidthCells: 1
+    FramesPerSecond: 12
+    DisplaySize: 0
+    OrientToTarget: 0
+  - Id: alveyr/basic-palm
+    Frames:
+    - {fileID: 21300000, guid: 39bba9f44f3e5fa0b259298eebfe2d28, type: 3}
+    - {fileID: 21300000, guid: 8ae0e5dbf0cb52369fef8a78091194ba, type: 3}
+    - {fileID: 21300000, guid: 3a75b80ff5b85cc4b19c8f266fb82bbc, type: 3}
+    - {fileID: 21300000, guid: 64406eab687b59228ee848765c0668cf, type: 3}
+    VisibleEnvelopePixels: 161
+    WidthCells: 1
+    FramesPerSecond: 12
+    DisplaySize: 0
+    OrientToTarget: 0
+  - Id: alveyr/opening-halo
+    Frames:
+    - {fileID: 21300000, guid: 48d8f67722085ed2ae123836fa7b9e74, type: 3}
+    - {fileID: 21300000, guid: 4df7d39b669e5a4c8ba8a55287145aed, type: 3}
+    - {fileID: 21300000, guid: 336e824ef86f52349a4ba4328cfbdb31, type: 3}
+    - {fileID: 21300000, guid: ea205e2ddf1b53b986fe805f0fa80ea9, type: 3}
+    VisibleEnvelopePixels: 212
+    WidthCells: 1
+    FramesPerSecond: 12
+    DisplaySize: 0
+    OrientToTarget: 0
+  - Id: alveyr/winds-loop
+    Frames:
+    - {fileID: 21300000, guid: be0e6d1f28635e4d9f24b5a16302f34d, type: 3}
+    - {fileID: 21300000, guid: 35b9dc5ccbc95cdeb2605be6f8ee0587, type: 3}
+    - {fileID: 21300000, guid: 3169918ee7bf5c2baca7d168f63670bf, type: 3}
+    - {fileID: 21300000, guid: ae4b382322915e5a87472c7ab4f74be0, type: 3}
+    VisibleEnvelopePixels: 198
+    WidthCells: 1.25
+    FramesPerSecond: 12
+    DisplaySize: 0
+    OrientToTarget: 0

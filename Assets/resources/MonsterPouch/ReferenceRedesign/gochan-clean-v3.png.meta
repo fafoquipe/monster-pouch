@@ -1,0 +1,4834 @@
+fileFormatVersion: 2
+guid: a307ecf50cedfc142b7bcdcc48bab9bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7267371728451034770
+    second: gochan-clean-v3_0
+  - first:
+      213: 9060019461978597383
+    second: gochan-clean-v3_1
+  - first:
+      213: 1571459229481922301
+    second: gochan-clean-v3_2
+  - first:
+      213: 4046904597936458232
+    second: gochan-clean-v3_3
+  - first:
+      213: 5928692191991305259
+    second: gochan-clean-v3_4
+  - first:
+      213: 6497926578411585289
+    second: gochan-clean-v3_5
+  - first:
+      213: -6840007602567351062
+    second: gochan-clean-v3_6
+  - first:
+      213: -7056872216865891319
+    second: gochan-clean-v3_7
+  - first:
+      213: -5926486450860484211
+    second: gochan-clean-v3_8
+  - first:
+      213: -5832340728777990353
+    second: gochan-clean-v3_9
+  - first:
+      213: -5150673818826605233
+    second: gochan-clean-v3_10
+  - first:
+      213: -8848545244060026839
+    second: gochan-clean-v3_11
+  - first:
+      213: -1400612465007618120
+    second: gochan-clean-v3_12
+  - first:
+      213: 4719976464113336938
+    second: gochan-clean-v3_13
+  - first:
+      213: -3143696608758107088
+    second: gochan-clean-v3_14
+  - first:
+      213: 6235476759533502026
+    second: gochan-clean-v3_15
+  - first:
+      213: 6245197024214423199
+    second: gochan-clean-v3_16
+  - first:
+      213: -7757734931874696509
+    second: gochan-clean-v3_17
+  - first:
+      213: -1506666276534235974
+    second: gochan-clean-v3_18
+  - first:
+      213: -6643909620436764819
+    second: gochan-clean-v3_19
+  - first:
+      213: 7823899681597979168
+    second: gochan-clean-v3_20
+  - first:
+      213: 9037710282718555817
+    second: gochan-clean-v3_21
+  - first:
+      213: 6277305930515106349
+    second: gochan-clean-v3_22
+  - first:
+      213: -827510974566312968
+    second: gochan-clean-v3_23
+  - first:
+      213: 7554014479228885793
+    second: gochan-clean-v3_24
+  - first:
+      213: -3456205245531680933
+    second: gochan-clean-v3_25
+  - first:
+      213: 8966034410494660009
+    second: gochan-clean-v3_26
+  - first:
+      213: 2196524588895534285
+    second: gochan-clean-v3_27
+  - first:
+      213: -4369660966555767335
+    second: gochan-clean-v3_28
+  - first:
+      213: -1820046110527376985
+    second: gochan-clean-v3_29
+  - first:
+      213: 816419319960246903
+    second: gochan-clean-v3_30
+  - first:
+      213: -4077420563162559243
+    second: gochan-clean-v3_31
+  - first:
+      213: 5957268969323343641
+    second: gochan-clean-v3_32
+  - first:
+      213: 5868152661824277655
+    second: gochan-clean-v3_33
+  - first:
+      213: 1041289528556215119
+    second: gochan-clean-v3_34
+  - first:
+      213: -4825821341990161297
+    second: gochan-clean-v3_35
+  - first:
+      213: 1908985106669301198
+    second: gochan-clean-v3_36
+  - first:
+      213: 3685960560226941895
+    second: gochan-clean-v3_37
+  - first:
+      213: 7227147162388821434
+    second: gochan-clean-v3_38
+  - first:
+      213: -2081339779891212704
+    second: gochan-clean-v3_39
+  - first:
+      213: -30411162024467577
+    second: gochan-clean-v3_40
+  - first:
+      213: 8302537174915583390
+    second: gochan-clean-v3_41
+  - first:
+      213: 4055184107576932645
+    second: gochan-clean-v3_42
+  - first:
+      213: 2535230515694365317
+    second: gochan-clean-v3_43
+  - first:
+      213: -738435081603594823
+    second: gochan-clean-v3_44
+  - first:
+      213: -8598262625248282907
+    second: gochan-clean-v3_45
+  - first:
+      213: -4263474718400969540
+    second: gochan-clean-v3_46
+  - first:
+      213: -623719371720307423
+    second: gochan-clean-v3_47
+  - first:
+      213: 6092980292099834112
+    second: gochan-clean-v3_48
+  - first:
+      213: 3292120508223863338
+    second: gochan-clean-v3_49
+  - first:
+      213: 4575962089582488191
+    second: gochan-clean-v3_50
+  - first:
+      213: 8108461092801028488
+    second: gochan-clean-v3_51
+  - first:
+      213: -1005508475119945780
+    second: gochan-clean-v3_52
+  - first:
+      213: 1744003287760489039
+    second: gochan-clean-v3_53
+  - first:
+      213: -7382691998077115773
+    second: gochan-clean-v3_54
+  - first:
+      213: -7384358411248984007
+    second: gochan-clean-v3_55
+  - first:
+      213: -7354449302228923412
+    second: gochan-clean-v3_56
+  - first:
+      213: -2063607281725552420
+    second: gochan-clean-v3_57
+  - first:
+      213: -1294540757974429646
+    second: gochan-clean-v3_58
+  - first:
+      213: -8232388436555918684
+    second: gochan-clean-v3_59
+  - first:
+      213: 6720240114406815491
+    second: gochan-clean-v3_60
+  - first:
+      213: 3687736048747352361
+    second: gochan-clean-v3_61
+  - first:
+      213: -2777916688632321597
+    second: gochan-clean-v3_62
+  - first:
+      213: -8377906208796418014
+    second: gochan-clean-v3_63
+  - first:
+      213: 5031510799784613652
+    second: gochan-clean-v3_64
+  - first:
+      213: -1514091517928726434
+    second: gochan-clean-v3_65
+  - first:
+      213: -5652964453984266885
+    second: gochan-clean-v3_66
+  - first:
+      213: -7566534924438045927
+    second: gochan-clean-v3_67
+  - first:
+      213: -1336984368174960136
+    second: gochan-clean-v3_68
+  - first:
+      213: -603763675748603784
+    second: gochan-clean-v3_69
+  - first:
+      213: -2122987635010652529
+    second: gochan-clean-v3_70
+  - first:
+      213: -7668773943010892546
+    second: gochan-clean-v3_71
+  - first:
+      213: 2547746631142848605
+    second: gochan-clean-v3_72
+  - first:
+      213: -3643402892991286499
+    second: gochan-clean-v3_73
+  - first:
+      213: -622892014351955658
+    second: gochan-clean-v3_74
+  - first:
+      213: -6924765611030737675
+    second: gochan-clean-v3_75
+  - first:
+      213: -534696048937077923
+    second: gochan-clean-v3_76
+  - first:
+      213: -241668372046061038
+    second: gochan-clean-v3_77
+  - first:
+      213: 5948733663357689106
+    second: gochan-clean-v3_78
+  - first:
+      213: 2613565719009584019
+    second: gochan-clean-v3_79
+  - first:
+      213: 6020767755884486617
+    second: gochan-clean-v3_80
+  - first:
+      213: 5218897234383957453
+    second: gochan-clean-v3_81
+  - first:
+      213: -432373829914575665
+    second: gochan-clean-v3_82
+  - first:
+      213: 660748392920018936
+    second: gochan-clean-v3_83
+  - first:
+      213: -1229186260036575500
+    second: gochan-clean-v3_84
+  - first:
+      213: 1539159272356379333
+    second: gochan-clean-v3_85
+  - first:
+      213: 7803443421166919929
+    second: gochan-clean-v3_86
+  - first:
+      213: -3636258325789116675
+    second: gochan-clean-v3_87
+  - first:
+      213: -3547074058786583244
+    second: gochan-clean-v3_88
+  - first:
+      213: 5830875593880396843
+    second: gochan-clean-v3_89
+  - first:
+      213: -3890677813405472144
+    second: gochan-clean-v3_90
+  - first:
+      213: 3793799991940510366
+    second: gochan-clean-v3_91
+  - first:
+      213: 2368081968981846572
+    second: gochan-clean-v3_92
+  - first:
+      213: 8110588814546161311
+    second: gochan-clean-v3_93
+  - first:
+      213: -3362608042873306110
+    second: gochan-clean-v3_94
+  - first:
+      213: -2685167167276358731
+    second: gochan-clean-v3_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gochan-clean-v3_0
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1068
+        width: 198
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e5a053514ead460800000000000000
+      internalID: 7267371728451034770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1068
+        width: 198
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7082c59d2b7abbd70800000000000000
+      internalID: 9060019461978597383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2060
+        width: 208
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe6740e7d1fec510800000000000000
+      internalID: 1571459229481922301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_3
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 14
+        width: 196
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9c5e75a4e792830800000000000000
+      internalID: 4046904597936458232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1824
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2416461322f64250800000000000000
+      internalID: 5928692191991305259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_5
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 14
+        width: 210
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90fbacaabc54d2a50800000000000000
+      internalID: 6497926578411585289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_6
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 810
+        width: 202
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4700c43596311a0800000000000000
+      internalID: -6840007602567351062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_7
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1324
+        width: 228
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c92609b14f01e90800000000000000
+      internalID: -7056872216865891319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2284
+        width: 210
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d899b4a09f3e0cda0800000000000000
+      internalID: -5926486450860484211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1824
+        width: 216
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f152c120d5f0fa0800000000000000
+      internalID: -5832340728777990353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_10
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 810
+        width: 200
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d7fe283712588b0800000000000000
+      internalID: -5150673818826605233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_11
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 2284
+        width: 234
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92874dc6bf6a33580800000000000000
+      internalID: -8848545244060026839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_12
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 810
+        width: 200
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b79c334266009ce0800000000000000
+      internalID: -1400612465007618120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_13
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1068
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a620eab2699b08140800000000000000
+      internalID: 4719976464113336938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_14
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 1824
+        width: 216
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0347f5127985f54d0800000000000000
+      internalID: -3143696608758107088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_15
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 550
+        width: 200
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4eb239631dd88650800000000000000
+      internalID: 6235476759533502026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_16
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1824
+        width: 202
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9690a4ea956ba650800000000000000
+      internalID: 6245197024214423199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_17
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 286
+        width: 208
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c238f38e2df65490800000000000000
+      internalID: -7757734931874696509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_18
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1068
+        width: 210
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abccd10110f371be0800000000000000
+      internalID: -1506666276534235974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_19
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1324
+        width: 214
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67f012b6671cc3a0800000000000000
+      internalID: -6643909620436764819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_20
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 2060
+        width: 220
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a70ffbe43149c60800000000000000
+      internalID: 7823899681597979168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1578
+        width: 230
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aea5584e956c6d70800000000000000
+      internalID: 9037710282718555817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_22
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1324
+        width: 196
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a4ec63c787d1750800000000000000
+      internalID: 6277305930515106349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_23
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 2284
+        width: 232
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3dc3927271484f0800000000000000
+      internalID: -827510974566312968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_24
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 810
+        width: 204
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b589e552045d860800000000000000
+      internalID: 7554014479228885793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_25
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 810
+        width: 204
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f0e3514a71900d0800000000000000
+      internalID: -3456205245531680933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1824
+        width: 208
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad8671dac0cd6c70800000000000000
+      internalID: 8966034410494660009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_27
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 550
+        width: 204
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc7785d97f9b7e10800000000000000
+      internalID: 2196524588895534285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_28
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1824
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddad8b9088db53c0800000000000000
+      internalID: -4369660966555767335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_29
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 550
+        width: 200
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a13f2b94b5edb6e0800000000000000
+      internalID: -1820046110527376985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_30
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 810
+        width: 206
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a1ff1cb01845b00800000000000000
+      internalID: 816419319960246903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_31
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1324
+        width: 214
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc82d4d9971a67c0800000000000000
+      internalID: -4077420563162559243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_32
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 2060
+        width: 212
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fa9fb80987ca250800000000000000
+      internalID: 5957268969323343641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_33
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1578
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c8ccf41cddf6150800000000000000
+      internalID: 5868152661824277655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1068
+        width: 198
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b5de92f47637e00800000000000000
+      internalID: 1041289528556215119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_35
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2284
+        width: 236
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f647d29ce0d370db0800000000000000
+      internalID: -4825821341990161297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_36
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 550
+        width: 198
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecde88c17d31e7a10800000000000000
+      internalID: 1908985106669301198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_37
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1068
+        width: 198
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb3d68b999272330800000000000000
+      internalID: 3685960560226941895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_38
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1824
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab578a99d0cfb4460800000000000000
+      internalID: 7227147162388821434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_39
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 286
+        width: 198
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ec1b26f789d13e0800000000000000
+      internalID: -2081339779891212704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_40
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1824
+        width: 200
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78323529535f39ff0800000000000000
+      internalID: -30411162024467577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_41
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 286
+        width: 192
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d81556299883370800000000000000
+      internalID: 8302537174915583390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_42
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1068
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529bee6e578e64830800000000000000
+      internalID: 4055184107576932645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_43
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1068
+        width: 214
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a61b7c8b2fe2320800000000000000
+      internalID: 2535230515694365317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_44
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 2060
+        width: 216
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5c457a43d80c5f0800000000000000
+      internalID: -738435081603594823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_45
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1578
+        width: 240
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6fe88a2b5dca880800000000000000
+      internalID: -8598262625248282907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_46
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1324
+        width: 190
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb40adc155815d4c0800000000000000
+      internalID: -4263474718400969540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_47
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 2284
+        width: 238
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dc419398a1857f0800000000000000
+      internalID: -623719371720307423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_48
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 14
+        width: 208
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001011e2b4d9e8450800000000000000
+      internalID: 6092980292099834112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_49
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 14
+        width: 208
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a367ae826ffad20800000000000000
+      internalID: 3292120508223863338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_50
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1324
+        width: 212
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ae737a645118f30800000000000000
+      internalID: 4575962089582488191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_51
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 198
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8812b77476a078070800000000000000
+      internalID: 8108461092801028488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_52
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1324
+        width: 212
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7b4d98e57bb02f0800000000000000
+      internalID: -1005508475119945780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_53
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 14
+        width: 200
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ac31600c1f33810800000000000000
+      internalID: 1744003287760489039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_54
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 14
+        width: 202
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382ae703eb86b8990800000000000000
+      internalID: -7382691998077115773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_55
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 286
+        width: 208
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9302653262d758990800000000000000
+      internalID: -7384358411248984007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_56
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2060
+        width: 222
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb860e335fbfe990800000000000000
+      internalID: -7354449302228923412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_57
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1324
+        width: 220
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8c6d85c189c53e0800000000000000
+      internalID: -2063607281725552420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_58
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 550
+        width: 204
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2305ba51a0ed80ee0800000000000000
+      internalID: -1294540757974429646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_59
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2284
+        width: 228
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a21d02855ea0cd80800000000000000
+      internalID: -8232388436555918684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_60
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 14
+        width: 214
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3077c8857c6134d50800000000000000
+      internalID: 6720240114406815491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_61
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 286
+        width: 208
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9211dfad5687d2330800000000000000
+      internalID: 3687736048747352361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_62
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1824
+        width: 210
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9e07e5d7bd279d0800000000000000
+      internalID: -2777916688632321597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_63
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 14
+        width: 202
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220662fe0b2bbbb80800000000000000
+      internalID: -8377906208796418014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_64
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1578
+        width: 214
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41714b01a6483d540800000000000000
+      internalID: 5031510799784613652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_65
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 286
+        width: 216
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e502d6459cddcfae0800000000000000
+      internalID: -1514091517928726434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_66
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 286
+        width: 208
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b759b50a7c2ac81b0800000000000000
+      internalID: -5652964453984266885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_67
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1068
+        width: 212
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b784053944ef690800000000000000
+      internalID: -7566534924438045927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_68
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 2060
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f17ea00dc3127de0800000000000000
+      internalID: -1336984368174960136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_69
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1578
+        width: 220
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87868b2c2200f97f0800000000000000
+      internalID: -603763675748603784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_70
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 286
+        width: 202
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86b4a87ef1a982e0800000000000000
+      internalID: -2122987635010652529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_71
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 2284
+        width: 248
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef46010daba039590800000000000000
+      internalID: -7668773943010892546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_72
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 550
+        width: 216
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58b7feff0a6b5320800000000000000
+      internalID: 2547746631142848605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 810
+        width: 214
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13bf955f58007dc0800000000000000
+      internalID: -3643402892991286499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_74
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1824
+        width: 214
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639cf1f530b0b57f0800000000000000
+      internalID: -622892014351955658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_75
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 810
+        width: 200
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc0ca1ad5a46ef90800000000000000
+      internalID: -6924765611030737675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_76
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1578
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53fc44c6c06498f0800000000000000
+      internalID: -534696048937077923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_77
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 14
+        width: 208
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2126fb265eb65acf0800000000000000
+      internalID: -241668372046061038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_78
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 286
+        width: 208
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dd7d3cfb52e8250800000000000000
+      internalID: 5948733663357689106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_79
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 810
+        width: 212
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39364b69c20454420800000000000000
+      internalID: 2613565719009584019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_80
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2060
+        width: 214
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfde94ef501e8350800000000000000
+      internalID: 6020767755884486617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_81
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1578
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd69be326f3d6840800000000000000
+      internalID: 5218897234383957453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_82
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1324
+        width: 198
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc34c1ea46eff9f0800000000000000
+      internalID: -432373829914575665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_83
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2284
+        width: 224
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff68ed99237b2900800000000000000
+      internalID: 660748392920018936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_84
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 550
+        width: 218
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe9ab7eb9d01fee0800000000000000
+      internalID: -1229186260036575500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_85
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 810
+        width: 214
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cafc8114313c5510800000000000000
+      internalID: 1539159272356379333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_86
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2060
+        width: 210
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0638772766b4c60800000000000000
+      internalID: 7803443421166919929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_87
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 286
+        width: 192
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df678c3815a698dc0800000000000000
+      internalID: -3636258325789116675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_88
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1578
+        width: 208
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43dc50ecfe246cec0800000000000000
+      internalID: -3547074058786583244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_89
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 550
+        width: 210
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b246cb6957e6be050800000000000000
+      internalID: 5830875593880396843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_90
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 550
+        width: 208
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a29747429810ac0800000000000000
+      internalID: -3890677813405472144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_91
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 550
+        width: 222
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e927e740ef846a430800000000000000
+      internalID: 3793799991940510366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_92
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 2060
+        width: 218
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aab20110e1dd020800000000000000
+      internalID: 2368081968981846572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_93
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 1578
+        width: 220
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ec74a1e899e8070800000000000000
+      internalID: 8110588814546161311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_94
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 1068
+        width: 200
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2044aa50dcd9551d0800000000000000
+      internalID: -3362608042873306110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-clean-v3_95
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2284
+        width: 228
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b363ff10be5cbad0800000000000000
+      internalID: -2685167167276358731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1066
+        width: 202
+        height: 232
+      alignment: 9
+      pivot: {x: 0.45544556, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f86e20ee3814642886c280b64e201a
+      internalID: 1412395758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1066
+        width: 202
+        height: 232
+      alignment: 9
+      pivot: {x: 0.46534654, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40d3af252e40b348a7bfad9b833e49a
+      internalID: -1606097028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2058
+        width: 212
+        height: 198
+      alignment: 9
+      pivot: {x: 0.495283, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a3df73585445f4b9ec162447ee5417
+      internalID: -1418723281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 12
+        width: 200
+        height: 246
+      alignment: 9
+      pivot: {x: 0.56, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8269ebdd9ab8164c9f1884f4c808e12
+      internalID: -585352569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1822
+        width: 212
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5471698, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533e90cb25100cf4993b3a4e50063be6
+      internalID: -1294792573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 12
+        width: 214
+        height: 242
+      alignment: 9
+      pivot: {x: 0.3504673, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c94f9431c4039e4f99cbdc8a36c9ea1
+      internalID: 123075704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 808
+        width: 206
+        height: 232
+      alignment: 9
+      pivot: {x: 0.46116504, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3341082ad00d7048adf341987321947
+      internalID: 707176699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1322
+        width: 232
+        height: 224
+      alignment: 9
+      pivot: {x: 0.55172414, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15ede4713e659d4f8ff72c48329ce93
+      internalID: 633214985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2282
+        width: 214
+        height: 178
+      alignment: 9
+      pivot: {x: 0.5, y: 0.033707865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af884d1b2b52d24f92e3d0d1f38acbb
+      internalID: 1308271892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1822
+        width: 220
+        height: 212
+      alignment: 9
+      pivot: {x: 0.4909091, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b1c3164fea0d94ba796036324d9259
+      internalID: -555878974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 808
+        width: 204
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e358f5f6d95eb0419c17f8a2b645ae6
+      internalID: -1778024018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 2282
+        width: 238
+        height: 142
+      alignment: 9
+      pivot: {x: 0.5252101, y: 0.04225352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d556a6f029b844f8a5453f0c173b57
+      internalID: 1422538200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 808
+        width: 204
+        height: 234
+      alignment: 9
+      pivot: {x: 0.42647058, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8f39269ea525f48beb9b5f655c8b88
+      internalID: -2226071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1066
+        width: 196
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4489796, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450768b9f2da1b54ba02c6c54a122b99
+      internalID: 1022591184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 1822
+        width: 220
+        height: 200
+      alignment: 9
+      pivot: {x: 0.4, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc400102b8ef814da4dfa28c721b331
+      internalID: -1888920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 548
+        width: 204
+        height: 236
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4dc58cbdd2000e4c8bc5ab42e945171
+      internalID: 1586992497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1822
+        width: 206
+        height: 212
+      alignment: 9
+      pivot: {x: 0.39805827, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eead831506b4d458246db9043490db
+      internalID: 1684264266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 284
+        width: 212
+        height: 238
+      alignment: 9
+      pivot: {x: 0.3254717, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3f73e9f264803428846f7aeb100631
+      internalID: 154232645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 1066
+        width: 214
+        height: 230
+      alignment: 9
+      pivot: {x: 0.43925235, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ceb05a78505874d938d068cf8c5fc3
+      internalID: -257653505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1322
+        width: 218
+        height: 224
+      alignment: 9
+      pivot: {x: 0.4174312, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e4ca24a6d556c42ba80adfe826f8f3
+      internalID: 1105824270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 2058
+        width: 224
+        height: 182
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.032967035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48f18fc664761c48823695f551e55e5
+      internalID: -297971079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1576
+        width: 234
+        height: 218
+      alignment: 9
+      pivot: {x: 0.32905984, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12efebc20c9e6f04790b07154a41f755
+      internalID: 727647522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1322
+        width: 200
+        height: 226
+      alignment: 9
+      pivot: {x: 0.435, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97122900b2cf64f4d86efe13401ff9d7
+      internalID: -1153917189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 2282
+        width: 236
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5042373, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a41d1f3162f2341acf63101b5e0f15
+      internalID: 1948193798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 808
+        width: 208
+        height: 234
+      alignment: 9
+      pivot: {x: 0.41826922, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33e5e02b14f99844a65bb543d565b56
+      internalID: 2075484234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 808
+        width: 208
+        height: 234
+      alignment: 9
+      pivot: {x: 0.41826922, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718d15a6ac4cba844a82b2ea4cf3b3f1
+      internalID: -2011743375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1822
+        width: 212
+        height: 202
+      alignment: 9
+      pivot: {x: 0.38679245, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdaa112b02d319429b298af47954d78
+      internalID: 1780799269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 548
+        width: 208
+        height: 236
+      alignment: 9
+      pivot: {x: 0.36057693, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea8b978fa227da47a28127be0b49a0a
+      internalID: -1169547795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1822
+        width: 208
+        height: 210
+      alignment: 9
+      pivot: {x: 0.37980768, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e9ccf62608709408cbe9db838adaf3
+      internalID: 1530808549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 548
+        width: 204
+        height: 236
+      alignment: 9
+      pivot: {x: 0.30392158, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bed4f71b4a2fc41871f0c2cd03f1ba
+      internalID: 1747453543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 808
+        width: 210
+        height: 234
+      alignment: 9
+      pivot: {x: 0.41428572, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1504fee8a86091b4284fe1297d1e75fa
+      internalID: 128777282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1322
+        width: 218
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db997c981a6f1374598df40d3cd4e034
+      internalID: -780724438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 2058
+        width: 216
+        height: 178
+      alignment: 9
+      pivot: {x: 0.47685185, y: 0.033707865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7a0eb967c4362439a550f2917425e8
+      internalID: 159339705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1576
+        width: 230
+        height: 212
+      alignment: 9
+      pivot: {x: 0.3, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8240cfb79005784ca8bc8307898ca8f
+      internalID: 198843840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1066
+        width: 202
+        height: 232
+      alignment: 9
+      pivot: {x: 0.47029704, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df43da35874769488d7e679c31379e6
+      internalID: -1863448927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 2282
+        width: 240
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f538e2eb058e58944857497aec36249c
+      internalID: -34982263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 548
+        width: 202
+        height: 232
+      alignment: 9
+      pivot: {x: 0.490099, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eb84357a6178c4badaa441e781247b
+      internalID: 447075939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1066
+        width: 202
+        height: 232
+      alignment: 9
+      pivot: {x: 0.48019803, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b67f7224b34f5488afd35ee77b5c5b
+      internalID: -1175337117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1822
+        width: 202
+        height: 202
+      alignment: 9
+      pivot: {x: 0.490099, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e3d59e6a448564d817dc8572efeb62
+      internalID: 260966431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 284
+        width: 202
+        height: 240
+      alignment: 9
+      pivot: {x: 0.44554454, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c90746261ee6a4da640d6bcf180241
+      internalID: -466161152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1822
+        width: 204
+        height: 208
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68d76990e130ad4c8684963b5649a6c
+      internalID: 59779003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 284
+        width: 196
+        height: 240
+      alignment: 9
+      pivot: {x: 0.3469388, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38359ea4db124ae4db3ce2790274a158
+      internalID: 1846996227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1066
+        width: 196
+        height: 232
+      alignment: 9
+      pivot: {x: 0.48469388, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cba8251cdf9554cbe966a7b85b9704
+      internalID: -1809314251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1066
+        width: 218
+        height: 230
+      alignment: 9
+      pivot: {x: 0.46330276, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3090373b2d423e04d851d9de28cd847b
+      internalID: -588539570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 2058
+        width: 220
+        height: 182
+      alignment: 9
+      pivot: {x: 0.45, y: 0.032967035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b53f6e0f196f6a48af47f8dc6387574
+      internalID: -982679994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1576
+        width: 244
+        height: 216
+      alignment: 9
+      pivot: {x: 0.3442623, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5352455f2b5e3974c83a07aea5ea001a
+      internalID: 1087612277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1322
+        width: 194
+        height: 228
+      alignment: 9
+      pivot: {x: 0.48969072, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d892d0cec21dfd408dfc3e68863e681
+      internalID: -981642600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 2282
+        width: 242
+        height: 140
+      alignment: 9
+      pivot: {x: 0.49586776, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaa5bb495c62594e81ac0c109696010
+      internalID: -750352021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 12
+        width: 212
+        height: 242
+      alignment: 9
+      pivot: {x: 0.4811321, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35016d58b6f35c94cb11c762d7e120d0
+      internalID: -990860755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 12
+        width: 212
+        height: 242
+      alignment: 9
+      pivot: {x: 0.4811321, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0b985f33504614495c647211ace381
+      internalID: 2070033314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1322
+        width: 216
+        height: 224
+      alignment: 9
+      pivot: {x: 0.4212963, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d7b94372a1ed744b4da475ceecc49e
+      internalID: 448236115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 202
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5445545, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5da18a784eab39478f3d13975e48ce7
+      internalID: 510839840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1322
+        width: 216
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00be6610de3e574f94d492245dc4abf
+      internalID: 1672846821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 12
+        width: 204
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4509804, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24859282698e2fa4ab70c789f3292d45
+      internalID: -1983238255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 12
+        width: 206
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5048544, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df41de4e9b48c6548ac0f170e332a03d
+      internalID: -384493034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 284
+        width: 212
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5990566, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347d29030cebb2442a92d3045477e51d
+      internalID: 384195264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 2058
+        width: 226
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5176991, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3272dab98f5e3b4faea3d2448467bbe
+      internalID: 2091496857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1322
+        width: 224
+        height: 226
+      alignment: 9
+      pivot: {x: 0.65178573, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724dc599376d9fb4da1290ad0f55274b
+      internalID: 169891185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 548
+        width: 208
+        height: 236
+      alignment: 9
+      pivot: {x: 0.46634614, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f55e6fa8345d3c4aa4a0fd61389a99e
+      internalID: -263352853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2282
+        width: 232
+        height: 150
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.04}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9c7e7866587104780d93197bf1395d
+      internalID: 302381904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 12
+        width: 218
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54587156, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80645807bcebf3544a7565698673fc33
+      internalID: -1241857041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 284
+        width: 212
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5424528, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f4e2dadc2ce7f4bbfcf16b2071d91b
+      internalID: -1342959830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1822
+        width: 214
+        height: 210
+      alignment: 9
+      pivot: {x: 0.635514, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a16426b830be24f9b21bdcbc915c22
+      internalID: -287553275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 12
+        width: 206
+        height: 246
+      alignment: 9
+      pivot: {x: 0.5631068, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6455161f9988909428b6050798fe0508
+      internalID: -1546085092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1576
+        width: 218
+        height: 216
+      alignment: 9
+      pivot: {x: 0.56880736, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4ee798fedab74449255168b0667d85
+      internalID: -23440104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 284
+        width: 220
+        height: 238
+      alignment: 9
+      pivot: {x: 0.53636366, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71c9e3d870c1d246ac9fb1773263cee
+      internalID: -1328290398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 284
+        width: 212
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5141509, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffd15dcda4329949949f2612c2a2f77
+      internalID: -1331557103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1066
+        width: 216
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5740741, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeefff6760768e4c9196c58bd763d78
+      internalID: -1700788771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 2058
+        width: 224
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5223214, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cddc58627bcb64ea14babefea5e3e2
+      internalID: 1011680668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1576
+        width: 224
+        height: 218
+      alignment: 9
+      pivot: {x: 0.6651786, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80625568621731141893b822944e4001
+      internalID: 867908290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f10
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 284
+        width: 206
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5145631, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b119b7bb42b1b2a44b2d513391babeb8
+      internalID: -428328810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r05-f11
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 2282
+        width: 252
+        height: 142
+      alignment: 9
+      pivot: {x: 0.4920635, y: 0.04225352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce283907cadd634cb39fb0c826b9715
+      internalID: -2126915281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 548
+        width: 220
+        height: 234
+      alignment: 9
+      pivot: {x: 0.53636366, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f9ba21918f10d4484e8af447fbb894
+      internalID: -1489943803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 808
+        width: 218
+        height: 234
+      alignment: 9
+      pivot: {x: 0.53669727, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7f03b0f8d0f1b41851aba53086a877
+      internalID: -1010388821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1822
+        width: 218
+        height: 202
+      alignment: 9
+      pivot: {x: 0.6055046, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e756e618d2f54b94d85d075c86c083ea
+      internalID: 745674418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 808
+        width: 204
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5245098, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866be977f5a2283489cf5aedb12309b2
+      internalID: -1387322100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1576
+        width: 216
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5324074, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1959f6b70f65f98418a422bf5d1d2f76
+      internalID: 155132029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 12
+        width: 212
+        height: 240
+      alignment: 9
+      pivot: {x: 0.4764151, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e6c7229d1765f428278212ae49fb73
+      internalID: -1878829829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 284
+        width: 212
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5471698, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37665cbae0fc4d48ac8914212681e3c
+      internalID: 96186223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 808
+        width: 216
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4398148, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f74bbb1c8072c2408460bdc919a450f
+      internalID: -517138554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 2058
+        width: 218
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5045872, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e556980a57120d74faea61f3077734b3
+      internalID: 1560831912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1576
+        width: 224
+        height: 214
+      alignment: 9
+      pivot: {x: 0.38392857, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcb066ede5cfd0478e4f093f44f83fa
+      internalID: -1332470779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1322
+        width: 202
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5247525, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eac54f26f976c43b1b2c61f053ac0b
+      internalID: -1262393870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r06-f11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 2282
+        width: 228
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04054054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8695ed1df881944fa8aabc0a3154d70
+      internalID: -168814437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 548
+        width: 222
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5495495, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8322e667bce0c46a36b5dc4012ebb0
+      internalID: -945747148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 808
+        width: 218
+        height: 234
+      alignment: 9
+      pivot: {x: 0.53669727, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9941da56e2932d43b8e4689637a9522
+      internalID: 1354584556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2058
+        width: 214
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5186916, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c20786731d79142b5aada650abadb1
+      internalID: 1937175875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 284
+        width: 196
+        height: 240
+      alignment: 9
+      pivot: {x: 0.4489796, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25245976c9670c40b0d158e6bc5b207
+      internalID: 338021218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1576
+        width: 212
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce697b6fee636ca49bef1bc7848212bb
+      internalID: -1752798465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 548
+        width: 214
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5233645, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90397d18a74e074498d8a9c69655210a
+      internalID: -1708116053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 548
+        width: 212
+        height: 236
+      alignment: 9
+      pivot: {x: 0.49056605, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0180511eaf09034e8641879cda46e1a
+      internalID: -921778169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 548
+        width: 226
+        height: 236
+      alignment: 9
+      pivot: {x: 0.59292036, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce3df17802bbc344bc1c31912eed0ca
+      internalID: 1716438308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 2058
+        width: 222
+        height: 184
+      alignment: 9
+      pivot: {x: 0.481982, y: 0.032608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13d1a06da246b242ab0b74e936a94ee
+      internalID: -885685235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1576
+        width: 224
+        height: 212
+      alignment: 9
+      pivot: {x: 0.39285713, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a707d93ccd3caf4eac6e80de2cccf67
+      internalID: -1267200322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f10
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1066
+        width: 204
+        height: 230
+      alignment: 9
+      pivot: {x: 0.46568626, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc04af684054a34e955910a885f60cf
+      internalID: 656175970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gochan-reference-v2-r07-f11
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2282
+        width: 232
+        height: 146
+      alignment: 9
+      pivot: {x: 0.50431037, y: 0.04109589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055781994842f114f8c7628b664144b4
+      internalID: -637752471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 32b36304213b3b7488018af83f307ae2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gochan-clean-v3_0: 7267371728451034770
+      gochan-clean-v3_1: 9060019461978597383
+      gochan-clean-v3_10: -5150673818826605233
+      gochan-clean-v3_11: -8848545244060026839
+      gochan-clean-v3_12: -1400612465007618120
+      gochan-clean-v3_13: 4719976464113336938
+      gochan-clean-v3_14: -3143696608758107088
+      gochan-clean-v3_15: 6235476759533502026
+      gochan-clean-v3_16: 6245197024214423199
+      gochan-clean-v3_17: -7757734931874696509
+      gochan-clean-v3_18: -1506666276534235974
+      gochan-clean-v3_19: -6643909620436764819
+      gochan-clean-v3_2: 1571459229481922301
+      gochan-clean-v3_20: 7823899681597979168
+      gochan-clean-v3_21: 9037710282718555817
+      gochan-clean-v3_22: 6277305930515106349
+      gochan-clean-v3_23: -827510974566312968
+      gochan-clean-v3_24: 7554014479228885793
+      gochan-clean-v3_25: -3456205245531680933
+      gochan-clean-v3_26: 8966034410494660009
+      gochan-clean-v3_27: 2196524588895534285
+      gochan-clean-v3_28: -4369660966555767335
+      gochan-clean-v3_29: -1820046110527376985
+      gochan-clean-v3_3: 4046904597936458232
+      gochan-clean-v3_30: 816419319960246903
+      gochan-clean-v3_31: -4077420563162559243
+      gochan-clean-v3_32: 5957268969323343641
+      gochan-clean-v3_33: 5868152661824277655
+      gochan-clean-v3_34: 1041289528556215119
+      gochan-clean-v3_35: -4825821341990161297
+      gochan-clean-v3_36: 1908985106669301198
+      gochan-clean-v3_37: 3685960560226941895
+      gochan-clean-v3_38: 7227147162388821434
+      gochan-clean-v3_39: -2081339779891212704
+      gochan-clean-v3_4: 5928692191991305259
+      gochan-clean-v3_40: -30411162024467577
+      gochan-clean-v3_41: 8302537174915583390
+      gochan-clean-v3_42: 4055184107576932645
+      gochan-clean-v3_43: 2535230515694365317
+      gochan-clean-v3_44: -738435081603594823
+      gochan-clean-v3_45: -8598262625248282907
+      gochan-clean-v3_46: -4263474718400969540
+      gochan-clean-v3_47: -623719371720307423
+      gochan-clean-v3_48: 6092980292099834112
+      gochan-clean-v3_49: 3292120508223863338
+      gochan-clean-v3_5: 6497926578411585289
+      gochan-clean-v3_50: 4575962089582488191
+      gochan-clean-v3_51: 8108461092801028488
+      gochan-clean-v3_52: -1005508475119945780
+      gochan-clean-v3_53: 1744003287760489039
+      gochan-clean-v3_54: -7382691998077115773
+      gochan-clean-v3_55: -7384358411248984007
+      gochan-clean-v3_56: -7354449302228923412
+      gochan-clean-v3_57: -2063607281725552420
+      gochan-clean-v3_58: -1294540757974429646
+      gochan-clean-v3_59: -8232388436555918684
+      gochan-clean-v3_6: -6840007602567351062
+      gochan-clean-v3_60: 6720240114406815491
+      gochan-clean-v3_61: 3687736048747352361
+      gochan-clean-v3_62: -2777916688632321597
+      gochan-clean-v3_63: -8377906208796418014
+      gochan-clean-v3_64: 5031510799784613652
+      gochan-clean-v3_65: -1514091517928726434
+      gochan-clean-v3_66: -5652964453984266885
+      gochan-clean-v3_67: -7566534924438045927
+      gochan-clean-v3_68: -1336984368174960136
+      gochan-clean-v3_69: -603763675748603784
+      gochan-clean-v3_7: -7056872216865891319
+      gochan-clean-v3_70: -2122987635010652529
+      gochan-clean-v3_71: -7668773943010892546
+      gochan-clean-v3_72: 2547746631142848605
+      gochan-clean-v3_73: -3643402892991286499
+      gochan-clean-v3_74: -622892014351955658
+      gochan-clean-v3_75: -6924765611030737675
+      gochan-clean-v3_76: -534696048937077923
+      gochan-clean-v3_77: -241668372046061038
+      gochan-clean-v3_78: 5948733663357689106
+      gochan-clean-v3_79: 2613565719009584019
+      gochan-clean-v3_8: -5926486450860484211
+      gochan-clean-v3_80: 6020767755884486617
+      gochan-clean-v3_81: 5218897234383957453
+      gochan-clean-v3_82: -432373829914575665
+      gochan-clean-v3_83: 660748392920018936
+      gochan-clean-v3_84: -1229186260036575500
+      gochan-clean-v3_85: 1539159272356379333
+      gochan-clean-v3_86: 7803443421166919929
+      gochan-clean-v3_87: -3636258325789116675
+      gochan-clean-v3_88: -3547074058786583244
+      gochan-clean-v3_89: 5830875593880396843
+      gochan-clean-v3_9: -5832340728777990353
+      gochan-clean-v3_90: -3890677813405472144
+      gochan-clean-v3_91: 3793799991940510366
+      gochan-clean-v3_92: 2368081968981846572
+      gochan-clean-v3_93: 8110588814546161311
+      gochan-clean-v3_94: -3362608042873306110
+      gochan-clean-v3_95: -2685167167276358731
+      gochan-reference-v2-r00-f00: 1412395758
+      gochan-reference-v2-r00-f01: -1606097028
+      gochan-reference-v2-r00-f02: -1418723281
+      gochan-reference-v2-r00-f03: -585352569
+      gochan-reference-v2-r00-f04: -1294792573
+      gochan-reference-v2-r00-f05: 123075704
+      gochan-reference-v2-r00-f06: 707176699
+      gochan-reference-v2-r00-f07: 633214985
+      gochan-reference-v2-r00-f08: 1308271892
+      gochan-reference-v2-r00-f09: -555878974
+      gochan-reference-v2-r00-f10: -1778024018
+      gochan-reference-v2-r00-f11: 1422538200
+      gochan-reference-v2-r01-f00: -2226071
+      gochan-reference-v2-r01-f01: 1022591184
+      gochan-reference-v2-r01-f02: -1888920
+      gochan-reference-v2-r01-f03: 1586992497
+      gochan-reference-v2-r01-f04: 1684264266
+      gochan-reference-v2-r01-f05: 154232645
+      gochan-reference-v2-r01-f06: -257653505
+      gochan-reference-v2-r01-f07: 1105824270
+      gochan-reference-v2-r01-f08: -297971079
+      gochan-reference-v2-r01-f09: 727647522
+      gochan-reference-v2-r01-f10: -1153917189
+      gochan-reference-v2-r01-f11: 1948193798
+      gochan-reference-v2-r02-f00: 2075484234
+      gochan-reference-v2-r02-f01: -2011743375
+      gochan-reference-v2-r02-f02: 1780799269
+      gochan-reference-v2-r02-f03: -1169547795
+      gochan-reference-v2-r02-f04: 1530808549
+      gochan-reference-v2-r02-f05: 1747453543
+      gochan-reference-v2-r02-f06: 128777282
+      gochan-reference-v2-r02-f07: -780724438
+      gochan-reference-v2-r02-f08: 159339705
+      gochan-reference-v2-r02-f09: 198843840
+      gochan-reference-v2-r02-f10: -1863448927
+      gochan-reference-v2-r02-f11: -34982263
+      gochan-reference-v2-r03-f00: 447075939
+      gochan-reference-v2-r03-f01: -1175337117
+      gochan-reference-v2-r03-f02: 260966431
+      gochan-reference-v2-r03-f03: -466161152
+      gochan-reference-v2-r03-f04: 59779003
+      gochan-reference-v2-r03-f05: 1846996227
+      gochan-reference-v2-r03-f06: -1809314251
+      gochan-reference-v2-r03-f07: -588539570
+      gochan-reference-v2-r03-f08: -982679994
+      gochan-reference-v2-r03-f09: 1087612277
+      gochan-reference-v2-r03-f10: -981642600
+      gochan-reference-v2-r03-f11: -750352021
+      gochan-reference-v2-r04-f00: -990860755
+      gochan-reference-v2-r04-f01: 2070033314
+      gochan-reference-v2-r04-f02: 448236115
+      gochan-reference-v2-r04-f03: 510839840
+      gochan-reference-v2-r04-f04: 1672846821
+      gochan-reference-v2-r04-f05: -1983238255
+      gochan-reference-v2-r04-f06: -384493034
+      gochan-reference-v2-r04-f07: 384195264
+      gochan-reference-v2-r04-f08: 2091496857
+      gochan-reference-v2-r04-f09: 169891185
+      gochan-reference-v2-r04-f10: -263352853
+      gochan-reference-v2-r04-f11: 302381904
+      gochan-reference-v2-r05-f00: -1241857041
+      gochan-reference-v2-r05-f01: -1342959830
+      gochan-reference-v2-r05-f02: -287553275
+      gochan-reference-v2-r05-f03: -1546085092
+      gochan-reference-v2-r05-f04: -23440104
+      gochan-reference-v2-r05-f05: -1328290398
+      gochan-reference-v2-r05-f06: -1331557103
+      gochan-reference-v2-r05-f07: -1700788771
+      gochan-reference-v2-r05-f08: 1011680668
+      gochan-reference-v2-r05-f09: 867908290
+      gochan-reference-v2-r05-f10: -428328810
+      gochan-reference-v2-r05-f11: -2126915281
+      gochan-reference-v2-r06-f00: -1489943803
+      gochan-reference-v2-r06-f01: -1010388821
+      gochan-reference-v2-r06-f02: 745674418
+      gochan-reference-v2-r06-f03: -1387322100
+      gochan-reference-v2-r06-f04: 155132029
+      gochan-reference-v2-r06-f05: -1878829829
+      gochan-reference-v2-r06-f06: 96186223
+      gochan-reference-v2-r06-f07: -517138554
+      gochan-reference-v2-r06-f08: 1560831912
+      gochan-reference-v2-r06-f09: -1332470779
+      gochan-reference-v2-r06-f10: -1262393870
+      gochan-reference-v2-r06-f11: -168814437
+      gochan-reference-v2-r07-f00: -945747148
+      gochan-reference-v2-r07-f01: 1354584556
+      gochan-reference-v2-r07-f02: 1937175875
+      gochan-reference-v2-r07-f03: 338021218
+      gochan-reference-v2-r07-f04: -1752798465
+      gochan-reference-v2-r07-f05: -1708116053
+      gochan-reference-v2-r07-f06: -921778169
+      gochan-reference-v2-r07-f07: 1716438308
+      gochan-reference-v2-r07-f08: -885685235
+      gochan-reference-v2-r07-f09: -1267200322
+      gochan-reference-v2-r07-f10: 656175970
+      gochan-reference-v2-r07-f11: -637752471
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,69 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using MonsterPouch.Local;
+using NUnit.Framework;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.TestTools;
+using UnityEngine.UI;
+
+public sealed class LobbyStoneContinuityPlayTests
+{
+    [UnityTest]
+    public IEnumerator TrimolPlaysItsCompleteJugglingDrawingsWithNoAdditionalProceduralStones()
+    {
+        string[] keys={"monster-pouch.decks.v1","monster-pouch.monster","monster-pouch.whelps"};
+        var saved=keys.Select(PlayerPrefs.GetString).ToArray();var existed=keys.Select(PlayerPrefs.HasKey).ToArray();
+        LocalGameUI ui=null;LobbyAnimationDirector director=null;
+        try
+        {
+            LobbyAnimationDirector.PlaybackEnabled=true;
+            yield return SceneManager.LoadSceneAsync("Assets/Scenes/main-scene.unity");yield return null;yield return null;
+            ui=Object.FindFirstObjectByType<LocalGameUI>();Assert.IsNotNull(ui);ui.Match.enabled=false;
+            director=ui.LobbyDirector;director.enabled=false;
+            typeof(LocalGameUI).GetMethod("ShowCollectionInfo",BindingFlags.Instance|BindingFlags.NonPublic)
+                .Invoke(ui,new object[]{ui.Match.Config.Get("trimol")});yield return null;
+            var details=ui.CanvasRoot.GetComponentsInChildren<RectTransform>().Single(r=>r.name=="Character details");
+            var personality=details.GetComponentInChildren<LobbyPersonality>();Assert.AreEqual("trimol",personality.UnitId);
+            var drawing=personality.GetComponentInChildren<LobbyFrameGraphic>();Assert.IsTrue(drawing.HasAuthoredFrames);
+            Assert.GreaterOrEqual(drawing.PoseCount,24);
+            var original=drawing.CurrentSprite;var foot=drawing.FootAnchor;var seen=new HashSet<int>();
+            Assert.IsTrue(personality.PlayGesture());int previous=-1;
+            for(int tick=0;tick<480;tick++)
+            {
+                Assert.IsTrue(personality.IsGesturing);Assert.GreaterOrEqual(drawing.FrameIndex,previous);
+                previous=drawing.FrameIndex;seen.Add(previous);
+                Assert.AreNotSame(original,drawing.CurrentSprite);
+                Assert.AreEqual(foot,drawing.FootAnchor);
+                // Exactly two stones is an art-review requirement for each atlas
+                // drawing. This integration check prevents adding another pair.
+                Assert.IsFalse(personality.GetComponentsInChildren<MonoBehaviour>(true)
+                    .Any(c=>c!=null&&c.GetType().Name=="LobbyJugglingStones"),"Procedural stones duplicated the authored drawing.");
+                Assert.AreEqual(1,drawing.GetComponentsInChildren<Graphic>(true).Length);
+                if(tick%16==0)
+                {
+                    Canvas.ForceUpdateCanvases();var mesh=drawing.canvasRenderer.GetMesh();
+                    Assert.IsNotNull(mesh);Assert.AreEqual(4,mesh.vertexCount,"Trimol and both stones must share one complete drawing.");
+                }
+                if(tick<479)personality.Advance(personality.GestureDuration/480f);
+            }
+            CollectionAssert.AreEquivalent(Enumerable.Range(0,drawing.PoseCount),seen);
+            personality.Advance(.1f);Assert.IsFalse(personality.IsGesturing);Assert.IsTrue(drawing.IsAtRest);
+            Assert.AreSame(original,drawing.CurrentSprite);ui.CloseModal();director.Advance(0);
+            Assert.AreEqual(0,director.ActiveCount);
+        }
+        finally
+        {
+            LobbyAnimationDirector.PlaybackEnabled=false;
+            try{if(ui!=null){ui.CloseModal();ui.Match.Menu();ui.Match.enabled=true;}if(director!=null)director.enabled=true;}
+            finally
+            {
+                for(int i=0;i<keys.Length;i++){if(existed[i])PlayerPrefs.SetString(keys[i],saved[i]);else PlayerPrefs.DeleteKey(keys[i]);}
+                PlayerPrefs.Save();
+            }
+        }
+        yield return null;
+    }
+}

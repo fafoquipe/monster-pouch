@@ -1,0 +1,378 @@
+{
+  "apk": [
+    {
+      "path": "Builds\\Android\\2026-10-08-centered-portrait\\MonsterPouch_2026-10-08_16-24-56.apk",
+      "bytes": 356721667,
+      "largestEntries": [
+        {
+          "path": "lib/arm64-v8a/libil2cpp.so",
+          "bytes": 97849304,
+          "compressed": 24814515
+        },
+        {
+          "path": "lib/armeabi-v7a/libil2cpp.so",
+          "bytes": 79778048,
+          "compressed": 23738671
+        },
+        {
+          "path": "lib/arm64-v8a/libunity.so",
+          "bytes": 21859584,
+          "compressed": 9638244
+        },
+        {
+          "path": "lib/armeabi-v7a/libunity.so",
+          "bytes": 15716124,
+          "compressed": 8648385
+        },
+        {
+          "path": "assets/bin/Data/abbac4d8c8313fe44b1b349aa38cd83d",
+          "bytes": 4717816,
+          "compressed": 4109171
+        },
+        {
+          "path": "assets/bin/Data/57fd37834b98e1344bb5d6ca2cc8d15e",
+          "bytes": 4717816,
+          "compressed": 4067985
+        },
+        {
+          "path": "assets/bin/Data/Managed/Metadata/global-metadata.dat",
+          "bytes": 12972980,
+          "compressed": 3929960
+        },
+        {
+          "path": "assets/bin/Data/04b26d7db560d22448e286926c8fc609",
+          "bytes": 4717852,
+          "compressed": 3897425
+        },
+        {
+          "path": "assets/bin/Data/a00eee87261d1e14285798323187818c",
+          "bytes": 4717816,
+          "compressed": 3879194
+        },
+        {
+          "path": "assets/bin/Data/b33425f53a59f3a4d8d7d7bf35504b66",
+          "bytes": 4717816,
+          "compressed": 3800233
+        },
+        {
+          "path": "assets/bin/Data/84267b042e5325942ac44c13ce1cbbbc",
+          "bytes": 4720852,
+          "compressed": 3459301
+        },
+        {
+          "path": "assets/bin/Data/d0cb671163964d6991d98469329d7bcc",
+          "bytes": 4720864,
+          "compressed": 3323659
+        },
+        {
+          "path": "assets/bin/Data/ab1fbdf22e5b7f34b956f868263cd64c",
+          "bytes": 4720852,
+          "compressed": 3254820
+        },
+        {
+          "path": "assets/bin/Data/4a9b959de928d4a41ae666a8ae603258",
+          "bytes": 4720852,
+          "compressed": 3169463
+        },
+        {
+          "path": "assets/bin/Data/8f4153c9b1b072f4fa0a55739705ce17",
+          "bytes": 4720852,
+          "compressed": 3156192
+        },
+        {
+          "path": "assets/bin/Data/489fe07e6c08d10429b318970fedad06",
+          "bytes": 6291564,
+          "compressed": 3035322
+        },
+        {
+          "path": "assets/bin/Data/1631e5164fd163e4490fe45f3b5fd7e0",
+          "bytes": 6291720,
+          "compressed": 2941093
+        },
+        {
+          "path": "assets/bin/Data/14572fb8789f7204bb79fb65f4830890",
+          "bytes": 6290328,
+          "compressed": 2869154
+        },
+        {
+          "path": "assets/bin/Data/50fe0930f934c444e8d0b520e697d3f2",
+          "bytes": 6292236,
+          "compressed": 2859923
+        },
+        {
+          "path": "assets/bin/Data/098644c8a89ad8f479fd2c7a9bbef9bd",
+          "bytes": 6290324,
+          "compressed": 2855540
+        }
+      ]
+    },
+    {
+      "path": "Builds\\Android\\2026-10-08_10-24-37\\MonsterPouch_2026-10-08_10-24-40.apk",
+      "bytes": 323528515,
+      "largestEntries": [
+        {
+          "path": "lib/arm64-v8a/libil2cpp.so",
+          "bytes": 97829224,
+          "compressed": 24807599
+        },
+        {
+          "path": "lib/arm64-v8a/libunity.so",
+          "bytes": 21859376,
+          "compressed": 9637907
+        },
+        {
+          "path": "assets/bin/Data/abbac4d8c8313fe44b1b349aa38cd83d",
+          "bytes": 4717816,
+          "compressed": 4109171
+        },
+        {
+          "path": "assets/bin/Data/57fd37834b98e1344bb5d6ca2cc8d15e",
+          "bytes": 4717816,
+          "compressed": 4067985
+        },
+        {
+          "path": "assets/bin/Data/Managed/Metadata/global-metadata.dat",
+          "bytes": 12968052,
+          "compressed": 3929024
+        },
+        {
+          "path": "assets/bin/Data/04b26d7db560d22448e286926c8fc609",
+          "bytes": 4717852,
+          "compressed": 3897425
+        },
+        {
+          "path": "assets/bin/Data/a00eee87261d1e14285798323187818c",
+          "bytes": 4717816,
+          "compressed": 3879194
+        },
+        {
+          "path": "assets/bin/Data/b33425f53a59f3a4d8d7d7bf35504b66",
+          "bytes": 4717816,
+          "compressed": 3800233
+        },
+        {
+          "path": "assets/bin/Data/84267b042e5325942ac44c13ce1cbbbc",
+          "bytes": 4720852,
+          "compressed": 3459301
+        },
+        {
+          "path": "assets/bin/Data/d0cb671163964d6991d98469329d7bcc",
+          "bytes": 4720864,
+          "compressed": 3323659
+        },
+        {
+          "path": "assets/bin/Data/ab1fbdf22e5b7f34b956f868263cd64c",
+          "bytes": 4720852,
+          "compressed": 3254820
+        },
+        {
+          "path": "assets/bin/Data/4a9b959de928d4a41ae666a8ae603258",
+          "bytes": 4720852,
+          "compressed": 3169463
+        },
+        {
+          "path": "assets/bin/Data/8f4153c9b1b072f4fa0a55739705ce17",
+          "bytes": 4720852,
+          "compressed": 3156192
+        },
+        {
+          "path": "assets/bin/Data/489fe07e6c08d10429b318970fedad06",
+          "bytes": 6291564,
+          "compressed": 3035322
+        },
+        {
+          "path": "assets/bin/Data/1631e5164fd163e4490fe45f3b5fd7e0",
+          "bytes": 6291720,
+          "compressed": 2941093
+        },
+        {
+          "path": "assets/bin/Data/14572fb8789f7204bb79fb65f4830890",
+          "bytes": 6290328,
+          "compressed": 2869154
+        },
+        {
+          "path": "assets/bin/Data/50fe0930f934c444e8d0b520e697d3f2",
+          "bytes": 6292236,
+          "compressed": 2859923
+        },
+        {
+          "path": "assets/bin/Data/098644c8a89ad8f479fd2c7a9bbef9bd",
+          "bytes": 6290324,
+          "compressed": 2855540
+        },
+        {
+          "path": "assets/bin/Data/e7ffd54094178af4bb021a22b737d943",
+          "bytes": 6290328,
+          "compressed": 2838656
+        },
+        {
+          "path": "assets/bin/Data/faee2552b5c99fb40b1a8ff52f301f60",
+          "bytes": 4720852,
+          "compressed": 2820209
+        }
+      ]
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "Assets\\art\\branding\\launcher-adaptive-background.asset",
+      "bytes": 9332253
+    },
+    {
+      "path": "Assets\\art\\branding\\launcher-adaptive-foreground.asset",
+      "bytes": 9332253
+    },
+    {
+      "path": "Assets\\art\\branding\\launcher-icon.asset",
+      "bytes": 4573324
+    },
+    {
+      "path": "Assets\\Settings\\Lit2DSceneTemplate.scenetemplate",
+      "bytes": 3942809
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\tauris-approved\\tauris-animation-source-v1.png",
+      "bytes": 2984860
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\stein-approved\\stein-animation-rgba-v1.png",
+      "bytes": 2951665
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\AbilityArt\\abilities-03.png",
+      "bytes": 2745522
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\kayon-approved\\kayon-animation-rgba-v1.png",
+      "bytes": 2690345
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\AbilityArt\\abilities-04.png",
+      "bytes": 2663739
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\stein\\stein-animation-rgba-v1.png",
+      "bytes": 2653388
+    },
+    {
+      "path": "Assets\\art\\ambientations\\casino\\casino-table-path.png",
+      "bytes": 2625467
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\tauris-approved\\tauris-animation-rgba-v2.png",
+      "bytes": 2553796
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\AbilityArt\\abilities-02.png",
+      "bytes": 2480033
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\tauris-approved\\tauris-animation-rgba-v3.png",
+      "bytes": 2477257
+    },
+    {
+      "path": "Assets\\art\\ambientations\\casino\\green-path-np.png",
+      "bytes": 2441971
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\bugui\\bugui-animation-rgba-v2.png",
+      "bytes": 2422186
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\AbilityArt\\abilities-05.png",
+      "bytes": 2416088
+    },
+    {
+      "path": "Assets\\art\\ambientations\\casino\\casino-board.png",
+      "bytes": 2412658
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\tauris\\tauris-animation-rgba-v1.png",
+      "bytes": 2376454
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\AbilityArt\\abilities-01.png",
+      "bytes": 2320301
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyFrames\\gochan.png",
+      "bytes": 2303643
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\anuik-approved\\anuik-animation-rgba-v2.png",
+      "bytes": 2303056
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyGestures\\blotan.png",
+      "bytes": 2300595
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyGestures\\atong.png",
+      "bytes": 2287502
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyGestures\\stein.png",
+      "bytes": 2278248
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyGestures\\flo.png",
+      "bytes": 2251770
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\kayon\\kayon-animation-rgba-v1.png",
+      "bytes": 2236159
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyGestures\\hymay.png",
+      "bytes": 2227983
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\stein-approved\\stein-animation-source-v1.png",
+      "bytes": 2212962
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyGestures\\kayon.png",
+      "bytes": 2187643
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyFrames\\trimol.png",
+      "bytes": 2138949
+    },
+    {
+      "path": "Assets\\art\\units\\local\\dummy\\dummy-animation-v1.png",
+      "bytes": 2138786
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyFrames\\sepora.png",
+      "bytes": 2128142
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyGestures\\bugui.png",
+      "bytes": 2118261
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyFrames\\blotan.png",
+      "bytes": 2117306
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\TableSkins\\royal-arena-giant-props.png",
+      "bytes": 2107934
+    },
+    {
+      "path": "Assets\\art\\units\\generated\\anuik-approved\\anuik-revive-rgba-v1.png",
+      "bytes": 2093046
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\LobbyGestures\\gochan.png",
+      "bytes": 2092470
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\TableSkins\\royal-arena.png",
+      "bytes": 2070989
+    },
+    {
+      "path": "Assets\\resources\\MonsterPouch\\UI\\TableSkins\\royal-deck.png",
+      "bytes": 2058049
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using MonsterPouch.Local;
+using NUnit.Framework;
+using UnityEngine;
+using UnityEngine.TestTools;
+using UnityEngine.UI;
+
+// The historical file name is retained so upgrading the project removes the old
+// rig assertions. These tests exercise actual complete authored frame images.
+public sealed class LobbyFramePlaybackPlayTests
+{
+    static readonly string[] Roster={"anuik","bugaloo","popow","sepora","tauris","atori","blotan","bugui","flo",
+        "gochan","jazar","kayon","stein","trimol","tsu","atong","tokoro","aky","hymay"};
+    GameObject canvas;
+    [UnitySetUp] public IEnumerator CreateCanvas()
+    {
+        canvas=new GameObject("Whole frame regression",typeof(RectTransform),typeof(Canvas));
+        canvas.GetComponent<Canvas>().renderMode=RenderMode.ScreenSpaceOverlay;yield return null;
+    }
+    [UnityTearDown] public IEnumerator Cleanup(){Object.Destroy(canvas);yield return null;}
+    LobbyFrameGraphic Create(string id)
+    {
+        var go=new GameObject(id,typeof(RectTransform),typeof(LobbyFrameGraphic));go.transform.SetParent(canvas.transform,false);
+        var drawing=go.GetComponent<LobbyFrameGraphic>();drawing.rectTransform.sizeDelta=new Vector2(360,300);
+        Assert.IsTrue(drawing.Configure(id),id);Assert.IsTrue(drawing.HasAuthoredFrames,id+": no complete frame atlas loaded.");
+        Assert.GreaterOrEqual(drawing.PoseCount,24,id+": too few authored drawings.");
+        return drawing;
+    }
+
+    [UnityTest] public IEnumerator AllNineteenRenderEveryCompleteFrameAsOneUnwarpedQuadWithFixedFeet()
+    {
+        Assert.IsNotNull(Resources.Load<TextAsset>("MonsterPouch/UI/LobbyFrames/clips"));
+        foreach(string id in Roster)
+        {
+            var drawing=Create(id);yield return null;
+            var clip=drawing.SourceClip;Assert.IsNotNull(clip,id);
+            Assert.AreEqual(id,clip.id);Assert.AreEqual(clip.frames.Length,drawing.PoseCount);
+            var atlas=Resources.Load<Texture2D>(clip.texture);Assert.IsNotNull(atlas,id);
+            var original=drawing.CurrentSprite;var idle=Read(drawing);
+            Assert.AreSame(Resources.Load<Texture2D>(clip.idleTexture),original.texture,id);
+            Assert.AreEqual(-1,drawing.FrameIndex);Assert.IsTrue(drawing.IsAtRest);
+            var foot=drawing.FootAnchor;var root=drawing.transform.position;
+            var uniqueRects=new HashSet<Rect>();var sprites=new HashSet<Sprite>();
+            for(int index=0;index<drawing.PoseCount;index++)
+            {
+                drawing.SetPose(index);var frame=drawing.CurrentFrame;
+                Assert.AreSame(clip.frames[index],frame,id);Assert.AreEqual(index,drawing.FrameIndex,id);
+                Assert.IsFalse(drawing.IsAtRest,id);Assert.AreSame(atlas,drawing.mainTexture,id);
+                Assert.AreNotSame(original,drawing.CurrentSprite,id);Assert.AreSame(atlas,drawing.CurrentSprite.texture,id);
+                var r=new Rect(frame.rect[0],frame.rect[1],frame.rect[2],frame.rect[3]);
+                Assert.AreEqual(r,drawing.CurrentSprite.rect,id);Assert.Greater(r.width,0);Assert.Greater(r.height,0);
+                Assert.GreaterOrEqual(r.xMin,0);Assert.GreaterOrEqual(r.yMin,0);
+                Assert.LessOrEqual(r.xMax,atlas.width);Assert.LessOrEqual(r.yMax,atlas.height);
+                uniqueRects.Add(r);sprites.Add(drawing.CurrentSprite);
+                var mesh=Read(drawing);AssertCompleteQuad(mesh,drawing.CurrentSprite,id+" frame "+index);
+                // Different source drawings can have different body heights.
+                // Their measured registration is uniform and deterministic;
+                // it never stretches axes, warps parts, or animates a held pose.
+                float registration=frame.registrationScale>0&&!float.IsNaN(frame.registrationScale)&&!float.IsInfinity(frame.registrationScale)?frame.registrationScale:1;
+                float scale=drawing.BodyHeight/drawing.ReferenceHeight*registration;
+                Assert.That(drawing.UniformFrameScale,Is.EqualTo(scale).Within(.000001f),id+": incorrect drawing-size registration.");
+                Assert.That((mesh.Positions[1]-mesh.Positions[0]).magnitude/r.width,Is.EqualTo(scale).Within(.0001f),id);
+                var drawnFoot=(Vector2)mesh.Positions[0]+new Vector2(frame.anchor[0],frame.anchor[1])*scale;
+                Assert.Less(Vector2.Distance(foot,drawnFoot),.001f,id+": source foot anchor is not pinned to the podium.");
+                Assert.AreEqual(foot,drawing.FootAnchor);Assert.AreEqual(root,drawing.transform.position);
+                Assert.AreEqual(1,drawing.GetComponentsInChildren<Graphic>(true).Length,id+": layered parts or procedural props were added to the complete frame.");
+                drawing.SetPose(-1);drawing.SetPose(index);
+                AssertMeshEqual(mesh,Read(drawing),id+": registration changed when revisiting the same drawing.");
+            }
+            Assert.AreEqual(drawing.PoseCount,uniqueRects.Count,id+": repeated rectangle entries are not new authored frames.");
+            Assert.AreEqual(drawing.PoseCount,sprites.Count,id);
+            foreach(var stop in new[]{0f,.5f,1f})
+            {
+                drawing.SampleFrame(stop,false);Assert.AreSame(original,drawing.CurrentSprite);
+                Assert.AreEqual(-1,drawing.FrameIndex);Assert.IsTrue(drawing.IsAtRest);AssertMeshEqual(idle,Read(drawing),id);
+            }
+            drawing.SampleFrame(1,true);Assert.AreSame(original,drawing.CurrentSprite);AssertMeshEqual(idle,Read(drawing),id);
+            foreach(float invalid in new[]{float.NaN,float.PositiveInfinity,float.NegativeInfinity})
+            {
+                drawing.SampleFrame(.5f);drawing.SampleFrame(invalid);
+                Assert.AreEqual(-1,drawing.FrameIndex,id);Assert.AreSame(original,drawing.CurrentSprite,id);
+            }
+            Object.Destroy(drawing.gameObject);yield return null;
+        }
+    }
+
+    [UnityTest] public IEnumerator RegistrationCorrectsWholeDrawingSizeUniformlyAroundItsFixedFoot()
+    {
+        var drawing=Create("aky");yield return null;
+        var frame=drawing.SourceClip.frames[0];float originalRegistration=frame.registrationScale;
+        var foot=drawing.FootAnchor;var idle=Read(drawing);
+        try
+        {
+            // These are externally measured body sizes, not bounds including
+            // wings, magic or an opening jaw. Metadata selects the measurement.
+            foreach(float measuredBodyHeight in new[]{90f,102f})
+            {
+                frame.registrationScale=drawing.ReferenceHeight/measuredBodyHeight;
+                drawing.SetPose(-1);drawing.SetPose(0);var mesh=Read(drawing);
+                AssertCompleteQuad(mesh,drawing.CurrentSprite,"Uniform source drawing registration");
+                float scale=drawing.UniformFrameScale;
+                Assert.That(measuredBodyHeight*scale,Is.EqualTo(drawing.BodyHeight).Within(.0001f));
+                Assert.That((mesh.Positions[1]-mesh.Positions[0]).magnitude/frame.rect[2],Is.EqualTo(scale).Within(.0001f));
+                var drawnFoot=(Vector2)mesh.Positions[0]+new Vector2(frame.anchor[0],frame.anchor[1])*scale;
+                Assert.Less(Vector2.Distance(foot,drawnFoot),.001f);
+                drawing.SetPose(-1);drawing.SetPose(0);AssertMeshEqual(mesh,Read(drawing),"Per-pose registration must be deterministic.");
+            }
+            foreach(float missingOrInvalid in new[]{0f,-1f,float.NaN,float.PositiveInfinity,float.NegativeInfinity})
+            {
+                frame.registrationScale=missingOrInvalid;drawing.SetPose(-1);drawing.SetPose(0);
+                var mesh=Read(drawing);AssertCompleteQuad(mesh,drawing.CurrentSprite,"Default registration");
+                Assert.That(drawing.UniformFrameScale,Is.EqualTo(drawing.BodyHeight/drawing.ReferenceHeight).Within(.000001f));
+                var drawnFoot=(Vector2)mesh.Positions[0]+new Vector2(frame.anchor[0],frame.anchor[1])*drawing.UniformFrameScale;
+                Assert.Less(Vector2.Distance(foot,drawnFoot),.001f);
+            }
+            drawing.SetPose(-1);AssertMeshEqual(idle,Read(drawing),"Registration must not change the original idle.");
+        }
+        finally{frame.registrationScale=originalRegistration;Object.Destroy(drawing.gameObject);}
+        yield return null;
+    }
+
+    [UnityTest] public IEnumerator ActualPlaybackVisitsEveryDrawingInOrderAndNeverBlendsTwoSilhouettes()
+    {
+        foreach(string id in Roster)
+        {
+            var drawing=Create(id);yield return null;
+            var original=drawing.CurrentSprite;int previous=-1;var seen=new HashSet<int>();
+            const int samples=2048;
+            for(int tick=0;tick<samples;tick++)
+            {
+                float t=tick/(float)samples;drawing.SampleFrame(t);
+                int index=drawing.FrameIndex;
+                Assert.That(index,Is.InRange(0,drawing.PoseCount-1),id);
+                Assert.That(index-previous,Is.InRange(0,1),id+": playback skipped or reversed an authored drawing.");
+                if(seen.Add(index))AssertCompleteQuad(Read(drawing),drawing.CurrentSprite,id);
+                Assert.AreEqual(Color.white,drawing.color,id+": frame playback must not fade character silhouettes.");
+                previous=index;
+            }
+            CollectionAssert.AreEquivalent(Enumerable.Range(0,drawing.PoseCount),seen,id);
+            drawing.SampleFrame(1);Assert.AreEqual(-1,drawing.FrameIndex);Assert.AreSame(original,drawing.CurrentSprite);
+            Object.Destroy(drawing.gameObject);yield return null;
+        }
+    }
+
+    [UnityTest] public IEnumerator MainActionDrawingsReceiveTheLongReadableHoldForHeartIceCreamAndWings()
+    {
+        // Art approval checks the heart, two licks and wings themselves. Here we
+        // verify that the real renderer gives those central drawings their time.
+        foreach(string id in new[]{"anuik","tokoro","aky"})
+        {
+            var drawing=Create(id);yield return null;
+            var timing=LobbyGestureTiming.For(id);var original=drawing.CurrentSprite;
+            Assert.Greater(timing.Main,timing.Reveal+timing.Return,id+": the important action was reduced to a flash.");
+            int reveal=LobbyFramePlayback.FrameCountForPhase(drawing.PoseCount,0);
+            int main=LobbyFramePlayback.FrameCountForPhase(drawing.PoseCount,1);
+            int finish=LobbyFramePlayback.FrameCountForPhase(drawing.PoseCount,2);
+            Assert.Greater(timing.Main/main,timing.Reveal/reveal,id);
+            Assert.Greater(timing.Main/main,timing.Return/finish,id);
+            var seen=new HashSet<int>();
+            for(int i=0;i<main;i++)
+            {
+                float seconds=timing.Reveal+timing.Main*(i+.5f)/main;
+                drawing.SampleFrame(seconds/timing.Duration);
+                Assert.AreEqual(reveal+i,drawing.FrameIndex,id);seen.Add(drawing.FrameIndex);
+                Assert.AreNotSame(original,drawing.CurrentSprite);AssertCompleteQuad(Read(drawing),drawing.CurrentSprite,id);
+            }
+            Assert.AreEqual(main,seen.Count,id);drawing.SampleFrame(1);Assert.AreSame(original,drawing.CurrentSprite);
+            Object.Destroy(drawing.gameObject);yield return null;
+        }
+    }
+
+    [UnityTest] public IEnumerator HoldingTheSameDrawingKeepsAllRenderedPixelsAndGeometryUnchanged()
+    {
+        foreach(string id in Roster)
+        {
+            var drawing=Create(id);yield return null;
+            var timing=LobbyGestureTiming.For(id);int main=LobbyFramePlayback.FrameCountForPhase(drawing.PoseCount,1);
+            int middle=main/2;float beginning=timing.Reveal+middle*timing.Main/main;
+            drawing.SampleFrame((beginning+.2f*timing.Main/main)/timing.Duration);
+            var sprite=drawing.CurrentSprite;int index=drawing.FrameIndex;var before=Read(drawing);
+            drawing.SampleFrame((beginning+.8f*timing.Main/main)/timing.Duration);
+            Assert.AreEqual(index,drawing.FrameIndex);Assert.AreSame(sprite,drawing.CurrentSprite);
+            AssertMeshEqual(before,Read(drawing),id+": a held frame warped, moved, or crossfaded between sample times.");
+            Object.Destroy(drawing.gameObject);yield return null;
+        }
+    }
+
+    readonly struct MeshSnapshot
+    {
+        public readonly Vector3[] Positions;public readonly Vector2[] UV;public readonly Color32[] Colors;public readonly int[] Triangles;
+        public MeshSnapshot(Mesh mesh)
+        {Positions=mesh?.vertices??new Vector3[0];UV=mesh?.uv??new Vector2[0];Colors=mesh?.colors32??new Color32[0];Triangles=mesh?.triangles??new int[0];}
+    }
+    static MeshSnapshot Read(Graphic graphic)
+    {Canvas.ForceUpdateCanvases();return new MeshSnapshot(graphic.canvasRenderer.GetMesh());}
+    static void AssertMeshEqual(MeshSnapshot expected,MeshSnapshot actual,string message)
+    {
+        CollectionAssert.AreEqual(expected.Positions,actual.Positions,message);CollectionAssert.AreEqual(expected.UV,actual.UV,message);
+        CollectionAssert.AreEqual(expected.Colors,actual.Colors,message);CollectionAssert.AreEqual(expected.Triangles,actual.Triangles,message);
+    }
+    static void AssertCompleteQuad(MeshSnapshot mesh,Sprite sprite,string message)
+    {
+        Assert.AreEqual(4,mesh.Positions.Length,message);Assert.AreEqual(6,mesh.Triangles.Length,message);
+        Assert.AreEqual(4,mesh.UV.Length,message);Assert.IsTrue(mesh.Colors.All(c=>c.a==255),message+": faded layer.");
+        var p=mesh.Positions;var r=sprite.rect;var texture=sprite.texture;
+        Assert.That(p[0].x,Is.EqualTo(p[3].x).Within(.0001f),message);Assert.That(p[1].x,Is.EqualTo(p[2].x).Within(.0001f),message);
+        Assert.That(p[0].y,Is.EqualTo(p[1].y).Within(.0001f),message);Assert.That(p[2].y,Is.EqualTo(p[3].y).Within(.0001f),message);
+        Assert.Greater(p[1].x,p[0].x,message);Assert.Greater(p[3].y,p[0].y,message);
+        Assert.That((p[1].x-p[0].x)/r.width,Is.EqualTo((p[3].y-p[0].y)/r.height).Within(.0001f),message+": nonuniform scaling.");
+        Vector2[] expected={new Vector2(r.xMin/texture.width,r.yMin/texture.height),new Vector2(r.xMax/texture.width,r.yMin/texture.height),
+            new Vector2(r.xMax/texture.width,r.yMax/texture.height),new Vector2(r.xMin/texture.width,r.yMax/texture.height)};
+        for(int i=0;i<4;i++)Assert.Less(Vector2.Distance(expected[i],mesh.UV[i]),.000001f,message+": cropped or warped source UV.");
+    }
+}

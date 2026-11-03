@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511ff38c74f24bcaaebcfb1a3166968f, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAttack
+  Kind: 1
+  DisplayName: Marte y sus lunas
+  Description: Lanza Marte y dos lunas por una trayectoria entrelazada. Cada proyectil
+    afecta la casilla que atraviesa.
+  Damage: 6
+  Range: 4
+  Interval: 1.6
+  Windup: 0.9
+  Hold: 0.1
+  Recovery: 0.2
+  ProjectileSpeed: 3
+  ProjectileVisuals:
+  - VariantId: mars
+    RendererId: mars
+    NameEnglish: Mars
+    NameSpanish: Marte
+    OverrideSize: 1
+    SizePercent: 50.2
+    LegacyPercent: 80
+    LegacyNoteEnglish: Original reference measures the body, excluding rings/glow.
+      Custom sizes measure the full visible projectile. Original appearance is preserved
+      until enabled.
+    LegacyNoteSpanish: "La referencia original mide el cuerpo y excluye anillos/resplandor.
+      El tama\xF1o personalizado mide el proyectil visible completo. El aspecto original
+      se conserva hasta activarlo."
+    Frames:
+    - Sprite: {fileID: 607564399, guid: 6b13690345c0e0a30625b64d1fbf8666, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.2072072
+        y: 0.12612613
+        width: 0.6891892
+        height: 0.5585586
+    - Sprite: {fileID: -1689340620, guid: 6b13690345c0e0a30625b64d1fbf8666, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.18468468
+        y: 0.117117114
+        width: 0.6936937
+        height: 0.5855856
+    - Sprite: {fileID: 989480447, guid: 6b13690345c0e0a30625b64d1fbf8666, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.18552037
+        y: 0.04954955
+        width: 0.6968326
+        height: 0.5765766
+    - Sprite: {fileID: -277160428, guid: 6b13690345c0e0a30625b64d1fbf8666, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.18018018
+        y: 0.12162162
+        width: 0.6936937
+        height: 0.5225225
+  - VariantId: moons
+    RendererId: moons
+    NameEnglish: Moons (both)
+    NameSpanish: Lunas (ambas)
+    OverrideSize: 1
+    SizePercent: 37.8
+    LegacyPercent: 50
+    LegacyNoteEnglish: Original reference measures the body, excluding rings/glow.
+      Custom sizes measure the full visible projectile. Original appearance is preserved
+      until enabled.
+    LegacyNoteSpanish: "La referencia original mide el cuerpo y excluye anillos/resplandor.
+      El tama\xF1o personalizado mide el proyectil visible completo. El aspecto original
+      se conserva hasta activarlo."
+    Frames:
+    - Sprite: {fileID: 1978635874, guid: 6b13690345c0e0a30625b64d1fbf8666, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.22972973
+        y: 0.13963965
+        width: 0.6531532
+        height: 0.518018
+    - Sprite: {fileID: -527689018, guid: 6b13690345c0e0a30625b64d1fbf8666, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.2072072
+        y: 0.1981982
+        width: 0.6531532
+        height: 0.5405405
+    - Sprite: {fileID: 1149242443, guid: 6b13690345c0e0a30625b64d1fbf8666, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.19004525
+        y: 0.13063063
+        width: 0.6696833
+        height: 0.4954955
+    - Sprite: {fileID: -1185795402, guid: 6b13690345c0e0a30625b64d1fbf8666, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.18018018
+        y: 0.1981982
+        width: 0.6801802
+        height: 0.4774775
+  ProjectilePrefab: {fileID: 0}
+  Sound: {fileID: 0}

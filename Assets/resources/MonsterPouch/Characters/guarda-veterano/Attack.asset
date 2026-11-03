@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511ff38c74f24bcaaebcfb1a3166968f, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAttack
+  Kind: 1
+  DisplayName: "B\xE1sico"
+  Description: "Da\xF1o m\xE1gico: {basicDamage}. Alcance: {basicRange}. Cada {basicInterval}
+    s."
+  Damage: 4
+  Range: 2
+  Interval: 0.9
+  Windup: 0.3
+  Hold: 0.1
+  Recovery: 0.22
+  ProjectileSpeed: 6
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: naturalis-catalog
+    NameEnglish: Spiral seed
+    NameSpanish: Semilla espiral
+    OverrideSize: 1
+    SizePercent: 30.5
+    LegacyPercent: -1
+    LegacyNoteEnglish: Original renderer size applies until an override is enabled.
+      Runtime emission hookup is pending.
+    LegacyNoteSpanish: "Se aplica el tama\xF1o original del renderer hasta activar
+      un ajuste. Falta conectar la emisi\xF3n en ejecuci\xF3n."
+    Frames:
+    - Sprite: {fileID: 21300000, guid: 62e6d0b08b3c5292b17eeaa3cee66e6c, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.1484375
+        y: 0.234375
+        width: 0.796875
+        height: 0.3984375
+    - Sprite: {fileID: 21300000, guid: 5a7c33b0ad9d5011a7ddca233228724c, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.14453125
+        y: 0.234375
+        width: 0.79296875
+        height: 0.3984375
+    - Sprite: {fileID: 21300000, guid: 9d175c7462b75f409d93b658f9642e8b, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.109375
+        y: 0.22265625
+        width: 0.78515625
+        height: 0.41015625
+    - Sprite: {fileID: 21300000, guid: d3051df56b96599d8b94e24428465399, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.078125
+        y: 0.21875
+        width: 0.81640625
+        height: 0.40625
+  ProjectilePrefab: {fileID: 0}
+  Sound: {fileID: 0}

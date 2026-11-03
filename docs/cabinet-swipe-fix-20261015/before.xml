@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Failed(Child)" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 21:51:27Z" end-time="2026-10-15 21:51:37Z" duration="10,5947242">
+  <test-suite type="TestSuite" id="1187" name="Monster Pouch" fullname="Monster Pouch" runstate="Runnable" testcasecount="139" result="Failed" site="Child" start-time="2026-10-15 21:51:27Z" end-time="2026-10-15 21:51:37Z" duration="10.594724" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1179" name="MonsterPouch.Local.Tests.PlayMode.dll" fullname="C:/Users/HP VICTUS/Juegos Unity/mini-gogos/game/monster-pouch/Library/ScriptAssemblies/MonsterPouch.Local.Tests.PlayMode.dll" runstate="Runnable" testcasecount="139" result="Failed" site="Child" start-time="2026-10-15 21:51:27Z" end-time="2026-10-15 21:51:37Z" duration="10.549206" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3240" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1100" name="ModularFurniturePlayTests" fullname="ModularFurniturePlayTests" classname="ModularFurniturePlayTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-10-15 21:51:27Z" end-time="2026-10-15 21:51:37Z" duration="10.535975" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1102" name="CancelledAndInterruptedSwipesPreserveOnlyTheVisibleCabinetMaterials" fullname="ModularFurniturePlayTests.CancelledAndInterruptedSwipesPreserveOnlyTheVisibleCabinetMaterials" methodname="CancelledAndInterruptedSwipesPreserveOnlyTheVisibleCabinetMaterials" classname="ModularFurniturePlayTests" runstate="Runnable" seed="1603950462" result="Failed" start-time="2026-10-15 21:51:27Z" end-time="2026-10-15 21:51:35Z" duration="8.025616" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Promoting a preview must preserve the cabinet's rendering materials.
+  Expected: True
+  But was:  False
+]]></message>
+            <stack-trace><![CDATA[at ModularFurniturePlayTests.AssertCabinetAlive (UnityEngine.UI.Graphic[] art, UnityEngine.Material[] materials) [0x00009] in C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Assets\tests\play-mode\modular-furniture-play-tests.cs:60
+at ModularFurniturePlayTests+<CancelledAndInterruptedSwipesPreserveOnlyTheVisibleCabinetMaterials>d__1.MoveNext () [0x002d8] in C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Assets\tests\play-mode\modular-furniture-play-tests.cs:52
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1101" name="SwipeKeepsCabinetMaterialsAliveAcrossEveryLobbyStyle" fullname="ModularFurniturePlayTests.SwipeKeepsCabinetMaterialsAliveAcrossEveryLobbyStyle" methodname="SwipeKeepsCabinetMaterialsAliveAcrossEveryLobbyStyle" classname="ModularFurniturePlayTests" runstate="Runnable" seed="1597615965" result="Failed" start-time="2026-10-15 21:51:35Z" end-time="2026-10-15 21:51:37Z" duration="2.452172" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Promoting a preview must preserve the cabinet's rendering materials.
+  Expected: True
+  But was:  False
+]]></message>
+            <stack-trace><![CDATA[at ModularFurniturePlayTests.AssertCabinetAlive (UnityEngine.UI.Graphic[] art, UnityEngine.Material[] materials) [0x00009] in C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Assets\tests\play-mode\modular-furniture-play-tests.cs:60
+at ModularFurniturePlayTests+<SwipeKeepsCabinetMaterialsAliveAcrossEveryLobbyStyle>d__0.MoveNext () [0x00268] in C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Assets\tests\play-mode\modular-furniture-play-tests.cs:30
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[Saving results to: C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Logs\local-validation\focused-play.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,4834 @@
+fileFormatVersion: 2
+guid: f9484bc35ea7ee74b895f047223147d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7989683981715788455
+    second: blotan-clean-v3_0
+  - first:
+      213: 2339209263908124700
+    second: blotan-clean-v3_1
+  - first:
+      213: 6095708960182356570
+    second: blotan-clean-v3_2
+  - first:
+      213: -7139331506427274181
+    second: blotan-clean-v3_3
+  - first:
+      213: -6941738782882903213
+    second: blotan-clean-v3_4
+  - first:
+      213: 2404353138596710250
+    second: blotan-clean-v3_5
+  - first:
+      213: -2870643502037699770
+    second: blotan-clean-v3_6
+  - first:
+      213: -5655047948760850875
+    second: blotan-clean-v3_7
+  - first:
+      213: -1503127815557996691
+    second: blotan-clean-v3_8
+  - first:
+      213: -2274272536204612451
+    second: blotan-clean-v3_9
+  - first:
+      213: -942988838621023186
+    second: blotan-clean-v3_10
+  - first:
+      213: -6264945214365324721
+    second: blotan-clean-v3_11
+  - first:
+      213: 5423957010240740640
+    second: blotan-clean-v3_12
+  - first:
+      213: 1568258184392806548
+    second: blotan-clean-v3_13
+  - first:
+      213: 3543318700883685888
+    second: blotan-clean-v3_14
+  - first:
+      213: 9136213925964265782
+    second: blotan-clean-v3_15
+  - first:
+      213: -546777307452342321
+    second: blotan-clean-v3_16
+  - first:
+      213: -2111492449015492423
+    second: blotan-clean-v3_17
+  - first:
+      213: 4693818831720846853
+    second: blotan-clean-v3_18
+  - first:
+      213: -5236752711402414936
+    second: blotan-clean-v3_19
+  - first:
+      213: 8579076996420005669
+    second: blotan-clean-v3_20
+  - first:
+      213: -856691712534174470
+    second: blotan-clean-v3_21
+  - first:
+      213: 1715785160076992603
+    second: blotan-clean-v3_22
+  - first:
+      213: 1434102025972908067
+    second: blotan-clean-v3_23
+  - first:
+      213: 5498696237242432465
+    second: blotan-clean-v3_24
+  - first:
+      213: 9044511373468885961
+    second: blotan-clean-v3_25
+  - first:
+      213: 3821262075683194367
+    second: blotan-clean-v3_26
+  - first:
+      213: -6050011765199161672
+    second: blotan-clean-v3_27
+  - first:
+      213: -49527208764626368
+    second: blotan-clean-v3_28
+  - first:
+      213: -1953205786516205505
+    second: blotan-clean-v3_29
+  - first:
+      213: 1925873543820760631
+    second: blotan-clean-v3_30
+  - first:
+      213: 8901000395885553859
+    second: blotan-clean-v3_31
+  - first:
+      213: -8737694707036153734
+    second: blotan-clean-v3_32
+  - first:
+      213: 8302672277916343475
+    second: blotan-clean-v3_33
+  - first:
+      213: -628188564797218768
+    second: blotan-clean-v3_34
+  - first:
+      213: 339952552748968827
+    second: blotan-clean-v3_35
+  - first:
+      213: -1766739852636353884
+    second: blotan-clean-v3_36
+  - first:
+      213: -4929125351980713081
+    second: blotan-clean-v3_37
+  - first:
+      213: 8400864435152189235
+    second: blotan-clean-v3_38
+  - first:
+      213: 4746779801022971618
+    second: blotan-clean-v3_39
+  - first:
+      213: 6445350352447645273
+    second: blotan-clean-v3_40
+  - first:
+      213: 5924008024687780040
+    second: blotan-clean-v3_41
+  - first:
+      213: 6696625570238397827
+    second: blotan-clean-v3_42
+  - first:
+      213: 1576236819719909253
+    second: blotan-clean-v3_43
+  - first:
+      213: -5972572875188920649
+    second: blotan-clean-v3_44
+  - first:
+      213: -4230353149691499132
+    second: blotan-clean-v3_45
+  - first:
+      213: 7342110083939069980
+    second: blotan-clean-v3_46
+  - first:
+      213: -9125294580453631824
+    second: blotan-clean-v3_47
+  - first:
+      213: -7924523197293592651
+    second: blotan-clean-v3_48
+  - first:
+      213: -7165191649126701610
+    second: blotan-clean-v3_49
+  - first:
+      213: 7712111930058634825
+    second: blotan-clean-v3_50
+  - first:
+      213: 3907665506870136014
+    second: blotan-clean-v3_51
+  - first:
+      213: -6880502920932514167
+    second: blotan-clean-v3_52
+  - first:
+      213: -6277428853368926768
+    second: blotan-clean-v3_53
+  - first:
+      213: 5710551794419137347
+    second: blotan-clean-v3_54
+  - first:
+      213: 5832126375395899568
+    second: blotan-clean-v3_55
+  - first:
+      213: -7588928731163927838
+    second: blotan-clean-v3_56
+  - first:
+      213: -773430510649966577
+    second: blotan-clean-v3_57
+  - first:
+      213: -1803403163103828672
+    second: blotan-clean-v3_58
+  - first:
+      213: -2024151933836618791
+    second: blotan-clean-v3_59
+  - first:
+      213: -503222423578312113
+    second: blotan-clean-v3_60
+  - first:
+      213: -4941815886864309276
+    second: blotan-clean-v3_61
+  - first:
+      213: 3984986197929968590
+    second: blotan-clean-v3_62
+  - first:
+      213: 6688449113159318606
+    second: blotan-clean-v3_63
+  - first:
+      213: -8130548529351686712
+    second: blotan-clean-v3_64
+  - first:
+      213: -8011028482250111937
+    second: blotan-clean-v3_65
+  - first:
+      213: -1030525834308392927
+    second: blotan-clean-v3_66
+  - first:
+      213: -9127292279576050088
+    second: blotan-clean-v3_67
+  - first:
+      213: -123526083321056716
+    second: blotan-clean-v3_68
+  - first:
+      213: -1562935067947862461
+    second: blotan-clean-v3_69
+  - first:
+      213: -268384621155156063
+    second: blotan-clean-v3_70
+  - first:
+      213: 6549739980204044633
+    second: blotan-clean-v3_71
+  - first:
+      213: 6148849488379163152
+    second: blotan-clean-v3_72
+  - first:
+      213: -6740582574834016880
+    second: blotan-clean-v3_73
+  - first:
+      213: 7113256411812290942
+    second: blotan-clean-v3_74
+  - first:
+      213: -4518271345162705328
+    second: blotan-clean-v3_75
+  - first:
+      213: -3854501182558274179
+    second: blotan-clean-v3_76
+  - first:
+      213: -206835093043829065
+    second: blotan-clean-v3_77
+  - first:
+      213: -6156129983755294159
+    second: blotan-clean-v3_78
+  - first:
+      213: -983722037291214108
+    second: blotan-clean-v3_79
+  - first:
+      213: 1951491966381694588
+    second: blotan-clean-v3_80
+  - first:
+      213: 5383008202094606850
+    second: blotan-clean-v3_81
+  - first:
+      213: 3145211942842568010
+    second: blotan-clean-v3_82
+  - first:
+      213: -6612260685185627352
+    second: blotan-clean-v3_83
+  - first:
+      213: -1312748925138564563
+    second: blotan-clean-v3_84
+  - first:
+      213: 6397496811935857928
+    second: blotan-clean-v3_85
+  - first:
+      213: 316340532101683521
+    second: blotan-clean-v3_86
+  - first:
+      213: -6741995057849995532
+    second: blotan-clean-v3_87
+  - first:
+      213: 5210687475545585172
+    second: blotan-clean-v3_88
+  - first:
+      213: -4077639618266040081
+    second: blotan-clean-v3_89
+  - first:
+      213: -7257276660031969941
+    second: blotan-clean-v3_90
+  - first:
+      213: -4229447346617603723
+    second: blotan-clean-v3_91
+  - first:
+      213: 4298642868967381842
+    second: blotan-clean-v3_92
+  - first:
+      213: -3116850153305371643
+    second: blotan-clean-v3_93
+  - first:
+      213: 5622250513882732758
+    second: blotan-clean-v3_94
+  - first:
+      213: -5434378450890413716
+    second: blotan-clean-v3_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blotan-clean-v3_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1351
+        width: 114
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a25ccd004f01ee60800000000000000
+      internalID: 7989683981715788455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1351
+        width: 103
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18fb8e8e6a867020800000000000000
+      internalID: 2339209263908124700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_2
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1351
+        width: 106
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ac5d9b00f489450800000000000000
+      internalID: 6095708960182356570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_3
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1351
+        width: 106
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cd5a912dffbec90800000000000000
+      internalID: -7139331506427274181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_4
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1351
+        width: 107
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b46ba1b5df9af90800000000000000
+      internalID: -6941738782882903213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_5
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1351
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6707a4d07afd5120800000000000000
+      internalID: 2404353138596710250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_6
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1351
+        width: 108
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6437248b1fc6928d0800000000000000
+      internalID: -2870643502037699770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_7
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 1351
+        width: 121
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ede423adb3581b0800000000000000
+      internalID: -5655047948760850875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_8
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 1351
+        width: 105
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f18a53731d32be0800000000000000
+      internalID: -1503127815557996691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_9
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 1351
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ce81d8d292070e0800000000000000
+      internalID: -2274272536204612451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_10
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 1351
+        width: 113
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24f5deb5a4d9e2f0800000000000000
+      internalID: -942988838621023186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_11
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 1351
+        width: 123
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4aa87845817e09a0800000000000000
+      internalID: -6264945214365324721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1159
+        width: 105
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d9368d924c54b40800000000000000
+      internalID: 5423957010240740640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1159
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49015dc728293c510800000000000000
+      internalID: 1568258184392806548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_14
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1159
+        width: 109
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002bb2cc5956c2130800000000000000
+      internalID: 3543318700883685888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_15
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1159
+        width: 106
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639b311f82a5ace70800000000000000
+      internalID: 9136213925964265782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_16
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1159
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcffe029fe47968f0800000000000000
+      internalID: -546777307452342321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_17
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1159
+        width: 105
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b013860ec872b2e0800000000000000
+      internalID: -2111492449015492423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_18
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1159
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50692c8cb5bc32140800000000000000
+      internalID: 4693818831720846853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_19
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1159
+        width: 117
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac9b4c87215357b0800000000000000
+      internalID: -5236752711402414936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_20
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 1159
+        width: 99
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fe65803110f0770800000000000000
+      internalID: 8579076996420005669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_21
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 1159
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af421682d6b6c14f0800000000000000
+      internalID: -856691712534174470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_22
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 1159
+        width: 110
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50a6413381bfc710800000000000000
+      internalID: 1715785160076992603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_23
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 1159
+        width: 123
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32088c5c134f6e310800000000000000
+      internalID: 1434102025972908067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 967
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbbc9c281b4f4c40800000000000000
+      internalID: 5498696237242432465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 967
+        width: 104
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3e79e9c2f848d70800000000000000
+      internalID: 9044511373468885961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 967
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5c4c6ac99d70530800000000000000
+      internalID: 3821262075683194367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_27
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 967
+        width: 104
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6be589a5a0a0ca0800000000000000
+      internalID: -6050011765199161672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_28
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 967
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a2eda144b005ff0800000000000000
+      internalID: -49527208764626368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_29
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 967
+        width: 100
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30d6798fa1d4e4e0800000000000000
+      internalID: -1953205786516205505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_30
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 967
+        width: 106
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73652cdc8c31aba10800000000000000
+      internalID: 1925873543820760631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_31
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 967
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8ae5653b4b68b70800000000000000
+      internalID: 8901000395885553859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_32
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 967
+        width: 98
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a789c4f45f87db680800000000000000
+      internalID: -8737694707036153734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_33
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 967
+        width: 121
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcdfa38274093370800000000000000
+      internalID: 8302672277916343475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_34
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 967
+        width: 115
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030ac4f14d93847f0800000000000000
+      internalID: -628188564797218768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_35
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 967
+        width: 124
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7be61bab01c7b400800000000000000
+      internalID: 339952552748968827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 775
+        width: 96
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa8511f6774b77e0800000000000000
+      internalID: -1766739852636353884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_37
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 775
+        width: 92
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b31d5ab9a389bb0800000000000000
+      internalID: -4929125351980713081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_38
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 775
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337757fa1bdd59470800000000000000
+      internalID: 8400864435152189235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_39
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 775
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee39fa5413ffd140800000000000000
+      internalID: 4746779801022971618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_40
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 775
+        width: 103
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956a4922ffb727950800000000000000
+      internalID: 6445350352447645273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_41
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 775
+        width: 98
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0241669ed463250800000000000000
+      internalID: 5924008024687780040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_42
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 775
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d7bd3d9713fec50800000000000000
+      internalID: 6696625570238397827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_43
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 775
+        width: 118
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58feb49490befd510800000000000000
+      internalID: 1576236819719909253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_44
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 775
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be1b333d982d1da0800000000000000
+      internalID: -5972572875188920649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_45
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 775
+        width: 113
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dee264934ca45c0800000000000000
+      internalID: -4230353149691499132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_46
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 775
+        width: 103
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10700f983a64e560800000000000000
+      internalID: 7342110083939069980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_47
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 775
+        width: 121
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8934d4de07c5180800000000000000
+      internalID: -9125294580453631824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_48
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 583
+        width: 104
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bff8f25320760290800000000000000
+      internalID: -7924523197293592651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_49
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 583
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5253e6820209c90800000000000000
+      internalID: -7165191649126701610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_50
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 583
+        width: 102
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946723b90fce60b60800000000000000
+      internalID: 7712111930058634825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_51
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 583
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc8a062311da3630800000000000000
+      internalID: 3907665506870136014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_52
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 583
+        width: 103
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986a7c14c0b8380a0800000000000000
+      internalID: -6880502920932514167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_53
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 583
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd482497b712e8a0800000000000000
+      internalID: -6277428853368926768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_54
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 583
+        width: 103
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b72d9e994ff3f40800000000000000
+      internalID: 5710551794419137347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_55
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 583
+        width: 105
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8b8aad900efe050800000000000000
+      internalID: 5832126375395899568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_56
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 583
+        width: 106
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ead731e685bea690800000000000000
+      internalID: -7588928731163927838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_57
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 583
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0082426c093445f0800000000000000
+      internalID: -773430510649966577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_58
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 583
+        width: 101
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0456164c06609f6e0800000000000000
+      internalID: -1803403163103828672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_59
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 583
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d39f346a84c8e3e0800000000000000
+      internalID: -2024151933836618791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_60
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 391
+        width: 106
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f428a973fd13409f0800000000000000
+      internalID: -503222423578312113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_61
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 391
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3221e32a42b6bb0800000000000000
+      internalID: -4941815886864309276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_62
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 391
+        width: 112
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3437a65d38d4730800000000000000
+      internalID: 3984986197929968590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_63
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 391
+        width: 105
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c3320180522dc50800000000000000
+      internalID: 6688449113159318606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_64
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 391
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c50be6a03d7a2f80800000000000000
+      internalID: -8130548529351686712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_65
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 391
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3402f52a0c13d090800000000000000
+      internalID: -8011028482250111937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_66
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 391
+        width: 104
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1286f22b636d2b1f0800000000000000
+      internalID: -1030525834308392927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_67
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 391
+        width: 117
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85644bab708555180800000000000000
+      internalID: -9127292279576050088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_68
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 391
+        width: 100
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43237238ea5294ef0800000000000000
+      internalID: -123526083321056716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_69
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 391
+        width: 122
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34677f326d65f4ae0800000000000000
+      internalID: -1562935067947862461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_70
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 391
+        width: 110
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af7ed8eb91864cf0800000000000000
+      internalID: -268384621155156063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_71
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 391
+        width: 120
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9517c3b5fc955ea50800000000000000
+      internalID: 6549739980204044633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_72
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 199
+        width: 107
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012be2c180a155550800000000000000
+      internalID: 6148849488379163152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_73
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 199
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d94df7cd3a472a0800000000000000
+      internalID: -6740582574834016880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_74
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 199
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e716756d40d57b260800000000000000
+      internalID: 7113256411812290942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_75
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 199
+        width: 104
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05620c08620eb41c0800000000000000
+      internalID: -4518271345162705328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_76
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 199
+        width: 111
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d7a43b89f028ac0800000000000000
+      internalID: -3854501182558274179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_77
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 199
+        width: 105
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6a908249c212df0800000000000000
+      internalID: -206835093043829065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_78
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 199
+        width: 108
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a62277568019aa0800000000000000
+      internalID: -6156129983755294159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_79
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 199
+        width: 117
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea9881e40e1952f0800000000000000
+      internalID: -983722037291214108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_80
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 199
+        width: 101
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e953e9a97151b10800000000000000
+      internalID: 1951491966381694588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_81
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 199
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20afcdc707944ba40800000000000000
+      internalID: 5383008202094606850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_82
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 199
+        width: 111
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d8274199906ab20800000000000000
+      internalID: 3145211942842568010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_83
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 199
+        width: 120
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bca39a0f78c34a0800000000000000
+      internalID: -6612260685185627352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_84
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 7
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a07ddcecd28cde0800000000000000
+      internalID: -1312748925138564563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_85
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 7
+        width: 103
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d712f747978c850800000000000000
+      internalID: 6397496811935857928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_86
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 7
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1499af3b90ed36400800000000000000
+      internalID: 316340532101683521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_87
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 7
+        width: 103
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe696b273f9f62a0800000000000000
+      internalID: -6741995057849995532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_88
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 7
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416b87fc6a4105840800000000000000
+      internalID: 5210687475545585172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_89
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 7
+        width: 105
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe871371f505967c0800000000000000
+      internalID: -4077639618266040081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_90
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 7
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65af021459f84b90800000000000000
+      internalID: -7257276660031969941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_91
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 7
+        width: 124
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579a3acfb0cfd45c0800000000000000
+      internalID: -4229447346617603723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_92
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 7
+        width: 106
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b11150ae8d7ab30800000000000000
+      internalID: 4298642868967381842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_93
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 7
+        width: 123
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c8c12ac49beb4d0800000000000000
+      internalID: -3116850153305371643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_94
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 7
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8dc3eed0f360e40800000000000000
+      internalID: 5622250513882732758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-clean-v3_95
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 7
+        width: 123
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69a3ab67953594b0800000000000000
+      internalID: -5434378450890413716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1350
+        width: 116
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5301724, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674ec0de47f792c41a64694ae59311bd
+      internalID: 947712153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1350
+        width: 105
+        height: 113
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4adf0931b134d248bf2ca2424b9f0c0
+      internalID: -163459707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1350
+        width: 108
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c382ce328a5eee468c1eadb509bd4e1
+      internalID: 1171117783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1350
+        width: 108
+        height: 114
+      alignment: 9
+      pivot: {x: 0.6203704, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355a0e87cee1f7645a63421c669c426a
+      internalID: -524052716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1350
+        width: 109
+        height: 103
+      alignment: 9
+      pivot: {x: 0.4678899, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a582c7c028ae5346b87cb10f06b8ca6
+      internalID: -1608299215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1350
+        width: 105
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5904762, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa0a98c02db173458e4d1ecad76174d
+      internalID: -1753870135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1350
+        width: 110
+        height: 114
+      alignment: 9
+      pivot: {x: 0.53636366, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbdbe368494c1d4ba0a9fa4ed201905
+      internalID: -628837876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1350
+        width: 123
+        height: 110
+      alignment: 9
+      pivot: {x: 0.42682928, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d775aede124f82840bf74ecc4dde1515
+      internalID: -58034980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 1350
+        width: 107
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5186916, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ea60cacc6e91640b590b3d57432007
+      internalID: 503360636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 1350
+        width: 122
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5409836, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbae9d167c858244ad393a2f1efb527
+      internalID: 177008612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 1350
+        width: 115
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5173913, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527fa0a3eb5c6c541948d95815c75bb3
+      internalID: 708221963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 1350
+        width: 125
+        height: 88
+      alignment: 9
+      pivot: {x: 0.488, y: 0.03409091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29df19586464c164fb3fe0a4d40cf078
+      internalID: 237773162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1158
+        width: 107
+        height: 116
+      alignment: 9
+      pivot: {x: 0.50934577, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d269a732dc6504e8859e4efed1df6c
+      internalID: 1941259803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1158
+        width: 103
+        height: 116
+      alignment: 9
+      pivot: {x: 0.46116504, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f483d21bb0ba84ba7ba0a1b058c7d2
+      internalID: 1743878268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1158
+        width: 111
+        height: 104
+      alignment: 9
+      pivot: {x: 0.46846846, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6440b0d59ffc6154ca734457e34f1abf
+      internalID: 1169738821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1158
+        width: 108
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa8d2befe9a80e4da739c7f9119122e
+      internalID: 510859083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1158
+        width: 108
+        height: 104
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a168b3dd4b7ede94d9b3947f41bae5c4
+      internalID: 300788227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1158
+        width: 107
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5140187, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159dead499505fc49938e184b9ebc57b
+      internalID: 40351954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1158
+        width: 107
+        height: 115
+      alignment: 9
+      pivot: {x: 0.4813084, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12250a33e3787844cae898eeb2269bd1
+      internalID: 2031837876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1158
+        width: 119
+        height: 113
+      alignment: 9
+      pivot: {x: 0.42436975, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfa3f1ebb9429643aa296a2a5e3ce1e
+      internalID: -185566180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 1158
+        width: 101
+        height: 115
+      alignment: 9
+      pivot: {x: 0.48514852, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9c1e27c3d236a4e9d38e050d5a2dfb
+      internalID: -263501614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 1158
+        width: 119
+        height: 119
+      alignment: 9
+      pivot: {x: 0.42436975, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e7148af7877c646b605919a606b91a
+      internalID: -833293536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 1158
+        width: 112
+        height: 108
+      alignment: 9
+      pivot: {x: 0.52678573, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f20bdbf0e037dc459ad842163ac4964
+      internalID: -198909072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 1158
+        width: 125
+        height: 82
+      alignment: 9
+      pivot: {x: 0.496, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a4b577efd61ca42aeba8e586d7104b
+      internalID: -1707461468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 966
+        width: 106
+        height: 114
+      alignment: 9
+      pivot: {x: 0.504717, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb6f4cdd4427534d90860d5cbeabd0d
+      internalID: 519632369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 966
+        width: 106
+        height: 115
+      alignment: 9
+      pivot: {x: 0.495283, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af2d7ea31c8f524aaeafd93a2570157
+      internalID: 782207385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 966
+        width: 108
+        height: 108
+      alignment: 9
+      pivot: {x: 0.47685185, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2fa03562ba98142b7c678b6df2eeb4
+      internalID: -554778748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 966
+        width: 106
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2343cf11531a594ab63bd696f7624e0
+      internalID: -1845147386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 966
+        width: 110
+        height: 108
+      alignment: 9
+      pivot: {x: 0.45909092, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72c9043de13c2b4b9fdfb6f40a29f92
+      internalID: 304271616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 966
+        width: 102
+        height: 118
+      alignment: 9
+      pivot: {x: 0.46078432, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b366cd62e3770408e1efd1bcf11bc6
+      internalID: 1218402015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 966
+        width: 108
+        height: 116
+      alignment: 9
+      pivot: {x: 0.4074074, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3176d0477a0a9f40b5e816f9274a0ac
+      internalID: 2116741600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 966
+        width: 115
+        height: 115
+      alignment: 9
+      pivot: {x: 0.38260868, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd3513da70cbb64e80858df77421ac2
+      internalID: 285265864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 966
+        width: 100
+        height: 116
+      alignment: 9
+      pivot: {x: 0.44, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b0b474a5228da42b77e13715963913
+      internalID: -370505945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 966
+        width: 123
+        height: 120
+      alignment: 9
+      pivot: {x: 0.39430895, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308eff9f3d12e424d8b1b69195ccd3e9
+      internalID: -722611828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 966
+        width: 117
+        height: 112
+      alignment: 9
+      pivot: {x: 0.44871795, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e914bd71e6248f4c981df165209e697
+      internalID: -323714762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 966
+        width: 126
+        height: 84
+      alignment: 9
+      pivot: {x: 0.51984125, y: 0.035714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b040460dbad3b4a9741037b697b474
+      internalID: -471924798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 774
+        width: 98
+        height: 111
+      alignment: 9
+      pivot: {x: 0.4387755, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef255268d8232b4b8edaf91787ae100
+      internalID: 131776757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 774
+        width: 94
+        height: 112
+      alignment: 9
+      pivot: {x: 0.46276596, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a9b46cc2c031845871efaa72573168
+      internalID: 170661392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 774
+        width: 108
+        height: 108
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00693322fb257174486a3a7d1b9faad9
+      internalID: 1946758266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 774
+        width: 105
+        height: 116
+      alignment: 9
+      pivot: {x: 0.43809524, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70593c6171e5db742ac8feb001793632
+      internalID: 414421494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 774
+        width: 105
+        height: 108
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef1827ffd706bf4da609a4f3ded2b11
+      internalID: 707188912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 774
+        width: 100
+        height: 117
+      alignment: 9
+      pivot: {x: 0.465, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c09ea98248c32f49a75b05bc67b9ea3
+      internalID: 1058282363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 774
+        width: 110
+        height: 113
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc88123c75c8f14fbdd12eac03f027b
+      internalID: 289020928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 774
+        width: 120
+        height: 113
+      alignment: 9
+      pivot: {x: 0.35416666, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0016c912daf457c48b69a82d4cdf5440
+      internalID: -906332039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 774
+        width: 104
+        height: 114
+      alignment: 9
+      pivot: {x: 0.4278846, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafda4af8defaa1428b608b747a728e3
+      internalID: 1936374567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 774
+        width: 115
+        height: 118
+      alignment: 9
+      pivot: {x: 0.3869565, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b133c1bdf2d8e40b8648d814a64783
+      internalID: 238137640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 774
+        width: 105
+        height: 113
+      alignment: 9
+      pivot: {x: 0.40952381, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ed563680f3bb54b94636c67d21e9f3
+      internalID: -931355508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 774
+        width: 123
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.0375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f818d8ee2629f1944898b440666d177f
+      internalID: -213114381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 582
+        width: 106
+        height: 116
+      alignment: 9
+      pivot: {x: 0.504717, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684e093f84ace59429085f207b1e267b
+      internalID: -574340325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 582
+        width: 103
+        height: 116
+      alignment: 9
+      pivot: {x: 0.51941746, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d719600283abced4e8832125d506b44a
+      internalID: 928801242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 582
+        width: 104
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5144231, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054d1e753cce7f8479a6cc6952aaa167
+      internalID: -1129421051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 582
+        width: 105
+        height: 116
+      alignment: 9
+      pivot: {x: 0.47142857, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef19d8bff8acca247bf964573457cedd
+      internalID: 923242937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 582
+        width: 105
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5095238, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695e8f85f91efd64396c1b37d160e4f9
+      internalID: 1784969115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 582
+        width: 106
+        height: 114
+      alignment: 9
+      pivot: {x: 0.4198113, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd6ff19c0b68574385579bf8ce98ac8
+      internalID: -354300788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 582
+        width: 105
+        height: 113
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18fa92d8ef8f884db2464a934537c09
+      internalID: -1750561044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 582
+        width: 107
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5186916, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c732e22bddea92e45bd56a2489443af9
+      internalID: 141716944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 582
+        width: 108
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9865cb75c983e774cadcfe6d21d1b81f
+      internalID: 793275703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 582
+        width: 122
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e63375cdb34b924ba14e6049f039392
+      internalID: 1346722648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 582
+        width: 103
+        height: 114
+      alignment: 9
+      pivot: {x: 0.42718446, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7ec05991fc7c64a8d23c56d99d5a8f
+      internalID: -319958942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 582
+        width: 116
+        height: 84
+      alignment: 9
+      pivot: {x: 0.50431037, y: 0.035714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3348e891f0e539248965fd670bc3bdc7
+      internalID: -367305584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 390
+        width: 108
+        height: 118
+      alignment: 9
+      pivot: {x: 0.49537036, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e070514afcb38342a01001f2e5abe38
+      internalID: 7598662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 390
+        width: 106
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5141509, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1bb1c000a3a9c419e10c3801d5e4ad
+      internalID: -1110463837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 390
+        width: 114
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5def345c239efe74bb774cd64a7a73da
+      internalID: -1955687000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 390
+        width: 107
+        height: 120
+      alignment: 9
+      pivot: {x: 0.45327103, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa564944804dd546af5183289d90189
+      internalID: -1502056049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 390
+        width: 110
+        height: 108
+      alignment: 9
+      pivot: {x: 0.52272725, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0976c4eb28252428ac94cf1cf6969b
+      internalID: -186624234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 390
+        width: 104
+        height: 118
+      alignment: 9
+      pivot: {x: 0.46634614, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f36afccf52f3d48b4d87ce9d3682af
+      internalID: -769129091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 390
+        width: 106
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5518868, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a8dbb71dbf6654da8bb0a272af4a68
+      internalID: 304199777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 390
+        width: 119
+        height: 114
+      alignment: 9
+      pivot: {x: 0.60504204, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81156a10794667f42aa37a78f2d895f1
+      internalID: 2093140834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 390
+        width: 102
+        height: 115
+      alignment: 9
+      pivot: {x: 0.51960784, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3938df9ecc2ed54e83d7fd62b2470bf
+      internalID: -1103946250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 390
+        width: 124
+        height: 120
+      alignment: 9
+      pivot: {x: 0.61290324, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a7ac8160b9fcd4a9191d12bd0b2868
+      internalID: -637682662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f10
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 390
+        width: 112
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6240defaa461441b32139507a1819a
+      internalID: 2103932703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r05-f11
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 390
+        width: 122
+        height: 83
+      alignment: 9
+      pivot: {x: 0.48360655, y: 0.036144577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa9371cb31f8b34689124730f83f157
+      internalID: -932899134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 198
+        width: 109
+        height: 116
+      alignment: 9
+      pivot: {x: 0.48623854, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335d942c35c7f4d46af0436644c3deb2
+      internalID: 926952430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 198
+        width: 105
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5190476, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42528054aae8df84fa17144579a9eaa9
+      internalID: -418570974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 198
+        width: 111
+        height: 108
+      alignment: 9
+      pivot: {x: 0.518018, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7692927930e55a14daba40b336df5a97
+      internalID: -717045102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 198
+        width: 106
+        height: 120
+      alignment: 9
+      pivot: {x: 0.43396226, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848902dde70f10740bd352cbe1f09594
+      internalID: -1126484344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 198
+        width: 113
+        height: 107
+      alignment: 9
+      pivot: {x: 0.49115044, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a55d59345da664ab7cb3c8ce6c87c8
+      internalID: 1033440506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 198
+        width: 107
+        height: 120
+      alignment: 9
+      pivot: {x: 0.50934577, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80917a60fdf18454cb7e9c94143bcd85
+      internalID: 440337866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 198
+        width: 110
+        height: 115
+      alignment: 9
+      pivot: {x: 0.47272727, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d345cec06e0d6849ae142b6a1665b88
+      internalID: -1912064679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 198
+        width: 119
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5126051, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33aae37b3d73cb541986c46f295f6d8a
+      internalID: -177498061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 198
+        width: 103
+        height: 115
+      alignment: 9
+      pivot: {x: 0.49029127, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4077631199254ae4582f8e376cbd9e6b
+      internalID: 942641818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 198
+        width: 125
+        height: 121
+      alignment: 9
+      pivot: {x: 0.524, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a97f1ee4eb18bc41a0cfe8feb1a893c
+      internalID: 253767813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f10
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 198
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.49115044, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222cddd9d42011243a4def4b777dcda9
+      internalID: 234082559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r06-f11
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 198
+        width: 122
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4811c6cf1e74c87488db5c765f2aff4f
+      internalID: 1686011120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 6
+        width: 114
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5219298, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce92169b48ac3804891797544d485c3f
+      internalID: -1552467628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 6
+        width: 105
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5190476, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d436d4728d9b24fbe5b71097797e68
+      internalID: 1025396279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 6
+        width: 103
+        height: 102
+      alignment: 9
+      pivot: {x: 0.52427185, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cb15e2fb12ce648925a1cfa6bacb1b
+      internalID: 224891225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 6
+        width: 105
+        height: 117
+      alignment: 9
+      pivot: {x: 0.6047619, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab7b0d2a3b5344418b6390b4a44547d
+      internalID: 1880397355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 6
+        width: 108
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49074075, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea313fb5cc70d9448bd86bbbe1d796cd
+      internalID: 661010940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 6
+        width: 107
+        height: 119
+      alignment: 9
+      pivot: {x: 0.55607474, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befacffec1d93d54384370d35e8508fa
+      internalID: -1570093023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 6
+        width: 108
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9c2c3d75aa89c40ab8030f11e5c1e3
+      internalID: -1567010823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 6
+        width: 126
+        height: 108
+      alignment: 9
+      pivot: {x: 0.41269842, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f7c21c84fa36e4c893d0e29f6c989d
+      internalID: 633844608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 6
+        width: 108
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b86db2b7cc0634793803c6562d8531
+      internalID: -1645869588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 6
+        width: 125
+        height: 115
+      alignment: 9
+      pivot: {x: 0.536, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a228faaa7abcfd54aad82ecae5e37850
+      internalID: -91235023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f10
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 6
+        width: 111
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5315315, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de534883870228046879e9160a231a60
+      internalID: -1063819297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-reference-v2-r07-f11
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 6
+        width: 125
+        height: 78
+      alignment: 9
+      pivot: {x: 0.488, y: 0.03846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c65421b6a840bb4db92ddeae76287a3
+      internalID: 833819726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b3da58533db500045b6a8154337dff8b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blotan-clean-v3_0: 7989683981715788455
+      blotan-clean-v3_1: 2339209263908124700
+      blotan-clean-v3_10: -942988838621023186
+      blotan-clean-v3_11: -6264945214365324721
+      blotan-clean-v3_12: 5423957010240740640
+      blotan-clean-v3_13: 1568258184392806548
+      blotan-clean-v3_14: 3543318700883685888
+      blotan-clean-v3_15: 9136213925964265782
+      blotan-clean-v3_16: -546777307452342321
+      blotan-clean-v3_17: -2111492449015492423
+      blotan-clean-v3_18: 4693818831720846853
+      blotan-clean-v3_19: -5236752711402414936
+      blotan-clean-v3_2: 6095708960182356570
+      blotan-clean-v3_20: 8579076996420005669
+      blotan-clean-v3_21: -856691712534174470
+      blotan-clean-v3_22: 1715785160076992603
+      blotan-clean-v3_23: 1434102025972908067
+      blotan-clean-v3_24: 5498696237242432465
+      blotan-clean-v3_25: 9044511373468885961
+      blotan-clean-v3_26: 3821262075683194367
+      blotan-clean-v3_27: -6050011765199161672
+      blotan-clean-v3_28: -49527208764626368
+      blotan-clean-v3_29: -1953205786516205505
+      blotan-clean-v3_3: -7139331506427274181
+      blotan-clean-v3_30: 1925873543820760631
+      blotan-clean-v3_31: 8901000395885553859
+      blotan-clean-v3_32: -8737694707036153734
+      blotan-clean-v3_33: 8302672277916343475
+      blotan-clean-v3_34: -628188564797218768
+      blotan-clean-v3_35: 339952552748968827
+      blotan-clean-v3_36: -1766739852636353884
+      blotan-clean-v3_37: -4929125351980713081
+      blotan-clean-v3_38: 8400864435152189235
+      blotan-clean-v3_39: 4746779801022971618
+      blotan-clean-v3_4: -6941738782882903213
+      blotan-clean-v3_40: 6445350352447645273
+      blotan-clean-v3_41: 5924008024687780040
+      blotan-clean-v3_42: 6696625570238397827
+      blotan-clean-v3_43: 1576236819719909253
+      blotan-clean-v3_44: -5972572875188920649
+      blotan-clean-v3_45: -4230353149691499132
+      blotan-clean-v3_46: 7342110083939069980
+      blotan-clean-v3_47: -9125294580453631824
+      blotan-clean-v3_48: -7924523197293592651
+      blotan-clean-v3_49: -7165191649126701610
+      blotan-clean-v3_5: 2404353138596710250
+      blotan-clean-v3_50: 7712111930058634825
+      blotan-clean-v3_51: 3907665506870136014
+      blotan-clean-v3_52: -6880502920932514167
+      blotan-clean-v3_53: -6277428853368926768
+      blotan-clean-v3_54: 5710551794419137347
+      blotan-clean-v3_55: 5832126375395899568
+      blotan-clean-v3_56: -7588928731163927838
+      blotan-clean-v3_57: -773430510649966577
+      blotan-clean-v3_58: -1803403163103828672
+      blotan-clean-v3_59: -2024151933836618791
+      blotan-clean-v3_6: -2870643502037699770
+      blotan-clean-v3_60: -503222423578312113
+      blotan-clean-v3_61: -4941815886864309276
+      blotan-clean-v3_62: 3984986197929968590
+      blotan-clean-v3_63: 6688449113159318606
+      blotan-clean-v3_64: -8130548529351686712
+      blotan-clean-v3_65: -8011028482250111937
+      blotan-clean-v3_66: -1030525834308392927
+      blotan-clean-v3_67: -9127292279576050088
+      blotan-clean-v3_68: -123526083321056716
+      blotan-clean-v3_69: -1562935067947862461
+      blotan-clean-v3_7: -5655047948760850875
+      blotan-clean-v3_70: -268384621155156063
+      blotan-clean-v3_71: 6549739980204044633
+      blotan-clean-v3_72: 6148849488379163152
+      blotan-clean-v3_73: -6740582574834016880
+      blotan-clean-v3_74: 7113256411812290942
+      blotan-clean-v3_75: -4518271345162705328
+      blotan-clean-v3_76: -3854501182558274179
+      blotan-clean-v3_77: -206835093043829065
+      blotan-clean-v3_78: -6156129983755294159
+      blotan-clean-v3_79: -983722037291214108
+      blotan-clean-v3_8: -1503127815557996691
+      blotan-clean-v3_80: 1951491966381694588
+      blotan-clean-v3_81: 5383008202094606850
+      blotan-clean-v3_82: 3145211942842568010
+      blotan-clean-v3_83: -6612260685185627352
+      blotan-clean-v3_84: -1312748925138564563
+      blotan-clean-v3_85: 6397496811935857928
+      blotan-clean-v3_86: 316340532101683521
+      blotan-clean-v3_87: -6741995057849995532
+      blotan-clean-v3_88: 5210687475545585172
+      blotan-clean-v3_89: -4077639618266040081
+      blotan-clean-v3_9: -2274272536204612451
+      blotan-clean-v3_90: -7257276660031969941
+      blotan-clean-v3_91: -4229447346617603723
+      blotan-clean-v3_92: 4298642868967381842
+      blotan-clean-v3_93: -3116850153305371643
+      blotan-clean-v3_94: 5622250513882732758
+      blotan-clean-v3_95: -5434378450890413716
+      blotan-reference-v2-r00-f00: 947712153
+      blotan-reference-v2-r00-f01: -163459707
+      blotan-reference-v2-r00-f02: 1171117783
+      blotan-reference-v2-r00-f03: -524052716
+      blotan-reference-v2-r00-f04: -1608299215
+      blotan-reference-v2-r00-f05: -1753870135
+      blotan-reference-v2-r00-f06: -628837876
+      blotan-reference-v2-r00-f07: -58034980
+      blotan-reference-v2-r00-f08: 503360636
+      blotan-reference-v2-r00-f09: 177008612
+      blotan-reference-v2-r00-f10: 708221963
+      blotan-reference-v2-r00-f11: 237773162
+      blotan-reference-v2-r01-f00: 1941259803
+      blotan-reference-v2-r01-f01: 1743878268
+      blotan-reference-v2-r01-f02: 1169738821
+      blotan-reference-v2-r01-f03: 510859083
+      blotan-reference-v2-r01-f04: 300788227
+      blotan-reference-v2-r01-f05: 40351954
+      blotan-reference-v2-r01-f06: 2031837876
+      blotan-reference-v2-r01-f07: -185566180
+      blotan-reference-v2-r01-f08: -263501614
+      blotan-reference-v2-r01-f09: -833293536
+      blotan-reference-v2-r01-f10: -198909072
+      blotan-reference-v2-r01-f11: -1707461468
+      blotan-reference-v2-r02-f00: 519632369
+      blotan-reference-v2-r02-f01: 782207385
+      blotan-reference-v2-r02-f02: -554778748
+      blotan-reference-v2-r02-f03: -1845147386
+      blotan-reference-v2-r02-f04: 304271616
+      blotan-reference-v2-r02-f05: 1218402015
+      blotan-reference-v2-r02-f06: 2116741600
+      blotan-reference-v2-r02-f07: 285265864
+      blotan-reference-v2-r02-f08: -370505945
+      blotan-reference-v2-r02-f09: -722611828
+      blotan-reference-v2-r02-f10: -323714762
+      blotan-reference-v2-r02-f11: -471924798
+      blotan-reference-v2-r03-f00: 131776757
+      blotan-reference-v2-r03-f01: 170661392
+      blotan-reference-v2-r03-f02: 1946758266
+      blotan-reference-v2-r03-f03: 414421494
+      blotan-reference-v2-r03-f04: 707188912
+      blotan-reference-v2-r03-f05: 1058282363
+      blotan-reference-v2-r03-f06: 289020928
+      blotan-reference-v2-r03-f07: -906332039
+      blotan-reference-v2-r03-f08: 1936374567
+      blotan-reference-v2-r03-f09: 238137640
+      blotan-reference-v2-r03-f10: -931355508
+      blotan-reference-v2-r03-f11: -213114381
+      blotan-reference-v2-r04-f00: -574340325
+      blotan-reference-v2-r04-f01: 928801242
+      blotan-reference-v2-r04-f02: -1129421051
+      blotan-reference-v2-r04-f03: 923242937
+      blotan-reference-v2-r04-f04: 1784969115
+      blotan-reference-v2-r04-f05: -354300788
+      blotan-reference-v2-r04-f06: -1750561044
+      blotan-reference-v2-r04-f07: 141716944
+      blotan-reference-v2-r04-f08: 793275703
+      blotan-reference-v2-r04-f09: 1346722648
+      blotan-reference-v2-r04-f10: -319958942
+      blotan-reference-v2-r04-f11: -367305584
+      blotan-reference-v2-r05-f00: 7598662
+      blotan-reference-v2-r05-f01: -1110463837
+      blotan-reference-v2-r05-f02: -1955687000
+      blotan-reference-v2-r05-f03: -1502056049
+      blotan-reference-v2-r05-f04: -186624234
+      blotan-reference-v2-r05-f05: -769129091
+      blotan-reference-v2-r05-f06: 304199777
+      blotan-reference-v2-r05-f07: 2093140834
+      blotan-reference-v2-r05-f08: -1103946250
+      blotan-reference-v2-r05-f09: -637682662
+      blotan-reference-v2-r05-f10: 2103932703
+      blotan-reference-v2-r05-f11: -932899134
+      blotan-reference-v2-r06-f00: 926952430
+      blotan-reference-v2-r06-f01: -418570974
+      blotan-reference-v2-r06-f02: -717045102
+      blotan-reference-v2-r06-f03: -1126484344
+      blotan-reference-v2-r06-f04: 1033440506
+      blotan-reference-v2-r06-f05: 440337866
+      blotan-reference-v2-r06-f06: -1912064679
+      blotan-reference-v2-r06-f07: -177498061
+      blotan-reference-v2-r06-f08: 942641818
+      blotan-reference-v2-r06-f09: 253767813
+      blotan-reference-v2-r06-f10: 234082559
+      blotan-reference-v2-r06-f11: 1686011120
+      blotan-reference-v2-r07-f00: -1552467628
+      blotan-reference-v2-r07-f01: 1025396279
+      blotan-reference-v2-r07-f02: 224891225
+      blotan-reference-v2-r07-f03: 1880397355
+      blotan-reference-v2-r07-f04: 661010940
+      blotan-reference-v2-r07-f05: -1570093023
+      blotan-reference-v2-r07-f06: -1567010823
+      blotan-reference-v2-r07-f07: 633844608
+      blotan-reference-v2-r07-f08: -1645869588
+      blotan-reference-v2-r07-f09: -91235023
+      blotan-reference-v2-r07-f10: -1063819297
+      blotan-reference-v2-r07-f11: 833819726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,26 @@
+using MonsterPouch.Local;
+using MonsterPouch.Gameplay.Match;
+using MonsterPouch.Gameplay.Presentation;
+using NUnit.Framework;
+public sealed class LobbyGestureTimingTests
+{
+    [Test] public void EveryCharacterSpendsMostOfTheGestureOnItsMainAction()
+    {
+        foreach(var unit in DocumentedRoster.CreateAll())
+        {
+            var timing=LobbyGestureTiming.For(unit.Id);
+            Assert.Greater(timing.Main,timing.Reveal+timing.Return,unit.Id);
+            Assert.That(timing.PoseProgress(0),Is.EqualTo(0));
+            Assert.That(timing.PoseProgress(1),Is.EqualTo(1).Within(.00001f));
+            float previous=0;
+            for(int i=1;i<=240;i++){float p=timing.PoseProgress(i/240f);Assert.GreaterOrEqual(p,previous);previous=p;}
+        }
+    }
+    [Test] public void AtongPreparesLongerThanHeFliesAndShortLegsKeepLowHops()
+    {
+        var atong=TileHopProfile.For("atong");Assert.Greater(atong.Prepare,atong.Air);
+        Assert.LessOrEqual(TileHopProfile.For("jazar").Height,.07f);
+        Assert.LessOrEqual(TileHopProfile.For("dummy").Height,.1f);
+        Assert.IsTrue(TileHopProfile.For("anuik").Walk);
+    }
+}

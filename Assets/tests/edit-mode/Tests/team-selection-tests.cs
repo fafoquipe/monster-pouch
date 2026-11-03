@@ -43,7 +43,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
                 {
                     PouchOffer offer = pouch.Offers[slot];
                     if (offer == null) continue;
-                    Assert.IsTrue(pouch.TryBuyAndPlace(slot, offer.Token, UnitLocation.Bench, Vector2Int.zero, out string reason), reason);
+                    Assert.IsTrue(pouch.TryBuyAndPlace(slot, offer.Token, UnitLocation.Field, new Vector2Int(1, 7), out string reason), reason);
                 }
                 if (pouch.RemainingCopies("bugui") > 0)
                     Assert.IsTrue(pouch.TryReroll(pouch.OfferVersion, out _));
@@ -145,7 +145,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void Match_SelectionAndRematchKeepTheTeam_WhileLegacyStartUsesDefaults()
+        public void Match_PlayerSelectionSurvivesRematch_WhileBotBuildsItsOwnPouch()
         {
             MatchController match = CreateMatch();
             var selected = new List<string> { "bugui", "bugui" };
@@ -155,10 +155,10 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             selected.Clear();
             selected.Add("dummy");
             AssertOnlySelectedOffers(match.Player, "bugui");
-            CollectionAssert.AreEqual(new[] { "bugui" }, match.Bot.SelectedWhelpIds);
-            Assert.AreEqual("bugaloo", match.Bot.Monster.Definition.Id);
-            Assert.AreEqual(0, match.Bot.RemainingCopies("dummy"));
-            Assert.IsTrue(match.Bot.Owned.Values.All(unit => unit.Definition.IsMonster || unit.Definition.Id == "bugui"));
+            CollectionAssert.AreEquivalent(new[] { "dummy", "bugui" }, match.Bot.SelectedWhelpIds);
+            Assert.IsTrue(match.Bot.Monster.Definition.IsMonster);
+            Assert.AreNotEqual(match.Player.Monster.Definition.Id, match.Bot.Monster.Definition.Id);
+            Assert.IsTrue(match.Bot.Owned.Values.All(unit => unit.Definition.IsMonster || match.Bot.SelectedWhelpIds.Contains(unit.Definition.Id)));
             Assert.IsTrue(match.BuyAndPlace(0, stale.Token, null, true));
             match.Rematch();
             Assert.AreNotSame(oldPlayer, match.Player);
@@ -173,6 +173,40 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             CollectionAssert.AreEqual(new[] { "dummy", "bugui" }, match.Player.SelectedWhelpIds);
             Assert.AreEqual(4, match.Player.RemainingCopies("dummy"));
             Assert.AreEqual(4, match.Player.RemainingCopies("bugui"));
+        }
+
+        [Test]
+        public void BotPouchGenerator_IsSeededValidAndVariesMonsterAndWhelpChoices()
+        {
+            var units = config.Units.ToList();
+            for (int i = 0; i < 5; i++)
+                units.Add(new UnitDefinition
+                {
+                    Id = "bot-candidate-" + i,
+                    Tricks = new[] { new TrickDefinition(), new TrickDefinition(), new TrickDefinition() }
+                });
+            config.Units = units.ToArray();
+            config.TeamWhelpLimit = 2;
+
+            BotPouchSelection first = BotPouchGenerator.Create(config, 921);
+            BotPouchSelection replay = BotPouchGenerator.Create(config, 921);
+            Assert.AreEqual(first.MonsterId, replay.MonsterId);
+            CollectionAssert.AreEqual(first.WhelpIds, replay.WhelpIds);
+
+            var monsters = new HashSet<string>();
+            var teams = new HashSet<string>();
+            for (int seed = 1; seed <= 32; seed++)
+            {
+                BotPouchSelection selection = BotPouchGenerator.Create(config, seed);
+                Assert.IsTrue(config.Get(selection.MonsterId).IsMonster);
+                Assert.AreEqual(2, selection.WhelpIds.Count);
+                Assert.AreEqual(2, selection.WhelpIds.Distinct().Count());
+                Assert.IsTrue(selection.WhelpIds.All(id => !config.Get(id).IsMonster));
+                monsters.Add(selection.MonsterId);
+                teams.Add(string.Join(",", selection.WhelpIds));
+            }
+            Assert.Greater(monsters.Count, 1, "Different matches should not always receive the same Monster.");
+            Assert.Greater(teams.Count, 1, "Different matches should not always receive the same Whelp pouch.");
         }
 
         [Test]

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861607578e7a5800a54b00b1966e6522, type: 3}
+  m_Name: aireola
+  m_EditorClassIdentifier:
+  Id: aireola
+  Background: {fileID: 21300000, guid: 68de12b09c4a5a5da1bba547e7a91864, type: 3}
+  DisplayPedestalWidth: 256
+  Pedestal: {fileID: 21300000, guid: 90a7f5539fb15578af5daba14b3de07e, type: 3}
+  PedestalFootAnchor: {x: 0.500000000, y: 0.213483146}

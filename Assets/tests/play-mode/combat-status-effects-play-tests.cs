@@ -19,6 +19,39 @@ public class CombatStatusEffectsPlayTests
     }
     [UnityTearDown] public IEnumerator Cleanup(){ui.Match.Pause(false);ui.Match.Menu();yield return null;}
     void Invoke(string name,params object[] args)=>typeof(CombatStatusEffects).GetMethod(name,BindingFlags.NonPublic|BindingFlags.Instance).Invoke(fx,args);
+    [UnityTest] public IEnumerator CharacterControlEffectsStayVisibleTogetherAndResetCleanly()
+    {
+        var unit=ui.Match.Actors[ui.Match.Player.Monster];
+        var view=unit.GetComponent<MonsterPouch.Gameplay.Presentation.UnitPresentation>();
+        yield return null;yield return null;
+        var restingColor=view.Renderer.color;
+        float restingHeight=view.VisualRoot.localPosition.y;
+        var cell=unit.CurrentCell;var position=unit.transform.position;
+        var type=typeof(MonsterPouch.Gameplay.Units.BattleUnit);
+        type.GetProperty("IsStunned").SetValue(unit,true);
+        type.GetProperty("IsPopowStunned").SetValue(unit,true);
+        type.GetProperty("IsElectrocuted").SetValue(unit,true);
+        type.GetProperty("IsSlowed").SetValue(unit,true);
+        type.GetProperty("SlowEffectId").SetValue(unit,"jazar-radiation");
+        yield return null;yield return null;
+        Assert.Greater(view.VisualRoot.localPosition.y,.1f);
+        Assert.Less(view.Renderer.color.r,.35f);
+        Assert.AreSame(cell,unit.CurrentCell);Assert.AreEqual(position,unit.transform.position);
+        var roots=ui.CanvasRoot.GetComponentsInChildren<RectTransform>();
+        foreach(var name in new[]{"fx-stun","fx-popow-stun","fx-electric-stun"})
+            Assert.IsFalse(roots.Any(r=>r.name==name),"Stun uses its HUD circle: "+name);
+        Assert.IsTrue(roots.Any(r=>r.name=="status-electric-stun"));
+        Assert.IsTrue(roots.Any(r=>r.name=="fx-toxic"));
+        var toxic=roots.Single(r=>r.name=="fx-toxic").GetComponentsInChildren<UnityEngine.UI.Image>().First(i=>i.enabled);
+        Assert.AreEqual("status-toxic",toxic.sprite.name);
+        unit.ResetForCombat();yield return null;yield return null;
+        Assert.IsFalse(unit.IsPopowStunned||unit.IsElectrocuted);Assert.IsNull(unit.SlowEffectId);
+        Assert.AreEqual(restingColor,view.Renderer.color,"Reset must restore the current artwork's resting tint.");
+        // Anuik's current idle floats by .10 +/- .012; reset removes the stun lift,
+        // while retaining the authored idle instead of forcing the figure onto the ground.
+        Assert.That(view.VisualRoot.localPosition.y,Is.EqualTo(restingHeight).Within(.025f));
+        Assert.IsFalse(ui.CanvasRoot.GetComponentsInChildren<RectTransform>().Any(r=>r.name=="fx-toxic"));
+    }
     [UnityTest] public IEnumerator HealAuraLightsGroundPausesAndReusesItsObjects()
     {
         var unit=ui.Match.Actors[ui.Match.Player.Monster];

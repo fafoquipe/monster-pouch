@@ -1,0 +1,82 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using MonsterPouch.Local;
+using NUnit.Framework;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.TestTools;
+
+public sealed class LobbyFluidPlayTests
+{
+    LocalGameUI ui;LobbyAnimationDirector director;
+    [UnitySetUp] public IEnumerator Setup()
+    {
+        LobbyAnimationDirector.PlaybackEnabled=true;
+        yield return SceneManager.LoadSceneAsync("Assets/Scenes/main-scene.unity");yield return null;yield return null;
+        ui=Object.FindFirstObjectByType<LocalGameUI>();ui.Match.enabled=false;ui.OpenDecks();
+        director=ui.LobbyDirector;director.enabled=false;yield return null;
+    }
+    [UnityTearDown] public IEnumerator Cleanup(){LobbyAnimationDirector.PlaybackEnabled=false;if(ui!=null){ui.CloseModal();ui.Match.Menu();}yield return null;}
+    LobbyPersonality[] Poses()=>ui.CanvasRoot.GetComponentsInChildren<LobbyPersonality>();
+    [UnityTest] public IEnumerator BriefSchedulesOccasionalGesturesWithAtMostTwoIncludingHero()
+    {
+        var poses=Poses();Assert.GreaterOrEqual(poses.Length,2);Assert.AreEqual(1,poses.Count(p=>p.Featured));
+        Assert.IsTrue(poses.All(p=>p.HasAuthoredFrames));
+        director.Advance(2.5f);Assert.AreEqual(0,director.ActiveCount,"Entering the Brief starts with a quiet display.");
+        int peak=0,quiet=0;var played=new HashSet<string>();var firstMinute=new HashSet<string>();
+        for(int tick=0;tick<4800;tick++)
+        {
+            director.Advance(.05f);peak=Mathf.Max(peak,director.ActiveCount);
+            Assert.LessOrEqual(director.ActiveCount,2,"The hero shares the two-character budget.");
+            if(director.ActiveCount==0)quiet++;
+            foreach(var pose in poses)if(pose.IsGesturing)
+            {
+                played.Add(pose.UnitId);
+                if(tick<1200)firstMinute.Add(pose.UnitId);
+            }
+        }
+        Assert.Greater(peak,0);Assert.Greater(quiet,10);
+        CollectionAssert.AreEquivalent(poses.Select(p=>p.UnitId).Distinct(),firstMinute,
+            "Every equipped character, including the hero, must get a turn without waiting indefinitely.");
+        Assert.Contains(poses.Single(p=>p.Featured).UnitId,played.ToList());yield return null;
+    }
+    [UnityTest] public IEnumerator DrawnGesturesKeepFeetAndShadowsAnchoredAndReturnToAnUnmovingRest()
+    {
+        var hero=Poses().Single(p=>p.Featured);
+        var idle=hero.GetComponentInChildren<LobbyFrameGraphic>().CurrentSprite;
+        Assert.IsTrue(hero.PlayGesture());
+        var drawing=hero.GetComponentInChildren<LobbyFrameGraphic>();
+        Assert.IsTrue(drawing.HasAuthoredFrames);
+        var shadow=hero.GetComponentInChildren<LobbyContactShadow>();Assert.NotNull(shadow);
+        Vector3 foot=drawing.transform.TransformPoint(drawing.FootAnchor);
+        Vector3 shade=shadow.transform.TransformPoint(new Vector2(shadow.rectTransform.rect.center.x,shadow.rectTransform.rect.yMin));
+        Assert.Less(Vector3.Distance(foot,shade),.001f);
+        var seenFrames=new HashSet<int>();int previous=-1;
+        for(int i=0;i<240;i++)
+        {
+            Assert.AreEqual(foot,drawing.transform.TransformPoint(drawing.FootAnchor));
+            Assert.GreaterOrEqual(drawing.FrameIndex,previous);previous=drawing.FrameIndex;seenFrames.Add(drawing.FrameIndex);
+            Assert.AreSame(UnityEngine.UI.Graphic.defaultGraphicMaterial,drawing.material);
+            if(i<239)hero.Advance(hero.GestureDuration/240);
+        }
+        Assert.GreaterOrEqual(seenFrames.Count,24,"The displayed hero must play distinct authored frames, not only advance a timer.");
+        director.Advance(hero.GestureDuration+1);
+        Assert.IsFalse(hero.IsGesturing);Assert.IsTrue(drawing.IsAtRest);
+        Assert.AreSame(idle,drawing.CurrentSprite,"Return to the original reference idle.");
+        Assert.GreaterOrEqual(hero.SecondsUntilGesture,12);
+        director.Advance(5);Assert.IsFalse(hero.IsGesturing,"The hero must not loop immediately.");
+        Assert.IsTrue(drawing.IsAtRest);yield return null;
+    }
+    [UnityTest] public IEnumerator NewScreensReleaseAnimationSlotsAndPickerKeepsStaticPortraits()
+    {
+        var poses=Poses();Assert.IsTrue(poses[0].PlayGesture());Assert.IsTrue(poses[1].PlayGesture());
+        if(poses.Length>2)Assert.IsFalse(poses[2].PlayGesture());
+        Assert.AreEqual(2,director.ActiveCount);
+        ui.OpenCharacterPicker(0);director.Advance(.01f);Assert.AreEqual(0,director.ActiveCount);
+        var grid=ui.CanvasRoot.GetComponentsInChildren<RectTransform>().Single(t=>t.name=="Collection grid");
+        Assert.IsEmpty(grid.GetComponentsInChildren<LobbyPersonality>());
+        ui.CloseModal();ui.OpenHome();director.Advance(.01f);
+        Assert.AreEqual(1,Poses().Length);Assert.AreEqual(0,director.ActiveCount);yield return null;
+    }
+}

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using MonsterPouch.Gameplay.Board;
 using MonsterPouch.Gameplay.Match;
 using NUnit.Framework;
@@ -75,7 +76,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
 
         [TestCase(UnitLocation.Field)]
         [TestCase(UnitLocation.Bench)]
-        public void BuyAndPlace_NewWhelpCommitsMoneyCopyAndDestinationOnce(UnitLocation destination)
+        public void BuyAndPlace_NewWhelpPurchasesFieldOrReservesBankExactlyOnce(UnitLocation destination)
         {
             UseOnlyDummy();
             PouchState pouch = CreatePouch();
@@ -88,14 +89,16 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.AreEqual(-1, unit.BriefSlot);
             if (destination == UnitLocation.Field) Assert.AreEqual(cell, unit.Deployment);
             Assert.AreEqual(1, unit.Copies);
-            Assert.AreEqual(price, unit.Paid);
-            Assert.AreEqual(100 - price, pouch.Coins);
+            int paid = destination == UnitLocation.Bench ? 0 : price;
+            Assert.AreEqual(paid, unit.Paid);
+            Assert.AreEqual(destination == UnitLocation.Bench ? price : 0, unit.BankReservedCost);
+            Assert.AreEqual(100 - paid, pouch.Coins);
             Assert.AreEqual(3, pouch.RemainingCopies(offer.UnitId));
             Assert.IsNull(pouch.Offers[0]);
             int version = pouch.OfferVersion;
             Assert.IsFalse(pouch.TryBuyAndPlace(0, offer.Token, destination, new Vector2Int(5, 7), out _));
             Assert.AreEqual(version, pouch.OfferVersion);
-            Assert.AreEqual(100 - price, pouch.Coins);
+            Assert.AreEqual(100 - paid, pouch.Coins);
             Assert.AreEqual(1, unit.Copies);
             Assert.AreEqual(destination, unit.Location);
             if (destination == UnitLocation.Field) Assert.AreEqual(cell, unit.Deployment);
@@ -116,7 +119,6 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.IsFalse(pouch.TryBuyAndPlace(0, -1, UnitLocation.Bench, Vector2Int.zero, out _));
             config.Get("dummy").BaseCost = 101;
             Assert.IsFalse(pouch.TryBuyAndPlace(0, offer.Token, UnitLocation.Field, new Vector2Int(1, 7), out _));
-            Assert.IsFalse(pouch.TryBuyAndPlace(0, offer.Token, UnitLocation.Bench, Vector2Int.zero, out _));
             Assert.AreSame(offer, pouch.Offers[0]);
             Assert.AreEqual(version, pouch.OfferVersion);
             Assert.AreEqual(pool, pouch.PoolCount);
@@ -127,7 +129,6 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [TestCase(UnitLocation.Brief)]
-        [TestCase(UnitLocation.Bench)]
         [TestCase(UnitLocation.Field)]
         public void BuyAndPlace_RepeatCopyKeepsExistingLocationAndBriefSlot(UnitLocation originalLocation)
         {
@@ -161,44 +162,48 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.AreEqual(2, pouch.RemainingCopies("dummy"));
         }
 
+        [TestCase(UnitLocation.Field)]
+        [TestCase(UnitLocation.Bench)]
+        public void TroopsCannotReturnToBriefEvenWithAnEmptySlot(UnitLocation origin)
+        {
+            UseOnlyDummy();
+            var pouch=CreatePouch();
+            Assert.IsTrue(pouch.TryBuyAndPlace(0,pouch.Offers[0].Token,origin,new Vector2Int(1,7),out _));
+            var unit=pouch.Owned["dummy"];
+            int coins=pouch.Coins,version=pouch.OfferVersion,copies=unit.Copies,paid=unit.Paid;
+            var offers=pouch.Offers.ToArray();var tricks=unit.Tricks.ToArray();var cell=unit.Deployment;
+            Assert.IsFalse(pouch.TrySetLocation("dummy",UnitLocation.Brief,Vector2Int.zero,out _));
+            Assert.AreSame(unit,pouch.Owned["dummy"]);Assert.AreEqual(origin,unit.Location);
+            Assert.AreEqual(-1,unit.BriefSlot);Assert.AreEqual(cell,unit.Deployment);
+            Assert.AreEqual(coins,pouch.Coins);Assert.AreEqual(version,pouch.OfferVersion);
+            Assert.AreEqual(copies,unit.Copies);Assert.AreEqual(paid,unit.Paid);
+            CollectionAssert.AreEqual(offers,pouch.Offers);CollectionAssert.AreEqual(tricks,unit.Tricks);
+        }
+
         [Test]
-        public void StoredBriefUnit_ReservesItsSlotAcrossRerollAndRounds_AndFullBriefRejectsReturn()
+        public void StoredBriefUnit_ReservesItsSlotAcrossRerollAndRounds()
         {
             UseOnlyDummy();
             PouchState pouch = CreatePouch();
-            Assert.IsTrue(pouch.TryBuyAndPlace(0, pouch.Offers[0].Token, UnitLocation.Bench, Vector2Int.zero, out _));
+            Assert.IsTrue(pouch.TryBuy(0, pouch.Offers[0].Token, out string reason), reason);
             OwnedUnit unit = pouch.Owned["dummy"];
-            Assert.IsTrue(pouch.TryReroll(pouch.OfferVersion, out _));
-            foreach (PouchOffer offer in pouch.Offers) Assert.IsNotNull(offer);
+            Assert.AreEqual(0, unit.BriefSlot);
             int coins = pouch.Coins;
-            int version = pouch.OfferVersion;
-            Assert.IsFalse(pouch.TrySetLocation("dummy", UnitLocation.Brief, Vector2Int.zero, out _));
-            Assert.AreEqual(UnitLocation.Bench, unit.Location);
-            Assert.AreEqual(-1, unit.BriefSlot);
-            Assert.AreEqual(coins, pouch.Coins);
-            Assert.AreEqual(version, pouch.OfferVersion);
-
-            // A duplicate frees an offer slot without moving the banked unit.
-            Buy(pouch, 1);
-            Assert.AreEqual(UnitLocation.Bench, unit.Location);
-            Assert.IsTrue(pouch.TrySetLocation("dummy", UnitLocation.Brief, Vector2Int.zero, out string reason), reason);
-            Assert.AreEqual(1, unit.BriefSlot);
-            coins = pouch.Coins;
             Assert.IsTrue(pouch.TryReroll(pouch.OfferVersion, out reason), reason);
-            Assert.IsNull(pouch.Offers[1]);
-            Assert.IsNotNull(pouch.Offers[0]);
+            Assert.IsNull(pouch.Offers[0]);
+            Assert.IsNotNull(pouch.Offers[1]);
             Assert.IsNotNull(pouch.Offers[2]);
-            Assert.AreEqual(1, unit.BriefSlot);
-            Assert.AreEqual(2, unit.Copies);
-            Assert.AreEqual(2, pouch.RemainingCopies("dummy"));
+            Assert.AreEqual(0, unit.BriefSlot);
+            Assert.AreEqual(1, unit.Copies);
+            Assert.AreEqual(3, pouch.RemainingCopies("dummy"));
             Assert.AreEqual(coins, pouch.Coins);
             pouch.EndPreparation();
             Assert.IsTrue(pouch.BeginPreparation(2));
-            Assert.IsNull(pouch.Offers[1]);
-            Assert.AreEqual(1, unit.BriefSlot);
+            Assert.IsNull(pouch.Offers[0]);
+            Assert.AreEqual(0, unit.BriefSlot);
             Assert.IsTrue(pouch.TrySetLocation("dummy", UnitLocation.Field, new Vector2Int(1, 7), out reason), reason);
             Assert.AreEqual(-1, unit.BriefSlot);
-            Assert.IsNull(pouch.Offers[1], "Leaving storage does not create another offer immediately.");
+            Assert.IsNull(pouch.Offers[0], "Leaving storage does not create another offer immediately.");
         }
 
         [Test]
@@ -356,7 +361,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void Placement_RejectsOccupiedCellsAndFullBench_KeepsProgressionAcrossLocations()
+        public void Placement_RejectsOccupiedCellsAndSharesBench_KeepsProgressionAcrossLocations()
         {
             PouchState pouch = CreatePouch();
             BuyAll(pouch);
@@ -364,14 +369,42 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.IsFalse(pouch.TrySetLocation("dummy", UnitLocation.Field, new Vector2Int(1, 4), out _));
             Assert.IsTrue(pouch.TrySetLocation("dummy", UnitLocation.Field, new Vector2Int(1, 6), out _));
             Assert.IsTrue(pouch.TrySetLocation("bugui", UnitLocation.Bench, Vector2Int.zero, out _));
-            Assert.IsFalse(pouch.TrySetLocation("dummy", UnitLocation.Bench, Vector2Int.zero, out _));
-            Assert.AreEqual(UnitLocation.Field, pouch.Owned["dummy"].Location);
-            Assert.AreEqual(new Vector2Int(1, 6), pouch.Owned["dummy"].Deployment);
-            Assert.IsTrue(pouch.TrySetLocation("bugui", UnitLocation.Brief, Vector2Int.zero, out _));
             Assert.IsTrue(pouch.TrySetLocation("dummy", UnitLocation.Bench, Vector2Int.zero, out _));
-            Assert.IsTrue(pouch.TrySetLocation("dummy", UnitLocation.Brief, Vector2Int.zero, out _));
+            Assert.AreEqual(UnitLocation.Bench, pouch.Owned["dummy"].Location);
+            Assert.AreEqual(new Vector2Int(1, 6), pouch.Owned["dummy"].Deployment);
+            Assert.IsFalse(pouch.TrySetLocation("bugui", UnitLocation.Brief, Vector2Int.zero, out _));
+            Assert.IsTrue(pouch.TrySetLocation("dummy", UnitLocation.Bench, Vector2Int.zero, out _));
+            Assert.IsFalse(pouch.TrySetLocation("dummy", UnitLocation.Brief, Vector2Int.zero, out _));
+            Assert.AreEqual(UnitLocation.Bench, pouch.Owned["bugui"].Location);
+            Assert.IsTrue(pouch.TrySetLocation("dummy", UnitLocation.Field, new Vector2Int(1, 6), out _));
             Assert.AreEqual(4, pouch.Owned["dummy"].Copies);
             Assert.AreEqual(3, pouch.Owned["dummy"].TrickCount);
+        }
+
+        [Test]
+        public void BenchType_IsHiddenFromEveryOfferWithoutRemovingItsRemainingCopies()
+        {
+            UseOnlyDummy();
+            PouchState pouch = CreatePouch();
+            PouchOffer first = pouch.Offers[0];
+
+            Assert.AreEqual(4, pouch.RemainingCopies("dummy"));
+            Assert.IsTrue(pouch.TryBuyAndPlace(0, first.Token, UnitLocation.Bench, Vector2Int.zero, out string reason), reason);
+            Assert.AreEqual(UnitLocation.Bench, pouch.Owned["dummy"].Location);
+            Assert.AreEqual(3, pouch.RemainingCopies("dummy"), "Hidden copies remain in the finite pool.");
+            Assert.IsTrue(pouch.Offers.All(offer => offer == null), "No copy of a benched type may remain visible.");
+
+            int rerolls = pouch.Rerolls;
+            int version = pouch.OfferVersion;
+            Assert.IsFalse(pouch.TryReroll(version, out _), "A reroll cannot spend currency when every pool type is bench-blocked.");
+            Assert.AreEqual(rerolls, pouch.Rerolls);
+            Assert.AreEqual(version, pouch.OfferVersion);
+            Assert.AreEqual(3, pouch.RemainingCopies("dummy"));
+
+            Assert.IsTrue(pouch.TrySetLocation("dummy", UnitLocation.Field, new Vector2Int(1, 7), out reason), reason);
+            Assert.IsTrue(pouch.TryReroll(pouch.OfferVersion, out reason), reason);
+            Assert.IsTrue(pouch.Offers.All(offer => offer != null && offer.UnitId == "dummy"));
+            Assert.AreEqual(3, pouch.RemainingCopies("dummy"));
         }
 
         [Test]
@@ -496,8 +529,8 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.IsFalse(pouch.TrySetLocation("test-whelp-5", UnitLocation.Field, new Vector2Int(5, 7), out _));
             Assert.AreEqual(UnitLocation.Brief, pouch.Owned["test-whelp-5"].Location);
             Assert.IsTrue(pouch.TrySetLocation("test-whelp-5", UnitLocation.Bench, Vector2Int.zero, out _));
-            Assert.IsFalse(pouch.TrySetLocation("test-whelp-6", UnitLocation.Bench, Vector2Int.zero, out _));
-            Assert.AreEqual(UnitLocation.Brief, pouch.Owned["test-whelp-6"].Location);
+            Assert.IsTrue(pouch.TrySetLocation("test-whelp-6", UnitLocation.Bench, Vector2Int.zero, out _));
+            Assert.AreEqual(UnitLocation.Bench, pouch.Owned["test-whelp-6"].Location);
         }
 
         [TestCase(false)] [TestCase(true)]

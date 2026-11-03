@@ -10,13 +10,14 @@ using UnityEngine.UI;
 namespace MonsterPouch.Local
 {
     // One reusable effect vocabulary for the entire roster. Combat owns every trigger.
-    public sealed class CombatStatusEffects : MonoBehaviour
+    public sealed partial class CombatStatusEffects : MonoBehaviour
     {
         sealed class Effect
         {
             public RectTransform Root; public Image Dome; public Image[] Sparks; public Text Caption;
             public SpriteRenderer Floor, Body; public BattleUnit Actor; public Vector3 Anchor;
             public string Kind; public float Age, Duration, Size; public bool Persistent, Follow;
+            public ContactVisual Contact;
         }
         MatchController match; Camera cameraView; RectTransform layer; Font font;
         CombatSimulation simulation; ObjectPool<Effect> pool; Material glowMaterial;
@@ -34,7 +35,7 @@ namespace MonsterPouch.Local
                 layer=new GameObject("Combat status effects",typeof(RectTransform)).GetComponent<RectTransform>();
                 layer.SetParent(canvas,false);layer.anchorMin=Vector2.zero;layer.anchorMax=Vector2.one;layer.offsetMin=layer.offsetMax=Vector2.zero;
             }
-            font=Resources.Load<Font>("MonsterPouch/PixelFont");
+            font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             if(glowMaterial==null)glowMaterial=new Material(Resources.Load<Material>("MonsterPouch/GroundGlowMaterial"));
             var a=match.Mapper.GetWorldPosition(match.Board.GetCell(0,0));
             var b=match.Mapper.GetWorldPosition(match.Board.GetCell(BoardManager.Width-1,BoardManager.Height-1));
@@ -43,6 +44,9 @@ namespace MonsterPouch.Local
             pool??=new ObjectPool<Effect>(CreateEffect,null,null,DestroyEffect,false,16,Limit);
             match.Healed+=Healed;match.CriticalImpacted+=Critical;match.AttackReset+=ResetAttack;match.HealingArea+=HealArea;
             match.Reviving+=Reviving;simulation=match.Simulation;
+            var numbers=GetComponent<CombatDamageNumbers>();
+            if(numbers==null)numbers=gameObject.AddComponent<CombatDamageNumbers>();
+            numbers.Configure(owner,canvas,camera);
         }
         Effect CreateEffect()
         {
@@ -71,16 +75,18 @@ namespace MonsterPouch.Local
             EnsureSimulation();
             foreach(var existing in active)
                 if(existing.Actor==actor&&actor!=null&&existing.Kind==kind){existing.Age=0;existing.Duration=duration;return existing;}
-            if(active.Count>=Limit)return null;
-            var fx=pool.Get();fx.Kind=kind;fx.Actor=actor;fx.Anchor=position;fx.Age=0;fx.Duration=duration;fx.Size=size;fx.Persistent=persistent;
+            if(active.Count>=Limit && !(persistent && IsCanonicalVisual(kind)))return null;
+            var fx=pool.Get();fx.Contact=null;fx.Kind=kind;fx.Actor=actor;fx.Anchor=position;fx.Age=0;fx.Duration=duration;fx.Size=size;fx.Persistent=persistent;
             fx.Body=actor!=null?actor.GetComponent<UnitPresentation>()?.Renderer:null;
-            fx.Dome.enabled=kind=="reflect"||kind=="protection";
-            fx.Dome.sprite=fx.Dome.enabled?SpriteFor(kind=="reflect"?"sphere":"dome"):null;
+            fx.Dome.preserveAspect=false;fx.Dome.rectTransform.anchoredPosition=Vector2.zero;
+            fx.Dome.rectTransform.localRotation=Quaternion.identity;
+            fx.Dome.enabled=kind=="reflect"||kind=="protection"||kind=="pokrak-guard";
+            fx.Dome.sprite=fx.Dome.enabled?SpriteFor(kind=="pokrak-guard"?"bubble":kind=="reflect"?"sphere":"dome"):null;
             fx.Follow=persistent||kind=="heal"||kind=="revive";
             fx.Root.name="fx-"+kind;fx.Root.gameObject.SetActive(true);fx.Floor.name="floor-"+kind;fx.Floor.gameObject.SetActive(true);
-            fx.Caption.text=kind=="critical"?"¡CRÍTICO!":kind=="reset"?"":kind=="sleep"?"ZZZ":"";
+            fx.Caption.text=kind=="sleep"?"ZZZ":"";
             fx.Floor.sprite=SpriteFor(kind=="heal"||kind=="heal-area"?"glow":"ring");
-            foreach(var spark in fx.Sparks){spark.sprite=SpriteFor(kind=="stun"||kind=="critical"?"star":kind=="slow"?"chevron":"spark");spark.enabled=true;}
+            foreach(var spark in fx.Sparks){spark.sprite=SpriteFor(kind=="critical"?"star":kind=="toxic"?"toxic":kind=="slow"?"chevron":"spark");spark.enabled=true;}
             if(kind=="protection")fx.Sparks[0].sprite=SpriteFor("shield");
             active.Add(fx);Draw(fx);return fx;
         }
@@ -89,12 +95,23 @@ namespace MonsterPouch.Local
         void ResetAttack(BattleUnit actor){if(actor!=null&&actor.IsAlive)Spawn("reset",actor,actor.transform.position,.35f);}
         void HealArea(BoardCell cell){if(cell!=null)Spawn("heal-area",null,match.Mapper.GetWorldPosition(cell),1.2f,3);}
         void Reviving(BattleUnit actor,float duration){if(actor!=null)Spawn("revive",actor,actor.transform.position,duration,1.2f);}
-        static string Status(BattleUnit u)=>u==null||!u.IsAlive||u.IsReviving?null:
-            u.IsStunned?"stun":u.IsRooted?"root":u.IsSleeping?"sleep":u.IsSlowed?"slow":u.Shield>0?"shield":u.IsInvisible?"stealth":null;
-        static bool HasStatus(BattleUnit actor,string kind)
+        bool HasStatus(BattleUnit actor,string kind)
         {
             if(actor==null||!actor.IsAlive||actor.IsReviving)return false;
-            return kind=="reflect"?actor.IsReflecting:kind=="protection"?actor.IsProtected:Status(actor)==kind;
+            switch(kind)
+            {
+                case "toxic":return actor.IsSlowed&&actor.SlowEffectId=="jazar-radiation";
+                case "slow":return actor.IsSlowed&&actor.SlowEffectId!="jazar-radiation";
+                case "root":return actor.IsRooted&&!HasAuthoredRootOwner(actor,actor.CombatResetVersion);
+                case "sleep":return actor.IsSleeping;
+                case "shield":return actor.Shield>0&&!CanonicalVisualIsCurrent(actor,"shield");
+                case "pokrak-guard":return simulation!=null&&simulation.PokrakBubbleReduction(actor)>0;
+                case "stealth":return actor.IsInvisible;
+                case "reflect":return actor.IsReflecting;
+                // Bugaloo's protection shares the lunar shield trio with reflection.
+                case "protection":return actor.IsProtected&&!CanonicalVisualIsCurrent(actor,"damage-reduction")&&!(actor.BaseStats.DefinitionId=="bugaloo"&&actor.IsReflecting);
+                default:return false;
+            }
         }
         void EnsureStatus(BattleUnit actor,string kind)
         {
@@ -107,7 +124,11 @@ namespace MonsterPouch.Local
         {
             if(match==null||pool==null)return;EnsureSimulation();
             if(match.Phase==MatchPhase.Menu||match.Phase==MatchPhase.Preparation){Clear();return;}
+            ReconcileAuthoredRootOwners();
+            ReconcileRootVines();
+            ReconcileCanonicalVisuals();
             if(match.Paused)return;
+            UpdateContactFlights();
             for(int i=active.Count-1;i>=0;i--)
             {
                 var fx=active[i];
@@ -121,35 +142,45 @@ namespace MonsterPouch.Local
             foreach(var pair in match.Actors)
             {
                 var actor=pair.Value;
-                EnsureStatus(actor,Status(actor));EnsureStatus(actor,"reflect");EnsureStatus(actor,"protection");
+                // Stun (including Popow/electric) uses the existing timed HUD circle.
+                EnsureStatus(actor,"toxic");EnsureStatus(actor,"slow");EnsureStatus(actor,"root");
+                EnsureStatus(actor,"sleep");EnsureStatus(actor,"shield");EnsureStatus(actor,"stealth");
+                // Taunt belongs to UnitStatusBadges: one timed circle on the target.
+                EnsureStatus(actor,"reflect");EnsureStatus(actor,"protection");
+                EnsureStatus(actor,"pokrak-guard");
             }
         }
         void Draw(Effect fx)
         {
+            if(fx.Contact!=null){DrawContact(fx);return;}
+            if(IsLunarShieldStatus(fx)){DrawLunarShields(fx);return;}
             float t=fx.Persistent?Mathf.Repeat(fx.Age,1.2f)/1.2f:Mathf.Clamp01(fx.Age/Mathf.Max(.01f,fx.Duration));
             bool heal=fx.Kind=="heal"||fx.Kind=="heal-area",critical=fx.Kind=="critical",reset=fx.Kind=="reset";
-            Color color=heal?new Color(.22f,1,.3f):critical?new Color(1,.75f,.12f):fx.Kind=="stun"?new Color(1,.86f,.2f):
-                fx.Kind=="reflect"?new Color(1,.16f,.48f):fx.Kind=="protection"?new Color(.2f,.94f,1):
+            bool toxic=fx.Kind=="toxic";
+            Color color=toxic?new Color(.42f,1,.035f):heal?new Color(.22f,1,.3f):critical?new Color(1,.75f,.12f):
+                fx.Kind=="pokrak-guard"?new Color(.81f,.73f,.57f):fx.Kind=="reflect"?new Color(1,.16f,.48f):fx.Kind=="protection"?new Color(.2f,.94f,1):
                 fx.Kind=="root"?new Color(1,.36f,.74f):fx.Kind=="stealth"||fx.Kind=="revive"?new Color(.75f,.38f,1):new Color(.3f,.82f,1);
             float fade=fx.Persistent?.85f:Mathf.Min(1,(1-t)*3),pulse=.85f+.15f*Mathf.Sin(fx.Age*8);
-            fx.Floor.enabled=!critical&&!reset;
+            fx.Floor.enabled=!critical&&!reset&&!toxic;
             fx.Floor.color=new Color(color.r,color.g,color.b,fade*(heal?.52f:.22f)*pulse);
             fx.Floor.transform.position=fx.Anchor;
             fx.Floor.transform.localScale=new Vector3(Mathf.Abs(match.Mapper.CellSize.x)*fx.Size*(.85f+t*.15f),Mathf.Abs(match.Mapper.CellSize.y)*fx.Size*.78f,1);
             if(fx.Dome.enabled){DrawDome(fx,color,pulse);return;}
-            Vector3 position=fx.Anchor+(heal?Vector3.zero:Vector3.up*(fx.Kind=="slow"||fx.Kind=="root"?.25f:1f));
+            Vector3 position=fx.Anchor+(heal?Vector3.zero:Vector3.up*(fx.Kind=="slow"||fx.Kind=="root"||toxic?.25f:1f));
+            if(toxic&&fx.Body!=null)position=fx.Body.bounds.center;
             RectTransformUtility.ScreenPointToLocalPointInRectangle(layer,cameraView.WorldToScreenPoint(position),null,out var point);
             fx.Root.anchoredPosition=new Vector2(Mathf.Round(point.x),Mathf.Round(point.y));
             for(int i=0;i<fx.Sparks.Length;i++)
             {
-                var image=fx.Sparks[i];float angle=i*Mathf.PI/3+fx.Age*(fx.Kind=="stun"?3:1);
+                var image=fx.Sparks[i];float angle=i*Mathf.PI/3+fx.Age;
                 Vector2 p;
-                if(heal)p=new Vector2((i-2.5f)*8,Mathf.Repeat(t*42+i*9,48));
+                if(toxic)p=new Vector2((i%3-1)*16,Mathf.Repeat(fx.Age*22+i*8,46)-20);
+                else if(heal)p=new Vector2((i-2.5f)*8,Mathf.Repeat(t*42+i*9,48));
                 else if(fx.Kind=="slow")p=new Vector2((i%3-1)*15,12-Mathf.Repeat(fx.Age*18+(i/3)*14,28));
                 else p=new Vector2(Mathf.Cos(angle),Mathf.Sin(angle)*(fx.Persistent?.4f:1))*(fx.Persistent?22:8+t*(critical?35:22));
                 image.rectTransform.anchoredPosition=new Vector2(Mathf.Round(p.x),Mathf.Round(p.y));
-                float size=heal?4:critical?10*(1-t)+3:reset?5:8;
-                image.rectTransform.sizeDelta=Vector2.one*Mathf.Round(size);image.color=new Color(color.r,color.g,color.b,fade);
+                float size=toxic?14:heal?4:critical?10*(1-t)+3:reset?5:8;
+                image.rectTransform.sizeDelta=Vector2.one*Mathf.Round(size);image.color=toxic?new Color(1,1,1,fade):new Color(color.r,color.g,color.b,fade);
                 image.rectTransform.localRotation=Quaternion.Euler(0,0,critical?i*60+t*90:reset?45:0);
             }
             fx.Caption.color=new Color(color.r,color.g,color.b,fade);fx.Caption.rectTransform.anchoredPosition=new Vector2(0,30+t*15);
@@ -160,20 +191,24 @@ namespace MonsterPouch.Local
             // Project an enclosing sphere around the body, including the upper arc.
             // This canvas layer stays visible over the torso, unlike a floor-only ring.
             Bounds bounds=fx.Body!=null?fx.Body.bounds:new Bounds(fx.Anchor+Vector3.up*.65f,new Vector3(1.1f,1.3f,.1f));
+            if(fx.Kind=="pokrak-guard"&&fx.Body!=null)bounds=BubbleBodyBounds(fx.Body);
             float outer=fx.Kind=="protection"?1.24f:1.08f;
             float width=Mathf.Max(.9f,bounds.size.x)*outer;
             float height=Mathf.Max(1.1f,bounds.size.y)*outer;
             RectTransformUtility.ScreenPointToLocalPointInRectangle(layer,cameraView.WorldToScreenPoint(bounds.center),null,out var center);
             RectTransformUtility.ScreenPointToLocalPointInRectangle(layer,cameraView.WorldToScreenPoint(bounds.center+new Vector3(width*.5f,height*.5f,0)),null,out var corner);
             Vector2 size=new Vector2(Mathf.Max(36,Mathf.Abs(corner.x-center.x)*2),Mathf.Max(44,Mathf.Abs(corner.y-center.y)*2));
+            bool bubble=fx.Kind=="pokrak-guard";
+            if(bubble)size=Vector2.one*Mathf.Ceil(Mathf.Max(size.x,size.y)/2)*2;
             fx.Root.anchoredPosition=new Vector2(Mathf.Round(center.x),Mathf.Round(center.y));
             fx.Dome.rectTransform.sizeDelta=size;
-            fx.Dome.color=new Color(color.r,color.g,color.b,.7f+.18f*pulse);
+            fx.Dome.color=new Color(color.r,color.g,color.b,bubble?.64f+.08f*pulse:.7f+.18f*pulse);
             for(int i=0;i<fx.Sparks.Length;i++)
             {
                 bool emblem=fx.Kind=="protection"&&i==0;
                 float angle=i*Mathf.PI/3+fx.Age*(fx.Kind=="reflect"?1.1f:-.5f);
                 var spark=fx.Sparks[i];
+                spark.enabled=!bubble||i<2;
                 spark.rectTransform.anchoredPosition=emblem?new Vector2(size.x*.34f,-size.y*.24f):new Vector2(Mathf.Cos(angle)*size.x*.46f,Mathf.Sin(angle)*size.y*.46f);
                 spark.rectTransform.sizeDelta=Vector2.one*(emblem?19:4);
                 spark.rectTransform.localRotation=Quaternion.identity;
@@ -191,6 +226,36 @@ namespace MonsterPouch.Local
                 else if(kind=="ring")alpha=r>.72f&&r<.94f?1:0;
                 else if(kind=="star")alpha=Mathf.Abs(dx)*Mathf.Abs(dy)<.1f&&Mathf.Abs(dx)+Mathf.Abs(dy)<1?1:0;
                 else if(kind=="chevron")alpha=Mathf.Abs(dy-(Mathf.Abs(dx)-.4f))<.17f&&Mathf.Abs(dx)<.85f?1:0;
+                else if(kind=="toxic")
+                {
+                    // Radiation trefoil: black fill, toxic green rim and emblem.
+                    float angle=Mathf.Atan2(dy,dx)+Mathf.PI*.5f;
+                    float sector=Mathf.Repeat(angle,Mathf.PI*2/3);
+                    bool symbol=r<.16f||(r>.28f&&r<.65f&&sector<Mathf.PI/3);
+                    bool rim=r>.78f&&r<.94f;
+                    data[y*size+x]=r<.94f?(Color32)(symbol||rim?new Color(.48f,1,.015f):new Color(.015f,.02f,.01f)):new Color32(0,0,0,0);
+                    continue;
+                }
+                else if(kind=="lightning")
+                {
+                    float spine=dy>0?dy*.38f-.13f:dy*.38f+.13f;
+                    alpha=Mathf.Abs(dx-spine)<.16f&&Mathf.Abs(dy)<.9f?1:0;
+                }
+                else if(kind=="anger")
+                {
+                    float ax=Mathf.Abs(dx),ay=Mathf.Abs(dy);
+                    alpha=(ax>.12f&&ax<.32f&&ay>.12f&&ay<.8f || ay>.12f&&ay<.32f&&ax>.12f&&ax<.8f)?1:0;
+                }
+                else if(kind=="bubble")
+                {
+                    // A quiet, stepped pixel circle with a transparent interior and two glints.
+                    if(r<.95f)
+                    {
+                        alpha=r>.84f?.86f:.025f;
+                        if(dx<-.15f&&dy>.3f&&r>.68f&&r<.80f)alpha=.7f;
+                        if(dx>.35f&&dy<-.3f&&r>.72f&&r<.81f)alpha=.3f;
+                    }
+                }
                 else if(kind=="sphere"||kind=="dome")
                 {
                     if(r<.95f)
@@ -214,10 +279,10 @@ namespace MonsterPouch.Local
             }
             var texture=new Texture2D(size,size,TextureFormat.RGBA32,false){name="status-"+kind,filterMode=FilterMode.Point,wrapMode=TextureWrapMode.Clamp};
             texture.SetPixels32(data);texture.Apply(false,true);
-            sprite=Sprite.Create(texture,new Rect(0,0,size,size),Vector2.one*.5f,size);sprites.Add(kind,sprite);return sprite;
+            sprite=Sprite.Create(texture,new Rect(0,0,size,size),Vector2.one*.5f,size);sprite.name="status-"+kind;sprites.Add(kind,sprite);return sprite;
         }
         void Release(int index){var fx=active[index];active.RemoveAt(index);fx.Root.gameObject.SetActive(false);fx.Floor.gameObject.SetActive(false);fx.Actor=null;fx.Body=null;pool.Release(fx);}
-        void Clear(){for(int i=active.Count-1;i>=0;i--)Release(i);}
+        void Clear(){ClearContactFlights();ClearCanonicalVisuals();ClearRootVines();ClearAuthoredRootClaims();for(int i=active.Count-1;i>=0;i--)Release(i);}
         void Unsubscribe()
         {
             if(match==null)return;match.Healed-=Healed;match.CriticalImpacted-=Critical;match.AttackReset-=ResetAttack;match.HealingArea-=HealArea;match.Reviving-=Reviving;
@@ -225,7 +290,7 @@ namespace MonsterPouch.Local
         void OnDisable(){Clear();}
         void OnDestroy()
         {
-            Unsubscribe();Clear();pool?.Dispose();if(layer!=null)Destroy(layer.gameObject);if(glowMaterial!=null)Destroy(glowMaterial);
+            Unsubscribe();Clear();if(rootWorldLayer!=null)Destroy(rootWorldLayer.gameObject);pool?.Dispose();if(layer!=null)Destroy(layer.gameObject);if(glowMaterial!=null)Destroy(glowMaterial);
             foreach(var sprite in sprites.Values){Destroy(sprite.texture);Destroy(sprite);}
         }
     }

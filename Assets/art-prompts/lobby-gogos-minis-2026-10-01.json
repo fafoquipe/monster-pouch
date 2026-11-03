@@ -1,0 +1,2700 @@
+[
+  {
+    "id": "anuik",
+    "path": "Assets/art/units/generated/anuik-approved/anuik-animation-rgba-v2.png",
+    "action": "Anuik gently extracts the white heart emblem from his blue chest, holds that WHITE HEART clearly in both existing hands in front of the chest for a long time, admiring it tenderly with a subtle pulse. WHITE heart, not red. Then carefully replaces it on his chest. Spend frames13-48 showing the heart clearly, do not hide it between hands. Preserve the source large golden ears, very small blue body and closed smiling eyes.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\monsters\\anuik\\anuik.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Anuik gently extracts the white heart emblem from his blue chest, holds that WHITE HEART clearly in both existing hands in front of the chest for a long time, admiring it tenderly with a subtle pulse. WHITE heart, not red. Then carefully replaces it on his chest. Spend frames13-48 showing the heart clearly, do not hide it between hands. Preserve the source large golden ears, very small blue body and closed smiling eyes.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-38869b89-e098-4fca-9ca1-21f934900877.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-e5a454f6-cdad-4b31-9be1-6c6fd1f5935c.png",
+    "sourceFrameCount": 56,
+    "frameCount": 55,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [
+      47
+    ],
+    "temporalReview": "Remove isolated resting pose while the heart is still being shown.",
+    "gestureScaleX": 1.139709,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "0a5734a290dc94b69de682cc9876f851b1372e9bc9caedd0daa8107dcb4cc861",
+    "idleSha256": "02d4149196d59d6d17c35140d669b4e861fe2055d6c9da48dd6b7efa7d278d9e",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.31,
+        0.13,
+        0.69,
+        0.45
+      ],
+      "minimumConfidence": 0.959702,
+      "headWidthCompensation": true,
+      "before": {
+        "x": {
+          "range": 4.1061,
+          "stepRms": 1.1287,
+          "stepMax": 2.5417
+        },
+        "y": {
+          "range": 6.7672,
+          "stepRms": 0.9763,
+          "stepMax": 4.5642
+        },
+        "widthRatio": {
+          "range": 0.1,
+          "stepRms": 0.0127,
+          "stepMax": 0.04
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.1495,
+          "stepRms": 0.0392,
+          "stepMax": 0.1241
+        },
+        "y": {
+          "range": 0.0536,
+          "stepRms": 0.0189,
+          "stepMax": 0.0481
+        },
+        "widthRatio": {
+          "range": 0.04,
+          "stepRms": 0.0133,
+          "stepMax": 0.04
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0117382,
+        "headOffsetY": 0.0330014
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "tokoro",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\tokoro\\tokoro-idle.png",
+    "prompt": "Edit target/reference: the attached ORIGINAL TOKORO IDLE is the sole authoritative character model. Make one polished transparent RGBA game animation spritesheet, 8 columns by 8 rows, all 64 poses fully inside equal cells with generous gutters. Preserve the EXACT original squat tall-grey body, huge beige muzzle occupying the upper body, tiny closed eye dashes, original mouth line near the TOP of that beige muzzle with its ONE triangular white tooth on viewer's right, two round dark-grey ears, TWO long heavy grey arms and two short broad grey feet. The head, torso, ears, feet and face design must remain identical in every frame; do not redraw him as a smaller round teddy bear. The shoulders, muzzle width and torso proportions from the reference are mandatory. Keep the same crisp chunky pixel art and limited slate grey/beige palette. All frames are the same FRONT VIEW and same scale, with planted feet and aligned baseline. Change ONLY the pose of one existing arm, the mouth's licking movement, and a small vanilla ice-cream cone. No third arm, no replacement resting hand left behind. He retrieves the cone from behind his viewer-right side during frames 1-10, then slowly brings it beside his actual mouth line, UP NEAR THE WHITE TOOTH, during 11-18. In frames19-48 savor two gentle SLOW licks: his small tongue must emerge from the ORIGINAL dark mouth slit high on the muzzle, curl onto the ice cream held beside that slit, retract into THE SAME SLIT. NO mouth or tongue at the bottom of the beige chin. The beige chin remains one large solid unchanged region. Leave the other long arm resting unchanged at his side. Hold the cone at mouth height through the central frames, unhurried enjoyment is the main readable action. During49-60 lower the cone and tuck it behind his side; 61-64 exact original resting idle. Chronological row-major smooth small increments between every consecutive frame and across row boundaries. First and last frames must match the reference original silhouette/face/limbs. Transparent background, no white border, no ground shadow, no text, no grid, no motion trails, no cropped feet or ears. A single coherent 3.6-second game gesture, not variations of the character.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-f9df6ddb-c058-4bce-a44d-e929a44a8681.png",
+    "action": "Retrieve cone beside original mouth, enjoy exactly two slow licks, then return cone behind side and rest.",
+    "review": "Original muzzle, mouth slit, single tooth, ears and two long arms preserved. Two complete tongue-out/tongue-in cycles selected from source16..23; redundant fast cycles omitted.",
+    "idleSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-892a5484-8d80-4a69-bb08-989dcad7d30a.png",
+    "sourceFrameCount": 56,
+    "frameCount": 60,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      17,
+      18,
+      18,
+      19,
+      19,
+      20,
+      20,
+      21,
+      21,
+      22,
+      22,
+      23,
+      16,
+      17,
+      17,
+      18,
+      18,
+      19,
+      19,
+      20,
+      20,
+      21,
+      21,
+      22,
+      22,
+      23,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "temporalReview": "Two complete slow licks only. Repeat intermediate tongue poses within each lick for readable motion, hold cone at original mouth height, then lower and put away40..55. Entire redundant rapid-lick block24..39 is omitted.",
+    "gestureScaleX": 0.936923,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "dcb78151e3446ef2709ec55a47fb6506dc352c9780b824ba977e9260dd469751",
+    "idleSha256": "7677988f6774016221ff20ceebaf0226a832ddea26125d44b11dba986ab4dd43",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.28,
+        0.035,
+        0.7,
+        0.19
+      ],
+      "minimumConfidence": 0.966894,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 5.5681,
+          "stepRms": 1.1104,
+          "stepMax": 5.176
+        },
+        "y": {
+          "range": 1.3375,
+          "stepRms": 0.2856,
+          "stepMax": 1.2194
+        },
+        "widthRatio": {
+          "range": 0.03,
+          "stepRms": 0.0089,
+          "stepMax": 0.02
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.2293,
+          "stepRms": 0.0486,
+          "stepMax": 0.1417
+        },
+        "y": {
+          "range": 0.1166,
+          "stepRms": 0.0268,
+          "stepMax": 0.0755
+        },
+        "widthRatio": {
+          "range": 0.02,
+          "stepRms": 0.009,
+          "stepMax": 0.02
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0278403,
+        "headOffsetY": 0.0034865
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": [
+        {
+          "playbackIndex": 0,
+          "previousX": 87.25,
+          "correctedX": 82.625,
+          "deviationBodyHeight": -0.034774
+        },
+        {
+          "playbackIndex": 1,
+          "previousX": 79.5,
+          "correctedX": 75.1579,
+          "deviationBodyHeight": -0.032895
+        },
+        {
+          "playbackIndex": 51,
+          "previousX": 81.25,
+          "correctedX": 76.5921,
+          "deviationBodyHeight": -0.03476
+        },
+        {
+          "playbackIndex": 58,
+          "previousX": 84.25,
+          "correctedX": 79.0921,
+          "deviationBodyHeight": -0.038492
+        },
+        {
+          "playbackIndex": 59,
+          "previousX": 82.0,
+          "correctedX": 77.5592,
+          "deviationBodyHeight": -0.032895
+        }
+      ]
+    },
+    "idleSeamAlignment": {
+      "applied": true,
+      "headRestOffsetX": -0.031346,
+      "units": "Offset in body-height units; positive X points right.",
+      "virtualBodyHeightPixels": 200.0,
+      "evidence": "gesture-idle-seam-audit.json",
+      "method": "Original idle head-band center versus stabilized first/last gesture pose; constant upper-body X translation.",
+      "measuredBeforePixels": {
+        "entryX": 6.269230263157894,
+        "exitX": 6.609764874042878
+      },
+      "predictedAfterPixels": {
+        "entryX": 3e-05,
+        "exitX": 0.340565
+      },
+      "perFrameRegistrationOriginChanged": false,
+      "footBaselineChanged": false,
+      "pngPixelsChanged": false,
+      "validation": "Analytical seam prediction; verify final mesh visually in Unity."
+    }
+  },
+  {
+    "id": "atong",
+    "path": "Assets/art/units/directional-v1/atong-atlas.png",
+    "action": "Atong reaches behind his back with his viewer-right hand, retrieves a white handkerchief, carefully polishes his chin with the same hand, shows a clean glint and returns the cloth behind his back. Viewer-left arm remains still throughout.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\atong\\atong-idle.png",
+    "prompt": "Use case: identity-preserve. Character-animation atlas based ONLY on the attached ORIGINAL ATONG IDLE. VERTICAL CANVAS 1440 pixels wide by 2240 pixels tall, exactly 8 COLUMNS and 7 ROWS = 56 COMPLETE poses. Each tall cell is 180 by 320, with generous blank gutters; EVERY pose including bottom row must show complete feet. NO eighth row. Real transparent RGBA background. Preserve the exact original TALL rectangular golden head, eyes at the upper outside corners, large precise black jagged double-serpent emblem, small gold torso with white belly patch, two short gold arms and feet. Do not shorten/squash head, widen him, redraw emblem, add fingers, or change proportions. Fixed front view, head/body/feet stationary and identical in every cell. Only ONE existing arm animates: the arm on the VIEWER'S RIGHT, on the right edge of the image. The viewer-left arm remains down at its original side for EVERY pose, never holding anything. Same viewer-right hand does the complete action: poses1-4 exact idle then swings slightly outward to viewer-right; poses5-10 that RIGHT hand reaches BEHIND HIS BACK and becomes fully occluded by his torso, visibly absent because it is behind him. Poses11-16 THE SAME RIGHT hand reappears from behind the RIGHT side holding a small folded white handkerchief; cloth emerges at right outer side, never from belly and never in left hand. Poses17-27 lift cloth to the BOTTOM OF THE GOLDEN HEAD, his chin, and wipe the chin slowly from center toward right. Poses28-39 the same RIGHT hand makes a second slow careful chin-polishing stroke. Poses40-44 hold the white cloth just underneath the clean chin; tiny four-point white sparkle at bottom right edge of chin. Poses45-49 lower cloth toward RIGHT hip. Poses50-53 take the same cloth and SAME RIGHT hand behind the back on the RIGHT; both cloth and hand disappear behind torso. Poses54-56 right hand returns empty from behind him into EXACT ORIGINAL IDLE. Chronological row-major continuous small increments. No middle idle resets, no switching hands, no teleporting cloth. Exactly two arms; when one moves there is not an extra resting hand left behind. All cloth always in VIEWER-RIGHT hand, viewer-left arm motionless. Face/head size and emblem unchanged. No text, labels, grid, ground shadow, glow border or particles except the one brief clean chin sparkle. Crisp original pixel-art style. Prioritize faithful tall Atong anatomy and unmistakable hand-behind-back retrieval/return over variation.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f8bf-a11b-7133-aad9-1a2a29e6b41b\\exec-492ac34c-9ab2-4c71-b364-6bc657918fe7.png",
+    "reviewedOmissions": [
+      43,
+      44
+    ],
+    "review": "56 complete poses, eight columns/seven rows. Same viewer-right hand across retrieval/polish/return; tall original head proportions preserved. Omit two premature no-cloth poses R6C4-C5 before the remaining cloth-lowering frames. Chin sparkle around R5C7-R6C3. Verify the cloth lift between R2C8 and R3C1 at final playback timing.",
+    "idleSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-2586c0ae-0df3-4ca3-a4be-4e52c9995137.png",
+    "sourceFrameCount": 56,
+    "frameCount": 54,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [
+      43,
+      44
+    ],
+    "temporalReview": "56 complete poses, eight columns/seven rows. Same viewer-right hand across retrieval/polish/return; tall original head proportions preserved. Omit two premature no-cloth poses R6C4-C5 before the remaining cloth-lowering frames. Chin sparkle around R5C7-R6C3. Verify the cloth lift between R2C8 and R3C1 at final playback timing.",
+    "gestureScaleX": 1.024014,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "bc033e6d713b9b94fd45e6e0a609d0b0958e89e475bf6375459f8ffcf8c72bf6",
+    "idleSha256": "c5d825faba05bbff17400c00deaf59702ce514c3d5f7eff44bac56534e0dccad",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.29,
+        0.16,
+        0.71,
+        0.42
+      ],
+      "minimumConfidence": 0.950253,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 2.384,
+          "stepRms": 0.6393,
+          "stepMax": 1.3829
+        },
+        "y": {
+          "range": 1.1226,
+          "stepRms": 0.2271,
+          "stepMax": 0.6062
+        },
+        "widthRatio": {
+          "range": 0.08,
+          "stepRms": 0.018,
+          "stepMax": 0.04
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.0645,
+          "stepRms": 0.0236,
+          "stepMax": 0.0557
+        },
+        "y": {
+          "range": 0.3187,
+          "stepRms": 0.0951,
+          "stepMax": 0.2382
+        },
+        "widthRatio": {
+          "range": 0.08,
+          "stepRms": 0.0182,
+          "stepMax": 0.04
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0087664,
+        "headOffsetY": 0.0042713
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "flo",
+    "path": "Assets/art/units/directional-v1/flo-atlas.png",
+    "action": "Flo has NO EYES, NO FACE, only the flower on its torso. Exactly two long drooping arms. Flo cups the flower gently with its two existing long hands, nurtures it patiently while it opens and sways subtly during the main action, then lowers those same arms back to exact idle. No extra small arms.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\flo\\flo-idle.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Flo has NO EYES, NO FACE, only the flower on its torso. Exactly two long drooping arms. Flo cups the flower gently with its two existing long hands, nurtures it patiently while it opens and sways subtly during the main action, then lowers those same arms back to exact idle. No extra small arms.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-093bbf47-e424-4c4d-8b2d-a39ba629c884.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-ad55f7db-b8e7-4c17-9df7-21833dba9970.png",
+    "sourceFrameCount": 64,
+    "frameCount": 61,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "omittedOutOfOrderFrames": [
+      48,
+      49,
+      50
+    ],
+    "temporalReview": "Remove premature low-hand reset before the continuous closing arm movement.",
+    "gestureScaleX": 0.970588,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "d1d6394d1cff31b16763aaaf6e9a18288943c1656df2a8154fbd0cbe435a0935",
+    "idleSha256": "024ab6c7869d08f20d1c68376ce2d02a67f977907e9664545f6efda68cfe348b",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.24,
+        0.0,
+        0.7,
+        0.16
+      ],
+      "minimumConfidence": 0.96522,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 2.9729,
+          "stepRms": 0.89,
+          "stepMax": 2.1068
+        },
+        "y": {
+          "range": 1.3863,
+          "stepRms": 0.2958,
+          "stepMax": 0.9209
+        },
+        "widthRatio": {
+          "range": 0.06,
+          "stepRms": 0.0148,
+          "stepMax": 0.04
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.453,
+          "stepRms": 0.1856,
+          "stepMax": 0.391
+        },
+        "y": {
+          "range": 0.2776,
+          "stepRms": 0.0998,
+          "stepMax": 0.238
+        },
+        "widthRatio": {
+          "range": 0.04,
+          "stepRms": 0.0134,
+          "stepMax": 0.04
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0144223,
+        "headOffsetY": 0.0046435
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "gochan",
+    "path": "Assets/art/units/directional-v1/gochan-atlas.png",
+    "action": "Gochan lifts one existing short arm to the brim of the exact original giant red-orange pointed hat, tips it gently and keeps a mischievous pause under the brim during the main action. A tiny red paper charm peeks from that hand, then disappears as the hand returns. Preserve big toothy grin, small olive body, golden spiral on hat and exactly TWO arms.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\gochan\\gochan-idle.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Gochan lifts one existing short arm to the brim of the exact original giant red-orange pointed hat, tips it gently and keeps a mischievous pause under the brim during the main action. A tiny red paper charm peeks from that hand, then disappears as the hand returns. Preserve big toothy grin, small olive body, golden spiral on hat and exactly TWO arms.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-5782a903-9184-45f1-a668-c8b6bccdc71b.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\gochan\\gochan-idle.png",
+    "sourceFrameCount": 56,
+    "frameCount": 56,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [],
+    "temporalReview": "Original chronological sequence.",
+    "gestureScaleX": 0.876432,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "700568f1022be5f38bd1fa8407057de9bff5d32dc4107815d27e6122c5ca6e5d",
+    "idleSha256": "3d0ef8f39c02d3f48a62d3c256212dcbf690a9327cad6dc817c18c28711d1d62",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.3,
+        0.15,
+        0.7,
+        0.4
+      ],
+      "minimumConfidence": 0.927223,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 6.2948,
+          "stepRms": 1.1013,
+          "stepMax": 2.7531
+        },
+        "y": {
+          "range": 9.6247,
+          "stepRms": 1.1312,
+          "stepMax": 5.7798
+        },
+        "widthRatio": {
+          "range": 0.06,
+          "stepRms": 0.0149,
+          "stepMax": 0.03
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.0928,
+          "stepRms": 0.0299,
+          "stepMax": 0.0587
+        },
+        "y": {
+          "range": 0.2201,
+          "stepRms": 0.068,
+          "stepMax": 0.1633
+        },
+        "widthRatio": {
+          "range": 0.06,
+          "stepRms": 0.0167,
+          "stepMax": 0.03
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0269192,
+        "headOffsetY": 0.0399657
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "jazar",
+    "path": "Assets/art/units/directional-v1/jazar-atlas.png",
+    "action": "Jazzar's original yellow hand cups a modest green bubble. It grows gradually, he observes it for the main part, and the other yellow hand gently pokes it once. Three small green dots fade, then both hands return to the original idle.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\jazzar\\jazzar-idle.png",
+    "prompt": "Use case: precise-object-edit. Image1 is the original Jazzar idle. Image2 is the animation sprite sheet to finish. Keep all56poses in image2, its corrected taller yellow oval heads, its yellow arms/hands, colors, emblems, grey bodies, bubble timeline, sprite sizes and every pose unchanged. FIX ONLY THE MISSING SAFE MARGIN: the top of the first-row heads is too close to/cut by the image edge. Expand the transparent canvas upward by40pixels, give all8first-row characters their complete original rounded top head outline from image1, and leave at least24transparent pixels above every first-row head. Preserve all other rows completely. Transparent padding outside the artwork, no cropping any character. Also preserve generous empty gutters between rows and columns. Do not alter the animation or add limbs. No labels, no solid background, no shadows, no gridlines. The final image must contain the entire 8columns7rows with complete heads and feet.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\visualizations\\2026\\09\\30\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\oct1\\approved-gestures\\jazar.png",
+    "promptHistory": [
+      "Use case: identity-preserve. Make a transparent pixel-art animation sprite sheet from this SINGLE ORIGINAL IDLE of Jazzar. The reference is the exact authoritative anatomy: tall dominant YELLOW OVAL HEAD (about56percent of the whole visible height), black radiation symbol unchanged, huge long solid-YELLOW arms and YELLOW hands, grey collar/suit, extremely short grey feet. Overall upright proportions must match the original exactly. Never reduce the head to a small round mask. Never introduce grey or black gloves or wristbands: his hands remain the same yellow as his arms. Exactly TWO arms, no face/eyes/mouth added. 56 sequential poses, 8columns7rows, transparent gutters, complete feet, fixed scale/foot baseline/front view. One calm unique continuous gesture. Row1 slowly cup one original yellow hand near lower chest; tiny faint green bubble appears above that palm only by end of row1. Row2 green toxic bubble grows slowly to a modest size while character observes, original radiation symbol stays fixed. Row3 linger admiring the bubble with subtle tiny bubble wobble. Row4 other original YELLOW hand slowly approaches bubble; no duplicate resting limb. Row5 yellow fingertip gently pokes it; it POPS ONCE into3tiny green dots that fade sequentially completely. Do not regrow bubble after it pops. Row6 both original hands gradually descend through8small distinct angles to exact original idle; no bubble. Row7 all8poses settle in the ORIGINAL IDLE with hands down, no new arm lift or new bubble. No independent row resets in the middle. Small smooth changes between all consecutive poses, no giant effect, no cropped limbs, no shadows, labels, grid lines or other objects.",
+      "Use case: identity-preserve. Image1 is the original Jazzar idle and is authoritative. Image2 is the nearly finished animation sheet to edit. Make ONLY this anatomical correction throughout image2: the yellow oval head/mask must have the original taller oval proportions shown in image1, rather than the slightly squat round mask in image2. Keep head WIDTH and radiation emblem design the same; lengthen the oval vertically about15percent, maintaining the original source shape and moving its top upward into the empty margin. Keep feet and body positions exactly where they are, same yellow hands, same grey suit, same motion, same green bubble sequence and the same 8-column7-row layout. Do not add eyes, mouth or grey gloves. Do not create any new gesture or reset. Keep all56poses and all limbs fully inside their original cells; transparent RGBA outside sprites. The original large dominant head and long yellow arms should look like the same character in image1. Preserve the one bubble that grows, is admired, pops once into tiny fading dots and is absent from the rest of the sheet. Do not change any other feature or detail. No labels, background, shadows or gridlines.",
+      "Use case: precise-object-edit. Image1 is the original Jazzar idle. Image2 is the animation sprite sheet to finish. Keep all56poses in image2, its corrected taller yellow oval heads, its yellow arms/hands, colors, emblems, grey bodies, bubble timeline, sprite sizes and every pose unchanged. FIX ONLY THE MISSING SAFE MARGIN: the top of the first-row heads is too close to/cut by the image edge. Expand the transparent canvas upward by40pixels, give all8first-row characters their complete original rounded top head outline from image1, and leave at least24transparent pixels above every first-row head. Preserve all other rows completely. Transparent padding outside the artwork, no cropping any character. Also preserve generous empty gutters between rows and columns. Do not alter the animation or add limbs. No labels, no solid background, no shadows, no gridlines. The final image must contain the entire 8columns7rows with complete heads and feet."
+    ],
+    "generatedSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f8c0-99fc-74b2-b50f-5de119c57eb6\\exec-54254291-ded6-4221-ac28-2300bf11e4de.png",
+    "sourceGrid": [
+      8,
+      7
+    ],
+    "reviewedOmissions": [],
+    "reviewedFrameCount": 56,
+    "reviewNotes": "Replaces the old glove-bearing shorter-head candidate. Original taller oval head and same yellow arms/hands retained. One bubble grows, is admired, pops34–36, never regrows; hands down by39, settled40–55. No omitted frames. All four canvas edges have zero opaque(alpha>200) pixels, verifying margin/cutoff correction. No raster processing: copied tool-generated PNG byte-for-byte. Runtime playback/entry blending still to verify.",
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\jazzar\\jazzar-idle.png",
+    "sourceFrameCount": 56,
+    "frameCount": 56,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [],
+    "temporalReview": "Final atlas reviewed with source-specific omissions.",
+    "gestureScaleX": 1.013595,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "d640f7ea5314eba05e4faae4ff09beb41aff80c687c90a733542506541677797",
+    "idleSha256": "3c97cce60643f341ba135aa259acb25a3ae16421a6c7a9e97335dc1a82f45122",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.3,
+        0.15,
+        0.7,
+        0.4
+      ],
+      "minimumConfidence": 0.972701,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 2.9644,
+          "stepRms": 0.7261,
+          "stepMax": 1.7264
+        },
+        "y": {
+          "range": 5.8149,
+          "stepRms": 0.7617,
+          "stepMax": 3.8422
+        },
+        "widthRatio": {
+          "range": 0.09,
+          "stepRms": 0.0165,
+          "stepMax": 0.07
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.0647,
+          "stepRms": 0.0181,
+          "stepMax": 0.054
+        },
+        "y": {
+          "range": 0.1445,
+          "stepRms": 0.0373,
+          "stepMax": 0.1139
+        },
+        "widthRatio": {
+          "range": 0.1,
+          "stepRms": 0.0175,
+          "stepMax": 0.07
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0109342,
+        "headOffsetY": 0.0236451
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "kayon",
+    "path": "Assets/art/units/directional-v1/kayon-atlas.png",
+    "action": "Kayon uses only his viewer-left hand to retrieve a tiny wooden doll from his pouch, admire it gently for a long moment above the pouch, and return it. The original viewer-right hand remains at rest throughout; both ears remain visible.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\kayon\\kayon-idle.png",
+    "prompt": "Create an in-game pixel-art animation atlas using ONLY this original idle reference as the strict authority for the character KAYON. Preserve the exact very large round blue head, same body proportions, the two original round blue ears on the SIDES OF THE HEAD, original two tiny black eyes, black W-shaped mouth, white cheek emblems, short legs and feet, and the blue gold-filled pouch on VIEWER-LEFT. Fixed frontal camera. Exactly 8 columns and 7 rows = 56 COMPLETE separate sprites, chronological left-to-right then top-to-bottom, true transparent RGBA background, ample transparent gutters between all cells, no grid, labels or text, no cropped last row. Keep head silhouette, body scale and feet baseline consistent in every cell. This is a small charming personal gesture: ONLY THE VIEWER-LEFT HAND (the arm beside/behind the pouch) moves. It reaches into the pouch, takes out ONE tiny wooden doll, lifts it slightly above the pouch on the VIEWER-LEFT side of the chest, holds it in THAT ONE HAND while admiring it for a long moment, then slowly lowers the SAME hand and doll back into the pouch and returns to the exact idle. The VIEWER-RIGHT ARM AND HAND must stay STILL, hanging at the lower-right side EXACTLY LIKE THE ORIGINAL IDLE IN ALL 56 POSES. That right hand NEVER lifts, NEVER touches the doll, NEVER duplicates. There are always exactly TWO arms total: one left active hand, one right stationary resting hand. Only ONE hand is ever in front of the torso. Do not draw any other blue hands next to the doll. Both HEAD EARS remain untouched and visible throughout; distinguish them from the two lower body arms. The doll stays LEFT of the face center, close above the pouch, and is always small. Precise timeline: row1 starts exact idle, left arm moves smoothly into pouch. Row2 retrieves tiny wooden doll and lifts gradually above pouch. Rows3,4,5 are a long uninterrupted admiration pose: left hand holds the doll still at lower-left chest, with only small natural wrist tilts; original face remains visible. Row6 smoothly lowers the SAME LEFT hand and doll back toward pouch; no extra reaching or raise. Row7 finishes putting doll INTO pouch in first four cells then returns slowly to exact original idle in last four cells. No mid-sequence idle resets, no doll reappearing after put-away. Keep pixel-art blocks, colors, hard edges and detailing identical to the reference, no smoothing, no different species or costume. Prioritize faithful original anatomy and exactly one active left hand; right hand is a motionless original side hand. Moderate unexaggerated movement, no bounce or locomotion.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f8bf-a11b-7133-aad9-1a2a29e6b41b\\exec-a83e1a13-501b-44e6-96d1-e7f5c5825dc4.png",
+    "reviewedOmissions": [
+      55
+    ],
+    "review": "New single-hand gesture; original idle sole reference. Both ears and exactly two arms preserved: viewer-left hand holds the doll, viewer-right hand remains at side. Long admiration across rows3-5. Omit final R7C8 because it begins another reach after completed idle at R7C6-7. Read-only extraction verified 56 independent bodies, exactly one body per cell, no opaque pixels touching cuts; minimum L/T/R/B gutters 3/8/3/6 px, body heights145-149px. 55 usable poses. Static anatomical review accepted; continuous playback still requires Unity verification.",
+    "idleSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-392daa72-bd88-419c-921e-93e97de03fd4.png",
+    "sourceFrameCount": 56,
+    "frameCount": 55,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "omittedOutOfOrderFrames": [
+      55
+    ],
+    "temporalReview": "New single-hand gesture; original idle sole reference. Both ears and exactly two arms preserved: viewer-left hand holds the doll, viewer-right hand remains at side. Long admiration across rows3-5. Omit final R7C8 because it begins another reach after completed idle at R7C6-7. Read-only extraction verified 56 independent bodies, exactly one body per cell, no opaque pixels touching cuts; minimum L/T/R/B gutters 3/8/3/6 px, body heights145-149px. 55 usable poses. Static anatomical review accepted; continuous playback still requires Unity verification.",
+    "gestureScaleX": 0.958384,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "013cb0cb120eccf62f8356215c215a4cc643b256f88f11eba5332276e6d99e09",
+    "idleSha256": "20959470d6474ad8c52da0664fca412ad5242400cb50df20ae27dd0a8477fa75",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.2,
+        0.24,
+        0.85,
+        0.47
+      ],
+      "minimumConfidence": 0.96288,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 2.1093,
+          "stepRms": 0.4598,
+          "stepMax": 1.0911
+        },
+        "y": {
+          "range": 2.3658,
+          "stepRms": 0.4941,
+          "stepMax": 1.0784
+        },
+        "widthRatio": {
+          "range": 0.05,
+          "stepRms": 0.0124,
+          "stepMax": 0.03
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.0636,
+          "stepRms": 0.0179,
+          "stepMax": 0.0617
+        },
+        "y": {
+          "range": 0.0874,
+          "stepRms": 0.0225,
+          "stepMax": 0.0465
+        },
+        "widthRatio": {
+          "range": 0.05,
+          "stepRms": 0.0086,
+          "stepMax": 0.03
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0068614,
+        "headOffsetY": 0.008549
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "bugaloo",
+    "path": "Assets/art/units/directional-v1/bugaloo-atlas.png",
+    "action": "Bugaloo slowly brings ONE existing hand onto his belly and spends the MAIN ACTION doing several slow contented little belly scratches. His other arm stays natural, relaxed content face. Then lowers hand. Preserve the huge blue round body and original yellow crescent and belly cavity.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\monsters\\bugaloo\\bugaloo-idle.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Bugaloo slowly brings ONE existing hand onto his belly and spends the MAIN ACTION doing several slow contented little belly scratches. His other arm stays natural, relaxed content face. Then lowers hand. Preserve the huge blue round body and original yellow crescent and belly cavity.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-488917b4-c0e2-4e2b-b2b2-b23754caeb30.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\monsters\\bugaloo\\bugaloo-idle.png",
+    "sourceFrameCount": 56,
+    "frameCount": 48,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "omittedOutOfOrderFrames": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "temporalReview": "Keep reveal and belly rub0..39, then reverse the original raise7..0 to lower that same hand smoothly instead of teleporting it down.",
+    "gestureScaleX": 0.982206,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "04f07ff5df2c70cd1f2398bdda80917b86757f4f37c2752a21634db842c51fbe",
+    "idleSha256": "c061f898abfdf36e6698d3d346c1478f34b35ebb504252617ffe68aac5974775",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.3,
+        0.13,
+        0.7,
+        0.41
+      ],
+      "minimumConfidence": 0.955746,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 1.7711,
+          "stepRms": 0.4625,
+          "stepMax": 1.1267
+        },
+        "y": {
+          "range": 1.7365,
+          "stepRms": 0.3964,
+          "stepMax": 1.468
+        },
+        "widthRatio": {
+          "range": 0.05,
+          "stepRms": 0.0141,
+          "stepMax": 0.03
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.1334,
+          "stepRms": 0.0448,
+          "stepMax": 0.093
+        },
+        "y": {
+          "range": 0.0517,
+          "stepRms": 0.0149,
+          "stepMax": 0.0369
+        },
+        "widthRatio": {
+          "range": 0.03,
+          "stepRms": 0.0152,
+          "stepMax": 0.03
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0045188,
+        "headOffsetY": 0.0085221
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "popow",
+    "path": "Assets/art/units/directional-v1/popow-atlas.png",
+    "action": "Popow the red boxer gradually raises his two black gloves. During the main action two compact practiced alternating jabs, brief proud guard held between jabs, no huge lunge, then gently relaxes gloves. Keep exact original white star, mouth grille, feet and head.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\monsters\\popow\\popow-idle.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Popow the red boxer gradually raises his two black gloves. During the main action two compact practiced alternating jabs, brief proud guard held between jabs, no huge lunge, then gently relaxes gloves. Keep exact original white star, mouth grille, feet and head.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-2423fa46-9f08-4e40-89d9-9e2fa1d611ad.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\monsters\\popow\\popow-idle.png",
+    "sourceFrameCount": 56,
+    "frameCount": 56,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [],
+    "temporalReview": "Original chronological sequence.",
+    "gestureScaleX": 0.918216,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "5dab14ce9275ef61b858a56752db65d94ae756d2a377a320fecd6df10fc13edf",
+    "idleSha256": "5d8cacb8e8a5ec27a164c21b4d62711995880291b985bcfe17f0cf8fc716c5f7",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.3,
+        0.15,
+        0.7,
+        0.4
+      ],
+      "minimumConfidence": 0.939219,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 7.2031,
+          "stepRms": 1.7022,
+          "stepMax": 5.0868
+        },
+        "y": {
+          "range": 2.5392,
+          "stepRms": 0.6818,
+          "stepMax": 1.8386
+        },
+        "widthRatio": {
+          "range": 0.07,
+          "stepRms": 0.0195,
+          "stepMax": 0.05
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.3466,
+          "stepRms": 0.1235,
+          "stepMax": 0.2619
+        },
+        "y": {
+          "range": 0.1459,
+          "stepRms": 0.0397,
+          "stepMax": 0.1054
+        },
+        "widthRatio": {
+          "range": 0.05,
+          "stepRms": 0.0184,
+          "stepMax": 0.05
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0206487,
+        "headOffsetY": 0.0079004
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "sepora",
+    "path": "Assets/art/units/directional-v1/sepora-atlas.png",
+    "action": "Sepora performs ONE modest magical conjuring gesture centered between her hands. The original two hands slowly come together in front of the chest/lower chin; a tiny violet pinprick appears, gradually brightens into a small floating purple sparkle between those same hands. She holds and admires the small gently pulsing sparkle for the long main section, then its brightness and size gradually diminish to a tiny dot and disappear, then those two hands smoothly lower back to the exact source idle. Magic remains centered between the hands throughout: no teleporting from a side, no giant effect covering the face. Poses1–10 hands gather and faint light appears;11–38 slow delicate magic pulse;39–46 sparkle fades;47–56 hands lower. Keep the original broad magenta head, exact yellow eyes, white top disk, white chin spot, body/feet and original short arms. No mid-sequence idle reset.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\monsters\\sepora\\sepora-idle.png",
+    "prompt": "Use case: identity-preserve. Image1 is the authoritative original Sepora idle. Image2 is the existing centered-magic animation atlas to correct. Preserve character identity and proportions from image1. Fix ONLY temporal continuity: make exactly56 poses, EIGHT columns by SEVEN rows, sequential left-to-right then next row, equal cells and generous transparent gutters, full feet visible. No text/labels/shadows. Same scale, same stationary head and same foot baseline in all poses, exactly2original arms. One modest purple sparkle stays CENTERED between the two hands throughout, never moves to the side. Explicit row timeline: Row1 hands gradually move from exact original idle toward one another at chest level, with no magic yet. Row2 tiny faint pinprick at center slowly grows to a SMALL purple sparkle. Row3 hands continuously stay cupped, sparkle softly pulses. Row4 hands stay cupped, soft main sparkle continues. Row5 sparkle gets successively smaller and fainter in EVERY next column until completely OFF at column8; NEVER increase brightness again after this row. Row6 hands gradually lower to the original idle through8consecutive intermediate arm positions; magic remainsOFF. Row7 all8poses are exact ORIGINAL IDLE with hands relaxed, no magic, no raised hands. No repeated hand lift in the final row, no middle idle reset, no later re-glow. Retain broad magenta head, exact yellow eyes, pale top disk and white chin spot, small magenta body, original arms and feet. Transparent RGBA.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\visualizations\\2026\\09\\30\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\oct1\\approved-gestures\\sepora.png",
+    "generatedSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f8c0-99fc-74b2-b50f-5de119c57eb6\\exec-7dfb3209-b457-4a1e-b3b6-4c7796209e55.png",
+    "sourceGrid": [
+      8,
+      7
+    ],
+    "reviewedOmissions": [
+      36,
+      38,
+      39,
+      40
+    ],
+    "reviewedFrameCount": 52,
+    "reviewNotes": "Second correction pass. Centered magic emerges9–15, remains for long main16–31, fades32–35.36/38 are unwanted small re-glows;39/40 prematurely show fully idle arms before valid lowering intermediates41–45, so omit only those4.46–55 settle in the original idle. No side teleport or raised-hands final row. Runtime playback still required.",
+    "idleSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-f7f8ed83-0551-487b-96b9-b1e1d586c2f5.png",
+    "sourceFrameCount": 56,
+    "frameCount": 52,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      37,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [
+      36,
+      38,
+      39,
+      40
+    ],
+    "temporalReview": "Final atlas reviewed with source-specific omissions.",
+    "gestureScaleX": 1.08615,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "320b191a7305cd1a4047f4f015c1c85d09a8f372708a48c2f6715e7c7d0c4cc3",
+    "idleSha256": "0acd3fae4dfdfb05dbe03ae6c68b0aa326163d1aa6e4a48d01102bbd4d87e397",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.17,
+        0.27,
+        0.83,
+        0.52
+      ],
+      "minimumConfidence": 0.951887,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 4.6802,
+          "stepRms": 1.0494,
+          "stepMax": 2.6337
+        },
+        "y": {
+          "range": 6.2133,
+          "stepRms": 1.057,
+          "stepMax": 5.3429
+        },
+        "widthRatio": {
+          "range": 0.04,
+          "stepRms": 0.0104,
+          "stepMax": 0.03
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.0781,
+          "stepRms": 0.0262,
+          "stepMax": 0.0658
+        },
+        "y": {
+          "range": 0.5787,
+          "stepRms": 0.0977,
+          "stepMax": 0.4021
+        },
+        "widthRatio": {
+          "range": 0.03,
+          "stepRms": 0.0096,
+          "stepMax": 0.03
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0137695,
+        "headOffsetY": 0.0310667
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": [
+        {
+          "playbackIndex": 0,
+          "previousX": 72.0,
+          "correctedX": 90.0,
+          "deviationBodyHeight": 0.145161
+        },
+        {
+          "playbackIndex": 7,
+          "previousX": 66.25,
+          "correctedX": 81.0,
+          "deviationBodyHeight": 0.118952
+        },
+        {
+          "playbackIndex": 43,
+          "previousX": 95.0,
+          "correctedX": 79.5,
+          "deviationBodyHeight": -0.126016
+        }
+      ]
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "tauris",
+    "path": "Assets/art/units/directional-v1/tauris-special-v2.png",
+    "action": "Tauris lifts a tiny toothpick to his exact original huge toothy grin. MAIN ACTION slowly picks his teeth with several small precise hand movements, pauses proudly to show the clean grin, then removes and lowers toothpick. Do not change grin or swap the hand holding toothpick, do not show skull or skeleton or death poses. Use only TOP LEFT neutral grey Tauris.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\monsters\\tauris\\tauris-idle.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Tauris raises one existing hand with a tiny toothpick to his grin. Slowly cleans between two teeth with a gentle small motion, pauses proudly, then puts toothpick away and returns to the original idle. Keep the exact silhouette, grey colour, white eyes and white teeth of the provided original character.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-77a0af55-3ea6-4dba-a2a6-f11455bbb313.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\monsters\\tauris\\tauris-idle.png",
+    "sourceFrameCount": 56,
+    "frameCount": 56,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [],
+    "temporalReview": "Original chronological sequence.",
+    "gestureScaleX": 0.910966,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "8c3a626ce257cb84f09e9e9883653384b2fd6ed0b713992fa08f2b7fef0bf526",
+    "idleSha256": "fb65488a3c603389c9b0cb77d9c01dc6eb245bdd35e018d5a7d91e5caeffa463",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.15,
+        0.15,
+        0.9,
+        0.4
+      ],
+      "minimumConfidence": 0.958984,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 1.3782,
+          "stepRms": 0.4953,
+          "stepMax": 1.0949
+        },
+        "y": {
+          "range": 1.3606,
+          "stepRms": 0.3647,
+          "stepMax": 1.1123
+        },
+        "widthRatio": {
+          "range": 0.03,
+          "stepRms": 0.0091,
+          "stepMax": 0.02
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.1068,
+          "stepRms": 0.0303,
+          "stepMax": 0.1068
+        },
+        "y": {
+          "range": 0.2952,
+          "stepRms": 0.1199,
+          "stepMax": 0.2815
+        },
+        "widthRatio": {
+          "range": 0.04,
+          "stepRms": 0.0085,
+          "stepMax": 0.02
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.005521,
+        "headOffsetY": 0.0057948
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": true,
+      "headRestOffsetX": 0.023686,
+      "units": "Offset in body-height units; positive X points right.",
+      "virtualBodyHeightPixels": 200.0,
+      "evidence": "gesture-idle-seam-audit.json",
+      "method": "Original idle head-band center versus stabilized first/last gesture pose; constant upper-body X translation.",
+      "measuredBeforePixels": {
+        "entryX": -4.737249401387121,
+        "exitX": -4.173140624408704
+      },
+      "predictedAfterPixels": {
+        "entryX": -4.9e-05,
+        "exitX": 0.564059
+      },
+      "perFrameRegistrationOriginChanged": false,
+      "footBaselineChanged": false,
+      "pngPixelsChanged": false,
+      "validation": "Analytical seam prediction; verify final mesh visually in Unity."
+    }
+  },
+  {
+    "id": "atori",
+    "path": "Assets/art/units/generated/atori/atori-animation-rgba.png",
+    "action": "Atori makes a SMALL friendly scout greeting: his one existing SHORT arm lifts only enough for the hand to reach beside the LOWER CHEEK / lower mouth corner, never his forehead. The upper arm/forearm retain their original short length throughout. The same hand makes two tiny gentle waves near that low cheek while his original little eyes glance calmly sideways. The other original arm stays naturally at the side. Then the raised hand gradually lowers along the same path to idle. Exactly two original arms, compact orange body, same large orange head, tiny dark eyes, white cheek rings and two teeth. Poses1–10 raise the short hand below the cheek;11–40 linger on the gentle greeting;41–56 gradually return to idle. The hand must not reach high on the head; do not stretch the arm around the head contour.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\atori\\atori-idle.png",
+    "prompt": "Use case: identity-preserve. Original character image is the sole model. Make a transparent pixel-art sprite sheet, exactly 56 poses in an 8-column by 7-row grid. Atori gives a SMALL low wave with one short arm, beside his LOWER cheek, and returns to rest. Original head/body proportions, face, colors, two tiny arms and feet MUST stay unchanged. Keep body/head planted. Need actual smooth IN-BETWEENS, not a sheet of identical end poses. FIRST ROW: 8 distinct successive intermediate arm angles from original arm down, elbow bent slightly, hand slightly outward, hand one step upward, another step up, then toward lower cheek, nearing cheek, finally beside lower cheek. No full hand-up pose before the last column of row1. ROWS2–5: tiny wrist waving movement beside lower cheek, other hand stays down, SHORT original arm connected to shoulder. ROW6: 8 distinct successive hand angles lowering along the same path in reverse, one small change per cell, with the hand fully down only at last column of row6. ROW7: original idle settled. No raised hands in row7. IMPORTANT: never stretch the arm to the forehead, never add another arm. Match the reference appearance closely. Feet always fully inside each cell. Clear transparent gutters. Absolutely no texts, numbers, labels, gridlines, extra props, background, cast shadows.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\visualizations\\2026\\09\\30\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\oct1\\approved-gestures\\atori.png",
+    "generatedSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f8c0-99fc-74b2-b50f-5de119c57eb6\\exec-b412e6f6-c373-484b-a63d-4e64415a364e.png",
+    "sourceGrid": [
+      8,
+      6
+    ],
+    "reviewedOmissions": [],
+    "reviewedFrameCount": 48,
+    "reviewNotes": "Selected after3passes: original short arms, one small greeting beside lower cheek, coherent lift/hold/lower. Generator delivered48poses(8x6), not requested56; no cropped/missing body parts. First4poses raise hand; final active row32–39 lowers it through distinct angles. Runtime playback still required.",
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\atori\\atori-idle.png",
+    "sourceFrameCount": 48,
+    "frameCount": 48,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "omittedOutOfOrderFrames": [],
+    "temporalReview": "Final atlas reviewed with source-specific omissions.",
+    "gestureScaleX": 0.955268,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "23940a4483f9daa6084070763839101c20578519fe7a9e631178b4ad0b0e1465",
+    "idleSha256": "7a9399482ebd8fd68d48786b3636fd6f6dfa925526dd0937c440005b6695f338",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.3,
+        0.15,
+        0.7,
+        0.4
+      ],
+      "minimumConfidence": 0.984588,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 1.189,
+          "stepRms": 0.3963,
+          "stepMax": 0.9514
+        },
+        "y": {
+          "range": 1.7394,
+          "stepRms": 0.3729,
+          "stepMax": 1.1404
+        },
+        "widthRatio": {
+          "range": 0.08,
+          "stepRms": 0.0185,
+          "stepMax": 0.03
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.1203,
+          "stepRms": 0.045,
+          "stepMax": 0.1008
+        },
+        "y": {
+          "range": 0.07,
+          "stepRms": 0.0178,
+          "stepMax": 0.0427
+        },
+        "widthRatio": {
+          "range": 0.06,
+          "stepRms": 0.0169,
+          "stepMax": 0.03
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0030404,
+        "headOffsetY": 0.0056304
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "blotan",
+    "path": "Assets/art/units/directional-v1/blotan-atlas.png",
+    "action": "Blotan brings out a gold coin fairly promptly. MAIN ACTION slowly admires and turns the coin between his original hands for a long moment, eyes fixed on it, tiny coin glint at the end; then tucks coin away. Do not alter the original yellow wavy body or original large face glyph.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\blotan\\blotan-idle.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Blotan brings out a gold coin fairly promptly. MAIN ACTION slowly admires and turns the coin between his original hands for a long moment, eyes fixed on it, tiny coin glint at the end; then tucks coin away. Do not alter the original yellow wavy body or original large face glyph.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-19bee713-16a7-4ac8-823a-4b39d715ee29.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\blotan\\blotan-idle.png",
+    "sourceFrameCount": 64,
+    "frameCount": 59,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      62,
+      63
+    ],
+    "omittedOutOfOrderFrames": [
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "temporalReview": "Remove late unrelated motion after returning to rest.",
+    "gestureScaleX": 0.996454,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "29c7df273af5407c4c823fe58cd39f66c116b4f3b835758a8f462459c50bb902",
+    "idleSha256": "8413630d48371b3d49353cda881ecccabc9e3358a33d08060dab346e24f5f81a",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.3,
+        0.15,
+        0.7,
+        0.4
+      ],
+      "minimumConfidence": 0.942146,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 5.4334,
+          "stepRms": 0.9915,
+          "stepMax": 3.2094
+        },
+        "y": {
+          "range": 1.7613,
+          "stepRms": 0.3751,
+          "stepMax": 1.3487
+        },
+        "widthRatio": {
+          "range": 0.07,
+          "stepRms": 0.0195,
+          "stepMax": 0.05
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.2378,
+          "stepRms": 0.0611,
+          "stepMax": 0.1731
+        },
+        "y": {
+          "range": 0.1698,
+          "stepRms": 0.0486,
+          "stepMax": 0.1508
+        },
+        "widthRatio": {
+          "range": 0.07,
+          "stepRms": 0.0205,
+          "stepMax": 0.05
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0153753,
+        "headOffsetY": 0.0055952
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "bugui",
+    "path": "Assets/art/units/generated/bugui/bugui-animation-rgba-v2.png",
+    "action": "Bugui gives a little charming dance. Raise both original arms, MAIN ACTION two slow fluid side-to-side shoulder and hand sweeps with slight weight transfer, then arms lower. Keep feet planted, no jump, no giant head bob, original pink cat face and belly proportions.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\bugui\\bugui-idle.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Bugui gives a little charming dance. Raise both original arms, MAIN ACTION two slow fluid side-to-side shoulder and hand sweeps with slight weight transfer, then arms lower. Keep feet planted, no jump, no giant head bob, original pink cat face and belly proportions.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-f554732c-4f1e-4983-bb0f-603d418b8992.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\bugui\\bugui-idle.png",
+    "sourceFrameCount": 64,
+    "frameCount": 64,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "omittedOutOfOrderFrames": [],
+    "temporalReview": "Original chronological sequence.",
+    "gestureScaleX": 0.934201,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "da1c7143ae5a7044d1c810d8a0feeb4faf1fad0d5d299ce245288802fc466bfb",
+    "idleSha256": "4d867f15aa5c0ab6e7e1238df1e38c78ff2f0485885d20faa58b086a3a4f23af",
+    "headStability": {
+      "applied": false,
+      "reason": "Reviewed intentional alternating head tilt; preserve dance rather than pinning its head.",
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "stein",
+    "path": "Assets/art/units/generated/stein-approved/stein-animation-rgba-v1.png",
+    "action": "Stein slowly brings two hands together. MAIN ACTION rubs them gently and patiently until tiny cyan static sparks build up; watches tiny sparks, lets them fade, then relaxes hands. Keep original beige body, big teeth, heart emblem and white hair shape intact.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\stein\\stein-idle.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Stein slowly brings two hands together. MAIN ACTION rubs them gently and patiently until tiny cyan static sparks build up; watches tiny sparks, lets them fade, then relaxes hands. Keep original beige body, big teeth, heart emblem and white hair shape intact.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-ec4af70a-ee6f-46ce-9a91-936e483bce19.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-88ba5496-9347-43c8-90e4-f166867be177.png",
+    "sourceFrameCount": 56,
+    "frameCount": 51,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [
+      8,
+      9,
+      51,
+      52,
+      53
+    ],
+    "temporalReview": "Remove isolated resets that interrupt the charge and final return.",
+    "gestureScaleX": 0.928236,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "d255fd3b293c7fb772880d5312ab34d6dbb56e5ba562f87f0e6d0271fedcdce0",
+    "idleSha256": "1f16aea4b18e4e9682e7ff903c4cb6d1424f9ba2658ad45f63d742003e511cdc",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.29,
+        0.33,
+        0.71,
+        0.48
+      ],
+      "minimumConfidence": 0.945295,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 3.5021,
+          "stepRms": 0.9906,
+          "stepMax": 2.7203
+        },
+        "y": {
+          "range": 7.6039,
+          "stepRms": 1.2324,
+          "stepMax": 3.9732
+        },
+        "widthRatio": {
+          "range": 0.09,
+          "stepRms": 0.0195,
+          "stepMax": 0.05
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.132,
+          "stepRms": 0.047,
+          "stepMax": 0.1005
+        },
+        "y": {
+          "range": 0.1015,
+          "stepRms": 0.0212,
+          "stepMax": 0.0511
+        },
+        "widthRatio": {
+          "range": 0.07,
+          "stepRms": 0.0205,
+          "stepMax": 0.05
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0121177,
+        "headOffsetY": 0.0380195
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "trimol",
+    "path": "Assets/art/units/directional-v1/trimol-atlas.png",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\trimol\\trimol-idle.png",
+    "action": "Trimol juggles exactly two separate game-rendered rocks. Atlas contains the original character with empty purple palms only; stones move on continuous, alternating arcs and are caught before being stowed.",
+    "prompt": "Use case: identity-preserve. The attached ORIGINAL TRIMOL IDLE is the authoritative character model. Create a transparent RGBA pixel-art animation atlas of ONLY THIS CHARACTER, no props, no stones, no rocks, no balls, no floating objects in ANY cell. We will animate the two juggling stones separately in the game. 64 complete poses, 8 columns by 8 rows, equal cells, row-major chronological sequence. Leave generous gutters; never crop feet or arms. Keep exact original purple tall stocky body proportions, orange face mask with three dark openings, golden zigzag marking on ONLY viewer-right forearm, short feet, tiny knee creases, and original crisp pixel shading. Do not flatten or widen him. First and last poses must exactly match reference idle. This is one gentle juggling mime: first 12 poses turn both existing hands upward and raise forearms to waist height on left and right sides; middle 36 poses alternate TWO slow small up-down toss-and-catch motions with the empty left palm and empty right palm. Keep the palms at roughly the lower third of body height, about one third of body height to either side of the center, so separate game props can land there. Hands move only subtly vertically during the mime, with wrists rotating upward during toss and softening during catch. Body/head/face/feet remain stationary and identical. Last 16 poses slowly lower EMPTY hands to the exact original resting position. Exactly TWO attached arms, never duplicate resting hands. Palms remain purple and EMPTY; no grey patches and no objects held in hands. No stones anywhere. Preserve original silhouette in rest poses and same body proportions in all poses. No text, labels, grid, cast shadow, glow, white outline or motion trails. Smooth small changes across every successive pose and across all row boundaries, no idle resets in the middle. Image is a character-only game sprite sheet with real transparency.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f8bf-a11b-7133-aad9-1a2a29e6b41b\\exec-2748e450-31d9-467c-9394-880d2d244152.png",
+    "props": "two-stone-juggle",
+    "headroom": 1.18,
+    "omitFrames": [
+      46,
+      47
+    ],
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\trimol\\trimol-idle.png",
+    "sourceFrameCount": 56,
+    "frameCount": 54,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [
+      46,
+      47
+    ],
+    "temporalReview": "Final atlas reviewed with source-specific omissions.",
+    "gestureScaleX": 0.929522,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "a14171b9b1bf99d71a3d3b2980c07a1811ce17185caac9c3aca92a2e05baabfb",
+    "idleSha256": "da9e287d92b2eb7808f24c18463dea8261f256b8a2357bcb69447629b1e41372",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.36,
+        0.07,
+        0.64,
+        0.3
+      ],
+      "minimumConfidence": 0.97958,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 1.4216,
+          "stepRms": 0.4185,
+          "stepMax": 1.333
+        },
+        "y": {
+          "range": 3.0419,
+          "stepRms": 0.351,
+          "stepMax": 1.8496
+        },
+        "widthRatio": {
+          "range": 0.03,
+          "stepRms": 0.0153,
+          "stepMax": 0.03
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.0577,
+          "stepRms": 0.0225,
+          "stepMax": 0.0541
+        },
+        "y": {
+          "range": 0.0834,
+          "stepRms": 0.0226,
+          "stepMax": 0.054
+        },
+        "widthRatio": {
+          "range": 0.04,
+          "stepRms": 0.011,
+          "stepMax": 0.04
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0047659,
+        "headOffsetY": 0.0147502
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "tsu",
+    "path": "Assets/art/units/directional-v1/tsu-atlas.png",
+    "action": "Tsu has NO SMILE. Preserve her exact neutral expression with two black eyes, small pale face and magenta bob haircut. She brings a little pink bubblegum bubble from her mouth; MAIN ACTION slowly inflates it, watches it wobble gently for a while, then deflates it and returns to neutral. No grin at any frame, no extra eyes, two small arms stay near sides.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\tsu\\tsu-idle.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Tsu has NO SMILE. Preserve her exact neutral expression with two black eyes, small pale face and magenta bob haircut. She brings a little pink bubblegum bubble from her mouth; MAIN ACTION slowly inflates it, watches it wobble gently for a while, then deflates it and returns to neutral. No grin at any frame, no extra eyes, two small arms stay near sides.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-d7fe1012-1327-45a8-b5fd-87bcf349800c.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\tsu\\tsu-idle.png",
+    "sourceFrameCount": 56,
+    "frameCount": 56,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [],
+    "temporalReview": "Original chronological sequence.",
+    "gestureScaleX": 0.928201,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "fde845f805f86b7c3782620579e0de53c8b01c9e348f4bb083cdca9f94c09a08",
+    "idleSha256": "93a52aa8683b42257b53b7ec217f0982a16c831667fdc3d6f2055e3957e528de",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.3,
+        0.15,
+        0.7,
+        0.4
+      ],
+      "minimumConfidence": 0.983471,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 2.4337,
+          "stepRms": 0.6517,
+          "stepMax": 2.0702
+        },
+        "y": {
+          "range": 3.1656,
+          "stepRms": 0.5308,
+          "stepMax": 2.0451
+        },
+        "widthRatio": {
+          "range": 0.08,
+          "stepRms": 0.0145,
+          "stepMax": 0.03
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.1628,
+          "stepRms": 0.0586,
+          "stepMax": 0.1232
+        },
+        "y": {
+          "range": 0.128,
+          "stepRms": 0.0415,
+          "stepMax": 0.1001
+        },
+        "widthRatio": {
+          "range": 0.06,
+          "stepRms": 0.0162,
+          "stepMax": 0.03
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0082076,
+        "headOffsetY": 0.0152229
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "aky",
+    "path": "Assets/art/units/directional-v1/aky-atlas.png",
+    "action": "Aky makes ONE continuous careful adjustment of his original two orange chest straps. Two existing blue hands gradually rise from their original low side position to grip the original orange straps. Keep both hands in contact with the straps for the entire main action: a small tug on the first strap, then a small tug on the second, pressing both flat. The motion is compact and calm. Only after the adjustment is finished do both hands gradually descend along the same path to the exact original idle. Poses1–10 rise;11–40 alternate small strap tugs while BOTH hands remain raised;41–56 lower gradually and settle. Do not insert an idle row or lower either arm halfway through. Keep original blue body, large angular black face mask and slanted eyes, original long thick arms with their original small hands and orange straps. No oversized boxing gloves, no extra limbs.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\aky\\aky-idle.png",
+    "prompt": "Use case: identity-preserve. Asset: a polished pixel-art animation sprite atlas for an existing game. Input image 1 is the ORIGINAL IDLE and is the sole character model. Preserve that exact character's silhouette, original relative head/body proportions, face, colors, emblems and original limb lengths. A transparent RGBA background, no grid lines, captions, shadows or scenery. Exactly 56 sequential poses in 8 columns and 7 rows, equal cells, row-major chronological reading order. All characters completely visible with generous transparent gutters and empty margin, including last row feet. Same front view, same size, same foot baseline in every cell. First pose and final pose exactly match the source idle. One continuous gesture: no resetting to idle between rows, no stray rest pose in its middle. Smooth tiny changes in consecutive poses; spend most poses on the main action, with several in-betweens for both entry and exit. No anatomy redesign or duplicate limbs. Aky makes ONE continuous careful adjustment of his original two orange chest straps. Two existing blue hands gradually rise from their original low side position to grip the original orange straps. Keep both hands in contact with the straps for the entire main action: a small tug on the first strap, then a small tug on the second, pressing both flat. The motion is compact and calm. Only after the adjustment is finished do both hands gradually descend along the same path to the exact original idle. Poses1–10 rise;11–40 alternate small strap tugs while BOTH hands remain raised;41–56 lower gradually and settle. Do not insert an idle row or lower either arm halfway through. Keep original blue body, large angular black face mask and slanted eyes, original long thick arms with their original small hands and orange straps. No oversized boxing gloves, no extra limbs.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\visualizations\\2026\\09\\30\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\oct1\\approved-gestures\\aky.png",
+    "generatedSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f8c0-99fc-74b2-b50f-5de119c57eb6\\exec-73ecd3c7-ccd9-4b3d-ba5d-e54b02085ebd.png",
+    "sourceGrid": [
+      8,
+      7
+    ],
+    "reviewedOmissions": [
+      40
+    ],
+    "reviewedFrameCount": 55,
+    "reviewNotes": "Visually checked against original idle. Both hands continuously adjust straps, except isolated reset at40, which must be omitted. Never apply old atlas exclusions8/16/17/23/24 to this replacement. Runtime playback still required.",
+    "idleSource": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\aky\\aky-idle.png",
+    "sourceFrameCount": 56,
+    "frameCount": 55,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [
+      40
+    ],
+    "temporalReview": "Final atlas reviewed with source-specific omissions.",
+    "gestureScaleX": 1.060454,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "953c926ff9d5630be624d6559c05c25ff9dad651217d2540cdda0350eff3511c",
+    "idleSha256": "15fe47f4ba27709053a20321304f511e4e9e6a141f3e8708078de02f7450edb1",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.3,
+        0.15,
+        0.7,
+        0.4
+      ],
+      "minimumConfidence": 0.981611,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 2.3017,
+          "stepRms": 0.5907,
+          "stepMax": 1.6066
+        },
+        "y": {
+          "range": 3.2298,
+          "stepRms": 0.5684,
+          "stepMax": 1.9391
+        },
+        "widthRatio": {
+          "range": 0.06,
+          "stepRms": 0.0163,
+          "stepMax": 0.04
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.0849,
+          "stepRms": 0.0242,
+          "stepMax": 0.0748
+        },
+        "y": {
+          "range": 0.291,
+          "stepRms": 0.0917,
+          "stepMax": 0.2581
+        },
+        "widthRatio": {
+          "range": 0.05,
+          "stepRms": 0.0171,
+          "stepMax": 0.03
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0062339,
+        "headOffsetY": 0.0111837
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": [
+        {
+          "playbackIndex": 0,
+          "previousX": 62.5,
+          "correctedX": 95.25,
+          "deviationBodyHeight": 0.244403
+        }
+      ]
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  },
+  {
+    "id": "hymay",
+    "path": "Assets/art/units/directional-v1/hymay-atlas.png",
+    "action": "Hymay the tiny orange caped hero lifts one end of his purple cape and smooths it carefully. MAIN ACTION two slow neat brushing motions of cape, brief confident pose with cape gently curving, then eases hand to side. Preserve original orange helmet with golden curl, white mouth and TWO arms. No fire, no leaps.",
+    "reference": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\gogos-minis\\whelps\\hymay\\hymay-idle.png",
+    "prompt": "Use case: identity-preserve. Create a pixel-art animation sprite atlas from the SINGLE ORIGINAL IDLE character in the attached image. This exact character is the sole authoritative model. Preserve its precise face, silhouette, body/head proportions, ears, limbs, palette, emblems and pixel-art detail. Do not redesign, simplify, make chibi, add a face, or make limbs longer. Remove the reference background, use genuinely transparent RGBA. Layout: 64 animation poses, 8 columns by 8 rows, row-major chronological order, equal cells, consistent character size, fixed feet baseline, 10% empty margins. No labels/grid/shadows. Every pose is the same front view. The first and last poses faithfully reproduce the provided idle. Exactly TWO arms/hands, no duplicated resting limbs when hands move. Smooth animation with small consecutive hand/arm changes; head and feet should remain stable. One personality gesture: first 12 poses smoothly reveal, middle 36 poses linger on the main action and show it clearly, last 16 poses put away and return to original idle. Do not reset the arms at row boundaries. Do not include unrelated poses. Hymay the tiny orange caped hero lifts one end of his purple cape and smooths it carefully. MAIN ACTION two slow neat brushing motions of cape, brief confident pose with cape gently curving, then eases hand to side. Preserve original orange helmet with golden curl, white mouth and TWO arms. No fire, no leaps.",
+    "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-9e8855a4-1b0e-42a7-be56-7c9d8fdcf7f2.png",
+    "idleSource": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-87ecc702-fde0-419a-986d-cf65cf5169b6.png",
+    "sourceFrameCount": 56,
+    "frameCount": 56,
+    "sourceFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "omittedOutOfOrderFrames": [],
+    "temporalReview": "Original chronological sequence.",
+    "gestureScaleX": 0.977244,
+    "aspectReference": "Original transparent idle / first reviewed atlas rest pose",
+    "textureSha256": "aa1c2f9246d625b57f0fc0154d0837aa66a6e832c12f852acab97909e5b9d613",
+    "idleSha256": "b02ef0628cbfb0ff3ce9e3a25b4094a4b84892c8a4f06a14626c02dfe7a51877",
+    "headStability": {
+      "applied": true,
+      "virtualBodyHeightPixels": 200.0,
+      "method": "Subpixel NCC of reviewed invariant face ROI; foot-pinned upper-body geometry only.",
+      "roi": [
+        0.25,
+        0.08,
+        0.75,
+        0.32
+      ],
+      "minimumConfidence": 0.945304,
+      "headWidthCompensation": false,
+      "before": {
+        "x": {
+          "range": 5.2904,
+          "stepRms": 1.1621,
+          "stepMax": 3.749
+        },
+        "y": {
+          "range": 2.4194,
+          "stepRms": 0.5669,
+          "stepMax": 1.5717
+        },
+        "widthRatio": {
+          "range": 0.07,
+          "stepRms": 0.0202,
+          "stepMax": 0.05
+        }
+      },
+      "after": {
+        "x": {
+          "range": 0.2526,
+          "stepRms": 0.0628,
+          "stepMax": 0.1808
+        },
+        "y": {
+          "range": 0.0886,
+          "stepRms": 0.0289,
+          "stepMax": 0.0646
+        },
+        "widthRatio": {
+          "range": 0.06,
+          "stepRms": 0.0232,
+          "stepMax": 0.06
+        }
+      },
+      "maximumCorrection": {
+        "headOffsetX": 0.0197777,
+        "headOffsetY": 0.0068044
+      },
+      "feetWeight": 0,
+      "pngPixelsChanged": false,
+      "footAnchorOutlierRepairs": []
+    },
+    "idleSeamAlignment": {
+      "applied": false,
+      "headRestOffsetX": 0.0,
+      "reason": "No separately reviewed global idle alignment; retain zero."
+    }
+  }
+]

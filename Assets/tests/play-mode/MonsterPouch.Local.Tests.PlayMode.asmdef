@@ -4,10 +4,14 @@
     "MonsterPouch.Gameplay",
     "MonsterPouch.Local",
     "Unity.InputSystem",
-    "UnityEngine.UI"
+    "UnityEngine.UI",
+    "Unity.Netcode.Runtime",
+    "Unity.Networking.Transport"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
-  "optionalUnityReferences": ["TestAssemblies"],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
   "autoReferenced": false
 }

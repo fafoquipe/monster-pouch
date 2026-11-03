@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 21:31:02Z" end-time="2026-10-15 21:31:41Z" duration="38,9597244">
+  <test-suite type="TestSuite" id="1182" name="Monster Pouch" fullname="Monster Pouch" runstate="Runnable" testcasecount="134" result="Passed" start-time="2026-10-15 21:31:02Z" end-time="2026-10-15 21:31:41Z" duration="38.959724" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1174" name="MonsterPouch.Local.Tests.PlayMode.dll" fullname="C:/Users/HP VICTUS/Juegos Unity/mini-gogos/game/monster-pouch/Library/ScriptAssemblies/MonsterPouch.Local.Tests.PlayMode.dll" runstate="Runnable" testcasecount="134" result="Passed" start-time="2026-10-15 21:31:02Z" end-time="2026-10-15 21:31:41Z" duration="38.895178" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3240" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1086" name="MobileMenuBankPlayTests" fullname="MobileMenuBankPlayTests" classname="MobileMenuBankPlayTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-15 21:31:02Z" end-time="2026-10-15 21:31:32Z" duration="29.822691" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1090" name="DragCanReverseDirectionAndOnlyCrossingHalfCommits" fullname="MobileMenuBankPlayTests.DragCanReverseDirectionAndOnlyCrossingHalfCommits" methodname="DragCanReverseDirectionAndOnlyCrossingHalfCommits" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="529144940" result="Passed" start-time="2026-10-15 21:31:02Z" end-time="2026-10-15 21:31:19Z" duration="17.463590" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1088" name="HorizontalGestureNavigatesAndVerticalGestureDoesNotChangeTabs" fullname="MobileMenuBankPlayTests.HorizontalGestureNavigatesAndVerticalGestureDoesNotChangeTabs" methodname="HorizontalGestureNavigatesAndVerticalGestureDoesNotChangeTabs" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="2075685057" result="Passed" start-time="2026-10-15 21:31:19Z" end-time="2026-10-15 21:31:32Z" duration="12.224808" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1103" name="October8MenuPlayTests" fullname="October8MenuPlayTests" classname="October8MenuPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 21:31:32Z" end-time="2026-10-15 21:31:41Z" duration="9.048937" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1106" name="SafeAreaBackdropIsOneContinuousImage" fullname="October8MenuPlayTests.SafeAreaBackdropIsOneContinuousImage" methodname="SafeAreaBackdropIsOneContinuousImage" classname="October8MenuPlayTests" runstate="Runnable" seed="1099495132" result="Passed" start-time="2026-10-15 21:31:32Z" end-time="2026-10-15 21:31:38Z" duration="6.111979" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1105" name="ShopChallengesAndHeroCollectionReplaceOldTabs" fullname="October8MenuPlayTests.ShopChallengesAndHeroCollectionReplaceOldTabs" methodname="ShopChallengesAndHeroCollectionReplaceOldTabs" classname="October8MenuPlayTests" runstate="Runnable" seed="116911947" result="Passed" start-time="2026-10-15 21:31:38Z" end-time="2026-10-15 21:31:41Z" duration="2.909146" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Logs\local-validation\focused-play.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

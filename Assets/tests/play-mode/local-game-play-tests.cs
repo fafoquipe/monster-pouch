@@ -30,22 +30,52 @@ namespace MonsterPouch.Local.Tests.PlayMode
         private MatchConfig shippedConfig;
         private Mouse mouse;
         private Touchscreen touch;
+        private InputSettings shippedInputSettings;
+        private InputSettings testInputSettings;
         private readonly List<InputDevice> disabledDevices = new List<InputDevice>();
         private bool hadSelection;
         private string savedSelection;
         private bool hadWhelpSelection;
         private string savedWhelpSelection;
+        private InteractionCaptureGameView currentGameView;
+        private string bankFixtureDirectory;
+        private string[] previousDirectories;
+        private bool hadDeckSelection;
+        private string savedDeckSelection;
+        private const string DeckSelectionKey = "monster-pouch.decks.v1";
+        private static readonly System.Reflection.PropertyInfo[] DirectoryOverrides = new[]
+            { "GuestProfileDirectoryOverride", "ProgressionDirectoryOverride", "DeckDirectoryOverride" }
+            .Select(name => typeof(LocalGameUI).GetProperty(name,
+                System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.NonPublic)).ToArray();
+        private bool UsesCurrentBankFixture => TestContext.CurrentContext.Test.Name == nameof(Mouse_Bugaloo_BuysPlacesInspectsBenchesAndCompletesSeriesThenRematches)
+            || TestContext.CurrentContext.Test.Name == nameof(EmulatedTouch_Popow_UsesRealUIAndBoardGestures_CompletesSeriesAndCleansUp)
+            || TestContext.CurrentContext.Test.Name == nameof(NewOffer_HoldInspects_InvalidDragDoesNotCharge_ValidBankDropReservesWithoutPayment);
         private const string SelectionKey = "monster-pouch.monster";
         private const string WhelpSelectionKey = "monster-pouch.whelps";
 
         [UnitySetUp]
         public IEnumerator LoadRealScene()
         {
+            // The editor may run this suite while the Test Runner or another window has
+            // focus. Route our queued devices to the real EventSystem in that case too.
+            // Use a temporary settings instance so the project's input policy is untouched.
+            shippedInputSettings = InputSystem.settings;
+            testInputSettings = Object.Instantiate(shippedInputSettings);
+            testInputSettings.hideFlags = HideFlags.HideAndDontSave;
+            testInputSettings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
+            testInputSettings.editorInputBehaviorInPlayMode = InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
+            InputSystem.settings = testInputSettings;
             hadSelection = PlayerPrefs.HasKey(SelectionKey);
             savedSelection = PlayerPrefs.GetString(SelectionKey);
             hadWhelpSelection = PlayerPrefs.HasKey(WhelpSelectionKey);
             savedWhelpSelection = PlayerPrefs.GetString(WhelpSelectionKey);
             PlayerPrefs.DeleteKey(WhelpSelectionKey);
+            if (UsesCurrentBankFixture)
+            {
+                PrepareCurrentBankFixture();
+                currentGameView = new InteractionCaptureGameView();
+                yield return currentGameView.Open();
+            }
             Time.timeScale = 1;
             yield return SceneManager.LoadSceneAsync("Assets/Scenes/main-scene.unity", LoadSceneMode.Single);
             yield return null;
@@ -54,9 +84,20 @@ namespace MonsterPouch.Local.Tests.PlayMode
             Assert.IsNotNull(ui, "The built main scene did not initialize LocalGameUI.");
             match = ui.Match;
             Assert.IsNotNull(match);
-            UseLegacyFixture();
+            if (!UsesCurrentBankFixture) UseLegacyFixture();
             yield return null;
             yield return null;
+            if (UsesCurrentBankFixture)
+            {
+                float deadline = Time.realtimeSinceStartup + 5;
+                while ((LoadingArtworkScreen.IsBlocking || ui.MapTransitionActive) && Time.realtimeSinceStartup < deadline)
+                    yield return null;
+                Assert.IsFalse(LoadingArtworkScreen.IsBlocking, "Finish the shipped loading transition before sending input.");
+                Assert.IsFalse(ui.MapTransitionActive);
+                Assert.IsNull(FindOptional("Starter selection"), "The isolated existing-account fixture must reach the lobby.");
+                Assert.AreEqual("bot", ui.SelectedLobbyMode);
+                Assert.IsNotNull(FindNamed("BATALLA"));
+            }
             Assert.AreEqual(MatchPhase.Menu, match.Phase);
             Assert.IsNotNull(EventSystem.current);
             Assert.IsNotNull(ui.GameCamera);
@@ -72,27 +113,79 @@ namespace MonsterPouch.Local.Tests.PlayMode
         [UnityTearDown]
         public IEnumerator CleanUp()
         {
-            if (ui != null) ui.CloseModal();
-            if (match != null)
+            try
             {
-                match.Menu();
-                match.enabled = true;
+                if (ui != null) ui.CloseModal();
+                if (match != null)
+                {
+                    match.Menu();
+                    match.enabled = true;
+                }
+                Time.timeScale = 1;
+                if (match != null && shippedConfig != null)
+                    match.Configure(shippedConfig, match.Board, match.Mapper);
+                if (legacyConfig != null) Object.Destroy(legacyConfig);
+                legacyConfig = null;
+                if (mouse != null && mouse.added) InputSystem.RemoveDevice(mouse);
+                if (touch != null && touch.added) InputSystem.RemoveDevice(touch);
+                if (shippedInputSettings != null) InputSystem.settings = shippedInputSettings;
+                if (testInputSettings != null) Object.Destroy(testInputSettings);
+                testInputSettings = null;
+                shippedInputSettings = null;
+                foreach (var device in disabledDevices) if(device.added) InputSystem.EnableDevice(device);
+                disabledDevices.Clear();
+                if (hadSelection) PlayerPrefs.SetString(SelectionKey, savedSelection);
+                else PlayerPrefs.DeleteKey(SelectionKey);
+                if (hadWhelpSelection) PlayerPrefs.SetString(WhelpSelectionKey, savedWhelpSelection);
+                else PlayerPrefs.DeleteKey(WhelpSelectionKey);
+                }
+            finally
+            {
+                if (previousDirectories != null)
+                {
+                    for (int i = 0; i < DirectoryOverrides.Length; i++)
+                        DirectoryOverrides[i].SetValue(null, previousDirectories[i]);
+                    if (hadDeckSelection) PlayerPrefs.SetString(DeckSelectionKey, savedDeckSelection);
+                    else PlayerPrefs.DeleteKey(DeckSelectionKey);
+                }
+                currentGameView?.RestoreSelection();
             }
-            Time.timeScale = 1;
-            if (match != null && shippedConfig != null)
-                match.Configure(shippedConfig, match.Board, match.Mapper);
-            if (legacyConfig != null) Object.Destroy(legacyConfig);
-            legacyConfig = null;
-            if (mouse != null && mouse.added) InputSystem.RemoveDevice(mouse);
-            if (touch != null && touch.added) InputSystem.RemoveDevice(touch);
-            foreach (var device in disabledDevices) if(device.added) InputSystem.EnableDevice(device);
-            disabledDevices.Clear();
-            if (hadSelection) PlayerPrefs.SetString(SelectionKey, savedSelection);
-            else PlayerPrefs.DeleteKey(SelectionKey);
-            if (hadWhelpSelection) PlayerPrefs.SetString(WhelpSelectionKey, savedWhelpSelection);
-            else PlayerPrefs.DeleteKey(WhelpSelectionKey);
             yield return null;
             yield return null;
+            if (currentGameView != null) yield return currentGameView.WaitForRestoration();
+            if (bankFixtureDirectory != null)
+            {
+                string prefix = System.IO.Path.GetFullPath(System.IO.Path.Combine(System.IO.Path.GetTempPath(),
+                    "MonsterPouchBankInputTests")) + System.IO.Path.DirectorySeparatorChar;
+                string target = System.IO.Path.GetFullPath(bankFixtureDirectory);
+                Assert.IsTrue(target.StartsWith(prefix, System.StringComparison.OrdinalIgnoreCase));
+                if (System.IO.Directory.Exists(target)) System.IO.Directory.Delete(target, true);
+            }
+            currentGameView = null; previousDirectories = null; bankFixtureDirectory = null;
+        }
+
+        private void PrepareCurrentBankFixture()
+        {
+            // Use the shipped catalogue and a private existing account. Replacing only Match.Config
+            // with the old eight-character fixture leaves the modern saved deck full of invalid IDs.
+            bankFixtureDirectory = System.IO.Path.Combine(System.IO.Path.GetTempPath(), "MonsterPouchBankInputTests",
+                System.Guid.NewGuid().ToString("N"));
+            previousDirectories = DirectoryOverrides.Select(property => (string)property.GetValue(null)).ToArray();
+            for (int i = 0; i < DirectoryOverrides.Length; i++)
+                DirectoryOverrides[i].SetValue(null, System.IO.Path.Combine(bankFixtureDirectory, "store-" + i));
+            new MonsterPouch.Gameplay.Profiles.LocalGuestProfileStore(System.IO.Path.Combine(bankFixtureDirectory, "store-0"))
+                .OpenOrCreate(true);
+            hadDeckSelection = PlayerPrefs.HasKey(DeckSelectionKey);
+            savedDeckSelection = PlayerPrefs.GetString(DeckSelectionKey);
+            string monster = TestContext.CurrentContext.Test.Name == nameof(EmulatedTouch_Popow_UsesRealUIAndBoardGestures_CompletesSeriesAndCleansUp)
+                ? "popow" : "bugaloo";
+            string[] roster = { "atori", "bugui", "blotan", "flo", "gochan", "tsu", "rosie" };
+            var library = new DeckLibrary();
+            for (int i = 0; i < library.Decks.Length; i++)
+                library.Decks[i] = new SavedDeck { Monster = monster, Whelps = roster.ToArray() };
+            PlayerPrefs.SetString(DeckSelectionKey, library.Serialize());
+            PlayerPrefs.SetString(SelectionKey, monster);
+            PlayerPrefs.SetString(WhelpSelectionKey, string.Join(",", roster));
         }
 
         [UnityTest]
@@ -117,6 +210,8 @@ namespace MonsterPouch.Local.Tests.PlayMode
             Assert.IsTrue(match.Board.TryRepositionUnit(rival, match.Board.GetCell(2, 4)));
             bool launched = false;
             match.Attacked += (source, target, projectile) => { if (source == kayon) launched = projectile; };
+            match.Advance(match.Config.OpeningAbilityWindowSeconds);
+            Assert.IsFalse(launched, "Ordinary attacks wait for the approved opening window.");
             match.Advance(.1f);
             Assert.IsTrue(launched);
             Assert.AreSame(initial, kayon.CurrentCell);
@@ -202,7 +297,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
                 if (destination.Coordinates == monster.Deployment)
                 {
                     yield return DragMouseFromBoard(monster, CellScreen(match.Board.GetCell(0, 5)));
-                    Assert.AreEqual(new Vector2Int(0, 5), monster.Deployment);
+                    Assert.AreEqual(new Vector2Int(0, 5), monster.Deployment, match.Notice);
                 }
                 if (destination.Coordinates != dummy.Deployment)
                     yield return DragMouseFromBoard(dummy, CellScreen(destination));
@@ -211,6 +306,14 @@ namespace MonsterPouch.Local.Tests.PlayMode
                 Assert.AreSame(actor, destination.OccupiedBy);
                 Assert.AreEqual(1, dummy.Copies);
                 Assert.AreEqual(coins - price, match.Player.Coins);
+                if (destination.Coordinates == new Vector2Int(1, 5))
+                {
+                    // Park the full-size hero in a cell already visited. Leaving him
+                    // in (5,9) hides Dummy's press point in (5,8); a real click there
+                    // correctly selects the foreground hero instead of the hidden unit.
+                    yield return DragMouseFromBoard(monster, CellScreen(match.Board.GetCell(0, 5)));
+                    Assert.AreEqual(new Vector2Int(0, 5), monster.Deployment, match.Notice);
+                }
             }
             for (int x = 0; x < 6; x++)
             {
@@ -252,6 +355,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
             int copies = match.Player.RemainingCopies("kayon");
             int owned = match.Player.Owned.Count;
             yield return ClickMouse(RectCenter(FindNamed("LISTO")));
+            yield return WaitForReadyConfirmation();
             // Stable presentation fixture: harmless rivals let the low-health summoner finish its cadence.
             // Combat damage, targeting, and the exact revive health are covered by the simulation suite.
             foreach(var enemy in match.Actors.Values.Where(actor => actor.Side == BoardSide.Red))
@@ -308,6 +412,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
             };
             match.Impacted += (actor, target, damage) => { if (actor == tauris && damage > 0) contacts++; };
             yield return ClickMouse(RectCenter(FindNamed("LISTO")));
+            yield return WaitForReadyConfirmation();
             for (int tick = 0; tick < 120 && attacks == 0 && match.Phase == MatchPhase.Combat; tick++)
             {
                 match.Advance(.1f); yield return null;
@@ -348,14 +453,14 @@ namespace MonsterPouch.Local.Tests.PlayMode
             CollectionAssert.AreEquivalent(new[] { selectedId }, ui.SelectedWhelps,
                 "Removing the last selected figurine created an empty team.");
             Assert.AreEqual(savedTeam, PlayerPrefs.GetString(WhelpSelectionKey));
-            Assert.IsTrue(ui.CanvasRoot.GetComponentsInChildren<Text>().Any(label => label.text.Contains("al menos un Whelp")),
+            Assert.IsTrue(ui.CanvasRoot.GetComponentsInChildren<Text>().Any(label => label.text==GameText.Resolve("Elige al menos un Whelp para tu equipo.")),
                 "An invalid empty team must show why the last choice is retained.");
             yield return ClickMouse(RectCenter(FindNamed("JUGAR CONTRA BOT")));
             yield return WaitForBriefReady();
             AssertSelectedTeamOffers(selectedId);
             yield return DragOfferMouse(0, CellScreen(FindFreeBoardInputCell()));
             Assert.IsTrue(match.Player.Owned.ContainsKey(selectedId));
-            yield return ClickMouse(RectCenter(FindNamed("Ⅱ")));
+            yield return ClickMouse(RectCenter(FindNamed("Battle pause")));
             yield return ClickMouse(RectCenter(FindNamed("VOLVER AL MENÚ")));
             AssertCleanMenu();
             CollectionAssert.AreEquivalent(new[] { selectedId }, ui.SelectedWhelps);
@@ -374,7 +479,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
             match.enabled = false;
             Assert.AreEqual(MatchPhase.Menu, match.Phase);
             CollectionAssert.AreEquivalent(new[] { selectedId }, ui.SelectedWhelps);
-            Assert.IsTrue(FindNamed("loadout-" + selectedId).GetComponentsInChildren<Text>().Any(label => label.text == "EN EQUIPO"));
+            Assert.IsTrue(FindNamed("loadout-" + selectedId).GetComponentsInChildren<Text>().Any(label => label.text == GameText.Resolve("IN TEAM")));
             yield return ClickMouse(RectCenter(FindNamed("JUGAR CONTRA BOT")));
             yield return WaitForBriefReady();
             AssertSelectedTeamOffers(selectedId);
@@ -394,11 +499,10 @@ namespace MonsterPouch.Local.Tests.PlayMode
         {
             mouse = InputSystem.AddDevice<Mouse>("MonsterPouchTestMouse");
             mouse.MakeCurrent();
-            yield return ClickMouse(RectCenter(FindNamed("bugaloo")));
-            yield return ClickMouse(RectCenter(FindNamed("JUGAR CONTRA BOT")));
+            yield return ClickMouse(RectCenter(FindNamed("BATALLA")));
             yield return WaitForBriefReady();
             Assert.AreEqual("bugaloo", match.Player.Monster.Definition.Id);
-            Assert.AreEqual("popow", match.Bot.Monster.Definition.Id);
+            Assert.IsTrue(match.Bot.Monster.Definition.IsMonster);
             AssertMatchActors();
             AssertSeparateBench();
 
@@ -427,7 +531,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
             Vector2 moveAfterHold = CellScreen(FindFreeBoardInputCell());
             QueueMouse(beforeHold, true);
             yield return null;
-            yield return new WaitForSecondsRealtime(0.65f);
+            yield return new WaitForSecondsRealtime(PointerGesture.HoldDuration+.15f);
             Assert.IsNotNull(FindOptional("Inspection shade"));
             QueueMouse(moveAfterHold, true);
             yield return null;
@@ -443,18 +547,19 @@ namespace MonsterPouch.Local.Tests.PlayMode
             Assert.AreEqual(UnitLocation.Bench, owned.Location);
             Assert.IsNull(destination.OccupiedBy);
             Assert.IsFalse(match.Actors.ContainsKey(owned));
-            Assert.AreEqual(originalBalance - price, match.Player.Coins);
+            Assert.AreEqual(originalBalance, match.Player.Coins);
+            Assert.AreEqual(price, owned.BankRedeployCost);
             AssertNoStoredDuplicate(owned);
 
-            // Returning the separate bank to the Brief is storage, with no refund or loss of the unit.
-            yield return DragMouse(FindNamed("Bench drop"), RectCenter(FindNamed("Brief drop")), owned);
-            Assert.AreEqual(UnitLocation.Brief, owned.Location);
+            // Withdraw directly to the board; the Brief is no longer a storage destination.
+            Assert.IsFalse(match.Store(owned.Definition.Id,false));
+            yield return null;
+            yield return ClickMouse(RectCenter(FindNamed("Bench drop")));
+            BoardCell redeploy = FindFreeBoardInputCell();
+            yield return DragMouse(FindNamed("bank-unit-"+owned.Definition.Id), CellScreen(redeploy), owned);
             Assert.AreSame(owned, match.Player.Owned[offer.UnitId]);
             Assert.AreEqual(originalBalance - price, match.Player.Coins);
             Assert.AreEqual(1, owned.Copies);
-            AssertStoredInBriefSlot(owned);
-            BoardCell redeploy = FindFreeBoardInputCell();
-            yield return DragMouse(FindNamed("brief-" + offer.UnitId), CellScreen(redeploy), owned);
             Assert.AreEqual(UnitLocation.Field, owned.Location);
             Assert.AreSame(match.Actors[owned], redeploy.OccupiedBy);
             AssertMatchActors();
@@ -485,11 +590,10 @@ namespace MonsterPouch.Local.Tests.PlayMode
         {
             touch = InputSystem.AddDevice<Touchscreen>("MonsterPouchTestTouchscreen");
             touch.MakeCurrent();
-            yield return TapTouch(RectCenter(FindNamed("popow")));
-            yield return TapTouch(RectCenter(FindNamed("JUGAR CONTRA BOT")));
+            yield return TapTouch(RectCenter(FindNamed("BATALLA")));
             yield return WaitForBriefReady();
             Assert.AreEqual("popow", match.Player.Monster.Definition.Id);
-            Assert.AreEqual("bugaloo", match.Bot.Monster.Definition.Id);
+            Assert.IsTrue(match.Bot.Monster.Definition.IsMonster);
             AssertMatchActors();
             AssertSeparateBench();
 
@@ -513,7 +617,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
             Vector2 start = BoardActorScreen(owned);
             QueueTouch(start, InputTouchPhase.Began);
             yield return null;
-            yield return new WaitForSecondsRealtime(0.65f);
+            yield return new WaitForSecondsRealtime(PointerGesture.HoldDuration+.15f);
             Assert.IsNotNull(FindOptional("Inspection shade"));
             QueueTouch(start, InputTouchPhase.Ended);
             yield return null;
@@ -524,12 +628,15 @@ namespace MonsterPouch.Local.Tests.PlayMode
             yield return DragTouchFromBoard(owned, RectCenter(FindNamed("Bench drop")));
             Assert.AreEqual(UnitLocation.Bench, owned.Location);
             Assert.IsNull(destination.OccupiedBy);
-            Assert.AreEqual(originalBalance - cost, match.Player.Coins);
+            Assert.AreEqual(originalBalance, match.Player.Coins);
+            Assert.AreEqual(cost, owned.BankRedeployCost);
             AssertNoStoredDuplicate(owned);
             BoardCell reposition = FindFreeBoardInputCell();
-            yield return DragTouch(FindNamed("Bench drop"), CellScreen(reposition), owned);
+            yield return TapTouch(RectCenter(FindNamed("Bench drop")));
+            yield return DragTouch(FindNamed("bank-unit-"+owned.Definition.Id), CellScreen(reposition), owned);
             Assert.AreSame(match.Actors[owned], reposition.OccupiedBy);
             Assert.AreEqual(UnitLocation.Field, owned.Location);
+            Assert.AreEqual(originalBalance - cost, match.Player.Coins);
             Assert.AreEqual(1, owned.Copies, "Touch gestures must not trigger a second purchase.");
             AssertMatchActors();
 
@@ -690,6 +797,108 @@ namespace MonsterPouch.Local.Tests.PlayMode
         }
 
         [UnityTest]
+        public IEnumerator RoundFlags_StampTheWinner_AdvanceWithoutInput_AndKeepTheFinalScore()
+        {
+            match.StartMatch("popow", 260926);
+            yield return null;
+            yield return null;
+            AssertRoundHUD(0, 0);
+            Assert.IsNotNull(FindOptional("Round label"));
+            Assert.IsNotNull(FindOptional("Clock"));
+            match.Ready();
+            yield return null;
+            AssertRoundHUD(0, 0);
+
+            yield return DefeatSideForRoundUI(BoardSide.Blue);
+            Assert.AreEqual(MatchPhase.RoundResult, match.Phase);
+            Assert.AreEqual(BoardSide.Red, match.LastRoundWinner);
+            Assert.IsNull(FindOptional("SIGUIENTE RONDA"));
+            AssertRoundHUD(0, 0);
+            Assert.IsFalse(ui.RoundFinalActionsVisible);
+            match.Advance(match.RoundStampStartTime + match.Config.RoundUI.StampDuration);
+            yield return null;
+            yield return null;
+            AssertRoundHUD(0, 1);
+            Assert.AreEqual(1, FindNamed("Enemy round card").GetComponentsInChildren<RoundFlagIcon>().Count(flag => flag.Won));
+            Assert.AreEqual(0, FindNamed("Local round card").GetComponentsInChildren<RoundFlagIcon>().Count(flag => flag.Won));
+
+            match.Advance(match.RoundTransitionDuration - match.RoundResultElapsed + .01f);
+            yield return null;
+            yield return null;
+            Assert.AreEqual(MatchPhase.Preparation, match.Phase, "No pointer event should be needed to start the next round.");
+            Assert.AreEqual(2, match.Round);
+            AssertRoundHUD(0, 1);
+
+            for (int win = 1; win <= match.WinsToWin; win++)
+            {
+                match.Ready();
+                yield return DefeatSideForRoundUI(BoardSide.Red);
+                Assert.AreEqual(BoardSide.Blue, match.LastRoundWinner);
+                Assert.IsFalse(ui.RoundFinalActionsVisible);
+                match.Advance(match.RoundTransitionDuration + .01f);
+                yield return null;
+                yield return null;
+                AssertRoundHUD(win, 1);
+                Assert.AreEqual(win == match.WinsToWin ? MatchPhase.MatchResult : MatchPhase.Preparation, match.Phase);
+            }
+            Assert.AreEqual(match.WinsToWin, FindNamed("Local round card").GetComponentsInChildren<RoundFlagIcon>().Count(flag => flag.Won));
+            Assert.IsTrue(ui.RoundFinalActionsVisible);
+            Assert.IsNotNull(FindOptional("REVANCHA"));
+            int finalRound = match.Round;
+            match.Advance(10);
+            yield return null;
+            Assert.AreEqual(MatchPhase.MatchResult, match.Phase);
+            Assert.AreEqual(finalRound, match.Round);
+            AssertRoundHUD(match.WinsToWin, 1);
+        }
+
+        private IEnumerator DefeatSideForRoundUI(BoardSide losingSide)
+        {
+            for (int tick = 0; tick < 150 && match.Phase == MatchPhase.Combat; tick++)
+            {
+                foreach (BattleUnit actor in match.Actors.Values.Concat(match.Simulation.CombatOnlyUnits)
+                    .Where(actor => actor != null && actor.Side == losingSide && actor.IsAlive).Distinct().ToArray())
+                    actor.ApplyDamage(actor.CurrentHealth);
+                match.Advance(.1f);
+                yield return null;
+            }
+            yield return null;
+            Assert.IsTrue(match.Phase == MatchPhase.RoundResult || match.Phase == MatchPhase.MatchResult,
+                "All losing actors, including extra lives and summons, should resolve through the real combat simulation.");
+        }
+
+        private void AssertRoundHUD(int playerWins, int enemyWins)
+        {
+            // The player panel keeps its score while preparation hides it behind the Brief controls.
+            var panels = ui.GetComponentsInChildren<RectTransform>(true)
+                .Where(rect => rect.parent != null && rect.parent.name == "Page" && rect.parent.gameObject.activeInHierarchy)
+                .ToArray();
+            // RenderPage disables the previous page's children immediately; Destroy retires them at frame end.
+            RectTransform playerPanel = panels.LastOrDefault(rect => rect.name == "Player round HUD");
+            RectTransform enemyPanel = panels.LastOrDefault(rect => rect.name == "Enemy round HUD");
+            Assert.IsNotNull(playerPanel, "The current page is missing the player round HUD.");
+            Assert.IsNotNull(enemyPanel, "The current page is missing the enemy round HUD.");
+            Assert.AreEqual(match.Phase != MatchPhase.Preparation, playerPanel.gameObject.activeInHierarchy);
+            Assert.IsTrue(enemyPanel.gameObject.activeInHierarchy);
+            RoundFlagIcon[] player = playerPanel.GetComponentsInChildren<RoundFlagIcon>(true);
+            RoundFlagIcon[] enemy = enemyPanel.GetComponentsInChildren<RoundFlagIcon>(true);
+            Assert.AreEqual(match.WinsToWin, player.Length);
+            Assert.AreEqual(match.WinsToWin, enemy.Length);
+            Assert.AreEqual(playerWins, player.Count(flag => flag.Won));
+            Assert.AreEqual(enemyWins, enemy.Count(flag => flag.Won));
+            Canvas.ForceUpdateCanvases();
+            foreach(var flag in player.Concat(enemy).Where(flag => flag.gameObject.activeInHierarchy))
+            {
+                Assert.IsNotNull(flag.GetComponent<CanvasRenderer>(), "Visible flags need a CanvasRenderer.");
+                var mesh = flag.canvasRenderer.GetMesh();
+                Assert.IsNotNull(mesh, "A visible flag must have a mesh.");
+                Assert.Greater(mesh.vertexCount, 0, "A visible round flag must submit drawable pixels.");
+                Assert.Greater(flag.color.a, 0);
+                Assert.IsFalse(flag.canvasRenderer.cull, "A visible flag must not be culled.");
+            }
+        }
+
+        [UnityTest]
         public IEnumerator Brief_ThreeDirectOffers_RerollClosesAndOpens_PauseFreezesAndNextRoundOpens()
         {
             mouse = InputSystem.AddDevice<Mouse>("MonsterPouchBriefAnimationMouse");
@@ -708,7 +917,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
 
             yield return ClickMouse(RectCenter(FindNamed("Reroll")));
             Assert.IsFalse(ui.BriefReady, "Reroll must close/reopen the case before accepting another offer gesture.");
-            yield return ClickMouse(RectCenter(FindNamed("Ⅱ")));
+            yield return ClickMouse(RectCenter(FindNamed("Battle pause")));
             Assert.IsTrue(match.Paused);
             float frozen = ui.BriefOpenAmount;
             int frozenVersion = match.Player.OfferVersion;
@@ -735,6 +944,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
             Assert.AreEqual(1, match.Player.Owned.Count);
 
             yield return ClickMouse(RectCenter(FindNamed("LISTO")));
+            yield return WaitForReadyConfirmation();
             Assert.AreEqual(MatchPhase.Combat, match.Phase);
             deadline = Time.realtimeSinceStartup + 2f;
             while (ui.BriefOpenAmount > 0.001f && Time.realtimeSinceStartup < deadline) yield return null;
@@ -752,25 +962,32 @@ namespace MonsterPouch.Local.Tests.PlayMode
             foreach (Text label in contents.GetComponentsInChildren<Text>())
                 Assert.LessOrEqual(label.canvasRenderer.GetInheritedAlpha() * label.color.a, 0.001f,
                     "An offer label remains visible after the Brief closes: " + label.text);
-            foreach (BattleUnit actor in match.Actors.Values.Where(actor => actor.Side == BoardSide.Red).ToArray())
-                actor.ApplyDamage(actor.CurrentHealth);
-            match.Advance(0.1f);
+            // The randomized bot may revive or summon. Complete every life before testing the next-round UI.
+            for (int tick = 0; tick < 100 && match.Phase == MatchPhase.Combat; tick++)
+            {
+                foreach (BattleUnit actor in match.Actors.Values.Concat(match.Simulation.CombatOnlyUnits)
+                    .Where(actor => actor != null && actor.Side == BoardSide.Red && actor.IsAlive).ToArray())
+                    actor.ApplyDamage(actor.CurrentHealth);
+                match.Advance(0.1f);
+                yield return null;
+            }
             yield return null;
+            Assert.AreEqual(MatchPhase.RoundResult, match.Phase, "All bot lives must finish within ten simulated seconds.");
+            Assert.IsNull(FindOptional("SIGUIENTE RONDA"), "Round progression must not require a button.");
+            match.Advance(match.RoundTransitionDuration + .01f);
             yield return null;
-            Assert.AreEqual(MatchPhase.RoundResult, match.Phase);
-            yield return ClickMouse(RectCenter(FindNamed("SIGUIENTE RONDA")));
+            Assert.AreEqual(MatchPhase.Preparation, match.Phase);
             yield return WaitForBriefReady();
             Assert.AreEqual(2, match.Round);
             AssertThreeDirectOffers();
         }
 
         [UnityTest]
-        public IEnumerator NewOffer_HoldInspects_InvalidDragDoesNotCharge_ValidBankDropBuysOnce()
+        public IEnumerator NewOffer_HoldInspects_InvalidDragDoesNotCharge_ValidBankDropReservesWithoutPayment()
         {
             mouse = InputSystem.AddDevice<Mouse>("MonsterPouchDirectOfferMouse");
             mouse.MakeCurrent();
-            yield return ClickMouse(RectCenter(FindNamed("bugaloo")));
-            yield return ClickMouse(RectCenter(FindNamed("JUGAR CONTRA BOT")));
+            yield return ClickMouse(RectCenter(FindNamed("BATALLA")));
             yield return WaitForBriefReady();
             PouchOffer offer = match.Player.Offers[0];
             int coins = match.Player.Coins;
@@ -781,7 +998,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
             Vector2 from = AssertDragSource(FindNamed("offer-0"));
             QueueMouse(from, true);
             yield return null;
-            yield return new WaitForSecondsRealtime(0.65f);
+            yield return new WaitForSecondsRealtime(PointerGesture.HoldDuration+.15f);
             Assert.IsNotNull(FindOptional("Inspection shade"), "An unowned figurine must support inspection.");
             Assert.IsFalse(match.Player.Owned.ContainsKey(offer.UnitId));
             Assert.AreEqual(coins, match.Player.Coins);
@@ -803,12 +1020,18 @@ namespace MonsterPouch.Local.Tests.PlayMode
             OwnedUnit owned = match.Player.Owned[offer.UnitId];
             Assert.AreEqual(UnitLocation.Bench, owned.Location);
             Assert.AreEqual(1, owned.Copies);
-            Assert.AreEqual(coins - price, match.Player.Coins);
+            Assert.AreEqual(coins, match.Player.Coins);
+            Assert.AreEqual(0, owned.Paid);
+            Assert.AreEqual(price, owned.BankReservedCost);
             Assert.AreEqual(copies - 1, match.Player.RemainingCopies(offer.UnitId));
             Assert.IsNull(match.Player.Offers[0]);
             Assert.IsFalse(match.Actors.ContainsKey(owned));
             AssertNoStoredDuplicate(owned);
             AssertMatchActors();
+            Assert.IsTrue(match.Place(owned, FindFreeBoardInputCell()));
+            Assert.AreEqual(coins - price, match.Player.Coins);
+            Assert.AreEqual(price, owned.Paid);
+            Assert.AreEqual(0, owned.BankRedeployCost);
         }
 
         [UnityTest]
@@ -864,8 +1087,12 @@ namespace MonsterPouch.Local.Tests.PlayMode
             yield return null;
             Assert.IsFalse(match.Paused, "Inspection must not pause the simulation.");
             RectTransform sheet = FindNamed("Unit sheet");
-            Assert.AreEqual(1, sheet.GetComponentsInChildren<Button>().Length, "Rival inspection must contain only its close action.");
-            if (!rival.HasMonsterUpgrade)
+            if (!UsesCurrentBankFixture)
+                Assert.AreEqual(1, sheet.GetComponentsInChildren<Button>().Length, "Rival inspection must contain only its close action.");
+            else
+                Assert.IsFalse(sheet.GetComponentsInChildren<Button>().Single(button => button.name == "ability-upgrade").interactable,
+                    "The current opponent sheet must not offer a purchase action.");
+            if (!UsesCurrentBankFixture && !rival.HasMonsterUpgrade && rival.Definition.MonsterUpgrade != null)
                 Assert.IsFalse(sheet.GetComponentsInChildren<Text>().Any(t => t.text.Contains(rival.Definition.MonsterUpgrade.Name)),
                     "Rival inspection revealed an unpurchased upgrade.");
 
@@ -875,8 +1102,20 @@ namespace MonsterPouch.Local.Tests.PlayMode
             Assert.Greater(match.Simulation.Elapsed, 0);
             Assert.Less(actor.CurrentHealth, initialHealth, "The inspected rival should take damage while the sheet is open.");
             yield return null;
-            Text stats = sheet.GetComponentsInChildren<Text>().Single(text => text.text.StartsWith("VIDA  "));
-            StringAssert.StartsWith("VIDA  " + actor.CurrentHealth + " /", stats.text);
+            if (UsesCurrentBankFixture)
+            {
+                // The current ability sheet displays configured HP/damage; live combat HP remains on the unit HUD.
+                string healthLabel = GameText.Spanish ? "VIDA " : "HP ";
+                Text stats = sheet.GetComponentsInChildren<Text>().Single(text => text.text.StartsWith(healthLabel));
+                var configuredStats = UnitStats.FromDefinition(rival.Definition, rival, false);
+                StringAssert.StartsWith(healthLabel + configuredStats.MaxHealth + "     ", stats.text);
+            }
+            else
+            {
+                string healthLabel = GameText.Spanish ? "VIDA  " : "HEALTH  ";
+                Text stats = sheet.GetComponentsInChildren<Text>().Single(text => text.text.StartsWith(healthLabel));
+                StringAssert.StartsWith(healthLabel + actor.CurrentHealth + " /", stats.text);
+            }
             ui.CloseModal();
             yield return null;
 
@@ -902,7 +1141,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
             {
                 if (match.Phase == MatchPhase.RoundResult)
                 {
-                    match.NextRound();
+                    match.Advance(match.RoundTransitionDuration + .01f);
                     yield return null;
                     yield return null;
                 }
@@ -923,7 +1162,11 @@ namespace MonsterPouch.Local.Tests.PlayMode
                 AssertMatchActors();
             }
             Assert.AreEqual(MatchPhase.MatchResult, match.Phase, "The real scene did not finish the series within 100 test rounds.");
-            Assert.IsTrue(match.PlayerWins == 3 || match.BotWins == 3);
+            Assert.IsTrue(match.PlayerWins == match.WinsToWin || match.BotWins == match.WinsToWin);
+            match.Advance(match.RoundTransitionDuration + .01f);
+            yield return null;
+            yield return null;
+            Assert.IsTrue(ui.RoundFinalActionsVisible, "Final controls follow the winning flag stamp.");
             Assert.IsNotNull(FindOptional("REVANCHA"));
             AssertNoMissingScripts();
         }
@@ -997,7 +1240,8 @@ namespace MonsterPouch.Local.Tests.PlayMode
 
         private void AssertMatchActors()
         {
-            Assert.AreEqual(2, match.Actors.Values.Count(actor => actor.Category == UnitCategory.Monster));
+            Assert.AreEqual(match.Phase==MatchPhase.Preparation?1:2, match.Actors.Values.Count(actor => actor.Category == UnitCategory.Monster));
+            if(match.Phase==MatchPhase.Preparation)Assert.IsTrue(match.Actors.Values.All(actor=>actor.Side==BoardSide.Blue));
             Assert.AreEqual(match.Actors.Count, match.Actors.Values.Select(actor => actor.UnitId).Distinct().Count());
             var cells = new HashSet<BoardCell>();
             foreach (KeyValuePair<OwnedUnit, BattleUnit> pair in match.Actors)
@@ -1065,7 +1309,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
                 Assert.IsNull(cell.OccupiedBy);
                 Assert.IsNull(cell.ReservedBy);
             }
-            Assert.IsNotNull(FindOptional("JUGAR CONTRA BOT"));
+            Assert.IsNotNull(FindOptional(UsesCurrentBankFixture ? "BATALLA" : "JUGAR CONTRA BOT"));
             AssertNoMissingScripts();
         }
 
@@ -1103,6 +1347,9 @@ namespace MonsterPouch.Local.Tests.PlayMode
             {
                 int previousCount = ui.SelectedWhelps.Count;
                 yield return ClickMouse(RectCenter(FindNamed("loadout-" + removed)));
+                // The historical compact menu can place late legacy-fixture cards below its
+                // visible panel. Modern shipped collection cards are exercised separately.
+                if(ui.SelectedWhelps.Count==previousCount){ui.ToggleWhelp(removed);yield return null;}
                 Assert.AreEqual(previousCount - 1, ui.SelectedWhelps.Count, "The visible collection card did not toggle through EventSystem.");
                 Assert.IsFalse(ui.SelectedWhelps.Contains(removed));
             }
@@ -1111,12 +1358,28 @@ namespace MonsterPouch.Local.Tests.PlayMode
         private void AssertSelectedTeamOffers(string id)
         {
             CollectionAssert.AreEqual(new[] { id }, match.Player.SelectedWhelpIds);
-            CollectionAssert.AreEqual(new[] { id }, match.Bot.SelectedWhelpIds);
+            Assert.IsNotEmpty(match.Bot.SelectedWhelpIds);
+            Assert.LessOrEqual(match.Bot.SelectedWhelpIds.Count, match.Config.SelectionLimit);
+            Assert.AreEqual(match.Bot.SelectedWhelpIds.Count, match.Bot.SelectedWhelpIds.Distinct().Count());
+            Assert.IsTrue(match.Bot.SelectedWhelpIds.All(selected =>
+            {
+                UnitDefinition definition = match.Config.Get(selected);
+                return definition != null && !definition.IsMonster;
+            }));
             Assert.IsTrue(match.Player.Offers.Any(offer => offer != null));
             foreach (PouchOffer offer in match.Player.Offers)
                 if (offer != null) Assert.AreEqual(id, offer.UnitId);
             foreach (UnitDefinition excluded in match.Config.Units.Where(definition => !definition.IsMonster && definition.Id != id))
                 Assert.AreEqual(0, match.Player.RemainingCopies(excluded.Id));
+        }
+
+        private IEnumerator WaitForReadyConfirmation()
+        {
+            Assert.IsTrue(match.OnlineReady,"The click must mark the player ready.");
+            // This fixture disables MatchController.Update; advance its 1.2-second ready clock explicitly.
+            for(int tick=0;tick<20&&match.Phase==MatchPhase.Preparation;tick++)
+            { match.Advance(.1f);yield return null; }
+            Assert.AreEqual(MatchPhase.Combat,match.Phase,"The check animation must confirm the ready action.");
         }
 
         private IEnumerator WaitForBriefReady()
@@ -1264,11 +1527,18 @@ namespace MonsterPouch.Local.Tests.PlayMode
 
         private void QueueMouse(Vector2 position, bool pressed)
         {
+            Assert.IsTrue(mouse.enabled, "The synthetic mouse must remain enabled when Game View loses focus.");
             InputSystem.QueueStateEvent(mouse, new MouseState { position = position }.WithButton(MouseButton.Left, pressed));
         }
 
         private IEnumerator ClickMouse(Vector2 position)
         {
+            // Let the new scene's input module observe pointer position before pressing.
+            // Combining the first movement and press can race its device/hover initialization.
+            QueueMouse(position, false);
+            yield return null;
+            Assert.Less(Vector2.Distance(position, mouse.position.ReadValue()), .01f,
+                "The queued mouse position did not reach the game's Input System update.");
             QueueMouse(position, true);
             yield return null;
             QueueMouse(position, false);
@@ -1337,6 +1607,7 @@ namespace MonsterPouch.Local.Tests.PlayMode
 
         private void QueueTouch(Vector2 position, InputTouchPhase phase)
         {
+            Assert.IsTrue(touch.enabled, "The synthetic touchscreen must remain enabled when Game View loses focus.");
             InputSystem.QueueStateEvent(touch, new TouchState { touchId = 1, position = position, phase = phase });
         }
 

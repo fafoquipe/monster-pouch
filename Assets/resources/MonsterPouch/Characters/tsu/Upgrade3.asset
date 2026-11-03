@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Upgrade3
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: tsu-colored-gum
+    Trigger: 0
+    EveryAttacks: 0
+    Id: tsu-colored-gum
+    Name: Chicles de Colores
+    Description: "Alterna regalos: +50% velocidad de ataque y movimiento, reduce
+      30% el da\xF1o recibido o +50% da\xF1o."
+    Parameters:
+    - Key: bonusPercent
+      Value: 50
+    - Key: shieldPercent
+      Value: 30
+    - Key: projectileSpeed
+      Value: 0
+    Area:
+      Shape: 0
+      SquareSize: 0
+      IncludeCenter: 0
+      UpWidth: 1
+      UpDepth: 0
+      RightWidth: 1
+      RightDepth: 0
+      DownWidth: 1
+      DownDepth: 0
+      LeftWidth: 1
+      LeftDepth: 0
+    Cost: 3
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals:
+  - VariantId: speed
+    RendererId: speed-gum
+    NameEnglish: Speed gum
+    NameSpanish: Chicle de velocidad
+    OverrideSize: 1
+    SizePercent: 39.4
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames: []
+  - VariantId: shield
+    RendererId: shield-gum
+    NameEnglish: Shield gum
+    NameSpanish: Chicle de escudo
+    OverrideSize: 1
+    SizePercent: 32.5
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames: []
+  - VariantId: damage
+    RendererId: damage-gum
+    NameEnglish: Damage gum
+    NameSpanish: "Chicle de da\xF1o"
+    OverrideSize: 1
+    SizePercent: 32.5
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames: []
+  Icon: {fileID: 0}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

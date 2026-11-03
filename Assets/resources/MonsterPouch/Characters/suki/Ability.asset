@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Ability
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: suki-fish-shield
+    Trigger: 1
+    EveryAttacks: 0
+    Id: suki-fish-shield
+    Name: Pesca Protectora
+    Description: "Lanza pescados a los 3 aliados m\xE1s cercanos. Cada uno y Suki
+      reciben 15 de escudo durante 5 s. Absorbe da\xF1o antes que la vida."
+    Parameters:
+    - Key: shield
+      Value: 15
+    - Key: duration
+      Value: 2
+    - Key: targets
+      Value: 2
+    - Key: travelDuration
+      Value: 0.7
+    - Key: castDuration
+      Value: 0.3
+    - Key: holdDuration
+      Value: 0.1
+    - Key: recoveryDuration
+      Value: 0.25
+    Area:
+      Shape: 0
+      SquareSize: 0
+      IncludeCenter: 0
+      UpWidth: 1
+      UpDepth: 0
+      RightWidth: 1
+      RightDepth: 0
+      DownWidth: 1
+      DownDepth: 0
+      LeftWidth: 1
+      LeftDepth: 0
+    Cost: 0
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: fish
+    NameEnglish: Shield fish
+    NameSpanish: Pez de escudo
+    OverrideSize: 1
+    SizePercent: 35
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames:
+    - Sprite: {fileID: -1133142742, guid: 280cf803cb41c1f4ab965876bf054a43, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.05
+        y: 0.125
+        width: 0.9
+        height: 0.7083333
+  Icon: {fileID: -116066072, guid: 8aa93b3db27084f4fba5f33b3126e477, type: 3}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

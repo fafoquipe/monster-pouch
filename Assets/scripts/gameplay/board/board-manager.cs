@@ -208,6 +208,27 @@ namespace MonsterPouch.Gameplay.Board
             return TryReserveCell(unit, GetCell(x, y));
         }
 
+        public bool CanExchangeUnits(IBoardUnit first, IBoardUnit second)
+        {
+            if (first == null || second == null || ReferenceEquals(first, second)) return false;
+            BoardCell a = first.CurrentCell, b = second.CurrentCell;
+            return IsManagedCell(a) && IsManagedCell(b) && !ReferenceEquals(a, b) &&
+                ReferenceEquals(a.OccupiedBy, first) && ReferenceEquals(b.OccupiedBy, second) &&
+                !a.IsBlocked && !b.IsBlocked && a.ReservedBy == null && b.ReservedBy == null &&
+                first.ReservedCell == null && second.ReservedCell == null;
+        }
+
+        /// <summary>Validates both endpoints before committing either half of a placement exchange.</summary>
+        public bool TryExchangeUnits(IBoardUnit first, IBoardUnit second)
+        {
+            if (!CanExchangeUnits(first, second)) return false;
+            BoardCell a = first.CurrentCell, b = second.CurrentCell;
+            a.ClearOccupant(first); b.ClearOccupant(second);
+            b.TryOccupy(first); a.TryOccupy(second);
+            first.SetCurrentCell(b); second.SetCurrentCell(a);
+            return true;
+        }
+
         public bool TryReserveCell(IBoardUnit unit, BoardCell destinationCell)
         {
             if (!CanReserveCell(unit, destinationCell))

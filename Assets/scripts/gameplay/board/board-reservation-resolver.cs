@@ -161,7 +161,8 @@ namespace MonsterPouch.Gameplay.Board
                 return;
             }
 
-            int? dominantGlobalIdx = TryGetUniqueQuadrantDominant(allIntents, survivors);
+            survivors = FilterByQuadrantDominance(allIntents, survivors, groupOutcomes);
+            int? dominantGlobalIdx = survivors.Count == 1 ? survivors[0] : (int?)null;
 
             if (dominantGlobalIdx.HasValue)
             {
@@ -253,42 +254,29 @@ namespace MonsterPouch.Gameplay.Board
             return result;
         }
 
-        private static int? TryGetUniqueQuadrantDominant(
-            IReadOnlyList<BoardReservationIntent> allIntents,
-            List<int> survivors)
+        private static List<int> FilterByQuadrantDominance(
+            IReadOnlyList<BoardReservationIntent> intents, List<int> survivors,
+            Dictionary<int, BoardReservationOutcome> outcomes)
         {
-            int? dominantGlobalIdx = null;
-
-            for (int i = 0; i < survivors.Count; i++)
+            // Multiple units in the winning quadrant still beat a weaker quadrant.
+            // Their tie proceeds to territory; a cycle with no dominant quadrant stays tied.
+            BoardQuadrant? dominant = null;
+            foreach (int candidate in survivors)
             {
-                int candidateIdx = survivors[i];
-                BoardQuadrant candidateQuadrant = allIntents[candidateIdx].OriginCell.Quadrant;
+                BoardQuadrant quadrant = intents[candidate].OriginCell.Quadrant;
                 bool beatsAll = true;
-
-                for (int j = 0; j < survivors.Count; j++)
-                {
-                    if (i == j)
-                        continue;
-
-                    BoardQuadrant otherQuadrant = allIntents[survivors[j]].OriginCell.Quadrant;
-
-                    if (!BoardPriorityResolver.QuadrantBeats(candidateQuadrant, otherQuadrant))
-                    {
-                        beatsAll = false;
-                        break;
-                    }
-                }
-
-                if (beatsAll)
-                {
-                    if (dominantGlobalIdx.HasValue)
-                        return null;
-
-                    dominantGlobalIdx = candidateIdx;
-                }
+                foreach (int other in survivors)
+                    if (intents[other].OriginCell.Quadrant != quadrant &&
+                        !BoardPriorityResolver.QuadrantBeats(quadrant, intents[other].OriginCell.Quadrant))
+                    { beatsAll = false; break; }
+                if (beatsAll) { dominant = quadrant; break; }
             }
-
-            return dominantGlobalIdx;
+            if (!dominant.HasValue) return survivors;
+            var result = new List<int>();
+            foreach (int index in survivors)
+                if (intents[index].OriginCell.Quadrant == dominant.Value) result.Add(index);
+                else outcomes[index] = BoardReservationOutcome.Rejected;
+            return result;
         }
 
         private static List<int> FilterByTerritory(
@@ -297,9 +285,13 @@ namespace MonsterPouch.Gameplay.Board
             List<int> survivors,
             Dictionary<int, BoardReservationOutcome> groupOutcomes)
         {
-            // There is no defined geometric territory predicate in the recovered data.
-            // A side-colour match would invent a different rule; retain all tied units.
-            return survivors;
+            var local = new List<int>();
+            foreach (int index in survivors)
+                if (allIntents[index].Unit.Side == destinationCell.Side) local.Add(index);
+            if (local.Count == 0) return survivors;
+            foreach (int index in survivors)
+                if (!local.Contains(index)) groupOutcomes[index] = BoardReservationOutcome.Rejected;
+            return local;
         }
 
         private static void ApplyWinner(

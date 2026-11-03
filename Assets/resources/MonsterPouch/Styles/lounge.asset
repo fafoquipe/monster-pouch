@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e3ce8405aab034da9b55a955ec5ace, type: 3}
+  m_Name: lounge
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Presentation.EnvironmentStyle
+  Id: lounge
+  DisplayName: Grand Cas Hotel
+  ProgressionRole: 3
+  LobbyBackground: {fileID: 21300000, guid: 7e04812edaf6fd14e937eec594546e72, type: 3}
+  MatchBackground: {fileID: 21300000, guid: 5a1b2c3d4e5f67890123456789abcdef, type: 3}
+  Preview: {fileID: 21300000, guid: 7e04812edaf6fd14e937eec594546e72, type: 3}
+  Scenery: {fileID: 11400000, guid: f61d33c91b529a248a14f267f5e4e3d2, type: 2}
+  Panel: {r: 0.14, g: 0.24, b: 0.24, a: 1}
+  Accent: {r: 0.28, g: 0.4, b: 0.38, a: 1}
+  Paper: {r: 0.92, g: 0.89, b: 0.8, a: 1}
+  Border: {r: 0.78, g: 0.56, b: 0.19, a: 1}
+  Shine: {r: 1, g: 0.86, b: 0.43, a: 1}
+  Button: {r: 0.72, g: 0.12, b: 0.16, a: 1}
+  PrimaryButton: {r: 1, g: 0.76, b: 0.06, a: 1}
+  ButtonText: {r: 0.96, g: 0.92, b: 0.82, a: 1}
+  PrimaryButtonText: {r: 0.18, g: 0.16, b: 0.14, a: 1}
+  FurnitureTint: {r: 0.78, g: 0.86, b: 0.79, a: 1}
+  FurnitureLining: {r: 0.1, g: 0.22, b: 0.2, a: 1}
+  Ambient: {r: 0.8, g: 0.87, b: 0.85, a: 1}
+  Lamp: {r: 1, g: 0.88, b: 0.69, a: 1}
+  WindowStrength: 0.12
+  LampStrength: 0.12

@@ -1,0 +1,41 @@
+{
+  "status": "Design concepts only, not integrated into game currency logic.",
+  "tool": "Built-in image_gen",
+  "reference": "Assets/art/ui/resources/ui-moon-icon.png",
+  "requirements": [
+    "Pixelation and shape match Moonken",
+    "Almost no shine",
+    "Sunken and Saturnken each use one color family; Earthken may use blue and green"
+  ],
+  "assets": [
+    {
+      "id": "earthken",
+      "file": "earthken-v2.png",
+      "source": "C:/Users/HP VICTUS/.codex/generated_images/01a13887-dd61-7181-aab0-30fdf5564ca4/exec-3c7f57a3-f625-4e04-9373-4d7dbfff5797.png"
+    },
+    {
+      "id": "sunken",
+      "file": "sunken-v2.png",
+      "source": "C:/Users/HP VICTUS/.codex/generated_images/01a13887-dd61-7181-aab0-30fdf5564ca4/exec-b84d1561-fea6-4f84-80b6-c24338136fad.png"
+    },
+    {
+      "id": "saturnken",
+      "file": "saturnken-v2.png",
+      "source": "C:/Users/HP VICTUS/.codex/generated_images/01a13887-dd61-7181-aab0-30fdf5564ca4/exec-e170e3fb-ba60-4a33-98d3-8b630e39596e.png"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "earthken",
+      "prompt": "Edit the provided Moonken coin image as the literal template for a NEW sibling coin. This is not a fresh style redesign: match the reference coin's exact circular silhouette, size, proportions, broad plain double rim, recessed face, orientation and especially its obvious chunky pixel grid. User rejected glossy ornate versions: make this MATTE, FLAT and SIMPLE, with almost NO SHINE. Use only a few subdued close-value shades, solid blocky pixel clusters, no gradients, no shiny metal reflections, no white highlights, no sparkle, no glow, no bloom, no bevel gloss, no tiny speckles, no texture noise. Keep just enough soft pixel shading to read the rim and a shallow stamped relief, like the craters on the reference. Enlarge an approximately 96x96-pixel native sprite cleanly using nearest-neighbor pixel edges, so pixels remain unmistakably visible. Preserve a clean continuous circular edge, no stray pixels. Transparent background with true alpha, entire coin visible with a transparent margin. ONE coin ONLY. No letters, no numbers, no labels, no face, no additional objects, no ground shadow.\nCreate EARTHKEN. Replace ONLY the crater pattern with a simple recognizable Earth face: broad blue oceans and large flat muted green land masses, not intricate cartography. Earth is the only exception to the single-color rule and may use blue plus green. The broad rim is muted green, with two slightly darker green shades for depth. The recessed ocean face is muted medium blue, with green continents stamped shallowly into it. Keep all the Earth motif within the same inner disk. No extra white ice caps or clouds. Calm flat colors, low contrast, almost no highlight."
+    },
+    {
+      "id": "sunken",
+      "prompt": "Edit the provided Moonken coin image as the literal template for a NEW sibling coin. This is not a fresh style redesign: match the reference coin's exact circular silhouette, size, proportions, broad plain double rim, recessed face, orientation and especially its obvious chunky pixel grid. User rejected glossy ornate versions: make this MATTE, FLAT and SIMPLE, with almost NO SHINE. Use only a few subdued close-value shades, solid blocky pixel clusters, no gradients, no shiny metal reflections, no white highlights, no sparkle, no glow, no bloom, no bevel gloss, no tiny speckles, no texture noise. Keep just enough soft pixel shading to read the rim and a shallow stamped relief, like the craters on the reference. Enlarge an approximately 96x96-pixel native sprite cleanly using nearest-neighbor pixel edges, so pixels remain unmistakably visible. Preserve a clean continuous circular edge, no stray pixels. Transparent background with true alpha, entire coin visible with a transparent margin. ONE coin ONLY. No letters, no numbers, no labels, no face, no additional objects, no ground shadow.\nCreate SUNKEN. ALL of the coin must be ONE YELLOW/OCHRE COLOR FAMILY, including the rim, inner disk and sun: only a few subtly lighter or darker shades of the same muted warm yellow. NO white, no silver, no orange-red accent, no dark blue. Replace the lunar crater pattern with a simple sun stamped in shallow relief: round central disk plus eight short thick rays. The sun is barely a shade lighter than the surrounding disk, with a small darker lower edge so it reads like a minted engraving rather than a separate glossy emblem. The sun and rays stay fully INSIDE the inner disk. Absolutely matte, plain and restrained, like a yellow version of the provided Moonken."
+    },
+    {
+      "id": "saturnken",
+      "prompt": "Edit the provided Moonken coin image as the literal template for a NEW sibling coin. This is not a fresh style redesign: match the reference coin's exact circular silhouette, size, proportions, broad plain double rim, recessed face, orientation and especially its obvious chunky pixel grid. User rejected glossy ornate versions: make this MATTE, FLAT and SIMPLE, with almost NO SHINE. Use only a few subdued close-value shades, solid blocky pixel clusters, no gradients, no shiny metal reflections, no white highlights, no sparkle, no glow, no bloom, no bevel gloss, no tiny speckles, no texture noise. Keep just enough soft pixel shading to read the rim and a shallow stamped relief, like the craters on the reference. Enlarge an approximately 96x96-pixel native sprite cleanly using nearest-neighbor pixel edges, so pixels remain unmistakably visible. Preserve a clean continuous circular edge, no stray pixels. Transparent background with true alpha, entire coin visible with a transparent margin. ONE coin ONLY. No letters, no numbers, no labels, no face, no additional objects, no ground shadow.\nCreate SATURNKEN. ALL of the coin must be ONE MUTED COPPER/ORANGE COLOR FAMILY, including the rim, inner disk, planet and ring: only a few subtly lighter or darker shades of that same muted orange. NO gold-yellow accent, no white, no silver, no violet, no blue. Replace the lunar crater pattern with a very simple shallow stamped Saturn emblem: a round planet crossed by a thick tilted elliptical ring, recognizable at small size, with correct front/back occlusion. It is a monochrome embossed mark, not a separately colored planet picture. Planet and ring stay fully INSIDE the inner disk and never change the circular coin silhouette. Absolutely matte, plain and restrained, like a muted copper version of the provided Moonken."
+    }
+  ]
+}

@@ -40,7 +40,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
 
         [TestCase(true)]
         [TestCase(false)]
-        public void SimultaneousTeamElimination_IsDrawRegardlessOfQuadrantAndIQ(bool monsters)
+        public void SimultaneousTeamElimination_UsesQuadrantAndIgnoresIQ(bool monsters)
         {
             var blue = Unit("blue", BoardSide.Blue, 2, 4, new UnitStats(10, 10, iqSpeed: 99), monsters);
             var red = Unit("red", BoardSide.Red, 3, 4, new UnitStats(10, 10, iqSpeed: 1), monsters);
@@ -50,14 +50,14 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.IsTrue(sim.Finished);
             Assert.AreEqual(0, blue.CurrentHealth);
             Assert.AreEqual(0, red.CurrentHealth);
-            Assert.IsNull(sim.Winner); // B beats A for reservations, never for mutual elimination.
+            Assert.AreEqual(BoardSide.Red, sim.Winner); // B beats A; IQ does not decide final death.
             Assert.IsNull(blue.CurrentCell);
             Assert.IsNull(red.CurrentCell);
             Assert.AreEqual(0, sim.PendingImpactCount);
         }
 
         [Test]
-        public void EqualSimultaneousDeath_IsDrawAndDoesNotPickAnID()
+        public void EqualSimultaneousDeath_UsesTerritoryAndDoesNotPickAnID()
         {
             var blue = Unit("zzz", BoardSide.Blue, 2, 0, new UnitStats(10, 10));
             var red = Unit("aaa", BoardSide.Red, 1, 1, new UnitStats(10, 10));
@@ -65,7 +65,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             sim.Begin(new[] { red, blue });
             sim.Step(0.2f);
             Assert.IsTrue(sim.Finished);
-            Assert.IsNull(sim.Winner);
+            Assert.AreEqual(BoardSide.Red, sim.Winner);
             StringAssert.Contains("simultánea", sim.Reason);
         }
 
@@ -177,15 +177,17 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             sim.Moved += (unit, from, to) =>
             {
                 Assert.AreEqual(1, Mathf.Abs(to.X - from.X) + Mathf.Abs(to.Y - from.Y));
-                Assert.AreSame(unit, to.OccupiedBy);
+                Assert.AreSame(unit, from.OccupiedBy);
+                Assert.AreSame(unit, to.ReservedBy);
+                Assert.IsNull(to.OccupiedBy);
                 events++;
             };
             sim.Begin(new[] { blue, red });
             sim.Step(0.1f);
             Assert.AreEqual(2, events);
             Assert.AreNotSame(blue.CurrentCell, red.CurrentCell);
-            Assert.IsNull(blue.ReservedCell);
-            Assert.IsNull(red.ReservedCell);
+            Assert.IsNotNull(blue.ReservedCell);
+            Assert.IsNotNull(red.ReservedCell);
         }
 
         [Test]
@@ -219,15 +221,18 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             sim.Attacked += (actor, target, ranged) => { if (actor == blue) blueAttacks++; };
             sim.Begin(new[] { blue, red });
             sim.Step(0.1f);
-            Assert.AreEqual(5, blue.CurrentCell.Y);
+            Assert.AreEqual(6, blue.CurrentCell.Y);
+            Assert.AreEqual(5, blue.ReservedCell.Y);
             sim.Step(0.5f);
             Assert.AreEqual(0, blueAttacks);
             sim.Step(0.1f);
             Assert.AreEqual(1, blueAttacks);
+            Assert.AreEqual(5, blue.CurrentCell.Y);
+            Assert.IsNull(blue.ReservedCell);
         }
 
         [Test]
-        public void ArmorAndHeal_ApplyAtImpactAndNeverResurrectLethalDamage()
+        public void RetiredArmorDoesNotReduceImpactAndHealingStillApplies()
         {
             var blue = Unit("blue", BoardSide.Blue, 2, 4, new UnitStats(10, 4, healOnHit: 2));
             var red = Unit("red", BoardSide.Red, 3, 4, new UnitStats(30, 1, armor: 2));
@@ -236,7 +241,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             blue.ApplyDamage(5);
             sim.Step(0.2f);
             Assert.AreEqual(6, blue.CurrentHealth); // 5 - 1 + 2
-            Assert.AreEqual(28, red.CurrentHealth); // 30 - (4 - 2)
+            Assert.AreEqual(26, red.CurrentHealth); // Retired armor no longer reduces 30 - 4.
         }
 
         [Test]
@@ -275,7 +280,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         }
 
         [Test]
-        public void Stalemate_StopsAtTenSecondsWithNoDamageOrMovement()
+        public void Stalemate_WaitsForTimeoutThenUsesBoardPriority()
         {
             var blue = Unit("blue", BoardSide.Blue, 2, 4, new UnitStats(100, 0));
             var red = Unit("red", BoardSide.Red, 3, 4, new UnitStats(100, 0));
@@ -284,14 +289,16 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             sim.Step(9.9f);
             Assert.IsFalse(sim.Finished);
             sim.Step(0.1f);
+            Assert.IsFalse(sim.Finished);
+            sim.Step(30f);
             Assert.IsTrue(sim.Finished);
-            Assert.IsNull(sim.Winner);
-            Assert.AreEqual(10f, sim.Elapsed, 0.001f);
+            Assert.AreEqual(BoardSide.Red,sim.Winner);
+            Assert.AreEqual(40f, sim.Elapsed, 0.001f);
             Assert.AreEqual(0, sim.PendingImpactCount);
         }
 
         [Test]
-        public void ActiveCombat_StopsAtFortySecondsWithoutInventingWinner()
+        public void ActiveCombat_UsesTimeoutAbsorptionAtFortySeconds()
         {
             var blue = Unit("blue", BoardSide.Blue, 2, 4, new UnitStats(10000, 1));
             var red = Unit("red", BoardSide.Red, 3, 4, new UnitStats(10000, 1));
@@ -299,7 +306,8 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             sim.Begin(new[] { blue, red });
             sim.Step(40f);
             Assert.IsTrue(sim.Finished);
-            Assert.IsNull(sim.Winner);
+            Assert.AreEqual(BoardSide.Red,sim.Winner);
+            Assert.NotNull(sim.TimeoutResult);
             Assert.AreEqual(40f, sim.Elapsed, 0.001f);
             Assert.Less(blue.CurrentHealth, 10000);
         }
@@ -364,7 +372,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
                 owned.Tricks[0] = owned.Tricks[1] = owned.Tricks[2] = true;
                 UnitStats stats = UnitStats.FromDefinition(dummy, owned);
                 Assert.AreEqual(dummy.MaxHealth + 18, stats.MaxHealth);
-                Assert.AreEqual(2, stats.Armor);
+                Assert.AreEqual(0, stats.Armor);
                 Assert.AreEqual(2, stats.HealOnHit);
                 Assert.AreEqual(45, dummy.MaxHealth);
                 UnitDefinition bugui = config.Get("bugui");

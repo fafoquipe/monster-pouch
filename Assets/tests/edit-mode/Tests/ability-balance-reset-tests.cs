@@ -24,7 +24,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             var def=DocumentedRoster.CreateAtong();def.AttackWindup=.1f;def.AttackInterval=.3f;def.Damage=10;
             def.BaseAbility.Parameters=new[]{new AbilityParameter{Key="every",Value=1},new AbilityParameter{Key="damagePercent",Value=300}};
             var actor=Unit(def,2,5,BoardSide.Blue);var target=Target();
-            Assert.That(AbilityBalance.Description(def.BaseAbility),Does.Contain("300%"));
+            Assert.That(AbilityBalance.Description(def.BaseAbility),Does.Contain("×3"));
             def.BaseAbility.Parameters[1].Value=900;
             sim=new CombatSimulation(board);sim.Begin(new[]{actor,target});sim.Step(.2f);
             Assert.AreEqual(970,target.CurrentHealth);
@@ -57,9 +57,10 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             var def=DocumentedRoster.CreateAnuik();def.AttackWindup=windup;def.AttackInterval=10;def.ProjectileSpeed=2;
             var actor=Unit(def,2,5,BoardSide.Blue);
             var steinDef=DocumentedRoster.CreateStein();steinDef.AttackWindup=.1f;steinDef.AttackInterval=10;steinDef.Damage=0;
-            steinDef.BaseAbility.Parameters=new[]{new AbilityParameter{Key="duration",Value=2}};
+            steinDef.BaseAbility.Parameters=new[]{new AbilityParameter{Key="duration",Value=2},new AbilityParameter{Key="castDuration",Value=.2f}};
             var stein=Unit(steinDef,2,4,BoardSide.Red);int hits=0;
-            sim=new CombatSimulation(board);sim.Impacted+=(a,t,d)=>{if(a==actor&&d>0)hits++;};sim.Begin(new[]{actor,stein});sim.Step(1f);
+            sim=new CombatSimulation(board);sim.Impacted+=(a,t,d)=>{if(a==actor&&d>0)hits++;};sim.Begin(new[]{actor,stein});
+            stein.AddEnergy(100);sim.Step(1f);
             Assert.AreEqual(expectedHits,hits);Assert.Greater(actor.AttackResetVersion,1);
         }
     }

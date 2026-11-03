@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="10" result="Passed" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 21:43:38Z" end-time="2026-10-15 21:44:13Z" duration="35,2847293">
+  <test-suite type="TestSuite" id="1185" name="Monster Pouch" fullname="Monster Pouch" runstate="Runnable" testcasecount="137" result="Passed" start-time="2026-10-15 21:43:38Z" end-time="2026-10-15 21:44:13Z" duration="35.284729" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1177" name="MonsterPouch.Local.Tests.PlayMode.dll" fullname="C:/Users/HP VICTUS/Juegos Unity/mini-gogos/game/monster-pouch/Library/ScriptAssemblies/MonsterPouch.Local.Tests.PlayMode.dll" runstate="Runnable" testcasecount="137" result="Passed" start-time="2026-10-15 21:43:38Z" end-time="2026-10-15 21:44:13Z" duration="35.226227" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3240" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1086" name="MobileMenuBankPlayTests" fullname="MobileMenuBankPlayTests" classname="MobileMenuBankPlayTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-15 21:43:38Z" end-time="2026-10-15 21:44:09Z" duration="31.475274" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1091" name="CollectionPreservesItsScrollWhenSwipeReturnsAndVerticalDragDoesNotPage" fullname="MobileMenuBankPlayTests.CollectionPreservesItsScrollWhenSwipeReturnsAndVerticalDragDoesNotPage" methodname="CollectionPreservesItsScrollWhenSwipeReturnsAndVerticalDragDoesNotPage" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="1270146640" result="Passed" start-time="2026-10-15 21:43:38Z" end-time="2026-10-15 21:43:48Z" duration="10.062829" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1090" name="DragCanReverseDirectionAndOnlyCrossingHalfCommits" fullname="MobileMenuBankPlayTests.DragCanReverseDirectionAndOnlyCrossingHalfCommits" methodname="DragCanReverseDirectionAndOnlyCrossingHalfCommits" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="1287899146" result="Passed" start-time="2026-10-15 21:43:48Z" end-time="2026-10-15 21:43:52Z" duration="4.100331" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1089" name="DragFollowsFingerBeforeReleaseAndShortSwipeSettlesBackWithoutRebuilding" fullname="MobileMenuBankPlayTests.DragFollowsFingerBeforeReleaseAndShortSwipeSettlesBackWithoutRebuilding" methodname="DragFollowsFingerBeforeReleaseAndShortSwipeSettlesBackWithoutRebuilding" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="180691042" result="Passed" start-time="2026-10-15 21:43:52Z" end-time="2026-10-15 21:43:54Z" duration="2.261122" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1093" name="EmptyMenuSpaceKeepsReceivingSwipesDuringTransitions" fullname="MobileMenuBankPlayTests.EmptyMenuSpaceKeepsReceivingSwipesDuringTransitions" methodname="EmptyMenuSpaceKeepsReceivingSwipesDuringTransitions" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="959322571" result="Passed" start-time="2026-10-15 21:43:54Z" end-time="2026-10-15 21:43:57Z" duration="2.415326" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1092" name="EndTabsResistDraggingAndInterruptedDragRestoresControls" fullname="MobileMenuBankPlayTests.EndTabsResistDraggingAndInterruptedDragRestoresControls" methodname="EndTabsResistDraggingAndInterruptedDragRestoresControls" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="69791165" result="Passed" start-time="2026-10-15 21:43:57Z" end-time="2026-10-15 21:44:00Z" duration="3.253860" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1088" name="HorizontalGestureNavigatesAndVerticalGestureDoesNotChangeTabs" fullname="MobileMenuBankPlayTests.HorizontalGestureNavigatesAndVerticalGestureDoesNotChangeTabs" methodname="HorizontalGestureNavigatesAndVerticalGestureDoesNotChangeTabs" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="1049975030" result="Passed" start-time="2026-10-15 21:44:00Z" end-time="2026-10-15 21:44:04Z" duration="3.983147" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1095" name="NewSwipeCanInterruptTabAnimationAndShortSwipeReturningHome" fullname="MobileMenuBankPlayTests.NewSwipeCanInterruptTabAnimationAndShortSwipeReturningHome" methodname="NewSwipeCanInterruptTabAnimationAndShortSwipeReturningHome" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="1518775682" result="Passed" start-time="2026-10-15 21:44:04Z" end-time="2026-10-15 21:44:06Z" duration="2.255855" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1094" name="RapidSwipesCanRepeatAcrossEveryTabWithoutWaitingForAnimation" fullname="MobileMenuBankPlayTests.RapidSwipesCanRepeatAcrossEveryTabWithoutWaitingForAnimation" methodname="RapidSwipesCanRepeatAcrossEveryTabWithoutWaitingForAnimation" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="2110798179" result="Passed" start-time="2026-10-15 21:44:06Z" end-time="2026-10-15 21:44:09Z" duration="3.044693" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1106" name="October8MenuPlayTests" fullname="October8MenuPlayTests" classname="October8MenuPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 21:44:09Z" end-time="2026-10-15 21:44:13Z" duration="3.728081" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1109" name="SafeAreaBackdropIsOneContinuousImage" fullname="October8MenuPlayTests.SafeAreaBackdropIsOneContinuousImage" methodname="SafeAreaBackdropIsOneContinuousImage" classname="October8MenuPlayTests" runstate="Runnable" seed="1149456732" result="Passed" start-time="2026-10-15 21:44:09Z" end-time="2026-10-15 21:44:11Z" duration="1.551095" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1108" name="ShopChallengesAndHeroCollectionReplaceOldTabs" fullname="October8MenuPlayTests.ShopChallengesAndHeroCollectionReplaceOldTabs" methodname="ShopChallengesAndHeroCollectionReplaceOldTabs" classname="October8MenuPlayTests" runstate="Runnable" seed="155024568" result="Passed" start-time="2026-10-15 21:44:11Z" end-time="2026-10-15 21:44:13Z" duration="2.162197" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Logs\local-validation\focused-play.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

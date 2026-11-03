@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Upgrade2
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: la-minera-recuperacion-de-veta
+    Trigger: 0
+    EveryAttacks: 0
+    Id: la-minera-recuperacion-de-veta
+    Name: "Recuperaci\xF3n de veta"
+    Description: 'Tras una baja: Vida +{healPerSecond}/s durante {duration} s.'
+    Parameters:
+    - Key: healPerSecond
+      Value: 10
+    - Key: duration
+      Value: 3
+    Area:
+      Shape: 0
+      SquareSize: 0
+      IncludeCenter: 0
+      UpWidth: 1
+      UpDepth: 0
+      RightWidth: 1
+      RightDepth: 0
+      DownWidth: 1
+      DownDepth: 0
+      LeftWidth: 1
+      LeftDepth: 0
+    Cost: 3
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals: []
+  Icon: {fileID: 21300000, guid: 2a1a3901f4655d8d9b72bc64219014dc, type: 3}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

@@ -1,33 +1,42 @@
-# Monster Pouch
+# Monsters of Eronya
 
-Prototipo local de combate automático en pixel art, hecho con **Unity 6000.3.9f1**. Prepara un Monster y sus Whelps contra un bot y consigue tres victorias de ronda.
+Juego de combate automático en pixel art para Android, desarrollado con **Unity 6000.3.9f1**. Prepara tu equipo, compra figuras y Tricks con Moonkens y consigue tres victorias de ronda.
 
-## Abrir desde un clon
+## Abrir el proyecto
 
 ```sh
 git clone git@github.com:fafoquipe/monster-pouch.git
 cd monster-pouch
 ```
 
-En Unity Hub, añade esta carpeta y ábrela con la versión indicada en `ProjectSettings/ProjectVersion.txt`. Abre `Assets/Scenes/main-scene.unity` y pulsa Play. Los catálogos, sprites, fuentes y metadatos necesarios ya están incluidos; no hace falta ejecutar los importadores de arte para jugar.
+Añade esta carpeta en Unity Hub usando la versión de `ProjectSettings/ProjectVersion.txt`. Abre `Assets/Scenes/main-scene.unity` y pulsa Play. El repositorio contiene los recursos, catálogos y metadatos necesarios; los importadores históricos de arte no son un paso de instalación.
 
-Los recursos binarios se versionan directamente en Git. Este historial no utiliza objetos de Git LFS; `.gitattributes` marca estos archivos como binarios sin filtros LFS.
+El repositorio conserva temporalmente su URL anterior. Algunos identificadores internos, rutas de recursos y menús de herramientas también conservan `MonsterPouch` para mantener la compatibilidad con los guardados.
 
-## Estado actual
+## Contenido y organización
 
-- Catálogo documentado: 5 Monsters y 14 Whelps, energía y tres mejoras por figura.
-- Inicio, colección y tres briefs locales guardados, con un Monster y hasta siete Whelps cada uno.
-- Brief de tres ofertas, apertura/cierre, arrastre para comprar/vender y banco independiente.
-- Cinco filas por seis columnas de despliegue por bando. La ronda termina al eliminar al equipo, con excepciones de resurrección y las habilidades de los PDF.
-- Diseños originales del usuario; animaciones existentes conservadas y movimiento procedimental para personajes nuevos.
-- Distribución de partida actualizada y referencias visuales del maletín y los iconos reparadas.
+El catálogo contiene 44 personajes: 20 de Eronya, 6 Monsters y 18 Whelps. La selección distingue Héroes y Piezas. Las cinco facciones de Eronya son Naturalis, Aquarion, Geothar, Volkanar y Aireola.
 
-Consulta [la entrega de septiembre](docs/september-delivery.md), [las habilidades de los PDF](docs/pdf-combat-reference.md) y [el balance provisional](docs/documented-combat-tuning.md). Los informes anteriores describen versiones históricas.
+Los recursos de personajes están agrupados en `Assets/resources/MonsterPouch/Characters/`:
 
-## Compilar y comprobar
+- `Eronya/<facción>/<id>`
+- `Monsters/<id>`
+- `Whelps/<id>`
 
-La versión actual se genera en `Builds/Windows-September/Monster Pouch.exe` desde **Monster Pouch > Build > Windows September**. Para compilar manualmente, abre **File > Build Profiles**, selecciona Windows, incluye `Assets/Scenes/main-scene.unity` y compila en una subcarpeta de `Builds`. Conserva todos los archivos generados junto al ejecutable. Las distribuciones, cachés y registros no se incluyen en Git.
+Los recursos compartidos se agrupan en `UI`, `Effects`, `Materials`, `Shaders` y `Config`. Los archivos `.meta` forman parte del proyecto y deben acompañar a sus recursos. Las imágenes se versionan directamente en Git, sin Git LFS.
 
-Las pruebas están en `Assets/tests/edit-mode` y `Assets/tests/play-mode`, disponibles desde el Test Runner de Unity. Última validación del juego: **350 EditMode y 15 PlayMode aprobadas**, con compilación Windows sin errores.
+## Compilar y probar
 
-Las rutas absolutas y capturas citadas en informes históricos corresponden a la máquina de desarrollo; los archivos del proyecto se encuentran por sus rutas relativas dentro de este repositorio.
+El destino principal es Android en orientación vertical. Usa **Monster Pouch → Build → Android APK** en Unity. La variante **Android Developer Build (todo desbloqueado)** se destina a pruebas y mantiene un identificador Android separado. Consulta [BuildTools/ANDROID.md](BuildTools/ANDROID.md) para conocer los requisitos y las opciones del script de compilación.
+
+Las pruebas EditMode y PlayMode están en `Assets/tests/` y se ejecutan desde el Test Runner de Unity. Los informes de `docs/` describen entregas concretas; no todos representan el estado actual ni una validación completa del catálogo.
+
+## Espacio en disco
+
+`Assets`, `Packages` y `ProjectSettings` contienen el proyecto reproducible. `Library`, `Temp`, `obj`, `Logs` y los resultados de `Builds` son datos locales y no se publican. Unity genera sus cachés al importar y compilar, por lo que el tamaño de la carpeta de trabajo no equivale al tamaño del APK.
+
+## Multijugador y seguridad
+
+El modo online actual usa sesiones casuales entre clientes y comprobaciones de sincronización. No equivale a un servidor autoritativo: la propiedad de contenido y el progreso local no constituyen una economía protegida contra clientes modificados. Un lanzamiento competitivo o con compras reales necesita validación y almacenamiento en un backend de confianza.
+
+Los resultados online deben verificarse antes de entregar recompensas. Las búsquedas automáticas de las versiones de desarrollo y QA usan grupos separados de la versión normal. No incluyas credenciales, claves de firma, archivos `.env` ni datos de cuentas en los commits; configura las credenciales fuera del repositorio.

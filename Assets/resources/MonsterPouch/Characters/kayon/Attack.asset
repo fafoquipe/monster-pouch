@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511ff38c74f24bcaaebcfb1a3166968f, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAttack
+  Kind: 1
+  DisplayName: Lluvia de Oro
+  Description: Lanza monedas de oro a distancia.
+  Damage: 4
+  Range: 3
+  Interval: 0.9
+  Windup: 0.3
+  Hold: 0.12
+  Recovery: 0.24
+  ProjectileSpeed: 9
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: catalog
+    NameEnglish: Basic projectile
+    NameSpanish: "Proyectil b\xE1sico"
+    OverrideSize: 1
+    SizePercent: 35.2
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames:
+    - Sprite: {fileID: -564161114, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.008438818
+        y: 0.00625
+        width: 0.98734176
+        height: 0.98125
+    - Sprite: {fileID: -234384584, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.004761905
+        y: 0.006060606
+        width: 0.9904762
+        height: 0.9818182
+    - Sprite: {fileID: 425259190, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.0066225166
+        y: 0.006060606
+        width: 0.98013246
+        height: 0.9818182
+    - Sprite: {fileID: 931334028, guid: 22f3188713473914f8c81bad0242a8e9, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.0053475937
+        y: 0.006060606
+        width: 0.9946524
+        height: 0.9818182
+  ProjectilePrefab: {fileID: 0}
+  Sound: {fileID: 0}

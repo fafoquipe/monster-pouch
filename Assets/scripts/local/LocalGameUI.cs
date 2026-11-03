@@ -17,13 +17,26 @@ namespace MonsterPouch.Local
     public sealed partial class LocalGameUI : MonoBehaviour
     {
         public Sprite MoonIcon, RerollIcon, BriefArt, BenchArt, ClosedBriefArt;
+        [Header("Sell feedback")]
+        [SerializeField, Min(.1f)] float sellMoonkenTravelDuration=.58f;
+        [SerializeField, Range(0,.15f)] float sellMoonkenStagger=.045f;
+        [SerializeField, Min(.05f)] float currencyPunchDuration=.24f;
+        [SerializeField, Range(1f,1.4f)] float currencyPunchScale=1.22f;
         public MatchController Match { get; private set; }
         public string SelectedId { get; private set; }
+        OwnedUnit selectedOwned;
+        public OwnedUnit SelectedOwned => SelectedId==null||Match?.Player==null?null:
+            selectedOwned!=null&&selectedOwned.Definition.Id==SelectedId&&Match.Player.Owns(selectedOwned)
+                ?selectedOwned:Match.Player.FindOwned(SelectedId,false);
         public Camera GameCamera { get; private set; }
         public RectTransform CanvasRoot { get; private set; }
         UnitArtCatalog art;
+        bool ownsArtCatalog;
         ProjectileArtCatalog projectileArt;
+        ProjectileVisualRegistry projectileVisuals;
         Font font;
+        PhaseCountdownHud phaseCountdown;
+        Font headingFont;
         Font symbolFont;
         Sprite briefDisplay, briefBodySprite, briefLidSprite;
         RectTransform briefLid, briefContents;
@@ -37,24 +50,39 @@ namespace MonsterPouch.Local
         int selectedOfferSlot=-1;
         long selectedOfferToken;
         public float BriefOpenAmount => briefOpen;
-        public bool BriefReady => Match.Phase==MatchPhase.Preparation && !Match.Paused && !rerollBusy && briefOpen>=.999f;
+        public bool BriefReady => Match.Phase==MatchPhase.Preparation && !Match.Paused && !Match.OnlineReady && !rerollBusy && briefOpen>=.999f;
         public int SelectedOfferSlot => selectedOfferSlot;
-        RectTransform briefDrop, benchDrop, dragGhost;
-        RectTransform page, modal, effects;
+        RectTransform briefDrop, benchDrop, dragGhost, currencyCounter, currencyIcon;
+        float currencyPopStarted=-1,currencyPopInitialScale=1;
+        PouchState currencyPopPlayer;
+        int currencyPopRound;
+        RectTransform page,effects,activeModal;
+        RectTransform modal
+        {
+            get=>activeModal;
+            set
+            {
+                activeModal=value;
+                if(phaseCountdown!=null)phaseCountdown.Suppressed=value!=null||MapTransitionActive||(Match!=null&&Match.IsTraining);
+            }
+        }
         CanvasScaler canvasScaler;
         RectTransform fullCanvas;
         Rect lastSafeArea;
         Vector2Int lastScreen;
-        Text clockText, noticeText;
+        Text clockText, currencyText;
         string chosen = "bugaloo";
         readonly HashSet<string> chosenWhelps = new HashSet<string>(StringComparer.Ordinal);
         public IReadOnlyCollection<string> SelectedWhelps => chosenWhelps;
-        string menuNotice;
         OwnedUnit inspected;
         bool inspectedEnemy;
         Text inspectStats;
+        readonly BattleInfoText.RowCache inspectionTextCache = new BattleInfoText.RowCache();
         readonly Dictionary<BattleUnit, UnitPresentation> visuals = new Dictionary<BattleUnit, UnitPresentation>();
         readonly Dictionary<BattleUnit, RectTransform> bars = new Dictionary<BattleUnit, RectTransform>();
+        readonly Dictionary<BattleUnit,(OwnedUnit owned,UnitVitalsUI vitals,UnitStatusBadges statuses)> barViews = new Dictionary<BattleUnit,(OwnedUnit,UnitVitalsUI,UnitStatusBadges)>();
+        RectTransform vitalsRoot;
+        readonly List<(RectTransform rect,float screenY,int identity)> vitalsDepth = new List<(RectTransform,float,int)>();
         readonly List<GameObject> highlights = new List<GameObject>();
         readonly PointerGesture boardGesture = new PointerGesture();
         OwnedUnit pressedUnit;
@@ -66,9 +94,21 @@ namespace MonsterPouch.Local
 
         void Awake()
         {
+            SetupGuestProfile();
+            MobileFrameRatePolicy.Initialize();
+            originalSleepTimeout=Screen.sleepTimeout;
+#if UNITY_ANDROID && !UNITY_EDITOR
+            Screen.orientation=ScreenOrientation.Portrait;
+            Screen.autorotateToLandscapeLeft=Screen.autorotateToLandscapeRight=false;
+            Screen.autorotateToPortraitUpsideDown=false;
+            Screen.fullScreenMode=FullScreenMode.FullScreenWindow;
+            Screen.fullScreen=true;
+#endif
             symbolFont = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-            font = Resources.Load<Font>("MonsterPouch/PixelFont") ?? symbolFont;
-            if(font.material.mainTexture!=null)font.material.mainTexture.filterMode=FilterMode.Point;
+            // A simple sans serif keeps small numbers (especially 5/S) legible in the HUD.
+            font = Resources.Load<Font>("MonsterPouch/UI/Fonts/Lato-Bold")??symbolFont;
+            headingFont=Resources.Load<Font>("MonsterPouch/UI/Fonts/LilitaOne-Regular")??font;
+            if(font.material.mainTexture!=null)font.material.mainTexture.filterMode=FilterMode.Bilinear;
             // Display the original transparent artwork at usable size, without its empty margin.
             if(BriefArt!=null)
             {
@@ -88,18 +128,33 @@ namespace MonsterPouch.Local
             var board = FindFirstObjectByType<BoardManager>();
             var mapper = FindFirstObjectByType<BoardWorldMapper>();
             GameCamera = Camera.main != null ? Camera.main : FindFirstObjectByType<Camera>();
+            CardTableArena.Apply(board,mapper,GameCamera);
             Match.Configure(config,board,mapper);
+            projectileVisuals = new ProjectileVisualRegistry(config.Characters);
+            if(art!=null&&config.Characters!=null&&config.Characters.Length>0){art=art.ForCharacters(config.Characters);ownsArtCatalog=true;}
             foreach (var prototype in FindObjectsByType<PrototypeUnitSpawner>(FindObjectsSortMode.None)) prototype.enabled = false;
-            chosen = PlayerPrefs.GetString("monster-pouch.monster","bugaloo");
+            chosen = PlayerPrefs.GetString(LocalAccountPreferences.Key("monster-pouch.monster"),"bugaloo");
             if(config.Get(chosen)==null || !config.Get(chosen).IsMonster)chosen="bugaloo";
-            string savedTeam=PlayerPrefs.GetString("monster-pouch.whelps","");
+            string savedTeam=PlayerPrefs.GetString(LocalAccountPreferences.Key("monster-pouch.whelps"),"");
             if(!config.TryResolveWhelpSelection(string.IsNullOrEmpty(savedTeam)?null:savedTeam.Split(','),out var teamIds,out _))
                 config.TryResolveWhelpSelection(null,out teamIds,out _);
             foreach(string id in teamIds)chosenWhelps.Add(id);
             BuildCanvas(); BuildSounds();
-            Match.Changed += () => rebuild = true;
+            Match.Changed += HandlePlacementMatchChanged;
+            Match.PlacementExchanged += AnimatePlacementExchange;
             Match.ActorCreated += CreateVisual;
+            Match.Displaced += HandleDisplaced;
             Match.Moved += (actor,from,to) => { if (visuals.TryGetValue(actor,out var v)) v.Move(Match.Mapper.GetWorldPosition(from), Match.Mapper.GetWorldPosition(to), actor.BaseStats.MoveInterval); };
+            Match.Teleported += (actor,from,to) => { if(visuals.TryGetValue(actor,out var view))view.SnapToCell(); };
+            Match.DashStarted += (actor,from,through,to,width,duration) =>
+            {
+                if (visuals.TryGetValue(actor,out var view))
+                    view.Dash(Match.Mapper.GetWorldPosition(from), Match.Mapper.GetWorldPosition(through), Match.Mapper.GetWorldPosition(to), duration);
+            };
+            Match.FlowerCastStarted += (actor,cell,duration) =>
+            {
+                if (visuals.TryGetValue(actor,out var view)) view.PrepareFlower(duration);
+            };
             Match.Attacked += (actor,target,projectile) =>
             {
                 float delay=CombatSimulation.GetImpactDelay(actor,target);
@@ -107,28 +162,41 @@ namespace MonsterPouch.Local
                 if (projectile && !DocumentedBattleEffects.HandlesProjectile(actor)) StartCoroutine(Projectile(actor,target,delay));
             };
             Match.Died += actor => { if (visuals.TryGetValue(actor,out var v)) v.Die(); };
+            Match.ProjectileBounced += (actor,origin,target,duration) => StartCoroutine(ReboundProjectile(actor,origin,target,duration));
             Match.Reviving += (actor,duration) => { if(visuals.TryGetValue(actor,out var v))v.BeginRevive(duration); };
             Match.Revived += actor => { if(visuals.TryGetValue(actor,out var v))v.Revive(); StartCoroutine(ImpactEffect(actor,actor,false)); };
-            Match.Impacted += (actor,target,damage) => { if(damage>0){if(visuals.TryGetValue(target,out var hitView))hitView.Hit();StartCoroutine(ImpactEffect(actor,target,false));} };
+            Match.Impacted += (actor,target,damage) => { if(damage>0&&visuals.TryGetValue(target,out var hitView))hitView.Hit(); }; // Contact art has one owner: DocumentedBattleEffects -> shared pool.
             Match.AbilityUsed += (actor,kind) => { if(visuals.TryGetValue(actor,out var abilityView))abilityView.UseAbility(kind); };
-            Match.LethalImpacted += (actor,target) => StartCoroutine(ImpactEffect(actor,target,true));
+            // Lethal contacts use the same settled impact; do not replay a second, enlarged clip.
+            Match.MoonkenDeliveryStarted += MoonkensProduced;
             Match.Sound += PlaySound;
-            gameObject.AddComponent<DocumentedBattleEffects>().Configure(Match,CanvasRoot,GameCamera);
+            gameObject.AddComponent<DocumentedBattleEffects>().Configure(Match,CanvasRoot,GameCamera,projectileVisuals);
             gameObject.AddComponent<CombatStatusEffects>().Configure(Match,CanvasRoot,GameCamera);
+            SetupOnline();
+            phaseCountdown=gameObject.AddComponent<PhaseCountdownHud>();
+            phaseCountdown.Configure(Match,CanvasRoot,GameCamera,headingFont??font);
+            SetupNotices();
+            SetupProgression();
             RenderPage();
+            LoadingArtworkScreen.RevealReadyView(this);
         }
         void BuildCanvas()
         {
             GameObject go = new GameObject("Monster Pouch UI",typeof(RectTransform),typeof(Canvas),typeof(CanvasScaler),typeof(GraphicRaycaster));
             go.transform.SetParent(transform,false); var canvas = go.GetComponent<Canvas>(); canvas.renderMode = RenderMode.ScreenSpaceOverlay; canvas.sortingOrder=100;
             canvasScaler = go.GetComponent<CanvasScaler>(); canvasScaler.uiScaleMode=CanvasScaler.ScaleMode.ConstantPixelSize;
-            canvas.pixelPerfect=true;
+            canvas.pixelPerfect=false;
             fullCanvas=go.GetComponent<RectTransform>();
             CanvasRoot=Panel(fullCanvas,"Safe portrait",new Rect(0,0,540,960),Color.clear,false);
             CanvasRoot.anchorMin=CanvasRoot.anchorMax=CanvasRoot.pivot=new Vector2(.5f,.5f);
+            CanvasRoot.gameObject.AddComponent<MenuSwipeGesture>().Configure(this);
+            BuildEdgeToEdgeBackdrop();
             UpdateLayout();
             var boardInput=HitArea(CanvasRoot,"Board input",new Rect(0,0,540,960));
             boardInput.gameObject.AddComponent<BoardPointerGesture>().Configure(this);
+            // This stays behind menu controls and survives page replacement. Empty
+            // areas and transitions still route drags to the parent MenuSwipeGesture.
+            menuSwipeSurface=HitArea(CanvasRoot,"Menu swipe surface",new Rect(0,0,540,960));
             page=Panel(CanvasRoot,"Page",new Rect(0,0,540,960),Color.clear,false);
             effects=Panel(CanvasRoot,"Effects",new Rect(0,0,540,960),Color.clear,false);
             var events=FindFirstObjectByType<EventSystem>();
@@ -137,16 +205,27 @@ namespace MonsterPouch.Local
         }
         public void RenderPage()
         {
+            ClearEconomyTutorialReturn();
+            if(!EconomyTutorialActive)economyTutorialModule=null;
             rebuild=false;
+            ApplyRoundMap();
+            UpdateScreenAwakePolicy();
+            ClearMenuNavigation();
+            UpdateEdgeToEdgeVisibility();
             EndDragPreview();
+            ResetRoundTransitionReferences();
             foreach(Transform child in page){child.gameObject.SetActive(false);Destroy(child.gameObject);}
-            clockText=noticeText=null;
-            foreach(var bar in bars.Values) if(bar!=null) Destroy(bar.gameObject); bars.Clear();
+            clockText=currencyText=null;currencyCounter=currencyIcon=null;
+            foreach(var bar in bars.Values) if(bar!=null) Destroy(bar.gameObject); bars.Clear();barViews.Clear();
+            vitalsRoot=null;vitalsDepth.Clear();
             foreach(var pair in visuals.ToList()) if(pair.Key==null) visuals.Remove(pair.Key);
             if(Match.Phase==MatchPhase.RoundResult||Match.Phase==MatchPhase.MatchResult)
                 foreach(var v in visuals.Values)if(v!=null)v.Freeze();
-            if(Match.Phase==MatchPhase.Menu) RenderMenu(); else RenderGame();
+            if(Match.Phase==MatchPhase.Menu){CloseBankContents();RenderMenu();} else RenderGame();
+            RenderOpponentEchoes();
+            AnimatePageEntrance();
             RefreshHighlights();
+            RefreshPlacementExchangeVisibility();
         }
         void RenderMenu()
         {
@@ -156,7 +235,7 @@ namespace MonsterPouch.Local
             Panel(page,"Menu shade",new Rect(0,0,540,960),new Color(.025f,.055f,.085f,.88f));
             Label(page,"GRAND CAS HOTEL",new Rect(50,35,440,23),13,cyan);
             Label(page,"MONSTER POUCH",new Rect(25,65,490,63),39,gold,FontStyle.Bold);
-            Label(page,"ELIGE TU MONSTER",new Rect(50,140,440,25),15,cyan);
+            Label(page,"CHOOSE YOUR MONSTER",new Rect(50,140,440,25),15,cyan);
             var monsters=Match.Config.Units.Where(d=>d!=null&&d.IsMonster).ToArray();
             float monsterWidth=(480-12*Mathf.Max(0,monsters.Length-1))/Mathf.Max(1,monsters.Length);
             for(int i=0;i<monsters.Length;i++)
@@ -166,12 +245,12 @@ namespace MonsterPouch.Local
                 if(chosen==id)PixelBorder(card,gold,2);
                 Portrait(card,id,new Rect(7,12,monsterWidth-14,132));
                 Label(card,Match.Config.Get(id).DisplayName,new Rect(3,148,monsterWidth-6,28),17,Color.white,FontStyle.Bold);
-                var button=card.gameObject.AddComponent<Button>(); button.onClick.AddListener(()=>{chosen=id;PlayerPrefs.SetString("monster-pouch.monster",id);PlaySound("button");RenderPage();});
-                Label(card,chosen==id?"ELEGIDO":"ELEGIR",new Rect(3,176,monsterWidth-6,18),11,chosen==id?gold:cyan);
+                var button=card.gameObject.AddComponent<Button>(); button.onClick.AddListener(()=>{chosen=id;PlayerPrefs.SetString(LocalAccountPreferences.Key("monster-pouch.monster"),id);PlaySound("button");RenderPage();});
+                Label(card,chosen==id?"SELECTED":"SELECT",new Rect(3,176,monsterWidth-6,18),11,chosen==id?gold:cyan);
             }
-            Label(page,Match.Config.Get(chosen)?.BaseAbility?.Name??"",new Rect(35,390,470,26),15,gold);
-            Label(page,"TUS WHELPS  ·  "+chosenWhelps.Count+" ELEGIDOS",new Rect(35,430,470,28),18,cyan);
-            Label(page,"Toca para añadir o retirar del equipo",new Rect(35,463,470,23),13,Color.white);
+            Label(page,GameText.AbilityName(Match.Config.Get(chosen)?.BaseAbility),new Rect(35,390,470,26),15,gold);
+            Label(page,"YOUR WHELPS  ·  "+chosenWhelps.Count+" SELECTED",new Rect(35,430,470,28),18,cyan);
+            Label(page,"Tap to add or remove from your team",new Rect(35,463,470,23),13,Color.white);
             var collection=Match.Config.Units.Where(d=>d!=null&&!d.IsMonster&&art?.Get(d.Id)?.Portrait!=null).ToArray();
             for(int i=0;i<collection.Length;i++)
             {
@@ -182,37 +261,38 @@ namespace MonsterPouch.Local
                 if(chosenWhelps.Contains(id))PixelBorder(card,gold,2);
                 Portrait(card,id,new Rect(14,6,80,78));
                 Label(card,definition.DisplayName,new Rect(3,84,102,20),15,Color.white);
-                Label(card,chosenWhelps.Contains(id)?"EN EQUIPO":"AÑADIR",new Rect(3,106,102,15),10,chosenWhelps.Contains(id)?gold:cyan);
+                Label(card,chosenWhelps.Contains(id)?"IN TEAM":"ADD",new Rect(3,106,102,15),10,chosenWhelps.Contains(id)?gold:cyan);
                 card.gameObject.AddComponent<Button>().onClick.AddListener(()=>ToggleWhelp(id));
             }
-            Label(page,menuNotice??"Tus Whelps elegidos aparecerán en el Brief.",new Rect(35,777,470,30),13,menuNotice==null?Color.white:gold);
-            Button(page,"JUGAR CONTRA BOT",new Rect(60,820,420,56),()=>{SelectedId=null;CloseModal();SaveTeam();Match.StartMatch(chosen,chosenWhelps);},gold,ink);
-            Button(page,"Cómo jugar",new Rect(60,895,198,40),ShowHelp,new Color(.15f,.26f,.30f),Color.white,15);
-            Button(page,"Sonido",new Rect(282,895,198,40),ShowAudio,new Color(.15f,.26f,.30f),Color.white,15);
+            Label(page,"Your selected Whelps will appear in the Brief.",new Rect(35,777,470,30),13,Color.white);
+            var battle=Button(page,"BATTLE THE BOT",new Rect(60,820,420,56),()=>{if(!PrepareCurrentDeckForMatch()){RenderPage();return;}SelectedId=null;CloseModal();SaveTeam();Match.StartMatch(chosen,chosenWhelps,localMap:CardTableTheme.MapId(CardTableTheme.Current));},gold,ink);
+            battle.name="JUGAR CONTRA BOT";
+            Button(page,"How to play",new Rect(60,895,198,40),ShowHelp,new Color(.15f,.26f,.30f),Color.white,15);
+            Button(page,"Sound",new Rect(282,895,198,40),ShowAudio,new Color(.15f,.26f,.30f),Color.white,15);
         }
         public void ToggleWhelp(string id)
         {
             var next=new HashSet<string>(chosenWhelps,StringComparer.Ordinal);
             if(!next.Remove(id))next.Add(id);
-            if(!Match.Config.TryResolveWhelpSelection(next,out var ids,out var reason))menuNotice=reason;
-            else {chosenWhelps.Clear();foreach(string selected in ids)chosenWhelps.Add(selected);menuNotice=null;SaveTeam();PlaySound("button");}
+            if(!Match.Config.TryResolveWhelpSelection(next,out var ids,out var reason))Match.Reject(reason);
+            else {chosenWhelps.Clear();foreach(string selected in ids)chosenWhelps.Add(selected);SaveTeam();PlaySound("button");}
             RenderPage();
         }
-        void SaveTeam(){PlayerPrefs.SetString("monster-pouch.whelps",string.Join(",",chosenWhelps.OrderBy(id=>id,StringComparer.Ordinal)));}
+        void SaveTeam(){PlayerPrefs.SetString(LocalAccountPreferences.Key("monster-pouch.whelps"),string.Join(",",chosenWhelps.OrderBy(id=>id,StringComparer.Ordinal)));}
         void RenderGame()
         {
-            var top=Panel(page,"Round header",new Rect(18,26,284,68),ink);
-            Button(page,"Ⅱ",new Rect(320,28,48,48),()=>{Match.Pause(true);ShowPause();},ink,Color.white);
-            string phase=Match.Phase==MatchPhase.Preparation?"PREPARACIÓN":Match.Phase==MatchPhase.Combat?"COMBATE":"RESULTADO";
-            Label(top,phase,new Rect(12,6,260,28),21,Color.white,FontStyle.Bold);
-            var timer=Panel(page,"Clock",new Rect(405,26,117,68),ink);
-            clockText=Label(timer,"",new Rect(5,7,107,52),31,cyan,FontStyle.Bold);
-            Label(top,$"TÚ {Match.PlayerWins}  —  {Match.BotWins} RIVAL  / 3",new Rect(12,39,260,22),16,Color.white);
-            noticeText=Label(page,Match.Notice??"",new Rect(50,102,440,31),13,Color.white);
-            noticeText.gameObject.AddComponent<Outline>().effectColor=ink;
+            if(RenderFirstContactTutorial()||RenderGuidedTutorial())return;
+            RenderRoundHud();
             RenderBrief();
             foreach(var pair in Match.Actors) CreateBar(pair.Value,pair.Key);
-            if(Match.Phase==MatchPhase.RoundResult || Match.Phase==MatchPhase.MatchResult) RenderResult();
+            if(Match.Phase==MatchPhase.RoundResult || Match.Phase==MatchPhase.MatchResult) RenderRoundTransition();
+            // Keep this above the result's full-screen hit surface. Draw the icon
+            // directly so mobile font atlases cannot drop the pause glyph.
+            var pause=Button(page,"",new Rect(253,8,68,68),ShowPause,ink,Color.white);
+            pause.name="Battle pause";
+            PixelBorder(pause,gold,2);
+            Panel(pause,"Pause left bar",new Rect(23,21,8,26),Color.white,false);
+            Panel(pause,"Pause right bar",new Rect(37,21,8,26),Color.white,false);
         }
         void RenderBrief()
         {
@@ -223,18 +303,18 @@ namespace MonsterPouch.Local
                 rerollSequence++;rerollBusy=rerollClosing=false;
             }
             briefTarget=prep&&!rerollClosing?1:0;
-            var tray=Panel(page,"Brief tray",new Rect(0,704,540,256),Color.clear,false);
-            var body=Panel(tray,"Brief body",new Rect(12,62,350,157),Color.clear,false);
+            var tray=Panel(page,"Brief tray",new Rect(0,CardTableArena.BriefTop,540,960-CardTableArena.BriefTop),Color.clear,false);
+            var body=Panel(tray,"Brief body",new Rect(12,45,350,157),Color.clear,false);
             briefBodyImage=body.gameObject.AddComponent<Image>();briefBodyImage.sprite=briefBodySprite;briefBodyImage.raycastTarget=false;
-            briefDrop=HitArea(tray,"Brief drop",new Rect(12,0,350,219));
-            briefContents=Panel(tray,"Brief contents",new Rect(0,0,540,219),Color.clear,false);
+            briefDrop=HitArea(tray,"Brief drop",new Rect(12,0,350,202));
+            briefContents=Panel(tray,"Brief contents",new Rect(0,0,540,202),Color.clear,false);
             briefContentsGroup=briefContents.gameObject.AddComponent<CanvasGroup>();
             for(int slot=0;slot<3;slot++)
             {
                 var stored=Match.Player.Owned.Values.FirstOrDefault(o=>o.Location==UnitLocation.Brief && o.BriefSlot==slot);
                 var offer=Match.Player.Offers[slot];
                 string id=stored?.Definition.Id??offer?.UnitId;
-                var card=HitArea(briefContents,"brief-slot-"+slot,new Rect(46+slot*97,74,92,90));
+                var card=HitArea(briefContents,"brief-slot-"+slot,new Rect(46+slot*97,57,92,90));
                 if(id==null)continue;
                 card.name=stored!=null?"brief-"+id:"offer-"+slot;
                 if(stored!=null?SelectedId==id && selectedOfferSlot<0:selectedOfferSlot==slot && selectedOfferToken==offer.Token)
@@ -248,7 +328,7 @@ namespace MonsterPouch.Local
                 else
                 {
                     int price=Match.Player.GetOfferCost(slot);
-                    var priceTag=Panel(briefContents,"Offer price",new Rect(68+slot*97,167,48,18),ink,false);
+                    var priceTag=Panel(briefContents,"Offer price",new Rect(68+slot*97,150,48,18),ink,false);
                     Image(priceTag,MoonIcon,new Rect(4,3,12,12));
                     Label(priceTag,price<0?"—":price.ToString(),new Rect(18,0,26,18),14,gold,FontStyle.Bold);
                     if(Match.Player.Owned.TryGetValue(id,out var own) && own.TrickCount>0)
@@ -256,40 +336,26 @@ namespace MonsterPouch.Local
                     card.gameObject.AddComponent<BriefOfferGesture>().Configure(this,slot,offer.Token,id);
                 }
             }
-            briefLid=Panel(tray,"Brief lid",new Rect(12,0,350,62),Color.clear,false);
-            briefLid.pivot=new Vector2(.5f,0);briefLid.anchoredPosition=new Vector2(187,-62);
+            briefLid=Panel(tray,"Brief lid",new Rect(12,0,350,45),Color.clear,false);
+            briefLid.pivot=new Vector2(.5f,0);briefLid.anchoredPosition=new Vector2(187,-45);
             briefLidImage=briefLid.gameObject.AddComponent<Image>();briefLidImage.sprite=briefLidSprite;briefLidImage.raycastTarget=false;
-            var closed=Panel(tray,"Brief closed",new Rect(12,62,350,157),Color.clear,false);
-            closed.pivot=new Vector2(.5f,.5f);closed.anchoredPosition=new Vector2(187,-140.5f);
+            var closed=Panel(tray,"Brief closed",new Rect(12,45,350,157),Color.clear,false);
+            closed.pivot=new Vector2(.5f,.5f);closed.anchoredPosition=new Vector2(187,-123.5f);
             briefClosedImage=closed.gameObject.AddComponent<Image>();briefClosedImage.sprite=ClosedBriefArt;briefClosedImage.preserveAspect=true;briefClosedImage.raycastTarget=false;
-            // A separate one-slot case is the bank. It never shares a sell target with the Brief.
-            Image(tray,BenchArt,new Rect(374,82,150,112));
-            benchDrop=HitArea(tray,"Bench drop",new Rect(374,82,150,112));
-            var benched=Match.Player.Owned.Values.FirstOrDefault(o=>o.Location==UnitLocation.Bench);
-            if(benched!=null)
-            {
-                Portrait(benchDrop,benched.Definition.Id,new Rect(48,39,54,46));
-                Label(benchDrop,Stars(benched.TrickCount),new Rect(37,30,76,12),10,gold);
-                AddUnitGesture(benchDrop,benched,false);
-            }
-            else benchDrop.gameObject.AddComponent<Button>().onClick.AddListener(()=>{
-                if(selectedOfferSlot>=0)DropOffer(selectedOfferSlot,selectedOfferToken,RectTransformUtility.WorldToScreenPoint(null,benchDrop.TransformPoint(benchDrop.rect.center)));
-                else if(SelectedId!=null)Match.Store(SelectedId,true);
-            });
-            if(!prep)
-            {
-                bool fighting=Match.Phase==MatchPhase.Combat;
-                Label(tray,fighting?"COMBATE":"RESULTADO",new Rect(375,207,150,23),14,gold,FontStyle.Bold);
-                ApplyBriefPose();return;
-            }
+            RenderBank(tray);
+            // Income travels here during combat too, so its destination and balance stay visible.
+            var resources=Panel(tray,"Battle resources",new Rect(375,54+BankColumnOffset,72,72),Color.clear,false);
+            currencyCounter=resources;
+            Image(resources,MoonIcon,new Rect(6,2,60,60));
+            currencyIcon=resources.Find("Art") as RectTransform;
+            if(currencyIcon!=null)currencyIcon.name="Moonkens icon";
+            currencyText=Label(resources,Match.Player.Coins.ToString(),new Rect(0,22,72,46),30,Color.white,FontStyle.Bold);
+            var coinOutline=currencyText.gameObject.AddComponent<Outline>();coinOutline.effectColor=new Color(.025f,.025f,.09f,1);coinOutline.effectDistance=new Vector2(2,-2);
+            ApplySharedBriefLayout(tray);
+            if(!prep){ApplyBriefPose();return;}
             int offerVersion=Match.Player.OfferVersion;
-            var resources=Panel(tray,"Battle resources",new Rect(375,-39,150,107),ink);
-            Image(resources,MoonIcon,new Rect(18,7,39,39));
-            Label(resources,Match.Player.Coins.ToString(),new Rect(69,5,64,42),29,gold,FontStyle.Bold);
-            var reroll=Button(tray,"      "+Match.Player.Rerolls,new Rect(380,15,140,48),()=>RequestReroll(offerVersion),new Color(.05f,.10f,.12f),Color.white,26);
-            reroll.name="Reroll";
-            if(RerollIcon!=null) Image(reroll,RerollIcon,new Rect(14,4,39,39));
-            Button(tray,"LISTO",new Rect(375,204,150,50),()=>{CloseModal();Match.Ready();},gold,ink,22);
+            RenderRerollButton(tray,new Rect(453,54+BankColumnOffset,72,72),offerVersion);
+            RenderReadyButton(tray);
             ApplyBriefPose();
         }
         void UpdateBriefMotion()
@@ -302,7 +368,7 @@ namespace MonsterPouch.Local
             if(briefLid==null||briefContentsGroup==null)return;
             // A hinged lid made from the original pixel artwork; the figures sink inside.
             float open=Mathf.SmoothStep(0,1,briefOpen);
-            briefLid.sizeDelta=new Vector2(350,Mathf.Lerp(157,62,open));
+            briefLid.sizeDelta=new Vector2(350,Mathf.Lerp(157,45,open));
             briefLid.localRotation=Quaternion.Euler((1-open)*180,0,0);
             // Blend to a separately drawn closed case as the hinge finishes closing.
             // The open artwork is never used as the exterior of the shut suitcase.
@@ -310,13 +376,15 @@ namespace MonsterPouch.Local
             briefClosedImage.color=new Color(1,1,1,closed);
             briefBodyImage.color=briefLidImage.color=new Color(1,1,1,1-closed);
             float reveal=Mathf.SmoothStep(0,1,Mathf.InverseLerp(.45f,1,open));
-            briefContentsGroup.alpha=reveal;
-            briefContentsGroup.blocksRaycasts=BriefReady;
-            briefContents.anchoredPosition=new Vector2(0,-Mathf.Round((1-reveal)*14));
+            briefContentsGroup.alpha=bankVisible?0:reveal;
+            briefContentsGroup.blocksRaycasts=BriefReady&&!bankVisible;
+            briefContents.anchoredPosition=new Vector2(0,-(1-reveal)*14);
         }
         public void RequestReroll(int version)
         {
             if(!BriefReady)return;
+            StartRerollFeedback();
+            CloseBankContents();
             if(Match.Player.Rerolls<=0){Match.Reroll(version);return;}
             selectedOfferSlot=-1;SelectedId=null;CancelBoardPointer();
             StartCoroutine(CycleBrief(version,++rerollSequence));
@@ -344,10 +412,12 @@ namespace MonsterPouch.Local
             if(!BriefReady||!CurrentOffer(slot,token,out var offer))return;
             if(Match.Player.Owned.TryGetValue(offer.UnitId,out var owned))
             {
-                if(Match.Buy(slot,token))StartCoroutine(UpgradeStar(new Vector2(92+slot*97,793),owned));
-                selectedOfferSlot=-1;SelectedId=offer.UnitId;return;
+                var offerCard=page.GetComponentsInChildren<RectTransform>().FirstOrDefault(item=>item.name=="offer-"+slot);
+                Vector2 from=UpgradePortraitCenter(offerCard,Vector2.zero);
+                if(Match.Buy(slot,token))StartCoroutine(UpgradeStar(from,owned));
+                selectedOfferSlot=-1;SelectedId=offer.UnitId;selectedOwned=owned;return;
             }
-            selectedOfferSlot=slot;selectedOfferToken=token;SelectedId=offer.UnitId;
+            selectedOfferSlot=slot;selectedOfferToken=token;SelectedId=offer.UnitId;selectedOwned=null;
             rebuild=true;
         }
         public void InspectOffer(int slot,long token)
@@ -373,74 +443,97 @@ namespace MonsterPouch.Local
             if(Match.BuyAndPlace(slot,token,cell,bank))
             {
                 SelectedId=offer.UnitId;selectedOfferSlot=-1;
-                if(existing!=null)StartCoroutine(UpgradeStar(ToCanvas(screen),existing));
+                selectedOwned=Match.Player.FindOwned(offer.UnitId,bank);
+                if(!bank&&existing!=null)StartCoroutine(UpgradeStar(ToCanvas(screen),existing));
             }
-        }
-        void RenderResult()
-        {
-            var box=Panel(page,"Result",new Rect(38,264,464,332),ink);
-            bool final=Match.Phase==MatchPhase.MatchResult;
-            Label(box,final?(Match.PlayerWins>=3?"¡VICTORIA!":"FIN DE PARTIDA"):"RONDA COMPLETADA",new Rect(22,28,420,50),final?36:26,gold,FontStyle.Bold);
-            Label(box,Match.Result,new Rect(22,99,420,76),21,Color.white);
-            Label(box,$"{Match.PlayerWins}  —  {Match.BotWins}",new Rect(22,179,420,47),35,cyan,FontStyle.Bold);
-            Button(box,final?"REVANCHA":"SIGUIENTE RONDA",new Rect(26,254,268,48),()=>{SelectedId=null;CloseModal();if(final)Match.Rematch();else Match.NextRound();},gold,ink,17);
-            Button(box,"MENÚ",new Rect(308,254,130,48),()=>{SelectedId=null;CloseModal();Match.Menu();},new Color(.2f,.29f,.33f),Color.white,16);
         }
         void CreateVisual(BattleUnit actor, OwnedUnit owned)
         {
             var v=actor.gameObject.AddComponent<UnitPresentation>();
             v.Configure(actor,Match.Mapper,art?.Get(owned.Definition.Id)); visuals[actor]=v;
+            if(actor.BaseStats.UsesEronyaRules)
+                v.BindActionPreparation(()=>Match.Simulation?.CaptureActionPreparation(actor)??default,owned.Definition.BaseAbility?.EffectId);
+                v.BindDagataTiming(()=>Match.Simulation?.Elapsed??float.NaN,()=>Match.Simulation?.CaptureDagataJump(actor)??default);
             if(Match.Phase==MatchPhase.Combat)CreateBar(actor,owned);
         }
         void CreateBar(BattleUnit actor,OwnedUnit owned)
         {
-            var bar=Panel(page,"health-"+actor.UnitId,new Rect(0,0,58,24),Color.clear,false);
-            Panel(bar,"outline",new Rect(1,1,56,8),new Color(.03f,.07f,.09f),false);
-            Panel(bar,"health",new Rect(3,3,52,4),actor.Side==BoardSide.Blue?cyan:new Color(1,.44f,.40f),false);
-            Label(bar,owned.Definition.IsMonster?(owned.HasMonsterUpgrade?"◆":""):Stars(owned.TrickCount),new Rect(0,10,58,15),11,gold);
+            if(bars.TryGetValue(actor,out var existing)&&existing!=null)return;
+            if(vitalsRoot==null)
+            {
+                vitalsRoot=Panel(page,"Unit vitals",new Rect(0,0,540,960),Color.clear,false);
+                vitalsRoot.SetAsFirstSibling();
+            }
+            var bar=Panel(vitalsRoot,"health-"+actor.UnitId,new Rect(0,0,52,28),Color.clear,false);
+            var display=bar.gameObject.AddComponent<UnitVitalsUI>();display.Refresh(actor,owned,0,Match.LocalSide);
+            var statuses=bar.gameObject.AddComponent<UnitStatusBadges>();
+            barViews[actor]=(owned,display,statuses);
             bars[actor]=bar;
         }
         void Update()
         {
             if(lastScreen.x!=Screen.width||lastScreen.y!=Screen.height||lastSafeArea!=Screen.safeArea)UpdateLayout();
             if(rebuild)RenderPage();
-            if(clockText!=null)clockText.text=Match.Phase==MatchPhase.Preparation||Match.Phase==MatchPhase.Combat?Mathf.CeilToInt(Match.Remaining)+"s":"";
-            if(noticeText!=null)noticeText.text=Match.Notice??"";
-            if(inspectStats!=null && inspected!=null)inspectStats.text=StatsText(inspected);
+            UpdateOpponentEchoes();
+            UpdateRoundHud();
+            if(phaseCountdown!=null)phaseCountdown.Suppressed=modal!=null||MapTransitionActive||Match.IsTraining;
+            UpdateRoundTransition();
+            if(inspectStats!=null && inspected!=null)inspectStats.text=GameText.Resolve(StatsText(inspected));
             UpdateBriefMotion();
+            UpdateRerollFeedback();
+            UpdateCurrencyPop();
+            UpdateBankMotion();
+            UpdateReadyMotion();
+            if(!LoadingArtworkScreen.IsBlocking)UpdateOnlineKeyboard();
             UpdateBoardGesture();
-            if(Keyboard.current!=null && Keyboard.current.escapeKey.wasPressedThisFrame)
-            { if(modal!=null){if(Match.Paused)Match.Pause(false);CloseModal();}else if(Match.Phase!=MatchPhase.Menu){Match.Pause(true);ShowPause();} }
+            UpdateGuidedTutorial();
+            if(!LoadingArtworkScreen.IsBlocking && !MapTransitionActive && !StarterSelectionOpen && Keyboard.current!=null && Keyboard.current.escapeKey.wasPressedThisFrame)
+            { if(modal!=null){if(Match.Paused)Match.Pause(false);CloseModal();}else if(Match.Phase!=MatchPhase.Menu)ShowPause(); }
         }
         void UpdateLayout()
         {
             lastScreen=new Vector2Int(Screen.width,Screen.height);lastSafeArea=Screen.safeArea;
             Rect safe=lastSafeArea.width>0?lastSafeArea:new Rect(0,0,Screen.width,Screen.height);
-            float scale=Mathf.Min(safe.width/540f,safe.height/960f);
-            canvasScaler.scaleFactor=Mathf.Max(.1f,scale);
-            CanvasRoot.anchoredPosition=(safe.center-new Vector2(Screen.width*.5f,Screen.height*.5f))/canvasScaler.scaleFactor;
-            CanvasRoot.sizeDelta=new Vector2(540,960);
-            float w=540*scale,h=960*scale;
-            GameCamera.rect=new Rect((safe.center.x-w*.5f)/Screen.width,(safe.center.y-h*.5f)/Screen.height,w/Screen.width,h/Screen.height);
+            ApplyViewportLayout(safe);
         }
         void LateUpdate()
         {
+            UpdateAttackRangePreview();
+            UpdateBoardSelectionFeedback();
+            UpdateModalScreenShield();
+            RaiseMenuNavigation();
+            vitalsDepth.Clear();
             foreach(var pair in bars)
             {
                 var actor=pair.Key;var bar=pair.Value;if(actor==null||bar==null)continue;
-                bool alive=actor.IsAlive;bar.gameObject.SetActive(alive);if(!alive)continue;
-                Vector2 p=ToCanvas(GameCamera.WorldToScreenPoint(actor.transform.position+Vector3.up*1.38f));
-                SetRect(bar,new Rect(p.x-29,p.y-12,58,24));
-                var hp=bar.Find("health") as RectTransform;
-                if(hp!=null) hp.sizeDelta=new Vector2(52*Mathf.Clamp01((float)actor.CurrentHealth/Mathf.Max(1,actor.BaseStats.MaxHealth)),4);
+                bool alive=actor.IsAlive && !actor.IsReviving && (Match.Phase==MatchPhase.Preparation || Match.Phase==MatchPhase.Combat);
+                bar.gameObject.SetActive(alive);if(!alive)continue;
+                Vector3 head=visuals.TryGetValue(actor,out var view)&&view!=null
+                    ? view.VitalsHeadWorldPosition : actor.transform.position;
+                Vector2 p=ToCanvas(GameCamera.WorldToScreenPoint(head));
+                float bottom=0;
+                if(barViews.TryGetValue(actor,out var cached))
+                {
+                    cached.vitals.Refresh(actor,cached.owned,Match.Paused?0:Time.deltaTime,Match.LocalSide);
+                    cached.statuses.Refresh(Match.Phase==MatchPhase.Combat?Match.Simulation:null,actor);
+                    bottom=cached.vitals.BottomEdge;
+                }
+                SetRect(bar,new Rect(p.x-26,p.y-3-(28-bottom),52,28));
+                vitalsDepth.Add((bar,GameCamera.WorldToScreenPoint(actor.transform.position).y,actor.GetInstanceID()));
             }
+            // Only reorder complete HUD blocks inside their own layer; never raise them above modals.
+            vitalsDepth.Sort((a,b)=>{int order=b.screenY.CompareTo(a.screenY);return order!=0?order:a.identity.CompareTo(b.identity);});
+            for(int i=0;i<vitalsDepth.Count;i++)
+                if(vitalsDepth[i].rect.GetSiblingIndex()!=i)vitalsDepth[i].rect.SetSiblingIndex(i);
         }
         public void Select(OwnedUnit owned,bool enemy=false)
         {
+            if(TrySelectCombatUnit(owned))return;
             if(Match.Actors.TryGetValue(owned,out var selectedActor)&&selectedActor.IsCombatSummon){ShowInspection(owned,enemy);return;}
             if(enemy){ShowInspection(owned,true);return;}
             selectedOfferSlot=-1;
-            SelectedId=owned.Definition.Id;PlaySound("button");rebuild=true;
+            CloseBankContents();
+            SelectedId=owned.Definition.Id;selectedOwned=owned;PlaySound("button");rebuild=true;
         }
         void AddUnitGesture(RectTransform card,OwnedUnit owned,bool enemy)
         {
@@ -450,18 +543,25 @@ namespace MonsterPouch.Local
         {
             EndDragPreview();
             if(Match.Phase!=MatchPhase.Preparation||Match.Paused||owned==null)return;
-            if(!Match.Player.Owned.TryGetValue(owned.Definition.Id,out var current)||!ReferenceEquals(current,owned))return;
-            SelectedId=owned.Definition.Id;
-            if(Contains(benchDrop,screen)){Match.Store(SelectedId,true);return;}
+            if(!Match.Player.Owns(owned))return;
+            SelectedId=owned.Definition.Id;selectedOwned=owned;
+            if(Contains(benchDrop,screen)){Match.Store(owned,true);return;}
             if(Contains(briefDrop,screen))
             {
                 if(!BriefReady){Match.Reject("Espera a que se abra el Brief.");return;}
-                if(owned.Location==UnitLocation.Field){if(Match.Sell(SelectedId))SelectedId=null;}
-                else Match.Store(SelectedId,false);
+                Vector2 soldFrom=ToCanvas(RectTransformUtility.WorldToScreenPoint(null,
+                    briefBodyImage.rectTransform.TransformPoint(briefBodyImage.rectTransform.rect.center)));
+                int coinsBefore=Match.Player.Coins;
+                // The large Brief is the sell destination for both field and bank troops.
+                if(Match.Sell(owned))
+                {
+                    SelectedId=null;CloseBankContents();
+                    int refund=Match.Player.Coins-coinsBefore;
+                    if(refund>0)StartCoroutine(SellMoonkens(soldFrom,refund));
+                }
                 return;
             }
-            if(Match.Mapper.TryGetCell(GameCamera.ScreenToWorldPoint(new Vector3(screen.x,screen.y,-GameCamera.transform.position.z)),out var cell)) Match.Place(SelectedId,cell);
-            else Match.Reject("Elige una casilla iluminada, el bench o el Brief.");
+            if(Match.Mapper.TryGetCell(GameCamera.ScreenToWorldPoint(new Vector3(screen.x,screen.y,-GameCamera.transform.position.z)),out var cell)){if(Match.Place(owned,cell))CloseBankContents();}
             rebuild=true;
         }
         static bool Contains(RectTransform target,Vector2 screen)=>target!=null&&RectTransformUtility.RectangleContainsScreenPoint(target,screen,null);
@@ -473,16 +573,20 @@ namespace MonsterPouch.Local
                 dragGhost=Panel(effects,"Dragged Whelp",new Rect(0,0,74,88),Color.clear,false);
                 Portrait(dragGhost,owned.Definition.Id,new Rect(5,0,64,76),new Color(1,1,1,.8f));
             }
+            PreviewBankDrop(owned,screen);
+            PreviewAttackRange(owned,screen);
             var p=ToCanvas(screen);SetRect(dragGhost,new Rect(p.x-37,p.y-70,74,88));
-            if(noticeText!=null && owned.Location==UnitLocation.Field && Contains(briefDrop,screen))
-                noticeText.text="VENDER · +"+owned.Paid+" MT";
+            UpdateBoardSelectionFeedback();
         }
-        public void EndDragPreview(){if(dragGhost!=null){dragGhost.gameObject.SetActive(false);Destroy(dragGhost.gameObject);}dragGhost=null;}
+        public void EndDragPreview(){rangeDragUnit=null;rangeDragCell=null;EndBankDrag();if(dragGhost!=null){dragGhost.gameObject.SetActive(false);Destroy(dragGhost.gameObject);}dragGhost=null;UpdateBoardSelectionFeedback();}
         public bool BeginBoardPointer(Vector2 pos)
         {
-            if(Match.Phase==MatchPhase.Menu||Match.Paused||modal!=null)return false;
+            if(!UnitHoldAllowed||boardGesture.Active)return false;
+            // A new press owns its source; no preview from an earlier gesture survives it.
+            EndDragPreview();
             pressedUnit=HitUnit(pos,out pressedEnemy);
             boardGesture.Begin(pos,Time.unscaledTime);lastPointer=pos;
+            if(pressedUnit!=null)UpdateUnitHoldProgress(boardGesture,pos);
             return true;
         }
         public void MoveBoardPointer(Vector2 pos)
@@ -492,10 +596,11 @@ namespace MonsterPouch.Local
         }
         void UpdateBoardGesture()
         {
-            if(Match.Phase==MatchPhase.Menu||Match.Paused||modal!=null){boardGesture.Cancel();EndDragPreview();return;}
-            if(!boardGesture.Active)return;
+            if(!UnitHoldAllowed){CancelBoardPointer();return;}
+            if(!boardGesture.Active){HideUnitHoldProgress(boardGesture);return;}
             var gesture=boardGesture.Move(lastPointer,Time.unscaledTime);
-            if(gesture==GestureResult.Hold && pressedUnit!=null)ShowInspection(pressedUnit,pressedEnemy);
+            if(pressedUnit!=null)UpdateUnitHoldProgress(boardGesture,lastPointer);
+            if(gesture==GestureResult.Hold && pressedUnit!=null)ShowInspectionFromGuidedTutorialHold(pressedUnit,pressedEnemy);
             else if(boardGesture.Dragging && pressedUnit!=null && !pressedEnemy)DragPreview(pressedUnit,lastPointer);
         }
         public void EndBoardPointer(Vector2 pos)
@@ -509,21 +614,39 @@ namespace MonsterPouch.Local
                 {
                     if(pressedUnit!=null)Select(pressedUnit,pressedEnemy);
                     else if(selectedOfferSlot>=0)DropOffer(selectedOfferSlot,selectedOfferToken,pos);
-                    else if(SelectedId!=null && Match.Player.Owned.TryGetValue(SelectedId,out var owned))Drop(owned,pos);
+                    else if(SelectedOwned is OwnedUnit owned)DropWithGuidedTutorialGesture(owned,pos,result);
                 }
-                else if(result==GestureResult.Drag && pressedUnit!=null&&!pressedEnemy)Drop(pressedUnit,pos);
+                else if(result==GestureResult.Drag && pressedUnit!=null&&!pressedEnemy)DropWithGuidedTutorialGesture(pressedUnit,pos,result);
             }
-            EndDragPreview();
+            CancelBoardPointer();
         }
-        public void CancelBoardPointer(){boardGesture.Cancel();EndDragPreview();}
+        internal bool BoardPointerActive => boardGesture.Active;
+        public void CancelBoardPointer()
+        {boardGesture.Cancel();pressedUnit=null;pressedEnemy=false;HideUnitHoldProgress(boardGesture);EndDragPreview();}
         OwnedUnit HitUnit(Vector2 screen,out bool enemy)
         {
+            if(Match.Phase==MatchPhase.Preparation)
+            {
+                // Placement targets belong to cells, even when another figure overlaps
+                // them or an exchange temporarily hides their destination renderer.
+                var world=GameCamera.ScreenToWorldPoint(new Vector3(screen.x,screen.y,-GameCamera.transform.position.z));
+                if(Match.Mapper.TryGetCell(world,out var cell)&&cell.OccupiedBy!=null)
+                    foreach(var pair in Match.Actors)
+                        if(ReferenceEquals(pair.Value,cell.OccupiedBy)&&pair.Value.IsAlive&&pair.Value.Side==Match.LocalSide)
+                        {enemy=false;return pair.Key;}
+                // Keep off-cell figure/echo inspection; never expose a hidden rival formation.
+                var visibleOwn = HitVisibleOwnSprite(screen);
+                if(visibleOwn != null) { enemy=false; return visibleOwn; }
+                var point=ToCanvas(screen);
+                foreach(var echo in echoHitRects.Reverse())if(echo.Value.Contains(point))
+                {enemy=true;return Match.InspectOpponent(echo.Key);}
+            }
             enemy=false;OwnedUnit best=null;float min=45*Screen.height/960f;
             foreach(var pair in Match.Actors)
             {
                 if(pair.Value==null||!pair.Value.IsAlive)continue;
                 Vector2 point=GameCamera.WorldToScreenPoint(pair.Value.transform.position+Vector3.up*.45f);
-                float distance=Vector2.Distance(screen,point);if(distance<min){min=distance;best=pair.Key;enemy=pair.Value.Side!=BoardSide.Blue;}
+                float distance=Vector2.Distance(screen,point);if(distance<min){min=distance;best=pair.Key;enemy=pair.Value.Side!=Match.LocalSide;}
             }
             return best;
         }
@@ -539,16 +662,15 @@ namespace MonsterPouch.Local
         }
         void RefreshHighlights()
         {
-            foreach(var h in highlights)if(h!=null)Destroy(h);highlights.Clear();
-            if(Match.Phase!=MatchPhase.Preparation||SelectedId==null)return;
-            Match.Player.Owned.TryGetValue(SelectedId,out var owned);
-            if(owned==null && !CurrentOffer(selectedOfferSlot,selectedOfferToken,out _))return;
-            if(owned!=null && owned.IsPositionLocked(Match.Round))return;
+            rangePreviewDirty=true;
+            foreach(var h in highlights)if(h!=null){h.SetActive(false);Destroy(h);}highlights.Clear();
+            var owned=BoardSelectionFeedbackUnit();
+            if(owned==null || owned.IsPositionLocked(Match.Round))return;
             foreach(var cell in Match.Board.GetAllCells())
             {
-                if(!Match.Config.IsDeploymentLegal(BoardSide.Blue,new Vector2Int(cell.X,cell.Y))||cell.OccupiedBy!=null)continue;
+                if(!Match.Config.IsDeploymentLegal(Match.LocalSide,new Vector2Int(cell.X,cell.Y))||cell.OccupiedBy!=null)continue;
                 var go=new GameObject("Legal cell");go.transform.SetParent(transform);go.transform.position=Match.Mapper.GetWorldPosition(cell)+Vector3.back*.05f;
-                var line=go.AddComponent<LineRenderer>();line.sharedMaterial=Resources.Load<Material>("MonsterPouch/UnitSpriteMaterial");line.startColor=line.endColor=new Color(.55f,1,.76f,.65f);line.startWidth=line.endWidth=.035f;line.positionCount=5;line.useWorldSpace=false;line.sortingOrder=30;
+                var line=go.AddComponent<LineRenderer>();line.sharedMaterial=Resources.Load<Material>("MonsterPouch/UnitSpriteMaterial");line.startColor=line.endColor=new Color(.55f,1,.76f,1);line.startWidth=line.endWidth=.06f;line.positionCount=5;line.useWorldSpace=false;line.sortingOrder=30;
                 float x=Mathf.Abs(Match.Mapper.CellSize.x)*.45f,y=Mathf.Abs(Match.Mapper.CellSize.y)*.45f;
                 line.SetPositions(new[]{new Vector3(-x,-y),new Vector3(-x,y),new Vector3(x,y),new Vector3(x,-y),new Vector3(-x,-y)});highlights.Add(go);
             }
@@ -559,71 +681,97 @@ namespace MonsterPouch.Local
             CloseModal();inspected=owned;inspectedEnemy=enemy;
             bool summoned=Match.Actors.TryGetValue(owned,out var inspectedActor)&&inspectedActor.IsCombatSummon;
             modal=Panel(CanvasRoot,"Inspection shade",new Rect(0,0,540,960),new Color(0,0,0,.55f));
-            var box=Panel(modal,"Unit sheet",new Rect(28,158,484,648),ink);
-            Portrait(box,owned.Definition.Id,new Rect(15,15,90,94));
-            Label(box,owned.Definition.DisplayName+(enemy?" · RIVAL":""),new Rect(113,26,344,40),27,gold,FontStyle.Bold,TextAnchor.MiddleLeft);
-            inspectStats=Label(box,StatsText(owned),new Rect(24,113,436,58),17,Color.white,FontStyle.Normal,TextAnchor.MiddleLeft);
-            Label(box,"HABILIDAD · "+owned.Definition.BaseAbility.Name,new Rect(24,182,436,30),16,cyan,FontStyle.Bold,TextAnchor.MiddleLeft);
-            Label(box,owned.Definition.BaseAbility.Description,new Rect(24,211,436,61),16,Color.white,FontStyle.Normal,TextAnchor.UpperLeft);
+            var box=Panel(modal,"Unit sheet",new Rect(28,158,484,680),ink);
+            var summonSprite = summoned && owned.Definition.Id == "dummy"
+                ? inspectedActor.GetComponent<UnitPresentation>()?.Renderer?.sprite : null;
+            if (summonSprite != null) Image(box,summonSprite,new Rect(15,15,90,94));
+            else Portrait(box,owned.Definition.Id,new Rect(15,15,90,94));
+            Label(box,owned.Definition.DisplayName+(enemy?" · OPPONENT":""),new Rect(113,26,344,40),27,gold,FontStyle.Bold,TextAnchor.MiddleLeft);
+            inspectStats=Label(box,StatsText(owned),new Rect(24,113,436,88),17,Color.white,FontStyle.Normal,TextAnchor.MiddleLeft);
+            Label(box,"ABILITY · "+GameText.AbilityName(owned.Definition.BaseAbility),new Rect(24,214,436,30),16,cyan,FontStyle.Bold,TextAnchor.MiddleLeft);
+            Label(box,GameText.AbilityDescription(owned.Definition.BaseAbility,owned.Definition),new Rect(24,243,436,61),16,Color.white,FontStyle.Normal,TextAnchor.UpperLeft);
             int row=0;
-            if(owned.Definition.IsMonster)
+            if(owned.Definition.IsMonster&&!AbilityBalance.IsRetiredArmorEffect(owned.Definition.MonsterUpgrade?.EffectId??owned.Definition.MonsterUpgrade?.Id))
             {
                 var trick=owned.Definition.MonsterUpgrade;
-                if(!enemy||owned.HasMonsterUpgrade)Label(box,(owned.HasMonsterUpgrade?"◆ ":"")+trick.Name,new Rect(24,292,436,30),20,gold,FontStyle.Bold,TextAnchor.MiddleLeft);
-                if(!enemy||owned.HasMonsterUpgrade)Label(box,trick.Description,new Rect(24,333,436,103),17,Color.white,FontStyle.Normal,TextAnchor.UpperLeft);
-                if(!enemy)Label(box,owned.HasMonsterUpgrade?"Mejora adquirida":"Coste: "+trick.Cost+" Moon Tokens",new Rect(24,456,436,35),17,cyan);
+                if(!enemy||owned.HasMonsterUpgrade)Label(box,(owned.HasMonsterUpgrade?"◆ ":"")+GameText.AbilityName(trick),new Rect(24,324,436,30),20,gold,FontStyle.Bold,TextAnchor.MiddleLeft);
+                if(!enemy||owned.HasMonsterUpgrade)Label(box,GameText.AbilityDescription(trick,owned.Definition),new Rect(24,365,436,103),17,Color.white,FontStyle.Normal,TextAnchor.UpperLeft);
+                if(!enemy)Label(box,owned.HasMonsterUpgrade?(GameText.Spanish?"Trick adquirido":"Trick purchased"):"Cost: "+trick.Cost+" Moonkens",new Rect(24,488,436,35),17,cyan);
                 if(!enemy && !owned.HasMonsterUpgrade && Match.Phase==MatchPhase.Preparation)
-                    Button(box,"MEJORAR · "+trick.Cost+" MT",new Rect(94,510,296,45),()=>{Match.UpgradeMonster();ShowInspection(owned,false);},gold,ink,17);
+                    Button(box,"TRICK · "+trick.Cost+" MOONKENS",new Rect(94,542,296,45),()=>{Match.UpgradeMonster();ShowInspection(owned,false);},gold,ink,16);
             }
             else if(summoned)
-                Label(box,"INVOCADO POR KAYON\n\nEste Dummy lucha durante esta ronda y desaparece al terminar.",new Rect(24,292,436,128),17,cyan,FontStyle.Normal,TextAnchor.UpperLeft);
-            else for(int i=0;i<3;i++)
+                Label(box,"SUMMONED BY KAYON\n\nThis Dummy fights for this round, then disappears.",new Rect(24,324,436,128),17,cyan,FontStyle.Normal,TextAnchor.UpperLeft);
+            else if(!owned.Definition.IsMonster)for(int i=0;i<3;i++)
             {
                 if(enemy&&!owned.Tricks[i])continue;
-                int index=i;var trick=owned.Definition.Tricks[i];float y=284+row*90;
-                Label(box,(owned.Tricks[i]?"★ ":"☆ ")+trick.Name,new Rect(24,y,318,25),17,owned.Tricks[i]?gold:Color.white,FontStyle.Bold,TextAnchor.MiddleLeft);
-                Label(box,trick.Description,new Rect(24,y+28,418,55),14,new Color(.78f,.85f,.85f),FontStyle.Normal,TextAnchor.UpperLeft);
+                int index=i;var trick=owned.Definition.Tricks[i];if(trick==null||AbilityBalance.IsRetiredArmorEffect(trick.EffectId??trick.Id))continue;float y=316+row*90;
+                Label(box,(owned.Tricks[i]?"★ ":"☆ ")+GameText.AbilityName(trick),new Rect(24,y,318,25),17,owned.Tricks[i]?gold:Color.white,FontStyle.Bold,TextAnchor.MiddleLeft);
+                Label(box,GameText.AbilityDescription(trick,owned.Definition),new Rect(24,y+28,418,55),14,new Color(.86f,.92f,.94f),FontStyle.Normal,TextAnchor.UpperLeft);
                 if(!enemy&&owned.Copies>0&&!owned.Tricks[i]&&Match.Phase==MatchPhase.Preparation&&Match.Player.Offers.Any(o=>o!=null&&o.UnitId==owned.Definition.Id))
-                    Button(box,owned.NextTrick==i?"ELEGIDO":trick.Cost+" MT",new Rect(352,y,107,27),()=>{Match.ChooseTrick(owned.Definition.Id,index);ShowInspection(owned,false);},new Color(.22f,.36f,.38f),gold,12);
+                {
+                    var choice=Button(box,"",new Rect(352,y,107,32),()=>{Match.ChooseTrick(owned.Definition.Id,index);ShowInspection(owned,false);},new Color(.22f,.36f,.38f),gold,12);
+                    SetMoonkenButtonCost(choice,owned.NextTrick==i?"SELECTED":"",owned.NextTrick==i?null:(int?)trick.Cost);
+                }
                 row++;
             }
-            Button(box,"CERRAR",new Rect(24,582,436,43),CloseModal,new Color(.19f,.31f,.35f),Color.white,17);
+            var close=Button(box,GameText.Close,new Rect(24,614,436,43),CloseModal,new Color(.19f,.31f,.35f),Color.white,17);
+            close.name="CERRAR";
         }
         string StatsText(OwnedUnit owned)
         {
             Match.Actors.TryGetValue(owned,out var actor);
-            var stats=actor!=null && Match.Phase!=MatchPhase.Preparation?actor.BaseStats:UnitStats.FromDefinition(owned.Definition,owned,true);
-            int health=actor!=null && Match.Phase!=MatchPhase.Preparation?actor.CurrentHealth:stats.MaxHealth;
-            return $"VIDA  {health} / {stats.MaxHealth}     DAÑO  {stats.Attack}\nATAQUES  {1f/stats.AttackInterval:0.0}/s     ALCANCE  {stats.AttackRange}";
+            bool spanish=GameText.Spanish;
+            if(actor!=null&&Match.Phase!=MatchPhase.Preparation&&Match.Phase!=MatchPhase.Menu)
+            {
+                if(Match.Simulation!=null)return inspectionTextCache.Format(owned,Match.Simulation.CaptureBattleStats(actor),spanish);
+                var current=actor.BaseStats;
+                return inspectionTextCache.Rows(owned,actor,actor.CombatResetVersion,actor.PreciseHealth,actor.RoundBaseHealth,current.Attack,actor.RoundBaseDamage,
+                    current.AttackInterval>0?1m/(decimal)current.AttackInterval:0,actor.RoundBaseAttacksPerSecond,actor.Energy,current.EnergyMax,spanish);
+            }
+            var stats=UnitStats.FromDefinition(owned.Definition,owned,true);
+            float aps=stats.AttackInterval>0?1f/stats.AttackInterval:0;
+            return inspectionTextCache.Rows(owned,null,0,stats.MaxHealth,stats.MaxHealth,stats.Attack,stats.Attack,(decimal)aps,aps,0,stats.EnergyMax,spanish);
         }
+        bool BattleMenuOpen=>modal!=null&&(modal.name=="Pause"||modal.name=="Help"||modal.name=="Audio");
         void ShowPause()
         {
+            if(Match.Phase==MatchPhase.Menu)return;
+            Match.Pause(true);
             CloseModal();modal=Panel(CanvasRoot,"Pause",new Rect(0,0,540,960),new Color(.02f,.055f,.08f,.95f));
-            Label(modal,"PAUSA",new Rect(40,230,460,64),46,gold,FontStyle.Bold);
-            Button(modal,"CONTINUAR",new Rect(70,354,400,55),()=>{CloseModal();Match.Pause(false);},gold,ink);
-            Button(modal,"Cómo jugar",new Rect(70,432,400,50),ShowHelp,new Color(.17f,.29f,.33f),Color.white);
-            Button(modal,"Sonido",new Rect(70,505,400,50),ShowAudio,new Color(.17f,.29f,.33f),Color.white);
-            Button(modal,"VOLVER AL MENÚ",new Rect(70,608,400,50),()=>{CloseModal();SelectedId=null;Match.Menu();},new Color(.25f,.16f,.20f),Color.white);
+            Label(modal,Match.IsOnline?"PARTIDA EN LÍNEA":"PAUSED",new Rect(40,230,460,64),46,gold,FontStyle.Bold);
+            if(Match.IsOnline)Label(modal,GameText.Spanish?"La partida continúa mientras abres este menú":"The match continues while this menu is open",new Rect(40,302,460,34),17,cyan);
+            var resume=Button(modal,"CONTINUE",new Rect(64,352,412,64),()=>{CloseModal();Match.Pause(false);},gold,ink);
+            resume.name="CONTINUAR";
+            Button(modal,"How to play",new Rect(64,440,412,64),ShowHelp,new Color(.17f,.29f,.33f),Color.white);
+            Button(modal,"Sound",new Rect(64,528,412,64),ShowAudio,new Color(.17f,.29f,.33f),Color.white);
+            var back=Button(modal,"BACK TO MENU",new Rect(64,640,412,64),()=>{CloseModal();SelectedId=null;Match.Menu();},new Color(.25f,.16f,.20f),Color.white);
+            back.name="VOLVER AL MENÚ";
         }
         void ShowHelp()
         {
             CloseModal();modal=Panel(CanvasRoot,"Help",new Rect(0,0,540,960),new Color(.025f,.065f,.09f,.97f));
-            Label(modal,"TU PRIMERA PARTIDA",new Rect(34,140,472,55),30,gold,FontStyle.Bold);
-            Label(modal,"El Brief se abre con tres Whelps disponibles. Arrastra uno al campo para comprarlo y colocarlo. También puedes tocarlo y luego tocar su casilla.\n\nUna copia de un Whelp propio compra su siguiente Trick. Mantén una figurita para inspeccionarla.\n\nGuarda uno en el mini Brief del costado. Para venderlo, arrástralo del campo al Brief grande: recuperas lo pagado.\n\nEl reroll cierra la caja y revela nuevas copias. Pulsa LISTO o espera 40 segundos para combatir. Si cae el Monster, los Whelps siguen luchando hasta que un equipo quede sin unidades en pie. Gana tres rondas.",new Rect(46,230,448,510),19,Color.white,FontStyle.Normal,TextAnchor.UpperLeft);
-            Button(modal,"ENTENDIDO",new Rect(65,802,410,54),()=>{CloseModal();if(Match.Paused)ShowPause();},gold,ink);
+            Label(modal,"YOUR FIRST MATCH",new Rect(64,100,412,56),30,gold,FontStyle.Bold);
+            Label(modal,"The Brief opens with three available Whelps. Drag one onto the board to buy and place it, or tap it and then tap a tile.\n\nA copy of one of your Whelps buys its next Trick. Hold a figure to inspect it.\n\nStore up to three Whelps in the bank. Storing a field Whelp refunds its investment and keeps its Tricks. Reserving a new Whelp from the Brief is free. Tap the bank to see each deployment cost; drag a Whelp onto the board to pay it. Banked types stay out of the Brief rotation. To sell a troop, drag it into the large Brief. Field troops refund their investment; banked troops give no additional refund.\n\nReroll closes the case and reveals new copies. Press READY or wait 40 seconds to fight. Losing your Monster does not end the round: your Whelps keep fighting until a team has no units left. Win three rounds.",new Rect(64,184,412,518),18,Color.white,FontStyle.Normal,TextAnchor.UpperLeft);
+            if(Match.Phase==MatchPhase.Menu)
+            {
+                var tutorial=Button(modal,GameText.Spanish?"TUTORIAL Y PRÁCTICA":"TUTORIAL AND PRACTICE",new Rect(64,716,412,68),ShowTutorialReviewMenu,ink,Color.white,19);
+                tutorial.name="Open tutorial review";
+            }
+            Button(modal,"GOT IT",new Rect(64,800,412,68),()=>{CloseModal();if(Match.Phase!=MatchPhase.Menu)ShowPause();else OpenHome();},gold,ink);
         }
         void ShowAudio()
         {
             CloseModal();modal=Panel(CanvasRoot,"Audio",new Rect(0,0,540,960),new Color(.025f,.065f,.09f,.97f));
-            Label(modal,"SONIDO",new Rect(40,260,460,60),40,gold,FontStyle.Bold);
-            Label(modal,"Volumen: "+Mathf.RoundToInt(audioSource.volume*100)+"%",new Rect(40,375,460,40),24,Color.white);
-            Button(modal,"−",new Rect(75,449,110,65),()=>SetVolume(audioSource.volume-.1f),new Color(.18f,.3f,.34f),Color.white,34);
-            Button(modal,"SILENCIO",new Rect(202,449,136,65),()=>SetVolume(audioSource.volume>0?0:.7f),new Color(.18f,.3f,.34f),Color.white,17);
-            Button(modal,"+",new Rect(355,449,110,65),()=>SetVolume(audioSource.volume+.1f),new Color(.18f,.3f,.34f),Color.white,34);
-            Button(modal,"VOLVER",new Rect(65,635,410,54),()=>{CloseModal();if(Match.Paused)ShowPause();},gold,ink);
+            Label(modal,GameText.Sound,new Rect(40,260,460,60),40,gold,FontStyle.Bold);
+            Label(modal,"Volume: "+Mathf.RoundToInt(audioSource.volume*100)+"%",new Rect(40,375,460,40),24,Color.white);
+            Button(modal,"−",new Rect(64,448,132,64),()=>SetVolume(audioSource.volume-.1f),new Color(.18f,.3f,.34f),Color.white,34);
+            Button(modal,"MUTE",new Rect(204,448,132,64),()=>SetVolume(audioSource.volume>0?0:.7f),new Color(.18f,.3f,.34f),Color.white,17);
+            Button(modal,"+",new Rect(344,448,132,64),()=>SetVolume(audioSource.volume+.1f),new Color(.18f,.3f,.34f),Color.white,34);
+            Button(modal,GameText.Back,new Rect(64,636,412,64),()=>{CloseModal();if(Match.Phase!=MatchPhase.Menu)ShowPause();else ShowSettings();},gold,ink);
         }
         void SetVolume(float volume){audioSource.volume=Mathf.Clamp01(volume);PlayerPrefs.SetFloat("monster-pouch.volume",audioSource.volume);ShowAudio();}
-        public void CloseModal(){if(modal!=null){modal.gameObject.SetActive(false);Destroy(modal.gameObject);}modal=null;inspected=null;inspectStats=null;boardGesture.Cancel();EndDragPreview();}
+        public void CloseModal(){if(modal!=null){modal.gameObject.SetActive(false);Destroy(modal.gameObject);}modal=null;inspected=null;inspectStats=null;inspectionTextCache.Clear();CancelBoardPointer();HideAllUnitHoldProgress();}
         void BuildSounds()
         {
             audioSource=gameObject.AddComponent<AudioSource>();audioSource.volume=PlayerPrefs.GetFloat("monster-pouch.volume",.65f);audioSource.playOnAwake=false;
@@ -634,6 +782,18 @@ namespace MonsterPouch.Local
         void PlaySound(string id){if(audioSource!=null&&sounds.TryGetValue(id,out var sound))audioSource.PlayOneShot(sound);}
         void OnDestroy()
         {
+            DisposeBoardSelectionFeedback();
+            DisposeNotices();
+            if(online!=null)online.MatchCompletedVerified-=RecordVerifiedTrophyMatch;
+            Screen.sleepTimeout=originalSleepTimeout;
+            if(ownsArtCatalog&&art!=null)Destroy(art);
+            if(Match!=null)Match.Changed-=UpdateProgression;
+            CancelPlacementExchange();
+            if(Match!=null)
+            {
+                Match.Changed -= HandlePlacementMatchChanged;
+                Match.PlacementExchanged -= AnimatePlacementExchange;
+            }
             if(briefDisplay!=null)Destroy(briefDisplay);
             if(briefBodySprite!=null)Destroy(briefBodySprite);
             if(briefLidSprite!=null)Destroy(briefLidSprite);
@@ -658,6 +818,7 @@ namespace MonsterPouch.Local
                 Vector3 position=Vector3.Lerp(from,end,Mathf.Clamp01(t/travel));
                 if(style.UnitId=="anuik")position.y+=Mathf.Sin(Mathf.Clamp01(t/travel)*Mathf.PI)*.18f;
                 DrawEffect(sprite,style,style.Flight[Mathf.FloorToInt(t*16)%style.Flight.Length],position,charged?1.35f:1);
+                SizeProjectile(sprite, actor, charged ? "charged" : "flight");
                 if(style.OrientToTarget){var direction=end-from;sprite.rectTransform.localRotation=Quaternion.Euler(0,0,Mathf.Atan2(direction.y,direction.x)*Mathf.Rad2Deg);}
                 yield return null;
             }
@@ -683,7 +844,7 @@ namespace MonsterPouch.Local
             image.sprite=frame;
             Vector2 point=ToCanvas(GameCamera.WorldToScreenPoint(position));
             image.rectTransform.anchoredPosition=new Vector2(Mathf.Round(point.x),-Mathf.Round(point.y));
-            image.rectTransform.sizeDelta=new Vector2(frame.rect.width,frame.rect.height)*(style.DisplaySize*scale/Mathf.Max(1,style.ReferencePixels));
+            image.rectTransform.sizeDelta=ProjectileFlightRendering.CatalogFrame(frame,style,scale).Size;
         }
         IEnumerator ImpactEffect(BattleUnit actor,BattleUnit target,bool lethal)
         {
@@ -706,7 +867,100 @@ namespace MonsterPouch.Local
         {
             var star=Label(effects,"★",new Rect(from.x,from.y,30,30),28,gold);float t=0;
             var player=Match.Player;
-            while(t<.6f&&Match.Player==player&&Match.Phase==MatchPhase.Preparation){t+=Time.deltaTime;Vector2 end=Match.Actors.TryGetValue(target,out var actor)?ToCanvas(GameCamera.WorldToScreenPoint(actor.transform.position+Vector3.up)):target.Location==UnitLocation.Bench?new Vector2(449,799):new Vector2(target.Definition.Id=="dummy"?92:189,799);Vector2 p=Vector2.Lerp(from,end,Mathf.SmoothStep(0,1,t/.6f));SetRect(star.rectTransform,new Rect(p.x-15,p.y-15,30,30));yield return null;}if(star!=null)Destroy(star.gameObject);
+            while(t<.6f&&Match.Player==player&&Match.Phase==MatchPhase.Preparation)
+            {
+                t+=Time.deltaTime;
+                Vector2 end=UpgradeStarDestination(target,from);
+                Vector2 p=Vector2.Lerp(from,end,Mathf.SmoothStep(0,1,t/.6f));
+                SetRect(star.rectTransform,new Rect(p.x-15,p.y-15,30,30));yield return null;
+            }
+            if(star!=null)Destroy(star.gameObject);
+        }
+        Vector2 UpgradeStarDestination(OwnedUnit target,Vector2 fallback)
+        {
+            if(target.Location==UnitLocation.Field&&Match.Actors.TryGetValue(target,out var actor)&&actor!=null)
+            {
+                Vector3 center=visuals.TryGetValue(actor,out var view)&&view.Renderer!=null?
+                    view.Renderer.bounds.center:actor.transform.position+Vector3.up;
+                return ToCanvas(GameCamera.WorldToScreenPoint(center));
+            }
+            return UpgradePortraitCenter(StorageExchangeCard(target,target.Location,target.BriefSlot,false),fallback);
+        }
+        Vector2 UpgradePortraitCenter(RectTransform card,Vector2 fallback)
+        {
+            if(card==null)return fallback;
+            var portrait=card.GetComponentsInChildren<Image>().FirstOrDefault(item=>item.name=="Art");
+            var rect=portrait!=null?portrait.rectTransform:card;
+            return ToCanvas(RectTransformUtility.WorldToScreenPoint(null,rect.TransformPoint(rect.rect.center)));
+        }
+        IEnumerator SellMoonkens(Vector2 from,int amount,MoonkenDelivery delivery=null)
+        {
+            var owner=Match.Player;int round=Match.Round;
+            int count=delivery!=null?Mathf.Clamp(amount,1,7):Mathf.Clamp(Mathf.CeilToInt(Mathf.Max(1,amount)*.75f),3,7);
+            // Match the HUD artwork throughout the flight, without shrinking at the end.
+            Vector2 size=currencyIcon!=null?currencyIcon.rect.size:new Vector2(60,60);
+            var chips=new RectTransform[count];
+            for(int i=0;i<count;i++)
+            {
+                chips[i]=Panel(effects,"Sold Moonken",new Rect(from-size*.5f,size),Color.clear,false);
+                if(MoonIcon!=null)
+                {
+                    var image=chips[i].gameObject.AddComponent<Image>();image.sprite=MoonIcon;image.preserveAspect=true;image.raycastTarget=false;
+                }
+                else Label(chips[i],"●",new Rect(Vector2.zero,size),Mathf.RoundToInt(size.y*.9f),gold,FontStyle.Bold);
+            }
+            float travel=delivery?.TravelDuration??Mathf.Max(.1f,sellMoonkenTravelDuration),stagger=delivery!=null?0:Mathf.Max(0,sellMoonkenStagger),elapsed=0;
+            while(elapsed<travel+stagger*(count-1)&&Match.Player==owner&&
+                (delivery!=null?!delivery.Canceled&&Match.Phase!=MatchPhase.Menu:Match.Round==round&&Match.Phase==MatchPhase.Preparation))
+            {
+                elapsed=delivery!=null?Mathf.Max(0,delivery.Elapsed-delivery.ShineDuration):elapsed+(Match.Paused?0:Time.unscaledDeltaTime);
+                Vector2 target=CurrencyTarget();
+                for(int i=0;i<count;i++)
+                {
+                    if(chips[i]==null)continue;
+                    float t=Mathf.Clamp01((elapsed-i*stagger)/travel);
+                    float eased=1-Mathf.Pow(1-t,3);
+                    Vector2 spread=new Vector2((i-(count-1)*.5f)*14,Mathf.Sin(i*2.1f)*8);
+                    Vector2 p=Vector2.Lerp(from+spread,target,eased);
+                    p.y-=Mathf.Sin(t*Mathf.PI)*(34+i%2*8);
+                    SetRect(chips[i],new Rect(p-size*.5f,size));
+                    if(t>=1)
+                    {
+                        chips[i].gameObject.SetActive(false);Destroy(chips[i].gameObject);chips[i]=null;
+                        PopCurrencyIcon();
+                    }
+                }
+                yield return null;
+            }
+            foreach(var chip in chips)if(chip!=null)Destroy(chip.gameObject);
+        }
+        Vector2 CurrencyTarget()
+        {
+            RectTransform target=currencyIcon!=null?currencyIcon:currencyCounter;
+            if(target==null)return new Vector2(411,CardTableArena.BriefTop+86+BankColumnOffset);
+            return ToCanvas(RectTransformUtility.WorldToScreenPoint(null,target.TransformPoint(target.rect.center)));
+        }
+        void PopCurrencyIcon()
+        {
+            currencyPopInitialScale=currencyIcon!=null?currencyIcon.localScale.x:1;
+            currencyPopStarted=Time.unscaledTime;currencyPopPlayer=Match.Player;currencyPopRound=Match.Round;
+            UpdateCurrencyPop();
+        }
+        void UpdateCurrencyPop()
+        {
+            if(currencyText!=null&&Match.Player!=null)
+            {
+                string balance=Match.Player.Coins.ToString();
+                if(currencyText.text!=balance)currencyText.text=balance;
+            }
+            if(currencyIcon==null)return;
+            bool current=currencyPopStarted>=0&&Match.Player==currencyPopPlayer&&Match.Round==currencyPopRound&&Match.Phase!=MatchPhase.Menu;
+            float t=current?Mathf.Clamp01((Time.unscaledTime-currencyPopStarted)/Mathf.Max(.05f,currencyPunchDuration)):1;
+            float peak=Mathf.Max(1,currencyPunchScale);
+            float scale=t<.25f?Mathf.Lerp(currencyPopInitialScale,peak,Mathf.SmoothStep(0,1,t/.25f)):
+                Mathf.Lerp(peak,1,Mathf.SmoothStep(0,1,(t-.25f)/.75f));
+            // Scale about the icon's own center; the number and landing point remain fixed.
+            currencyIcon.localScale=Vector3.one*scale;
         }
         static string Stars(int n)=>new string('★',Mathf.Clamp(n,0,3));
         public RectTransform Panel(Transform parent,string name,Rect rect,Color color,bool raycast=true)
@@ -731,11 +985,11 @@ namespace MonsterPouch.Local
         {rt.anchorMin=rt.anchorMax=new Vector2(0,1);rt.pivot=new Vector2(0,1);rt.anchoredPosition=new Vector2(rect.x,-rect.y);rt.sizeDelta=new Vector2(rect.width,rect.height);}
         Text Label(Transform parent,string text,Rect rect,int size,Color color,FontStyle style=FontStyle.Normal,TextAnchor align=TextAnchor.MiddleCenter)
         {
-            var rt=Panel(parent,"Text",rect,Color.clear,false);var label=rt.gameObject.AddComponent<Text>();label.font=font;label.fontSize=size;label.color=color;label.fontStyle=FontStyle.Normal;label.text=text;label.alignment=align;label.raycastTarget=false;label.horizontalOverflow=HorizontalWrapMode.Wrap;label.verticalOverflow=VerticalWrapMode.Truncate;return label;
+            var rt=Panel(parent,"Text",rect,Color.clear,false);var label=rt.gameObject.AddComponent<Text>();label.font=style==FontStyle.Bold&&size>=16?headingFont:font;label.fontSize=Mathf.Max(10,size);label.color=color;label.fontStyle=FontStyle.Normal;label.text=GameText.Resolve(text);label.alignment=align;label.raycastTarget=false;label.horizontalOverflow=HorizontalWrapMode.Wrap;label.verticalOverflow=VerticalWrapMode.Truncate;label.lineSpacing=1.12f;label.alignByGeometry=false;return label;
         }
         RectTransform Button(Transform parent,string text,Rect rect,Action action,Color background,Color foreground,int size=20)
         {
-            var rt=Panel(parent,text,rect,background);var b=rt.gameObject.AddComponent<Button>();b.onClick.AddListener(()=>{PlaySound("button");action();});var c=b.colors;c.highlightedColor=new Color(1,1,1,.9f);c.pressedColor=new Color(.72f,.8f,.8f);b.colors=c;Label(rt,text,new Rect(6,3,rect.width-12,rect.height-6),size,foreground,FontStyle.Bold);return rt;
+            var rt=Panel(parent,text,rect,background);var b=rt.gameObject.AddComponent<Button>();b.onClick.AddListener(()=>{PlaySound("button");action();});var c=b.colors;c.highlightedColor=new Color(1,1,1,.9f);c.pressedColor=new Color(.72f,.8f,.8f);b.colors=c;if(background.a>.1f)RetroButtonMotion.Attach(rt,b,Color.Lerp(background,new Color(.35f,.32f,.29f),.2f));Label(rt,text,new Rect(6,3,rect.width-12,rect.height-6),size,foreground,FontStyle.Bold);return rt;
         }
         void Image(Transform parent,Sprite sprite,Rect rect,Color? color=null)
         {
@@ -746,8 +1000,12 @@ namespace MonsterPouch.Local
             rt.pivot=new Vector2(.5f,.5f);
             rt.anchoredPosition=new Vector2(rect.x+rect.width*.5f,-rect.y-rect.height*.5f);
             var im=rt.gameObject.AddComponent<Image>();im.sprite=sprite;im.preserveAspect=true;im.raycastTarget=false;im.color=color??Color.white;
+            if(sprite.name.StartsWith("anuik-",StringComparison.Ordinal))im.material=Resources.Load<Material>("MonsterPouch/AnuikContourUI");
         }
-        void Portrait(Transform parent,string id,Rect rect,Color? color=null){var unitArt=art?.Get(id);Image(parent,unitArt?.Portrait,rect,color);}
+        // Compatibility name for existing roster/offer slots. Character icons are
+        // reserved for PlayerAvatarGraphic in profile customization.
+        void Portrait(Transform parent,string id,Rect rect,Color? color=null)
+            =>Figure(parent,id,rect,false,color:color);
     }
 
     // A persistent surface below the other UI captures the entire board gesture.
@@ -757,43 +1015,100 @@ namespace MonsterPouch.Local
         LocalGameUI ui;int? pointer;
         public void Configure(LocalGameUI owner){ui=owner;}
         public void OnPointerDown(PointerEventData e)
-        {if(pointer==null && e.button==PointerEventData.InputButton.Left && ui.BeginBoardPointer(e.position))pointer=e.pointerId;}
+        {
+            if(ui==null)return;
+            // The owner may have cancelled for a modal/phase/disable without a pointer-up.
+            if(!ui.BoardPointerActive)pointer=null;
+            if(pointer==null && e.button==PointerEventData.InputButton.Left && ui.BeginBoardPointer(e.position))pointer=e.pointerId;
+        }
+        void Update()
+        {if(ui!=null&&!ui.UnitHoldAllowed&&(pointer!=null||ui.BoardPointerActive))OnDisable();}
         public void OnDrag(PointerEventData e){if(pointer==e.pointerId)ui.MoveBoardPointer(e.position);}
         public void OnPointerUp(PointerEventData e){if(pointer==e.pointerId){ui.EndBoardPointer(e.position);pointer=null;}}
         public void OnEndDrag(PointerEventData e){if(pointer==e.pointerId){ui.CancelBoardPointer();pointer=null;}}
         void OnDisable(){if(ui!=null)ui.CancelBoardPointer();pointer=null;}
+        void OnApplicationFocus(bool focused){if(!focused)OnDisable();}
+        void OnApplicationPause(bool paused){if(paused)OnDisable();}
     }
 
     public sealed class BriefOfferGesture : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler, IEndDragHandler
     {
-        LocalGameUI ui;int slot;long token;Vector2 position;
+        LocalGameUI ui;int slot;long token;Vector2 position;int? pointer;
         readonly PointerGesture gesture=new PointerGesture();
+        readonly BriefDragSnap briefSnap=new BriefDragSnap();
         public string UnitId { get; private set; }
         public void Configure(LocalGameUI owner,int offerSlot,long offerToken,string id)
         {ui=owner;slot=offerSlot;token=offerToken;UnitId=id;}
         public void OnPointerDown(PointerEventData e)
-        {if(ui.BriefReady && e.button==PointerEventData.InputButton.Left){position=e.position;gesture.Begin(e.position,Time.unscaledTime);}}
+        {
+            if(pointer!=null||ui==null||!ui.UnitHoldAllowed||!ui.BriefReady||e.button!=PointerEventData.InputButton.Left)return;
+            briefSnap.Begin(ui,e.position);
+            pointer=e.pointerId;position=e.position;gesture.Begin(position,Time.unscaledTime);ui.UpdateUnitHoldProgress(gesture,position);
+        }
         public void OnDrag(PointerEventData e)
-        {position=e.position;gesture.Move(position,Time.unscaledTime);if(gesture.Dragging)ui.PreviewOffer(slot,token,position);}
-        void Update()
-        {if(gesture.Active && gesture.Move(position,Time.unscaledTime)==GestureResult.Hold)ui.InspectOffer(slot,token);}
+        {if(pointer!=e.pointerId)return;Advance(e.position);if(gesture.Dragging)ui.PreviewOffer(slot,token,briefSnap.Resolve(ui,position));}
+        void Update(){if(gesture.Active)Advance(position);}
+        void Advance(Vector2 next)
+        {
+            if(ui==null||!ui.UnitHoldAllowed||!ui.BriefReady){Cancel();return;}
+            position=next;var result=gesture.Move(position,Time.unscaledTime);ui.UpdateUnitHoldProgress(gesture,position);
+            if(result==GestureResult.Hold)ui.InspectOffer(slot,token);
+        }
         public void OnPointerUp(PointerEventData e)
         {
-            gesture.Move(e.position,Time.unscaledTime);var result=gesture.End();ui.EndDragPreview();
+            if(pointer!=e.pointerId)return;
+            Advance(e.position);var result=gesture.End();var drop=briefSnap.Resolve(ui,e.position);briefSnap.Cancel();
+            pointer=null;ui.HideUnitHoldProgress(gesture);ui.EndDragPreview();
             if(result==GestureResult.Tap)ui.SelectOffer(slot,token);
-            else if(result==GestureResult.Drag)ui.DropOffer(slot,token,e.position);
+            else if(result==GestureResult.Drag)ui.DropOffer(slot,token,drop);
         }
-        public void OnEndDrag(PointerEventData e){ui.EndDragPreview();}
+        public void OnEndDrag(PointerEventData e){if(pointer==e.pointerId)Cancel();}
+        void Cancel()
+        {
+            bool pending=gesture.Active||pointer!=null;gesture.Cancel();briefSnap.Cancel();pointer=null;
+            if(ui!=null){ui.HideUnitHoldProgress(gesture);if(pending)ui.EndDragPreview();}
+        }
+        void OnDisable(){Cancel();}
+        void OnApplicationFocus(bool focused){if(!focused)Cancel();}
+        void OnApplicationPause(bool paused){if(paused)Cancel();}
     }
 
     public sealed class UnitCardGesture : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler, IEndDragHandler
     {
-        LocalGameUI ui;OwnedUnit unit;bool enemy;Vector2 position;readonly PointerGesture gesture=new PointerGesture();
+        LocalGameUI ui;OwnedUnit unit;bool enemy;Vector2 position;int? pointer;readonly PointerGesture gesture=new PointerGesture();
+        readonly BriefDragSnap briefSnap=new BriefDragSnap();
         public void Configure(LocalGameUI owner,OwnedUnit owned,bool rival){ui=owner;unit=owned;enemy=rival;}
-        public void OnPointerDown(PointerEventData e){position=e.position;gesture.Begin(e.position,Time.unscaledTime);}
-        public void OnDrag(PointerEventData e){position=e.position;gesture.Move(e.position,Time.unscaledTime);if(gesture.Dragging&&!enemy)ui.DragPreview(unit,e.position);}
-        void Update(){if(gesture.Active&&gesture.Move(position,Time.unscaledTime)==GestureResult.Hold)ui.ShowInspection(unit,enemy);}
-        public void OnPointerUp(PointerEventData e){gesture.Move(e.position,Time.unscaledTime);var result=gesture.End();ui.EndDragPreview();if(result==GestureResult.Tap)ui.Select(unit,enemy);else if(result==GestureResult.Drag&&!enemy)ui.Drop(unit,e.position);}
-        public void OnEndDrag(PointerEventData e){ui.EndDragPreview();}
+        public void OnPointerDown(PointerEventData e)
+        {
+            if(pointer!=null||ui==null||!ui.UnitHoldAllowed||e.button!=PointerEventData.InputButton.Left)return;
+            briefSnap.Begin(ui,e.position,!enemy&&unit.Location==UnitLocation.Brief);
+            pointer=e.pointerId;position=e.position;gesture.Begin(position,Time.unscaledTime);ui.UpdateUnitHoldProgress(gesture,position);
+        }
+        public void OnDrag(PointerEventData e)
+        {if(pointer!=e.pointerId)return;Advance(e.position);if(gesture.Dragging&&!enemy)ui.DragPreview(unit,briefSnap.Resolve(ui,e.position));}
+        void Update(){if(gesture.Active)Advance(position);}
+        void Advance(Vector2 next)
+        {
+            if(ui==null||!ui.UnitHoldAllowed){Cancel();return;}
+            position=next;var result=gesture.Move(position,Time.unscaledTime);ui.UpdateUnitHoldProgress(gesture,position);
+            if(result==GestureResult.Hold)ui.ShowInspection(unit,enemy);
+        }
+        public void OnPointerUp(PointerEventData e)
+        {
+            if(pointer!=e.pointerId)return;
+            Advance(e.position);var result=gesture.End();bool returned=briefSnap.ReturnedToBrief(ui,e.position);
+            var drop=briefSnap.Resolve(ui,e.position);briefSnap.Cancel();pointer=null;ui.HideUnitHoldProgress(gesture);ui.EndDragPreview();
+            if(result==GestureResult.Tap)ui.Select(unit,enemy);
+            else if(result==GestureResult.Drag&&!enemy&&!returned)ui.DropWithGuidedTutorialGesture(unit,drop,result);
+        }
+        public void OnEndDrag(PointerEventData e){if(pointer==e.pointerId)Cancel();}
+        void Cancel()
+        {
+            bool pending=gesture.Active||pointer!=null;gesture.Cancel();briefSnap.Cancel();pointer=null;
+            if(ui!=null){ui.HideUnitHoldProgress(gesture);if(pending)ui.EndDragPreview();}
+        }
+        void OnDisable(){Cancel();}
+        void OnApplicationFocus(bool focused){if(!focused)Cancel();}
+        void OnApplicationPause(bool paused){if(paused)Cancel();}
     }
 }

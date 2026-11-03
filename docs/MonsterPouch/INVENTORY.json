@@ -1,0 +1,427 @@
+{
+  "date": "2026-10-20",
+  "project": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch",
+  "characters": [
+    {
+      "id": "aky",
+      "name": "Akryn",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\aky\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "anuik",
+      "name": "Aniku",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\anuik\\Character.asset",
+      "monster": "1"
+    },
+    {
+      "id": "atong",
+      "name": "Atron",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\atong\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "atori",
+      "name": "Atrik",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\atori\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "blotan",
+      "name": "Blotun",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\blotan\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "bugaloo",
+      "name": "Bugrum",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\bugaloo\\Character.asset",
+      "monster": "1"
+    },
+    {
+      "id": "bugui",
+      "name": "Bivui",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\bugui\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "flo",
+      "name": "Floru",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\flo\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "gochan",
+      "name": "Gochar",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\gochan\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "hymay",
+      "name": "Hymal",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\hymay\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "jazar",
+      "name": "Jazir",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\jazar\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "kayon",
+      "name": "Kaydo",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\kayon\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "pokrak",
+      "name": "Pokrak",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\pokrak\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "popow",
+      "name": "\"Pomb\\xFA\"",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\popow\\Character.asset",
+      "monster": "1"
+    },
+    {
+      "id": "rosie",
+      "name": "Rosie",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\rosie\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "sepora",
+      "name": "Selora",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\sepora\\Character.asset",
+      "monster": "1"
+    },
+    {
+      "id": "stein",
+      "name": "Stenko",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\stein\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "suki",
+      "name": "Suki",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\suki\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "tauris",
+      "name": "Tauruk",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\tauris\\Character.asset",
+      "monster": "1"
+    },
+    {
+      "id": "tokoro",
+      "name": "Toronko",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\tokoro\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "trimol",
+      "name": "Trimar",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\trimol\\Character.asset",
+      "monster": "0"
+    },
+    {
+      "id": "tsu",
+      "name": "Tsumi",
+      "path": "Assets\\resources\\MonsterPouch\\Characters\\tsu\\Character.asset",
+      "monster": "0"
+    }
+  ],
+  "sourceArt": [
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\batExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1928322,
+      "sha256": "327860030740a0753bc96b85ff93f7f02aafac6731255d2801dd98efed34b617"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\boxExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1865338,
+      "sha256": "2ba7e5cf9fa1104c6d920dbdbb7a45bc69820149b98f1935e596a2dce8a81de3"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\candyExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1893859,
+      "sha256": "d001d2ef0ad3cd1d4ab13b27e0aecbb9be9f8ed6626cd6e449e591d1b516c770"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\diabExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1559196,
+      "sha256": "850a5b84c6eb9c42c97de4cca9cb86ebccf439b7226e9e48153be6d8c7ec93a2"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\dinoExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1643192,
+      "sha256": "94fe1650466f2ed9178c21837ffd8428e59ca0f4a6a5e5e41e8c60cb2c6614d8"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\earthExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1608243,
+      "sha256": "8c76bbd27b1db11403292a5d700811d34599a13ec2b42ca7a8e14905a1d8eab6"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\eExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1826880,
+      "sha256": "e8e2e7bf54765d2a2e89209c988dbcdfc31d2ca94bca853d84cd54544db70287"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\fungudExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1878369,
+      "sha256": "36c97af76929fd1c683386fc0059bcfd69c44629ee0f4280d5ed0319a415c920"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\gymExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1974609,
+      "sha256": "06a2d24b3b579c0f59f35de9f24ef049691fcfbf5a0c2a013f891c423a506c3e"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\heartExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1815054,
+      "sha256": "353c7fe638f465e0e6e54362cc3ad4a74e79713d6277496f68890514869b133d"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\iceExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1831684,
+      "sha256": "a6f095c67fd293277ae285c7ec88b2c1dbdb2dff55ebb1ec61f42985fa7caf68"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\moonExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1883170,
+      "sha256": "39e55431b780a2941f5b31d46e90d13d69528a76b32911786870798425ed37b7"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\nigthExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1781976,
+      "sha256": "d0bc9898d2d7f56f0f32c3c8c143d8d3a99843a68942182b5319feb9f903dd84"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\roboExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1857054,
+      "sha256": "cbb5a235ec57cab873d37ea14d46ac34706366292011b159ebb26ea69c3ec95a"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\roseExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1969255,
+      "sha256": "fdb24d1bc7d41fa318bd5a7863c0a73a881bb6ba965b6fd1a77a197453c9536b"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\sunExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1716015,
+      "sha256": "52d5b4fe43f32cffeead8013dd42372649caa5604f84aeabee56ea6fdca8e088"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\expendedoras\\toxicExp.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1759694,
+      "sha256": "faa4844927d3c6c5affeaa8c2dbe952fdf235ddc216af52a79297460445772a8"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\batpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1513837,
+      "sha256": "0677a282f3bb40eaf5e2842a48784bf9b8f5784440dbf2d26421235836ff43d1"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\boxpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1214192,
+      "sha256": "4da42ef698782cab7d06a90e5f16779eb25411b9667a6495f6100d5c75d70eff"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\candypocuh.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1461467,
+      "sha256": "e5e58cf5088344c6d7f45ebcf26fe987f1c1a554e70e4af4ae9aa240b11f54b6"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\circuspouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1456951,
+      "sha256": "c808e9f40a367697770253f9c8911a7e63c17db2934243008a59c4c56a537eb9"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\diabolicpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1074859,
+      "sha256": "0102519d186f51bae9bc551c1ecc1bebc4977b565599d0ea97676589c99211ad"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\dinopouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1295262,
+      "sha256": "9532b9bedd32c8d0987dff8955984a68defe2eccc8a130fd9024902d1d7af02b"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\earthpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1079926,
+      "sha256": "30e779e9db71526bd2ab1f45d86eeda429f423e6c68bbf19a0ca0c2346e0ab8e"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\electricpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1293233,
+      "sha256": "77731964856054a5bf5b4f75a50a72ce9ce945ffa96617922f9a1372b6b6ebcf"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\funguspouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1249263,
+      "sha256": "4bac2d710c5f84a4c8325762739dc0b92f43ca7f9948b390b689d7233d2f4c1f"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\heartpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1324715,
+      "sha256": "590e861d59124289402c81411b1d355cb9d6de6c44d43642bc581c7c0460b335"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\icecream.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1304500,
+      "sha256": "6788b28c0815c110647174168187e65efe7f394fb35fd5731a6c44020f602b1c"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\moonpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1303701,
+      "sha256": "90d75d4cdbd8b8d9d54bff5d22b5b10454e51e500dab2b7efe076d914fc63cc9"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\nightpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1197408,
+      "sha256": "fde16ee771d026ec1a7f61dba46e7e6c40bae880567b5144e97284369c47a262"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\robotpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1550699,
+      "sha256": "acb08c85c8b810ddf4d5f0e16164f521883d786f462bc1de9b1a6f13c1f3d3ec"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\rosepouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1181659,
+      "sha256": "9e8b9a4f77a28a698a3b798bcd734bd431e9e1f87d3961f9542526e00d96d2ee"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\sunpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1102634,
+      "sha256": "edb21c59cea1388b0aa7dec77a71326a38df788b82366b0ca2c8feace4add9cb"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\pouches\\toxcpouch.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1292332,
+      "sha256": "666a8ca4fc790debf87bc3391461b636a3981f30fa8c0e373252a4c2c5a72345"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\tokens\\earthken.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1076998,
+      "sha256": "57ba250dea7680587a61ec8bb64b5391b137f714b08986f359c8ebc62deaa60b"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\tokens\\moonken.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1502228,
+      "sha256": "fbb3d42f3d7b328a70fc83f4c8326d865e11b9f9d604c4c0ddaf5fa5be607fa5"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\tokens\\saturnken.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1111638,
+      "sha256": "9925a85a26ba8e82e3221d9cb23acfff0a44bed23bfbcc71e2fc7ff2d140ec98"
+    },
+    {
+      "path": "C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\pictures\\utilities\\tokens\\sunken.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1059443,
+      "sha256": "f00c9362927309dafbebc78d6499ae5fc3fb9c592d113a86acf1bfff57c54d93"
+    }
+  ],
+  "scenes": [
+    "Assets\\_Recovery\\0 (1).unity",
+    "Assets\\_Recovery\\0 (2).unity",
+    "Assets\\_Recovery\\0 (3).unity",
+    "Assets\\_Recovery\\0 (4).unity",
+    "Assets\\_Recovery\\0 (5).unity",
+    "Assets\\_Recovery\\0 (6).unity",
+    "Assets\\_Recovery\\0.unity",
+    "Assets\\InitTestScene8106badb-51e0-41a0-a386-faf659c000e3.unity",
+    "Assets\\InitTestScenee325e034-0c63-49f1-9589-f185f5ab0da7.unity",
+    "Assets\\Scenes\\backups\\main-scene_bak_shadows.unity",
+    "Assets\\Scenes\\main-scene.unity",
+    "Assets\\Scenes\\SampleScene.unity",
+    "Assets\\Settings\\Scenes\\URP2DSceneTemplate.unity"
+  ],
+  "prefabs": [
+    "Assets\\prefabs\\ambientations\\grand-cas-hotel.prefab"
+  ],
+  "scriptCount": 158,
+  "editTestFiles": 75,
+  "playTestFiles": 43
+}

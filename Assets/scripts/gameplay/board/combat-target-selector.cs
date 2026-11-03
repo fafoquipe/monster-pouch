@@ -138,17 +138,17 @@ namespace MonsterPouch.Gameplay.Board
 
             bool lowHealthPolicy = actor.BaseStats.TargetPolicy == TargetPolicy.LowestHealth;
             bool hasInRange = candidates.Exists(candidate => candidate.PathLength == 0);
-            // Scan expanding cross-shaped rings. A unit already in attack range wins
-            // over pursuit; Atori retains its explicit weakest-target acquisition rule.
+            // Rank occupied cell centers by geometric distance, not cross-shaped rings.
+            // Keep attackability and explicit weakest-target acquisition ahead of proximity.
             int bestScore = int.MaxValue;
             foreach (Candidate candidate in candidates)
             {
                 if (!lowHealthPolicy && hasInRange && candidate.PathLength != 0) continue;
-                int score = lowHealthPolicy ? candidate.Target.CurrentHealth : ManhattanDistance(actor.CurrentCell, candidate.Target.CurrentCell);
+                int score = lowHealthPolicy ? candidate.Target.CurrentHealth : DistanceSquared(actor.CurrentCell, candidate.Target.CurrentCell);
                 if (score < bestScore) bestScore = score;
             }
             candidates.RemoveAll(candidate => (!lowHealthPolicy && hasInRange && candidate.PathLength != 0) ||
-                (lowHealthPolicy ? candidate.Target.CurrentHealth : ManhattanDistance(actor.CurrentCell,candidate.Target.CurrentCell)) != bestScore);
+                (lowHealthPolicy ? candidate.Target.CurrentHealth : DistanceSquared(actor.CurrentCell,candidate.Target.CurrentCell)) != bestScore);
 
             Candidate selected = SelectTargetByPriority(candidates);
             CombatTargetSelectionStatus status =
@@ -183,6 +183,15 @@ namespace MonsterPouch.Gameplay.Board
 
         public static int ManhattanDistance(BoardCell from, BoardCell to) =>
             from == null || to == null ? int.MaxValue : Abs(from.X-to.X) + Abs(from.Y-to.Y);
+
+        // Integer squared distance preserves Euclidean ordering without floating-point
+        // ties. Callers pass CurrentCell: a movement reservation is not a reached cell.
+        public static int DistanceSquared(BoardCell from, BoardCell to)
+        {
+            if (from == null || to == null) return int.MaxValue;
+            int dx = from.X - to.X, dy = from.Y - to.Y;
+            return dx * dx + dy * dy;
+        }
 
         public static bool IsInAttackRange(BoardCell actorCell, BoardCell targetCell, int range)
         {
@@ -291,11 +300,7 @@ namespace MonsterPouch.Gameplay.Board
 
                     Candidate other = candidates[j];
                     BoardPriorityResult result =
-                        BoardPriorityResolver.ComparePositionalPriority(
-                            possibleDominant.Target.CurrentCell,
-                            possibleDominant.Target.Side,
-                            other.Target.CurrentCell,
-                            other.Target.Side);
+                        BoardPriorityResolver.CompareInRoundPosition(possibleDominant.Target, other.Target);
 
                     if (result != BoardPriorityResult.First)
                     {

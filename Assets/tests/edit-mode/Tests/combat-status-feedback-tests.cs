@@ -163,6 +163,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         public void EmpoweredNonCriticalAttack_DoesNotEmitCriticalFeedback()
         {
             var definition = DocumentedRoster.CreateTokoro();
+            definition.BaseAbility.Parameters=new[]{new AbilityParameter{Key="damageOverride",Value=20}};
             definition.Damage = 10;
             definition.AttackWindup = .1f;
             definition.AttackInterval = 100;
@@ -200,6 +201,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             };
             var stein = Unit(steinDefinition, 2, 4, BoardSide.Red);
             Begin(atong, stein);
+            stein.AddEnergy(100);
             int attacks = 0, impacts = 0, resets = 0, criticalCount = 0;
             simulation.Attacked += (source, target, projectile) => { if (source == atong) attacks++; };
             simulation.Impacted += (source, target, damage) => { if (source == atong) impacts++; };

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Upgrade2
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: cael-savia-dorada
+    Trigger: 0
+    EveryAttacks: 0
+    Id: cael-savia-dorada
+    Name: Savia dorada
+    Description: "Tras Torbellino: Vida +{heal} propia y +{allyHeal} al otro aliado
+      m\xE1s herido a {range} casillas."
+    Parameters:
+    - Key: heal
+      Value: 20
+    - Key: allyHeal
+      Value: 7
+    - Key: range
+      Value: 2
+    Cost: 2
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals: []
+  Icon: {fileID: 21300000, guid: ca9df1d67e3d55e8a80161f196e05813, type: 3}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

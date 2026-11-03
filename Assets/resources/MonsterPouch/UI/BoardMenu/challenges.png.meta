@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 292ca49bde94750458e388a42ee56ca1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1564456064613580045
+    second: challenges_0
+  - first:
+      213: -10906768550357528
+    second: challenges_1
+  - first:
+      213: 2398838638416163256
+    second: challenges_2
+  - first:
+      213: -4329554101873306519
+    second: challenges_3
+  - first:
+      213: 8231330552143799611
+    second: challenges_4
+  - first:
+      213: -7843198992602951713
+    second: challenges_5
+  - first:
+      213: -4575016151825410709
+    second: challenges_6
+  - first:
+      213: 3813325515055025183
+    second: challenges_7
+  - first:
+      213: -2943289742109827607
+    second: challenges_8
+  - first:
+      213: -7702039946783596954
+    second: challenges_9
+  - first:
+      213: -2496903404793034397
+    second: challenges_10
+  - first:
+      213: -2156410966811829565
+    second: challenges_11
+  - first:
+      213: -6585181664183630925
+    second: challenges_12
+  - first:
+      213: 1398372388738628204
+    second: challenges_13
+  - first:
+      213: -3963636247655448755
+    second: challenges_14
+  - first:
+      213: -2824843461297810916
+    second: challenges_15
+  - first:
+      213: -8078909970155596929
+    second: challenges_16
+  - first:
+      213: -8699546162482512344
+    second: challenges_17
+  - first:
+      213: -7026210574724361113
+    second: challenges_18
+  - first:
+      213: 5137821845288812045
+    second: challenges_19
+  - first:
+      213: 1323001455148286337
+    second: challenges_20
+  - first:
+      213: 2963087577475952654
+    second: challenges_21
+  - first:
+      213: -7039982031923676446
+    second: challenges_22
+  - first:
+      213: 3559359294527456031
+    second: challenges_23
+  - first:
+      213: -975229374182145791
+    second: challenges_24
+  - first:
+      213: 5472988203345507890
+    second: challenges_25
+  - first:
+      213: 492764236231231084
+    second: challenges_26
+  - first:
+      213: 2146996827575867626
+    second: challenges_27
+  - first:
+      213: 2218256855641914344
+    second: challenges_28
+  - first:
+      213: 8198457024518149720
+    second: challenges_29
+  - first:
+      213: -1486198134804679648
+    second: challenges_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: challenges_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1237
+        height: 1232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d7ffd708016b510800000000000000
+      internalID: 1564456064613580045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_1
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1208
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e598ee0a5049dff0800000000000000
+      internalID: -10906768550357528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1162
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1f64438036a4120800000000000000
+      internalID: 2398838638416163256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_3
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1189
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964910abb755ae3c0800000000000000
+      internalID: -4329554101873306519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_4
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1175
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35e955968f8b3270800000000000000
+      internalID: 8231330552143799611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_5
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1174
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf033f321c572390800000000000000
+      internalID: -7843198992602951713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_6
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1165
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6595c4ac074280c0800000000000000
+      internalID: -4575016151825410709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_7
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1164
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cc9c12a57abe430800000000000000
+      internalID: 3813325515055025183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_8
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1125
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed1e72e2955727d0800000000000000
+      internalID: -2943289742109827607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_9
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1128
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e581eb97bdc1590800000000000000
+      internalID: -7702039946783596954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_10
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1110
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36909de1597395dd0800000000000000
+      internalID: -2496903404793034397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 883
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca9c6d96a3e212e0800000000000000
+      internalID: -2156410966811829565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 857
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b34bec8a2cbc94a0800000000000000
+      internalID: -6585181664183630925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 837
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6afa765744086310800000000000000
+      internalID: 1398372388738628204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 835
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f72af35d55ef8c0800000000000000
+      internalID: -3963636247655448755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 755
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12524fa6d32cc8d0800000000000000
+      internalID: -2824843461297810916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 786
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f739380af22f1ef80800000000000000
+      internalID: -8078909970155596929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 708
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82efd1e7bd0054780800000000000000
+      internalID: -8699546162482512344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_18
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 692
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764167075b2ed7e90800000000000000
+      internalID: -7026210574724361113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 316
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e7ea73fb53d4740800000000000000
+      internalID: 5137821845288812045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 232
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181407b50de3c5210800000000000000
+      internalID: 1323001455148286337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 148
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00b3ddd3700f1920800000000000000
+      internalID: 2963087577475952654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_22
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 142
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea7e0234a5fc4e90800000000000000
+      internalID: -7039982031923676446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 31
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f134b4a8b62656130800000000000000
+      internalID: 3559359294527456031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_24
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 37
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101c8591d0a4772f0800000000000000
+      internalID: -975229374182145791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_25
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 29
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236ff4816c5f3fb40800000000000000
+      internalID: 5472988203345507890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_26
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 30
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66449a4676a6d600800000000000000
+      internalID: 492764236231231084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_27
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 42
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8dc894d3aabcd10800000000000000
+      internalID: 2146996827575867626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_28
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 19
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb7c1d7bd4d8ce10800000000000000
+      internalID: 2218256855641914344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_29
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 17
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856d5bcf935c6c170800000000000000
+      internalID: 8198457024518149720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: challenges_30
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0247e1daba6ff5be0800000000000000
+      internalID: -1486198134804679648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      challenges_0: 1564456064613580045
+      challenges_1: -10906768550357528
+      challenges_10: -2496903404793034397
+      challenges_11: -2156410966811829565
+      challenges_12: -6585181664183630925
+      challenges_13: 1398372388738628204
+      challenges_14: -3963636247655448755
+      challenges_15: -2824843461297810916
+      challenges_16: -8078909970155596929
+      challenges_17: -8699546162482512344
+      challenges_18: -7026210574724361113
+      challenges_19: 5137821845288812045
+      challenges_2: 2398838638416163256
+      challenges_20: 1323001455148286337
+      challenges_21: 2963087577475952654
+      challenges_22: -7039982031923676446
+      challenges_23: 3559359294527456031
+      challenges_24: -975229374182145791
+      challenges_25: 5472988203345507890
+      challenges_26: 492764236231231084
+      challenges_27: 2146996827575867626
+      challenges_28: 2218256855641914344
+      challenges_29: 8198457024518149720
+      challenges_3: -4329554101873306519
+      challenges_30: -1486198134804679648
+      challenges_4: 8231330552143799611
+      challenges_5: -7843198992602951713
+      challenges_6: -4575016151825410709
+      challenges_7: 3813325515055025183
+      challenges_8: -2943289742109827607
+      challenges_9: -7702039946783596954
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

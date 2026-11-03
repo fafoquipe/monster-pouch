@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 21:53:37Z" end-time="2026-10-15 21:54:14Z" duration="36,394533">
+  <test-suite type="TestSuite" id="1187" name="Monster Pouch" fullname="Monster Pouch" runstate="Runnable" testcasecount="139" result="Passed" start-time="2026-10-15 21:53:37Z" end-time="2026-10-15 21:54:14Z" duration="36.394533" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1179" name="MonsterPouch.Local.Tests.PlayMode.dll" fullname="C:/Users/HP VICTUS/Juegos Unity/mini-gogos/game/monster-pouch/Library/ScriptAssemblies/MonsterPouch.Local.Tests.PlayMode.dll" runstate="Runnable" testcasecount="139" result="Passed" start-time="2026-10-15 21:53:37Z" end-time="2026-10-15 21:54:14Z" duration="36.345424" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3240" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1075" name="LobbyThemeSelectionPlayTests" fullname="LobbyThemeSelectionPlayTests" classname="LobbyThemeSelectionPlayTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-15 21:53:37Z" end-time="2026-10-15 21:53:55Z" duration="18.279232" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1076" name="LobbyButtonsChangeBackgroundAndPaletteWithoutChangingTheMatchMap" fullname="LobbyThemeSelectionPlayTests.LobbyButtonsChangeBackgroundAndPaletteWithoutChangingTheMatchMap" methodname="LobbyButtonsChangeBackgroundAndPaletteWithoutChangingTheMatchMap" classname="LobbyThemeSelectionPlayTests" runstate="Runnable" seed="405734678" result="Passed" start-time="2026-10-15 21:53:37Z" end-time="2026-10-15 21:53:55Z" duration="18.202782" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1086" name="MobileMenuBankPlayTests" fullname="MobileMenuBankPlayTests" classname="MobileMenuBankPlayTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-15 21:53:55Z" end-time="2026-10-15 21:54:05Z" duration="9.515969" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1091" name="CollectionPreservesItsScrollWhenSwipeReturnsAndVerticalDragDoesNotPage" fullname="MobileMenuBankPlayTests.CollectionPreservesItsScrollWhenSwipeReturnsAndVerticalDragDoesNotPage" methodname="CollectionPreservesItsScrollWhenSwipeReturnsAndVerticalDragDoesNotPage" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="1025261664" result="Passed" start-time="2026-10-15 21:53:56Z" end-time="2026-10-15 21:53:59Z" duration="3.064920" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1092" name="EndTabsResistDraggingAndInterruptedDragRestoresControls" fullname="MobileMenuBankPlayTests.EndTabsResistDraggingAndInterruptedDragRestoresControls" methodname="EndTabsResistDraggingAndInterruptedDragRestoresControls" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="833402942" result="Passed" start-time="2026-10-15 21:53:59Z" end-time="2026-10-15 21:54:02Z" duration="3.386329" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1094" name="RapidSwipesCanRepeatAcrossEveryTabWithoutWaitingForAnimation" fullname="MobileMenuBankPlayTests.RapidSwipesCanRepeatAcrossEveryTabWithoutWaitingForAnimation" methodname="RapidSwipesCanRepeatAcrossEveryTabWithoutWaitingForAnimation" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="1895018659" result="Passed" start-time="2026-10-15 21:54:02Z" end-time="2026-10-15 21:54:05Z" duration="3.037826" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1100" name="ModularFurniturePlayTests" fullname="ModularFurniturePlayTests" classname="ModularFurniturePlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 21:54:05Z" end-time="2026-10-15 21:54:14Z" duration="8.535557" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1102" name="CancelledAndInterruptedSwipesPreserveOnlyTheVisibleCabinetMaterials" fullname="ModularFurniturePlayTests.CancelledAndInterruptedSwipesPreserveOnlyTheVisibleCabinetMaterials" methodname="CancelledAndInterruptedSwipesPreserveOnlyTheVisibleCabinetMaterials" classname="ModularFurniturePlayTests" runstate="Runnable" seed="89042378" result="Passed" start-time="2026-10-15 21:54:05Z" end-time="2026-10-15 21:54:08Z" duration="2.751970" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1103" name="ShelvesHaveIndependentPartsAndStyleButtonsStayInsideTheirCards" fullname="ModularFurniturePlayTests.ShelvesHaveIndependentPartsAndStyleButtonsStayInsideTheirCards" methodname="ShelvesHaveIndependentPartsAndStyleButtonsStayInsideTheirCards" classname="ModularFurniturePlayTests" runstate="Runnable" seed="2030108829" result="Passed" start-time="2026-10-15 21:54:08Z" end-time="2026-10-15 21:54:10Z" duration="1.782177" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1101" name="SwipeKeepsCabinetMaterialsAliveAcrossEveryLobbyStyle" fullname="ModularFurniturePlayTests.SwipeKeepsCabinetMaterialsAliveAcrossEveryLobbyStyle" methodname="SwipeKeepsCabinetMaterialsAliveAcrossEveryLobbyStyle" classname="ModularFurniturePlayTests" runstate="Runnable" seed="522055062" result="Passed" start-time="2026-10-15 21:54:10Z" end-time="2026-10-15 21:54:14Z" duration="3.987148" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Logs\local-validation\focused-play.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

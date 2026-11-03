@@ -8,6 +8,23 @@ namespace MonsterPouch.Gameplay.Board
             BoardManager boardManager,
             IReadOnlyList<BoardMovementIntent> movementIntents)
         {
+            return ResolveMovement(boardManager, movementIntents, true);
+        }
+
+        // Combat starts travel after arbitration and commits occupancy only on arrival.
+        // Immediate callers (including the board prototype) retain their existing API.
+        public static List<BoardMovementResult> ReserveMovement(
+            BoardManager boardManager,
+            IReadOnlyList<BoardMovementIntent> movementIntents)
+        {
+            return ResolveMovement(boardManager, movementIntents, false);
+        }
+
+        private static List<BoardMovementResult> ResolveMovement(
+            BoardManager boardManager,
+            IReadOnlyList<BoardMovementIntent> movementIntents,
+            bool confirmImmediately)
+        {
             if (movementIntents == null)
                 return new List<BoardMovementResult>();
 
@@ -97,6 +114,12 @@ namespace MonsterPouch.Gameplay.Board
 
                     if (outcome == BoardReservationOutcome.Reserved)
                     {
+                        if (!confirmImmediately)
+                        {
+                            results[originalIndex] = new BoardMovementResult(
+                                unit, targetCell, nextCell, BoardMovementStatus.Reserved);
+                            continue;
+                        }
                         bool moveConfirmed = boardManager.ConfirmMove(unit);
 
                         if (moveConfirmed)

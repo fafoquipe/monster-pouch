@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: b020a211f5203e8409a7c820506f82f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6344384712832101699
+    second: rosie-defeat_0
+  - first:
+      213: 4945475771234726838
+    second: rosie-defeat_1
+  - first:
+      213: 454038726249825506
+    second: rosie-defeat_2
+  - first:
+      213: 5236343034914406498
+    second: rosie-defeat_3
+  - first:
+      213: 5136345855732664354
+    second: rosie-defeat_4
+  - first:
+      213: 5125902925610408266
+    second: rosie-defeat_5
+  - first:
+      213: -8281318680373421623
+    second: rosie-defeat_6
+  - first:
+      213: -1535114388115018026
+    second: rosie-defeat_7
+  - first:
+      213: -3289604521516442841
+    second: rosie-defeat_8
+  - first:
+      213: 131767237698315314
+    second: rosie-defeat_9
+  - first:
+      213: 1400631077485564364
+    second: rosie-defeat_10
+  - first:
+      213: -3827310724080162573
+    second: rosie-defeat_11
+  - first:
+      213: 1580650125355767560
+    second: rosie-defeat_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 362.08844
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fall-0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 326
+        width: 336
+        height: 341
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959c42b7455872d46a82105019817599
+      internalID: 1694363374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall-1
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 323
+        width: 323
+        height: 344
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5338df62eee58dd4fa02df2038f98fd9
+      internalID: -1490568241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall-2
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 323
+        width: 309
+        height: 337
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67f1cd4bdf5a104bb0e81cad3a090b9
+      internalID: 1657580846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall-3
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 323
+        width: 306
+        height: 341
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11304fc9a6f202640988e1878ab7604a
+      internalID: 1161437495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall-4
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 323
+        width: 317
+        height: 342
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e2e0465cf3bb448adc6c3e2f2a1f12
+      internalID: -413088567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead-0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 69
+        width: 357
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591746f7e8cf0f74e8eb5ec8c0a4166b
+      internalID: -1829013771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead-1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 73
+        width: 351
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cb8b2159519f040b34aeb201a1e74c
+      internalID: 548393607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead-2
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 69
+        width: 381
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c15a7d885aeb264ca27ca8c8c4584ad
+      internalID: 65317083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead-3
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 70
+        width: 362
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1004748c07460784a91c5838a4ca3500
+      internalID: -1377592787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead-4
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 71
+        width: 373
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d0dcba3cc772b45aad996ed5c27d1f
+      internalID: -2030823399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4c01e5602cf5a914483a3a8dddee48a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dead-0: -1829013771
+      dead-1: 548393607
+      dead-2: 65317083
+      dead-3: -1377592787
+      dead-4: -2030823399
+      fall-0: 1694363374
+      fall-1: -1490568241
+      fall-2: 1657580846
+      fall-3: 1161437495
+      fall-4: -413088567
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

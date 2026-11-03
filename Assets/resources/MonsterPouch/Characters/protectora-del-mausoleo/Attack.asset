@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511ff38c74f24bcaaebcfb1a3166968f, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAttack
+  Kind: 1
+  DisplayName: "Ataque b\xE1sico"
+  Description: "Da\xF1o m\xE1gico: {basicDamage}. Alcance: {basicRange}. Cada {basicInterval}
+    s."
+  Damage: 3
+  Range: 4
+  Interval: 1.4
+  Windup: 0.3
+  Hold: 0.1
+  Recovery: 0.22
+  ProjectileSpeed: 6
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: catalog
+    NameEnglish: Stone rune
+    NameSpanish: "Runa p\xE9trea"
+    OverrideSize: 1
+    SizePercent: 37
+    LegacyPercent: -1
+    LegacyNoteEnglish: New clip; renderer calibration pending.
+    LegacyNoteSpanish: "Clip nuevo; calibraci\xF3n del renderer pendiente."
+    Frames:
+    - Sprite: {fileID: 21300000, guid: 900c39513e135b358fa099956fad358a, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.24609375
+        y: 0.3203125
+        width: 0.49609375
+        height: 0.2421875
+    - Sprite: {fileID: 21300000, guid: 0a1a4cfd46fa5f6d8f6bcf03dead2a11, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.25
+        y: 0.30859375
+        width: 0.52734375
+        height: 0.2578125
+    - Sprite: {fileID: 21300000, guid: dca4effb787d5f268a666ff6be625070, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.20703125
+        y: 0.29296875
+        width: 0.55859375
+        height: 0.26953125
+    - Sprite: {fileID: 21300000, guid: 049ed9efac885543b165a162b3d74b46, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.26953125
+        y: 0.30859375
+        width: 0.44140625
+        height: 0.24609375
+  ProjectilePrefab: {fileID: 0}
+  Sound: {fileID: 0}

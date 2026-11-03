@@ -9,6 +9,7 @@ namespace MonsterPouch.Gameplay.Board
         [SerializeField] private Vector2 cellSize = new Vector2(0.26f, 0.18f);
         [SerializeField] private Vector2 boardOffset = Vector2.zero;
 
+        public bool Flipped { get; set; }
         public BoardManager BoardManager => boardManager;
         public Vector2 CellSize => cellSize;
         public Vector2 BoardOffset => boardOffset;
@@ -37,7 +38,8 @@ namespace MonsterPouch.Gameplay.Board
             float x = (worldPosition.x - origin.x - boardOffset.x) / cellSize.x;
             float y = (worldPosition.y - origin.y - boardOffset.y) / cellSize.y;
             if (x < -.5f || x >= BoardManager.Width - .5f || y < -.5f || y >= BoardManager.Height - .5f) return false;
-            cell = boardManager.GetCell(Mathf.FloorToInt(x + .5f), Mathf.FloorToInt(y + .5f));
+            int column=Mathf.FloorToInt(x+.5f),row=Mathf.FloorToInt(y+.5f);
+            cell = boardManager.GetCell(Flipped?BoardManager.Width-1-column:column,Flipped?BoardManager.Height-1-row:row);
             return cell != null;
         }
 
@@ -59,8 +61,8 @@ namespace MonsterPouch.Gameplay.Board
                 : transform.position;
 
             worldPosition = new Vector3(
-                origin.x + boardOffset.x + cell.X * cellSize.x,
-                origin.y + boardOffset.y + cell.Y * cellSize.y,
+                origin.x + boardOffset.x + (Flipped?BoardManager.Width-1-cell.X:cell.X) * cellSize.x,
+                origin.y + boardOffset.y + (Flipped?BoardManager.Height-1-cell.Y:cell.Y) * cellSize.y,
                 origin.z);
 
             return true;

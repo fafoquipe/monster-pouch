@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92b2e751e1c7204785d329593be2200, type: 3}
+  m_Name: lounge-scenery
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Presentation.ArenaSceneryDefinition
+  Floor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  Wall: {r: 0.55, g: 0.54, b: 0.66, a: 1}
+  WallDetail: {r: 0.48, g: 0.47, b: 0.59, a: 1}
+  Trim: {r: 0.72, g: 0.65, b: 0.47, a: 1}
+  Carpet: {r: 0.38, g: 0.13, b: 0.18, a: 1}
+  StoneWall: 0
+  Carpets: 0
+  Tabletop: 1
+  Saturation: 0.86
+  FloorTexture: {fileID: 21300000, guid: 5a1b2c3d4e5f67890123456789abcdef, type: 3}
+  FloorTileWidth: 941
+  FloorStartsAboveBoard: 20
+  ShadowDirection: {x: 0.22, y: 1}
+  ShadowLength: 0.48
+  Elements:
+  - Name: Lampara de mesa -1
+    Sprite: {fileID: -1605926098, guid: f26ace58be2ba454bbfe7c0b2de6ce97, type: 3}
+    Anchor: 2
+    Foot: {x: -255, y: -172}
+    Width: 76
+    BottomPadding: 0.003816794
+    FlipX: 0
+    Rotation: 0
+    Shadow: 0.4
+    Order: 10
+    LightStrength: 0.18
+    LightRadius: 440
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Bandeja del croupier -1
+    Sprite: {fileID: 2021972776, guid: f26ace58be2ba454bbfe7c0b2de6ce97, type: 3}
+    Anchor: 2
+    Foot: {x: -146, y: -127}
+    Width: 139
+    BottomPadding: 0.005221932
+    FlipX: 0
+    Rotation: 0
+    Shadow: 0.4
+    Order: 10
+    LightStrength: 0
+    LightRadius: 440
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Cartas extendidas -1
+    Sprite: {fileID: -135597856, guid: f26ace58be2ba454bbfe7c0b2de6ce97, type: 3}
+    Anchor: 2
+    Foot: {x: -130, y: 86}
+    Width: 101
+    BottomPadding: 0.0043290043
+    FlipX: 0
+    Rotation: 0
+    Shadow: 0.29
+    Order: 10
+    LightStrength: 0
+    LightRadius: 440
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Lampara de mesa 1
+    Sprite: {fileID: -1605926098, guid: f26ace58be2ba454bbfe7c0b2de6ce97, type: 3}
+    Anchor: 3
+    Foot: {x: 248, y: -90}
+    Width: 83
+    BottomPadding: 0.003816794
+    FlipX: 0
+    Rotation: 0
+    Shadow: 0.4
+    Order: 10
+    LightStrength: 0.18
+    LightRadius: 440
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Mazo del croupier 1
+    Sprite: {fileID: 1927547527, guid: f26ace58be2ba454bbfe7c0b2de6ce97, type: 3}
+    Anchor: 3
+    Foot: {x: 226, y: 72}
+    Width: 75
+    BottomPadding: 0.004056795
+    FlipX: 0
+    Rotation: 0
+    Shadow: 0.37
+    Order: 10
+    LightStrength: 0
+    LightRadius: 440
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Apuestas laterales 1
+    Sprite: {fileID: 21300000, guid: cdd0b179358c1b84690f201d81b87ce0, type: 3}
+    Anchor: 3
+    Foot: {x: 140, y: -30}
+    Width: 90
+    BottomPadding: 0.03164557
+    FlipX: 0
+    Rotation: 0
+    Shadow: 0.38
+    Order: 10
+    LightStrength: 0
+    LightRadius: 440
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}

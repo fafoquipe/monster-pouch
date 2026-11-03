@@ -1,0 +1,684 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d64d4b7e684580842df96b6c384430, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterDefinition
+  stableId: titanica
+  General:
+    Ruleset: 1
+    BasicDamageType: 0
+    BaseArmor: 0
+    PassiveAbility:
+      EffectId: titanica-hielo-firme
+      Trigger: 0
+      EveryAttacks: 0
+      Id: titanica-hielo-firme
+      Name: Hielo firme
+      Description: "B\xE1sicos: ralentiza {slowPercent}% durante {duration} s. Por
+        cada {magicEvery} ataques m\xE1gicos recibidos, anula el \xFAltimo."
+      Parameters:
+      - Key: slowPercent
+        Value: 15
+      - Key: duration
+        Value: 1.5
+      - Key: magicEvery
+        Value: 4
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    UsesDocumentedRules: 1
+    AttackKind: 0
+    BasicAttackName: "Ataque b\xE1sico"
+    BasicAttackDescription: Golpea cuerpo a cuerpo con su ancla de hielo.
+    SourceDocument: Eronya-habilidades-y-escalado.pdf
+    SourcePages: 8,9
+    HasProvisionalBalance: 0
+    EnergyMax: 20
+    EnergyPerAttack: 1
+    EnergyOnDamage: 2
+    EnergyPerSecond: 0
+    Id: titanica
+    DisplayName: "Tit\xE1nica"
+    IsMonster: 0
+    MaxHealth: 78
+    Damage: 4
+    AttackInterval: 1.55
+    AttackWindup: 1.55
+    AttackHold: 0
+    AttackRecovery: 0
+    ProjectileSpeed: 10
+    AttackRange: 1
+    MoveInterval: 1.25
+    IQSpeed: 6
+    BaseCost: 3
+    TargetPolicy: 0
+    Formation: 0
+    BaseAbility:
+      EffectId: titanica-ancla-glacial
+      Trigger: 1
+      EveryAttacks: 0
+      Id: titanica-ancla-glacial
+      Name: Ancla glacial
+      Description: "Alcance: {range}. Da\xF1o m\xE1gico: {damage}. Ra\xEDces: {rootDuration}
+        s; inmoviliza, permite atacar."
+      Parameters:
+      - Key: damage
+        Value: 10
+      - Key: rootDuration
+        Value: 2
+      - Key: range
+        Value: 1
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    Tricks:
+    - EffectId: titanica-hielo-grueso
+      Trigger: 0
+      EveryAttacks: 0
+      Id: titanica-hielo-grueso
+      Name: Hielo grueso
+      Description: 'Al lanzar Ancla, escudo: {shield} durante {duration} s.'
+      Parameters:
+      - Key: shield
+        Value: 10
+      - Key: duration
+        Value: 4
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 3
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - EffectId: titanica-ancla-profunda
+      Trigger: 0
+      EveryAttacks: 0
+      Id: titanica-ancla-profunda
+      Name: Ancla profunda
+      Description: "Ancla: ra\xEDces {rootDuration} s; inmoviliza, permite atacar.
+        Por cada {physicalEvery} ataques f\xEDsicos recibidos, anula el \xFAltimo."
+      Parameters:
+      - Key: rootDuration
+        Value: 3
+      - Key: physicalEvery
+        Value: 5
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 3
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - EffectId: titanica-frente-helado
+      Trigger: 0
+      EveryAttacks: 0
+      Id: titanica-frente-helado
+      Name: Frente helado
+      Description: "Ancla: los dem\xE1s enemigos adyacentes a Tit\xE1nica reciben
+        {damage} de da\xF1o m\xE1gico y ralentizaci\xF3n {slowPercent}% durante {duration}
+        s."
+      Parameters:
+      - Key: damage
+        Value: 7
+      - Key: slowPercent
+        Value: 25
+      - Key: duration
+        Value: 3
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 3
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      EffectId: 
+      Trigger: 0
+      EveryAttacks: 0
+      Id: 
+      Name: 
+      Description: 
+      Parameters: []
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 0
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 0
+    SummonInterval: 0
+    MaxLivingSummons: 0
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  Description: "Tit\xE1nica: tanque y controladora."
+  Attack: {fileID: 11400000, guid: 4a2f7b806871b31f212e89409c3ed289, type: 2}
+  Ability: {fileID: 11400000, guid: 880424cbab93c6db6b229373fc3c3511, type: 2}
+  Upgrades:
+  - {fileID: 11400000, guid: 3e2da9af4d21db70dde2d76855273403, type: 2}
+  - {fileID: 11400000, guid: 1b94b95d2053f11b1e5ae7fd7c19ea90, type: 2}
+  - {fileID: 11400000, guid: f605080a999bc856c3b1075a5ec346be, type: 2}
+  Visuals:
+    Id: titanica
+    TravelMotion: 3
+    WholeBodyHopUsesPoses: 1
+    AuthoredBodyMotion: 1
+    IdleDirections:
+    - {fileID: 21300000, guid: 9c158b38a12756533a1647dbc2a32e97, type: 3}
+    - {fileID: 21300000, guid: dc3d21b0635762b8256806dca7073443, type: 3}
+    - {fileID: 21300000, guid: d876b451bc8ed4caad61eb9ce4055b91, type: 3}
+    - {fileID: 21300000, guid: 7ca54b059a1f77ae0219bbe43fafca05, type: 3}
+    - {fileID: 21300000, guid: f87cc89d55638c682de51f83fe85682f, type: 3}
+    - {fileID: 21300000, guid: f07e322a00f184662809ffb54f9abd34, type: 3}
+    - {fileID: 21300000, guid: c1b2855eaee9c279e097c94fce884230, type: 3}
+    - {fileID: 21300000, guid: c68eed784d5ee616eaa8a63f3e5a0605, type: 3}
+    AttackDirections:
+    - {fileID: 21300000, guid: 93880d4a073ff60599720e8f078c1c63, type: 3}
+    - {fileID: 21300000, guid: dc7d8ea5b97bafc2aa609464f5aafaa1, type: 3}
+    - {fileID: 21300000, guid: 6eae52a0856b5bb244c442679b986bfc, type: 3}
+    - {fileID: 21300000, guid: 1417000410b393567c7ac8a6390b0faf, type: 3}
+    - {fileID: 21300000, guid: ebaa771221ce6648a4ae68e25e44d399, type: 3}
+    - {fileID: 21300000, guid: f2e88d58481dd7e8c761b155eeb1df59, type: 3}
+    - {fileID: 21300000, guid: 51c2a3ef14694c86368f2c574e42be18, type: 3}
+    - {fileID: 21300000, guid: 002eedb78d5d300cfdeaa882be0cd282, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle:
+      - {fileID: 21300000, guid: 9c158b38a12756533a1647dbc2a32e97, type: 3}
+      - {fileID: 21300000, guid: f27df85d18a1fc8976ddf38a35cd9fd7, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 0d7a202b7aab915ee6683721c456a53d, type: 3}
+      - {fileID: 21300000, guid: 39a01c4ff38d4544c04febd99b3a1dd4, type: 3}
+      - {fileID: 21300000, guid: 6c18b42b839e6f25aab4d585f68a875b, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 0d7a202b7aab915ee6683721c456a53d, type: 3}
+      - {fileID: 21300000, guid: 39a01c4ff38d4544c04febd99b3a1dd4, type: 3}
+      - {fileID: 21300000, guid: 6c18b42b839e6f25aab4d585f68a875b, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: 1424c778ae2eeec674a83c43b8a8788c, type: 3}
+      - {fileID: 21300000, guid: 93880d4a073ff60599720e8f078c1c63, type: 3}
+      - {fileID: 21300000, guid: f680dc6e8f629a600bc0078cb95b0f80, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 28d70e02e365c1fbe53c816146553d70, type: 3}
+      - {fileID: 21300000, guid: fa354fcb0cb7b0572aff436a2c3edce3, type: 3}
+      - {fileID: 21300000, guid: 167b5a9938f36dfb84c17dbe166273f9, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: c49e89b608446022d7c2d0cb61fdf491, type: 3}
+      - {fileID: 21300000, guid: b6d16828e3c7670026720f63df655d52, type: 3}
+      - {fileID: 21300000, guid: 7aff9df3b7bb6016fb309c12ed8c5000, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.65
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: dc3d21b0635762b8256806dca7073443, type: 3}
+      - {fileID: 21300000, guid: d640c9f03a812e85fc4583eea26fa5dd, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: bbca24562a831192b40cd9ecfbb7e683, type: 3}
+      - {fileID: 21300000, guid: 78d848203a1a68d415591b9fa2dc62ba, type: 3}
+      - {fileID: 21300000, guid: f3d86b3764664c2d44dc08167d224f68, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: bbca24562a831192b40cd9ecfbb7e683, type: 3}
+      - {fileID: 21300000, guid: 78d848203a1a68d415591b9fa2dc62ba, type: 3}
+      - {fileID: 21300000, guid: f3d86b3764664c2d44dc08167d224f68, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: 84d421cdf24a5c1f5e0eb96e7df4ec30, type: 3}
+      - {fileID: 21300000, guid: dc7d8ea5b97bafc2aa609464f5aafaa1, type: 3}
+      - {fileID: 21300000, guid: 253d3a0888cbb0f953612df463b51107, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 1d514d8f87d475bd9dfacbb68af436e5, type: 3}
+      - {fileID: 21300000, guid: 8fd04c96fea740e938dc9b25ebb13f84, type: 3}
+      - {fileID: 21300000, guid: 8e3ad71251e211aaf1294206cd15d7b9, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: dc8a3fee555171be2076beaff1463807, type: 3}
+      - {fileID: 21300000, guid: b8917fa062ea1e83cf1b51791a6e4a1d, type: 3}
+      - {fileID: 21300000, guid: 0e10c81ca76052daaf9bc469602cef02, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.65
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: d876b451bc8ed4caad61eb9ce4055b91, type: 3}
+      - {fileID: 21300000, guid: 1d1a7cd0805deac40c88d66ee41eadc3, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: e722639daa8d0440922a051655b4b0c6, type: 3}
+      - {fileID: 21300000, guid: 938f1752411bda772b93ae2300208590, type: 3}
+      - {fileID: 21300000, guid: 1780427bc86f3a01c8d78964d7f54e0a, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: e722639daa8d0440922a051655b4b0c6, type: 3}
+      - {fileID: 21300000, guid: 938f1752411bda772b93ae2300208590, type: 3}
+      - {fileID: 21300000, guid: 1780427bc86f3a01c8d78964d7f54e0a, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: ffb5af8ac690ded2fc11ac12ee4794c6, type: 3}
+      - {fileID: 21300000, guid: 6eae52a0856b5bb244c442679b986bfc, type: 3}
+      - {fileID: 21300000, guid: 0913e1ae92f892f001771fcd3bfa6ee1, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 5aebbf7de88aa30c8577afea9e895b0d, type: 3}
+      - {fileID: 21300000, guid: 828f0c9686bf50b7e188fd2badc21700, type: 3}
+      - {fileID: 21300000, guid: 39fb0d4f31d2928a0ef26e8503fa130e, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: f2af961191ee7f8045c22e6b3c330a3e, type: 3}
+      - {fileID: 21300000, guid: fb3ba197a45dfe090f43aed59f4cbd6b, type: 3}
+      - {fileID: 21300000, guid: a05c9ec7fbcf4e9cc0dd08d9900ac41a, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.65
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: 7ca54b059a1f77ae0219bbe43fafca05, type: 3}
+      - {fileID: 21300000, guid: 4efb11cd74a139e3b9dbfa3990a68d36, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: d9b06256fc25b821b99dbbad25e58a65, type: 3}
+      - {fileID: 21300000, guid: 7b07ed94e56cb0e67fff0aa1f49e280e, type: 3}
+      - {fileID: 21300000, guid: e57899cedd6233a13e0111bd546b94db, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: d9b06256fc25b821b99dbbad25e58a65, type: 3}
+      - {fileID: 21300000, guid: 7b07ed94e56cb0e67fff0aa1f49e280e, type: 3}
+      - {fileID: 21300000, guid: e57899cedd6233a13e0111bd546b94db, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: 680e780bd060263e230d1933cd22b8dd, type: 3}
+      - {fileID: 21300000, guid: 1417000410b393567c7ac8a6390b0faf, type: 3}
+      - {fileID: 21300000, guid: 0bf8ecdf99ffb2eae3613182f4e9d145, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 79829f88560427338af06d50e747c825, type: 3}
+      - {fileID: 21300000, guid: 5926b05572d222235d36f6d052c11cb1, type: 3}
+      - {fileID: 21300000, guid: a7604792e02cd5b314d3d51fd900e481, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: 6da24df197af29c92b4d5aca190c5ee3, type: 3}
+      - {fileID: 21300000, guid: 755dfa205b0af91b6450270805a520da, type: 3}
+      - {fileID: 21300000, guid: dceff2a7fa064abe6d0229b63dd6bf12, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.65
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: f87cc89d55638c682de51f83fe85682f, type: 3}
+      - {fileID: 21300000, guid: ed4122dd7c261faba28e7925083bfb6c, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 8fe0c67f8a0c38955826f3710f1c4851, type: 3}
+      - {fileID: 21300000, guid: 3df97b1eb02788d1dfd2e9b025be4897, type: 3}
+      - {fileID: 21300000, guid: 5c7a1ac49b817eaf23343a4deb3de30b, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 8fe0c67f8a0c38955826f3710f1c4851, type: 3}
+      - {fileID: 21300000, guid: 3df97b1eb02788d1dfd2e9b025be4897, type: 3}
+      - {fileID: 21300000, guid: 5c7a1ac49b817eaf23343a4deb3de30b, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: 0d9cbd1aa4d9754bbab21a094c8ac352, type: 3}
+      - {fileID: 21300000, guid: ebaa771221ce6648a4ae68e25e44d399, type: 3}
+      - {fileID: 21300000, guid: eebe7395bfa0f9c9f500389fdf399f77, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 9205f1df300b8a8a352485cfc08a7f6b, type: 3}
+      - {fileID: 21300000, guid: 879eb630b4212ca62c05d3419860fe6c, type: 3}
+      - {fileID: 21300000, guid: bf9fa3be6a755a1126dfe47216297de7, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: 4899e03ce01f64b742115b4fed2c928d, type: 3}
+      - {fileID: 21300000, guid: f16f00a96c683cf682df58ab3209be42, type: 3}
+      - {fileID: 21300000, guid: 6b2484b67a25a22a2e4a8e4ed3c82f11, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.65
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: f07e322a00f184662809ffb54f9abd34, type: 3}
+      - {fileID: 21300000, guid: 2c86213a5a784aff89821c0e9c063d22, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 74d12e49e0c7959318c60a60700956d2, type: 3}
+      - {fileID: 21300000, guid: 3e59ffc7cfb8f10438a92f5cf471e899, type: 3}
+      - {fileID: 21300000, guid: b51cf091b5c077ed7af615fe54cbc061, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 74d12e49e0c7959318c60a60700956d2, type: 3}
+      - {fileID: 21300000, guid: 3e59ffc7cfb8f10438a92f5cf471e899, type: 3}
+      - {fileID: 21300000, guid: b51cf091b5c077ed7af615fe54cbc061, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: f5d7918ec460d430c022ed9a020fc976, type: 3}
+      - {fileID: 21300000, guid: f2e88d58481dd7e8c761b155eeb1df59, type: 3}
+      - {fileID: 21300000, guid: bbbf9a678e982cfa8d4e66917c0ae519, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 3ec649be49cbcf78ae6c5c0e6d2d8af6, type: 3}
+      - {fileID: 21300000, guid: 1abdc4bee13f77519a2df73e1d6e97f2, type: 3}
+      - {fileID: 21300000, guid: 3daf9048355c257ac174d68614cb0a1e, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: 4754f83fe0e8a57aa46e0621757241ed, type: 3}
+      - {fileID: 21300000, guid: 627ee6ffeb75f248acdd3f8a255c22bb, type: 3}
+      - {fileID: 21300000, guid: 9670d4db393548b120cd41780f428224, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.65
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: c1b2855eaee9c279e097c94fce884230, type: 3}
+      - {fileID: 21300000, guid: 30066e79a8570b97182290f081442e23, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: a05ebb613b6995180698e7e2cd345713, type: 3}
+      - {fileID: 21300000, guid: 58abe0da2ae8bd23d81364f105f5510c, type: 3}
+      - {fileID: 21300000, guid: e2dfd960010ca804e84d8ae2ab1593f9, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: a05ebb613b6995180698e7e2cd345713, type: 3}
+      - {fileID: 21300000, guid: 58abe0da2ae8bd23d81364f105f5510c, type: 3}
+      - {fileID: 21300000, guid: e2dfd960010ca804e84d8ae2ab1593f9, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: 8b59a022a1eac3b2526fa37c6acd3358, type: 3}
+      - {fileID: 21300000, guid: 51c2a3ef14694c86368f2c574e42be18, type: 3}
+      - {fileID: 21300000, guid: b54ff692b883187336bda49e44ddba19, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 2e24124f8685fc196d70e58fdc9dcf40, type: 3}
+      - {fileID: 21300000, guid: a6232200721da5b060785648a058fe8e, type: 3}
+      - {fileID: 21300000, guid: 8a68fe0cfdc339ab6c722fef2f2459e1, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: 59e9d3dc5e2791ab6afbc43b660818dd, type: 3}
+      - {fileID: 21300000, guid: 552c60c405143518d3c0bd69729cf154, type: 3}
+      - {fileID: 21300000, guid: 56f453aaad83e034204a7cbf4333532d, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.65
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: c68eed784d5ee616eaa8a63f3e5a0605, type: 3}
+      - {fileID: 21300000, guid: 04fc86c6fa34c20b36f28f819ae03a66, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 04387c69e2d11d13eb0bf46483a95585, type: 3}
+      - {fileID: 21300000, guid: f122dd535c48195ebaea5f8c20650c1f, type: 3}
+      - {fileID: 21300000, guid: c742246e73cfa29f658eae1fde61db89, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 04387c69e2d11d13eb0bf46483a95585, type: 3}
+      - {fileID: 21300000, guid: f122dd535c48195ebaea5f8c20650c1f, type: 3}
+      - {fileID: 21300000, guid: c742246e73cfa29f658eae1fde61db89, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: 0ddff8428485ac67160ed48de728c3d5, type: 3}
+      - {fileID: 21300000, guid: 002eedb78d5d300cfdeaa882be0cd282, type: 3}
+      - {fileID: 21300000, guid: 44393c84468a257279932b652d0458d8, type: 3}
+      Death:
+      - {fileID: 21300000, guid: fe4452bb66342a3b7a1194f4a90c1ed9, type: 3}
+      - {fileID: 21300000, guid: 5ae9e73fc817fa38957f4d9728d86b7c, type: 3}
+      - {fileID: 21300000, guid: 41343274e77ce9dc49f007a2eab06f09, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: 836b2fc3eef905545f7f5f9ddedd7a37, type: 3}
+      - {fileID: 21300000, guid: 1b99c682ed6e0aa1e71ffe74ca572c1c, type: 3}
+      - {fileID: 21300000, guid: 0b289bf73dce7bb6f35f3596d965d45f, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.65
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    Portrait: {fileID: 21300000, guid: 518712dea4be343ac58919ef3d0f1813, type: 3}
+    WorldWidth: 1
+    DisplayScale: 1
+    InGameSizePercent: 31
+    LobbySizePercent: 100
+    BriefSizePercent: 115
+    ReferencePixelWidth: 100
+    FootPivot: {x: 0.5, y: 0.1}
+    VitalsHeadAnchor: {x: 0, y: 1.3333334}
+    ProvisionalDirectionalProjection: 0
+    AbilityAnimationDuration: 0.65
+    HitFlashDuration: 0.16
+    AbilityPulseDuration: 0.42
+    AbilityPulseScale: 0.09
+    MoveEase: 0.35
+    MoveArcHeight: 0.025
+    WalkWeight: 1
+    SuperReadyPulseScale: 0.025
+    SourceNotes: Aquarion authored poses; same PPU and support point; no baked hop
+      translation or shadow. Shared runtime owns gameplay clocks. Offline validated;
+      native QA pending.
+  Portrait: {fileID: 21300000, guid: 518712dea4be343ac58919ef3d0f1813, type: 3}
+  Card: {fileID: 21300000, guid: c0b1f40368ce7fb73d5350ea139ad27a, type: 3}
+  Icon: {fileID: 21300000, guid: 8075ad41a535e4b80eb42632b291c092, type: 3}
+  Prefab: {fileID: 0}

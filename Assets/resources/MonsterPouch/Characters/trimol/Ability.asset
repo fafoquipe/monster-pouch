@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Ability
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: trimol-boulder
+    Trigger: 2
+    EveryAttacks: 3
+    Id: trimol-boulder
+    Name: Pedrada Salvaje
+    Description: "Cada 4 ataques, lanza una roca: da\xF1o \xD72 y 1 s de aturdimiento
+      en su recorrido."
+    Parameters:
+    - Key: every
+      Value: 4
+    - Key: multiplier
+      Value: 2
+    - Key: duration
+      Value: 1
+    - Key: castDuration
+      Value: 0.25
+    - Key: holdDuration
+      Value: 0
+    - Key: recoveryDuration
+      Value: 0.15
+    - Key: damageOverride
+      Value: -1
+    Area:
+      Shape: 0
+      SquareSize: 0
+      IncludeCenter: 0
+      UpWidth: 1
+      UpDepth: 0
+      RightWidth: 1
+      RightDepth: 0
+      DownWidth: 1
+      DownDepth: 0
+      LeftWidth: 1
+      LeftDepth: 0
+    Cost: 0
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: large-rock
+    NameEnglish: Large boulder
+    NameSpanish: Roca grande
+    OverrideSize: 1
+    SizePercent: 54.9
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames: []
+  Icon: {fileID: 0}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

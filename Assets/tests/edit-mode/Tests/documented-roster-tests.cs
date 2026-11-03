@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using MonsterPouch.Gameplay.Match;
+using MonsterPouch.Gameplay.Characters;
 using MonsterPouch.Gameplay.Units;
 using NUnit.Framework;
 using UnityEngine;
@@ -15,8 +16,9 @@ namespace MonsterPouch.Gameplay.Tests
             MatchConfig config = MatchConfig.CreateDocumented();
             try
             {
-                Assert.That(config.Units.Count(unit => unit.IsMonster), Is.EqualTo(5));
-                Assert.That(config.Units.Count(unit => !unit.IsMonster), Is.EqualTo(14));
+                var characters=Resources.LoadAll<CharacterDefinition>("MonsterPouch/Characters");
+                CollectionAssert.AreEquivalent(characters.Where(c=>c.General.IsMonster).Select(c=>c.Id),config.Units.Where(u=>u.IsMonster).Select(u=>u.Id));
+                CollectionAssert.AreEquivalent(characters.Where(c=>!c.General.IsMonster).Select(c=>c.Id),config.Units.Where(u=>!u.IsMonster).Select(u=>u.Id));
                 Assert.That(config.Get("dummy"), Is.Null, "Dummy belongs to Kayon's summon pool.");
                 Assert.That(config.Get("bugui"), Is.Not.Null, "PDF name takes priority over mockup label Bugmy.");
                 foreach (UnitDefinition unit in config.Units.Where(unit => !unit.IsMonster))
@@ -34,11 +36,13 @@ namespace MonsterPouch.Gameplay.Tests
         {
             var ids = new HashSet<string>();
             var effects = new HashSet<string>();
+            var sources=Resources.LoadAll<CharacterDefinition>("MonsterPouch/Characters").ToDictionary(c=>c.Id,c=>c.General.SourceDocument);
             foreach (UnitDefinition definition in DocumentedRoster.CreateAll())
             {
                 Assert.That(ids.Add(definition.Id), Is.True, definition.Id);
                 Assert.That(definition.UsesDocumentedRules, Is.True);
-                Assert.That(definition.SourceDocument, Is.EqualTo(definition.IsMonster ? "Monsters.pdf" : "whelps.pdf"));
+                Assert.IsNotEmpty(definition.SourceDocument);
+                Assert.That(definition.SourceDocument,Is.EqualTo(sources[definition.Id]));
                 Assert.That(definition.SourcePages, Is.Not.Empty);
                 Assert.That(definition.HasProvisionalBalance, Is.True, "PDF omits base balance numbers.");
                 Assert.That(definition.Tricks.Length, Is.EqualTo(3));
@@ -101,13 +105,13 @@ namespace MonsterPouch.Gameplay.Tests
         }
 
         [Test]
-        public void BlotanHealthBonusIsAppliedOnceToSnapshot()
+        public void BlotanEscapeUpgradeDoesNotIncreaseHealth()
         {
             UnitDefinition definition = DocumentedRoster.CreateBlotan();
             var owned = new OwnedUnit(definition);
             owned.Tricks[1] = true;
-            Assert.That(UnitStats.FromDefinition(definition, owned).MaxHealth, Is.EqualTo(definition.MaxHealth + 20));
-            Assert.That(UnitStats.FromDefinition(definition, owned).MaxHealth, Is.EqualTo(definition.MaxHealth + 20));
+            Assert.That(UnitStats.FromDefinition(definition, owned).MaxHealth, Is.EqualTo(definition.MaxHealth));
+            Assert.That(UnitStats.FromDefinition(definition, owned).MaxHealth, Is.EqualTo(definition.MaxHealth));
         }
 
         [Test]

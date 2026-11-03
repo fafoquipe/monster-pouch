@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 0fc1c735a5a0c154994b2bc0e628dea0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6003434812180358989
+    second: blotan-combat_0
+  - first:
+      213: -6903538385423806643
+    second: blotan-combat_1
+  - first:
+      213: -1557763056506238426
+    second: blotan-combat_2
+  - first:
+      213: 1157466758695014322
+    second: blotan-combat_3
+  - first:
+      213: 4085568322877315325
+    second: blotan-combat_4
+  - first:
+      213: 882076477191889015
+    second: blotan-combat_5
+  - first:
+      213: 8369628389185467659
+    second: blotan-combat_6
+  - first:
+      213: -577884065788950086
+    second: blotan-combat_7
+  - first:
+      213: -6573524374577005518
+    second: blotan-combat_8
+  - first:
+      213: 1530867496663367095
+    second: blotan-combat_9
+  - first:
+      213: 6829842803132743341
+    second: blotan-combat_10
+  - first:
+      213: 217966472446311197
+    second: blotan-combat_11
+  - first:
+      213: 8078218910506517599
+    second: blotan-combat_12
+  - first:
+      213: 2710596709624240203
+    second: blotan-combat_13
+  - first:
+      213: -1846190919391924717
+    second: blotan-combat_14
+  - first:
+      213: 2977493317099887635
+    second: blotan-combat_15
+  - first:
+      213: -4022110957154807196
+    second: blotan-combat_16
+  - first:
+      213: 8097512852079065477
+    second: blotan-combat_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blotan-combat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 891
+        width: 246
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b896cb88d38faca0800000000000000
+      internalID: -6003434812180358989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 889
+        width: 124
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f4a8b3a64b130a0800000000000000
+      internalID: -6903538385423806643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 647
+        width: 249
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a08b4e0c6b16ae0800000000000000
+      internalID: -1557763056506238426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 266
+        width: 123
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfc65f62e5201010800000000000000
+      internalID: 1157466758695014322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_4
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 898
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8d0be4ebad2b830800000000000000
+      internalID: 4085568322877315325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 242
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77020cfe1e3cd3c00800000000000000
+      internalID: 882076477191889015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 761
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05bc6ffca4e62470800000000000000
+      internalID: 8369628389185467659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 763
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab98a410181faf7f0800000000000000
+      internalID: -577884065788950086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_8
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 762
+        width: 122
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c37fac86626c4a0800000000000000
+      internalID: -6573524374577005518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 634
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdbfc890ebbe3510800000000000000
+      internalID: 1530867496663367095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_10
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 0
+        width: 254
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae3c78e7d978ce50800000000000000
+      internalID: 6829842803132743341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_11
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 635
+        width: 128
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b7b131a5f560300800000000000000
+      internalID: 217966472446311197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_12
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 505
+        width: 117
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5485928c499b1070800000000000000
+      internalID: 8078218910506517599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_13
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 379
+        width: 115
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48de769859fd9520800000000000000
+      internalID: 2710596709624240203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 249
+        width: 113
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ea71ee3230166e0800000000000000
+      internalID: -1846190919391924717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_15
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 252
+        width: 118
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c96de756e225920800000000000000
+      internalID: 2977493317099887635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_16
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 253
+        width: 120
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462d49ff4679e28c0800000000000000
+      internalID: -4022110957154807196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-combat_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 375
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58935585905206070800000000000000
+      internalID: 8097512852079065477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blotan-combat_0: -6003434812180358989
+      blotan-combat_1: -6903538385423806643
+      blotan-combat_10: 6829842803132743341
+      blotan-combat_11: 217966472446311197
+      blotan-combat_12: 8078218910506517599
+      blotan-combat_13: 2710596709624240203
+      blotan-combat_14: -1846190919391924717
+      blotan-combat_15: 2977493317099887635
+      blotan-combat_16: -4022110957154807196
+      blotan-combat_17: 8097512852079065477
+      blotan-combat_2: -1557763056506238426
+      blotan-combat_3: 1157466758695014322
+      blotan-combat_4: 4085568322877315325
+      blotan-combat_5: 882076477191889015
+      blotan-combat_6: 8369628389185467659
+      blotan-combat_7: -577884065788950086
+      blotan-combat_8: -6573524374577005518
+      blotan-combat_9: 1530867496663367095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

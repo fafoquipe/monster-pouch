@@ -1,0 +1,866 @@
+fileFormatVersion: 2
+guid: 6b13690345c0e0a30625b64d1fbf8666
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 2
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: martio-effects-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 665
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061d9b9f6df032a4cb3c626c57749b9c
+      internalID: 607564399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 665
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6347b13eda68e43b534581960972e2
+      internalID: -1689340620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 665
+        width: 221
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34541aeac7ee33847a1004b6766f6288
+      internalID: 989480447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 665
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f9d01a3d0e22e4e920a32082ee60c1
+      internalID: -277160428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 665
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f4121b00e4a204fa207a99dd02a0fe
+      internalID: 32358026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 665
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e5d425099e63e45a33fbc581c530c3
+      internalID: 1266945666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 665
+        width: 221
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b96346c044bf2849bc467259b15b99d
+      internalID: -636131559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 665
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4111f8656e0a7c94a85be85efdeba45e
+      internalID: -1139041809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b788174fe649a34287857d65a970669
+      internalID: 1978635874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 443
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2479b09f586a98c44800ad69d20c6a4b
+      internalID: -527689018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 443
+        width: 221
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc06842468baa843b4db573ed1d309b
+      internalID: 1149242443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 443
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a29e3262681174da8519b9a316dea2
+      internalID: -1185795402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 443
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27fe340ce2568a49bccc6ee704028cd
+      internalID: -1183069247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 443
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3a51b24d1aaa347a94fdf08d90a693
+      internalID: -974400750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 443
+        width: 221
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d27ab1d6408ae4facf806ce2ff8f83
+      internalID: 1270606157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 443
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483ec1d37ffab444e8f9e53cd29ddf03
+      internalID: -407369736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 222
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8742c6953cdbc7c4bb280e5615b38fbb
+      internalID: 2145895557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 222
+        width: 222
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4390f1f406dbec243933a5655d55eb45
+      internalID: 727668334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 222
+        width: 221
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf5b35cb83db6a47a64ffce0cdd6f69
+      internalID: 1337455913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 222
+        width: 222
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8297646155561e946a4d8bb94ad25a98
+      internalID: 1502860599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 222
+        width: 222
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d0b02080603f2438a165fdfef03ae8
+      internalID: 29244930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 222
+        width: 222
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2918ffd0b84df314da44442a7cdec39a
+      internalID: -662299769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 222
+        width: 221
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6482c693a8e9d1b429f3f1f335c6cd33
+      internalID: 1834745917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 222
+        width: 222
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17f7efe58e38cb4ca5368e5484aea69
+      internalID: 1327726564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7b03afc0d28ca44bab2d5d02be4d52
+      internalID: 1015117004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cd8c8753d2f4741a3c0c1bb2e0c2fa
+      internalID: 962970381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 221
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b2d6bd46dfc0c4c936b4af50269217
+      internalID: 431729443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4986a0480ccdd7d4d833f881f78db39e
+      internalID: 1539165018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cb03bc63820c34ab7d25559b825c10
+      internalID: -1709227983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 0
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fd5a69821a0a343abbf8365e01864a
+      internalID: 1461370162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 0
+        width: 221
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7494a4c8cf25ef94a953269d4c33a158
+      internalID: 36119657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-effects-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 0
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5703b4c9bdddf5e479db2bb820dcb2dc
+      internalID: -435240653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9ce7c51994212c94ebd4aaf1f6999824
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      martio-effects-r00-f00: 607564399
+      martio-effects-r00-f01: -1689340620
+      martio-effects-r00-f02: 989480447
+      martio-effects-r00-f03: -277160428
+      martio-effects-r00-f04: 32358026
+      martio-effects-r00-f05: 1266945666
+      martio-effects-r00-f06: -636131559
+      martio-effects-r00-f07: -1139041809
+      martio-effects-r01-f00: 1978635874
+      martio-effects-r01-f01: -527689018
+      martio-effects-r01-f02: 1149242443
+      martio-effects-r01-f03: -1185795402
+      martio-effects-r01-f04: -1183069247
+      martio-effects-r01-f05: -974400750
+      martio-effects-r01-f06: 1270606157
+      martio-effects-r01-f07: -407369736
+      martio-effects-r02-f00: 2145895557
+      martio-effects-r02-f01: 727668334
+      martio-effects-r02-f02: 1337455913
+      martio-effects-r02-f03: 1502860599
+      martio-effects-r02-f04: 29244930
+      martio-effects-r02-f05: -662299769
+      martio-effects-r02-f06: 1834745917
+      martio-effects-r02-f07: 1327726564
+      martio-effects-r03-f00: 1015117004
+      martio-effects-r03-f01: 962970381
+      martio-effects-r03-f02: 431729443
+      martio-effects-r03-f03: 1539165018
+      martio-effects-r03-f04: -1709227983
+      martio-effects-r03-f05: 1461370162
+      martio-effects-r03-f06: 36119657
+      martio-effects-r03-f07: -435240653
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

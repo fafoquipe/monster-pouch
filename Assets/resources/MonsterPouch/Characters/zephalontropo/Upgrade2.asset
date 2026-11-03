@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Upgrade2
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: zephalontropo-carga-expandida
+    Trigger: 0
+    EveryAttacks: 0
+    Id: zephalontropo-carga-expandida
+    Name: Carga expandida
+    Description: "Esfera pasa a 23 de da\xF1o principal y 12 de da\xF1o secundario."
+    Parameters:
+    - Key: damage
+      Value: 17
+    - Key: secondaryDamage
+      Value: 10
+    Area:
+      Shape: 0
+      SquareSize: 0
+      IncludeCenter: 0
+      UpWidth: 1
+      UpDepth: 0
+      RightWidth: 1
+      RightDepth: 0
+      DownWidth: 1
+      DownDepth: 0
+      LeftWidth: 1
+      LeftDepth: 0
+    Cost: 4
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals: []
+  Icon: {fileID: 21300000, guid: 36b824fd07465ed08a532a0ed997dcc4, type: 3}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

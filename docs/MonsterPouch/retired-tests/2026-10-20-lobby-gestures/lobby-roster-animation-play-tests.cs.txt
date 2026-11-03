@@ -1,0 +1,198 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using MonsterPouch.Gameplay.Match;
+using MonsterPouch.Local;
+using NUnit.Framework;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.TestTools;
+using UnityEngine.UI;
+
+public sealed class LobbyRosterAnimationPlayTests
+{
+    LocalGameUI ui;
+    LobbyAnimationDirector director;
+    MethodInfo showCollectionInfo;
+    bool matchWasEnabled, directorWasEnabled;
+    readonly Dictionary<string, string> preferences = new Dictionary<string, string>();
+    readonly HashSet<string> existingPreferences = new HashSet<string>();
+    static readonly string[] SelectionKeys =
+    {
+        "monster-pouch.decks.v1", "monster-pouch.monster", "monster-pouch.whelps"
+    };
+
+    [UnitySetUp]
+    public IEnumerator LoadShippedSceneWithoutChangingTheSavedRoster()
+    {
+        LobbyAnimationDirector.PlaybackEnabled=true;
+        foreach (string key in SelectionKeys)
+        {
+            if (PlayerPrefs.HasKey(key)) existingPreferences.Add(key);
+            preferences[key] = PlayerPrefs.GetString(key);
+        }
+        yield return SceneManager.LoadSceneAsync("Assets/Scenes/main-scene.unity", LoadSceneMode.Single);
+        yield return null;
+        yield return null;
+        ui = Object.FindFirstObjectByType<LocalGameUI>();
+        Assert.IsNotNull(ui, "The shipped scene must initialize its real collection UI.");
+        Assert.IsNotNull(ui.Match);
+        Assert.AreEqual(MatchPhase.Menu, ui.Match.Phase);
+        matchWasEnabled = ui.Match.enabled;
+        ui.Match.enabled = false;
+        director = ui.LobbyDirector;
+        directorWasEnabled = director.enabled;
+        // Use the production scheduler with an explicit clock, independent of
+        // editor focus or wall-clock stalls. No synthetic input device is needed.
+        director.enabled = false;
+        showCollectionInfo = typeof(LocalGameUI).GetMethod("ShowCollectionInfo",
+            BindingFlags.Instance | BindingFlags.NonPublic);
+        Assert.IsNotNull(showCollectionInfo, "Open the actual character details, not a test-only portrait.");
+    }
+
+    [UnityTearDown]
+    public IEnumerator ReleaseTheDetailsAndRestoreTheSceneClock()
+    {
+        LobbyAnimationDirector.PlaybackEnabled=false;
+        if (ui != null)
+        {
+            ui.CloseModal();
+            if (ui.Match != null) ui.Match.enabled = matchWasEnabled;
+        }
+        if (director != null) director.enabled = directorWasEnabled;
+        yield return null;
+        foreach (string key in SelectionKeys)
+        {
+            Assert.AreEqual(existingPreferences.Contains(key), PlayerPrefs.HasKey(key),
+                "Previewing a character must not create or remove saved selection data: " + key);
+            Assert.AreEqual(preferences[key], PlayerPrefs.GetString(key),
+                "Previewing the whole roster must not modify the user's saved Brief: " + key);
+        }
+        preferences.Clear();
+        existingPreferences.Clear();
+    }
+
+    [UnityTest]
+    public IEnumerator AllRealCharacterDetailsPreviewThenPlayTheirCompleteAuthoredFrames()
+    {
+        var definitions = ui.Match.Config.Units;
+        Assert.AreEqual(20, definitions.Length, "Exercise the entire shipped catalog, including every hero and whelp.");
+        Assert.IsTrue(definitions.All(definition => definition != null));
+        Assert.AreEqual(definitions.Length, definitions.Select(definition => definition.Id).Distinct().Count());
+        Assert.IsNotNull(Resources.Load<TextAsset>("MonsterPouch/UI/LobbyFrames/clips"));
+        var tested = new HashSet<string>();
+
+        foreach (var definition in definitions)
+        {
+            string id = definition.Id;
+            showCollectionInfo.Invoke(ui, new object[] { definition });
+            yield return null;
+            var details = ui.CanvasRoot.GetComponentsInChildren<RectTransform>()
+                .Single(rect => rect.name == "Character details");
+            var personalities = details.GetComponentsInChildren<LobbyPersonality>();
+            Assert.AreEqual(1, personalities.Length, id + ": the opened card must own exactly one animated portrait.");
+            var personality = personalities[0];
+            Assert.AreEqual(id, personality.UnitId, id + ": the card is wired to another character's animation.");
+            Assert.IsTrue(personality.isActiveAndEnabled, id);
+            Assert.IsTrue(personality.HasAuthoredFrames, id + ": no authored animation was loaded.");
+            var drawing = personality.GetComponentInChildren<LobbyFrameGraphic>();
+            Assert.IsNotNull(drawing, id + ": a static fallback portrait is insufficient.");
+            Assert.IsTrue(drawing.isActiveAndEnabled, id);
+            Assert.IsTrue(drawing.HasAuthoredFrames, id + ": the real detail must load its authored frame atlas.");
+            Assert.GreaterOrEqual(drawing.PoseCount,id=="rosie"?5:24,id);
+            var atlas=Resources.Load<Texture2D>(drawing.SourceClip.texture);Assert.IsNotNull(atlas,id);
+            Assert.IsFalse(personality.GetComponent<Image>().enabled,id+": the original static portrait would duplicate the moving arms.");
+            // A polished idle may override the archived reference in the manifest.
+            var idleTexture = Resources.Load<Texture2D>(drawing.SourceClip.idleTexture);
+            Assert.IsNotNull(idleTexture, id + ": the original gogos-minis idle resource is missing.");
+            Sprite idle = drawing.CurrentSprite;
+            Assert.IsNotNull(idle, id + ": the initial original idle is missing.");
+            Assert.AreEqual("gogos-minis-idle-" + id, idle.name, id);
+            Assert.AreSame(idleTexture, idle.texture, id);
+            Assert.AreSame(idleTexture, drawing.mainTexture, id);
+            Assert.IsFalse(personality.IsGesturing, id + ": opening the card must start from its original idle.");
+
+            // Opening any card previews its gesture promptly, without requiring
+            // a second tap or waiting the ordinary interval between repetitions.
+            director.Advance(.25f);
+            Assert.IsFalse(personality.IsGesturing, id + ": preserve a short readable idle before the preview.");
+            director.Advance(.8f);
+            Assert.IsTrue(personality.IsGesturing, id + ": no automatic card preview began within 1.05 seconds.");
+            AssertBudget(id);
+            Assert.AreSame(atlas, drawing.mainTexture, id + ": the automatic preview must render an authored frame.");
+            Assert.AreNotSame(idle, drawing.CurrentSprite, id + ": the preview never changed the displayed drawing.");
+            director.Advance(personality.GestureDuration + .1f);
+            Assert.IsFalse(personality.IsGesturing, id + ": the automatic preview never finished.");
+            Assert.AreSame(idle, drawing.CurrentSprite, id + ": the preview must return to the original idle.");
+            Assert.GreaterOrEqual(personality.SecondsUntilGesture, 12, id + ": the preview must not turn into a continuous loop.");
+
+            Vector3[] restGeometry = RenderedPositions(drawing, id);
+            Assert.IsTrue(personality.PlayGesture(), id + ": a visible card cannot start its authored gesture.");
+            Assert.IsTrue(personality.IsGesturing, id);
+            Assert.Greater(personality.GestureDuration, 0, id);
+            var seenFrames=new HashSet<int>();int previous=-1;
+            const int steps = 256;
+            float step = personality.GestureDuration / steps;
+            for (int tick = 0; tick < steps; tick++)
+            {
+                Assert.IsTrue(personality.IsGesturing, id + ": gesture stopped before its scheduled duration.");
+                Sprite sprite = drawing.CurrentSprite;
+                Assert.IsNotNull(sprite, id + ": a sampled pose is missing.");
+                Assert.AreNotSame(idle, sprite, id + ": an active gesture must show authored drawings.");
+                Assert.AreSame(atlas, sprite.texture, id);
+                Assert.AreSame(atlas, drawing.mainTexture, id);
+                Assert.GreaterOrEqual(drawing.FrameIndex,previous,id+": authored frames played backwards.");
+                previous=drawing.FrameIndex;seenFrames.Add(previous);
+                AssertBudget(id);
+                if (tick < steps - 1) director.Advance(step);
+            }
+            CollectionAssert.AreEquivalent(Enumerable.Range(0,drawing.PoseCount),seenFrames,id+": some authored frames never appeared.");
+
+            director.Advance(.1f);
+            Assert.IsFalse(personality.IsGesturing, id + ": gesture did not return to rest.");
+            Assert.IsTrue(drawing.IsAtRest, id + ": playback did not settle back to its exact idle.");
+            Assert.AreSame(idle, drawing.CurrentSprite, id + ": final rest is not the original idle.");
+            Assert.AreSame(idleTexture, drawing.mainTexture, id);
+            CollectionAssert.AreEqual(restGeometry, RenderedPositions(drawing, id), id + ": residual geometry remained after the gesture.");
+            Assert.GreaterOrEqual(personality.SecondsUntilGesture, 12, id);
+            director.Advance(2);
+            Assert.IsFalse(personality.IsGesturing, id + ": a completed gesture repeated immediately.");
+            Assert.AreSame(idle, drawing.CurrentSprite, id);
+            AssertBudget(id);
+            tested.Add(id);
+            ui.CloseModal();
+            director.Advance(0);
+            Assert.AreEqual(0, director.ActiveCount, id + ": closing the card leaked an animation slot.");
+            yield return null;
+        }
+        CollectionAssert.AreEquivalent(definitions.Select(definition => definition.Id), tested,
+            "Every real catalog entry must complete the original-idle / gesture / original-idle cycle.");
+    }
+
+    void AssertBudget(string id)
+    {
+        Assert.LessOrEqual(director.ActiveCount, 2, id + ": more than two characters animate simultaneously.");
+        Assert.LessOrEqual(ui.CanvasRoot.GetComponentsInChildren<LobbyPersonality>().Count(portrait => portrait.IsGesturing),
+            2, id + ": visible portrait state disagrees with the shared two-character animation budget.");
+    }
+
+    static Vector3[] RenderedPositions(LobbyFrameGraphic drawing, string id)
+    {
+        Canvas.ForceUpdateCanvases();
+        var points=new List<Vector3>();
+        var graphics=drawing.GetComponentsInChildren<Graphic>().AsEnumerable();
+        foreach(var graphic in graphics.Distinct())
+        {
+            if(!graphic.isActiveAndEnabled||graphic.color.a<=0)continue;
+            Mesh mesh=graphic.canvasRenderer.GetMesh();
+            if(mesh==null||mesh.vertexCount==0)continue;
+            var vertices=mesh.vertices;var colors=mesh.colors32;
+            for(int i=0;i<vertices.Length;i++)
+                if(colors.Length==0||colors[i].a>0)
+                    points.Add(drawing.transform.InverseTransformPoint(graphic.transform.TransformPoint(vertices[i])));
+        }
+        Assert.IsNotEmpty(points,id+": the real UI renderer has no visible geometry.");
+        return points.ToArray();
+    }
+}

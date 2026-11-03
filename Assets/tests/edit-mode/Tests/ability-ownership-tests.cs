@@ -1,7 +1,9 @@
 using System.Linq;
 using MonsterPouch.Gameplay.Match;
+using MonsterPouch.Gameplay.Characters;
 using MonsterPouch.Gameplay.Units;
 using NUnit.Framework;
+using UnityEngine;
 
 namespace MonsterPouch.Gameplay.Tests.EditMode
 {
@@ -11,7 +13,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         public void EveryDocumentedCharacter_RejectsEveryOtherCharactersAbilities()
         {
             var roster = DocumentedRoster.CreateAll();
-            Assert.AreEqual(19, roster.Length);
+            CollectionAssert.AreEquivalent(Resources.LoadAll<CharacterDefinition>("MonsterPouch/Characters").Select(c=>c.Id),roster.Select(u=>u.Id));
             foreach (var expected in roster)
             foreach (var foreign in roster.Where(unit => unit.Id != expected.Id))
             for(int selected=0;selected<(expected.IsMonster?3:1);selected++)

@@ -1,4 +1,14 @@
 {
   "name": "MonsterPouch.Local",
-  "references": ["MonsterPouch.Gameplay", "Unity.InputSystem", "UnityEngine.UI"]
+  "references": [
+    "MonsterPouch.Gameplay",
+    "Unity.InputSystem",
+    "UnityEngine.UI",
+    "Unity.Netcode.Runtime",
+    "Unity.Networking.Transport",
+    "Unity.Collections",
+    "Unity.Services.Core",
+    "Unity.Services.Authentication",
+    "Unity.Services.Multiplayer"
+  ]
 }

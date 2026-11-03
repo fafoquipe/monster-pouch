@@ -1,0 +1,4834 @@
+fileFormatVersion: 2
+guid: a919dc9d30826b84d9ab84aab4089d45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -916224402263996179
+    second: tsu-clean-v3_0
+  - first:
+      213: -642729177270492132
+    second: tsu-clean-v3_1
+  - first:
+      213: 7295617462705803482
+    second: tsu-clean-v3_2
+  - first:
+      213: 2741698471220540299
+    second: tsu-clean-v3_3
+  - first:
+      213: 8178561314746099673
+    second: tsu-clean-v3_4
+  - first:
+      213: -566447715987085286
+    second: tsu-clean-v3_5
+  - first:
+      213: 4111644323730185584
+    second: tsu-clean-v3_6
+  - first:
+      213: 9185877142237331731
+    second: tsu-clean-v3_7
+  - first:
+      213: 3213398097539468586
+    second: tsu-clean-v3_8
+  - first:
+      213: 3130981358830665563
+    second: tsu-clean-v3_9
+  - first:
+      213: -7068489627768531409
+    second: tsu-clean-v3_10
+  - first:
+      213: -2876715212878705956
+    second: tsu-clean-v3_11
+  - first:
+      213: 93215232028478106
+    second: tsu-clean-v3_12
+  - first:
+      213: -2299995230457414796
+    second: tsu-clean-v3_13
+  - first:
+      213: 853324810833324313
+    second: tsu-clean-v3_14
+  - first:
+      213: -5411843985888226731
+    second: tsu-clean-v3_15
+  - first:
+      213: 7303419089268769099
+    second: tsu-clean-v3_16
+  - first:
+      213: 1064233151383027057
+    second: tsu-clean-v3_17
+  - first:
+      213: -7486935792259078815
+    second: tsu-clean-v3_18
+  - first:
+      213: 6723995951682202885
+    second: tsu-clean-v3_19
+  - first:
+      213: 1616815514418480457
+    second: tsu-clean-v3_20
+  - first:
+      213: 4822700044461228700
+    second: tsu-clean-v3_21
+  - first:
+      213: 7990463708900536296
+    second: tsu-clean-v3_22
+  - first:
+      213: 6118942578155885986
+    second: tsu-clean-v3_23
+  - first:
+      213: 4525036139519559538
+    second: tsu-clean-v3_24
+  - first:
+      213: 7281573393585767019
+    second: tsu-clean-v3_25
+  - first:
+      213: 3954097469444146986
+    second: tsu-clean-v3_26
+  - first:
+      213: -2082647130208225649
+    second: tsu-clean-v3_27
+  - first:
+      213: 873231209520587113
+    second: tsu-clean-v3_28
+  - first:
+      213: 3984413708275109434
+    second: tsu-clean-v3_29
+  - first:
+      213: -5615152749184861310
+    second: tsu-clean-v3_30
+  - first:
+      213: -4233746321487663371
+    second: tsu-clean-v3_31
+  - first:
+      213: -198172574742627197
+    second: tsu-clean-v3_32
+  - first:
+      213: 3207497811939192936
+    second: tsu-clean-v3_33
+  - first:
+      213: 1300647214028710716
+    second: tsu-clean-v3_34
+  - first:
+      213: 2656921152117637178
+    second: tsu-clean-v3_35
+  - first:
+      213: 3422784819551405688
+    second: tsu-clean-v3_36
+  - first:
+      213: 6139605696944502722
+    second: tsu-clean-v3_37
+  - first:
+      213: -3456403409963542770
+    second: tsu-clean-v3_38
+  - first:
+      213: 1593819345772098778
+    second: tsu-clean-v3_39
+  - first:
+      213: 1386296478232929154
+    second: tsu-clean-v3_40
+  - first:
+      213: 8366189954603214367
+    second: tsu-clean-v3_41
+  - first:
+      213: 6883616372454785041
+    second: tsu-clean-v3_42
+  - first:
+      213: 7613003148563165798
+    second: tsu-clean-v3_43
+  - first:
+      213: -4484070510795236694
+    second: tsu-clean-v3_44
+  - first:
+      213: -2782549842412392667
+    second: tsu-clean-v3_45
+  - first:
+      213: 4253852495487088549
+    second: tsu-clean-v3_46
+  - first:
+      213: 3238867556828332997
+    second: tsu-clean-v3_47
+  - first:
+      213: -8684137131602907387
+    second: tsu-clean-v3_48
+  - first:
+      213: -6014160336337226504
+    second: tsu-clean-v3_49
+  - first:
+      213: -844377730480754833
+    second: tsu-clean-v3_50
+  - first:
+      213: 2366066236855513000
+    second: tsu-clean-v3_51
+  - first:
+      213: -1509051439622779175
+    second: tsu-clean-v3_52
+  - first:
+      213: -2569889985764992508
+    second: tsu-clean-v3_53
+  - first:
+      213: -8197485316813272449
+    second: tsu-clean-v3_54
+  - first:
+      213: -1856434163058848430
+    second: tsu-clean-v3_55
+  - first:
+      213: -7064074250638264430
+    second: tsu-clean-v3_56
+  - first:
+      213: 607468609336745925
+    second: tsu-clean-v3_57
+  - first:
+      213: 1902619944629038697
+    second: tsu-clean-v3_58
+  - first:
+      213: 4546473442294889781
+    second: tsu-clean-v3_59
+  - first:
+      213: -1028731574777508484
+    second: tsu-clean-v3_60
+  - first:
+      213: 7014891660081692581
+    second: tsu-clean-v3_61
+  - first:
+      213: 5856307147552234226
+    second: tsu-clean-v3_62
+  - first:
+      213: 3018729924210135272
+    second: tsu-clean-v3_63
+  - first:
+      213: 7458620763564158825
+    second: tsu-clean-v3_64
+  - first:
+      213: -7609424838625005564
+    second: tsu-clean-v3_65
+  - first:
+      213: -6498933642531500541
+    second: tsu-clean-v3_66
+  - first:
+      213: 1202436513049508600
+    second: tsu-clean-v3_67
+  - first:
+      213: 4545433802167428665
+    second: tsu-clean-v3_68
+  - first:
+      213: 6742655397975635204
+    second: tsu-clean-v3_69
+  - first:
+      213: -6899226206614859618
+    second: tsu-clean-v3_70
+  - first:
+      213: -7354584725561913782
+    second: tsu-clean-v3_71
+  - first:
+      213: 7596479297613446901
+    second: tsu-clean-v3_72
+  - first:
+      213: 5849045888811412061
+    second: tsu-clean-v3_73
+  - first:
+      213: -4864044533355897493
+    second: tsu-clean-v3_74
+  - first:
+      213: -2811927046002597066
+    second: tsu-clean-v3_75
+  - first:
+      213: 4234909852336292619
+    second: tsu-clean-v3_76
+  - first:
+      213: -6161775946751954324
+    second: tsu-clean-v3_77
+  - first:
+      213: -7476793889935110451
+    second: tsu-clean-v3_78
+  - first:
+      213: 1992470310370548701
+    second: tsu-clean-v3_79
+  - first:
+      213: -655513526573787277
+    second: tsu-clean-v3_80
+  - first:
+      213: -2504808138438200582
+    second: tsu-clean-v3_81
+  - first:
+      213: 215243876825485409
+    second: tsu-clean-v3_82
+  - first:
+      213: 2329485111684836079
+    second: tsu-clean-v3_83
+  - first:
+      213: -666188629939956984
+    second: tsu-clean-v3_84
+  - first:
+      213: -1916194228552897797
+    second: tsu-clean-v3_85
+  - first:
+      213: -2848221922198631867
+    second: tsu-clean-v3_86
+  - first:
+      213: 8379928381112062093
+    second: tsu-clean-v3_87
+  - first:
+      213: 5762475977249151980
+    second: tsu-clean-v3_88
+  - first:
+      213: -4233478636257848379
+    second: tsu-clean-v3_89
+  - first:
+      213: 7393310582039058008
+    second: tsu-clean-v3_90
+  - first:
+      213: 3541175388264306991
+    second: tsu-clean-v3_91
+  - first:
+      213: -6667383673396044550
+    second: tsu-clean-v3_92
+  - first:
+      213: 8670593999527000069
+    second: tsu-clean-v3_93
+  - first:
+      213: -9041277085978081464
+    second: tsu-clean-v3_94
+  - first:
+      213: 3004619725075016822
+    second: tsu-clean-v3_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tsu-clean-v3_0
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1654
+        width: 224
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de88280b2cae843f0800000000000000
+      internalID: -916224402263996179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_1
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1654
+        width: 222
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c146306f7319417f0800000000000000
+      internalID: -642729177270492132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_2
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2980
+        width: 224
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad057b1bd6d3f3560800000000000000
+      internalID: 7295617462705803482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1922
+        width: 216
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83f452cb387c0620800000000000000
+      internalID: 2741698471220540299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_4
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 2980
+        width: 226
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d761331f26108170800000000000000
+      internalID: 8178561314746099673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_5
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1654
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1822c0bdc29328f0800000000000000
+      internalID: -566447715987085286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_6
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1922
+        width: 224
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d50be5abe7f0930800000000000000
+      internalID: 4111644323730185584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_7
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1922
+        width: 224
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311cf6d879aca7f70800000000000000
+      internalID: 9185877142237331731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2190
+        width: 224
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d81cd5b88489c20800000000000000
+      internalID: 3213398097539468586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_9
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 2190
+        width: 216
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fb87b05fa737b20800000000000000
+      internalID: 3130981358830665563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_10
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 3236
+        width: 220
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26d25e422ea7ed90800000000000000
+      internalID: -7068489627768531409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_11
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 3236
+        width: 254
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda076061cad318d0800000000000000
+      internalID: -2876715212878705956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 840
+        width: 218
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a86b872ca2b4100800000000000000
+      internalID: 93215232028478106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_13
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1384
+        width: 224
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b3e771686c410e0800000000000000
+      internalID: -2299995230457414796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_14
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2720
+        width: 220
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9196fb3f46e97db00800000000000000
+      internalID: 853324810833324313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_15
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 840
+        width: 212
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5525c49619445e4b0800000000000000
+      internalID: -5411843985888226731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_16
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 2456
+        width: 222
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b410cad67f4fa5560800000000000000
+      internalID: 7303419089268769099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_17
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1384
+        width: 218
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d3162a96ae4ce00800000000000000
+      internalID: 1064233151383027057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_18
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1654
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1656d3e709f091890800000000000000
+      internalID: -7486935792259078815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_19
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1112
+        width: 230
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dae2b51be605d50800000000000000
+      internalID: 6723995951682202885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1654
+        width: 230
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9450144e425107610800000000000000
+      internalID: 1616815514418480457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2456
+        width: 216
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c924f50832cade240800000000000000
+      internalID: 4822700044461228700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3236
+        width: 218
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efaaaf6864d3ee60800000000000000
+      internalID: 7990463708900536296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3484
+        width: 254
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a59ef3fad9dae450800000000000000
+      internalID: 6118942578155885986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1112
+        width: 192
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2774edbe4682cce30800000000000000
+      internalID: 4525036139519559538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_25
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 566
+        width: 190
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b628d9a0c685d0560800000000000000
+      internalID: 7281573393585767019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_26
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2980
+        width: 198
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a274d71e2b6cfd630800000000000000
+      internalID: 3954097469444146986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1922
+        width: 188
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86b37b2873f813e0800000000000000
+      internalID: -2082647130208225649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2980
+        width: 198
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961624298275e1c00800000000000000
+      internalID: 873231209520587113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_29
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 840
+        width: 196
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e4fe7482b7b4730800000000000000
+      internalID: 3984413708275109434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_30
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1384
+        width: 220
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b37413358f212b0800000000000000
+      internalID: -5615152749184861310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_31
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2456
+        width: 198
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe6c96e626be35c0800000000000000
+      internalID: -4233746321487663371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_32
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1654
+        width: 196
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cbd3ed713ff3df0800000000000000
+      internalID: -198172574742627197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_33
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2456
+        width: 200
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8607a721442538c20800000000000000
+      internalID: 3207497811939192936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_34
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2980
+        width: 194
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33684200c3dc0210800000000000000
+      internalID: 1300647214028710716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_35
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 3484
+        width: 250
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30813cf5b74fd420800000000000000
+      internalID: 2656921152117637178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_36
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 840
+        width: 216
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87606ff98ac208f20800000000000000
+      internalID: 3422784819551405688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_37
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 566
+        width: 220
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c777533ad2443550800000000000000
+      internalID: 6139605696944502722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_38
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1384
+        width: 208
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e079ca459636800d0800000000000000
+      internalID: -3456403409963542770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_39
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 292
+        width: 212
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad434e420426e1610800000000000000
+      internalID: 1593819345772098778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_40
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2720
+        width: 208
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283e2725d4d1d3310800000000000000
+      internalID: 1386296478232929154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_41
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 840
+        width: 218
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16e09f007daa1470800000000000000
+      internalID: 8366189954603214367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_42
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 840
+        width: 216
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1100b3aae94878f50800000000000000
+      internalID: 6883616372454785041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_43
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1384
+        width: 218
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662b9083702d6a960800000000000000
+      internalID: 7613003148563165798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_44
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 566
+        width: 228
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaade38c0a165c1c0800000000000000
+      internalID: -4484070510795236694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_45
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1654
+        width: 218
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fa03139a56269d0800000000000000
+      internalID: -2782549842412392667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_46
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3236
+        width: 212
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7ba688e48b80b30800000000000000
+      internalID: 4253852495487088549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_47
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 3484
+        width: 250
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c34a47f1e4c2fc20800000000000000
+      internalID: 3238867556828332997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 220
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f67021a4fbb7780800000000000000
+      internalID: -8684137131602907387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_49
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 14
+        width: 218
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4306ad909698ca0800000000000000
+      internalID: -6014160336337226504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_50
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1922
+        width: 218
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fa1768dea2844f0800000000000000
+      internalID: -844377730480754833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_51
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 14
+        width: 210
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af61dad4b4f5d020800000000000000
+      internalID: 2366066236855513000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_52
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 2456
+        width: 216
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de0e7106b5ce0be0800000000000000
+      internalID: -1509051439622779175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_53
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 14
+        width: 218
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ad4ae7caae55cd0800000000000000
+      internalID: -2569889985764992508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_54
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 292
+        width: 220
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a4dd7598eac3e80800000000000000
+      internalID: -8197485316813272449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_55
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 292
+        width: 220
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d4af9e6fe9c36e0800000000000000
+      internalID: -1856434163058848430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_56
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 14
+        width: 224
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297f8b765ed57fd90800000000000000
+      internalID: -7064074250638264430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_57
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 14
+        width: 222
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf97bf4b792e6800800000000000000
+      internalID: 607468609336745925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_58
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 2456
+        width: 222
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96eef2652c6776a10800000000000000
+      internalID: 1902619944629038697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_59
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 3484
+        width: 244
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53dfbbce181581f30800000000000000
+      internalID: 4546473442294889781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_60
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 14
+        width: 200
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d882c451639b1f0800000000000000
+      internalID: -1028731574777508484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_61
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 566
+        width: 198
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aff4016cc6e95160800000000000000
+      internalID: 7014891660081692581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_62
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2720
+        width: 204
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa9e699258c54150800000000000000
+      internalID: 5856307147552234226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_63
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2190
+        width: 188
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e013654fdea4e920800000000000000
+      internalID: 3018729924210135272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_64
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1112
+        width: 204
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f28962118528760800000000000000
+      internalID: 7458620763564158825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_65
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 566
+        width: 200
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400f8bcfc64e56690800000000000000
+      internalID: -7609424838625005564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_66
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 292
+        width: 210
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e0312f8462fc5a0800000000000000
+      internalID: -6498933642531500541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_67
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 2190
+        width: 202
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa764943a9efa010800000000000000
+      internalID: 1202436513049508600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_68
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 292
+        width: 230
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9362e38d5ff941f30800000000000000
+      internalID: 4545433802167428665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_69
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2190
+        width: 206
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405353f3c59b29d50800000000000000
+      internalID: 6742655397975635204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_70
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2980
+        width: 216
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90d7a991560140a0800000000000000
+      internalID: -6899226206614859618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_71
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 3484
+        width: 248
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e4e5a88244fe990800000000000000
+      internalID: -7354584725561913782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_72
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 292
+        width: 216
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5febbdd5cad1c6960800000000000000
+      internalID: 7596479297613446901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_73
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 292
+        width: 218
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a209d0f3cfb2150800000000000000
+      internalID: 5849045888811412061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_74
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 2720
+        width: 226
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d14a984417f7cb0800000000000000
+      internalID: -4864044533355897493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_75
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 566
+        width: 222
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633a3b8ff370af8d0800000000000000
+      internalID: -2811927046002597066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_76
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 2720
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b038e4cb21c65ca30800000000000000
+      internalID: 4234909852336292619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_77
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 566
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62bd444c69fc7aa0800000000000000
+      internalID: -6161775946751954324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_78
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1384
+        width: 224
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce4b9322971d3890800000000000000
+      internalID: -7476793889935110451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_79
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 2190
+        width: 236
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb1623d03da6ab10800000000000000
+      internalID: 1992470310370548701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_80
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1112
+        width: 226
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3771b1fabe527e6f0800000000000000
+      internalID: -655513526573787277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_81
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1112
+        width: 230
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af232e5e4422d3dd0800000000000000
+      internalID: -2504808138438200582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_82
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 2980
+        width: 216
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160d2426a23bcf200800000000000000
+      internalID: 215243876825485409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_83
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 3484
+        width: 250
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea298fed5ef35020800000000000000
+      internalID: 2329485111684836079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_84
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1112
+        width: 224
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803560f78f831c6f0800000000000000
+      internalID: -666188629939956984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_85
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1112
+        width: 224
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa6376608f4865e0800000000000000
+      internalID: -1916194228552897797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_86
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 2720
+        width: 224
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54aced590451978d0800000000000000
+      internalID: -2848221922198631867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_87
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 840
+        width: 206
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80166fb67c7b4470800000000000000
+      internalID: 8379928381112062093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_88
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2720
+        width: 226
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb58a2de5d68ff40800000000000000
+      internalID: 5762475977249151980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_89
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1384
+        width: 218
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c355a93c99af35c0800000000000000
+      internalID: -4233478636257848379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_90
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1922
+        width: 230
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856139c8dc05a9660800000000000000
+      internalID: 7393310582039058008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_91
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2456
+        width: 230
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2999d0f048c42130800000000000000
+      internalID: 3541175388264306991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_92
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1922
+        width: 232
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc5df5dfd1b873a0800000000000000
+      internalID: -6667383673396044550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_93
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2190
+        width: 220
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508b075cd43245870800000000000000
+      internalID: 8670593999527000069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_94
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3236
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847c56e946ee68280800000000000000
+      internalID: -9041277085978081464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-clean-v3_95
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 3236
+        width: 244
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c6a3688bd82b920800000000000000
+      internalID: 3004619725075016822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1652
+        width: 228
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3941ef15c421e6a4da4ea40a181a0230
+      internalID: 256597163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1652
+        width: 226
+        height: 244
+      alignment: 9
+      pivot: {x: 0.49557522, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6581597a9e4f5642af7bd879e51c6c8
+      internalID: 1280136690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 2978
+        width: 228
+        height: 228
+      alignment: 9
+      pivot: {x: 0.3859649, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395ae1e4ccbdb944fa6cd5bf1eda0edf
+      internalID: -603363471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1920
+        width: 220
+        height: 244
+      alignment: 9
+      pivot: {x: 0.56363636, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c5f8ff8017dd0489138fe320bcab11
+      internalID: -1251165297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 2978
+        width: 230
+        height: 226
+      alignment: 9
+      pivot: {x: 0.39130434, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff14e84052f5ae2479c80ca6ec21339d
+      internalID: 286728571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1652
+        width: 224
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4955357, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0c861dad58aef4bba6803db4f43f52
+      internalID: -1352913295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1920
+        width: 228
+        height: 242
+      alignment: 9
+      pivot: {x: 0.4517544, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d40f3864479ff46aee0a7793d5d29f
+      internalID: -1874680598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1920
+        width: 228
+        height: 242
+      alignment: 9
+      pivot: {x: 0.4649123, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3867b3f5ddd7a43b7294e98b8e349d
+      internalID: -1285712621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2188
+        width: 228
+        height: 242
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d49b2f1b7a1744297699a467e98eed
+      internalID: -1542783034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2188
+        width: 220
+        height: 242
+      alignment: 9
+      pivot: {x: 0.48636365, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9220d46431a1f479c14e9475f188e9
+      internalID: 1741752465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 3234
+        width: 224
+        height: 220
+      alignment: 9
+      pivot: {x: 0.41517857, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65ac70a2e6d3b947a499c20f6a03c61
+      internalID: -1908619687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 3234
+        width: 258
+        height: 136
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4759494d43062cc49b70688f616b202a
+      internalID: -297162109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 838
+        width: 222
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199b075c2b72de04dbc47d535f87f542
+      internalID: -1740361741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1382
+        width: 228
+        height: 246
+      alignment: 9
+      pivot: {x: 0.5131579, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057601315bb4cf94aa47cf4df38cb523
+      internalID: 131395440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 2718
+        width: 224
+        height: 232
+      alignment: 9
+      pivot: {x: 0.39285713, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f768bdc7f5d1b948b351b0ffd0111db
+      internalID: -393384467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 838
+        width: 216
+        height: 248
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c82c0e867aef304ba71a04bf18e25a6
+      internalID: -1344645874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 2454
+        width: 226
+        height: 238
+      alignment: 9
+      pivot: {x: 0.38053098, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e446bc2c508563e46826c589cbc4cb00
+      internalID: -964161759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1382
+        width: 222
+        height: 246
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a784eee3824754a81fe8e3928f17cd
+      internalID: -1147830366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1652
+        width: 224
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4955357, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2736586d60e9fbf4a87f3eb94d0d4ba4
+      internalID: 321808650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1110
+        width: 234
+        height: 246
+      alignment: 9
+      pivot: {x: 0.44871795, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d704ba4d5a5568c4e8a5ff1248bdd803
+      internalID: -2138298018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1652
+        width: 234
+        height: 244
+      alignment: 9
+      pivot: {x: 0.50427353, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a247a3045dbc63a41891df4e19912d79
+      internalID: 1902046099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2454
+        width: 220
+        height: 240
+      alignment: 9
+      pivot: {x: 0.48636365, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11204e6569f82149b85392a2fe7327a
+      internalID: -338783954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3234
+        width: 222
+        height: 224
+      alignment: 9
+      pivot: {x: 0.4009009, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6121d9a989736041a6f89a5e2745ff2
+      internalID: -1993391810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3482
+        width: 258
+        height: 130
+      alignment: 9
+      pivot: {x: 0.49224806, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c53c6645162a3642b3eefdda67e5fd6
+      internalID: 1512316786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1110
+        width: 196
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c677f8b3f9ac7964193f68400911ad77
+      internalID: 685106702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 564
+        width: 194
+        height: 250
+      alignment: 9
+      pivot: {x: 0.57216495, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65f77ec54fdff94cacce69e16f4ab85
+      internalID: -953021737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2978
+        width: 202
+        height: 232
+      alignment: 9
+      pivot: {x: 0.45544556, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a0a0fdc3b2c7c4f937c6a66d8f4e8e
+      internalID: -430552453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1920
+        width: 192
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5104167, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77736a9d8e1c0004fbe94d89bda8d228
+      internalID: -95595261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 2978
+        width: 202
+        height: 232
+      alignment: 9
+      pivot: {x: 0.45049506, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4fd5685c022cf4da9f0593ea03efac
+      internalID: 866001950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 838
+        width: 200
+        height: 248
+      alignment: 9
+      pivot: {x: 0.57, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3105206dea544634e956ca08007244d1
+      internalID: 2089592287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1382
+        width: 224
+        height: 246
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdfeb7be232362419180a6d46be297d
+      internalID: 511357742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2454
+        width: 202
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54950494, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fdbccf04d8a9a409dc7e64f613bddf
+      internalID: -1821394585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1652
+        width: 200
+        height: 244
+      alignment: 9
+      pivot: {x: 0.58, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032307a61ec297c41bd46dcbab8aa936
+      internalID: 918778054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 2454
+        width: 204
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5588235, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a359680f8407844a71b56b7ff3208f
+      internalID: -2123465913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2978
+        width: 198
+        height: 228
+      alignment: 9
+      pivot: {x: 0.43434343, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7881f585b1442544b75a43b377c2717
+      internalID: 514127444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 3482
+        width: 254
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04761905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2147000a4966f47acef61e5938f237
+      internalID: 1546335850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 838
+        width: 220
+        height: 248
+      alignment: 9
+      pivot: {x: 0.50454545, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263e59615789d344ea3e80b6f7768357
+      internalID: -1284196746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 564
+        width: 224
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5089286, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb10aca847daccb4bab430d523672712
+      internalID: 1202499365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1382
+        width: 212
+        height: 236
+      alignment: 9
+      pivot: {x: 0.4009434, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d4b3edddebef043a57a27d70fd774c
+      internalID: 48504848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 290
+        width: 216
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a9475d7ec864140889b336d9594947
+      internalID: 1714001965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2718
+        width: 212
+        height: 236
+      alignment: 9
+      pivot: {x: 0.4009434, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30074656717b4c5498c7f2687385b2bb
+      internalID: 935056018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 838
+        width: 222
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5045045, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15880524ec084da4baa4c71da3acfbac
+      internalID: -190230442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 838
+        width: 220
+        height: 248
+      alignment: 9
+      pivot: {x: 0.55, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d829b4486b9823f439846fdc26dcde5c
+      internalID: 1967894242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1382
+        width: 222
+        height: 246
+      alignment: 9
+      pivot: {x: 0.5315315, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ef7e350739dc743905489fc595405c
+      internalID: 1669838850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 564
+        width: 232
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5086207, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27d299c319256740ad34654ad1dee95
+      internalID: -1827866650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1652
+        width: 222
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a2595795cf8c344abab12b95a0f812
+      internalID: 116490936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 3234
+        width: 216
+        height: 224
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6b5a1264aa2e4478474a871966a3dd
+      internalID: -198597231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 3482
+        width: 254
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04761905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c93717a1ad3a9b498325fd2e4ea242c
+      internalID: -692595737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 224
+        height: 254
+      alignment: 9
+      pivot: {x: 0.48660713, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b272c852d931b084cbac94070e45a387
+      internalID: 566230110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 12
+        width: 222
+        height: 254
+      alignment: 9
+      pivot: {x: 0.490991, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66aa29705446144b89229836cf44844
+      internalID: -228365328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1920
+        width: 222
+        height: 236
+      alignment: 9
+      pivot: {x: 0.44144145, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b7a16768ee67341a4bd1ae0926ef95
+      internalID: -1830736390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 12
+        width: 214
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5186916, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6731cee4dd0084bbf82358662c5384
+      internalID: -1274207193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 2454
+        width: 220
+        height: 238
+      alignment: 9
+      pivot: {x: 0.4409091, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe1303bf55741f4e9362cd9fe57a4c6
+      internalID: 1427092726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 12
+        width: 222
+        height: 254
+      alignment: 9
+      pivot: {x: 0.4774775, y: 0.023622047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1682c60c22e61a43bb5d87bd07b384d
+      internalID: 1721510157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 290
+        width: 224
+        height: 250
+      alignment: 9
+      pivot: {x: 0.4732143, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11246042035f460428d6ab9a4d30846c
+      internalID: 914781531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 290
+        width: 224
+        height: 250
+      alignment: 9
+      pivot: {x: 0.48214287, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069ceab7e364ac14fb9e6751f4d4c27f
+      internalID: -1664614038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 12
+        width: 228
+        height: 252
+      alignment: 9
+      pivot: {x: 0.4868421, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa415ace5a9b8b478258240aaa4d178
+      internalID: 997364542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 12
+        width: 226
+        height: 252
+      alignment: 9
+      pivot: {x: 0.48672566, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8269d61679bb3b4683ebd288e39b639
+      internalID: -1895623406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 2454
+        width: 226
+        height: 236
+      alignment: 9
+      pivot: {x: 0.46460176, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c68d3aa6f227e54ba8c23695ac4dd49
+      internalID: 748356238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 3482
+        width: 248
+        height: 126
+      alignment: 9
+      pivot: {x: 0.4798387, y: 0.04761905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a99214e0af40e45a9efb3710cdef65
+      internalID: -1799491557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 12
+        width: 204
+        height: 250
+      alignment: 9
+      pivot: {x: 0.42156863, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c27ef4747c56a4db1b2ab27dbf9db9
+      internalID: -766677526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 564
+        width: 202
+        height: 250
+      alignment: 9
+      pivot: {x: 0.4009901, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920a4a7f4ce0c154e9a437b473492f2f
+      internalID: 1579647120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2718
+        width: 208
+        height: 236
+      alignment: 9
+      pivot: {x: 0.52403843, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fa8951ac12de04ca8c4c4a125039ea
+      internalID: 1474132761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 2188
+        width: 192
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5729167, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720c455faad745a49aa51fafd7479325
+      internalID: -925085095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1110
+        width: 208
+        height: 232
+      alignment: 9
+      pivot: {x: 0.6057692, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aecd1ac755bb446ac592deb1ab36ec
+      internalID: -553873656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 564
+        width: 204
+        height: 250
+      alignment: 9
+      pivot: {x: 0.4117647, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6569de9a93c494bab76db16b956ee7
+      internalID: -312837598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 290
+        width: 214
+        height: 250
+      alignment: 9
+      pivot: {x: 0.50934577, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52beb48cc314aa4286c57dbad20b5c3
+      internalID: -118394227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2188
+        width: 206
+        height: 242
+      alignment: 9
+      pivot: {x: 0.44174758, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd718b39369be14abbd0383194a9795
+      internalID: 570273123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 290
+        width: 234
+        height: 250
+      alignment: 9
+      pivot: {x: 0.4871795, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e820db0e24fcf4e96b586f43697836
+      internalID: -1592054478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2188
+        width: 210
+        height: 242
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138597bfc6f5f4b4ab7fa40cc237bdd2
+      internalID: -2079232617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f10
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 2978
+        width: 220
+        height: 230
+      alignment: 9
+      pivot: {x: 0.55, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6205fad08ccedd499f89402d60233fb
+      internalID: 1336607676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r05-f11
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 3482
+        width: 252
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04761905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f800f3b07b79dcc4e8d3b21e1380930a
+      internalID: 1837319251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 290
+        width: 220
+        height: 250
+      alignment: 9
+      pivot: {x: 0.4409091, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a228f3210e31cf84d92afcf72fd2c47f
+      internalID: -1730559511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 290
+        width: 222
+        height: 250
+      alignment: 9
+      pivot: {x: 0.45945945, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70a72068d9d69a43abc968b6b5d2345
+      internalID: -201050326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 2718
+        width: 230
+        height: 232
+      alignment: 9
+      pivot: {x: 0.6173913, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ee7691298fc244693fd178990b49eb
+      internalID: -496786640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 564
+        width: 226
+        height: 248
+      alignment: 9
+      pivot: {x: 0.45132744, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e5266f3b3dad84fabbbcc88d2745a4
+      internalID: 1186381756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 2718
+        width: 228
+        height: 232
+      alignment: 9
+      pivot: {x: 0.622807, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b9de7d9617e8444b8fb816fd309bea
+      internalID: -1104083449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 564
+        width: 228
+        height: 248
+      alignment: 9
+      pivot: {x: 0.46929824, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7353d9915dba543a2918c2573994f5
+      internalID: 360933801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1382
+        width: 228
+        height: 246
+      alignment: 9
+      pivot: {x: 0.4473684, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceea05b48eae0bf4aba7bf13d813995d
+      internalID: -444781269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 2188
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54583335, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e75d82bf1a0d4c4a9668f3fe5cc068d
+      internalID: -1986651291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1110
+        width: 230
+        height: 246
+      alignment: 9
+      pivot: {x: 0.45652175, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8d5bdbfeb4d584ea444e56a38ba649
+      internalID: -933822925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1110
+        width: 234
+        height: 246
+      alignment: 9
+      pivot: {x: 0.491453, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb5dc5246f447948bd5733a2a36fa62
+      internalID: -1466943539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f10
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 2978
+        width: 220
+        height: 226
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f831c4248e3fb4f9b9bd727798e5f5
+      internalID: 1842447120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r06-f11
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 3482
+        width: 254
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04761905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a206758237b62d849b28c1fce4e1727e
+      internalID: -48935270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1110
+        width: 228
+        height: 246
+      alignment: 9
+      pivot: {x: 0.46929824, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688145b78cef2bd4ea29891aa9ecf3d3
+      internalID: -173987334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1110
+        width: 228
+        height: 246
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263dffe6ec2e5884d81a783341b27b76
+      internalID: -1170136191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2718
+        width: 228
+        height: 234
+      alignment: 9
+      pivot: {x: 0.39473686, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fd752e9d62f0d4ea5cb0999f0283bf
+      internalID: 1140710288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 838
+        width: 210
+        height: 248
+      alignment: 9
+      pivot: {x: 0.47142857, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709f54cce1f9357438710ff21df4bc14
+      internalID: 1438027467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2718
+        width: 230
+        height: 234
+      alignment: 9
+      pivot: {x: 0.39565217, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7f8afe371ddc7448028e3cb41ace28
+      internalID: 2056129499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1382
+        width: 222
+        height: 246
+      alignment: 9
+      pivot: {x: 0.46396396, y: 0.024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8ea858bcf37694e923c61a80105779
+      internalID: -1488777240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1920
+        width: 234
+        height: 242
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf31018cbb28a6478b739d56a82f0d2
+      internalID: -226041761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2454
+        width: 234
+        height: 240
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c43ff3a8ebaa1146a7d479ffd3557e2
+      internalID: 1810215139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1920
+        width: 236
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5042373, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bd52fa1878a8641a684e4e8aba8cf1
+      internalID: 188561224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2188
+        width: 224
+        height: 242
+      alignment: 9
+      pivot: {x: 0.51339287, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb3a65bba176344c95935c9d9683c79
+      internalID: 553110058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f10
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3234
+        width: 222
+        height: 222
+      alignment: 9
+      pivot: {x: 0.3963964, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb2897f35926cd419f03e40d363f269
+      internalID: 1473712049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tsu-reference-v2-r07-f11
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 3234
+        width: 248
+        height: 136
+      alignment: 9
+      pivot: {x: 0.50403225, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89428b5b7cf092945b90b93a9a05ed14
+      internalID: 1861276967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 83b7736498d3656479614cfc0f912564
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tsu-clean-v3_0: -916224402263996179
+      tsu-clean-v3_1: -642729177270492132
+      tsu-clean-v3_10: -7068489627768531409
+      tsu-clean-v3_11: -2876715212878705956
+      tsu-clean-v3_12: 93215232028478106
+      tsu-clean-v3_13: -2299995230457414796
+      tsu-clean-v3_14: 853324810833324313
+      tsu-clean-v3_15: -5411843985888226731
+      tsu-clean-v3_16: 7303419089268769099
+      tsu-clean-v3_17: 1064233151383027057
+      tsu-clean-v3_18: -7486935792259078815
+      tsu-clean-v3_19: 6723995951682202885
+      tsu-clean-v3_2: 7295617462705803482
+      tsu-clean-v3_20: 1616815514418480457
+      tsu-clean-v3_21: 4822700044461228700
+      tsu-clean-v3_22: 7990463708900536296
+      tsu-clean-v3_23: 6118942578155885986
+      tsu-clean-v3_24: 4525036139519559538
+      tsu-clean-v3_25: 7281573393585767019
+      tsu-clean-v3_26: 3954097469444146986
+      tsu-clean-v3_27: -2082647130208225649
+      tsu-clean-v3_28: 873231209520587113
+      tsu-clean-v3_29: 3984413708275109434
+      tsu-clean-v3_3: 2741698471220540299
+      tsu-clean-v3_30: -5615152749184861310
+      tsu-clean-v3_31: -4233746321487663371
+      tsu-clean-v3_32: -198172574742627197
+      tsu-clean-v3_33: 3207497811939192936
+      tsu-clean-v3_34: 1300647214028710716
+      tsu-clean-v3_35: 2656921152117637178
+      tsu-clean-v3_36: 3422784819551405688
+      tsu-clean-v3_37: 6139605696944502722
+      tsu-clean-v3_38: -3456403409963542770
+      tsu-clean-v3_39: 1593819345772098778
+      tsu-clean-v3_4: 8178561314746099673
+      tsu-clean-v3_40: 1386296478232929154
+      tsu-clean-v3_41: 8366189954603214367
+      tsu-clean-v3_42: 6883616372454785041
+      tsu-clean-v3_43: 7613003148563165798
+      tsu-clean-v3_44: -4484070510795236694
+      tsu-clean-v3_45: -2782549842412392667
+      tsu-clean-v3_46: 4253852495487088549
+      tsu-clean-v3_47: 3238867556828332997
+      tsu-clean-v3_48: -8684137131602907387
+      tsu-clean-v3_49: -6014160336337226504
+      tsu-clean-v3_5: -566447715987085286
+      tsu-clean-v3_50: -844377730480754833
+      tsu-clean-v3_51: 2366066236855513000
+      tsu-clean-v3_52: -1509051439622779175
+      tsu-clean-v3_53: -2569889985764992508
+      tsu-clean-v3_54: -8197485316813272449
+      tsu-clean-v3_55: -1856434163058848430
+      tsu-clean-v3_56: -7064074250638264430
+      tsu-clean-v3_57: 607468609336745925
+      tsu-clean-v3_58: 1902619944629038697
+      tsu-clean-v3_59: 4546473442294889781
+      tsu-clean-v3_6: 4111644323730185584
+      tsu-clean-v3_60: -1028731574777508484
+      tsu-clean-v3_61: 7014891660081692581
+      tsu-clean-v3_62: 5856307147552234226
+      tsu-clean-v3_63: 3018729924210135272
+      tsu-clean-v3_64: 7458620763564158825
+      tsu-clean-v3_65: -7609424838625005564
+      tsu-clean-v3_66: -6498933642531500541
+      tsu-clean-v3_67: 1202436513049508600
+      tsu-clean-v3_68: 4545433802167428665
+      tsu-clean-v3_69: 6742655397975635204
+      tsu-clean-v3_7: 9185877142237331731
+      tsu-clean-v3_70: -6899226206614859618
+      tsu-clean-v3_71: -7354584725561913782
+      tsu-clean-v3_72: 7596479297613446901
+      tsu-clean-v3_73: 5849045888811412061
+      tsu-clean-v3_74: -4864044533355897493
+      tsu-clean-v3_75: -2811927046002597066
+      tsu-clean-v3_76: 4234909852336292619
+      tsu-clean-v3_77: -6161775946751954324
+      tsu-clean-v3_78: -7476793889935110451
+      tsu-clean-v3_79: 1992470310370548701
+      tsu-clean-v3_8: 3213398097539468586
+      tsu-clean-v3_80: -655513526573787277
+      tsu-clean-v3_81: -2504808138438200582
+      tsu-clean-v3_82: 215243876825485409
+      tsu-clean-v3_83: 2329485111684836079
+      tsu-clean-v3_84: -666188629939956984
+      tsu-clean-v3_85: -1916194228552897797
+      tsu-clean-v3_86: -2848221922198631867
+      tsu-clean-v3_87: 8379928381112062093
+      tsu-clean-v3_88: 5762475977249151980
+      tsu-clean-v3_89: -4233478636257848379
+      tsu-clean-v3_9: 3130981358830665563
+      tsu-clean-v3_90: 7393310582039058008
+      tsu-clean-v3_91: 3541175388264306991
+      tsu-clean-v3_92: -6667383673396044550
+      tsu-clean-v3_93: 8670593999527000069
+      tsu-clean-v3_94: -9041277085978081464
+      tsu-clean-v3_95: 3004619725075016822
+      tsu-reference-v2-r00-f00: 256597163
+      tsu-reference-v2-r00-f01: 1280136690
+      tsu-reference-v2-r00-f02: -603363471
+      tsu-reference-v2-r00-f03: -1251165297
+      tsu-reference-v2-r00-f04: 286728571
+      tsu-reference-v2-r00-f05: -1352913295
+      tsu-reference-v2-r00-f06: -1874680598
+      tsu-reference-v2-r00-f07: -1285712621
+      tsu-reference-v2-r00-f08: -1542783034
+      tsu-reference-v2-r00-f09: 1741752465
+      tsu-reference-v2-r00-f10: -1908619687
+      tsu-reference-v2-r00-f11: -297162109
+      tsu-reference-v2-r01-f00: -1740361741
+      tsu-reference-v2-r01-f01: 131395440
+      tsu-reference-v2-r01-f02: -393384467
+      tsu-reference-v2-r01-f03: -1344645874
+      tsu-reference-v2-r01-f04: -964161759
+      tsu-reference-v2-r01-f05: -1147830366
+      tsu-reference-v2-r01-f06: 321808650
+      tsu-reference-v2-r01-f07: -2138298018
+      tsu-reference-v2-r01-f08: 1902046099
+      tsu-reference-v2-r01-f09: -338783954
+      tsu-reference-v2-r01-f10: -1993391810
+      tsu-reference-v2-r01-f11: 1512316786
+      tsu-reference-v2-r02-f00: 685106702
+      tsu-reference-v2-r02-f01: -953021737
+      tsu-reference-v2-r02-f02: -430552453
+      tsu-reference-v2-r02-f03: -95595261
+      tsu-reference-v2-r02-f04: 866001950
+      tsu-reference-v2-r02-f05: 2089592287
+      tsu-reference-v2-r02-f06: 511357742
+      tsu-reference-v2-r02-f07: -1821394585
+      tsu-reference-v2-r02-f08: 918778054
+      tsu-reference-v2-r02-f09: -2123465913
+      tsu-reference-v2-r02-f10: 514127444
+      tsu-reference-v2-r02-f11: 1546335850
+      tsu-reference-v2-r03-f00: -1284196746
+      tsu-reference-v2-r03-f01: 1202499365
+      tsu-reference-v2-r03-f02: 48504848
+      tsu-reference-v2-r03-f03: 1714001965
+      tsu-reference-v2-r03-f04: 935056018
+      tsu-reference-v2-r03-f05: -190230442
+      tsu-reference-v2-r03-f06: 1967894242
+      tsu-reference-v2-r03-f07: 1669838850
+      tsu-reference-v2-r03-f08: -1827866650
+      tsu-reference-v2-r03-f09: 116490936
+      tsu-reference-v2-r03-f10: -198597231
+      tsu-reference-v2-r03-f11: -692595737
+      tsu-reference-v2-r04-f00: 566230110
+      tsu-reference-v2-r04-f01: -228365328
+      tsu-reference-v2-r04-f02: -1830736390
+      tsu-reference-v2-r04-f03: -1274207193
+      tsu-reference-v2-r04-f04: 1427092726
+      tsu-reference-v2-r04-f05: 1721510157
+      tsu-reference-v2-r04-f06: 914781531
+      tsu-reference-v2-r04-f07: -1664614038
+      tsu-reference-v2-r04-f08: 997364542
+      tsu-reference-v2-r04-f09: -1895623406
+      tsu-reference-v2-r04-f10: 748356238
+      tsu-reference-v2-r04-f11: -1799491557
+      tsu-reference-v2-r05-f00: -766677526
+      tsu-reference-v2-r05-f01: 1579647120
+      tsu-reference-v2-r05-f02: 1474132761
+      tsu-reference-v2-r05-f03: -925085095
+      tsu-reference-v2-r05-f04: -553873656
+      tsu-reference-v2-r05-f05: -312837598
+      tsu-reference-v2-r05-f06: -118394227
+      tsu-reference-v2-r05-f07: 570273123
+      tsu-reference-v2-r05-f08: -1592054478
+      tsu-reference-v2-r05-f09: -2079232617
+      tsu-reference-v2-r05-f10: 1336607676
+      tsu-reference-v2-r05-f11: 1837319251
+      tsu-reference-v2-r06-f00: -1730559511
+      tsu-reference-v2-r06-f01: -201050326
+      tsu-reference-v2-r06-f02: -496786640
+      tsu-reference-v2-r06-f03: 1186381756
+      tsu-reference-v2-r06-f04: -1104083449
+      tsu-reference-v2-r06-f05: 360933801
+      tsu-reference-v2-r06-f06: -444781269
+      tsu-reference-v2-r06-f07: -1986651291
+      tsu-reference-v2-r06-f08: -933822925
+      tsu-reference-v2-r06-f09: -1466943539
+      tsu-reference-v2-r06-f10: 1842447120
+      tsu-reference-v2-r06-f11: -48935270
+      tsu-reference-v2-r07-f00: -173987334
+      tsu-reference-v2-r07-f01: -1170136191
+      tsu-reference-v2-r07-f02: 1140710288
+      tsu-reference-v2-r07-f03: 1438027467
+      tsu-reference-v2-r07-f04: 2056129499
+      tsu-reference-v2-r07-f05: -1488777240
+      tsu-reference-v2-r07-f06: -226041761
+      tsu-reference-v2-r07-f07: 1810215139
+      tsu-reference-v2-r07-f08: 188561224
+      tsu-reference-v2-r07-f09: 553110058
+      tsu-reference-v2-r07-f10: 1473712049
+      tsu-reference-v2-r07-f11: 1861276967
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

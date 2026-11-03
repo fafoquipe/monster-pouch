@@ -6,6 +6,8 @@ Importación mediante Unity Editor API. Fuentes conservadas; fondo magenta conve
 
 75 poses (15 × 5), width 0,86, reference pixels 124. Idle0–1; Move 2,3,4,5; Attack 6,7,8,9,10; Death 11,12,13,14. Contact index1. PPU100, Point, no compression or mipmaps.
 
+Exterior white halo pixels removed: 534. Internal hair, teeth and formula details preserved.
+
 | Row | Frame | Rect | Pivot |
 | --- | --- | --- | --- |
 | 0 | 0 | (x:22.00, y:582.00, width:128.00, height:129.00) | (64.50, 3.00) |

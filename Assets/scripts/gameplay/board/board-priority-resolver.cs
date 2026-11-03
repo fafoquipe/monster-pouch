@@ -50,9 +50,9 @@ namespace MonsterPouch.Gameplay.Board
             BoardSide firstUnitSide,
             BoardSide secondUnitSide)
         {
-            // A territory's colour alone does not define the specified Blue vertical /
-            // Red diagonal relationship. No coordinate predicate survives in this project.
-            // Until those predicates are configured, the closed rule is an unresolved tie.
+            if (firstUnitSide == secondUnitSide) return BoardPriorityResult.Unresolved;
+            if (firstUnitSide == territorySide) return BoardPriorityResult.First;
+            if (secondUnitSide == territorySide) return BoardPriorityResult.Second;
             return BoardPriorityResult.Unresolved;
         }
 
@@ -102,6 +102,17 @@ namespace MonsterPouch.Gameplay.Board
                 return result;
 
             return BoardPriorityResult.Unresolved;
+        }
+
+        // GDD v4: position takes precedence; equal cells defer to movement priority.
+        public static BoardPriorityResult CompareInRoundPosition(IBoardUnit first, IBoardUnit second)
+        {
+            if (first == null || second == null) return BoardPriorityResult.Unresolved;
+            var value = CompareCellValue(first.CurrentCell, second.CurrentCell);
+            if (value != BoardPriorityResult.Unresolved) return value;
+            if (first.IQSpeed != second.IQSpeed)
+                return first.IQSpeed > second.IQSpeed ? BoardPriorityResult.First : BoardPriorityResult.Second;
+            return ComparePositionalPriority(first.CurrentCell, first.Side, second.CurrentCell, second.Side);
         }
 
         public static BoardPriorityResult CompareReservationPriority(

@@ -1,0 +1,1280 @@
+fileFormatVersion: 2
+guid: 11d2d7d9c8bf795849204581fc7e758b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 2
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: martio-body-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 709
+        width: 200
+        height: 178
+      alignment: 9
+      pivot: {x: 0.5775, y: 0.04775281}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff160f73cd89eb54d8d76f82782270e9
+      internalID: 1429797265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 709
+        width: 177
+        height: 178
+      alignment: 9
+      pivot: {x: 0.5536723, y: 0.042134833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eac96383f982c64191cb2ea897ef9c9
+      internalID: -1557617559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 716
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5204678, y: 0.049707603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98e52952483c6b459c1383dd5b44928
+      internalID: 374160319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 703
+        width: 172
+        height: 184
+      alignment: 9
+      pivot: {x: 0.50581396, y: 0.051630434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9246d9375703f47bfbb10059aae351
+      internalID: 1551610501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 708
+        width: 170
+        height: 179
+      alignment: 9
+      pivot: {x: 0.5176471, y: 0.041899443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6a6fed95397894b866015f0415127b
+      internalID: -241798859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 709
+        width: 171
+        height: 178
+      alignment: 9
+      pivot: {x: 0.54385966, y: 0.042134833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47942be82c8e4934ba758e4c8c23e26f
+      internalID: -841595191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 709
+        width: 178
+        height: 178
+      alignment: 9
+      pivot: {x: 0.497191, y: 0.042134833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9875d4787e949564884f23a7878f53ff
+      internalID: 1218845186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 709
+        width: 170
+        height: 178
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.042134833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995db9fae75de214c86ed9ed3fdc3118
+      internalID: -1286768348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 702
+        width: 179
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5111732, y: 0.07837838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbb4ea0342d73f4193206884129d40c
+      internalID: 1775107976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 702
+        width: 186
+        height: 185
+      alignment: 9
+      pivot: {x: 0.47580644, y: 0.08378378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5559d2e0b43e334480e4b1e8fef6774
+      internalID: -1922375734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 535
+        width: 199
+        height: 174
+      alignment: 9
+      pivot: {x: 0.5125628, y: 0.04310345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02bde8cb88ce2549923341b547bcfb0
+      internalID: -544915400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 536
+        width: 177
+        height: 173
+      alignment: 9
+      pivot: {x: 0.4435028, y: 0.0433526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c3b1b52d6c2b48968facb1e042a4e
+      internalID: 72667967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 542
+        width: 172
+        height: 174
+      alignment: 9
+      pivot: {x: 0.44476745, y: 0.048850574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ff019676b590e4d89d06301552d661
+      internalID: 185839758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 529
+        width: 170
+        height: 174
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.04310345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710374d20fe50b24faaaee6921a798d4
+      internalID: -196458782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 534
+        width: 175
+        height: 174
+      alignment: 9
+      pivot: {x: 0.44285715, y: 0.04310345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea411b597b8dd94eb0e14723f64d5ac
+      internalID: 778701927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 536
+        width: 174
+        height: 173
+      alignment: 9
+      pivot: {x: 0.40804598, y: 0.031791907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b144052017e538b4a90759ce2be5ab7d
+      internalID: 122746734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 533
+        width: 184
+        height: 176
+      alignment: 9
+      pivot: {x: 0.39673913, y: 0.036931816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b784911e8d43e42b49e80981dc241a
+      internalID: -1871951314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 533
+        width: 169
+        height: 176
+      alignment: 9
+      pivot: {x: 0.48816568, y: 0.042613637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f33df4f8a1d6964ca2484d81f2b8c7e
+      internalID: -277075775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 528
+        width: 170
+        height: 174
+      alignment: 9
+      pivot: {x: 0.49411765, y: 0.083333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b502c3758ce2c4aa492892bd4b7a1e
+      internalID: -371136637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 520
+        width: 184
+        height: 182
+      alignment: 9
+      pivot: {x: 0.4646739, y: 0.11813187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75054a3c56cdcc24bb6e791a470b11d6
+      internalID: 645087965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 193
+        height: 178
+      alignment: 9
+      pivot: {x: 0.45854923, y: 0.036516853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084dc547dab3a484ab7b5b8508d51d18
+      internalID: 624393943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 356
+        width: 180
+        height: 180
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.047222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e14b53d0d39c244bb04f7f623c30f9
+      internalID: -1527523211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 370
+        width: 174
+        height: 172
+      alignment: 9
+      pivot: {x: 0.39655173, y: 0.049418606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4225ebbcc992d0647a471784c7cb7c0d
+      internalID: -330751425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 352
+        width: 170
+        height: 177
+      alignment: 9
+      pivot: {x: 0.4735294, y: 0.053672317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d8657dac72062448fd0f4656fe6656
+      internalID: 73936485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 355
+        width: 177
+        height: 179
+      alignment: 9
+      pivot: {x: 0.40112993, y: 0.041899443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1705d93dc7f131469b78035724c9bda
+      internalID: 1643377003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 355
+        width: 176
+        height: 181
+      alignment: 9
+      pivot: {x: 0.4318182, y: 0.041436464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cd3a259c1068f4496a73218f609ea5
+      internalID: 849579109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 355
+        width: 172
+        height: 178
+      alignment: 9
+      pivot: {x: 0.44476745, y: 0.042134833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd198460c86ee142b78beb45aa762b2
+      internalID: 270924776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 355
+        width: 176
+        height: 178
+      alignment: 9
+      pivot: {x: 0.4431818, y: 0.042134833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f232ca29266574b87c233ebea9d531
+      internalID: -856356560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 345
+        width: 179
+        height: 183
+      alignment: 9
+      pivot: {x: 0.47765362, y: 0.09562842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6598373aef94f094693482c00b0452b2
+      internalID: 1043478158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 341
+        width: 177
+        height: 179
+      alignment: 9
+      pivot: {x: 0.47175142, y: 0.12011173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c721178537050ff479ac654167b0a9c7
+      internalID: 499759010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 195
+        height: 173
+      alignment: 9
+      pivot: {x: 0.4846154, y: 0.037572253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e664f262a7ff84f8879c9bb4e9fe84
+      internalID: 1075216750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 183
+        width: 179
+        height: 173
+      alignment: 9
+      pivot: {x: 0.47765362, y: 0.0433526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e973a12aadd32e47893e30c7a0ec7b7
+      internalID: -917599793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 193
+        width: 175
+        height: 177
+      alignment: 9
+      pivot: {x: 0.46, y: 0.053672317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1a828b012862b4bb41ccb923fec9ac
+      internalID: -2067311206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 176
+        width: 168
+        height: 176
+      alignment: 9
+      pivot: {x: 0.47916666, y: 0.07670455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ea2259cad554144949018f92cefa70
+      internalID: 1026334584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 183
+        width: 171
+        height: 172
+      alignment: 9
+      pivot: {x: 0.4269006, y: 0.04360465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e888deb7afd4cbd4dadad0e7c40e630c
+      internalID: -1624112655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 183
+        width: 185
+        height: 172
+      alignment: 9
+      pivot: {x: 0.43783784, y: 0.04360465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f831b907daaa9b45a7184c61443e48e
+      internalID: 1713817709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 183
+        width: 176
+        height: 172
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.04360465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02969e190726c4e47809550c49617279
+      internalID: -1939658945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 183
+        width: 172
+        height: 172
+      alignment: 9
+      pivot: {x: 0.41569766, y: 0.04360465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25a3828ef5265742a8316b33aa40d84
+      internalID: -2036140869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 173
+        width: 167
+        height: 172
+      alignment: 9
+      pivot: {x: 0.52395207, y: 0.09593023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fdc654c99691a40815f74e9a8ac9cb
+      internalID: -972780924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 165
+        width: 186
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5080645, y: 0.10511363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f9748fbefdfae4684e6ca84466c8df
+      internalID: -388663379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5390625, y: 0.11141305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df9f7ce9f7b67448bfbf1b196aaf72a
+      internalID: 1207526681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 180
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5222222, y: 0.112021856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1f7ccd17fef254599137d5862014aa
+      internalID: -866097017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 174
+        height: 193
+      alignment: 9
+      pivot: {x: 0.48850575, y: 0.18393782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a469f00203dfe1c43b21d9932b371092
+      internalID: 71966615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 168
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5089286, y: 0.11079545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738c3d0611ae60341bdc89b6edd8826c
+      internalID: -1918666599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 170
+        height: 183
+      alignment: 9
+      pivot: {x: 0.48235294, y: 0.112021856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced48689b9cec8643909adc9a62771a1
+      internalID: -454379166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 0
+        width: 185
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5081081, y: 0.117486335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f880d164ce4424ab7949629e9b25d2
+      internalID: -909416447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 0
+        width: 179
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5223464, y: 0.112021856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2009da50fb5f29e498b47b9cd78007d7
+      internalID: 198346549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 168
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5029762, y: 0.117486335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74a8084dd7a10545b99a7fde03c2bb7
+      internalID: 1416582285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 0
+        width: 177
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5169492, y: 0.12427746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e006ddb5d1575954d913d85e129cddd1
+      internalID: 1752540459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martio-body-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 0
+        width: 181
+        height: 165
+      alignment: 9
+      pivot: {x: 0.48895028, y: 0.11818182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877ec51d747a37a43b5714dd9133cf41
+      internalID: -1115901831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 812a933709cba764290ac44205f9c9c8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      martio-body-r00-f00: 1429797265
+      martio-body-r00-f01: -1557617559
+      martio-body-r00-f02: 374160319
+      martio-body-r00-f03: 1551610501
+      martio-body-r00-f04: -241798859
+      martio-body-r00-f05: -841595191
+      martio-body-r00-f06: 1218845186
+      martio-body-r00-f07: -1286768348
+      martio-body-r00-f08: 1775107976
+      martio-body-r00-f09: -1922375734
+      martio-body-r01-f00: -544915400
+      martio-body-r01-f01: 72667967
+      martio-body-r01-f02: 185839758
+      martio-body-r01-f03: -196458782
+      martio-body-r01-f04: 778701927
+      martio-body-r01-f05: 122746734
+      martio-body-r01-f06: -1871951314
+      martio-body-r01-f07: -277075775
+      martio-body-r01-f08: -371136637
+      martio-body-r01-f09: 645087965
+      martio-body-r02-f00: 624393943
+      martio-body-r02-f01: -1527523211
+      martio-body-r02-f02: -330751425
+      martio-body-r02-f03: 73936485
+      martio-body-r02-f04: 1643377003
+      martio-body-r02-f05: 849579109
+      martio-body-r02-f06: 270924776
+      martio-body-r02-f07: -856356560
+      martio-body-r02-f08: 1043478158
+      martio-body-r02-f09: 499759010
+      martio-body-r03-f00: 1075216750
+      martio-body-r03-f01: -917599793
+      martio-body-r03-f02: -2067311206
+      martio-body-r03-f03: 1026334584
+      martio-body-r03-f04: -1624112655
+      martio-body-r03-f05: 1713817709
+      martio-body-r03-f06: -1939658945
+      martio-body-r03-f07: -2036140869
+      martio-body-r03-f08: -972780924
+      martio-body-r03-f09: -388663379
+      martio-body-r04-f00: 1207526681
+      martio-body-r04-f01: -866097017
+      martio-body-r04-f02: 71966615
+      martio-body-r04-f03: -1918666599
+      martio-body-r04-f04: -454379166
+      martio-body-r04-f05: -909416447
+      martio-body-r04-f06: 198346549
+      martio-body-r04-f07: 1416582285
+      martio-body-r04-f08: 1752540459
+      martio-body-r04-f09: -1115901831
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

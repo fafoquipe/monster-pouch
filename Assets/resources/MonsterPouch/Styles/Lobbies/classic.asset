@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861607578e7a5800a54b00b1966e6522, type: 3}
+  m_Name: classic
+  m_EditorClassIdentifier:
+  Id: classic
+  Background: {fileID: 21300000, guid: 022f06e8dd41523b9475cdc548f2b56b, type: 3}
+  DisplayPedestalWidth: 256
+  Pedestal: {fileID: 21300000, guid: 13ea6e7cc2395e7789cda6007e580623, type: 3}
+  PedestalFootAnchor: {x: 0.499512195, y: 0.207843137}

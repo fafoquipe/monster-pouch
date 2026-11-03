@@ -1,0 +1,14 @@
+{
+  "Id": "small-daily-gift-v2",
+  "Rewards": [
+    { "Currency": 0, "Amount": 10, "Chances": 1000 },
+    { "Currency": 0, "Amount": 20, "Chances": 1500 },
+    { "Currency": 0, "Amount": 30, "Chances": 1500 },
+    { "Currency": 0, "Amount": 50, "Chances": 750 },
+    { "Currency": 1, "Amount": 10, "Chances": 1000 },
+    { "Currency": 1, "Amount": 20, "Chances": 1500 },
+    { "Currency": 1, "Amount": 30, "Chances": 1500 },
+    { "Currency": 1, "Amount": 50, "Chances": 750 },
+    { "Currency": 2, "Amount": 5, "Chances": 500 }
+  ]
+}

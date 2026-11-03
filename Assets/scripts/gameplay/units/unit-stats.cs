@@ -14,12 +14,21 @@ namespace MonsterPouch.Gameplay.Units
         [SerializeField] private float energyPerAttack;
         [SerializeField] private float energyOnDamage;
         [SerializeField] private float energyPerSecond;
+        private readonly Dictionary<string,AbilityAreaDefinition> abilityAreas = new Dictionary<string,AbilityAreaDefinition>(StringComparer.Ordinal);
+        public AbilityAreaDefinition AreaFor(string effect) => effect != null && abilityAreas.TryGetValue(effect, out var area) ? area.Copy() : null;
         private readonly HashSet<string> effectIds = new HashSet<string>(StringComparer.Ordinal);
         private readonly Dictionary<string,float> abilityValues = new Dictionary<string,float>(StringComparer.Ordinal);
         public float ProjectileSpeed { get; private set; } = 10f;
         public float AbilityValue(string effect, string key, float fallback) => abilityValues.TryGetValue(effect+":"+key,out var value)?value:fallback;
 
         public bool UsesDocumentedRules => usesDocumentedRules;
+        public CombatRuleset Ruleset { get; private set; }
+        public bool UsesEronyaRules => Ruleset == CombatRuleset.Eronya;
+        public CombatDamageType BasicDamageType { get; private set; }
+        // Compatibility count for existing readers; effects use the actual purchased slot.
+        public int Stars { get; private set; }
+        private int purchasedTrickMask;
+        public bool HasTrick(int index) => index>=0&&index<3&&(purchasedTrickMask&(1<<index))!=0;
         public string DefinitionId => definitionId;
         public float EnergyMax => energyMax;
         public float EnergyPerAttack => energyPerAttack;
@@ -33,7 +42,7 @@ namespace MonsterPouch.Gameplay.Units
         [SerializeField, Min(1)] private int iqSpeed = 1;
         [SerializeField, Min(0.01f)] private float moveSpeed = 1f;
         [SerializeField, Min(0.01f)] private float attackSpeed = 1f;
-        [SerializeField, Min(0)] private int armor;
+        [SerializeField, HideInInspector] private int armor; // Old save compatibility; never applied.
         [SerializeField, Min(0)] private int healOnHit;
         [SerializeField, Min(0)] private int bonusEveryHits;
         [SerializeField, Min(0)] private int bonusDamage;
@@ -51,6 +60,7 @@ namespace MonsterPouch.Gameplay.Units
         [SerializeField] private float summonMoveInterval = .7f;
 
         public int MaxHealth => maxHealth;
+        internal void AddMaxHealth(int amount) => maxHealth += Mathf.Max(0, amount);
         public int Attack => attack;
         public int AttackRange => HasEffect("bugui-unlimited-range") ? MonsterPouch.Gameplay.Board.BoardManager.Width + MonsterPouch.Gameplay.Board.BoardManager.Height : attackRange;
         public int IQSpeed => iqSpeed;
@@ -58,12 +68,14 @@ namespace MonsterPouch.Gameplay.Units
         public float AttackSpeed => attackSpeed;
         public float AttackInterval => 1f / Mathf.Max(0.01f, attackSpeed);
         public float MoveInterval => 1f / Mathf.Max(0.01f, moveSpeed);
-        public int Armor => armor;
+        public int Armor => 0; // Retired stat; old callers remain source-compatible.
         public int HealOnHit => healOnHit;
         public int BonusEveryHits => bonusEveryHits;
         public int BonusDamage => bonusDamage;
         public TargetPolicy TargetPolicy => targetPolicy;
         public float AttackWindup => attackWindup;
+        public float AttackHold {get;private set;}
+        public float AttackRecovery {get;private set;}
         public int RevivesPerCombat => revivesPerCombat;
         public float ReviveHealthFraction => reviveHealthFraction;
         public float ReviveDelay => reviveDelay;
@@ -91,7 +103,7 @@ namespace MonsterPouch.Gameplay.Units
             attackSpeed = 1f / Mathf.Max(0.1f, attackInterval);
             moveSpeed = 1f / Mathf.Max(0.1f, moveInterval);
             this.iqSpeed = Mathf.Max(0, iqSpeed);
-            this.armor = Mathf.Max(0, armor);
+            this.armor = 0;
             this.healOnHit = Mathf.Max(0, healOnHit);
             this.bonusEveryHits = Mathf.Max(0, bonusEveryHits);
             this.bonusDamage = Mathf.Max(0, bonusDamage);
@@ -123,6 +135,7 @@ namespace MonsterPouch.Gameplay.Units
             var stats = new UnitStats(definition.MaxHealth, definition.Damage,
                 definition.AttackRange, definition.AttackInterval,
                 definition.MoveInterval, definition.IQSpeed,
+                armor: 0,
                 targetPolicy: definition.TargetPolicy, attackWindup: definition.AttackWindup,
                 revivesPerCombat: definition.RevivesPerCombat, reviveHealthFraction: definition.ReviveHealthFraction,
                 reviveDelay: definition.ReviveDelay, lethalEveryHits: definition.LethalEveryHits,
@@ -130,17 +143,30 @@ namespace MonsterPouch.Gameplay.Units
                 summonHealth: definition.SummonHealth, summonDamage: definition.SummonDamage,
                 summonAttackInterval: definition.SummonAttackInterval, summonMoveInterval: definition.SummonMoveInterval);
             stats.usesDocumentedRules = definition.UsesDocumentedRules;
+            stats.Ruleset = definition.Ruleset;
+            stats.BasicDamageType = definition.BasicDamageType;
+            stats.Stars = definition.Ruleset == CombatRuleset.Eronya && owned != null ? Mathf.Clamp(owned.TrickCount, 0, 3) : 0;
+            for(int i=0;owned!=null&&i<owned.Tricks.Length&&i<3;i++)
+                if(owned.Tricks[i])stats.purchasedTrickMask|=1<<i;
             stats.definitionId = definition.Id;
+            var tail=BasicAttackTiming.DefaultTail(definition.Id);
+            stats.AttackHold=BasicAttackTiming.Resolve(definition.AttackHold,tail.x);
+            stats.AttackRecovery=BasicAttackTiming.Resolve(definition.AttackRecovery,tail.y);
             stats.ProjectileSpeed = Mathf.Max(.1f,definition.ProjectileSpeed);
             stats.energyMax = Mathf.Max(0, definition.EnergyMax);
             stats.energyPerAttack = Mathf.Max(0, definition.EnergyPerAttack);
             stats.energyOnDamage = Mathf.Max(0, definition.EnergyOnDamage);
             stats.energyPerSecond = Mathf.Max(0, definition.EnergyPerSecond);
-            if (owned != null) stats.attack = Mathf.Max(0, stats.attack + owned.PersistentDamageBonus);
+            if (owned != null && !stats.UsesEronyaRules)
+            {
+                stats.attack = Mathf.Max(0, stats.attack + owned.PersistentDamageBonus);
+                stats.AddMaxHealth(owned.PersistentHealthBonus);
+            }
             stats.Apply(definition.BaseAbility);
+            if (stats.UsesEronyaRules) stats.Apply(definition.PassiveAbility);
             for (int i = 0; owned != null && i < 3; i++)
                 if (owned.Tricks[i] && definition.Tricks != null && i < definition.Tricks.Length)
-                { stats.Apply(definition.Tricks[i]); if(definition.IsMonster)break; }
+                { stats.Apply(definition.Tricks[i]); if(definition.IsMonster && !stats.UsesEronyaRules)break; }
             if (owned != null && owned.HasMonsterUpgrade && applyUpgrades)
                 stats.Apply(definition.MonsterUpgrade);
             return stats;
@@ -149,13 +175,16 @@ namespace MonsterPouch.Gameplay.Units
         private void Apply(TrickDefinition effect)
         {
             if (effect == null) return;
+            if (!string.IsNullOrEmpty(effect.EffectId) && AbilityAreaCatalog.Supports(effect.EffectId) && effect.Area != null)
+                abilityAreas[effect.EffectId] = effect.Area.Copy();
             foreach(var parameter in AbilityBalance.Resolve(effect))abilityValues[effect.EffectId+":"+parameter.Key]=parameter.Value;
             if (!string.IsNullOrWhiteSpace(effect.EffectId)) effectIds.Add(effect.EffectId);
+            // Eronya purchased effects own their parameterized modifiers; do not add legacy scalar deltas twice.
+            if (UsesEronyaRules) return;
             maxHealth = Mathf.Max(1, maxHealth + effect.HealthBonus);
-            attack = Mathf.Max(0, attack + effect.DamageBonus);
+            attack = Mathf.Max(0, attack + (effect.EffectId == "kazuru-ring-throw" ? 0 : effect.DamageBonus));
             attackRange = Mathf.Max(1, attackRange + effect.RangeBonus);
             attackSpeed /= Mathf.Max(0.1f, effect.AttackIntervalMultiplier);
-            armor += Mathf.Max(0, effect.Armor);
             healOnHit += Mathf.Max(0, effect.HealOnHit);
             if (effect.BonusEveryHits > 0)
             {

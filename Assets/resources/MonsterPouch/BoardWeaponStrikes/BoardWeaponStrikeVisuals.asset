@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b64ff2080f5c44abf95753037d59f4, type: 3}
+  m_Name: BoardWeaponStrikeVisuals
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Presentation.BoardWeaponStrikeVisuals
+  Units:
+  - Id: palista
+    Sprite: {fileID: 21300000, guid: 669049c21d5f5a42a1351e2a54e7ba35, type: 3}
+    TipPixels: 1330
+    LengthCells: 0.95
+    ThicknessScale: 1.15
+    ForwardSeconds: 0.08
+    ReturnSeconds: 0.06
+  - Id: cael
+    Sprite: {fileID: 21300000, guid: afcbf0f3bcde56f4a172c9e5c4489a30, type: 3}
+    TipPixels: 1195
+    LengthCells: 0.95
+    ThicknessScale: 1.15
+    ForwardSeconds: 0.08
+    ReturnSeconds: 0.06

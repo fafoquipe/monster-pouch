@@ -26,6 +26,13 @@ public static class MonsterPouchValidation
         Execute("play-mode", TestMode.PlayMode, "MonsterPouch.Local.Tests.PlayMode");
     }
 
+    public static void FocusedTests(string names)
+    {
+        SessionState.SetString(PendingRunKey, "focused-edit");
+        runner = ScriptableObject.CreateInstance<TestRunnerApi>();
+        runner.Execute(new ExecutionSettings(new Filter { testMode=TestMode.EditMode, testNames=names.Split('|') }));
+    }
+
     static void Execute(string name, TestMode mode, string assembly)
     {
         SessionState.SetString(PendingRunKey, name);
@@ -44,8 +51,13 @@ public static class MonsterPouchValidation
     sealed class Results : ICallbacks
     {
         public void RunStarted(ITestAdaptor testsToRun) { }
-        public void TestStarted(ITestAdaptor test) { }
-        public void TestFinished(ITestResultAdaptor result) { }
+        public void TestStarted(ITestAdaptor test) { ReportProgress("started",test.FullName); }
+        public void TestFinished(ITestResultAdaptor result) { ReportProgress(result.ResultState,result.FullName); }
+        static void ReportProgress(string state,string name)
+        {
+            string run=SessionState.GetString(PendingRunKey,string.Empty);
+            if(!string.IsNullOrEmpty(run))MonsterPouchLocalBridge.Reply(run+"-progress",System.DateTime.UtcNow.ToString("O")+" "+state+" "+name);
+        }
         public void RunFinished(ITestResultAdaptor result)
         {
             string name = SessionState.GetString(PendingRunKey, string.Empty);

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Failed(Child)" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 21:40:36Z" end-time="2026-10-15 21:40:48Z" duration="11,5109342">
+  <test-suite type="TestSuite" id="1185" name="Monster Pouch" fullname="Monster Pouch" runstate="Runnable" testcasecount="137" result="Failed" site="Child" start-time="2026-10-15 21:40:36Z" end-time="2026-10-15 21:40:48Z" duration="11.510934" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1177" name="MonsterPouch.Local.Tests.PlayMode.dll" fullname="C:/Users/HP VICTUS/Juegos Unity/mini-gogos/game/monster-pouch/Library/ScriptAssemblies/MonsterPouch.Local.Tests.PlayMode.dll" runstate="Runnable" testcasecount="137" result="Failed" site="Child" start-time="2026-10-15 21:40:36Z" end-time="2026-10-15 21:40:48Z" duration="11.463952" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3240" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1086" name="MobileMenuBankPlayTests" fullname="MobileMenuBankPlayTests" classname="MobileMenuBankPlayTests" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-10-15 21:40:36Z" end-time="2026-10-15 21:40:48Z" duration="11.445440" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1093" name="EmptyMenuSpaceKeepsReceivingSwipesDuringTransitions" fullname="MobileMenuBankPlayTests.EmptyMenuSpaceKeepsReceivingSwipesDuringTransitions" methodname="EmptyMenuSpaceKeepsReceivingSwipesDuringTransitions" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="1779016553" result="Failed" start-time="2026-10-15 21:40:36Z" end-time="2026-10-15 21:40:44Z" duration="7.071977" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Expected: <Safe portrait (UnityEngine.GameObject)>
+  But was:  <Board input (UnityEngine.GameObject)>
+]]></message>
+            <stack-trace><![CDATA[at MobileMenuBankPlayTests+<EmptyMenuSpaceKeepsReceivingSwipesDuringTransitions>d__10.MoveNext () [0x00088] in C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Assets\tests\play-mode\mobile-menu-bank-play-tests.cs:133
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1095" name="NewSwipeCanInterruptTabAnimationAndShortSwipeReturningHome" fullname="MobileMenuBankPlayTests.NewSwipeCanInterruptTabAnimationAndShortSwipeReturningHome" methodname="NewSwipeCanInterruptTabAnimationAndShortSwipeReturningHome" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="1185708926" result="Failed" start-time="2026-10-15 21:40:44Z" end-time="2026-10-15 21:40:46Z" duration="2.376220" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  A button transition must not consume the next swipe.
+  Expected: 2
+  But was:  1
+]]></message>
+            <stack-trace><![CDATA[at MobileMenuBankPlayTests+<NewSwipeCanInterruptTabAnimationAndShortSwipeReturningHome>d__12.MoveNext () [0x0008f] in C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Assets\tests\play-mode\mobile-menu-bank-play-tests.cs:169
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1094" name="RapidSwipesCanRepeatAcrossEveryTabWithoutWaitingForAnimation" fullname="MobileMenuBankPlayTests.RapidSwipesCanRepeatAcrossEveryTabWithoutWaitingForAnimation" methodname="RapidSwipesCanRepeatAcrossEveryTabWithoutWaitingForAnimation" classname="MobileMenuBankPlayTests" runstate="Runnable" seed="1673150040" result="Failed" start-time="2026-10-15 21:40:46Z" end-time="2026-10-15 21:40:48Z" duration="1.923180" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Every new swipe must be accepted, including consecutive reversals.
+  Expected: 4
+  But was:  3
+]]></message>
+            <stack-trace><![CDATA[at MobileMenuBankPlayTests+<RapidSwipesCanRepeatAcrossEveryTabWithoutWaitingForAnimation>d__11.MoveNext () [0x000e4] in C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Assets\tests\play-mode\mobile-menu-bank-play-tests.cs:154
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[Saving results to: C:\Users\HP VICTUS\Juegos Unity\mini-gogos\game\monster-pouch\Logs\local-validation\focused-play.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

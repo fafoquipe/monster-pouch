@@ -1,0 +1,694 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d64d4b7e684580842df96b6c384430, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterDefinition
+  stableId: dagata
+  General:
+    Ruleset: 1
+    BasicDamageType: 0
+    BaseArmor: 5
+    PassiveAbility:
+      EffectId: dagata-entrada-entre-humo
+      Trigger: 0
+      EveryAttacks: 0
+      Id: dagata-entrada-entre-humo
+      Name: Entrada entre humo
+      Description: "Al inicio de ronda salta junto al enemigo m\xE1s lejano si hay
+        casilla legal libre y lo adopta como objetivo. Sin invulnerabilidad."
+      Parameters:
+      - Key: castDuration
+        Value: 2
+      - Key: travelDuration
+        Value: 0.3
+      - Key: holdDuration
+        Value: 0.3
+      - Key: recoveryDuration
+        Value: 0.2
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    UsesDocumentedRules: 1
+    AttackKind: 0
+    BasicAttackName: "Ataque b\xE1sico"
+    BasicAttackDescription: "Da\xF1o f\xEDsico: {basicDamage}. Alcance: {basicRange}.
+      Cada {basicInterval} s."
+    SourceDocument: Eronya-habilidades-y-escalado.pdf
+    SourcePages: 7
+    HasProvisionalBalance: 0
+    EnergyMax: 25
+    EnergyPerAttack: 2
+    EnergyOnDamage: 1
+    EnergyPerSecond: 0
+    Id: dagata
+    DisplayName: "D\xE1gata"
+    IsMonster: 0
+    MaxHealth: 65
+    Damage: 8
+    AttackInterval: 0.95
+    AttackWindup: 0.95
+    AttackHold: 0
+    AttackRecovery: 0
+    ProjectileSpeed: 10
+    AttackRange: 1
+    MoveInterval: 0.7
+    IQSpeed: 10
+    BaseCost: 3
+    TargetPolicy: 0
+    Formation: 0
+    BaseAbility:
+      EffectId: dagata-doble-ascua
+      Trigger: 1
+      EveryAttacks: 0
+      Id: dagata-doble-ascua
+      Name: Doble ascua
+      Description: "{hitCount} impactos simult\xE1neos de {damagePerHit} f\xEDsico.
+        Alcance: {range}. Man\xE1: {manaCost}."
+      Parameters:
+      - Key: damagePerHit
+        Value: 10
+      - Key: hitCount
+        Value: 2
+      - Key: range
+        Value: 1
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    Tricks:
+    - EffectId: dagata-hoja-oculta
+      Trigger: 0
+      EveryAttacks: 0
+      Id: dagata-hoja-oculta
+      Name: Hoja oculta
+      Description: "Primer b\xE1sico tras el salto inicial: da\xF1o f\xEDsico +{bonusDamage}."
+      Parameters:
+      - Key: bonusDamage
+        Value: 7
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 3
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - EffectId: dagata-humo-protector
+      Trigger: 0
+      EveryAttacks: 0
+      Id: dagata-humo-protector
+      Name: Humo protector
+      Description: 'Tras el salto inicial: escudo {shield}, {duration} s.'
+      Parameters:
+      - Key: shield
+        Value: 10
+      - Key: duration
+        Value: 3
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 3
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    - EffectId: dagata-caza-de-brasas
+      Trigger: 0
+      EveryAttacks: 0
+      Id: dagata-caza-de-brasas
+      Name: Caza de brasas
+      Description: 'Activa: impacto extra de {bonusDamage} si el objetivo inicia
+        por debajo de {healthThreshold}% de Vida.'
+      Parameters:
+      - Key: bonusDamage
+        Value: 9
+      - Key: healthThreshold
+        Value: 50
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 3
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    MonsterUpgrade:
+      EffectId: 
+      Trigger: 0
+      EveryAttacks: 0
+      Id: 
+      Name: 
+      Description: 
+      Parameters: []
+      Area:
+        Shape: 0
+        SquareSize: 0
+        IncludeCenter: 0
+        UpWidth: 1
+        UpDepth: 0
+        RightWidth: 1
+        RightDepth: 0
+        DownWidth: 1
+        DownDepth: 0
+        LeftWidth: 1
+        LeftDepth: 0
+      Cost: 0
+      HealthBonus: 0
+      DamageBonus: 0
+      AttackIntervalMultiplier: 1
+      RangeBonus: 0
+      Armor: 0
+      HealOnHit: 0
+      BonusEveryHits: 0
+      BonusDamage: 0
+    RevivesPerCombat: 0
+    ReviveHealthFraction: 0.5
+    ReviveDelay: 0.8
+    LethalEveryHits: 0
+    SummonInterval: 0
+    MaxLivingSummons: 0
+    SummonHealth: 14
+    SummonDamage: 2
+    SummonAttackInterval: 1.4
+    SummonMoveInterval: 0.7
+  Description: "Mini \xB7 asesina"
+  Attack: {fileID: 11400000, guid: 6cc2a7cbe2c75b9dbfddc93583984d81, type: 2}
+  Ability: {fileID: 11400000, guid: 2bd9e35313b152cb84d43739835fa72e, type: 2}
+  Upgrades:
+  - {fileID: 11400000, guid: f66e8f23a55c5c598859e2b80344bbf5, type: 2}
+  - {fileID: 11400000, guid: 77052b51320459588b334127369600cc, type: 2}
+  - {fileID: 11400000, guid: 2b5047786f9d5de1bcefc97b939965eb, type: 2}
+  Visuals:
+    Id: dagata
+    TravelMotion: 3
+    WholeBodyHopUsesPoses: 1
+    AuthoredBodyMotion: 1
+    IdleDirections:
+    - {fileID: 21300000, guid: 90811d25eba25aef82ac5c30b13cd727, type: 3}
+    - {fileID: 21300000, guid: f02797996cf6534da6b8f8b37a04bc2a, type: 3}
+    - {fileID: 21300000, guid: a147ffcfbe2e5b2c9c664bfbfd2815f0, type: 3}
+    - {fileID: 21300000, guid: 77ea4115c99d548fbde787eed8da3db2, type: 3}
+    - {fileID: 21300000, guid: 61506ccd43665274924407d81a1ddf91, type: 3}
+    - {fileID: 21300000, guid: cc6d79ddc614587cabc0e54440ab114d, type: 3}
+    - {fileID: 21300000, guid: 3092e3430d1057408fd83a43691b2e30, type: 3}
+    - {fileID: 21300000, guid: 82e6662b84925ede894631e5d59671ca, type: 3}
+    AttackDirections:
+    - {fileID: 21300000, guid: e90158b652615643ac86319be1ca3867, type: 3}
+    - {fileID: 21300000, guid: 8f60a273d7025bdfa7b2b932be0aa5f8, type: 3}
+    - {fileID: 21300000, guid: 41cdab1430ab505eb046b9f87c8b1da8, type: 3}
+    - {fileID: 21300000, guid: bb84cdab1a725cbe809522d7a1d644ed, type: 3}
+    - {fileID: 21300000, guid: 855122c6d5b3581085e0fb481e26af40, type: 3}
+    - {fileID: 21300000, guid: 2e182d7e8f3d5276a41793d4d70a3bb5, type: 3}
+    - {fileID: 21300000, guid: 7f827433b13c550493b60208027fe99b, type: 3}
+    - {fileID: 21300000, guid: f8fda044b7b050f7a96f097a61c8e04a, type: 3}
+    WalkRigs:
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    - Body: {fileID: 0}
+      LeftFoot: {fileID: 0}
+      RightFoot: {fileID: 0}
+      BodyOffset: {x: 0, y: 0}
+      LeftFootOffset: {x: 0, y: 0}
+      RightFootOffset: {x: 0, y: 0}
+    DirectionalAnimations:
+    - Idle:
+      - {fileID: 21300000, guid: 90811d25eba25aef82ac5c30b13cd727, type: 3}
+      - {fileID: 21300000, guid: fa2ecdc70e1352a082581adb834c3b6f, type: 3}
+      - {fileID: 21300000, guid: c027fc7f9e3a593bb197b77c7b411522, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 0fec0e8aaef55a8f9895d108adba13b8, type: 3}
+      - {fileID: 21300000, guid: 4357ea70729d581a8277fdd883a4e428, type: 3}
+      - {fileID: 21300000, guid: ab766b06ccb4544b992c423fed72765c, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 0fec0e8aaef55a8f9895d108adba13b8, type: 3}
+      - {fileID: 21300000, guid: 4357ea70729d581a8277fdd883a4e428, type: 3}
+      - {fileID: 21300000, guid: ab766b06ccb4544b992c423fed72765c, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: 768a8b6d6ff75080b9efc1a4ffe3de77, type: 3}
+      - {fileID: 21300000, guid: e90158b652615643ac86319be1ca3867, type: 3}
+      - {fileID: 21300000, guid: 478d2d213ad55952ab95fe8dbeaff69e, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 0448fe8f3da45a6989d4c1dd4584c9d7, type: 3}
+      - {fileID: 21300000, guid: 854e64b2a33a5978bc763ab8fa0bb8e3, type: 3}
+      - {fileID: 21300000, guid: 7098af6266475c72922d079f5340d32d, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: 7d4202603eac516cb3f83fbc610a7673, type: 3}
+      - {fileID: 21300000, guid: 75eb117bdacf55868c449d1f325714e4, type: 3}
+      - {fileID: 21300000, guid: e0cb392edb9c5c91bcd0b915ce825176, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.4
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: f02797996cf6534da6b8f8b37a04bc2a, type: 3}
+      - {fileID: 21300000, guid: 1a2a5e77e03f5fcf89433ee2711bb8d5, type: 3}
+      - {fileID: 21300000, guid: 3e651ee9ef1d5524932ae462e29130b4, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 341290ebe38656c582d3519bda5c9ee2, type: 3}
+      - {fileID: 21300000, guid: b2cf66de0c9750bca66618b5277a11dc, type: 3}
+      - {fileID: 21300000, guid: 6e73ab29e88f5fbf9dfbc41b474f721a, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 341290ebe38656c582d3519bda5c9ee2, type: 3}
+      - {fileID: 21300000, guid: b2cf66de0c9750bca66618b5277a11dc, type: 3}
+      - {fileID: 21300000, guid: 6e73ab29e88f5fbf9dfbc41b474f721a, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: ba1faa299d7e5377b4e5712ba88713cc, type: 3}
+      - {fileID: 21300000, guid: 8f60a273d7025bdfa7b2b932be0aa5f8, type: 3}
+      - {fileID: 21300000, guid: c85c9bad2b675f92be453c2cfacb2ef6, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 4c0954566ae152689b8648817fa0144f, type: 3}
+      - {fileID: 21300000, guid: cb4a3209111352018e988bb75ab8d38d, type: 3}
+      - {fileID: 21300000, guid: 142e6c4fbd1b5235aafbf1b66cf1faaa, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: d7005d9f320d58139d69901e367c42fa, type: 3}
+      - {fileID: 21300000, guid: 5fbc4a0f400856c7a6bdf9eeb6fb23ca, type: 3}
+      - {fileID: 21300000, guid: 35ebc59adcd653bd9b114ebd70f6c9b9, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.4
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: a147ffcfbe2e5b2c9c664bfbfd2815f0, type: 3}
+      - {fileID: 21300000, guid: 13a70354dc76552eaac364cd3d283d1e, type: 3}
+      - {fileID: 21300000, guid: 6faba12157395b0395aa23a1bd8303a7, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 9fa4276ac8c45d718f32bf1c3d5732a9, type: 3}
+      - {fileID: 21300000, guid: b3f0787718ca511db8c3dfa6bfbbec0c, type: 3}
+      - {fileID: 21300000, guid: 7726048f929654ae82282d716a327eb1, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 9fa4276ac8c45d718f32bf1c3d5732a9, type: 3}
+      - {fileID: 21300000, guid: b3f0787718ca511db8c3dfa6bfbbec0c, type: 3}
+      - {fileID: 21300000, guid: 7726048f929654ae82282d716a327eb1, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: 1d2009eaca365bcea0b1ee069fa33187, type: 3}
+      - {fileID: 21300000, guid: 41cdab1430ab505eb046b9f87c8b1da8, type: 3}
+      - {fileID: 21300000, guid: e3afc7ffc0a05370b7533491f9c9fb34, type: 3}
+      Death:
+      - {fileID: 21300000, guid: b1a52d05014f5c859a54f900ee7e6530, type: 3}
+      - {fileID: 21300000, guid: 8c4f2fd038a456128dff1fddb7e4f2e2, type: 3}
+      - {fileID: 21300000, guid: faa38301a5a15da3bbd3da460e48d842, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: 516092d85ec55808a55791545ee6e0e5, type: 3}
+      - {fileID: 21300000, guid: 2a063dee8110554d9d8fd322f818d60d, type: 3}
+      - {fileID: 21300000, guid: 0e97b784a6005b2f9315352d2f9b2515, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.4
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: 77ea4115c99d548fbde787eed8da3db2, type: 3}
+      - {fileID: 21300000, guid: 45338e01d70b5ec495747a90f768c587, type: 3}
+      - {fileID: 21300000, guid: 23fd046d40a65f729dbadeb012d83b17, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 75a156a25c6a5fc5b93cd85c6ca2300c, type: 3}
+      - {fileID: 21300000, guid: 3a1dec1c4a225766bdc74981516e8495, type: 3}
+      - {fileID: 21300000, guid: b18686c2ed9b5c2b852d8066e90131df, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 75a156a25c6a5fc5b93cd85c6ca2300c, type: 3}
+      - {fileID: 21300000, guid: 3a1dec1c4a225766bdc74981516e8495, type: 3}
+      - {fileID: 21300000, guid: b18686c2ed9b5c2b852d8066e90131df, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: 1bd6a7438eb65c189e20065caed0b4fb, type: 3}
+      - {fileID: 21300000, guid: bb84cdab1a725cbe809522d7a1d644ed, type: 3}
+      - {fileID: 21300000, guid: ca76a4cd6d3652d8a4923c1d17288221, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 2f39ae66a29d56178837505672115462, type: 3}
+      - {fileID: 21300000, guid: 4917e31166b85eecb17a23859f4f13e1, type: 3}
+      - {fileID: 21300000, guid: 66c9cabfec8f5c14a207ccb1d5bc4d72, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: d2a7e9fcff065288a3f874adc893ee62, type: 3}
+      - {fileID: 21300000, guid: e6d2867e285556a69fbf144d94954efb, type: 3}
+      - {fileID: 21300000, guid: 1a34659053e4581c8cc833164677357b, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.4
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: 61506ccd43665274924407d81a1ddf91, type: 3}
+      - {fileID: 21300000, guid: 82c2da4b7aec58fe981cf6c215b24ee5, type: 3}
+      - {fileID: 21300000, guid: 0310ee3e8de9562ba6c31931dbc4fc6c, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 445d516949795670978f57d94f9c839e, type: 3}
+      - {fileID: 21300000, guid: b4ef6381eb0b5950b8c8bcbb1c62755e, type: 3}
+      - {fileID: 21300000, guid: 58d8630a8f2f58368e1ed046cc6372ce, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 445d516949795670978f57d94f9c839e, type: 3}
+      - {fileID: 21300000, guid: b4ef6381eb0b5950b8c8bcbb1c62755e, type: 3}
+      - {fileID: 21300000, guid: 58d8630a8f2f58368e1ed046cc6372ce, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: ccab68cd32fa5b18ab25ac638f1521db, type: 3}
+      - {fileID: 21300000, guid: 855122c6d5b3581085e0fb481e26af40, type: 3}
+      - {fileID: 21300000, guid: 6d33c74bc83b5d9db08f9a769f9ae5d4, type: 3}
+      Death:
+      - {fileID: 21300000, guid: fe8be87d0a7e5a6e806c8ef700753724, type: 3}
+      - {fileID: 21300000, guid: 0c5a312eb4205410a4129dfda953a322, type: 3}
+      - {fileID: 21300000, guid: 2b860a61ea025fb89d010da46870093d, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: 10304c77398f59a89ee081f24a03b7ed, type: 3}
+      - {fileID: 21300000, guid: 1000b924524c5da49ae83d923c3f817b, type: 3}
+      - {fileID: 21300000, guid: 3d324450581854b9b6c04666c73c992f, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.4
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: cc6d79ddc614587cabc0e54440ab114d, type: 3}
+      - {fileID: 21300000, guid: a7e26cdc75c0534d8afa6f657dc1fb99, type: 3}
+      - {fileID: 21300000, guid: 0074796234fb5236a28d9f0e151efab6, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 66fbf8779562578ea1c6c60b6fee70ad, type: 3}
+      - {fileID: 21300000, guid: d85e49978c2155d5950b555897426774, type: 3}
+      - {fileID: 21300000, guid: e5b36e7566285719a89ece535a9c4963, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 66fbf8779562578ea1c6c60b6fee70ad, type: 3}
+      - {fileID: 21300000, guid: d85e49978c2155d5950b555897426774, type: 3}
+      - {fileID: 21300000, guid: e5b36e7566285719a89ece535a9c4963, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: d2d2f10015975d2db149a7d7efdede3b, type: 3}
+      - {fileID: 21300000, guid: 2e182d7e8f3d5276a41793d4d70a3bb5, type: 3}
+      - {fileID: 21300000, guid: c9e269eaec6d54dea14f59bd8de00001, type: 3}
+      Death:
+      - {fileID: 21300000, guid: ffb7b8b404865bff8692c863821fb8e5, type: 3}
+      - {fileID: 21300000, guid: d829dadbb84757a2bf0ef52745e384f6, type: 3}
+      - {fileID: 21300000, guid: 65ba80f2cc61562e80baaf0e22b26336, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: 48544dec6ec15122a2c58c9cbb8af5c2, type: 3}
+      - {fileID: 21300000, guid: b5cb0c77ae48539683bacc2ad3fe0b1d, type: 3}
+      - {fileID: 21300000, guid: 9f8d43beb20152f1ba82983f12cd0823, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.4
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: 3092e3430d1057408fd83a43691b2e30, type: 3}
+      - {fileID: 21300000, guid: ea6e90c65b895f7f9719e448dd60d5d6, type: 3}
+      - {fileID: 21300000, guid: 533ae33770b4506ea5427f3202454b17, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 00bf7563a78857a4ba571e62de860eb1, type: 3}
+      - {fileID: 21300000, guid: a69e3a431ee3552492efe58f9b0c85c7, type: 3}
+      - {fileID: 21300000, guid: 77fcd993b65752849ae5e17abe18d914, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 00bf7563a78857a4ba571e62de860eb1, type: 3}
+      - {fileID: 21300000, guid: a69e3a431ee3552492efe58f9b0c85c7, type: 3}
+      - {fileID: 21300000, guid: 77fcd993b65752849ae5e17abe18d914, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: d154b660590a5d5983105a0660f57f4d, type: 3}
+      - {fileID: 21300000, guid: 7f827433b13c550493b60208027fe99b, type: 3}
+      - {fileID: 21300000, guid: 4b1b36f1b853523e91b3f5ef04c4e281, type: 3}
+      Death:
+      - {fileID: 21300000, guid: e0cb58524d9b5d18b0d76def419fed0a, type: 3}
+      - {fileID: 21300000, guid: 66ce07cde74d5a57b7b0c4f9e1cae584, type: 3}
+      - {fileID: 21300000, guid: 08b6b4cbaf6c5ab5b5dd5b2f2ee0d71c, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: 4ec882a534e450f7bd3adae74cab6c15, type: 3}
+      - {fileID: 21300000, guid: aef36b8cf9a0503bacf8e5ef8f1bb57e, type: 3}
+      - {fileID: 21300000, guid: 21a85588a16a5f88b72ba0ecd7b857f2, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.4
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    - Idle:
+      - {fileID: 21300000, guid: 82e6662b84925ede894631e5d59671ca, type: 3}
+      - {fileID: 21300000, guid: ef5df10038485a44b21800afa3d911b8, type: 3}
+      - {fileID: 21300000, guid: 467ccd3213515ab4863ac10abc369c78, type: 3}
+      Move: []
+      HopLeft:
+      - {fileID: 21300000, guid: 2da5834a155650189333b9b680fa80a6, type: 3}
+      - {fileID: 21300000, guid: 4ddbe369426c5e54a5e8aea719d3649d, type: 3}
+      - {fileID: 21300000, guid: 968ba9d989385882bc74b779ede8b31d, type: 3}
+      HopRight:
+      - {fileID: 21300000, guid: 2da5834a155650189333b9b680fa80a6, type: 3}
+      - {fileID: 21300000, guid: 4ddbe369426c5e54a5e8aea719d3649d, type: 3}
+      - {fileID: 21300000, guid: 968ba9d989385882bc74b779ede8b31d, type: 3}
+      OpeningJump: []
+      Tunnel: []
+      Attack:
+      - {fileID: 21300000, guid: c6b1a6ab63f951fb909a4507de813248, type: 3}
+      - {fileID: 21300000, guid: f8fda044b7b050f7a96f097a61c8e04a, type: 3}
+      - {fileID: 21300000, guid: 3dca7b65cf465dcabbdfaf1abf79e6cb, type: 3}
+      Death:
+      - {fileID: 21300000, guid: 20dc6db255f65bb3b68c894aff390fe8, type: 3}
+      - {fileID: 21300000, guid: 9a1d25a76ce5508da3307788015d5a2e, type: 3}
+      - {fileID: 21300000, guid: 479c259460185ffd92f208e1a3a633f7, type: 3}
+      Revive: []
+      Special:
+      - {fileID: 21300000, guid: f87088babcdb52daa9e4b519f0a292ef, type: 3}
+      - {fileID: 21300000, guid: 72b3f35e91cd59eebca88bc4161bc647, type: 3}
+      - {fileID: 21300000, guid: d4912ffd4779580cb843109515dd6da7, type: 3}
+      SpecialFlipX: 0
+      SpecialDuration: 0.4
+      IdleFramesPerSecond: 3
+      MoveFramesPerSecond: 10
+      AttackContactFrame: 1
+      AttackLungeDistance: 0.09
+      AttackImpactSquash: 0.07
+      SpecialLungeDistance: 0.06
+      SpecialLift: 0.04
+      SpecialPunchScale: 0.08
+      SpecialReleasePoint: 0.55
+      FlipX: 0
+      MoveFlipX: 0
+    Portrait: {fileID: 21300000, guid: f538979101615ac29f1ed52d9f721674, type: 3}
+    WorldWidth: 1
+    DisplayScale: 1
+    InGameSizePercent: 51.2
+    LobbySizePercent: 100
+    BriefSizePercent: 100
+    ReferencePixelWidth: 172
+    FootPivot: {x: 0.5, y: 0.083333336}
+    VitalsHeadAnchor: {x: 0, y: 1.6}
+    ProvisionalDirectionalProjection: 0
+    AbilityAnimationDuration: 0
+    HitFlashDuration: 0.16
+    AbilityPulseDuration: 0.42
+    AbilityPulseScale: 0.09
+    MoveEase: 0.35
+    MoveArcHeight: 0.025
+    WalkWeight: 1
+    SuperReadyPulseScale: 0.025
+    SourceNotes: All poses use uniform scale. Direction scale measured from neutral
+      red head/crest top to boot floor. Foot root measured from bottom boot-color
+      region; manual review required for death/weapon overlaps. Fixed 384px canvas
+      with root(192, 352) contains measured maximum pose extents. Air head aligns
+      neutral head; no runtime arc is baked. VitalsHeadAnchor is head/crest top relative
+      to root in sprite local units. ReferencePixelWidth is measured south idle alpha>=16
+      width. Canvas/PPU changes cancel in the measured ReferencePixelWidth normalization,
+      with WorldWidth=1 and DisplayScale=1.
+  Portrait: {fileID: 21300000, guid: f538979101615ac29f1ed52d9f721674, type: 3}
+  Card: {fileID: 21300000, guid: 60cdb8a52ad45cc39517079b03af93ce, type: 3}
+  Icon: {fileID: 21300000, guid: 409d113b4fae5f0b83cc8e43cbb5bae9, type: 3}
+  Prefab: {fileID: 0}

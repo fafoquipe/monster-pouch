@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Upgrade3
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: guarda-veterano-zarza-despierta
+    Trigger: 0
+    EveryAttacks: 0
+    Id: guarda-veterano-zarza-despierta
+    Name: Zarza despierta
+    Description: "Liana: da\xF1o m\xE1gico {damage}. Veneno: {poisonDamage}/s, {poisonDuration}
+      s; reduce curaci\xF3n recibida."
+    Parameters:
+    - Key: damage
+      Value: 20
+    - Key: poisonDamage
+      Value: 2
+    - Key: poisonDuration
+      Value: 3
+    Area:
+      Shape: 0
+      SquareSize: 0
+      IncludeCenter: 0
+      UpWidth: 1
+      UpDepth: 0
+      RightWidth: 1
+      RightDepth: 0
+      DownWidth: 1
+      DownDepth: 0
+      LeftWidth: 1
+      LeftDepth: 0
+    Cost: 2
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals: []
+  Icon: {fileID: 21300000, guid: 793b3e06de7057f7a8af42fd54a12475, type: 3}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

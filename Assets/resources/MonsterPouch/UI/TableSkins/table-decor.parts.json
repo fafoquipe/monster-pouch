@@ -1,0 +1,60 @@
+{
+  "texture": "Assets/resources/MonsterPouch/UI/TableSkins/table-decor.png",
+  "width": 1254,
+  "height": 1254,
+  "sprites": [
+    {
+      "name": "reading-lamp",
+      "rect": [
+        119,
+        669,
+        420,
+        510
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "deck-boxes",
+      "rect": [
+        695,
+        652,
+        496,
+        469
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "fern",
+      "rect": [
+        46,
+        92,
+        553,
+        503
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "card-case",
+      "rect": [
+        663,
+        75,
+        551,
+        458
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-648d5b7c-9a95-4938-83e9-a31022b32170.png"
+}

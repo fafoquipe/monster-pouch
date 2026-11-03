@@ -7,6 +7,7 @@ namespace MonsterPouch.Gameplay.Board
         NoPath,
         ReservationRejected,
         MoveFailed,
-        Moved
+        Moved,
+        Reserved
     }
 }

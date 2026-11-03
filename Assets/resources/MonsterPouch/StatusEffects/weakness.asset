@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac243905db94da1819091ff7c607d76, type: 3}
+  m_Name: weakness
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Status.StatusEffectDefinition
+  Id: weakness
+  DisplayName: Vulnerabilidad
+  ShortLabel: '!D'
+  DefaultDuration: 0
+  DefaultIntensity: 1
+  Stacking: 0
+  Ends: 0
+  Priority: 55
+  ShowBadge: 1
+  Icon: {fileID: 0}
+  Color: {r: 0.82, g: 0.49, b: 0.39, a: 1}
+  VisualEffect: {fileID: 0}

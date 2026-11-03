@@ -1,0 +1,68 @@
+# Pendientes del creador
+
+No son bugs técnicos ni autorizaciones para inventar contenido.
+
+## Ampliaciones del 25 de octubre — estado actual
+
+- Habilidades y Tauruk: resueltos y validados localmente; sin consulta creativa abierta.
+- DUELO y cercanía: aprobados e integrados, cierre local anterior completo. Falta el ensayo con dos clientes UGS reales; cualquier habilitación, términos o facturación exige autorización concreta.
+- Recorrido de naciones: APROBADO e integrado. Naturalis 0 → Aquarion 150 → Geothar 300 → Volkanar 450 → Campo Real 600; victoria +30 en todos los tramos y derrotas −5/−10/−15/−25/−30 según el saldo anterior a la partida. Inicio y suelo 0, sin techo de copas. Parque de Bolas (`classic`) y Grand Casino Hotel (`lounge`) quedan como cosméticos fuera del recorrido. El Hotel conserva su categoría de pago, pero no se activa IAP, cobro ni publicación. Aireola queda fuera del ladder por ahora; sus assets se conservan. El acceso a los tramos depende de las copas actuales y se vuelve a restringir al descender; no se cambian tableros bajo los actores durante combate. No volver a preguntar por estos cortes. NationArena 2/2 y NationTheme 12/12 Play aprobados; revisión visual final pendiente.
+- Encabezado y salto de Kazuru: solicitados e integrados; revisión visual y QA pendientes, sin arte nuevo del personaje.
+- Trofeos: Los cuatro trofeos V2 están APROBADOS e integrados: césped, agua con peces, roca y roca con lava. Sus 17 archivos de importación/UI forman parte del paquete final de 23 archivos. Las propuestas V1 no se importan. Son variantes visuales del tramo para una única cantidad de copas, no cuatro monedas o contadores. La comprobación visual final en Unity sigue pendiente.
+- Sala: Estuches por victorias sin límite de cantidad: ciclo repetido de tres azules y dos sorteos 75 % azul / 25 % personaje, con 30 % de desbloqueo al abrir el estuche de personaje. Se conserva la caducidad diaria UTC de los estuches pendientes; ilimitado no significa acumulación entre días. El regalo diario conserva tabla, periodicidad y recibos. Su cierre local ya está acreditado; no tratarlo como una aprobación pendiente.
+- Limpieza: aplicada y regresión local previa cerrada. Conserva recuperación y estimación de tamaño; no confundir con ahorro real de APK.
+- Martio continúa como trabajo paralelo en su propio chat: el creador ordenó «YA PONLO EN EL JUEGOOO». Se observaron cambios externos en producción y su integración, registro y pruebas están en curso. Este cierre no atribuye una integración terminada ni valida ese trabajo; tampoco afirma que siga fuera del juego. Los 20 personajes de Eronya NO están implementados ni asociados al roster por inferencia. El módulo 9 del tutorial sigue pausado y el 10 pendiente. No se completan por esto las 12 etapas del roadmap.
+
+Se conservan los pendientes comerciales y creativos de abajo. Los párrafos históricos de dos tableros y cinco estuches diarios quedan sustituidos únicamente por las decisiones actuales expresas.
+
+## Antecedente MP-DEC-055 — reemplazado en recorrido y pérdidas por la aprobación actual
+
+**Modos puntuables y selección al descender: RESUELTOS para el alcance local aprobado.** Solo puntúan BO5 completos de salas online confirmados por ambos clientes; bots y tutorial no puntúan. Campo Real exige 150 copas actuales y vuelve a bloquearse por debajo de ese umbral. Una selección que deja de ser válida se corrige a Parque de Bolas únicamente en menú. Se conservan inicio/suelo 0, victoria +30 y derrota −5 antes de 150 o −30 desde 150 según saldo previo. La implementación local está integrada y validada: 380 EditMode y 25 PlayMode únicos aprobados; pruebas físicas y Relay remoto pendientes.
+
+Esta decisión sustituye esas dos consultas del punto 9 y las limitaciones históricas de integración del punto 10. Permanecen pendientes el balance comercial definitivo, abandonos/desconexiones, empates, temporadas, premios y autoridad remota. La solicitud histórica PLATA/ORO/LUNAR no autoriza importar propuestas descartadas. Para el recorrido vigente están aprobados los cuatro V2 descritos arriba; la importación y QA siguen pendientes, sin bloquear el contador único de copas. La pausa de expansión continúa salvo la conexión de copas aprobada; el módulo 9 sigue pausado.
+
+1. **Comparación de HP: RESUELTA**, MP-DEC-023 y MP-DEC-026/027/028. Solo Monster vivo al 100 % y Whelps vivos al 50 % de vida actual, redondeado hacia arriba por unidad; ninguna invocación ni muerto cuenta. Se aplica a resolución y animación, bloqueando daño durante el recuento. Números encima, borde negro, corte diagonal con desvanecimiento, enteros y orbes; aliado verde y enemigo rojo.
+2. **Máquinas: RESUELTO para el flujo local aprobado**, MP-DEC-047. Los 23 vínculos machineId/characterId, diez paquetes de recursos, pesos iguales salvo garantías y curva del personaje están aprobados, integrados y probados. Cada tirada cuesta 5 Saturnkens elegidos por el jugador. La autoridad comercial y las fuentes adicionales de Saturnkens siguen pendientes; no hay compras reales activadas.
+3. **Arte de máquinas y estuches: RESUELTO para los recursos usados**, MP-DEC-046/047/048. El creador aprobó los 23 diseños de máquinas y sus asociaciones, además del estuche azul genérico. La Sala reutiliza los 23 estuches de personaje existentes solicitados, sin rediseñarlos. Los PNG exactos están importados y sus capturas nativas revisadas. Margarita, borde arcoíris y otros diseños todavía no aprobados conservan sus pendientes.
+4. **Bienvenida: APROBADA**, MP-DEC-050: 20 Saturnkens, equivalentes a cuatro tiradas actuales, una sola vez al crear una cuenta nueva; implementación local validada. Las referencias antiguas a una Saturncoin de QA no se convierten en saldo real ni se suman a esta concesión. **Premios de módulos del tutorial: PENDIENTES**; El estuche azul único del módulo 7 fue aprobado expresamente en MP-DEC-051; quedan pendientes los demás importes/asignaciones. La persistencia entre reinstalaciones y dispositivos necesita identidad y autoridad remota.
+5. **Mazo inicial: RESUELTO**, MP-DEC-025 y MP-DEC-033/034. Elegir entre Bugrum y Pombú (IDs `bugaloo` y `popow`); solo tres Whelps iniciales (`atori`, `bugui`, `blotan`). Los siguientes desbloqueos completan automáticamente el Brief hasta siete; con siete disponibles se exige el equipo completo. Los nombres actuales se documentan en CHARACTER_NAMES.md. La referencia a revivir al 50 % queda sustituida; los recibos históricos de siete se conservan.
+6. **Estuches de victorias: RESUELTOS**, MP-DEC-048 actualizado por MP-DEC-060. Estuches por victorias sin límite de cantidad: ciclo repetido de tres azules y dos sorteos 75 % azul / 25 % personaje, con 30 % de desbloqueo al abrir el estuche de personaje. Se conserva la caducidad diaria UTC de los estuches pendientes; ilimitado no significa acumulación entre días. El regalo diario conserva tabla, periodicidad y recibos. **Maestría y otras recompensas: PENDIENTES**; XP, umbrales, premios, participación y antifarming requieren sus decisiones específicas.
+7. **Infraestructura externa:** cuentas vinculadas, persistencia autoritativa y despliegue remoto antes de economía comercial.
+8. **Futuro:** evoluciones, héroes manuales, personajes, temporadas y cosméticos siguen sin diseño específico aprobado.
+9. **Ladder de cuenta:** el recorrido inicial de MP-DEC-036 queda sustituido por la aprobación actual: Naturalis 0 → Aquarion 150 → Geothar 300 → Volkanar 450 → Campo Real 600; victoria +30 en todos los tramos y derrotas −5/−10/−15/−25/−30 según el saldo anterior a la partida. Inicio y suelo 0, sin techo de copas. Parque de Bolas (`classic`) y Grand Casino Hotel (`lounge`) quedan como cosméticos fuera del recorrido. El Hotel conserva su categoría de pago, pero no se activa IAP, cobro ni publicación. Aireola queda fuera del ladder por ahora; sus assets se conservan. El acceso a los tramos depende de las copas actuales y se vuelve a restringir al descender; no se cambian tableros bajo los actores durante combate. Balance comercial, temporadas, abandonos, empates, premios y autoridad remota siguen pendientes.
+
+10. **Presentación del recorrido y selector de tableros: APROBADA visualmente**, con la corrección explícita de que los números deben verse nítidos mediante texto nativo; la observación no pedía rediseñar botones. La nomenclatura visible aprobada es **TABLEROS / BOARDS**, con **Tablero actual** y **Siguiente tablero**; el creador rechazó «ARENAS». La referencia está en `arena-presentation-staging-20261022`, con HTML/CSS, PNG y fuentes existentes. Sus 25 vistas en seis formatos sirven para implementar el diseño autorizado en Unity; las comprobaciones de navegador no sustituyen sus pruebas. Los estados de ejemplo y guardas del prototipo para Hotel antes de 150 o descenso no aprueban reglas de acceso, propiedad o equipamiento. La adaptación nativa de esta pantalla QA cerró con 19/19 EditMode de geometría y 3/3 PlayMode propios, más tres del lobby en la misma tanda, con once capturas inspeccionadas; las copas de prueba permanecen en memoria, sin cuentas ni modos puntuables inventados. El icono de trofeo sigue pendiente de aprobación.
+
+11. **Trofeos del recorrido: APROBADOS en V2.** Césped, agua con peces, roca y roca con lava. Los 17 archivos de importación/UI están integrados dentro del paquete final de 23; revisión visual pendiente. Las versiones V1 y propuestas anteriores no se importan; sigue habiendo una sola cantidad de copas.
+
+Orientación: **aclarada por el creador**. El móvil permanece en vertical normal, sin rotar a horizontal ni boca abajo. Las vistas horizontales de la propuesta corresponden únicamente a PC; no autorizan una rotación móvil. La configuración actual ya cumple esta regla según auditoría de fuentes, pendiente de comprobación física de dispositivos.
+
+La referencia más reciente para los tres trofeos es `trophy-reference-20261022.png`: «parecido a este, pero no igual». La corrección posterior explícita **«es en PIXELART»** fija el acabado: copa de forma sencilla en PIXEL ART, contorno oscuro, paleta reducida y reflejos mínimos; el lunar mantiene cristal/diamante y brillo contenido. No se aprueba un acabado vectorial ni cartoon liso. Las primeras variantes quedan superadas. La elección de las imágenes finales y su distribución siguen pendientes; una importación futura usará filtrado Point acorde al pixel art, no la preparación bilineal anterior.
+
+Las tres propuestas vigentes están listas y se presentaron conjuntamente en `trophy-family-preview-20261022.png`; la aprobación conjunta sigue pendiente. Fuentes en el workspace:
+
+- Plata: `trophy-silver-design-20261022/pixelart-v3/trophy-silver-pixelart.png`.
+- Oro: `trophy-icon-design-20261022/gold-v4-pixel/trophy-gold-v4-pixel.png`.
+- Lunar: `trophy-lunar-design-20261022/pixel-v3/trophy-lunar-pixel.png`.
+
+El «+150» de esa comparación es una muestra visual de cifras e icono; no asigna los tres trofeos a rangos ni cambia los umbrales aprobados. Ninguna propuesta está importada.
+
+Banco: **cerrado por aclaración del creador**. Mantener reglas actuales, guardar gratis; no introducir un mecanismo de compra de unidades duplicadas.
+
+## Consultas enviadas durante la ampliación de datos
+
+- **Habilidades iniciales: RESUELTO por MP-DEC-049.** Las tres mejoras empiezan bloqueadas; copias 1–4 según propiedad. Implementado y probado.
+- **Propiedad del legado:** falta definir qué personajes y habilidades deben reconocerse como propiedad de jugadores existentes al activar el inventario jugable. La disponibilidad anterior del catálogo o la presencia en un mazo no se convierten automáticamente en propiedad. Pregunta enviada al creador; respuesta pendiente.
+
+No hay decisión inferida por silencio. Se preservan las cuentas anteriores sin convertir su acceso al catálogo en concesiones. El inventario local de cuentas nuevas se limita al equipo inicial aprobado y a desbloqueos registrados explícitamente; la economía QA permanece separada. Continúan las tareas técnicas independientes.
+
+Combate sencillo del tutorial: RESUELTO por MP-DEC-032. Rival = Monster inicial no elegido; todas sus estadísticas favorables al 50 %, parámetros inversos ×2 si empeoran su desempeño. Se aplica solo en entrenamiento. Las consultas de recompensas, habilidades iniciales, propiedad e inventario de máquinas anteriores siguen pendientes; esta respuesta no las resuelve.
+
+
+**Habilidades permanentes y copias: APROBADO, implementación local validada**, MP-DEC-049. En cuentas nuevas las tres mejoras empiezan bloqueadas; la habilidad automática base se conserva. Desbloquear una mejora cuesta 100 Earthkens + 100 Sunkens juntos una sola vez; obtenerla como premio evita ese pago. El máximo total de copias por tipo es 1 + mejoras poseídas (1/2/3/4), contando principal y reserva. Compras y fusiones solo usan mejoras desbloqueadas; se conserva el entrenamiento efímero existente sin conceder propiedad. La propiedad que se reconocerá a cuentas Legacy sigue pendiente y no se inventa durante la migración.
+
+MP-DEC-051: premio de un estuche azul único para el módulo 7 APROBADO; integración del módulo en preparación. MP-DEC-052: imagen exacta del icono DEV APROBADA e integrada.
+
+## Actualización 2026-10-24: módulos siguientes
+
+MP-DEC-051: estuche azul único del módulo 7 implementado y validado junto al módulo 8. MP-DEC-053: aprobado rival sencillo del primer BO5 (Monster inicial no elegido y tres Whelps iniciales, sin mejoras, estadísticas normales y compras/colocación actuales). No requiere otra aprobación para esa configuración, pero el trabajo del módulo 9 queda pausado por petición del creador. La dificultad posterior, premios adicionales y acciones externas no definidas siguen pendientes.

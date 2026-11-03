@@ -1,0 +1,4834 @@
+fileFormatVersion: 2
+guid: 24accfd139f97154db278669a2ec4827
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7714176345670082661
+    second: atori-clean-v3_0
+  - first:
+      213: 5948205926892268730
+    second: atori-clean-v3_1
+  - first:
+      213: 4918149092598638698
+    second: atori-clean-v3_2
+  - first:
+      213: -3923183825306337531
+    second: atori-clean-v3_3
+  - first:
+      213: -7173850387007899084
+    second: atori-clean-v3_4
+  - first:
+      213: -8831439589168261306
+    second: atori-clean-v3_5
+  - first:
+      213: -5986127257030485
+    second: atori-clean-v3_6
+  - first:
+      213: -6409063460910585698
+    second: atori-clean-v3_7
+  - first:
+      213: 738788197354787709
+    second: atori-clean-v3_8
+  - first:
+      213: -6801403452846878532
+    second: atori-clean-v3_9
+  - first:
+      213: -7353081217559573625
+    second: atori-clean-v3_10
+  - first:
+      213: -2811962567215631868
+    second: atori-clean-v3_11
+  - first:
+      213: 6823168736147220443
+    second: atori-clean-v3_12
+  - first:
+      213: -3127640882074899596
+    second: atori-clean-v3_13
+  - first:
+      213: 8568812309270178959
+    second: atori-clean-v3_14
+  - first:
+      213: 5112065361402854053
+    second: atori-clean-v3_15
+  - first:
+      213: 5125749737768949914
+    second: atori-clean-v3_16
+  - first:
+      213: -1556207755951606599
+    second: atori-clean-v3_17
+  - first:
+      213: -5312460992247520044
+    second: atori-clean-v3_18
+  - first:
+      213: 594374430777746588
+    second: atori-clean-v3_19
+  - first:
+      213: -7974607834457932606
+    second: atori-clean-v3_20
+  - first:
+      213: 7047257746172740253
+    second: atori-clean-v3_21
+  - first:
+      213: 8385481428262195914
+    second: atori-clean-v3_22
+  - first:
+      213: 4087607348070612062
+    second: atori-clean-v3_23
+  - first:
+      213: 4069419104751310909
+    second: atori-clean-v3_24
+  - first:
+      213: -2771299143322988021
+    second: atori-clean-v3_25
+  - first:
+      213: 5563323846483481160
+    second: atori-clean-v3_26
+  - first:
+      213: 2263175554767567330
+    second: atori-clean-v3_27
+  - first:
+      213: -6133120748278976819
+    second: atori-clean-v3_28
+  - first:
+      213: 3157174041255819786
+    second: atori-clean-v3_29
+  - first:
+      213: 1382988991670795804
+    second: atori-clean-v3_30
+  - first:
+      213: -2178128579983077600
+    second: atori-clean-v3_31
+  - first:
+      213: -4760701191342588614
+    second: atori-clean-v3_32
+  - first:
+      213: -5932753959655150661
+    second: atori-clean-v3_33
+  - first:
+      213: -8413760462146488461
+    second: atori-clean-v3_34
+  - first:
+      213: 8600807635304808315
+    second: atori-clean-v3_35
+  - first:
+      213: -343613560110036492
+    second: atori-clean-v3_36
+  - first:
+      213: -6691569188624427250
+    second: atori-clean-v3_37
+  - first:
+      213: -5496515806062855227
+    second: atori-clean-v3_38
+  - first:
+      213: -3147994950914226827
+    second: atori-clean-v3_39
+  - first:
+      213: 3823056375796317895
+    second: atori-clean-v3_40
+  - first:
+      213: 8387149692769921118
+    second: atori-clean-v3_41
+  - first:
+      213: 4307131149786307377
+    second: atori-clean-v3_42
+  - first:
+      213: -8817221718901036474
+    second: atori-clean-v3_43
+  - first:
+      213: 8518239070448551479
+    second: atori-clean-v3_44
+  - first:
+      213: 4367222742797798433
+    second: atori-clean-v3_45
+  - first:
+      213: 2609067052297036865
+    second: atori-clean-v3_46
+  - first:
+      213: -1125292681299100461
+    second: atori-clean-v3_47
+  - first:
+      213: -607819954452717526
+    second: atori-clean-v3_48
+  - first:
+      213: 4878314393284005411
+    second: atori-clean-v3_49
+  - first:
+      213: 8021155115638030198
+    second: atori-clean-v3_50
+  - first:
+      213: 7018044351079434768
+    second: atori-clean-v3_51
+  - first:
+      213: -4401639841595091343
+    second: atori-clean-v3_52
+  - first:
+      213: 5860248319400125174
+    second: atori-clean-v3_53
+  - first:
+      213: 5980466052948388441
+    second: atori-clean-v3_54
+  - first:
+      213: -1646595683336273873
+    second: atori-clean-v3_55
+  - first:
+      213: 1246325480107433770
+    second: atori-clean-v3_56
+  - first:
+      213: 2128817317918014293
+    second: atori-clean-v3_57
+  - first:
+      213: 7567198897378820015
+    second: atori-clean-v3_58
+  - first:
+      213: 2301962063965204581
+    second: atori-clean-v3_59
+  - first:
+      213: -4714391097135793465
+    second: atori-clean-v3_60
+  - first:
+      213: 5702919430394566665
+    second: atori-clean-v3_61
+  - first:
+      213: -799110649504043663
+    second: atori-clean-v3_62
+  - first:
+      213: 6340579282824499411
+    second: atori-clean-v3_63
+  - first:
+      213: -2558299758599501501
+    second: atori-clean-v3_64
+  - first:
+      213: 4100866205955290602
+    second: atori-clean-v3_65
+  - first:
+      213: 2888366141527555224
+    second: atori-clean-v3_66
+  - first:
+      213: 2633173674799576765
+    second: atori-clean-v3_67
+  - first:
+      213: 7815240517653046981
+    second: atori-clean-v3_68
+  - first:
+      213: 7123311959404407985
+    second: atori-clean-v3_69
+  - first:
+      213: 2546520746838818979
+    second: atori-clean-v3_70
+  - first:
+      213: -2303119305208901657
+    second: atori-clean-v3_71
+  - first:
+      213: 2066819688486141109
+    second: atori-clean-v3_72
+  - first:
+      213: -7547517092871846789
+    second: atori-clean-v3_73
+  - first:
+      213: -2785076990541873329
+    second: atori-clean-v3_74
+  - first:
+      213: -6065243164303308960
+    second: atori-clean-v3_75
+  - first:
+      213: -2405576094687145003
+    second: atori-clean-v3_76
+  - first:
+      213: 4398345714256090128
+    second: atori-clean-v3_77
+  - first:
+      213: 8089689036081685629
+    second: atori-clean-v3_78
+  - first:
+      213: -8901261985752482490
+    second: atori-clean-v3_79
+  - first:
+      213: -6412208406456688040
+    second: atori-clean-v3_80
+  - first:
+      213: 5045640677283635856
+    second: atori-clean-v3_81
+  - first:
+      213: 692860312640449554
+    second: atori-clean-v3_82
+  - first:
+      213: -1065866450729209972
+    second: atori-clean-v3_83
+  - first:
+      213: -7195649474513016552
+    second: atori-clean-v3_84
+  - first:
+      213: -4533269725165635570
+    second: atori-clean-v3_85
+  - first:
+      213: -4165518823080047292
+    second: atori-clean-v3_86
+  - first:
+      213: 3391111206501959668
+    second: atori-clean-v3_87
+  - first:
+      213: 3697037887807593622
+    second: atori-clean-v3_88
+  - first:
+      213: 1247941127304209874
+    second: atori-clean-v3_89
+  - first:
+      213: -53315292239342150
+    second: atori-clean-v3_90
+  - first:
+      213: 7362622229285699572
+    second: atori-clean-v3_91
+  - first:
+      213: -8135285287114269402
+    second: atori-clean-v3_92
+  - first:
+      213: -8009606369726880178
+    second: atori-clean-v3_93
+  - first:
+      213: -8862008995795821950
+    second: atori-clean-v3_94
+  - first:
+      213: -9007188741822778796
+    second: atori-clean-v3_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atori-clean-v3_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 288
+        width: 196
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f1d9d2c7db1f490800000000000000
+      internalID: -7714176345670082661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_1
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 14
+        width: 198
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc694b86c54c8250800000000000000
+      internalID: 5948205926892268730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1772
+        width: 198
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6860c0da86c04440800000000000000
+      internalID: 4918149092598638698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_3
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 288
+        width: 190
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fbe08c81d0e89c0800000000000000
+      internalID: -3923183825306337531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1772
+        width: 198
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a789ae41d517c90800000000000000
+      internalID: -7173850387007899084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 288
+        width: 192
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647dd401c7c607580800000000000000
+      internalID: -8831439589168261306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_6
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1536
+        width: 206
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0b34326abbaeff0800000000000000
+      internalID: -5986127257030485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_7
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1536
+        width: 220
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e982d7d2dbe6e07a0800000000000000
+      internalID: -6409063460910585698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_8
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1536
+        width: 196
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73559383f3b04a00800000000000000
+      internalID: 738788197354787709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_9
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 14
+        width: 240
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb052f2589f8c91a0800000000000000
+      internalID: -6801403452846878532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_10
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1536
+        width: 196
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bc3c6479b94f990800000000000000
+      internalID: -7353081217559573625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_11
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1772
+        width: 248
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402ba6b81f6e9f8d0800000000000000
+      internalID: -2811962567215631868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_12
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 288
+        width: 190
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd72b9890d3c0be50800000000000000
+      internalID: 6823168736147220443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_13
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 288
+        width: 188
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bafee40336894d0800000000000000
+      internalID: -3127640882074899596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_14
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1536
+        width: 202
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c2b0155698ae670800000000000000
+      internalID: 8568812309270178959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 802
+        width: 204
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aafefe7c54b1f640800000000000000
+      internalID: 5112065361402854053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_16
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1536
+        width: 194
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a981547aa32522740800000000000000
+      internalID: 5125749737768949914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_17
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 288
+        width: 190
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4fbc58a4d376ae0800000000000000
+      internalID: -1556207755951606599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_18
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 548
+        width: 186
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4a7f9cfd85646b0800000000000000
+      internalID: -5312460992247520044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_19
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 802
+        width: 232
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94251a4564af3800800000000000000
+      internalID: 594374430777746588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_20
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1052
+        width: 208
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc76140d60845190800000000000000
+      internalID: -7974607834457932606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_21
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 14
+        width: 238
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d920f390593ecc160800000000000000
+      internalID: 7047257746172740253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_22
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 1296
+        width: 194
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2143a4ee63f5470800000000000000
+      internalID: 8385481428262195914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_23
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1772
+        width: 242
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c760bd9391ab830800000000000000
+      internalID: 4087607348070612062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_24
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 548
+        width: 174
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38d3e47d1b797830800000000000000
+      internalID: 4069419104751310909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_25
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 548
+        width: 176
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0293e3bc1e5a89d0800000000000000
+      internalID: -2771299143322988021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_26
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1296
+        width: 204
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8429b180095e43d40800000000000000
+      internalID: 5563323846483481160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_27
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 802
+        width: 188
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9b44e1d2a686f10800000000000000
+      internalID: 2263175554767567330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_28
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 802
+        width: 190
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcee0429c27c2eaa0800000000000000
+      internalID: -6133120748278976819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 548
+        width: 184
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a3327201980db20800000000000000
+      internalID: 3157174041255819786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_30
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 802
+        width: 182
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e30d8192d513310800000000000000
+      internalID: 1382988991670795804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_31
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1052
+        width: 238
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f8bf2c89bb5c1e0800000000000000
+      internalID: -2178128579983077600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_32
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 1536
+        width: 204
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dfe306d779eedb0800000000000000
+      internalID: -4760701191342588614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_33
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 14
+        width: 222
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb66fee4bf9aada0800000000000000
+      internalID: -5932753959655150661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_34
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 1052
+        width: 172
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377388c00715c3b80800000000000000
+      internalID: -8413760462146488461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_35
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1772
+        width: 234
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f7fcba9f43c5770800000000000000
+      internalID: 8600807635304808315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_36
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 548
+        width: 178
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f942a1a94d3b3bf0800000000000000
+      internalID: -343613560110036492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_37
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 802
+        width: 180
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e079712c645c223a0800000000000000
+      internalID: -6691569188624427250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_38
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1772
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbbd450ff378b3b0800000000000000
+      internalID: -5496515806062855227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_39
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1052
+        width: 182
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575c80c55431054d0800000000000000
+      internalID: -3147994950914226827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_40
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1296
+        width: 186
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ceb1a3b4893e0530800000000000000
+      internalID: 3823056375796317895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_41
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 548
+        width: 184
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58e3936534256470800000000000000
+      internalID: 8387149692769921118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_42
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1052
+        width: 186
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b5808e5f006cb30800000000000000
+      internalID: 4307131149786307377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_43
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1536
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a6b03ff8fe2a580800000000000000
+      internalID: -8817221718901036474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_44
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 1296
+        width: 192
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73680f19d4dd63670800000000000000
+      internalID: 8518239070448551479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_45
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 14
+        width: 226
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c487f22fd7b9c30800000000000000
+      internalID: 4367222742797798433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_46
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1052
+        width: 190
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144275f19a4453420800000000000000
+      internalID: 2609067052297036865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_47
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 1772
+        width: 216
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcf1d6b4482260f0800000000000000
+      internalID: -1125292681299100461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_48
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 548
+        width: 198
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20a377c8f69097f0800000000000000
+      internalID: -607819954452717526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_49
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 548
+        width: 196
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e4e52281143b340800000000000000
+      internalID: 4878314393284005411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_50
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1052
+        width: 190
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f79eb641ed05f60800000000000000
+      internalID: 8021155115638030198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_51
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 288
+        width: 194
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ac604772a156160800000000000000
+      internalID: 7018044351079434768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_52
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1296
+        width: 194
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176948c82eb3ae2c0800000000000000
+      internalID: -4401639841595091343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_53
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 548
+        width: 196
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2ac6d2cc8c35150800000000000000
+      internalID: 5860248319400125174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1296
+        width: 204
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a65457032eef250800000000000000
+      internalID: 5980466052948388441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_55
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1052
+        width: 230
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20cc0633fd1629e0800000000000000
+      internalID: -1646595683336273873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_56
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1296
+        width: 194
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f525cbb66db4110800000000000000
+      internalID: 1246325480107433770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_57
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 288
+        width: 230
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bf33a52141b8d10800000000000000
+      internalID: 2128817317918014293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_58
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1296
+        width: 200
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faffdfeed47140960800000000000000
+      internalID: 7567198897378820015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_59
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1772
+        width: 214
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56032150d4632ff10800000000000000
+      internalID: 2301962063965204581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_60
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 288
+        width: 164
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caf4fa664e139eb0800000000000000
+      internalID: -4714391097135793465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_61
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 288
+        width: 166
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908575fa107d42f40800000000000000
+      internalID: 5702919430394566665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_62
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1536
+        width: 184
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d6410291df8e4f0800000000000000
+      internalID: -799110649504043663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_63
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 802
+        width: 196
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d094fe83434ef750800000000000000
+      internalID: 6340579282824499411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_64
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1052
+        width: 192
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34985bb8ce71f7cd0800000000000000
+      internalID: -2558299758599501501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_65
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 548
+        width: 184
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae57e55461439e830800000000000000
+      internalID: 4100866205955290602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_66
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 802
+        width: 176
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cf307d3b9851820800000000000000
+      internalID: 2888366141527555224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_67
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 548
+        width: 232
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6b65e8189ea8420800000000000000
+      internalID: 2633173674799576765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_68
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1296
+        width: 190
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c623f808df457c60800000000000000
+      internalID: 7815240517653046981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_69
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 14
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc67947c761bd260800000000000000
+      internalID: 7123311959404407985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_70
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1536
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a08d70902f075320800000000000000
+      internalID: 2546520746838818979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_71
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1772
+        width: 242
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efcda1c13da900e0800000000000000
+      internalID: -2303119305208901657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_72
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 288
+        width: 176
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcfff26e81deac10800000000000000
+      internalID: 2066819688486141109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_73
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 288
+        width: 178
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b744f274135d14790800000000000000
+      internalID: -7547517092871846789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_74
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1536
+        width: 192
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f33aaab3b6959d0800000000000000
+      internalID: -2785076990541873329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_75
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 548
+        width: 180
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067c5532a7de3dba0800000000000000
+      internalID: -6065243164303308960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_76
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1296
+        width: 182
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d35004894dad9ed0800000000000000
+      internalID: -2405576094687145003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_77
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 548
+        width: 184
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0149899af101a0d30800000000000000
+      internalID: 4398345714256090128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_78
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 1052
+        width: 186
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74650b3159544070800000000000000
+      internalID: 8089689036081685629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_79
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 802
+        width: 216
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64df886826d587480800000000000000
+      internalID: -8901261985752482490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_80
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1536
+        width: 202
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852206b7d624307a0800000000000000
+      internalID: -6412208406456688040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_81
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 14
+        width: 230
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092a0c98677b50640800000000000000
+      internalID: 5045640677283635856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_82
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1052
+        width: 184
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c66ed88c88d9900800000000000000
+      internalID: 692860312640449554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_83
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 1772
+        width: 254
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f674a3c184531f0800000000000000
+      internalID: -1065866450729209972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_84
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 14
+        width: 198
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819ec675deae32c90800000000000000
+      internalID: -7195649474513016552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_85
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 14
+        width: 198
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08387804379611c0800000000000000
+      internalID: -4533269725165635570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_86
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1296
+        width: 214
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d4c1543ba1136c0800000000000000
+      internalID: -4165518823080047292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_87
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 288
+        width: 196
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f74569eca5af0f20800000000000000
+      internalID: 3391111206501959668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_88
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1296
+        width: 196
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c9ee70f548e4330800000000000000
+      internalID: 3697037887807593622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_89
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 14
+        width: 198
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d56199e7d3915110800000000000000
+      internalID: 1247941127304209874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_90
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 802
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab55af03606924ff0800000000000000
+      internalID: -53315292239342150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_91
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 802
+        width: 214
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fff7ff98e94d2660800000000000000
+      internalID: 7362622229285699572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_92
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1052
+        width: 200
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d971b4229a91f80800000000000000
+      internalID: -8135285287114269402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_93
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 242
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4629b5817928d090800000000000000
+      internalID: -8009606369726880178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_94
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 802
+        width: 202
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a164175c1d30580800000000000000
+      internalID: -8862008995795821950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-clean-v3_95
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1772
+        width: 252
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45271cabf89000380800000000000000
+      internalID: -9007188741822778796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 286
+        width: 200
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef362c22f1488864cb5cb5a6b3649806
+      internalID: -1215884674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 12
+        width: 202
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d791d85959c079498c01a15a83bbede
+      internalID: -52163706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1770
+        width: 202
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5049505, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b48ee5f0fac0894c90b103dc450d93b
+      internalID: -2000961737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 286
+        width: 194
+        height: 232
+      alignment: 9
+      pivot: {x: 0.47938144, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05cb4d2df1f3c14e85ef3bafbaf9dfb
+      internalID: -385289141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1770
+        width: 202
+        height: 204
+      alignment: 9
+      pivot: {x: 0.5148515, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f127a3ee932bfd94ba713f72d52615d1
+      internalID: 1054398504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 286
+        width: 196
+        height: 236
+      alignment: 9
+      pivot: {x: 0.48469388, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66149e99ddaaae0428556ba28d9949b7
+      internalID: -1066055159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1534
+        width: 210
+        height: 210
+      alignment: 9
+      pivot: {x: 0.41904762, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5909eea2725d7df4aab5f4e0d148a94f
+      internalID: 843462937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1534
+        width: 224
+        height: 212
+      alignment: 9
+      pivot: {x: 0.3705357, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457437e4476109e4ca7803ca24b2b1e8
+      internalID: 2085630062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1534
+        width: 200
+        height: 208
+      alignment: 9
+      pivot: {x: 0.515, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc924ba190c7aa488508666421663f0
+      internalID: 962165898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 12
+        width: 244
+        height: 238
+      alignment: 9
+      pivot: {x: 0.50409836, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c5db880699ee141bcd49f75eb8b456
+      internalID: -2111477311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 1534
+        width: 200
+        height: 208
+      alignment: 9
+      pivot: {x: 0.525, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2aa6a5a8928a5b47891faf86ce36af8
+      internalID: -2116013926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1770
+        width: 252
+        height: 176
+      alignment: 9
+      pivot: {x: 0.49603173, y: 0.03409091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb86a991b05d0e42b2e7943cc5a73ed
+      internalID: 612325223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 286
+        width: 194
+        height: 232
+      alignment: 9
+      pivot: {x: 0.48969072, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0847b689043984eb491105b476ef8e
+      internalID: 966411144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 286
+        width: 192
+        height: 232
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5a9cf6c3ac09442a0587b30ef77368
+      internalID: -227278751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1534
+        width: 206
+        height: 208
+      alignment: 9
+      pivot: {x: 0.41747573, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a7e3009aeec1b40991910816634386
+      internalID: 1689073192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 800
+        width: 208
+        height: 226
+      alignment: 9
+      pivot: {x: 0.45673078, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e86db1eb37df44f9efbd1e482fa108
+      internalID: -2143718832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1534
+        width: 198
+        height: 210
+      alignment: 9
+      pivot: {x: 0.510101, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7508640da8b294f41867d8a779fd5829
+      internalID: 1987173739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 286
+        width: 194
+        height: 232
+      alignment: 9
+      pivot: {x: 0.46907216, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64c0a75de8da154390f5d909a569494
+      internalID: 1770104415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 546
+        width: 190
+        height: 222
+      alignment: 9
+      pivot: {x: 0.43157893, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1486182799d37349b5e9e169817455f
+      internalID: 938662356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 800
+        width: 236
+        height: 222
+      alignment: 9
+      pivot: {x: 0.3559322, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b00fecd939bcf4983d914ce2df701c
+      internalID: -1157833129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1050
+        width: 212
+        height: 218
+      alignment: 9
+      pivot: {x: 0.495283, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dc522e420c34548a02643703884e03
+      internalID: 445370664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 12
+        width: 242
+        height: 242
+      alignment: 9
+      pivot: {x: 0.49586776, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e96db6b47c02b418969ec693f478eb
+      internalID: -1311815906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 1294
+        width: 198
+        height: 214
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8695c9cabf74944a95d6a6f80b5331
+      internalID: 1159787530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1770
+        width: 246
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036144577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1735b2b4ec2fac47844b4fd88e1ee7b
+      internalID: 2110271892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 546
+        width: 178
+        height: 230
+      alignment: 9
+      pivot: {x: 0.46067417, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0839a9aab4e1441913d9bae226d833
+      internalID: -256798872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 546
+        width: 180
+        height: 230
+      alignment: 9
+      pivot: {x: 0.4611111, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ee716a7a426a54b8219c631de05008
+      internalID: 320225380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1294
+        width: 208
+        height: 214
+      alignment: 9
+      pivot: {x: 0.43269232, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10e164f3ef2cb046b4634ed487943c1
+      internalID: -527795409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 800
+        width: 192
+        height: 224
+      alignment: 9
+      pivot: {x: 0.453125, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb711412cc3fbd4408a3204a578e79aa
+      internalID: 615656030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 800
+        width: 194
+        height: 222
+      alignment: 9
+      pivot: {x: 0.4742268, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf56e971b0279340a55ff1f7b7b011e
+      internalID: 1135450302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 546
+        width: 188
+        height: 230
+      alignment: 9
+      pivot: {x: 0.4680851, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1748d8a29f18f1640a2a3f1f95076850
+      internalID: 1529536797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 800
+        width: 186
+        height: 226
+      alignment: 9
+      pivot: {x: 0.4784946, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351becd1b21171b41b5cffc58d05abb3
+      internalID: -1415657247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1050
+        width: 242
+        height: 220
+      alignment: 9
+      pivot: {x: 0.30991736, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed70204d661063042bc7ec41b984f8a1
+      internalID: 853868145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 1534
+        width: 208
+        height: 206
+      alignment: 9
+      pivot: {x: 0.50961536, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca15f7ba715c4f441b6be390598c974d
+      internalID: -103518573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 12
+        width: 226
+        height: 236
+      alignment: 9
+      pivot: {x: 0.48230088, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbce4d91af55ed540b61a63f2966d2ca
+      internalID: 1868851300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 1050
+        width: 176
+        height: 218
+      alignment: 9
+      pivot: {x: 0.51704544, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd40c6534e8f91445b77191b2f92b6b0
+      internalID: 1947537035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1770
+        width: 238
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f93b898ab78444a8fa81edc1c4ee4f
+      internalID: -731981429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 546
+        width: 182
+        height: 228
+      alignment: 9
+      pivot: {x: 0.47802198, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978f52793c5d27943a120bc6e3f35164
+      internalID: -908231529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 800
+        width: 184
+        height: 226
+      alignment: 9
+      pivot: {x: 0.48369566, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666fa7349eea6db4ea4afe4fab0fbf3d
+      internalID: 189846667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1770
+        width: 196
+        height: 206
+      alignment: 9
+      pivot: {x: 0.43367347, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46692230b1dc257489db6879fdab48b4
+      internalID: -1422533824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1050
+        width: 186
+        height: 220
+      alignment: 9
+      pivot: {x: 0.4623656, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4564cd21083ef244fb8caa9509535f5d
+      internalID: -1847795745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1294
+        width: 190
+        height: 216
+      alignment: 9
+      pivot: {x: 0.4473684, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166ab9506581d7d42b926a05d443f1f5
+      internalID: -1670355036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 546
+        width: 188
+        height: 228
+      alignment: 9
+      pivot: {x: 0.39361703, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2da32b4e78c3c4c87ffc2fb1b26115
+      internalID: 86855928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1050
+        width: 190
+        height: 220
+      alignment: 9
+      pivot: {x: 0.45789474, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35a4930e199c4a488fe189bba3f750c
+      internalID: 911599754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1534
+        width: 230
+        height: 212
+      alignment: 9
+      pivot: {x: 0.3652174, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2b1188b72c4d64cac490939308c9e2
+      internalID: -62709074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 1294
+        width: 196
+        height: 214
+      alignment: 9
+      pivot: {x: 0.48469388, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e991efb1c38cb47a9daffef8255e3d
+      internalID: -579313949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 12
+        width: 230
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5043478, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b208b11945b2944585bb6992e63b839
+      internalID: 1724771610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1050
+        width: 194
+        height: 220
+      alignment: 9
+      pivot: {x: 0.4072165, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6f89081e895a34baa4b4204143a7c4
+      internalID: 1982716683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 1770
+        width: 220
+        height: 158
+      alignment: 9
+      pivot: {x: 0.48181817, y: 0.03797468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf12892c74e0fb47be42d36bb9f9c98
+      internalID: -563891396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 546
+        width: 202
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d52ffef1ded6d340b00482e8dad3ac7
+      internalID: -724766114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 546
+        width: 200
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca9812a3dc0128448328a3a7151c38e
+      internalID: 1126632548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 1050
+        width: 194
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5051546, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0921533d472f4a04c9f5bab854eae54c
+      internalID: -132748563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 286
+        width: 198
+        height: 236
+      alignment: 9
+      pivot: {x: 0.53535354, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47123ec5020c97f4a8ae2ba70af96d29
+      internalID: -1463829562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1294
+        width: 198
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3914c9dbd894b0d42a64d81c5c5bf815
+      internalID: 1372292757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 546
+        width: 200
+        height: 228
+      alignment: 9
+      pivot: {x: 0.51, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46134abaae01ca748a556c342f8efcdb
+      internalID: 1706664964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1294
+        width: 208
+        height: 216
+      alignment: 9
+      pivot: {x: 0.50961536, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a194bf52fa2f0e4984a3028841f71df
+      internalID: 15915191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1050
+        width: 234
+        height: 220
+      alignment: 9
+      pivot: {x: 0.47008547, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefb60cea323f2e41883aa9be4f603e8
+      internalID: -1848139590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1294
+        width: 198
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230eb68314e276041ac19b5de64e5d65
+      internalID: -701798408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 286
+        width: 234
+        height: 234
+      alignment: 9
+      pivot: {x: 0.50427353, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8e60e01ab657a40916048f4811bf75
+      internalID: 150785921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1294
+        width: 204
+        height: 216
+      alignment: 9
+      pivot: {x: 0.50980395, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f7c0b7b830aeb4b83f99473466a11e
+      internalID: -60319843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1770
+        width: 218
+        height: 174
+      alignment: 9
+      pivot: {x: 0.49541286, y: 0.03448276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df66866e9d0a85c4c8bc32b030f3431a
+      internalID: 175295135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 286
+        width: 168
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6171c51370cf3429423b50327c2e92
+      internalID: 1555600066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 286
+        width: 170
+        height: 232
+      alignment: 9
+      pivot: {x: 0.45294118, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61ae1ef1f76b724ebc344c72e34af0e
+      internalID: 178563543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1534
+        width: 188
+        height: 210
+      alignment: 9
+      pivot: {x: 0.44680852, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5342c2bfe572e414694c589bf1ea4205
+      internalID: -488448082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 800
+        width: 200
+        height: 224
+      alignment: 9
+      pivot: {x: 0.465, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a19e30b8586c9048aaee07e5f9cb7d1
+      internalID: -165626875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1050
+        width: 196
+        height: 218
+      alignment: 9
+      pivot: {x: 0.45918366, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfd63bb89c868c4584ee48db4e50ea4
+      internalID: 444617057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 546
+        width: 188
+        height: 230
+      alignment: 9
+      pivot: {x: 0.41489363, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e88ca470dd98043b6d6d9b642be900
+      internalID: 123522922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 800
+        width: 180
+        height: 226
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76759742f67fad84883fecd9e9303539
+      internalID: -581297086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 546
+        width: 236
+        height: 226
+      alignment: 9
+      pivot: {x: 0.3516949, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bded8edf34cc914bbe5c37edcf65466
+      internalID: 359331872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1294
+        width: 194
+        height: 216
+      alignment: 9
+      pivot: {x: 0.44329897, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5a69d04b32a274c9952060e43bdad8
+      internalID: 996077733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 12
+        width: 228
+        height: 248
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.024193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5277ac65726533c4bbc25c2ba88734b9
+      internalID: -1158841157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f10
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1534
+        width: 208
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5144231, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa5afda05964be48be106997e247f81
+      internalID: -73660760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r05-f11
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1770
+        width: 246
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48563ca2bf444e543b950c33e3430156
+      internalID: 1953864782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 286
+        width: 180
+        height: 236
+      alignment: 9
+      pivot: {x: 0.54444444, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b84c36502734ca439271efc6d1c4bcf
+      internalID: -1015730387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 286
+        width: 182
+        height: 236
+      alignment: 9
+      pivot: {x: 0.54395604, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1858f0feaf9f68449963a6f54d419d8
+      internalID: -1258954928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1534
+        width: 196
+        height: 210
+      alignment: 9
+      pivot: {x: 0.53061223, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34da6e061a601894e913026eaecaf296
+      internalID: -855975110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 546
+        width: 184
+        height: 230
+      alignment: 9
+      pivot: {x: 0.4673913, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcea9c093ff7a741b343dcef8d74d6a
+      internalID: 1956138293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1294
+        width: 186
+        height: 216
+      alignment: 9
+      pivot: {x: 0.56989247, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fabe5e94f869154ca391ac18de95853
+      internalID: 1096865489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 546
+        width: 188
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5425532, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e34ae84babe85489272e9547e09ff5
+      internalID: 1642070865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 1050
+        width: 190
+        height: 218
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce0257961a2d3447905f24cb66e9a57
+      internalID: 1308089608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 800
+        width: 220
+        height: 224
+      alignment: 9
+      pivot: {x: 0.6090909, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e7d5d2078d09545a6905b458d5ef9c
+      internalID: 1307777255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1534
+        width: 206
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5145631, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9604297741a43c84e8f0798d08e42b41
+      internalID: -1127025433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 12
+        width: 234
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5897436, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d182a7ee3a9634d92c1f42f1dd4add
+      internalID: -799216559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f10
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1050
+        width: 188
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5531915, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80983839b3ced849aaff5b35e5bdf2c
+      internalID: 1832954190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r06-f11
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 1770
+        width: 258
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37625ce3183b0334ead79097e6dc44c4
+      internalID: -394580514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 12
+        width: 202
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5247525, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c977e6b33f990b844aea417b9a965a18
+      internalID: -1430001822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 12
+        width: 202
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5247525, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b70f84e0b9b354bbffa73e5b6ff4a4
+      internalID: 1069470853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1294
+        width: 218
+        height: 216
+      alignment: 9
+      pivot: {x: 0.56880736, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e32fa5e400f0a48b5a82cd1426f594
+      internalID: -820664139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 286
+        width: 200
+        height: 232
+      alignment: 9
+      pivot: {x: 0.55, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1ee1158cb5129428f4a88f19e0d495
+      internalID: -552178761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1294
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.565, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ad756667c11d54aa70537b67f2ee3a
+      internalID: 617569842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 12
+        width: 202
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5247525, y: 0.025210084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f486ab1444827243a8f55bc29009622
+      internalID: -1386166513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 800
+        width: 208
+        height: 224
+      alignment: 9
+      pivot: {x: 0.55288464, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86d179833dcd004f8d0bb12cecf964e
+      internalID: 889976602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 800
+        width: 218
+        height: 224
+      alignment: 9
+      pivot: {x: 0.40366971, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec10366b6fdf4d4c8aa15e1444994f3
+      internalID: 135873881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1050
+        width: 204
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baf04c496165db4ebbb882242591ce0
+      internalID: -556749247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 246
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5243902, y: 0.024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd48c0c61c1189c4aa166c5541d33aee
+      internalID: 1264528468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f10
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 800
+        width: 206
+        height: 224
+      alignment: 9
+      pivot: {x: 0.56796116, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0db7047537bd546bddd356228b9504
+      internalID: 1492066184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atori-reference-v2-r07-f11
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1770
+        width: 256
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45925d2460cfcc341a53bc1251e68a5c
+      internalID: -245724374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 27c2e81179b3e0b4d975ab584ec06d7e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      atori-clean-v3_0: -7714176345670082661
+      atori-clean-v3_1: 5948205926892268730
+      atori-clean-v3_10: -7353081217559573625
+      atori-clean-v3_11: -2811962567215631868
+      atori-clean-v3_12: 6823168736147220443
+      atori-clean-v3_13: -3127640882074899596
+      atori-clean-v3_14: 8568812309270178959
+      atori-clean-v3_15: 5112065361402854053
+      atori-clean-v3_16: 5125749737768949914
+      atori-clean-v3_17: -1556207755951606599
+      atori-clean-v3_18: -5312460992247520044
+      atori-clean-v3_19: 594374430777746588
+      atori-clean-v3_2: 4918149092598638698
+      atori-clean-v3_20: -7974607834457932606
+      atori-clean-v3_21: 7047257746172740253
+      atori-clean-v3_22: 8385481428262195914
+      atori-clean-v3_23: 4087607348070612062
+      atori-clean-v3_24: 4069419104751310909
+      atori-clean-v3_25: -2771299143322988021
+      atori-clean-v3_26: 5563323846483481160
+      atori-clean-v3_27: 2263175554767567330
+      atori-clean-v3_28: -6133120748278976819
+      atori-clean-v3_29: 3157174041255819786
+      atori-clean-v3_3: -3923183825306337531
+      atori-clean-v3_30: 1382988991670795804
+      atori-clean-v3_31: -2178128579983077600
+      atori-clean-v3_32: -4760701191342588614
+      atori-clean-v3_33: -5932753959655150661
+      atori-clean-v3_34: -8413760462146488461
+      atori-clean-v3_35: 8600807635304808315
+      atori-clean-v3_36: -343613560110036492
+      atori-clean-v3_37: -6691569188624427250
+      atori-clean-v3_38: -5496515806062855227
+      atori-clean-v3_39: -3147994950914226827
+      atori-clean-v3_4: -7173850387007899084
+      atori-clean-v3_40: 3823056375796317895
+      atori-clean-v3_41: 8387149692769921118
+      atori-clean-v3_42: 4307131149786307377
+      atori-clean-v3_43: -8817221718901036474
+      atori-clean-v3_44: 8518239070448551479
+      atori-clean-v3_45: 4367222742797798433
+      atori-clean-v3_46: 2609067052297036865
+      atori-clean-v3_47: -1125292681299100461
+      atori-clean-v3_48: -607819954452717526
+      atori-clean-v3_49: 4878314393284005411
+      atori-clean-v3_5: -8831439589168261306
+      atori-clean-v3_50: 8021155115638030198
+      atori-clean-v3_51: 7018044351079434768
+      atori-clean-v3_52: -4401639841595091343
+      atori-clean-v3_53: 5860248319400125174
+      atori-clean-v3_54: 5980466052948388441
+      atori-clean-v3_55: -1646595683336273873
+      atori-clean-v3_56: 1246325480107433770
+      atori-clean-v3_57: 2128817317918014293
+      atori-clean-v3_58: 7567198897378820015
+      atori-clean-v3_59: 2301962063965204581
+      atori-clean-v3_6: -5986127257030485
+      atori-clean-v3_60: -4714391097135793465
+      atori-clean-v3_61: 5702919430394566665
+      atori-clean-v3_62: -799110649504043663
+      atori-clean-v3_63: 6340579282824499411
+      atori-clean-v3_64: -2558299758599501501
+      atori-clean-v3_65: 4100866205955290602
+      atori-clean-v3_66: 2888366141527555224
+      atori-clean-v3_67: 2633173674799576765
+      atori-clean-v3_68: 7815240517653046981
+      atori-clean-v3_69: 7123311959404407985
+      atori-clean-v3_7: -6409063460910585698
+      atori-clean-v3_70: 2546520746838818979
+      atori-clean-v3_71: -2303119305208901657
+      atori-clean-v3_72: 2066819688486141109
+      atori-clean-v3_73: -7547517092871846789
+      atori-clean-v3_74: -2785076990541873329
+      atori-clean-v3_75: -6065243164303308960
+      atori-clean-v3_76: -2405576094687145003
+      atori-clean-v3_77: 4398345714256090128
+      atori-clean-v3_78: 8089689036081685629
+      atori-clean-v3_79: -8901261985752482490
+      atori-clean-v3_8: 738788197354787709
+      atori-clean-v3_80: -6412208406456688040
+      atori-clean-v3_81: 5045640677283635856
+      atori-clean-v3_82: 692860312640449554
+      atori-clean-v3_83: -1065866450729209972
+      atori-clean-v3_84: -7195649474513016552
+      atori-clean-v3_85: -4533269725165635570
+      atori-clean-v3_86: -4165518823080047292
+      atori-clean-v3_87: 3391111206501959668
+      atori-clean-v3_88: 3697037887807593622
+      atori-clean-v3_89: 1247941127304209874
+      atori-clean-v3_9: -6801403452846878532
+      atori-clean-v3_90: -53315292239342150
+      atori-clean-v3_91: 7362622229285699572
+      atori-clean-v3_92: -8135285287114269402
+      atori-clean-v3_93: -8009606369726880178
+      atori-clean-v3_94: -8862008995795821950
+      atori-clean-v3_95: -9007188741822778796
+      atori-reference-v2-r00-f00: -1215884674
+      atori-reference-v2-r00-f01: -52163706
+      atori-reference-v2-r00-f02: -2000961737
+      atori-reference-v2-r00-f03: -385289141
+      atori-reference-v2-r00-f04: 1054398504
+      atori-reference-v2-r00-f05: -1066055159
+      atori-reference-v2-r00-f06: 843462937
+      atori-reference-v2-r00-f07: 2085630062
+      atori-reference-v2-r00-f08: 962165898
+      atori-reference-v2-r00-f09: -2111477311
+      atori-reference-v2-r00-f10: -2116013926
+      atori-reference-v2-r00-f11: 612325223
+      atori-reference-v2-r01-f00: 966411144
+      atori-reference-v2-r01-f01: -227278751
+      atori-reference-v2-r01-f02: 1689073192
+      atori-reference-v2-r01-f03: -2143718832
+      atori-reference-v2-r01-f04: 1987173739
+      atori-reference-v2-r01-f05: 1770104415
+      atori-reference-v2-r01-f06: 938662356
+      atori-reference-v2-r01-f07: -1157833129
+      atori-reference-v2-r01-f08: 445370664
+      atori-reference-v2-r01-f09: -1311815906
+      atori-reference-v2-r01-f10: 1159787530
+      atori-reference-v2-r01-f11: 2110271892
+      atori-reference-v2-r02-f00: -256798872
+      atori-reference-v2-r02-f01: 320225380
+      atori-reference-v2-r02-f02: -527795409
+      atori-reference-v2-r02-f03: 615656030
+      atori-reference-v2-r02-f04: 1135450302
+      atori-reference-v2-r02-f05: 1529536797
+      atori-reference-v2-r02-f06: -1415657247
+      atori-reference-v2-r02-f07: 853868145
+      atori-reference-v2-r02-f08: -103518573
+      atori-reference-v2-r02-f09: 1868851300
+      atori-reference-v2-r02-f10: 1947537035
+      atori-reference-v2-r02-f11: -731981429
+      atori-reference-v2-r03-f00: -908231529
+      atori-reference-v2-r03-f01: 189846667
+      atori-reference-v2-r03-f02: -1422533824
+      atori-reference-v2-r03-f03: -1847795745
+      atori-reference-v2-r03-f04: -1670355036
+      atori-reference-v2-r03-f05: 86855928
+      atori-reference-v2-r03-f06: 911599754
+      atori-reference-v2-r03-f07: -62709074
+      atori-reference-v2-r03-f08: -579313949
+      atori-reference-v2-r03-f09: 1724771610
+      atori-reference-v2-r03-f10: 1982716683
+      atori-reference-v2-r03-f11: -563891396
+      atori-reference-v2-r04-f00: -724766114
+      atori-reference-v2-r04-f01: 1126632548
+      atori-reference-v2-r04-f02: -132748563
+      atori-reference-v2-r04-f03: -1463829562
+      atori-reference-v2-r04-f04: 1372292757
+      atori-reference-v2-r04-f05: 1706664964
+      atori-reference-v2-r04-f06: 15915191
+      atori-reference-v2-r04-f07: -1848139590
+      atori-reference-v2-r04-f08: -701798408
+      atori-reference-v2-r04-f09: 150785921
+      atori-reference-v2-r04-f10: -60319843
+      atori-reference-v2-r04-f11: 175295135
+      atori-reference-v2-r05-f00: 1555600066
+      atori-reference-v2-r05-f01: 178563543
+      atori-reference-v2-r05-f02: -488448082
+      atori-reference-v2-r05-f03: -165626875
+      atori-reference-v2-r05-f04: 444617057
+      atori-reference-v2-r05-f05: 123522922
+      atori-reference-v2-r05-f06: -581297086
+      atori-reference-v2-r05-f07: 359331872
+      atori-reference-v2-r05-f08: 996077733
+      atori-reference-v2-r05-f09: -1158841157
+      atori-reference-v2-r05-f10: -73660760
+      atori-reference-v2-r05-f11: 1953864782
+      atori-reference-v2-r06-f00: -1015730387
+      atori-reference-v2-r06-f01: -1258954928
+      atori-reference-v2-r06-f02: -855975110
+      atori-reference-v2-r06-f03: 1956138293
+      atori-reference-v2-r06-f04: 1096865489
+      atori-reference-v2-r06-f05: 1642070865
+      atori-reference-v2-r06-f06: 1308089608
+      atori-reference-v2-r06-f07: 1307777255
+      atori-reference-v2-r06-f08: -1127025433
+      atori-reference-v2-r06-f09: -799216559
+      atori-reference-v2-r06-f10: 1832954190
+      atori-reference-v2-r06-f11: -394580514
+      atori-reference-v2-r07-f00: -1430001822
+      atori-reference-v2-r07-f01: 1069470853
+      atori-reference-v2-r07-f02: -820664139
+      atori-reference-v2-r07-f03: -552178761
+      atori-reference-v2-r07-f04: 617569842
+      atori-reference-v2-r07-f05: -1386166513
+      atori-reference-v2-r07-f06: 889976602
+      atori-reference-v2-r07-f07: 135873881
+      atori-reference-v2-r07-f08: -556749247
+      atori-reference-v2-r07-f09: 1264528468
+      atori-reference-v2-r07-f10: 1492066184
+      atori-reference-v2-r07-f11: -245724374
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

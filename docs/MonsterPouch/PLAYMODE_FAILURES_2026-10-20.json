@@ -1,0 +1,268 @@
+{
+  "source": "Logs/roadmap-v1.2/phase1-all-play-ceil2.xml",
+  "total": "160",
+  "passed": "127",
+  "failed": "33",
+  "failures": [
+    {
+      "test": "CardTableArenaPlayTests.BiggerBoardPreservesEveryCellAndRepeatedApplyDoesNotCompoundGeometry",
+      "message": "  The board should gain approximately twenty percent of screen width.\n  Expected: in range (1,18,1,21)\n  But was:  1.02786875f\n",
+      "stack": "at CardTableArenaPlayTests+<BiggerBoardPreservesEveryCellAndRepeatedApplyDoesNotCompoundGeometry>d__5.MoveNext () [0x00039] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\card-table-arena-play-tests.cs:41\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "CardTableArenaPlayTests.ExpandedBoardPreservesEveryCellAndRepeatedApplyDoesNotCompoundGeometry",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "CardTableArenaPlayTests.OriginalCasinoLayoutAndShadowsRemainUnchangedWithoutChipsOrAddedBorderProps",
+      "message": "  shuffler-cart moved away from its original scene position.\n  Expected: less than 9.99999975E-06f\n  But was:  0.170000076f\n",
+      "stack": "at CardTableArenaPlayTests.AssertOriginalTransform (System.String name, UnityEngine.Vector3 position, UnityEngine.Vector3 scale) [0x00013] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\card-table-arena-play-tests.cs:167\nat CardTableArenaPlayTests+<OriginalCasinoLayoutAndShadowsRemainUnchangedWithoutChipsOrAddedBorderProps>d__6.MoveNext () [0x0017b] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\card-table-arena-play-tests.cs:78\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "CardTableArenaPlayTests.CasinoKeepsItsCurrentLayoutAndUsesModularSceneryWithoutLegacyShadows",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "CombatStatusEffectsPlayTests.CharacterControlEffectsStayVisibleTogetherAndResetCleanly",
+      "message": "  Expected: greater than 0.899999976f\n  But was:  0.852058828f\n",
+      "stack": "at CombatStatusEffectsPlayTests+<CharacterControlEffectsStayVisibleTogetherAndResetCleanly>d__5.MoveNext () [0x0031c] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\combat-status-effects-play-tests.cs:44\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "CombatStatusEffectsPlayTests.CharacterControlEffectsStayVisibleTogetherAndResetCleanly",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "ImpactPolishPlayTests.PopowDashEventDisplaysAreaFreezesOnPauseAndCleansUpOnMenu",
+      "message": "  The authoritative dash event must display its affected lane.\n  Expected: not null\n  But was:  null\n",
+      "stack": "at ImpactPolishPlayTests+<PopowDashEventDisplaysAreaFreezesOnPauseAndCleansUpOnMenu>d__7.MoveNext () [0x000d0] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\impact-polish-play-tests.cs:44\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "ImpactPolishPlayTests.PopowDashEventDisplaysAreaFreezesOnPauseAndCleansUpOnMenu",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "LobbyFluidPlayTests.BriefSchedulesOccasionalGesturesWithAtMostTwoIncludingHero",
+      "message": "  Expected: 1\n  But was:  2\n",
+      "stack": "at LobbyFluidPlayTests+<BriefSchedulesOccasionalGesturesWithAtMostTwoIncludingHero>d__5.MoveNext () [0x00031] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-fluid-play-tests.cs:24\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Prueba histórica archivada; no equivale a corrección de runtime"
+    },
+    {
+      "test": "LobbyFluidPlayTests.DrawnGesturesKeepFeetAndShadowsAnchoredAndReturnToAnUnmovingRest",
+      "message": "System.InvalidOperationException : Sequence contains more than one matching element",
+      "stack": "  at System.Linq.Enumerable.Single[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x0004a] in <6faa6124236442759eb396cfbfdad508>:0 \n  at LobbyFluidPlayTests+<DrawnGesturesKeepFeetAndShadowsAnchoredAndReturnToAnUnmovingRest>d__6.MoveNext () [0x00021] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-fluid-play-tests.cs:46 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44 ",
+      "status": "Prueba histórica archivada; no equivale a corrección de runtime"
+    },
+    {
+      "test": "LobbyFluidPlayTests.NewScreensReleaseAnimationSlotsAndPickerKeepsStaticPortraits",
+      "message": "  Expected: 1\n  But was:  9\n",
+      "stack": "at LobbyFluidPlayTests+<NewScreensReleaseAnimationSlotsAndPickerKeepsStaticPortraits>d__7.MoveNext () [0x0010b] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-fluid-play-tests.cs:80\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Prueba histórica archivada; no equivale a corrección de runtime"
+    },
+    {
+      "test": "LobbyFramePlaybackPlayTests.ActualPlaybackVisitsEveryDrawingInOrderAndNeverBlendsTwoSilhouettes",
+      "message": "  anuik: too few authored drawings.\n  Expected: greater than or equal to 24\n  But was:  8\n",
+      "stack": "at LobbyFramePlaybackPlayTests.Create (System.String id) [0x0008b] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-continuous-rig-play-tests.cs:28\nat LobbyFramePlaybackPlayTests+<ActualPlaybackVisitsEveryDrawingInOrderAndNeverBlendsTwoSilhouettes>d__7.MoveNext () [0x00053] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-continuous-rig-play-tests.cs:128\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Prueba histórica archivada; no equivale a corrección de runtime"
+    },
+    {
+      "test": "LobbyFramePlaybackPlayTests.AllNineteenRenderEveryCompleteFrameAsOneUnwarpedQuadWithFixedFeet",
+      "message": "  anuik: too few authored drawings.\n  Expected: greater than or equal to 24\n  But was:  8\n",
+      "stack": "at LobbyFramePlaybackPlayTests.Create (System.String id) [0x0008b] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-continuous-rig-play-tests.cs:28\nat LobbyFramePlaybackPlayTests+<AllNineteenRenderEveryCompleteFrameAsOneUnwarpedQuadWithFixedFeet>d__5.MoveNext () [0x00062] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-continuous-rig-play-tests.cs:37\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Prueba histórica archivada; no equivale a corrección de runtime"
+    },
+    {
+      "test": "LobbyFramePlaybackPlayTests.HoldingTheSameDrawingKeepsAllRenderedPixelsAndGeometryUnchanged",
+      "message": "  anuik: too few authored drawings.\n  Expected: greater than or equal to 24\n  But was:  8\n",
+      "stack": "at LobbyFramePlaybackPlayTests.Create (System.String id) [0x0008b] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-continuous-rig-play-tests.cs:28\nat LobbyFramePlaybackPlayTests+<HoldingTheSameDrawingKeepsAllRenderedPixelsAndGeometryUnchanged>d__9.MoveNext () [0x00053] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-continuous-rig-play-tests.cs:178\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Prueba histórica archivada; no equivale a corrección de runtime"
+    },
+    {
+      "test": "LobbyFramePlaybackPlayTests.MainActionDrawingsReceiveTheLongReadableHoldForHeartIceCreamAndWings",
+      "message": "  anuik: too few authored drawings.\n  Expected: greater than or equal to 24\n  But was:  8\n",
+      "stack": "at LobbyFramePlaybackPlayTests.Create (System.String id) [0x0008b] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-continuous-rig-play-tests.cs:28\nat LobbyFramePlaybackPlayTests+<MainActionDrawingsReceiveTheLongReadableHoldForHeartIceCreamAndWings>d__8.MoveNext () [0x0006c] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-continuous-rig-play-tests.cs:153\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Prueba histórica archivada; no equivale a corrección de runtime"
+    },
+    {
+      "test": "LobbyFramePlaybackPlayTests.RegistrationCorrectsWholeDrawingSizeUniformlyAroundItsFixedFoot",
+      "message": "  aky: too few authored drawings.\n  Expected: greater than or equal to 24\n  But was:  8\n",
+      "stack": "at LobbyFramePlaybackPlayTests.Create (System.String id) [0x0008b] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-continuous-rig-play-tests.cs:28\nat LobbyFramePlaybackPlayTests+<RegistrationCorrectsWholeDrawingSizeUniformlyAroundItsFixedFoot>d__6.MoveNext () [0x00029] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-continuous-rig-play-tests.cs:91\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Prueba histórica archivada; no equivale a corrección de runtime"
+    },
+    {
+      "test": "LobbyRosterAnimationPlayTests.AllRealCharacterDetailsPreviewThenPlayTheirCompleteAuthoredFrames",
+      "message": "  Exercise the entire shipped catalog, including every hero and whelp.\n  Expected: 20\n  But was:  22\n",
+      "stack": "at LobbyRosterAnimationPlayTests+<AllRealCharacterDetailsPreviewThenPlayTheirCompleteAuthoredFrames>d__10.MoveNext () [0x00044] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-roster-animation-play-tests.cs:80\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Prueba histórica archivada; no equivale a corrección de runtime"
+    },
+    {
+      "test": "LobbyStoneContinuityPlayTests.TrimolPlaysItsCompleteJugglingDrawingsWithNoAdditionalProceduralStones",
+      "message": "  Expected: greater than or equal to 24\n  But was:  8\n",
+      "stack": "at LobbyStoneContinuityPlayTests+<TrimolPlaysItsCompleteJugglingDrawingsWithNoAdditionalProceduralStones>d__0.MoveNext () [0x00219] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\lobby-stone-continuity-play-tests.cs:31\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Prueba histórica archivada; no equivale a corrección de runtime"
+    },
+    {
+      "test": "MenuPolishPlayTests.GuestSeesHostMapFirstThenOwnMapAndMenuRestoresPersonalChoice",
+      "message": "System.NullReferenceException : Object reference not set to an instance of an object",
+      "stack": "  at MenuPolishPlayTests+<GuestSeesHostMapFirstThenOwnMapAndMenuRestoresPersonalChoice>d__8.MoveNext () [0x00102] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\menu-polish-play-tests.cs:74 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44 ",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "MenuPolishPlayTests.GuestSeesHostMapFirstThenOwnMapAndMenuRestoresPersonalChoice",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "MobileMenuBankPlayTests.CompactReadyAnimatesGreenCheckBeforeStartingAndCountersStayTogether",
+      "message": "UnityEngine.MissingReferenceException : The object of type 'UnityEngine.RectTransform' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object.",
+      "stack": "  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x0006a] in <31f3cd5c2a074982a9d5664e7709cac1>:0 \n  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00010] in <31f3cd5c2a074982a9d5664e7709cac1>:0 \n  at UnityEngine.Component.get_gameObject () [0x00006] in <31f3cd5c2a074982a9d5664e7709cac1>:0 \n  at UnityEngine.Component.GetComponentInChildren (System.Type t, System.Boolean includeInactive) [0x00001] in <31f3cd5c2a074982a9d5664e7709cac1>:0 \n  at UnityEngine.Component.GetComponentInChildren[T] () [0x00001] in <31f3cd5c2a074982a9d5664e7709cac1>:0 \n  at MobileMenuBankPlayTests+<CompactReadyAnimatesGreenCheckBeforeStartingAndCountersStayTogether>d__17.MoveNext () [0x002f1] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\mobile-menu-bank-play-tests.cs:240 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44 ",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "MobileMenuBankPlayTests.CompactReadyShowsGreenCheckCanBeCancelledAndCountersStayTogether",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "October7PresentationPlayTests.ChocolatePeriodicHitCreatesMiniExplosionsAndCleansThemUp",
+      "message": "Timeout value of 180000 ms was exceeded. If this is intended, increase the timeout value using a TimeoutAttribute.",
+      "stack": "",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "October7PresentationPlayTests.ChocolatePeriodicHitCreatesMiniExplosionsAndCleansThemUp",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "October8MenuPlayTests.ModesAndRoomCodeInputWorkWithUppercaseAndClipboard",
+      "message": "Timeout value of 180000 ms was exceeded. If this is intended, increase the timeout value using a TimeoutAttribute.",
+      "stack": "",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "October8MenuPlayTests.ModesAndRoomCodeInputWorkWithUppercaseAndClipboard",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "OpponentPreviewPlayTests.InitialHeroIsMirroredAndLongPressShowsItsRealUpgradesWithoutRevealingNewUnits",
+      "message": "  Expected: True\n  But was:  False\n",
+      "stack": "at OpponentPreviewPlayTests+<InitialHeroIsMirroredAndLongPressShowsItsRealUpgradesWithoutRevealingNewUnits>d__3.MoveNext () [0x002b8] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\opponent-preview-play-tests.cs:48\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "OpponentPreviewPlayTests.InitialHeroIsMirroredAndLongPressShowsItsRealUpgradesWithoutRevealingNewUnits",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "PlacementExchangePlayTests.OwnForegroundFigureWinsOverHiddenEchoButVisibleEnemyRemainsInspectable",
+      "message": "  A visible own figure must receive the hold even inside the hidden enemy's hit rectangle.\n  Expected: True\n  But was:  False\n",
+      "stack": "at PlacementExchangePlayTests+<OwnForegroundFigureWinsOverHiddenEchoButVisibleEnemyRemainsInspectable>d__12.MoveNext () [0x0032f] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\placement-exchange-play-tests.cs:174\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "PlacementExchangePlayTests.OwnForegroundFigureWinsOverHiddenEchoButVisibleEnemyRemainsInspectable",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "PokrakPlayTests.BubblesCoverAlliesOnBothTeamsPauseAndExpireWithoutExtraHealth",
+      "message": "  Expected: 2\n  But was:  0\n",
+      "stack": "at PokrakPlayTests+<BubblesCoverAlliesOnBothTeamsPauseAndExpireWithoutExtraHealth>d__11.MoveNext () [0x0038d] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\pokrak-play-tests.cs:94\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "PokrakPlayTests.BubblesCoverAlliesOnBothTeamsPauseAndExpireWithoutExtraHealth",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "PokrakPlayTests.CollectionShowsPokrakWithPixelIconsDescriptionsAndAllAnimations",
+      "message": "  Expected: String containing \"20%\"\n  But was:  \"Burbujas en un área de 3×3, incluido Pokrak: reducen el 30% del daño recibido durante 2 s.\"\n",
+      "stack": "at PokrakPlayTests+<CollectionShowsPokrakWithPixelIconsDescriptionsAndAllAnimations>d__9.MoveNext () [0x00208] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\pokrak-play-tests.cs:62\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "PokrakPlayTests.CollectionShowsCurrentPokrakPortraitIconsAndKeepsBattleAnimations",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "RedesignPlayTests.CompactSheetHasExplicitPurchaseAndAllAbilitiesHaveDedicatedArt",
+      "message": "  Expected: less than 400.0f\n  But was:  476.0f\n",
+      "stack": "at RedesignPlayTests+<CompactSheetHasExplicitPurchaseAndAllAbilitiesHaveDedicatedArt>d__6.MoveNext () [0x000da] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\redesign-play-tests.cs:36\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "RedesignPlayTests.CompactSheetHasExplicitPurchaseAndAllAbilitiesHaveDedicatedArt",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "RosiePlayTests.CollectionHasPortraitGestureIconsAndConcisePercentageDescription",
+      "message": "System.InvalidOperationException : Sequence contains no matching element",
+      "stack": "  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <6faa6124236442759eb396cfbfdad508>:0 \n  at RosiePlayTests+<CollectionHasPortraitGestureIconsAndConcisePercentageDescription>d__8.MoveNext () [0x00277] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\rosie-play-tests.cs:57 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44 ",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "RosiePlayTests.CollectionHasCurrentStaticPortraitIconsAndLiveDescription",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "SeptemberUIPlayTests.HomeDeckAndCollectionUseCompleteDocumentedRoster",
+      "message": "  Expected: 20\n  But was:  22\n",
+      "stack": "at SeptemberUIPlayTests+<HomeDeckAndCollectionUseCompleteDocumentedRoster>d__8.MoveNext () [0x00039] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\september-ui-play-tests.cs:57\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "SeptemberUIPlayTests.HomeDeckAndCollectionUseCompleteDocumentedRoster",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "SeptemberUIPlayTests.IndependentBriefSelectionAndRealRerollRemainFunctional",
+      "message": "System.InvalidOperationException : Sequence contains no matching element",
+      "stack": "  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00011] in <6faa6124236442759eb396cfbfdad508>:0 \n  at SeptemberUIPlayTests.ButtonNamed (System.String name) [0x0000d] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\september-ui-play-tests.cs:29 \n  at SeptemberUIPlayTests+<IndependentBriefSelectionAndRealRerollRemainFunctional>d__10.MoveNext () [0x00160] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\september-ui-play-tests.cs:91 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44 ",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "SeptemberUIPlayTests.IndependentBriefSelectionAndRealRerollRemainFunctional",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "SeptemberUIPlayTests.UpgradeRequiresDoubleTapAndCombatShowsRockAndInstantRay",
+      "message": "  Expected: True\n  But was:  False\n",
+      "stack": "at SeptemberUIPlayTests+<UpgradeRequiresDoubleTapAndCombatShowsRockAndInstantRay>d__7.MoveNext () [0x00477] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\september-ui-play-tests.cs:51\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "SeptemberUIPlayTests.UpgradeRequiresDoubleTapAndCombatShowsRockAndInstantRay",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "SukiPlayTests.CollectionUsesSquarePixelIconsAndRealAdditiveDescription",
+      "message": "  Expected: String containing \"+10 de escudo\"\n  But was:  \"+7 de escudo a su habilidad, también para Suki.\"\n",
+      "stack": "at SukiPlayTests+<CollectionUsesSquarePixelIconsAndRealAdditiveDescription>d__9.MoveNext () [0x001ed] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\suki-play-tests.cs:61\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "SukiPlayTests.CollectionUsesSquarePixelIconsAndRealAdditiveDescription",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "SukiPlayTests.ThreeArcFishFreezeOnPauseAndWhiteBarsRenderForBothTeams",
+      "message": "  Expected: 6\n  But was:  0\n",
+      "stack": "at SukiPlayTests+<ThreeArcFishFreezeOnPauseAndWhiteBarsRenderForBothTeams>d__11.MoveNext () [0x00369] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\suki-play-tests.cs:88\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "SukiPlayTests.ConfiguredFishRecipientsFreezeOnPauseAndWhiteBarsRenderForBothTeams",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "TableSkinsPlayTests.BothSkinsPersistAcrossSceneReloadWithoutChangingBriefFiguresOrSourceArt",
+      "message": "  Expected string length 6 but was 7. Strings differ at index 0.\n  Expected: \"lounge\"\n  But was:  \"classic\"\n  -----------^\n",
+      "stack": "at TableSkinsPlayTests+<BothSkinsPersistAcrossSceneReloadWithoutChangingBriefFiguresOrSourceArt>d__11.MoveNext () [0x0020f] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\table-skins-play-tests.cs:73\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "TableSkinsPlayTests.AllCombatMapsPersistWithoutChangingLobbyLoadoutFiguresOrSourceArt",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "TableSkinsPlayTests.SelectorButtonsAreReachableAtMobileSizeAndRepeatedNavigationReleasesModalsAndAnimationSlots",
+      "message": "  use-style-Default: too short at a 360px portrait width.\n  Expected: greater than or equal to 44.0f\n  But was:  37.3333359f\n",
+      "stack": "at TableSkinsPlayTests.AssertMobileTargets (UnityEngine.RectTransform panel) [0x0007e] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\table-skins-play-tests.cs:179\nat TableSkinsPlayTests+<SelectorButtonsAreReachableAtMobileSizeAndRepeatedNavigationReleasesModalsAndAnimationSlots>d__12.MoveNext () [0x000f3] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\table-skins-play-tests.cs:109\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "TableSkinsPlayTests.SelectorButtonsAreReachableAtMobileSizeAndNavigationKeepsPortraitsStatic",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "ViewportLayoutPlayTests.RelayoutKeepsRevealedHeroOnItsCellAndLongPressStillWorks",
+      "message": "  Expected: True\n  But was:  False\n",
+      "stack": "at ViewportLayoutPlayTests+<RelayoutKeepsRevealedHeroOnItsCellAndLongPressStillWorks>d__4.MoveNext () [0x0049b] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\viewport-layout-play-tests.cs:90\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\n",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "ViewportLayoutPlayTests.RelayoutKeepsRevealedHeroOnItsCellAndLongPressStillWorks",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    },
+    {
+      "test": "WorldTransitionPlayTests.MapsChangeUnderBlackAndHomeArtworkSurvivesEveryPageRebuild",
+      "message": "System.InvalidOperationException : Sequence contains no matching element",
+      "stack": "  at System.Linq.Enumerable.Single[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00070] in <6faa6124236442759eb396cfbfdad508>:0 \n  at WorldTransitionPlayTests.Background () [0x00000] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\world-transition-play-tests.cs:29 \n  at WorldTransitionPlayTests+<MapsChangeUnderBlackAndHomeArtworkSurvivesEveryPageRebuild>d__6.MoveNext () [0x0029e] in C:\\Users\\HP VICTUS\\Juegos Unity\\mini-gogos\\game\\monster-pouch\\Assets\\tests\\play-mode\\world-transition-play-tests.cs:52 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44 ",
+      "status": "Revalidada: Passed con las reglas, nombres, arte y configuración vigentes; véase QA_CHECKLIST.md",
+      "currentTest": "WorldTransitionPlayTests.MapsChangeUnderBlackAndHomeArtworkSurvivesEveryPageRebuild",
+      "evidence": "Logs/roadmap-v1.2/phase1-current-global-play.xml"
+    }
+  ],
+  "revalidation": {
+    "source": "Logs/roadmap-v1.2/phase1-current-global-play.xml",
+    "total": 150,
+    "passed": 149,
+    "failed": 1,
+    "originalActiveCasesVerified": 23,
+    "archivedOriginalCases": 10,
+    "remainingFailure": null,
+    "note": "El resultado global 149/150 se conserva. El fallo de margen quedó corregido y verificado en la ejecución enfocada de 8/8.",
+    "closure": {
+      "source": "Logs/roadmap-v1.2/phase1-current-names-final-play.xml",
+      "passed": 8,
+      "total": 8,
+      "failed": 0
+    }
+  }
+}

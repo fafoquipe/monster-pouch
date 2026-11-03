@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92b2e751e1c7204785d329593be2200, type: 3}
+  m_Name: royal-scenery
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Presentation.ArenaSceneryDefinition
+  Floor: {r: 0.76, g: 0.68, b: 0.57, a: 1}
+  Wall: {r: 0.54, g: 0.5, b: 0.43, a: 1}
+  WallDetail: {r: 0.45, g: 0.42, b: 0.36, a: 1}
+  Trim: {r: 0.64, g: 0.5, b: 0.28, a: 1}
+  Carpet: {r: 0.38, g: 0.13, b: 0.18, a: 1}
+  StoneWall: 1
+  Carpets: 1
+  Saturation: 0.82
+  FloorTexture: {fileID: 21300000, guid: ead04b33d67c5f345b977c70975f3c5e, type: 3}
+  FloorTileWidth: 160
+  FloorStartsAboveBoard: 20
+  Elements:
+  - Name: Trono
+    Sprite: {fileID: -1172312037, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: 0, y: -8}
+    Width: 130
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Columna principal -1
+    Sprite: {fileID: 60476641, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: -213, y: -8}
+    Width: 62
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Macetero del trono -1
+    Sprite: {fileID: -575902428, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: -126, y: -8}
+    Width: 68
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Candelabro del trono -1
+    Sprite: {fileID: -1040445128, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: -245, y: -2}
+    Width: 43
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0.2
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Columna exterior -1
+    Sprite: {fileID: 60476641, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: -425, y: -8}
+    Width: 76
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Candelabro exterior -1
+    Sprite: {fileID: -1040445128, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: -360, y: 0}
+    Width: 50
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0.2
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Macetero lateral -1
+    Sprite: {fileID: -575902428, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 2
+    Foot: {x: -58, y: 0}
+    Width: 82
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Candelabro lateral -1
+    Sprite: {fileID: -1040445128, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 2
+    Foot: {x: -54, y: 250}
+    Width: 40
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0.2
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Columna principal 1
+    Sprite: {fileID: 60476641, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: 213, y: -8}
+    Width: 62
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Macetero del trono 1
+    Sprite: {fileID: -575902428, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: 126, y: -8}
+    Width: 68
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Candelabro del trono 1
+    Sprite: {fileID: -1040445128, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: 245, y: -2}
+    Width: 43
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0.2
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Columna exterior 1
+    Sprite: {fileID: 60476641, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: 425, y: -8}
+    Width: 76
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Candelabro exterior 1
+    Sprite: {fileID: -1040445128, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 1
+    Foot: {x: 360, y: 0}
+    Width: 50
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0.2
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Macetero lateral 1
+    Sprite: {fileID: -575902428, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 3
+    Foot: {x: 58, y: 0}
+    Width: 82
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}
+  - Name: Candelabro lateral 1
+    Sprite: {fileID: -1040445128, guid: 538abd718dbf4144c9e95f0300a436cd, type: 3}
+    Anchor: 3
+    Foot: {x: 54, y: 250}
+    Width: 40
+    FlipX: 0
+    Shadow: 0.18
+    Order: 5
+    LightStrength: 0.2
+    LightRadius: 260
+    LightColor: {r: 1, g: 0.84, b: 0.6, a: 1}

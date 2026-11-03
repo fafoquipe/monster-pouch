@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511ff38c74f24bcaaebcfb1a3166968f, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAttack
+  Kind: 1
+  DisplayName: Bola de chicle
+  Description: Lanza una bola de chicle contra su objetivo.
+  Damage: 5
+  Range: 5
+  Interval: 1.1
+  Windup: 0.5
+  Hold: 0.08
+  Recovery: 0.16
+  ProjectileSpeed: 5.5
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: basic-gum
+    NameEnglish: Basic projectile
+    NameSpanish: "Proyectil b\xE1sico"
+    OverrideSize: 1
+    SizePercent: 21
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames: []
+  ProjectilePrefab: {fileID: 0}
+  Sound: {fileID: 0}

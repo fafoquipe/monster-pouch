@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 2b33566b4fe9d5249bd28a4c530f9d37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3619204769313860325
+    second: popow-combat_0
+  - first:
+      213: -3435885440894999368
+    second: popow-combat_1
+  - first:
+      213: 6946028413326546708
+    second: popow-combat_2
+  - first:
+      213: 5725016443935143301
+    second: popow-combat_3
+  - first:
+      213: -5649883827768148087
+    second: popow-combat_4
+  - first:
+      213: 2162530986283725570
+    second: popow-combat_5
+  - first:
+      213: -8596190319173722567
+    second: popow-combat_6
+  - first:
+      213: -1071766717126248459
+    second: popow-combat_7
+  - first:
+      213: 357617127349333815
+    second: popow-combat_8
+  - first:
+      213: 3068507046790979793
+    second: popow-combat_9
+  - first:
+      213: -319462975587470535
+    second: popow-combat_10
+  - first:
+      213: 2063211925718356048
+    second: popow-combat_11
+  - first:
+      213: 4832899651708909390
+    second: popow-combat_12
+  - first:
+      213: 1027442720792526339
+    second: popow-combat_13
+  - first:
+      213: -5111175637485153661
+    second: popow-combat_14
+  - first:
+      213: 8662285743854387920
+    second: popow-combat_15
+  - first:
+      213: -8999766057016190890
+    second: popow-combat_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: popow-combat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 869
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15d5ab007006cdc0800000000000000
+      internalID: -3619204769313860325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_1
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 891
+        width: 123
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4648645684150d0800000000000000
+      internalID: -3435885440894999368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_2
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 633
+        width: 253
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41759105a00456060800000000000000
+      internalID: 6946028413326546708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 0
+        width: 519
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58536029f18537f40800000000000000
+      internalID: 5725016443935143301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_4
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 765
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fb7afc7949791b0800000000000000
+      internalID: -5649883827768148087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_5
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 637
+        width: 123
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2037735797ad20e10800000000000000
+      internalID: 2162530986283725570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_6
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 637
+        width: 258
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e9ff3037234b880800000000000000
+      internalID: -8596190319173722567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_7
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 381
+        width: 139
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f77a9769d15021f0800000000000000
+      internalID: -1071766717126248459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_8
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 509
+        width: 133
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fa041f1e286f400800000000000000
+      internalID: 357617127349333815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_9
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 509
+        width: 268
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d062c2c6e6859a20800000000000000
+      internalID: 3068507046790979793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_10
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 379
+        width: 262
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9333835cd1a019bf0800000000000000
+      internalID: -319462975587470535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050dac8a05002ac10800000000000000
+      internalID: 2063211925718356048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_12
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 0
+        width: 264
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47f73f90a8e11340800000000000000
+      internalID: 4832899651708909390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_13
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 252
+        width: 121
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e36eff5b5324e00800000000000000
+      internalID: 1027442720792526339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_14
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 0
+        width: 121
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382111f76d47119b0800000000000000
+      internalID: -5111175637485153661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_15
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 125
+        width: 265
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d20f514dfe963870800000000000000
+      internalID: 8662285743854387920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popow-combat_16
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 0
+        width: 128
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6589ee534786a1380800000000000000
+      internalID: -8999766057016190890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      popow-combat_0: -3619204769313860325
+      popow-combat_1: -3435885440894999368
+      popow-combat_10: -319462975587470535
+      popow-combat_11: 2063211925718356048
+      popow-combat_12: 4832899651708909390
+      popow-combat_13: 1027442720792526339
+      popow-combat_14: -5111175637485153661
+      popow-combat_15: 8662285743854387920
+      popow-combat_16: -8999766057016190890
+      popow-combat_2: 6946028413326546708
+      popow-combat_3: 5725016443935143301
+      popow-combat_4: -5649883827768148087
+      popow-combat_5: 2162530986283725570
+      popow-combat_6: -8596190319173722567
+      popow-combat_7: -1071766717126248459
+      popow-combat_8: 357617127349333815
+      popow-combat_9: 3068507046790979793
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

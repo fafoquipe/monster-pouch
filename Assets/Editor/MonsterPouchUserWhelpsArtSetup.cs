@@ -35,6 +35,9 @@ public static class MonsterPouchUserWhelpsArtSetup
         string portraitAtlas = folder + art.Id + "-portrait-rgba-v1.png";
         MonsterPouchSpriteAnimationImporter.PrepareChromaSource(folder + art.Id + "-animation-source-v1.png", atlas, new Color32(255, 0, 255, 255), 48);
         MonsterPouchSpriteAnimationImporter.PrepareChromaSource(folder + art.Id + "-portrait-source-v1.png", portraitAtlas, new Color32(255, 0, 255, 255), 48);
+        int removedOutline = art.Id == "stein"
+            ? MonsterPouchOutlineCleanup.RemoveWhiteExteriorHalo(atlas) + MonsterPouchOutlineCleanup.RemoveWhiteExteriorHalo(portraitAtlas)
+            : 0;
         Sprite[,] frames = MonsterPouchSpriteAnimationImporter.ImportGrid(atlas, 100, columns, 5, art.Id + "-approved");
         Sprite[,] portrait = MonsterPouchSpriteAnimationImporter.ImportGrid(portraitAtlas, 100, 1, 1, art.Id + "-approved-portrait");
         art.Portrait = portrait[0, 0];
@@ -63,6 +66,7 @@ public static class MonsterPouchUserWhelpsArtSetup
                 "Royal blue round head, two white arrow/circle marks, tiny central eyes, curved smile and sack of golden stones. ") +
             (columns * 5) + " generated poses in five views with three intentional mirrored directions. Original portraits and exact built-in imagegen prompts preserved: docs/user-whelps-designs.md. Existing combat stats and world width retained.";
         report.AppendLine($"## {art.Id}\n\n{columns * 5} poses ({columns} × 5), width {art.WorldWidth}, reference pixels {art.ReferencePixelWidth}. Idle0–1; Move {string.Join(",", move)}; Attack {string.Join(",", attack)}; Death {string.Join(",", death)}. Contact index1. PPU100, Point, no compression or mipmaps.\n");
+        if (art.Id == "stein") report.AppendLine($"Exterior white halo pixels removed: {removedOutline}. Internal hair, teeth and formula details preserved.\n");
         report.AppendLine("| Row | Frame | Rect | Pivot |\n| --- | --- | --- | --- |");
         for (int row = 0; row < 5; row++)
         for (int col = 0; col < columns; col++)

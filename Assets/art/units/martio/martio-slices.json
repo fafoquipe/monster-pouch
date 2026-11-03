@@ -1,0 +1,1714 @@
+{
+  "Version": 1,
+  "GeneratedBy": "Read-only alpha inspection; image pixels are unchanged",
+  "Atlases": [
+    {
+      "Path": "Assets/art/units/martio/martio-body-hops-v3.png",
+      "Prefix": "body",
+      "Width": 1774,
+      "Height": 887,
+      "Columns": 10,
+      "Rows": 5,
+      "Sha256": "1de7fd066829b6011ac8162116c99be5d9f796ab3442fe1560496309c9e26131",
+      "Frames": [
+        {
+          "Name": "martio-body-r00-f00",
+          "Row": 0,
+          "Column": 0,
+          "X": 0,
+          "Y": 0,
+          "Width": 200,
+          "Height": 178,
+          "PivotX": 0.5775,
+          "PivotY": 0.047752808988763995,
+          "Bounds": {
+            "X": 37,
+            "Y": 11,
+            "Width": 150,
+            "Height": 159
+          },
+          "OpaquePixels": 15984,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r00-f01",
+          "Row": 0,
+          "Column": 1,
+          "X": 200,
+          "Y": 0,
+          "Width": 177,
+          "Height": 178,
+          "PivotX": 0.5536723163841808,
+          "PivotY": 0.042134831460674205,
+          "Bounds": {
+            "X": 20,
+            "Y": 11,
+            "Width": 148,
+            "Height": 160
+          },
+          "OpaquePixels": 15416,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r00-f02",
+          "Row": 0,
+          "Column": 2,
+          "X": 377,
+          "Y": 0,
+          "Width": 171,
+          "Height": 171,
+          "PivotX": 0.52046783625731,
+          "PivotY": 0.049707602339181256,
+          "Bounds": {
+            "X": 10,
+            "Y": 5,
+            "Width": 153,
+            "Height": 158
+          },
+          "OpaquePixels": 15870,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r00-f03",
+          "Row": 0,
+          "Column": 3,
+          "X": 548,
+          "Y": 0,
+          "Width": 172,
+          "Height": 184,
+          "PivotX": 0.5058139534883721,
+          "PivotY": 0.05163043478260865,
+          "Bounds": {
+            "X": 9,
+            "Y": 25,
+            "Width": 159,
+            "Height": 150
+          },
+          "OpaquePixels": 16104,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r00-f04",
+          "Row": 0,
+          "Column": 4,
+          "X": 720,
+          "Y": 0,
+          "Width": 170,
+          "Height": 179,
+          "PivotX": 0.5176470588235295,
+          "PivotY": 0.04189944134078216,
+          "Bounds": {
+            "X": 4,
+            "Y": 11,
+            "Width": 157,
+            "Height": 161
+          },
+          "OpaquePixels": 16113,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r00-f05",
+          "Row": 0,
+          "Column": 5,
+          "X": 890,
+          "Y": 0,
+          "Width": 171,
+          "Height": 178,
+          "PivotX": 0.543859649122807,
+          "PivotY": 0.042134831460674205,
+          "Bounds": {
+            "X": 9,
+            "Y": 9,
+            "Width": 155,
+            "Height": 162
+          },
+          "OpaquePixels": 16269,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r00-f06",
+          "Row": 0,
+          "Column": 6,
+          "X": 1061,
+          "Y": 0,
+          "Width": 178,
+          "Height": 178,
+          "PivotX": 0.49719101123595505,
+          "PivotY": 0.042134831460674205,
+          "Bounds": {
+            "X": 7,
+            "Y": 10,
+            "Width": 160,
+            "Height": 161
+          },
+          "OpaquePixels": 17053,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r00-f07",
+          "Row": 0,
+          "Column": 7,
+          "X": 1239,
+          "Y": 0,
+          "Width": 170,
+          "Height": 178,
+          "PivotX": 0.5294117647058824,
+          "PivotY": 0.042134831460674205,
+          "Bounds": {
+            "X": 12,
+            "Y": 11,
+            "Width": 150,
+            "Height": 160
+          },
+          "OpaquePixels": 15653,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r00-f08",
+          "Row": 0,
+          "Column": 8,
+          "X": 1409,
+          "Y": 0,
+          "Width": 179,
+          "Height": 185,
+          "PivotX": 0.5111731843575419,
+          "PivotY": 0.07837837837837835,
+          "Bounds": {
+            "X": 8,
+            "Y": 17,
+            "Width": 161,
+            "Height": 154
+          },
+          "OpaquePixels": 16630,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r00-f09",
+          "Row": 0,
+          "Column": 9,
+          "X": 1588,
+          "Y": 0,
+          "Width": 186,
+          "Height": 185,
+          "PivotX": 0.47580645161290325,
+          "PivotY": 0.08378378378378382,
+          "Bounds": {
+            "X": 11,
+            "Y": 44,
+            "Width": 159,
+            "Height": 126
+          },
+          "OpaquePixels": 13641,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r01-f00",
+          "Row": 1,
+          "Column": 0,
+          "X": 0,
+          "Y": 178,
+          "Width": 199,
+          "Height": 174,
+          "PivotX": 0.5125628140703518,
+          "PivotY": 0.0431034482758621,
+          "Bounds": {
+            "X": 33,
+            "Y": 8,
+            "Width": 152,
+            "Height": 159
+          },
+          "OpaquePixels": 15643,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r01-f01",
+          "Row": 1,
+          "Column": 1,
+          "X": 199,
+          "Y": 178,
+          "Width": 177,
+          "Height": 173,
+          "PivotX": 0.4435028248587571,
+          "PivotY": 0.043352601156069315,
+          "Bounds": {
+            "X": 16,
+            "Y": 8,
+            "Width": 151,
+            "Height": 158
+          },
+          "OpaquePixels": 15293,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r01-f02",
+          "Row": 1,
+          "Column": 2,
+          "X": 376,
+          "Y": 171,
+          "Width": 172,
+          "Height": 174,
+          "PivotX": 0.44476744186046513,
+          "PivotY": 0.048850574712643646,
+          "Bounds": {
+            "X": 10,
+            "Y": 8,
+            "Width": 153,
+            "Height": 158
+          },
+          "OpaquePixels": 15096,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r01-f03",
+          "Row": 1,
+          "Column": 3,
+          "X": 548,
+          "Y": 184,
+          "Width": 170,
+          "Height": 174,
+          "PivotX": 0.4970588235294118,
+          "PivotY": 0.0431034482758621,
+          "Bounds": {
+            "X": 9,
+            "Y": 10,
+            "Width": 155,
+            "Height": 157
+          },
+          "OpaquePixels": 15624,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r01-f04",
+          "Row": 1,
+          "Column": 4,
+          "X": 718,
+          "Y": 179,
+          "Width": 175,
+          "Height": 174,
+          "PivotX": 0.44285714285714284,
+          "PivotY": 0.0431034482758621,
+          "Bounds": {
+            "X": 6,
+            "Y": 7,
+            "Width": 160,
+            "Height": 160
+          },
+          "OpaquePixels": 15965,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r01-f05",
+          "Row": 1,
+          "Column": 5,
+          "X": 893,
+          "Y": 178,
+          "Width": 174,
+          "Height": 173,
+          "PivotX": 0.40804597701149425,
+          "PivotY": 0.03179190751445082,
+          "Bounds": {
+            "X": 10,
+            "Y": 8,
+            "Width": 158,
+            "Height": 160
+          },
+          "OpaquePixels": 15838,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r01-f06",
+          "Row": 1,
+          "Column": 6,
+          "X": 1067,
+          "Y": 178,
+          "Width": 184,
+          "Height": 176,
+          "PivotX": 0.3967391304347826,
+          "PivotY": 0.03693181818181823,
+          "Bounds": {
+            "X": 7,
+            "Y": 8,
+            "Width": 163,
+            "Height": 162
+          },
+          "OpaquePixels": 16942,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r01-f07",
+          "Row": 1,
+          "Column": 7,
+          "X": 1251,
+          "Y": 178,
+          "Width": 169,
+          "Height": 176,
+          "PivotX": 0.4881656804733728,
+          "PivotY": 0.042613636363636354,
+          "Bounds": {
+            "X": 14,
+            "Y": 8,
+            "Width": 147,
+            "Height": 161
+          },
+          "OpaquePixels": 15406,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r01-f08",
+          "Row": 1,
+          "Column": 8,
+          "X": 1420,
+          "Y": 185,
+          "Width": 170,
+          "Height": 174,
+          "PivotX": 0.49411764705882355,
+          "PivotY": 0.08333333333333337,
+          "Bounds": {
+            "X": 8,
+            "Y": 15,
+            "Width": 158,
+            "Height": 145
+          },
+          "OpaquePixels": 14897,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r01-f09",
+          "Row": 1,
+          "Column": 9,
+          "X": 1590,
+          "Y": 185,
+          "Width": 184,
+          "Height": 182,
+          "PivotX": 0.46467391304347827,
+          "PivotY": 0.11813186813186816,
+          "Bounds": {
+            "X": 5,
+            "Y": 16,
+            "Width": 161,
+            "Height": 145
+          },
+          "OpaquePixels": 15502,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r02-f00",
+          "Row": 2,
+          "Column": 0,
+          "X": 0,
+          "Y": 352,
+          "Width": 193,
+          "Height": 178,
+          "PivotX": 0.4585492227979275,
+          "PivotY": 0.0365168539325843,
+          "Bounds": {
+            "X": 22,
+            "Y": 7,
+            "Width": 158,
+            "Height": 165
+          },
+          "OpaquePixels": 16293,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r02-f01",
+          "Row": 2,
+          "Column": 1,
+          "X": 193,
+          "Y": 351,
+          "Width": 180,
+          "Height": 180,
+          "PivotX": 0.4722222222222222,
+          "PivotY": 0.047222222222222276,
+          "Bounds": {
+            "X": 14,
+            "Y": 7,
+            "Width": 157,
+            "Height": 165
+          },
+          "OpaquePixels": 16105,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r02-f02",
+          "Row": 2,
+          "Column": 2,
+          "X": 373,
+          "Y": 345,
+          "Width": 174,
+          "Height": 172,
+          "PivotX": 0.39655172413793105,
+          "PivotY": 0.04941860465116277,
+          "Bounds": {
+            "X": 9,
+            "Y": 8,
+            "Width": 157,
+            "Height": 156
+          },
+          "OpaquePixels": 14521,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r02-f03",
+          "Row": 2,
+          "Column": 3,
+          "X": 547,
+          "Y": 358,
+          "Width": 170,
+          "Height": 177,
+          "PivotX": 0.47352941176470587,
+          "PivotY": 0.053672316384180796,
+          "Bounds": {
+            "X": 9,
+            "Y": 8,
+            "Width": 155,
+            "Height": 160
+          },
+          "OpaquePixels": 15560,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r02-f04",
+          "Row": 2,
+          "Column": 4,
+          "X": 717,
+          "Y": 353,
+          "Width": 177,
+          "Height": 179,
+          "PivotX": 0.4011299435028249,
+          "PivotY": 0.04189944134078216,
+          "Bounds": {
+            "X": 7,
+            "Y": 7,
+            "Width": 161,
+            "Height": 165
+          },
+          "OpaquePixels": 16306,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r02-f05",
+          "Row": 2,
+          "Column": 5,
+          "X": 894,
+          "Y": 351,
+          "Width": 176,
+          "Height": 181,
+          "PivotX": 0.4318181818181818,
+          "PivotY": 0.04143646408839774,
+          "Bounds": {
+            "X": 9,
+            "Y": 6,
+            "Width": 158,
+            "Height": 168
+          },
+          "OpaquePixels": 16516,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r02-f06",
+          "Row": 2,
+          "Column": 6,
+          "X": 1070,
+          "Y": 354,
+          "Width": 172,
+          "Height": 178,
+          "PivotX": 0.44476744186046513,
+          "PivotY": 0.042134831460674205,
+          "Bounds": {
+            "X": 10,
+            "Y": 7,
+            "Width": 157,
+            "Height": 164
+          },
+          "OpaquePixels": 16643,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r02-f07",
+          "Row": 2,
+          "Column": 7,
+          "X": 1242,
+          "Y": 354,
+          "Width": 176,
+          "Height": 178,
+          "PivotX": 0.4431818181818182,
+          "PivotY": 0.042134831460674205,
+          "Bounds": {
+            "X": 6,
+            "Y": 7,
+            "Width": 160,
+            "Height": 164
+          },
+          "OpaquePixels": 15609,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r02-f08",
+          "Row": 2,
+          "Column": 8,
+          "X": 1418,
+          "Y": 359,
+          "Width": 179,
+          "Height": 183,
+          "PivotX": 0.4776536312849162,
+          "PivotY": 0.09562841530054644,
+          "Bounds": {
+            "X": 10,
+            "Y": 14,
+            "Width": 159,
+            "Height": 152
+          },
+          "OpaquePixels": 15233,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r02-f09",
+          "Row": 2,
+          "Column": 9,
+          "X": 1597,
+          "Y": 367,
+          "Width": 177,
+          "Height": 179,
+          "PivotX": 0.4717514124293785,
+          "PivotY": 0.12011173184357538,
+          "Bounds": {
+            "X": 10,
+            "Y": 21,
+            "Width": 147,
+            "Height": 137
+          },
+          "OpaquePixels": 13851,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r03-f00",
+          "Row": 3,
+          "Column": 0,
+          "X": 0,
+          "Y": 530,
+          "Width": 195,
+          "Height": 173,
+          "PivotX": 0.4846153846153846,
+          "PivotY": 0.037572254335260125,
+          "Bounds": {
+            "X": 26,
+            "Y": 7,
+            "Width": 154,
+            "Height": 160
+          },
+          "OpaquePixels": 15271,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r03-f01",
+          "Row": 3,
+          "Column": 1,
+          "X": 195,
+          "Y": 531,
+          "Width": 179,
+          "Height": 173,
+          "PivotX": 0.4776536312849162,
+          "PivotY": 0.043352601156069315,
+          "Bounds": {
+            "X": 16,
+            "Y": 8,
+            "Width": 151,
+            "Height": 158
+          },
+          "OpaquePixels": 14725,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r03-f02",
+          "Row": 3,
+          "Column": 2,
+          "X": 374,
+          "Y": 517,
+          "Width": 175,
+          "Height": 177,
+          "PivotX": 0.46,
+          "PivotY": 0.053672316384180796,
+          "Bounds": {
+            "X": 12,
+            "Y": 8,
+            "Width": 152,
+            "Height": 160
+          },
+          "OpaquePixels": 15257,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r03-f03",
+          "Row": 3,
+          "Column": 3,
+          "X": 549,
+          "Y": 535,
+          "Width": 168,
+          "Height": 176,
+          "PivotX": 0.4791666666666667,
+          "PivotY": 0.07670454545454541,
+          "Bounds": {
+            "X": 11,
+            "Y": 10,
+            "Width": 148,
+            "Height": 153
+          },
+          "OpaquePixels": 15128,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r03-f04",
+          "Row": 3,
+          "Column": 4,
+          "X": 717,
+          "Y": 532,
+          "Width": 171,
+          "Height": 172,
+          "PivotX": 0.4269005847953216,
+          "PivotY": 0.043604651162790664,
+          "Bounds": {
+            "X": 10,
+            "Y": 8,
+            "Width": 146,
+            "Height": 157
+          },
+          "OpaquePixels": 15001,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r03-f05",
+          "Row": 3,
+          "Column": 5,
+          "X": 888,
+          "Y": 532,
+          "Width": 185,
+          "Height": 172,
+          "PivotX": 0.43783783783783786,
+          "PivotY": 0.043604651162790664,
+          "Bounds": {
+            "X": 15,
+            "Y": 8,
+            "Width": 156,
+            "Height": 157
+          },
+          "OpaquePixels": 15016,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r03-f06",
+          "Row": 3,
+          "Column": 6,
+          "X": 1073,
+          "Y": 532,
+          "Width": 176,
+          "Height": 172,
+          "PivotX": 0.4375,
+          "PivotY": 0.043604651162790664,
+          "Bounds": {
+            "X": 14,
+            "Y": 8,
+            "Width": 151,
+            "Height": 157
+          },
+          "OpaquePixels": 15689,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r03-f07",
+          "Row": 3,
+          "Column": 7,
+          "X": 1249,
+          "Y": 532,
+          "Width": 172,
+          "Height": 172,
+          "PivotX": 0.41569767441860467,
+          "PivotY": 0.043604651162790664,
+          "Bounds": {
+            "X": 11,
+            "Y": 8,
+            "Width": 146,
+            "Height": 157
+          },
+          "OpaquePixels": 14783,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r03-f08",
+          "Row": 3,
+          "Column": 8,
+          "X": 1421,
+          "Y": 542,
+          "Width": 167,
+          "Height": 172,
+          "PivotX": 0.5239520958083832,
+          "PivotY": 0.09593023255813948,
+          "Bounds": {
+            "X": 15,
+            "Y": 17,
+            "Width": 143,
+            "Height": 139
+          },
+          "OpaquePixels": 13602,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r03-f09",
+          "Row": 3,
+          "Column": 9,
+          "X": 1588,
+          "Y": 546,
+          "Width": 186,
+          "Height": 176,
+          "PivotX": 0.5080645161290323,
+          "PivotY": 0.10511363636363635,
+          "Bounds": {
+            "X": 10,
+            "Y": 24,
+            "Width": 158,
+            "Height": 134
+          },
+          "OpaquePixels": 13831,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r04-f00",
+          "Row": 4,
+          "Column": 0,
+          "X": 0,
+          "Y": 703,
+          "Width": 192,
+          "Height": 184,
+          "PivotX": 0.5390625,
+          "PivotY": 0.11141304347826086,
+          "Bounds": {
+            "X": 35,
+            "Y": 7,
+            "Width": 137,
+            "Height": 157
+          },
+          "OpaquePixels": 14971,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r04-f01",
+          "Row": 4,
+          "Column": 1,
+          "X": 192,
+          "Y": 704,
+          "Width": 180,
+          "Height": 183,
+          "PivotX": 0.5222222222222223,
+          "PivotY": 0.11202185792349728,
+          "Bounds": {
+            "X": 22,
+            "Y": 8,
+            "Width": 140,
+            "Height": 155
+          },
+          "OpaquePixels": 14710,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r04-f02",
+          "Row": 4,
+          "Column": 2,
+          "X": 372,
+          "Y": 694,
+          "Width": 174,
+          "Height": 193,
+          "PivotX": 0.4885057471264368,
+          "PivotY": 0.18393782383419688,
+          "Bounds": {
+            "X": 19,
+            "Y": 10,
+            "Width": 140,
+            "Height": 148
+          },
+          "OpaquePixels": 14205,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r04-f03",
+          "Row": 4,
+          "Column": 3,
+          "X": 546,
+          "Y": 711,
+          "Width": 168,
+          "Height": 176,
+          "PivotX": 0.5089285714285714,
+          "PivotY": 0.11079545454545459,
+          "Bounds": {
+            "X": 15,
+            "Y": 13,
+            "Width": 141,
+            "Height": 144
+          },
+          "OpaquePixels": 14224,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r04-f04",
+          "Row": 4,
+          "Column": 4,
+          "X": 714,
+          "Y": 704,
+          "Width": 170,
+          "Height": 183,
+          "PivotX": 0.4823529411764706,
+          "PivotY": 0.11202185792349728,
+          "Bounds": {
+            "X": 13,
+            "Y": 8,
+            "Width": 137,
+            "Height": 155
+          },
+          "OpaquePixels": 14541,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r04-f05",
+          "Row": 4,
+          "Column": 5,
+          "X": 884,
+          "Y": 704,
+          "Width": 185,
+          "Height": 183,
+          "PivotX": 0.5081081081081081,
+          "PivotY": 0.11748633879781423,
+          "Bounds": {
+            "X": 21,
+            "Y": 7,
+            "Width": 144,
+            "Height": 155
+          },
+          "OpaquePixels": 14945,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r04-f06",
+          "Row": 4,
+          "Column": 6,
+          "X": 1069,
+          "Y": 704,
+          "Width": 179,
+          "Height": 183,
+          "PivotX": 0.5223463687150838,
+          "PivotY": 0.11202185792349728,
+          "Bounds": {
+            "X": 21,
+            "Y": 7,
+            "Width": 142,
+            "Height": 156
+          },
+          "OpaquePixels": 15434,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r04-f07",
+          "Row": 4,
+          "Column": 7,
+          "X": 1248,
+          "Y": 704,
+          "Width": 168,
+          "Height": 183,
+          "PivotX": 0.5029761904761905,
+          "PivotY": 0.11748633879781423,
+          "Bounds": {
+            "X": 17,
+            "Y": 8,
+            "Width": 136,
+            "Height": 154
+          },
+          "OpaquePixels": 14528,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r04-f08",
+          "Row": 4,
+          "Column": 8,
+          "X": 1416,
+          "Y": 714,
+          "Width": 177,
+          "Height": 173,
+          "PivotX": 0.5169491525423728,
+          "PivotY": 0.12427745664739887,
+          "Bounds": {
+            "X": 15,
+            "Y": 16,
+            "Width": 156,
+            "Height": 136
+          },
+          "OpaquePixels": 14259,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-body-r04-f09",
+          "Row": 4,
+          "Column": 9,
+          "X": 1593,
+          "Y": 722,
+          "Width": 181,
+          "Height": 165,
+          "PivotX": 0.4889502762430939,
+          "PivotY": 0.11818181818181817,
+          "Bounds": {
+            "X": 6,
+            "Y": 19,
+            "Width": 165,
+            "Height": 127
+          },
+          "OpaquePixels": 12965,
+          "EdgePixels": 0
+        }
+      ]
+    },
+    {
+      "Path": "Assets/art/units/martio/martio-effects-source-v3.png",
+      "Prefix": "effects",
+      "Width": 1774,
+      "Height": 887,
+      "Columns": 8,
+      "Rows": 4,
+      "Sha256": "932a827935949ae4d427cbcad5d05f242a3b64aaa84a385d96d419fcda5237ad",
+      "Frames": [
+        {
+          "Name": "martio-effects-r00-f00",
+          "Row": 0,
+          "Column": 0,
+          "X": 0,
+          "Y": 0,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 49,
+            "Y": 74,
+            "Width": 146,
+            "Height": 118
+          },
+          "OpaquePixels": 11463,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r00-f01",
+          "Row": 0,
+          "Column": 1,
+          "X": 222,
+          "Y": 0,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 45,
+            "Y": 71,
+            "Width": 145,
+            "Height": 122
+          },
+          "OpaquePixels": 11026,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r00-f02",
+          "Row": 0,
+          "Column": 2,
+          "X": 444,
+          "Y": 0,
+          "Width": 221,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 45,
+            "Y": 87,
+            "Width": 146,
+            "Height": 120
+          },
+          "OpaquePixels": 11014,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r00-f03",
+          "Row": 0,
+          "Column": 3,
+          "X": 665,
+          "Y": 0,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 43,
+            "Y": 83,
+            "Width": 147,
+            "Height": 109
+          },
+          "OpaquePixels": 11086,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r00-f04",
+          "Row": 0,
+          "Column": 4,
+          "X": 887,
+          "Y": 0,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 41,
+            "Y": 72,
+            "Width": 137,
+            "Height": 127
+          },
+          "OpaquePixels": 12586,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r00-f05",
+          "Row": 0,
+          "Column": 5,
+          "X": 1109,
+          "Y": 0,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 47,
+            "Y": 80,
+            "Width": 127,
+            "Height": 126
+          },
+          "OpaquePixels": 12519,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r00-f06",
+          "Row": 0,
+          "Column": 6,
+          "X": 1331,
+          "Y": 0,
+          "Width": 221,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 56,
+            "Y": 80,
+            "Width": 108,
+            "Height": 120
+          },
+          "OpaquePixels": 9035,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r00-f07",
+          "Row": 0,
+          "Column": 7,
+          "X": 1552,
+          "Y": 0,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 43,
+            "Y": 97,
+            "Width": 104,
+            "Height": 97
+          },
+          "OpaquePixels": 3536,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r01-f00",
+          "Row": 1,
+          "Column": 0,
+          "X": 0,
+          "Y": 222,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 55,
+            "Y": 80,
+            "Width": 137,
+            "Height": 106
+          },
+          "OpaquePixels": 8972,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r01-f01",
+          "Row": 1,
+          "Column": 1,
+          "X": 222,
+          "Y": 222,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 50,
+            "Y": 64,
+            "Width": 138,
+            "Height": 111
+          },
+          "OpaquePixels": 9666,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r01-f02",
+          "Row": 1,
+          "Column": 2,
+          "X": 444,
+          "Y": 222,
+          "Width": 221,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 47,
+            "Y": 85,
+            "Width": 138,
+            "Height": 102
+          },
+          "OpaquePixels": 9212,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r01-f03",
+          "Row": 1,
+          "Column": 3,
+          "X": 665,
+          "Y": 222,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 44,
+            "Y": 78,
+            "Width": 142,
+            "Height": 97
+          },
+          "OpaquePixels": 9356,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r01-f04",
+          "Row": 1,
+          "Column": 4,
+          "X": 887,
+          "Y": 222,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 40,
+            "Y": 63,
+            "Width": 137,
+            "Height": 129
+          },
+          "OpaquePixels": 12419,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r01-f05",
+          "Row": 1,
+          "Column": 5,
+          "X": 1109,
+          "Y": 222,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 47,
+            "Y": 73,
+            "Width": 133,
+            "Height": 114
+          },
+          "OpaquePixels": 11921,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r01-f06",
+          "Row": 1,
+          "Column": 6,
+          "X": 1331,
+          "Y": 222,
+          "Width": 221,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 59,
+            "Y": 77,
+            "Width": 103,
+            "Height": 103
+          },
+          "OpaquePixels": 7743,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r01-f07",
+          "Row": 1,
+          "Column": 7,
+          "X": 1552,
+          "Y": 222,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 52,
+            "Y": 92,
+            "Width": 96,
+            "Height": 84
+          },
+          "OpaquePixels": 2714,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r02-f00",
+          "Row": 2,
+          "Column": 0,
+          "X": 0,
+          "Y": 444,
+          "Width": 222,
+          "Height": 221,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 83,
+            "Y": 70,
+            "Width": 89,
+            "Height": 87
+          },
+          "OpaquePixels": 3940,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r02-f01",
+          "Row": 2,
+          "Column": 1,
+          "X": 222,
+          "Y": 444,
+          "Width": 222,
+          "Height": 221,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 51,
+            "Y": 55,
+            "Width": 127,
+            "Height": 119
+          },
+          "OpaquePixels": 6407,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r02-f02",
+          "Row": 2,
+          "Column": 2,
+          "X": 444,
+          "Y": 444,
+          "Width": 221,
+          "Height": 221,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 36,
+            "Y": 36,
+            "Width": 145,
+            "Height": 142
+          },
+          "OpaquePixels": 8625,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r02-f03",
+          "Row": 2,
+          "Column": 3,
+          "X": 665,
+          "Y": 444,
+          "Width": 222,
+          "Height": 221,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 32,
+            "Y": 28,
+            "Width": 162,
+            "Height": 155
+          },
+          "OpaquePixels": 10090,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r02-f04",
+          "Row": 2,
+          "Column": 4,
+          "X": 887,
+          "Y": 444,
+          "Width": 222,
+          "Height": 221,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 41,
+            "Y": 38,
+            "Width": 148,
+            "Height": 140
+          },
+          "OpaquePixels": 8062,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r02-f05",
+          "Row": 2,
+          "Column": 5,
+          "X": 1109,
+          "Y": 444,
+          "Width": 222,
+          "Height": 221,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 48,
+            "Y": 46,
+            "Width": 135,
+            "Height": 127
+          },
+          "OpaquePixels": 5719,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r02-f06",
+          "Row": 2,
+          "Column": 6,
+          "X": 1331,
+          "Y": 444,
+          "Width": 221,
+          "Height": 221,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 49,
+            "Y": 49,
+            "Width": 126,
+            "Height": 126
+          },
+          "OpaquePixels": 4595,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r02-f07",
+          "Row": 2,
+          "Column": 7,
+          "X": 1552,
+          "Y": 444,
+          "Width": 222,
+          "Height": 221,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 40,
+            "Y": 55,
+            "Width": 115,
+            "Height": 110
+          },
+          "OpaquePixels": 3283,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r03-f00",
+          "Row": 3,
+          "Column": 0,
+          "X": 0,
+          "Y": 665,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 80,
+            "Y": 49,
+            "Width": 85,
+            "Height": 86
+          },
+          "OpaquePixels": 3768,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r03-f01",
+          "Row": 3,
+          "Column": 1,
+          "X": 222,
+          "Y": 665,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 46,
+            "Y": 33,
+            "Width": 125,
+            "Height": 123
+          },
+          "OpaquePixels": 6413,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r03-f02",
+          "Row": 3,
+          "Column": 2,
+          "X": 444,
+          "Y": 665,
+          "Width": 221,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 36,
+            "Y": 18,
+            "Width": 146,
+            "Height": 144
+          },
+          "OpaquePixels": 8631,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r03-f03",
+          "Row": 3,
+          "Column": 3,
+          "X": 665,
+          "Y": 665,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 33,
+            "Y": 13,
+            "Width": 160,
+            "Height": 158
+          },
+          "OpaquePixels": 10154,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r03-f04",
+          "Row": 3,
+          "Column": 4,
+          "X": 887,
+          "Y": 665,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 41,
+            "Y": 22,
+            "Width": 146,
+            "Height": 142
+          },
+          "OpaquePixels": 8012,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r03-f05",
+          "Row": 3,
+          "Column": 5,
+          "X": 1109,
+          "Y": 665,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 49,
+            "Y": 29,
+            "Width": 134,
+            "Height": 127
+          },
+          "OpaquePixels": 5396,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r03-f06",
+          "Row": 3,
+          "Column": 6,
+          "X": 1331,
+          "Y": 665,
+          "Width": 221,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 53,
+            "Y": 31,
+            "Width": 130,
+            "Height": 128
+          },
+          "OpaquePixels": 4562,
+          "EdgePixels": 0
+        },
+        {
+          "Name": "martio-effects-r03-f07",
+          "Row": 3,
+          "Column": 7,
+          "X": 1552,
+          "Y": 665,
+          "Width": 222,
+          "Height": 222,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 44,
+            "Y": 38,
+            "Width": 111,
+            "Height": 109
+          },
+          "OpaquePixels": 3087,
+          "EdgePixels": 0
+        }
+      ]
+    },
+    {
+      "Path": "Assets/art/units/martio/martio-upgrades-square-v2.png",
+      "Prefix": "upgrades",
+      "Width": 2172,
+      "Height": 724,
+      "Columns": 3,
+      "Rows": 1,
+      "Sha256": "a08372371edac36ccc7de6a4ff89ecfc66aba0ee88b399f92de5a9f7dd0f4a85",
+      "Frames": [
+        {
+          "Name": "martio-upgrades-r00-f00",
+          "Row": 0,
+          "Column": 0,
+          "X": 0,
+          "Y": 0,
+          "Width": 724,
+          "Height": 724,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 0,
+            "Y": 0,
+            "Width": 724,
+            "Height": 724
+          },
+          "OpaquePixels": 524176,
+          "EdgePixels": 2892
+        },
+        {
+          "Name": "martio-upgrades-r00-f01",
+          "Row": 0,
+          "Column": 1,
+          "X": 724,
+          "Y": 0,
+          "Width": 724,
+          "Height": 724,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 0,
+            "Y": 0,
+            "Width": 724,
+            "Height": 724
+          },
+          "OpaquePixels": 524176,
+          "EdgePixels": 2892
+        },
+        {
+          "Name": "martio-upgrades-r00-f02",
+          "Row": 0,
+          "Column": 2,
+          "X": 1448,
+          "Y": 0,
+          "Width": 724,
+          "Height": 724,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 0,
+            "Y": 0,
+            "Width": 724,
+            "Height": 724
+          },
+          "OpaquePixels": 524176,
+          "EdgePixels": 2892
+        }
+      ]
+    },
+    {
+      "Path": "Assets/art/units/martio/martio-portrait-left-original.png",
+      "Prefix": "portrait-left",
+      "Width": 1319,
+      "Height": 1193,
+      "Columns": 1,
+      "Rows": 1,
+      "Sha256": "352a7fca80b5e205f7f894f9252a98cd17c5d608d2d3dd612b475cb1d41b6c62",
+      "Frames": [
+        {
+          "Name": "martio-portrait-left-r00-f00",
+          "Row": 0,
+          "Column": 0,
+          "X": 0,
+          "Y": 0,
+          "Width": 1319,
+          "Height": 1193,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 52,
+            "Y": 32,
+            "Width": 1233,
+            "Height": 1105
+          },
+          "OpaquePixels": 828520,
+          "EdgePixels": 0
+        }
+      ]
+    },
+    {
+      "Path": "Assets/art/units/martio/martio-portrait-right-original.png",
+      "Prefix": "portrait-right",
+      "Width": 1312,
+      "Height": 1199,
+      "Columns": 1,
+      "Rows": 1,
+      "Sha256": "bf2fe7ab6e03b072520260d81ff2fb5c273a42137609f3c469745235cc129231",
+      "Frames": [
+        {
+          "Name": "martio-portrait-right-r00-f00",
+          "Row": 0,
+          "Column": 0,
+          "X": 0,
+          "Y": 0,
+          "Width": 1312,
+          "Height": 1199,
+          "PivotX": 0.5,
+          "PivotY": 0.5,
+          "Bounds": {
+            "X": 70,
+            "Y": 85,
+            "Width": 1232,
+            "Height": 1034
+          },
+          "OpaquePixels": 754146,
+          "EdgePixels": 0
+        }
+      ]
+    }
+  ]
+}

@@ -42,8 +42,9 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
                 actor.transform.position=Vector3.zero;
                 view.Configure(actor,null,new UnitArt{Id=definition.Id});
                 view.AdvancePresentation(.2f);Assert.AreNotEqual(Vector3.one,view.VisualRoot.localScale,definition.Id+" idle");
-                view.Move(Vector3.zero,Vector3.right,1);view.AdvancePresentation(.25f);
-                Assert.Greater(view.VisualRoot.localPosition.y,0,definition.Id+" move");
+                view.Move(Vector3.zero,Vector3.right,1);view.AdvancePresentation(.65f);
+                if(definition.Id=="anuik")Assert.AreEqual(0,actor.transform.position.y,"Anuik walks on the ground.");
+                else Assert.Greater(actor.transform.position.y,0,definition.Id+" hop");
                 view.Attack(Vector3.up,definition.AttackRange>1,.2f);view.AdvancePresentation(.1f);
                 Assert.IsTrue(view.IsAttacking,definition.Id+" attack");
                 view.Hit();view.AdvancePresentation(.05f);Assert.Less(view.Renderer.color.g,1,definition.Id+" hit");

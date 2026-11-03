@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: 60a0d4aac379ec247a480341ba15a72d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 735265948033954458
+    second: rosie-atlas_0
+  - first:
+      213: -6531802260218683862
+    second: rosie-atlas_1
+  - first:
+      213: -5268902004853958662
+    second: rosie-atlas_2
+  - first:
+      213: -5593678000819355263
+    second: rosie-atlas_3
+  - first:
+      213: 1039760801976518069
+    second: rosie-atlas_4
+  - first:
+      213: 4626099991239481458
+    second: rosie-atlas_5
+  - first:
+      213: 8185353669188822518
+    second: rosie-atlas_6
+  - first:
+      213: 2009113648772733813
+    second: rosie-atlas_7
+  - first:
+      213: -2604300466139246406
+    second: rosie-atlas_8
+  - first:
+      213: 730378489686144310
+    second: rosie-atlas_9
+  - first:
+      213: 2373999718949746522
+    second: rosie-atlas_10
+  - first:
+      213: 3022587832326022499
+    second: rosie-atlas_11
+  - first:
+      213: 1874826627024721415
+    second: rosie-atlas_12
+  - first:
+      213: -5027695375014315992
+    second: rosie-atlas_13
+  - first:
+      213: -7013087325880186492
+    second: rosie-atlas_14
+  - first:
+      213: -2603856788062995569
+    second: rosie-atlas_15
+  - first:
+      213: 6501360181492858356
+    second: rosie-atlas_16
+  - first:
+      213: 352443686929011243
+    second: rosie-atlas_17
+  - first:
+      213: -7839733119286711365
+    second: rosie-atlas_18
+  - first:
+      213: -2668090917782399071
+    second: rosie-atlas_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rose
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 72
+        width: 317
+        height: 167
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a089afd6452850a448131ba53e2971b1
+      internalID: -1144719759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haste
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 68
+        width: 305
+        height: 181
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e1e76f2e6f6a14db50f66a67568a2b
+      internalID: 1728562410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shield
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 32
+        width: 239
+        height: 258
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9c6776845c73141a45322e76cf56ba
+      internalID: 1462498100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloom
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 49
+        width: 284
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92de0852577a14241bffaf5d1bd34ab5
+      internalID: -959812436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c8c72586550ce7042aa9ec65f3c3d413
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bloom: -959812436
+      haste: 1728562410
+      rose: -1144719759
+      shield: 1462498100
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

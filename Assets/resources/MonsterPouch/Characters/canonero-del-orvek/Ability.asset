@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac424d24ff4f558d38e1c7e5d82e9a, type: 3}
+  m_Name: Ability
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAbility
+  Definition:
+    EffectId: canonero-del-orvek-bomba-de-crater
+    Trigger: 1
+    EveryAttacks: 0
+    Id: canonero-del-orvek-bomba-de-crater
+    Name: "Bomba de cr\xE1ter"
+    Description: "{damage} m\xE1gico al enemigo m\xE1s cercano y enemigos en radio
+      {radius}. Quemadura: {burnDamage}/s, {burnDuration} s. Alcance: {range}. Man\xE1:
+      {manaCost}."
+    Parameters:
+    - Key: damage
+      Value: 17
+    - Key: radius
+      Value: 1
+    - Key: burnDamage
+      Value: 3
+    - Key: burnDuration
+      Value: 3
+    - Key: range
+      Value: 10
+    - Key: holdDuration
+      Value: 0.2
+    - Key: recoveryDuration
+      Value: 0.2
+    Area:
+      Shape: 1
+      SquareSize: 3
+      IncludeCenter: 0
+      UpWidth: 1
+      UpDepth: 0
+      RightWidth: 1
+      RightDepth: 0
+      DownWidth: 1
+      DownDepth: 0
+      LeftWidth: 1
+      LeftDepth: 0
+    Cost: 0
+    HealthBonus: 0
+    DamageBonus: 0
+    AttackIntervalMultiplier: 1
+    RangeBonus: 0
+    Armor: 0
+    HealOnHit: 0
+    BonusEveryHits: 0
+    BonusDamage: 0
+  ProjectileVisuals:
+  - VariantId: crater-bomb-flight
+    RendererId: volkanar-crater-bomb
+    NameEnglish: Crater bomb
+    NameSpanish: "Bomba de cr\xE1ter"
+    OverrideSize: 1
+    SizePercent: 52
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames:
+    - Sprite: {fileID: 21300000, guid: 1c23dc1b784a5baeb35dc10b9d9c5ded, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.12890625
+        y: 0.30078125
+        width: 0.78515625
+        height: 0.51171875
+    - Sprite: {fileID: 21300000, guid: 777eb57e33f65229a4a2ffb97a528487, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.1171875
+        y: 0.296875
+        width: 0.796875
+        height: 0.4921875
+    - Sprite: {fileID: 21300000, guid: d73970b2b7ad57f1aad04fe4205009b1, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.09375
+        y: 0.296875
+        width: 0.75390625
+        height: 0.5078125
+    - Sprite: {fileID: 21300000, guid: 4c592d1b464e5f30afb62971b94027a4, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.0625
+        y: 0.30078125
+        width: 0.796875
+        height: 0.51171875
+  Icon: {fileID: 21300000, guid: 7700bcc2859e55d595af4fee2cad9784, type: 3}
+  Effect: {fileID: 0}
+  Sound: {fileID: 0}

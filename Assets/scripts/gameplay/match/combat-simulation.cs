@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using MonsterPouch.Gameplay.Board;
 using MonsterPouch.Gameplay.Units;
 using UnityEngine;
@@ -12,6 +13,7 @@ namespace MonsterPouch.Gameplay.Match
         public const float TickDuration = 0.1f;
         private const double ExactTickDuration = 0.1d;
         public const int TimeoutTicks = 400;
+        internal int TimeoutTickLimit { get; set; } = TimeoutTicks;
         public const int StalemateTicks = 100;
 
         private sealed class ActorClock
@@ -21,6 +23,8 @@ namespace MonsterPouch.Gameplay.Match
             public int NextAttack = 1;
             public int Hits;
             public BoardCell LastCell;
+            public CombatMovementStep MovementStep;
+            public int DeathTick = -1;
             public int RevivesUsed;
             public int ReviveDueTick;
             public int NextSummon;
@@ -29,15 +33,40 @@ namespace MonsterPouch.Gameplay.Match
             public BattleUnit LockedTarget;
             public int UnitResetVersion;
             public int TargetResetVersion;
+            public int TargetReactionUntil, SuperRecoveryUntil;
+            public bool EnergySuperActive,PrepareFirstBasic;
+            public int EnergySuperUntil,NextStormPulse;
+            public bool TargetWasInRange;
+            public bool StunRetargetPending;
+            public int PopowStunUntil, ElectricStunUntil;
+            public int SeporaStacksThisRound;
             public int Attacks, DamageBonus, NextBasicBonus, StunUntil, RootUntil, InvulnerableUntil, StealthUntil;
             public int SuperUntil, WeakUntil, AntiHealUntil, LastHealTick, NextIncome, GumCycle, LastBasicTick;
             public int ChocolateNext, ChocolateStacks;
-            public float SpeedBonus, AttackSpeedMultiplier = 1, DamageMultiplier = 1, Weakness = 1;
+            public int FlowerCastDueTick;
+            public int AbilityMotionUntil,EnergyCastDue,EnergyCastTargetVersion,OpeningFlightDue;
+            public int EronyaBasicMotionUntil,EronyaBasicMoveReadyTick;
+            public BattleUnit EnergyCastTarget;
+            public int DashUntilTick;
+            public int PullUntilTick;
+            public bool ResumeBuguiAttack, ResumeCountedAttack;
+            public BoardCell FlowerCastCell;
+            public float SpeedBonus, AttackSpeedMultiplier = 1, DamageMultiplier = 1, Weakness = 1, DamageReduction;
+            public int FishShieldUntil;
+            public int ExternalDamageBonus, ExternalDamageUntil;
+            public bool KazuruHaloUsed;
+            public int KazuruHaloUntil, KazuruHealNext, KazuruHealTicks, KazuruHealAmount;
+            public float ExternalSpeedBonus, ExternalMoveBonus, ExternalDamageMultiplier = 1;
+            public int ExternalSpeedUntil, DamageReductionUntil;
+            public string ExternalSpeedId, DamageReductionId;
+            public int RoseControlUntil;
             public float AntiHealMultiplier = .4f;
             public bool StealthUsed, SleepStarted, DeathHandled;
+            public int OpeningRecoveryUntil, OpeningHealingScheduled;
             public string SummonKind;
             public BattleUnit LastDamager, ChocolateSource;
             public BattleUnit TauntTarget, TargetBeforeTaunt;
+            public int TauntUntil, TaunterResetVersion;
             public BattleUnit FocusTarget;
         }
 
@@ -49,12 +78,21 @@ namespace MonsterPouch.Gameplay.Match
             public int ReleaseTick;
             public bool Projectile;
             public int Damage;
+            // Only the Eronya basic adapter sets these; legacy pending packets are unchanged.
+            public decimal? PreciseDamage;
+            public int SourceResetVersion, TargetResetVersion;
             public string Effect;
             public bool Super;
             public bool Critical;
+            public bool Secondary;
+            public bool RequiresRange, RangeValidated, Missed;
         }
 
         private readonly BoardManager board;
+        private readonly int randomSeed;
+        private readonly int openingWindowTicks;
+        private System.Random combatRandom;
+        public event Action<BattleUnit, BoardCell, BoardCell> Teleported;
         private readonly List<ActorClock> actors = new List<ActorClock>();
         private readonly List<PendingImpact> pending = new List<PendingImpact>();
         private readonly List<BattleUnit> combatOnlyUnits = new List<BattleUnit>();
@@ -68,6 +106,7 @@ namespace MonsterPouch.Gameplay.Match
         public BoardSide? Winner { get; private set; }
         public string Reason { get; private set; } = string.Empty;
         public float Elapsed => tick * TickDuration;
+        public bool IsOpeningWindow => begun && !Finished && tick < openingWindowTicks;
         public int PendingImpactCount => pending.Count;
         public IReadOnlyList<BattleUnit> CombatOnlyUnits => combatOnlyUnits.AsReadOnly();
 
@@ -84,16 +123,24 @@ namespace MonsterPouch.Gameplay.Match
         public event Action<BattleUnit, UnitDefinition> Summoned;
         public event Action<BattleUnit, BattleUnit> LethalImpacted;
 
-        public CombatSimulation(BoardManager boardManager)
+        // Zero allows isolated mechanics tests/tools to omit the opening presentation.
+        // Real matches pass MatchConfig.OpeningAbilityWindowSeconds (default 1.5 seconds).
+        public CombatSimulation(BoardManager boardManager, int randomSeed = 1, float openingWindowSeconds = 0)
         {
             board = boardManager ?? throw new ArgumentNullException(nameof(boardManager));
+            this.randomSeed = randomSeed;
+            EronyaTiebreakSide=(BoardSide)EronyaRoundRules.TokenSide(randomSeed,1);
+            openingWindowTicks = float.IsNaN(openingWindowSeconds) || float.IsInfinity(openingWindowSeconds)
+                ? 0 : Mathf.CeilToInt(Mathf.Clamp(openingWindowSeconds, 0, 40) / TickDuration - .00001f);
         }
 
         public void Begin(IReadOnlyList<BattleUnit> units,
             IReadOnlyDictionary<BattleUnit, OwnedUnit> loadouts = null)
         {
             Stop();
+            statusRules=new MonsterPouch.Gameplay.Status.StatusRules(Resources.LoadAll<MonsterPouch.Gameplay.Status.StatusEffectDefinition>("MonsterPouch/StatusEffects"));
             actors.Clear();
+            combatRandom = new System.Random(randomSeed);
             var identities = new HashSet<string>(StringComparer.Ordinal);
             var references = new HashSet<BattleUnit>();
             for (int i = 0; units != null && i < units.Count; i++)
@@ -116,10 +163,11 @@ namespace MonsterPouch.Gameplay.Match
             actors.Sort((a, b) => string.CompareOrdinal(a.Unit.UnitId, b.Unit.UnitId));
             tick = lastChangeTick = 0;
             accumulator = 0;
-            Winner = null;
+            Winner = null; TimeoutResult = null; HealthSummary = null;
             Reason = string.Empty;
             Finished = false;
             begun = true;
+            BeginEronyaCombat();
             BeginDocumentedCombat();
             EvaluateTeams();
         }
@@ -143,7 +191,10 @@ namespace MonsterPouch.Gameplay.Match
                 if (actors[i].Unit != null)
                 {
                     ClearTimedSuper(actors[i]);
+                    actors[i].Unit.IsOpeningEnergyBlocked = actors[i].Unit.IsSleeping = false;
                     actors[i].LockedTarget = null;
+                    actors[i].StunRetargetPending = false;
+                    CancelMovementStep(actors[i]);
                     board.CancelReservation(actors[i].Unit);
                     actors[i].Unit.CancelRevival();
                 }
@@ -167,7 +218,10 @@ namespace MonsterPouch.Gameplay.Match
             if (documentedCombat) { ExecuteDocumentedTick(); return; }
             tick++;
             SyncCombatResets();
+            CompleteMovementSteps();
             CompleteRevivals();
+            ReleaseDefeatedTargets();
+            TrackTargetRange();
             var live = new List<BattleUnit>();
             for (int i = 0; i < actors.Count; i++)
                 if (actors[i].Unit != null && actors[i].Unit.IsAlive) live.Add(actors[i].Unit);
@@ -178,7 +232,8 @@ namespace MonsterPouch.Gameplay.Match
             {
                 ActorClock clock = actors[i];
                 BattleUnit unit = clock.Unit;
-                if (unit == null || !unit.IsAlive) continue;
+                if (unit == null || !unit.IsAlive || unit.IsPassiveTrainingTarget || IsTravelling(clock)) continue;
+                if (tick <= openingWindowTicks) continue;
                 if (tick < clock.NextMove && tick < clock.NextAttack) continue;
                 CombatTargetSelection selection = FollowOrAcquireTarget(clock, live);
                 if (selection.Status == CombatTargetSelectionStatus.ReadyToAttack)
@@ -192,12 +247,12 @@ namespace MonsterPouch.Gameplay.Match
                         Source = clock, Target = selection.Target,
                         DueTick = tick + impactDelay,
                         ReleaseTick = tick + windup, Projectile = projectile,
-                        Damage = unit.BaseStats.Attack
+                        Damage = unit.BaseStats.Attack, RequiresRange = true
                     });
-                    clock.NextAttack = tick + Mathf.Max(windup + 1, ToTicks(unit.BaseStats.AttackInterval));
+                    clock.NextAttack = tick + Mathf.Max(windup + BasicAttackTiming.TailTicks(unit), ToTicks(unit.BaseStats.AttackInterval));
                     // A melee windup completes before its source may start another step.
                     // Projectiles can remain in flight after the source resumes movement.
-                    clock.NextMove = Mathf.Max(clock.NextMove, tick + windup + 1);
+                    clock.NextMove = Mathf.Max(clock.NextMove, tick + windup + BasicAttackTiming.TailTicks(unit));
                     unit.SetState(UnitState.Attacking);
                     Attacked?.Invoke(unit, selection.Target, projectile);
                 }
@@ -209,32 +264,29 @@ namespace MonsterPouch.Gameplay.Match
                 else unit.SetState(UnitState.Idle);
             }
 
-            List<BoardMovementResult> movementResults = BoardMovementResolver.ResolveMovement(board, moves);
+            List<BoardMovementResult> movementResults = BoardMovementResolver.ReserveMovement(board, moves);
             for (int i = 0; i < movementResults.Count; i++)
             {
                 ActorClock clock = movingClocks[i];
                 clock.NextMove = tick + ToTicks(clock.Unit.BaseStats.MoveInterval);
-                if (movementResults[i].Status != BoardMovementStatus.Moved) continue;
+                if (movementResults[i].Status != BoardMovementStatus.Reserved) continue;
                 // Logical travel takes the configured duration even when no view exists.
                 // Waiting on this clock keeps attacks from firing halfway through a step.
                 clock.NextAttack = Mathf.Max(clock.NextAttack, clock.NextMove);
-                BoardCell from = clock.LastCell;
-                clock.LastCell = clock.Unit.CurrentCell;
-                clock.Unit.SetState(UnitState.Moving);
-                lastChangeTick = tick;
-                Moved?.Invoke(clock.Unit, from, clock.LastCell);
+                BeginMovementStep(clock);
             }
 
+            ValidateAttackReleases();
             ResolveImpacts();
+            ReleaseDefeatedTargets();
             if (EvaluateTeams()) return;
             ResolveSummons();
-            if (tick >= TimeoutTicks) Finish(null, "Tiempo de combate agotado");
-            else if (tick - lastChangeTick >= StalemateTicks && !HasUsefulPendingImpact() && !HasUsefulPendingAbility())
-                Finish(null, "Sin progreso durante 10 segundos");
+            if (tick >= TimeoutTickLimit) ResolveTimeout();
         }
 
         private CombatTargetSelection FollowOrAcquireTarget(ActorClock clock, IReadOnlyList<BattleUnit> live)
         {
+            if(clock.TargetReactionUntil>tick)return CombatTargetSelection.NoTarget(clock.Unit);
             if (clock.UnitResetVersion != clock.Unit.CombatResetVersion)
             {
                 clock.LockedTarget = null;
@@ -247,13 +299,76 @@ namespace MonsterPouch.Gameplay.Match
                 // Keep opponents in range; explicit taunt/focus abilities may force pursuit.
                 lockedCandidate.Clear();
                 lockedCandidate.Add(clock.LockedTarget);
-                return CombatTargetSelector.SelectTarget(board, clock.Unit, lockedCandidate);
+                var selection=CombatTargetSelector.SelectTarget(board, clock.Unit, lockedCandidate);
+                if(selection.Status==CombatTargetSelectionStatus.ReadyToAttack)clock.TargetWasInRange=true;
+                return selection;
             }
 
             CombatTargetSelection acquired = CombatTargetSelector.SelectTarget(board, clock.Unit, live);
             clock.LockedTarget = acquired.Target;
+            clock.TargetWasInRange=acquired.Status==CombatTargetSelectionStatus.ReadyToAttack;
             if (clock.LockedTarget != null) clock.TargetResetVersion = clock.LockedTarget.CombatResetVersion;
             return acquired;
+        }
+
+        /// <summary>IQ 1 reacts in one second; IQ 10 and above react in one combat tick.</summary>
+        public static float GetTargetReactionDelay(BattleUnit unit)
+        {
+            int iq = Mathf.Clamp(unit != null ? unit.IQSpeed : 1, 1, 10);
+            return (11 - iq) * TickDuration;
+        }
+
+        private void ReleaseDefeatedTargets()
+        {
+            foreach (ActorClock actor in actors)
+            {
+                BattleUnit target = actor.LockedTarget;
+                if (actor.Unit == null || !actor.Unit.IsAlive || ReferenceEquals(target, null)) continue;
+                if (target != null && target.IsAlive && !target.IsReviving) continue;
+                actor.LockedTarget = null;
+                // An Eronya active cast owns its re-plan/refund; ordinary basics use legacy retargeting.
+                if(EronyaOwns(actor)&&eronyaStates.TryGetValue(actor,out var eronya)&&eronya.Cast.Preparing)continue;
+                if (actor.TauntTarget == target) ClearTaunt(actor, false);
+                if (actor.FocusTarget == target) actor.FocusTarget = null;
+                if (actor.TargetBeforeTaunt == target) actor.TargetBeforeTaunt = null;
+                // A planted flower, flight or dash follows its own destination and timing.
+                // Losing an unrelated old target must not cancel those committed actions.
+                if (actor.FlowerCastDueTick > 0 || (actor.EnergyCastDue>0&&Id(actor)!="sepora") || actor.DashUntilTick > tick || actor.Unit.IsFlying) continue;
+                bool completingStep = actor.Unit.State == UnitState.Moving && actor.NextMove > tick;
+                var enemies = Enemies(actor);
+                BattleUnit replacement = null;
+                bool preserveRhythm = documentedCombat && Id(actor) == "bugui" && actor.Attacks > 0 && actor.StunUntil <= tick;
+                if (preserveRhythm)
+                {
+                    var inRange = enemies.FindAll(enemy => CombatTargetSelector.IsInAttackRange(actor.Unit.CurrentCell, enemy.CurrentCell, actor.Unit.BaseStats.AttackRange));
+                    var selection = CombatTargetSelector.SelectTarget(board, actor.Unit, inRange);
+                    replacement = selection.Target;
+                    preserveRhythm = selection.Status == CombatTargetSelectionStatus.ReadyToAttack;
+                }
+                int release = actor.NextAttack + (actor.ResumeBuguiAttack ? 0 : ToTicks(actor.Unit.BaseStats.AttackWindup));
+                bool counted = actor.ResumeBuguiAttack && actor.ResumeCountedAttack;
+                if (preserveRhythm)
+                    foreach (var impact in pending)
+                        if (impact.Source == actor && !impact.Super && impact.ReleaseTick > tick)
+                        { release = Mathf.Min(release, impact.ReleaseTick); counted = true; }
+                InterruptAttack(actor);
+                int ready = Mathf.Max(tick + ToTicks(GetTargetReactionDelay(actor.Unit)), actor.StunUntil);
+                if (preserveRhythm)
+                {
+                    // IQ still delays recognition. Preserve the scheduled release instead
+                    // of charging another first-attack preparation after that reaction.
+                    ready = Mathf.Max(ready, release);
+                    actor.ResumeBuguiAttack = true;
+                    actor.ResumeCountedAttack = counted;
+                }
+                actor.NextMove = completingStep ? Mathf.Max(actor.NextMove, ready) : ready;
+                actor.NextAttack = Mathf.Max(actor.NextMove,actor.SuperRecoveryUntil);
+                if (!completingStep) actor.Unit.SetState(UnitState.Idle);
+                // Remember the replacement during reaction time. A quick resurrection
+                // must not steal a new living target that was already found in range.
+                if (replacement == null) replacement = CombatTargetSelector.SelectTarget(board, actor.Unit, enemies).Target;
+                if (replacement != null) SetTarget(actor, replacement);
+            }
         }
 
         private void SyncCombatResets()
@@ -261,22 +376,39 @@ namespace MonsterPouch.Gameplay.Match
             foreach(var clock in actors)
                 if(clock.Unit!=null && clock.UnitResetVersion!=clock.Unit.CombatResetVersion)
                 {
+                    CancelControlMotions(clock);
+                    CancelMovementStep(clock);
                     pending.RemoveAll(p=>p.Source==clock);
                     clock.UnitResetVersion=clock.Unit.CombatResetVersion;
-                    clock.LockedTarget=clock.TauntTarget=clock.FocusTarget=null;
+                    ClearTaunt(clock, false);
+                    clock.LockedTarget=clock.FocusTarget=null;
+                    clock.TargetReactionUntil=clock.SuperRecoveryUntil=0;clock.EnergySuperActive=clock.PrepareFirstBasic=false;
+                    clock.EnergySuperUntil=clock.NextStormPulse=0;
+                    clock.TargetWasInRange=false;
+                    clock.StunRetargetPending=false;
                     clock.NextAttack=clock.NextMove=tick;
-                    clock.StunUntil=clock.RootUntil=0;
+                    CancelFlowerCast(clock);CancelAbilityPreparation(clock);clock.AbilityMotionUntil=clock.OpeningFlightDue=0;
+                    clock.EronyaBasicMotionUntil=clock.EronyaBasicMoveReadyTick=0;
+                    clock.DashUntilTick=clock.PullUntilTick=0;
+                    clock.ResumeBuguiAttack=clock.ResumeCountedAttack=false;
+                    clock.StunUntil=clock.RootUntil=clock.StealthUntil=clock.PopowStunUntil=clock.ElectricStunUntil=0;
                     ClearTimedSuper(clock);
-                    clock.AttackSpeedMultiplier=1;AttackReset?.Invoke(clock.Unit);
+                    ResetRoseEffects(clock);
+                    ResetReceivedEffects(clock);
+                    clock.FishShieldUntil = 0;
+                    clock.AttackSpeedMultiplier=1;EronyaResetActor(clock);AttackReset?.Invoke(clock.Unit);
                 }
         }
 
         private void InterruptAttack(ActorClock actor)
         {
+            actor.ResumeBuguiAttack=actor.ResumeCountedAttack=false;
+            CancelEronyaBasicMotion(actor);
+            CancelFlowerCast(actor);CancelAbilityPreparation(actor);actor.AbilityMotionUntil=actor.OpeningFlightDue=0;
             actor.Unit.InterruptAttack();
             AttackReset?.Invoke(actor.Unit);
             pending.RemoveAll(p=>p.Source==actor && (!p.Projectile || p.ReleaseTick>tick));
-            actor.NextAttack=Mathf.Max(tick+1,actor.StunUntil);
+            actor.NextAttack=Mathf.Max(tick+1,actor.StunUntil,actor.SuperRecoveryUntil);
         }
 
         private static void ClearTimedSuper(ActorClock actor)
@@ -294,7 +426,7 @@ namespace MonsterPouch.Gameplay.Match
                 target.Side == clock.Unit.Side || target.CombatResetVersion != clock.TargetResetVersion ||
                 target.CurrentCell == null || !board.IsManagedCell(target.CurrentCell)) return false;
             bool forced = documentedCombat && (clock.TauntTarget == target || clock.FocusTarget == target);
-            if (!forced && !CombatTargetSelector.IsInAttackRange(clock.Unit.CurrentCell, target.CurrentCell, clock.Unit.BaseStats.AttackRange)) return false;
+            if (!forced && clock.TargetReactionUntil<=tick && !CombatTargetSelector.IsInAttackRange(clock.Unit.CurrentCell, target.CurrentCell, clock.Unit.BaseStats.AttackRange)) return false;
             // Occupancy and identity must still belong to this opponent. Anuik's
             // headstand is a deliberate exception: death/revival releases his lock.
             return ReferenceEquals(target.CurrentCell.OccupiedBy, target);
@@ -314,7 +446,7 @@ namespace MonsterPouch.Gameplay.Match
                 PendingImpact impact = pending[i];
                 if (impact.DueTick > tick) continue;
                 pending.RemoveAt(i);
-                if (impact.Target == null || !impact.Target.IsAlive || impact.Source.Unit == null) continue;
+                if (impact.Missed || impact.Target == null || !impact.Target.IsAlive || impact.Source.Unit == null) continue;
                 UnitStats source = impact.Source.Unit.BaseStats;
                 impact.Source.Hits++;
                 // Even a zero-damage hit advances an enabled lethal charge toward a real result.
@@ -324,7 +456,7 @@ namespace MonsterPouch.Gameplay.Match
                 int rawDamage = impact.Damage + bonus;
                 bool isLethal = source.LethalEveryHits > 0 && impact.Source.Hits % source.LethalEveryHits == 0;
                 int amount = isLethal ? impact.Target.CurrentHealth :
-                    rawDamage > 0 ? Mathf.Max(1, rawDamage - impact.Target.BaseStats.Armor) : 0;
+                    Mathf.Max(0, rawDamage);
                 damage.TryGetValue(impact.Target, out int previous);
                 damage[impact.Target] = previous + amount;
                 if (amount > 0 && source.HealOnHit > 0)
@@ -342,7 +474,7 @@ namespace MonsterPouch.Gameplay.Match
                 { int restored=heal.Key.Heal(heal.Value);if(restored>0){lastChangeTick=tick;Healed?.Invoke(heal.Key,restored);} }
             for (int i = 0; i < resolved.Count; i++)
             {
-                Impacted?.Invoke(resolved[i].Source.Unit, resolved[i].Target, amounts[i]);
+                PublishImpactPresentation(resolved[i].Source.Unit, resolved[i].Target, amounts[i], "basic");
                 if (lethal[i]) LethalImpacted?.Invoke(resolved[i].Source.Unit, resolved[i].Target);
             }
             for (int i = 0; i < actors.Count; i++)
@@ -351,10 +483,8 @@ namespace MonsterPouch.Gameplay.Match
                 if (unit == null || unit.IsAlive || unit.IsReviving || unit.CurrentCell == null) continue;
                 actors[i].LockedTarget = null;
                 actors[i].LastCell = unit.CurrentCell;
-                // Clear every pursuer immediately, including those whose cooldown
-                // lasts longer than the revival, so Anuik's return cannot restore it.
-                for (int j = 0; j < actors.Count; j++)
-                    if (actors[j].LockedTarget == unit) actors[j].LockedTarget = null;
+                // Pursuers are interrupted by ReleaseDefeatedTargets after all deaths
+                // and revivals are resolved, even if their old windup was very long.
                 if (actors[i].RevivesUsed < unit.BaseStats.RevivesPerCombat)
                 {
                     actors[i].RevivesUsed++;
@@ -366,6 +496,7 @@ namespace MonsterPouch.Gameplay.Match
                     Reviving?.Invoke(unit, duration * TickDuration);
                     continue;
                 }
+                actors[i].DeathTick = tick;
                 board.ReleaseUnit(unit);
                 Died?.Invoke(unit);
             }
@@ -399,13 +530,25 @@ namespace MonsterPouch.Gameplay.Match
             // Complete the promised return before displaying a victor still lying at zero HP.
             if (awaitingRevival) return false;
             if (!blueAlive && !redAlive)
-                Finish(null, "Eliminación simultánea de ambos equipos");
+                ResolveFinalDeaths();
             else Finish(blueAlive ? BoardSide.Blue : BoardSide.Red, "El equipo rival perdió todas sus unidades");
             return true;
         }
 
+        public RoundHealthSummary HealthSummary { get; private set; }
+
+        private void FreezeRoundHealth()
+        {
+            // Includes dead units and summons: no late damage/healing may change the board.
+            foreach (var actor in actors)
+                if (actor.Unit != null) actor.Unit.IsRoundFrozen = true;
+            if (HealthSummary == null)
+                HealthSummary = new RoundHealthSummary(actors.ConvertAll(actor => actor.Unit));
+        }
+
         private void Finish(BoardSide? winner, string reason)
         {
+            FreezeRoundHealth();
             if (documentedCombat) EndDocumentedCombat();
             Winner = winner;
             Reason = reason;
@@ -418,6 +561,7 @@ namespace MonsterPouch.Gameplay.Match
                 actors[i].LockedTarget = null;
                 if (actors[i].Unit == null) continue;
                 ClearTimedSuper(actors[i]);
+                CancelMovementStep(actors[i]);
                 board.CancelReservation(actors[i].Unit);
                 if (actors[i].Unit.IsReviving)
                 {
@@ -531,6 +675,7 @@ namespace MonsterPouch.Gameplay.Match
 
         public static float GetAttackWindup(BattleUnit actor)
         {
+            if (actor != null && actor.AttackWindupOverride >= 0) return actor.AttackWindupOverride;
             if (IsInstantRay(actor)) return 0;
             return actor == null ? TickDuration : ToTicks(actor.BaseStats.AttackWindup) * TickDuration;
         }
@@ -541,12 +686,17 @@ namespace MonsterPouch.Gameplay.Match
                 actor.CurrentCell == null || target.CurrentCell == null) return 0;
             int distance = Mathf.Max(Mathf.Abs(actor.CurrentCell.X - target.CurrentCell.X),
                 Mathf.Abs(actor.CurrentCell.Y - target.CurrentCell.Y));
-            return ToTicks(distance / actor.BaseStats.ProjectileSpeed) * TickDuration;
+            return GetProjectileTravelTime(distance,actor.BaseStats.ProjectileSpeed);
+        }
+
+        // Shared with the read-only inspector preview and released ability projectiles.
+        public static float GetProjectileTravelTime(float distanceInCells,float projectileSpeed)
+        {
+            return ToTicks(Mathf.Max(0,distanceInCells)/Mathf.Max(.1f,projectileSpeed))*TickDuration;
         }
 
         public static float GetImpactDelay(BattleUnit actor, BattleUnit target)
         {
-            if (IsInstantRay(actor)) return 0;
             return GetAttackWindup(actor) + GetProjectileTravelTime(actor, target);
         }
         public static bool IsInstantRay(BattleUnit actor) => actor != null && actor.BaseStats.UsesDocumentedRules && actor.BaseStats.DefinitionId == "sepora";

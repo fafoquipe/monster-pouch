@@ -38,22 +38,25 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Time.timeScale = 1;
         }
 
-        [TestCase("bugaloo", "popow")]
-        [TestCase("popow", "bugaloo")]
-        public void StartMatch_BothChoicesCreateExactlyOneMonsterPerSide_WithUniqueIdsAndValidOccupancy(
-            string selected, string opponent)
+        [TestCase("bugaloo")]
+        [TestCase("popow")]
+        public void StartMatch_BotActorsRemainHiddenUntilReady(
+            string selected)
         {
             match.StartMatch(selected, 731);
 
             Assert.AreEqual(MatchPhase.Preparation, match.Phase);
             Assert.AreEqual(1, match.Round);
             Assert.AreEqual(selected, match.Player.Monster.Definition.Id);
-            Assert.AreEqual(opponent, match.Bot.Monster.Definition.Id);
+            Assert.IsTrue(match.Bot.Monster.Definition.IsMonster);
+            CollectionAssert.Contains(config.Units.Where(unit => unit.IsMonster).Select(unit => unit.Id).ToArray(),
+                match.Bot.Monster.Definition.Id);
             Assert.AreEqual(BoardSide.Blue, match.Player.Side);
             Assert.AreEqual(BoardSide.Red, match.Bot.Side);
-            Assert.AreEqual(2, match.Actors.Values.Count(u => u.Category == UnitCategory.Monster));
+            Assert.AreEqual(1, match.Actors.Values.Count(u => u.Category == UnitCategory.Monster));
             Assert.AreEqual(1, match.Actors.Values.Count(u => u.Category == UnitCategory.Monster && u.Side == BoardSide.Blue));
-            Assert.AreEqual(1, match.Actors.Values.Count(u => u.Category == UnitCategory.Monster && u.Side == BoardSide.Red));
+            Assert.AreEqual(0, match.Actors.Values.Count(u => u.Side == BoardSide.Red));
+            Assert.IsEmpty(match.PreviousOpponent);
             Assert.AreEqual(60, board.GetAllCells().Count);
             Assert.AreEqual(6, match.Player.Coins);
             Assert.AreEqual(4, match.Player.Rerolls);
@@ -179,8 +182,9 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             AssertActorInvariants();
         }
 
-        [Test]
-        public void BuyAndPlace_CopyUpgradesOnOwnOccupiedCell_AndRejectsAnotherActorCell()
+        [TestCase(false)]
+        [TestCase(true)]
+        public void BuyAndPlace_CopyUpgradesItsOriginalUnitOnOwnOrAnotherActorCell(bool dropOnOtherActor)
         {
             StartPurchaseMatch();
             PouchOffer first = match.Player.Offers[0];
@@ -197,8 +201,12 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             int created = 0;
             match.ActorCreated += (newActor, owned) => created++;
 
-            AssertPurchaseRejectedWithoutChanges(1, copy.Token, match.Actors[match.Player.Monster].CurrentCell);
-            Assert.IsTrue(match.BuyAndPlace(1, copy.Token, destination));
+            var monster = match.Player.Monster;
+            var monsterActor = match.Actors[monster];
+            var monsterCell = monsterActor.CurrentCell;
+            var monsterTricks = monster.Tricks.ToArray();
+            int monsterCopies = monster.Copies;
+            Assert.IsTrue(match.BuyAndPlace(1, copy.Token, dropOnOtherActor ? monsterCell : destination));
 
             Assert.AreSame(whelp, match.Player.Owned[first.UnitId]);
             Assert.AreSame(actor, match.Actors[whelp]);
@@ -216,11 +224,16 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.IsNull(match.Player.Offers[1]);
             Assert.AreEqual(actorCount, match.Actors.Count);
             Assert.AreEqual(0, created);
+            Assert.AreSame(monsterActor, match.Actors[monster]);
+            Assert.AreSame(monsterCell, monsterActor.CurrentCell);
+            Assert.AreSame(monsterActor, monsterCell.OccupiedBy);
+            Assert.AreEqual(monsterCopies, monster.Copies);
+            CollectionAssert.AreEqual(monsterTricks, monster.Tricks);
             AssertActorInvariants();
         }
 
         [Test]
-        public void BuyAndPlace_BenchAcceptsNullCell_AndCopiesKeepUnitOffTheBoard()
+        public void BuyAndPlace_BenchAcceptsNullCell_AndSuppressesItsTypeUntilMovedOut()
         {
             StartPurchaseMatch();
             PouchOffer offer = match.Player.Offers[0];
@@ -242,50 +255,38 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.IsFalse(match.Actors.ContainsKey(whelp));
             AssertPurchaseRejectedWithoutChanges(0, offer.Token, null, true);
 
-            PouchOffer copy = match.Player.Offers[1];
-            int copyPrice = match.Player.GetOfferCost(1);
-            Assert.IsTrue(match.BuyAndPlace(1, copy.Token, null, true));
-            Assert.AreSame(whelp, match.Player.Owned[offer.UnitId]);
-            Assert.AreEqual(UnitLocation.Bench, whelp.Location);
-            Assert.AreEqual(-1, whelp.BriefSlot);
-            Assert.AreEqual(2, whelp.Copies);
-            Assert.AreEqual(1, whelp.TrickCount);
-            Assert.AreEqual(balance - price - copyPrice, match.Player.Coins);
-            Assert.IsFalse(match.Actors.ContainsKey(whelp));
-            Assert.AreEqual(actorCount, match.Actors.Count);
-            Assert.AreEqual(0, created);
+            Assert.IsTrue(match.Player.Offers.All(candidate => candidate == null), "Every offer of a benched type is hidden.");
+            Assert.AreEqual(3, match.Player.RemainingCopies(offer.UnitId));
+            BoardCell field = match.Board.GetCell(1, 7);
+            Assert.IsTrue(match.Place(offer.UnitId, field));
+            Assert.IsTrue(match.Reroll(match.Player.OfferVersion));
+            Assert.IsTrue(match.Player.Offers.Any(candidate => candidate != null && candidate.UnitId == offer.UnitId), "The type returns after leaving the Bench.");
+            Assert.IsTrue(match.Actors.ContainsKey(whelp));
+            Assert.AreEqual(actorCount + 1, match.Actors.Count);
+            Assert.AreEqual(1, created);
             AssertActorInvariants();
         }
 
         [Test]
-        public void BuyAndPlace_BenchOccupiedByAnotherTypeRejectsWithoutBuying()
+        public void BuyAndPlace_FourthBankTypeRejectsWithoutBuyingAndOfferRemainsUsable()
         {
-            StartPurchaseMatch(false);
-            PouchOffer first = match.Player.Offers[0];
-            Assert.IsTrue(match.BuyAndPlace(0, first.Token, null, true));
-            OwnedUnit benched = match.Player.Owned[first.UnitId];
-            int otherSlot = Enumerable.Range(0, match.Player.Offers.Count)
-                .Where(slot => match.Player.Offers[slot] != null && match.Player.Offers[slot].UnitId != first.UnitId)
-                .DefaultIfEmpty(-1).First();
-            if (otherSlot < 0)
+            var definitions=new System.Collections.Generic.List<UnitDefinition>{config.Get("bugaloo"),config.Get("popow")};
+            for(int i=0;i<4;i++)definitions.Add(new UnitDefinition{Id="bank-test-"+i,BaseCost=0,
+                Tricks=new[]{new TrickDefinition(),new TrickDefinition(),new TrickDefinition()}});
+            config.Units=definitions.ToArray();StartPurchaseMatch(false);
+            for(int count=0;count<3;count++)
             {
-                // If all three initial offers match, consume those copies. A refill must then contain the other type.
-                for (int slot = 1; slot < match.Player.Offers.Count; slot++)
-                    Assert.IsTrue(match.BuyAndPlace(slot, match.Player.Offers[slot].Token, null, true));
-                Assert.IsTrue(match.Reroll(match.Player.OfferVersion));
-                otherSlot = Enumerable.Range(0, match.Player.Offers.Count)
-                    .First(slot => match.Player.Offers[slot] != null && match.Player.Offers[slot].UnitId != first.UnitId);
+                int slot=Enumerable.Range(0,3).Where(i=>match.Player.Offers[i]!=null).DefaultIfEmpty(-1).First();
+                if(slot<0){Assert.IsTrue(match.Reroll(match.Player.OfferVersion));slot=Enumerable.Range(0,3).First(i=>match.Player.Offers[i]!=null);}
+                Assert.IsTrue(match.BuyAndPlace(slot,match.Player.Offers[slot].Token,null,true));
             }
-            PouchOffer other = match.Player.Offers[otherSlot];
-
-            AssertPurchaseRejectedWithoutChanges(otherSlot, other.Token, null, true);
-
-            Assert.IsFalse(match.Player.Owned.ContainsKey(other.UnitId));
-            Assert.AreSame(benched, match.Player.Owned.Values.Single(unit => unit.Location == UnitLocation.Bench));
-            Assert.IsFalse(match.Actors.ContainsKey(benched));
-            Assert.IsTrue(match.BuyAndPlace(otherSlot, other.Token, FreePlayerCell()), "The rejected offer remains purchasable on the field.");
-            Assert.AreEqual(UnitLocation.Field, match.Player.Owned[other.UnitId].Location);
-            Assert.AreEqual(UnitLocation.Bench, benched.Location);
+            if(match.Player.Offers.All(o=>o==null))Assert.IsTrue(match.Reroll(match.Player.OfferVersion));
+            int fourth=Enumerable.Range(0,3).First(i=>match.Player.Offers[i]!=null);
+            var offer=match.Player.Offers[fourth];
+            AssertPurchaseRejectedWithoutChanges(fourth,offer.Token,null,true);
+            Assert.AreEqual(3,match.Player.Owned.Values.Count(o=>o.Location==UnitLocation.Bench));
+            Assert.IsTrue(match.BuyAndPlace(fourth,offer.Token,FreePlayerCell()));
+            Assert.AreEqual(UnitLocation.Field,match.Player.Owned[offer.UnitId].Location);
             AssertActorInvariants();
         }
 
@@ -417,7 +418,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
 
         [TestCase("bugaloo", 20260911)]
         [TestCase("popow", 20260911)]
-        public void FullBotSeries_ReachesThreeWins_AndRoundResultsDoNotAdvanceByThemselves(string selected, int seed)
+        public void FullBotSeries_ReachesThreeWins_AndRoundResultsAdvanceOnTheConfiguredTimeline(string selected, int seed)
         {
             match.StartMatch(selected, seed);
             // Test safety ceiling, not a rule of the game. A stalled deterministic series must fail visibly.
@@ -434,10 +435,10 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
                 {
                     int previousRound = match.Round;
                     int totalWins = match.PlayerWins + match.BotWins;
-                    match.Advance(100);
+                    match.Advance(match.RoundTransitionDuration - .01f);
                     Assert.AreEqual(previousRound, match.Round);
                     Assert.AreEqual(totalWins, match.PlayerWins + match.BotWins);
-                    match.NextRound();
+                    match.Advance(.02f);
                     Assert.AreEqual(previousRound + 1, match.Round);
                 }
             }
@@ -453,24 +454,28 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         [Test]
         public void RepeatedDraws_AdvanceRoundsWithoutPoints_AndDoNotImposeSevenRoundLimit()
         {
-            config.RoundIncome = new[] { 0 };
-            foreach (UnitDefinition definition in config.Units.Where(d => d.IsMonster))
+            config.RoundIncome = new[] { 100 };
+            foreach (UnitDefinition definition in config.Units)
             {
                 definition.Damage = 0;
                 definition.AttackRange = 10;
                 definition.BaseAbility = new TrickDefinition();
+                definition.RevivesPerCombat = 0;
             }
             match.StartMatch("bugaloo", 23);
             for (int expectedRound = 1; expectedRound <= 9; expectedRound++)
             {
                 Assert.AreEqual(expectedRound, match.Round);
                 match.Ready();
-                FinishCurrentCombat();
+                Assert.Greater(match.Actors.Count,2);
+                foreach(var actor in match.Actors.Values)actor.ApplyDamage(actor.CurrentHealth);
+                match.Advance(.1f);
                 Assert.AreEqual(MatchPhase.RoundResult, match.Phase);
                 Assert.IsNull(match.Simulation.Winner);
                 Assert.AreEqual(0, match.PlayerWins);
                 Assert.AreEqual(0, match.BotWins);
-                match.NextRound();
+                Assert.IsNull(match.LastRoundWinner);
+                match.Advance(match.RoundTransitionDuration);
                 Assert.AreEqual(MatchPhase.Preparation, match.Phase);
             }
             Assert.AreEqual(10, match.Round);
@@ -549,7 +554,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             }
             match.StartMatch("popow", 21);
             Assert.AreEqual("popow", match.Player.Monster.Definition.Id);
-            Assert.AreEqual(2, match.Actors.Values.Count(u => u.Category == UnitCategory.Monster));
+            Assert.AreEqual(1, match.Actors.Values.Count(u => u.Category == UnitCategory.Monster));
             AssertActorInvariants();
         }
 
@@ -674,7 +679,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         {
             var gesture = new PointerGesture();
             gesture.Begin(Vector2.zero, 3);
-            Assert.AreEqual(GestureResult.Hold, gesture.Move(new Vector2(1, 2), 3.51f));
+            Assert.AreEqual(GestureResult.Hold, gesture.Move(new Vector2(1, 2), 3+PointerGesture.HoldDuration+.01f));
             Assert.AreEqual(GestureResult.None, gesture.Move(new Vector2(100, 100), 4));
             Assert.AreEqual(GestureResult.None, gesture.Move(Vector2.zero, 5));
             Assert.AreEqual(GestureResult.None, gesture.End());
@@ -704,7 +709,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             gesture.Begin(Vector2.zero, 2);
             Assert.AreEqual(GestureResult.Tap, gesture.End());
             gesture.Begin(Vector2.zero, 3);
-            Assert.AreEqual(GestureResult.Hold, gesture.Move(Vector2.zero, 3.6f));
+            Assert.AreEqual(GestureResult.Hold, gesture.Move(Vector2.zero, 3+PointerGesture.HoldDuration+.1f));
             gesture.Cancel();
             Assert.AreEqual(GestureResult.None, gesture.End());
             gesture.Begin(Vector2.zero, 4);

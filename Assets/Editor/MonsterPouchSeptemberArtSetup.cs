@@ -110,7 +110,7 @@ public static class MonsterPouchSeptemberArtSetup
         Debug.Log("September character art imported: 19 user designs plus the existing Dummy, approved animation clips preserved.");
     }
 
-    private static string SourcePath(string id) => ArtRoot + id + "/" + id + "-source.png";
+    private static string SourcePath(string id) => "ArtArchive/LegacyCleanup-20261102/Assets/art/units/user-sept14/" + id + "/" + id + "-source.png";
 
     private static void ConfigureIcon(string path)
     {

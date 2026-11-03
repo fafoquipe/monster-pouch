@@ -11,32 +11,51 @@ using UnityEngine.UI;
 namespace MonsterPouch.Local
 {
     /// <summary>Presentation only: consumes authoritative combat targets, energy and tile effects.</summary>
-    public sealed class DocumentedBattleEffects : MonoBehaviour
+    public sealed partial class DocumentedBattleEffects : MonoBehaviour
     {
-        private sealed class Badge { public RectTransform Root, Energy; public Text Status; public UnitPresentation View; }
+        private sealed class Badge { public RectTransform Root; public UnitPresentation View; }
         private MatchController match;
         private RectTransform canvas, layer;
         private Camera worldCamera;
         private Font font;
         private ProjectileArtCatalog projectiles;
+        private ProjectileVisualRegistry projectileVisuals;
         private readonly Dictionary<BattleUnit, Badge> badges = new Dictionary<BattleUnit, Badge>();
         private readonly Dictionary<string, Image> ground = new Dictionary<string, Image>();
         private readonly Dictionary<string, Sprite> pixels = new Dictionary<string, Sprite>();
         private readonly Dictionary<BattleUnit, (int frame, int count)> volleys = new Dictionary<BattleUnit, (int, int)>();
         private readonly Dictionary<BattleUnit, int> rollingFrames = new Dictionary<BattleUnit, int>();
+        // Reuse removal buffers instead of copying both dictionaries every update.
+        private readonly List<BattleUnit> expiredBadges = new List<BattleUnit>(16);
+        private readonly List<string> expiredGround = new List<string>(32);
+        private readonly HashSet<string> wantedGround = new HashSet<string>();
         private float groundRefresh;
         private CombatSimulation visibleSimulation;
         private UnitArt flower;
+        private Sprite authoredFlower;
 
-        public void Configure(MatchController owner, RectTransform uiCanvas, Camera camera)
+        public void Configure(MatchController owner, RectTransform uiCanvas, Camera camera, ProjectileVisualRegistry visualRegistry = null)
         {
-            Unsubscribe(); match = owner; canvas = uiCanvas; worldCamera = camera;
-            font = Resources.Load<Font>("MonsterPouch/PixelFont") ?? Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            Unsubscribe(); ClearGumTiles(); ClearImpactVisuals(); match = owner; canvas = uiCanvas; worldCamera = camera;
+            naturalisClips.Clear();
+            projectileVisuals = visualRegistry;
+            font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             projectiles = Resources.Load<ProjectileArtCatalog>("MonsterPouch/ProjectileArt");
             if (layer == null) layer = Rect("Documented battle effects", canvas, Vector2.zero);
             layer.anchorMin = Vector2.zero; layer.anchorMax = Vector2.one; layer.offsetMin = layer.offsetMax = Vector2.zero;
             match.ActorCreated += ActorCreated; match.Attacked += Attacked; match.AbilityUsed += AbilityUsed; match.Impacted += Impacted;
+            match.ProjectileBounced += ContactProjectileBounced;
+            match.FishShieldLaunched += FishShieldLaunched;
+            match.HealingRoseLaunched += HealingRoseLaunched;
             match.BoulderRolled += BoulderRolled;
+            match.ReflectedMoonLaunched += ReflectedMoonLaunched;
+            match.KazuruRingLaunched += KazuruRingLaunched;
+            match.DashStarted += DashStarted;
+            match.FlowerCastStarted += FlowerCastStarted;
+            match.ConesLaunched += ConesLaunched;
+            match.ColoredGumLaunched += ColoredGumLaunched;
+            match.AreaEffect += AreaEffect;
+            match.Displaced += GeotharDisplaced;
             foreach (var entry in match.Actors) ActorCreated(entry.Value, entry.Key);
         }
 
@@ -52,45 +71,67 @@ namespace MonsterPouch.Local
         {
             if (actor == null || badges.ContainsKey(actor)) return;
             var root = Rect("energy-status-" + actor.UnitId, layer, new Vector2(58, 26));
-            var dark = Box("energy-outline", root, new Vector2(54, 5), new Color(.025f, .045f, .10f));
-            var energy = Box("energy", dark.rectTransform, new Vector2(50, 2), new Color(.74f, .49f, 1f));
-            energy.rectTransform.anchorMin = energy.rectTransform.anchorMax = new Vector2(0, .5f);
-            energy.rectTransform.pivot = new Vector2(0, .5f); energy.rectTransform.anchoredPosition = new Vector2(2, 0);
-            var status = Label(root, "", new Vector2(68, 14), 8); status.rectTransform.anchoredPosition = new Vector2(0, 22);
             var view = actor.GetComponent<UnitPresentation>();
             if (owned.Definition.Id == "flower" && view != null)
             {
                 if (flower == null)
                 {
-                    Sprite bloom = PixelSprite("flower");
-                    flower = new UnitArt { Id = "flower", Portrait = bloom, WorldWidth = .4f, ReferencePixelWidth = 15,
+                    Sprite bloom = FlowerSprite();
+                    flower = new UnitArt { Id = "flower", Portrait = bloom, WorldWidth = .4f,
+                        ReferencePixelWidth = authoredFlower != null ? bloom.rect.width : 15,
                         IdleDirections = Enumerable.Repeat(bloom, 8).ToArray(), AttackDirections = Enumerable.Repeat(bloom, 8).ToArray() };
                 }
                 view.Configure(actor, match.Mapper, flower);
             }
-            badges[actor] = new Badge { Root = root, Energy = energy.rectTransform, Status = status, View = view };
+            if (owned.Definition.Id == "kazuru")
+            {
+                var orbit = actor.GetComponent<KazuruRingOrbit>() ?? actor.gameObject.AddComponent<KazuruRingOrbit>();
+                orbit.Configure(actor, match);
+            }
+            if (owned.Definition.Id == "martio")
+                (actor.GetComponent<MartioCelestialOrbit>() ?? actor.gameObject.AddComponent<MartioCelestialOrbit>()).Configure(actor, match);
+            badges[actor] = new Badge { Root = root, View = view };
         }
 
         private void Attacked(BattleUnit actor, BattleUnit target, bool projectile)
         {
+            if (TryMaestroWave(match.CurrentAttackPresentation)) return;
+            TryBoardWeaponStrike(actor, target);
+            ContactEffects?.TrackContactFlight(match.CurrentAttackPresentation, projectile, projectileVisuals);
+            if (TryVolkanarAttack(actor, target)) return;
+            if (TryNaturalisBasic(actor, target)) return;
+            if (actor != null && actor.BaseStats.DefinitionId == "martio")
+            { actor.GetComponent<MartioCelestialOrbit>()?.Attack(); return; }
+            if (actor != null && target != null && actor.BaseStats.DefinitionId == "hymay")
+            {
+                StartWhip(actor, target);
+                return;
+            }
+            if (actor != null && target != null && actor.BaseStats.DefinitionId == "kazuru" && !projectile)
+                actor.GetComponent<KazuruRingOrbit>()?.Strike(target);
             if (!projectile || !HandlesProjectile(actor) || target == null) return;
+            if (TryAireolaFlight(actor, target)) return;
+            if (TryAquarionBasicFlight(actor, target)) return;
             if (CombatSimulation.IsInstantRay(actor))
             {
-                // Both ends are captured when damage is applied; the ray must survive a lethal hit's round transition.
-                StartCoroutine(InstantRay(actor.transform.position + Vector3.up * .5f, target.transform.position + Vector3.up * .5f));
+                // Impacted draws the ray on the authoritative hit tick, including the first preparation after a Super.
                 return;
             }
             if (actor.BaseStats.DefinitionId == "trimol" && rollingFrames.TryGetValue(actor, out int rolledFrame) && rolledFrame == Time.frameCount) return;
             volleys.TryGetValue(actor, out var previous);
             int order = previous.frame == Time.frameCount ? previous.count : 0;
             volleys[actor] = (Time.frameCount, order + 1);
-            StartCoroutine(Flight(actor, target, order, CombatSimulation.GetImpactDelay(actor, target)));
+            var emission = match.CurrentAttackPresentation; // Immutable context captured inside the synchronous callback.
+            StartCoroutine(Flight(actor, target, order, CombatSimulation.GetImpactDelay(actor, target), -1, emission));
         }
 
-        private IEnumerator InstantRay(Vector3 source, Vector3 target)
+        static float ContactCells(BattleUnit source,bool ability)
+            => ImpactPresentationSettings.ContactCells(source!=null&&source.BaseStats.EnergyMax>0,ability);
+
+        private IEnumerator InstantRay(Vector3 source, Vector3 target, bool electric=false, float contactCells=.35f)
         {
             var simulation = match.Simulation;
-            var root = Rect("instant-ray-sepora", layer, Vector2.zero);
+            var root = Rect(electric?"super-ray-stein":"instant-ray-sepora", layer, Vector2.zero);
             Vector2 from = Point(source), to = Point(target), direction = to - from;
             Vector2 normal = direction.sqrMagnitude > .01f ? new Vector2(-direction.y, direction.x).normalized : Vector2.right;
             const int segments = 9;
@@ -101,20 +142,21 @@ namespace MonsterPouch.Local
                 if (i < segments) next += normal * (i % 2 == 0 ? -5 : 5);
                 next = Round(next);
                 Vector2 delta = next - last;
-                foreach (float thickness in new[] { 7f, 2f })
+                for (int pass = 0; pass < 2; pass++)
                 {
+                    float thickness = pass == 0 ? 7f : 2f;
                     var segment = Box(thickness > 2 ? "ray-glow" : "ray-core", root, new Vector2(delta.magnitude + 1, thickness),
-                        thickness > 2 ? new Color(.89f, .2f, 1f, .85f) : new Color(1, .96f, 1));
+                        thickness > 2 ? (electric?new Color(.15f,.72f,1,.9f):new Color(.89f,.2f,1f,.85f)) : new Color(1,.98f,1));
                     segment.rectTransform.anchoredPosition = Round((last + next) * .5f);
                     segment.rectTransform.localRotation = Quaternion.Euler(0, 0, Mathf.Atan2(delta.y, delta.x) * Mathf.Rad2Deg);
                 }
                 last = next;
             }
-            var contact = Box("ray-contact", root, new Vector2(9, 9), Color.white);
+            var contact = Box("ray-contact", root, Vector2.one*ContactCellPixels(target)*contactCells, Color.white);
             contact.rectTransform.anchoredPosition = Round(to);
             // Create the complete visible ray synchronously before yielding, without any travel/windup animation.
             float elapsed = 0;
-            while (elapsed < .18f && match.Simulation == simulation && match.Phase != MatchPhase.Menu)
+            while (elapsed < (electric?.32f:.18f) && match.Simulation == simulation && match.Phase != MatchPhase.Menu)
             {
                 elapsed += Time.deltaTime;
                 yield return null;
@@ -126,10 +168,10 @@ namespace MonsterPouch.Local
         {
             if (actor == null || from == null || to == null) return;
             rollingFrames[actor] = Time.frameCount;
-            StartCoroutine(RollingRock(match.Mapper.GetWorldPosition(from), match.Mapper.GetWorldPosition(to), Mathf.Max(.1f, travel), true));
+            StartCoroutine(RollingRock(actor, match.Mapper.GetWorldPosition(from), match.Mapper.GetWorldPosition(to), Mathf.Max(.1f, travel), true));
         }
 
-        private IEnumerator RollingRock(Vector3 from, Vector3 to, float duration, bool large)
+        private IEnumerator RollingRock(BattleUnit actor, Vector3 from, Vector3 to, float duration, bool large)
         {
             var simulation = match.Simulation;
             var root = Rect("rolling-rock-trimol", layer, Vector2.zero);
@@ -145,39 +187,59 @@ namespace MonsterPouch.Local
             {
                 elapsed += Time.deltaTime; float t = Mathf.Clamp01(elapsed / duration);
                 root.anchoredPosition = Round(Vector2.Lerp(start, end, t));
-                rock.rectTransform.anchoredPosition = new Vector2(0, (large ? 14 : 10) + Mathf.Round(Mathf.Abs(Mathf.Sin(t * Mathf.PI * 5)) * 2));
-                rock.rectTransform.localRotation = Quaternion.Euler(0, 0, -t * Vector2.Distance(start, end) * (direction.x < 0 ? -1 : 1) * 6);
+                var pose=ProjectileFlightRendering.Rock(rock.sprite,large,t,Vector2.Distance(start,end),direction.x);
+                pose.Apply(rock);rock.rectTransform.anchoredPosition=pose.Offset;
+                float sizeRatio = SizeProjectile(rock, actor, pose.Size, large ? ProjectileVisualSource.Ability : ProjectileVisualSource.Basic);
+                ProjectileFlightRendering.RockShadow(shadow.sprite,large,sizeRatio).Apply(shadow);
                 for (int i = 0; i < dust.Length; i++)
                 {
-                    float offset = 8 + Mathf.Repeat(elapsed * 35 + i * 8, 24);
-                    dust[i].rectTransform.anchoredPosition = Round(-direction * offset + Vector2.up * (i % 2 == 0 ? 2 : -2));
-                    dust[i].color = new Color(.76f, .68f, .49f, (1 - offset / 36) * .65f);
+                    var dustPose=ProjectileFlightRendering.RockDust(i,elapsed,direction,sizeRatio);
+                    dustPose.Apply(dust[i]);dust[i].rectTransform.anchoredPosition=dustPose.Offset;
                 }
                 yield return null;
             }
             if (root != null) Destroy(root.gameObject);
         }
 
-        private IEnumerator Flight(BattleUnit actor, BattleUnit target, int order, float impactDelay)
+        private void KazuruRingLaunched(BattleUnit actor, BattleUnit target, float travel)
+        {
+            ContactEffects?.TrackReleasedContactFlight(actor,target,travel);
+            // The follow-up starts on the simulation release tick, without a new basic attack animation.
+            if (actor != null && target != null) StartCoroutine(Flight(actor, target, 1, travel, 0, null, ProjectileVisualSizing.Resolve(projectileVisuals, actor)));
+        }
+
+        private IEnumerator Flight(BattleUnit actor, BattleUnit target, int order, float impactDelay, float releaseWindup = -1, CombatAttackPresentationSnapshot emission = null, ProjectileVisualSlot releasedSlot = null)
         {
             CombatSimulation simulation = match.Simulation;
+            var visualSlot = releasedSlot ?? ProjectileVisualSizing.ResolveEmission(projectileVisuals, emission, actor, target);
             string id = actor.BaseStats.DefinitionId;
-            float windup = CombatSimulation.GetAttackWindup(actor), elapsed = 0;
+            bool stickyGum = id == "tsu" && simulation.IsStickyGumAttack(actor);
+            float windup = releaseWindup >= 0 ? releaseWindup : CombatSimulation.GetAttackWindup(actor), elapsed = 0;
             int attackVersion=actor.AttackResetVersion;
-            while (elapsed < windup && Current(simulation) && actor!=null && actor.AttackResetVersion==attackVersion) { elapsed += Time.deltaTime; yield return null; }
+            while (elapsed < windup && Current(simulation) && actor!=null && actor.AttackResetVersion==attackVersion) { elapsed += EffectDelta; yield return null; }
             if (!Current(simulation) || actor == null || target == null || actor.AttackResetVersion!=attackVersion) yield break;
             if (id == "trimol")
             {
-                yield return RollingRock(actor.transform.position, target.transform.position, Mathf.Max(.1f, impactDelay - windup), false);
+                yield return RollingRock(actor, actor.transform.position, target.transform.position, Mathf.Max(.1f, impactDelay - windup), false);
                 yield break;
             }
-            var style = projectiles?.Get(id);
+            if(id=="jazar")
+            {
+                yield return ToxicFlight(actor,target,Mathf.Max(.1f,impactDelay-windup));
+                yield break;
+            }
+            if (stickyGum)
+            {
+                yield return GumFlight(actor, target, null, Mathf.Max(.1f, impactDelay - windup));
+                yield break;
+            }
+            var style = id == "gochan" || id == "tsu" ? null : projectiles?.Get(id);
             var image = Box("documented-projectile-" + id, layer, new Vector2(24, 24), Color.white);
             Vector3 start = actor.transform.position + Vector3.up * .5f;
             float travel = Mathf.Max(.1f, impactDelay - windup); elapsed = 0;
             while (elapsed < travel && Current(simulation) && target != null)
             {
-                elapsed += Time.deltaTime; float t = Mathf.Clamp01(elapsed / travel);
+                elapsed += EffectDelta; float t = Mathf.Clamp01(elapsed / travel);
                 Vector3 end = target.transform.position + Vector3.up * .5f;
                 Vector2 p = Point(Vector3.Lerp(start, end, t));
                 // Separate twin/triple trajectories even if they strike the same captured target.
@@ -186,21 +248,24 @@ namespace MonsterPouch.Local
                 image.rectTransform.anchoredPosition = Round(p);
                 if (style != null && style.Flight != null && style.Flight.Length > 0)
                 {
-                    image.sprite = style.Flight[Mathf.FloorToInt(elapsed * 16) % style.Flight.Length];
-                    image.rectTransform.sizeDelta = image.sprite.rect.size * (style.DisplaySize / Mathf.Max(1, style.ReferencePixels));
+                    ProjectileFlightRendering.Catalog(style, elapsed).Apply(image);
+                    if(id=="protectora-del-mausoleo" && style.OrientToTarget)
+                        image.rectTransform.localRotation=Quaternion.Euler(0,0,Mathf.Atan2(Point(end).y-Point(start).y,Point(end).x-Point(start).x)*Mathf.Rad2Deg);
+                    if(id=="kazuru") image.rectTransform.localRotation=Quaternion.Euler(0,0,elapsed*540);
+                    if(id=="rosie")image.rectTransform.localRotation=Quaternion.Euler(0,0,Mathf.Atan2(Point(end).y-Point(start).y,Point(end).x-Point(start).x)*Mathf.Rad2Deg+Mathf.Sin(t*Mathf.PI*4)*9);
+
                 }
                 else
                 {
+                    image.rectTransform.sizeDelta = new Vector2(24, 24);
                     image.sprite = PixelSprite(id);
-                    if (id == "hymay")
+                    image.rectTransform.localRotation = Quaternion.Euler(0, 0, id == "trimol" ? elapsed * 300 : 0);
+                    if(id=="gochan")
                     {
-                        Vector2 origin = Point(start), direction = p - origin;
-                        image.rectTransform.anchoredPosition = Round((origin + p) * .5f);
-                        image.rectTransform.sizeDelta = new Vector2(Mathf.Max(8, direction.magnitude), 9);
-                        image.rectTransform.localRotation = Quaternion.Euler(0, 0, Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg);
+                        ProjectileFlightRendering.FireSeal(image.sprite,t).Apply(image);
                     }
-                    else image.rectTransform.localRotation = Quaternion.Euler(0, 0, id == "trimol" ? elapsed * 300 : 0);
                 }
+                SizeProjectile(image, visualSlot, image.rectTransform.sizeDelta);
                 yield return null;
             }
             if (image != null) Destroy(image.gameObject);
@@ -209,20 +274,54 @@ namespace MonsterPouch.Local
         private void AbilityUsed(BattleUnit actor, string kind)
         {
             if (actor == null || layer == null) return;
-            string word = kind == "bugaloo-super" ? "PROVOCA" : kind == "sepora-stealth" ? "OCULTO" :
-                kind == "tokoro-sleep" ? "ZZZ" : kind == "blotan-income" ? "+1" : kind == "tsu-root" ? "RAIZ" :
-                kind == "trimol-boulder" ? "ROCA" : "SUPER";
+            if (IsVolkanarEffect(kind) && VolkanarArt != null) return;
+            if (TryNaturalisActive(actor, kind)) return;
+            if (IsAireolaAbility(kind)) return;
+            if (IsAquarionAbility(kind)) return;
+            if (GeotharOwns(actor) && GeotharHasArea(kind)) return;
+            // The persistent lunar shields own Bugaloo's cast visual, without a generic golden burst.
+            if (kind == "bugaloo-super") return;
+            if (kind == "hymay-super") MarkWhipSuper(actor);
+            // Income uses the actual Moonken artwork and the currency HUD flight.
+            if (kind == "blotan-income") return;
+            string word = kind == "tokoro-sleep" ? "ZZZ" : "";
             Color color = kind.Contains("flo") ? new Color(.5f, 1, .65f) : kind.Contains("sepora") ? new Color(1, .4f, .85f) : new Color(1, .82f, .25f);
-            StartCoroutine(Pulse(actor.transform.position + Vector3.up * .65f, word, color));
+            float duration = actor.GetComponent<UnitPresentation>()?.GetAbilityDuration(kind) ?? .55f;
+            StartCoroutine(Pulse(actor.transform.position + Vector3.up * .65f, word, color, duration));
         }
 
         private void Impacted(BattleUnit actor, BattleUnit target, int damage)
         {
-            if (actor == null || target == null || damage <= 0 || !HandlesProjectile(actor)) return;
-            StartCoroutine(Pulse(target.transform.position + Vector3.up * .55f, "", actor.BaseStats.DefinitionId == "jazar" ? new Color(.65f, 1, .15f) : new Color(.7f, .9f, 1)));
+            ContactBoardWeaponStrike(actor, target);
+            var contact=match.Simulation?.CurrentImpactPresentation;
+            if(ContactEffects==null||!ContactEffects.ObserveContact(actor,target,damage,contact))return;
+            if(actor.BaseStats.DefinitionId=="martio")return; // Authoritative MartioContacts owns each lane impact/terminal.
+            if(contact?.EffectId=="stein-super")return; // Its authoritative lightning includes a contact core.
+            // Preserve authored area contacts; adding a second common flash would double the impact.
+            if(contact!=null&&contact.IsAbility&&
+                (IsVolkanarEffect(contact.EffectId)||(IsAquarionAbility(contact.EffectId)&&contact.EffectId!=MaestroWaveFlight.EffectId)||
+                 GeotharHasArea(contact.EffectId)||contact.EffectId=="korran-bastion-imperial:rupture"))return;
+            // Aireola contact clips come from settled, origin-aware module events.
+            if (AireolaOwns(actor)&&(contact==null||contact.IsBasic||contact.IsAbility&&IsAireolaAbility(contact.EffectId))) return;
+            if (GeotharImpact(actor, target, damage)) return;
+            if (actor != null && target != null)
+            {
+                if(CombatSimulation.IsInstantRay(actor))
+                { StartCoroutine(InstantRay(actor.transform.position+Vector3.up*.5f,ContactPosition(target)+Vector3.up*.5f,false,ContactCells(actor,contact!=null&&contact.IsAbility))); return; }
+                if(actor.BaseStats.DefinitionId=="hymay")
+                {if(!ResolveWhipContact(actor,target))ContactEffects.PresentContact(actor,target,contact,null);return;}
+                if (damage > 0 && actor.BaseStats.DefinitionId == "atong")
+                { StartCoroutine(HammerGroundImpact(ContactPosition(target))); return; }
+                if (damage > 0 && actor.BaseStats.DefinitionId == "popow")
+                { StartCoroutine(PunchImpact(ContactPosition(target)+Vector3.up*.35f,actor.transform.position,ContactCellPixels(ContactPosition(target))*ContactCells(actor,contact!=null&&contact.IsAbility)/70f)); return; }
+            }
+            if (NaturalisOwns(actor?.BaseStats.DefinitionId)&&(contact==null||contact.IsBasic)) return;
+            if(actor.BaseStats.DefinitionId=="jazar")
+            {StartCoroutine(ToxicSplash(ContactPosition(target)+Vector3.up*.28f));return;}
+            ContactEffects.PresentContact(actor,target,contact,projectiles?.Get(actor.BaseStats.DefinitionId));
         }
 
-        private IEnumerator Pulse(Vector3 position, string word, Color color)
+        private IEnumerator Pulse(Vector3 position, string word, Color color, float duration = .55f)
         {
             var simulation = match.Simulation;
             var root = Rect("ability-feedback", layer, new Vector2(32, 32));
@@ -231,9 +330,9 @@ namespace MonsterPouch.Local
             Text label = word.Length > 0 ? Label(root, word, new Vector2(100, 18), 11) : null;
             if (label != null) label.color = color;
             float elapsed = 0;
-            while (elapsed < .55f && match.Simulation == simulation && match.Phase != MatchPhase.Menu)
+            while (elapsed < duration && match.Simulation == simulation && match.Phase != MatchPhase.Menu)
             {
-                elapsed += Time.deltaTime; float t = Mathf.Clamp01(elapsed / .55f);
+                elapsed += Time.deltaTime; float t = Mathf.Clamp01(elapsed / duration);
                 root.anchoredPosition = Round(Point(position) + Vector2.up * t * 12);
                 for (int i = 0; i < 4; i++)
                 {
@@ -251,47 +350,59 @@ namespace MonsterPouch.Local
         {
             if (match == null || layer == null) return;
             layer.gameObject.SetActive(match.Phase != MatchPhase.Menu);
-            foreach (var pair in badges.ToArray())
+            DrawMartioFlights();
+            expiredBadges.Clear();
+            foreach (var pair in badges)
             {
                 BattleUnit unit = pair.Key; Badge badge = pair.Value;
-                if (unit == null) { if (badge.Root != null) Destroy(badge.Root.gameObject); badges.Remove(pair.Key); continue; }
-                bool visible = unit.IsAlive && unit.gameObject.activeInHierarchy && match.Phase != MatchPhase.Menu;
+                if (unit == null) { if (badge.Root != null) Destroy(badge.Root.gameObject); expiredBadges.Add(pair.Key); continue; }
+                bool visible = unit.IsAlive && unit.gameObject.activeInHierarchy &&
+                    (match.Phase == MatchPhase.Preparation || match.Phase == MatchPhase.Combat);
                 badge.Root.gameObject.SetActive(visible); if (!visible) continue;
                 badge.Root.anchoredPosition = Round(Point(unit.transform.position + Vector3.up * 1.38f) + Vector2.down * 2);
-                badge.Energy.parent.gameObject.SetActive(unit.BaseStats.EnergyMax > 0);
-                badge.Energy.sizeDelta = new Vector2(50 * Mathf.Clamp01(unit.Energy / Mathf.Max(1, unit.BaseStats.EnergyMax)), 2);
-                badge.Status.text = unit.IsSleeping ? "ZZZ" : unit.IsStunned ? "ATURD." : unit.IsRooted ? "RAIZ" : unit.IsInvisible ? "OCULTO" : unit.Shield > 0 ? "ESC " + unit.Shield : "";
-                badge.Status.color = unit.IsInvisible ? new Color(.85f, .55f, 1) : unit.IsRooted ? new Color(1, .55f, .8f) : new Color(1, .88f, .4f);
-                if (badge.View != null && badge.View.Renderer != null && !unit.IsReviving)
-                {
-                    Color tint = badge.View.Renderer.color; tint.a = unit.IsInvisible ? .4f : 1;
-                    badge.View.Renderer.color = tint;
-                }
+
             }
-            if (match.Simulation != visibleSimulation) { visibleSimulation = match.Simulation; groundRefresh = 0; volleys.Clear(); }
+            foreach (var unit in expiredBadges)
+            {
+                badges.Remove(unit); volleys.Remove(unit); rollingFrames.Remove(unit);
+            }
+            expiredBadges.Clear();
+            if (match.Simulation != visibleSimulation)
+            {
+                visibleSimulation = match.Simulation; groundRefresh = 0;
+                volleys.Clear(); rollingFrames.Clear();
+            }
             groundRefresh -= Time.unscaledDeltaTime;
-            if (groundRefresh <= 0) { groundRefresh = .1f; RefreshGround(); }
+            if (groundRefresh <= 0) { groundRefresh = .1f; RefreshGround(); RefreshGumTiles(); }
         }
 
         private void RefreshGround()
         {
-            var wanted = new HashSet<string>();
+            wantedGround.Clear();
             if (match.Phase == MatchPhase.Combat && match.Simulation != null)
                 foreach (var effect in match.Simulation.GroundEffects)
                 {
                     string key = effect.Kind + ":" + effect.Side + ":" + effect.Cell.X + ":" + effect.Cell.Y;
-                    wanted.Add(key);
+                    wantedGround.Add(key);
                     if (!ground.TryGetValue(key, out var icon))
                     {
-                        icon = Box("ground-" + key, layer, new Vector2(26, 26), new Color(1, 1, 1, .8f));
+                        icon = Box("ground-" + key, layer, effect.Kind == "cone" ? new Vector2(30, 30) : new Vector2(26, 26), new Color(1, 1, 1, effect.Kind == "cone" ? 1f : .8f));
                         icon.sprite = PixelSprite(effect.Kind); icon.transform.SetAsFirstSibling(); ground[key] = icon;
                     }
                     icon.rectTransform.anchoredPosition = Round(Point(match.Mapper.GetWorldPosition(effect.Cell)));
                 }
-            foreach (var pair in ground.ToArray()) if (!wanted.Contains(pair.Key)) { if (pair.Value != null) Destroy(pair.Value.gameObject); ground.Remove(pair.Key); }
+            expiredGround.Clear();
+            foreach (var pair in ground)
+                if (!wantedGround.Contains(pair.Key))
+                {
+                    if (pair.Value != null) Destroy(pair.Value.gameObject);
+                    expiredGround.Add(pair.Key);
+                }
+            foreach (var key in expiredGround) ground.Remove(key);
+            expiredGround.Clear();
         }
 
-        private bool Current(CombatSimulation simulation) => match != null && match.Simulation == simulation && match.Phase == MatchPhase.Combat;
+        private bool Current(CombatSimulation simulation) => isActiveAndEnabled && match != null && match.Simulation == simulation && match.Phase == MatchPhase.Combat;
         private Vector2 Point(Vector3 world)
         {
             RectTransformUtility.ScreenPointToLocalPointInRectangle(layer, worldCamera.WorldToScreenPoint(world), null, out Vector2 point);
@@ -314,65 +425,40 @@ namespace MonsterPouch.Local
             label.horizontalOverflow = HorizontalWrapMode.Overflow; label.verticalOverflow = VerticalWrapMode.Overflow; return label;
         }
 
-        // Small code-native pixel symbols: no character image is modified or redrawn here.
-        private Sprite PixelSprite(string kind)
+        private Sprite FlowerSprite()
         {
-            if (pixels.TryGetValue(kind, out var sprite)) return sprite;
-            const int size = 20; var data = new Color32[size * size];
-            Color32 purple = new Color32(241, 94, 235, 255), green = new Color32(169, 241, 61, 255), gold = new Color32(255, 208, 79, 255);
-            void Fill(int x, int y, int w, int h, Color32 color)
-            { for (int py = Mathf.Max(0, y); py < Mathf.Min(size, y + h); py++) for (int px = Mathf.Max(0, x); px < Mathf.Min(size, x + w); px++) data[py * size + px] = color; }
-            if (kind == "flower")
-            {
-                Fill(8, 2, 4, 9, new Color32(57, 159, 87, 255)); Fill(3, 6, 5, 3, green); Fill(12, 8, 5, 3, green);
-                Fill(5, 0, 10, 4, new Color32(185, 99, 53, 255));
-                Fill(7, 9, 6, 10, Color.white); Fill(2, 12, 16, 4, Color.white); Fill(7, 12, 6, 5, gold);
-            }
-            else if (kind == "jazar" || kind == "radiation")
-            { Fill(8, 8, 4, 4, gold); Fill(3, 12, 5, 5, green); Fill(12, 12, 5, 5, green); Fill(7, 2, 6, 5, green); }
-            else if (kind == "tsu" || kind == "cone")
-            { Fill(9, 1, 2, 10, new Color32(255, 239, 188, 255)); Fill(4, 10, 12, 6, purple); Fill(6, 16, 8, 3, new Color32(255, 161, 209, 255)); Fill(7, 12, 3, 4, Color.white); }
-            else if (kind == "trap")
-            { Fill(2, 4, 16, 4, purple); Fill(4, 2, 12, 8, purple); Fill(5, 5, 10, 2, new Color32(138, 56, 150, 255)); }
-            else if (kind == "gochan")
-            { Fill(3, 3, 14, 14, new Color32(160, 66, 30, 255)); Fill(5, 5, 10, 10, gold); Fill(8, 5, 4, 7, new Color32(194, 113, 28, 255)); Fill(8, 10, 7, 3, new Color32(194, 113, 28, 255)); }
-            else if (kind == "trimol")
-            {
-                // Asymmetric lit facets make rotation visible; the stepped circular silhouette reads as a solid boulder.
-                for (int y = 1; y < 19; y++) for (int x = 1; x < 19; x++)
-                {
-                    float dx = x - 9.5f, dy = y - 9.5f, radius = dx * dx + dy * dy;
-                    if (radius > 82) continue;
-                    Color32 color = radius > 59 ? new Color32(42, 48, 65, 255) :
-                        x + y > 21 ? new Color32(166, 179, 196, 255) :
-                        x < 8 ? new Color32(75, 83, 108, 255) : new Color32(115, 126, 149, 255);
-                    data[y * size + x] = color;
-                }
-                Fill(6, 12, 4, 3, new Color32(205, 213, 216, 255));
-                Fill(11, 6, 3, 5, new Color32(59, 69, 89, 255));
-                Fill(8, 8, 5, 2, new Color32(74, 87, 112, 255));
-            }
-            else if (kind == "rock-shadow")
-            { for (int y = 0; y < size; y++) for (int x = 0; x < size; x++) if ((x - 9.5f) * (x - 9.5f) / 90 + (y - 9.5f) * (y - 9.5f) / 52 <= 1) data[y * size + x] = Color.white; }
-            else if (kind == "hymay")
-            { Fill(0, 8, 20, 4, new Color32(115, 47, 24, 255)); Fill(0, 11, 20, 2, new Color32(239, 158, 67, 255)); }
-            else
-            { Fill(8, 1, 5, 7, purple); Fill(6, 7, 8, 5, Color.white); Fill(5, 11, 5, 8, purple); }
-            var texture = new Texture2D(size, size, TextureFormat.RGBA32, false) { name = "fx-pixel-" + kind, filterMode = FilterMode.Point };
-            texture.SetPixels32(data); texture.Apply(false, true);
-            sprite = Sprite.Create(texture, new Rect(0, 0, size, size), kind == "flower" ? new Vector2(.5f, .05f) : new Vector2(.5f, .5f), 20);
-            sprite.name = "fx-pixel-" + kind; pixels[kind] = sprite; return sprite;
+            if (authoredFlower == null)
+                authoredFlower = Resources.LoadAll<Sprite>("MonsterPouch/Effects/Floral/flo-healing-bloom-v1").FirstOrDefault();
+            // Imported art stays owned by Resources; only generated fallback sprites are disposed below.
+            return authoredFlower != null ? authoredFlower : PixelSprite("flower");
         }
+
+        // Small code-native pixel symbols: no character image is modified or redrawn here.
+        private Sprite PixelSprite(string kind) => ProjectileProceduralArt.Pixel(kind, pixels);
 
         private void Unsubscribe()
         {
+            ClearMartioVisuals();
             if (match == null) return;
             match.ActorCreated -= ActorCreated; match.Attacked -= Attacked; match.AbilityUsed -= AbilityUsed; match.Impacted -= Impacted;
+            match.ProjectileBounced -= ContactProjectileBounced;
+            match.FishShieldLaunched -= FishShieldLaunched;
+            match.HealingRoseLaunched -= HealingRoseLaunched;
             match.BoulderRolled -= BoulderRolled;
+            match.ReflectedMoonLaunched -= ReflectedMoonLaunched;
+            match.KazuruRingLaunched -= KazuruRingLaunched;
+            match.DashStarted -= DashStarted;
+            match.FlowerCastStarted -= FlowerCastStarted;
+            match.ConesLaunched -= ConesLaunched;
+            match.ColoredGumLaunched -= ColoredGumLaunched;
+            ClearGumTiles();
+            match.AreaEffect -= AreaEffect;
+            match.Displaced -= GeotharDisplaced;
         }
         private void OnDestroy()
         {
             Unsubscribe();
+            ClearImpactVisuals();
             foreach (Sprite sprite in pixels.Values) if (sprite != null) { Destroy(sprite.texture); Destroy(sprite); }
             if (layer != null) Destroy(layer.gameObject);
         }

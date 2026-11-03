@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be171f76c0d34bee859c64cbfe2c9a0c, type: 3}
+  m_Name: Progression
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Progression.ProgressionConfig
+  ExperiencePerMatch: 25
+  ExperiencePerWin: 10
+  ExperiencePerLevel: 6400000096000000c8000000fa0000002c010000
+  Rewards: []

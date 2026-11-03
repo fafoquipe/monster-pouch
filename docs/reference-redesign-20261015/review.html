@@ -1,0 +1,33 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Monster Pouch · 19 personajes</title>
+<style>*{box-sizing:border-box}body{margin:0;padding:24px;background:#101723;color:#f5f1e6;font:16px system-ui}header{position:sticky;top:0;padding:16px 0;background:#101723f5;z-index:2}h1{font-size:24px;margin:0}p{color:#a5b5c9;font-size:14px;margin:8px 0 16px}.controls{display:flex;flex-wrap:wrap;gap:12px}label{display:flex;align-items:center;gap:6px;font-size:13px}select,button{background:#26384c;color:white;border:1px solid #55718e;border-radius:7px;padding:8px}button{cursor:pointer}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:18px}article{background:#1c2939;border:1px solid #35465b;border-radius:12px;overflow:hidden}h2{font-size:18px;text-transform:capitalize;margin:16px 18px 0}canvas{display:block;width:100%;image-rendering:pixelated}small{display:block;color:#b3c2d3;padding:0 18px 16px}.solo{grid-template-columns:minmax(280px,640px);justify-content:center}article[hidden]{display:none}</style>
+<header><h1>19 personajes · revisión de animaciones</h1><p>Arte integrado en Unity. Tamaños relativos del juego; pausa para revisar cada pose.</p><div class="controls">
+<label>Personaje <select id="character"><option value="all">Todos</option></select></label>
+<label>Acción <select id="action"><option value="idle">Reposo</option><option value="move">Desplazamiento</option><option value="left">Salto · pie izquierdo</option><option value="right">Salto · pie derecho</option><option value="attack">Ataque</option><option value="special">Habilidad</option><option value="death">Derrota</option></select></label>
+<label>Dirección <select id="dir"><option value="4">Frente</option><option value="3">Frente derecha</option><option value="2">Derecha</option><option value="1">Espalda derecha</option><option value="0">Espalda</option><option value="7">Espalda izquierda</option><option value="6">Izquierda</option><option value="5">Frente izquierda</option></select></label>
+<label>Fondo <select id="bg"><option value="#1c2939">Oscuro</option><option value="#e6ecef">Claro</option><option value="#71896a">Verde</option></select></label>
+<label>Velocidad <select id="speed"><option value="1">Normal</option><option value=".5">Mitad</option><option value=".25">Cuarto</option></select></label><button id="pause">Pausar</button><button id="step">Siguiente pose</button><button id="reset">Reiniciar</button></div></header>
+<main id="grid"></main><script src="preview-data.js"></script><script>
+const $=id=>document.getElementById(id),q=new URLSearchParams(location.search);
+let time=0,last=performance.now(),paused=false,manual=0;
+const cards=characterData.map(c=>{const a=document.createElement('article');a.innerHTML='<h2>'+c.id+'</h2><canvas width="360" height="360"></canvas><small></small>';$('grid').append(a);$('character').add(new Option(c.id,c.id));const im=new Image();im.src='clean/'+c.id+'-clean-v3.png';return {c,a,im,canvas:a.querySelector('canvas'),label:a.querySelector('small')};});
+$('character').value=q.get('character')||'all';$('action').value=q.get('action')||'idle';
+function filter(){for(const x of cards)x.a.hidden=$('character').value!=='all'&&$('character').value!==x.c.id;$('grid').classList.toggle('solo',$('character').value!=='all');}
+function restart(){time=0;manual=0;}
+for(const id of ['action','dir'])$(id).onchange=restart;
+$('character').onchange=filter;filter();
+$('pause').onclick=()=>{paused=!paused;$('pause').textContent=paused?'Reproducir':'Pausar'};
+$('step').onclick=()=>{paused=true;$('pause').textContent='Reproducir';manual++};
+$('reset').onclick=restart;
+function draw(now){if(!paused)time+=Math.min(50,now-last)*Number($('speed').value);last=now;
+for(const {c,a,im,canvas,label} of cards){if(a.hidden||!im.complete||!im.naturalWidth)continue;
+let action=$('action').value;if(c.flying&&(action==='left'||action==='right'))action='move';
+const clip=c.clips[+$('dir').value],seq=clip[action],interval=action==='idle'?400:action==='move'?(c.id==='stein'?100:125):action==='death'?350:180;
+const raw=Math.floor(time/interval)+manual,k=action==='death'?Math.min(raw,seq.length-1):raw%seq.length,p=seq[k];
+const g=canvas.getContext('2d');g.imageSmoothingEnabled=false;g.fillStyle=$('bg').value;g.fillRect(0,0,360,360);
+g.strokeStyle=$('bg').value==='#e6ecef'?'#b3bdc6':'#465a70';g.beginPath();g.moveTo(20,310);g.lineTo(340,310);g.stroke();
+const scale=96*c.width/c.referencePixels;g.save();g.translate(180,310);if(clip.flip)g.scale(-1,1);
+g.drawImage(im,...p.rect,-p.anchor[0]*scale,-p.anchor[1]*scale,p.rect[2]*scale,p.rect[3]*scale);g.restore();
+label.textContent=(c.flying?'Vuelo':'Salto alternado')+' · pose '+(k+1)+'/'+seq.length+' · '+c.poses+' poses de origen';
+}requestAnimationFrame(draw)}requestAnimationFrame(draw);
+window.reviewReady=()=>cards.every(x=>x.im.complete&&x.im.naturalWidth);
+</script></html>

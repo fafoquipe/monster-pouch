@@ -1,0 +1,3235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdce6b61357d492a9f1203a55601f96c, type: 3}
+  m_Name: VendingCatalogue
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Machines.PlayerMachineCatalogue
+  Machines:
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-aky"
+        CharacterId: "aky"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:aky-opening-flight"
+          Kind: 1
+          AbilityId: "aky-opening-flight"
+        - RewardId: "ability:aky-drain-heal"
+          Kind: 1
+          AbilityId: "aky-drain-heal"
+        - RewardId: "ability:aky-sweep"
+          Kind: 1
+          AbilityId: "aky-sweep"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:aky-opening-flight"
+          Weight: 1.0
+        - RewardId: "ability:aky-drain-heal"
+          Weight: 1.0
+        - RewardId: "ability:aky-sweep"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 0f77c47d95c04d8d9d6271badc6570e3, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-anuik"
+        CharacterId: "anuik"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:anuik-second-revive"
+          Kind: 1
+          AbilityId: "anuik-second-revive"
+        - RewardId: "ability:anuik-revive-impact"
+          Kind: 1
+          AbilityId: "anuik-revive-impact"
+        - RewardId: "ability:anuik-bounce"
+          Kind: 1
+          AbilityId: "anuik-bounce"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:anuik-second-revive"
+          Weight: 1.0
+        - RewardId: "ability:anuik-revive-impact"
+          Weight: 1.0
+        - RewardId: "ability:anuik-bounce"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 4dcf10f47afc428f967469cadbe64a2a, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-atong"
+        CharacterId: "atong"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:atong-critical-damage"
+          Kind: 1
+          AbilityId: "atong-critical-damage"
+        - RewardId: "ability:atong-always-critical"
+          Kind: 1
+          AbilityId: "atong-always-critical"
+        - RewardId: "ability:atong-control-immunity"
+          Kind: 1
+          AbilityId: "atong-control-immunity"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:atong-critical-damage"
+          Weight: 1.0
+        - RewardId: "ability:atong-always-critical"
+          Weight: 1.0
+        - RewardId: "ability:atong-control-immunity"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: cef6cb9990c44d77b34102c0147fe2ef, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-atori"
+        CharacterId: "atori"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:atori-hard-head"
+          Kind: 1
+          AbilityId: "atori-hard-head"
+        - RewardId: "ability:atori-hunt-speed"
+          Kind: 1
+          AbilityId: "atori-hunt-speed"
+        - RewardId: "ability:atori-kill-heal"
+          Kind: 1
+          AbilityId: "atori-kill-heal"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:atori-hard-head"
+          Weight: 1.0
+        - RewardId: "ability:atori-hunt-speed"
+          Weight: 1.0
+        - RewardId: "ability:atori-kill-heal"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 3ed2d98910a64b308c40238b98703bcd, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-blotan"
+        CharacterId: "blotan"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:blotan-fast-income"
+          Kind: 1
+          AbilityId: "blotan-fast-income"
+        - RewardId: "ability:blotan-health"
+          Kind: 1
+          AbilityId: "blotan-health"
+        - RewardId: "ability:blotan-steal"
+          Kind: 1
+          AbilityId: "blotan-steal"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:blotan-fast-income"
+          Weight: 1.0
+        - RewardId: "ability:blotan-health"
+          Weight: 1.0
+        - RewardId: "ability:blotan-steal"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 87ea052609ce4614aa03ad9d32403955, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-bugaloo"
+        CharacterId: "bugaloo"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:bugaloo-protection"
+          Kind: 1
+          AbilityId: "bugaloo-protection"
+        - RewardId: "ability:bugaloo-revenge"
+          Kind: 1
+          AbilityId: "bugaloo-revenge"
+        - RewardId: "ability:bugaloo-healing"
+          Kind: 1
+          AbilityId: "bugaloo-healing"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:bugaloo-protection"
+          Weight: 1.0
+        - RewardId: "ability:bugaloo-revenge"
+          Weight: 1.0
+        - RewardId: "ability:bugaloo-healing"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 8157999f3b474c16bf77638ea5c6d05d, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-bugui"
+        CharacterId: "bugui"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:bugui-unlimited-range"
+          Kind: 1
+          AbilityId: "bugui-unlimited-range"
+        - RewardId: "ability:bugui-unlimited-stacks"
+          Kind: 1
+          AbilityId: "bugui-unlimited-stacks"
+        - RewardId: "ability:bugui-kill-power"
+          Kind: 1
+          AbilityId: "bugui-kill-power"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:bugui-unlimited-range"
+          Weight: 1.0
+        - RewardId: "ability:bugui-unlimited-stacks"
+          Weight: 1.0
+        - RewardId: "ability:bugui-kill-power"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: a0b1aefad48346d5a004cf4f3589bf4d, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-flo"
+        CharacterId: "flo"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:flo-flower-heal"
+          Kind: 1
+          AbilityId: "flo-flower-heal"
+        - RewardId: "ability:flo-full-energy"
+          Kind: 1
+          AbilityId: "flo-full-energy"
+        - RewardId: "ability:flo-flower-invulnerability"
+          Kind: 1
+          AbilityId: "flo-flower-invulnerability"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:flo-flower-heal"
+          Weight: 1.0
+        - RewardId: "ability:flo-full-energy"
+          Weight: 1.0
+        - RewardId: "ability:flo-flower-invulnerability"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 4719fcca0f8f4ca0af978b197ebc5f93, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-gochan"
+        CharacterId: "gochan"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:gochan-anti-heal"
+          Kind: 1
+          AbilityId: "gochan-anti-heal"
+        - RewardId: "ability:gochan-burn"
+          Kind: 1
+          AbilityId: "gochan-burn"
+        - RewardId: "ability:gochan-expanded-seal"
+          Kind: 1
+          AbilityId: "gochan-expanded-seal"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:gochan-anti-heal"
+          Weight: 1.0
+        - RewardId: "ability:gochan-burn"
+          Weight: 1.0
+        - RewardId: "ability:gochan-expanded-seal"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 0c71db57c37a412ca1439654a21d3eb7, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-hymay"
+        CharacterId: "hymay"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:hymay-focus"
+          Kind: 1
+          AbilityId: "hymay-focus"
+        - RewardId: "ability:hymay-weakness"
+          Kind: 1
+          AbilityId: "hymay-weakness"
+        - RewardId: "ability:hymay-backstep"
+          Kind: 1
+          AbilityId: "hymay-backstep"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:hymay-focus"
+          Weight: 1.0
+        - RewardId: "ability:hymay-weakness"
+          Weight: 1.0
+        - RewardId: "ability:hymay-backstep"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 59026762a0c04815ba39c22a6e4fcee1, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-jazar"
+        CharacterId: "jazar"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:jazar-cross"
+          Kind: 1
+          AbilityId: "jazar-cross"
+        - RewardId: "ability:jazar-intense-radiation"
+          Kind: 1
+          AbilityId: "jazar-intense-radiation"
+        - RewardId: "ability:jazar-front-row"
+          Kind: 1
+          AbilityId: "jazar-front-row"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:jazar-cross"
+          Weight: 1.0
+        - RewardId: "ability:jazar-intense-radiation"
+          Weight: 1.0
+        - RewardId: "ability:jazar-front-row"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: a4800a3dbd6e40b7b4fe2c4b231003c4, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-kayon"
+        CharacterId: "kayon"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:kayon-double-summon"
+          Kind: 1
+          AbilityId: "kayon-double-summon"
+        - RewardId: "ability:kayon-dummy-legacy"
+          Kind: 1
+          AbilityId: "kayon-dummy-legacy"
+        - RewardId: "ability:kayon-dummy-health"
+          Kind: 1
+          AbilityId: "kayon-dummy-health"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:kayon-double-summon"
+          Weight: 1.0
+        - RewardId: "ability:kayon-dummy-legacy"
+          Weight: 1.0
+        - RewardId: "ability:kayon-dummy-health"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 8f1c543a2da54728b7153ac888e37b28, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-kazuru"
+        CharacterId: "kazuru"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:kazuru-ring-throw"
+          Kind: 1
+          AbilityId: "kazuru-ring-throw"
+        - RewardId: "ability:kazuru-last-halo"
+          Kind: 1
+          AbilityId: "kazuru-last-halo"
+        - RewardId: "ability:kazuru-renewal"
+          Kind: 1
+          AbilityId: "kazuru-renewal"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:kazuru-ring-throw"
+          Weight: 1.0
+        - RewardId: "ability:kazuru-last-halo"
+          Weight: 1.0
+        - RewardId: "ability:kazuru-renewal"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 20473d5d6f85426d978c19318d3c95c6, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-pokrak"
+        CharacterId: "pokrak"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:pokrak-long-bubbles"
+          Kind: 1
+          AbilityId: "pokrak-long-bubbles"
+        - RewardId: "ability:pokrak-wide-bubbles"
+          Kind: 1
+          AbilityId: "pokrak-wide-bubbles"
+        - RewardId: "ability:pokrak-strong-bubbles"
+          Kind: 1
+          AbilityId: "pokrak-strong-bubbles"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:pokrak-long-bubbles"
+          Weight: 1.0
+        - RewardId: "ability:pokrak-wide-bubbles"
+          Weight: 1.0
+        - RewardId: "ability:pokrak-strong-bubbles"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 362f8ffbeb334ee29f148dbfcc24fc08, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-popow"
+        CharacterId: "popow"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:popow-dash-stun"
+          Kind: 1
+          AbilityId: "popow-dash-stun"
+        - RewardId: "ability:popow-sweep"
+          Kind: 1
+          AbilityId: "popow-sweep"
+        - RewardId: "ability:popow-dash-charge"
+          Kind: 1
+          AbilityId: "popow-dash-charge"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:popow-dash-stun"
+          Weight: 1.0
+        - RewardId: "ability:popow-sweep"
+          Weight: 1.0
+        - RewardId: "ability:popow-dash-charge"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 02b42793220c4ab3b2e6b422b70163af, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-rosie"
+        CharacterId: "rosie"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:rosie-haste"
+          Kind: 1
+          AbilityId: "rosie-haste"
+        - RewardId: "ability:rosie-shield"
+          Kind: 1
+          AbilityId: "rosie-shield"
+        - RewardId: "ability:rosie-control-immunity"
+          Kind: 1
+          AbilityId: "rosie-control-immunity"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:rosie-haste"
+          Weight: 1.0
+        - RewardId: "ability:rosie-shield"
+          Weight: 1.0
+        - RewardId: "ability:rosie-control-immunity"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 68cd22100773438dbfd379b4cd433586, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-sepora"
+        CharacterId: "sepora"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:sepora-stealth"
+          Kind: 1
+          AbilityId: "sepora-stealth"
+        - RewardId: "ability:sepora-multishot"
+          Kind: 1
+          AbilityId: "sepora-multishot"
+        - RewardId: "ability:sepora-kill-power"
+          Kind: 1
+          AbilityId: "sepora-kill-power"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:sepora-stealth"
+          Weight: 1.0
+        - RewardId: "ability:sepora-multishot"
+          Weight: 1.0
+        - RewardId: "ability:sepora-kill-power"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 855386459f8c48ab9fde53a337646c3a, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-stein"
+        CharacterId: "stein"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:stein-long-stun"
+          Kind: 1
+          AbilityId: "stein-long-stun"
+        - RewardId: "ability:stein-triple"
+          Kind: 1
+          AbilityId: "stein-triple"
+        - RewardId: "ability:stein-energy-gift"
+          Kind: 1
+          AbilityId: "stein-energy-gift"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:stein-long-stun"
+          Weight: 1.0
+        - RewardId: "ability:stein-triple"
+          Weight: 1.0
+        - RewardId: "ability:stein-energy-gift"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: c602256345734f67bd1bbf7dc1b7e7fd, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-suki"
+        CharacterId: "suki"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:suki-shield-energy"
+          Kind: 1
+          AbilityId: "suki-shield-energy"
+        - RewardId: "ability:suki-opening-shield"
+          Kind: 1
+          AbilityId: "suki-opening-shield"
+        - RewardId: "ability:suki-extra-shield"
+          Kind: 1
+          AbilityId: "suki-extra-shield"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:suki-shield-energy"
+          Weight: 1.0
+        - RewardId: "ability:suki-opening-shield"
+          Weight: 1.0
+        - RewardId: "ability:suki-extra-shield"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 37e3cea9ba3f4e5cb3f6cdfc12f6c3e8, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-tauris"
+        CharacterId: "tauris"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:tauris-mark"
+          Kind: 1
+          AbilityId: "tauris-mark"
+        - RewardId: "ability:tauris-sweep"
+          Kind: 1
+          AbilityId: "tauris-sweep"
+        - RewardId: "ability:tauris-hunger"
+          Kind: 1
+          AbilityId: "tauris-hunger"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:tauris-mark"
+          Weight: 1.0
+        - RewardId: "ability:tauris-sweep"
+          Weight: 1.0
+        - RewardId: "ability:tauris-hunger"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: dabb606379be482b81395f2dce7b4ea3, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-tokoro"
+        CharacterId: "tokoro"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:tokoro-stun-heal"
+          Kind: 1
+          AbilityId: "tokoro-stun-heal"
+        - RewardId: "ability:tokoro-ice-cream"
+          Kind: 1
+          AbilityId: "tokoro-ice-cream"
+        - RewardId: "ability:tokoro-sleep"
+          Kind: 1
+          AbilityId: "tokoro-sleep"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:tokoro-stun-heal"
+          Weight: 1.0
+        - RewardId: "ability:tokoro-ice-cream"
+          Weight: 1.0
+        - RewardId: "ability:tokoro-sleep"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: cf93c9613ab741ffaccd5f220095d8a9, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-trimol"
+        CharacterId: "trimol"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:trimol-opening-boulder"
+          Kind: 1
+          AbilityId: "trimol-opening-boulder"
+        - RewardId: "ability:trimol-infinite-boulder"
+          Kind: 1
+          AbilityId: "trimol-infinite-boulder"
+        - RewardId: "ability:trimol-brutal-boulder"
+          Kind: 1
+          AbilityId: "trimol-brutal-boulder"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:trimol-opening-boulder"
+          Weight: 1.0
+        - RewardId: "ability:trimol-infinite-boulder"
+          Weight: 1.0
+        - RewardId: "ability:trimol-brutal-boulder"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 6f2e88c0b3ac429cab4cd0925e30fec1, type: 3}
+  - Configuration:
+      ApprovalId: "creator-vending-economy-2026-10-24-v1"
+      EnabledForLocalPlay: 1
+      Cost:
+        Currency: 2
+        Amount: 5
+      Definition:
+        MachineId: "character-tsu"
+        CharacterId: "tsu"
+        CatalogVersion: 1
+        Rewards:
+        - RewardId: "character"
+          Kind: 0
+          AbilityId: ""
+        - RewardId: "ability:tsu-death-trap"
+          Kind: 1
+          AbilityId: "tsu-death-trap"
+        - RewardId: "ability:tsu-chocolate"
+          Kind: 1
+          AbilityId: "tsu-chocolate"
+        - RewardId: "ability:tsu-colored-gum"
+          Kind: 1
+          AbilityId: "tsu-colored-gum"
+        - RewardId: "earth-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-20"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-30"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "sun-50"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-10-sun-10"
+          Kind: 2
+          AbilityId: ""
+        - RewardId: "earth-20-sun-20"
+          Kind: 2
+          AbilityId: ""
+      Policy:
+        PolicyId: "character-pity-ten-equal-prizes-v1"
+        Version: 1
+        CharacterChanceByDraw:
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.01
+        - 0.02
+        - 0.04
+        - 0.08
+        - 0.2
+        - 1.0
+        RewardWeights:
+        - RewardId: "ability:tsu-death-trap"
+          Weight: 1.0
+        - RewardId: "ability:tsu-chocolate"
+          Weight: 1.0
+        - RewardId: "ability:tsu-colored-gum"
+          Weight: 1.0
+        - RewardId: "earth-10"
+          Weight: 1.0
+        - RewardId: "earth-20"
+          Weight: 1.0
+        - RewardId: "earth-30"
+          Weight: 1.0
+        - RewardId: "earth-50"
+          Weight: 1.0
+        - RewardId: "sun-10"
+          Weight: 1.0
+        - RewardId: "sun-20"
+          Weight: 1.0
+        - RewardId: "sun-30"
+          Weight: 1.0
+        - RewardId: "sun-50"
+          Weight: 1.0
+        - RewardId: "earth-10-sun-10"
+          Weight: 1.0
+        - RewardId: "earth-20-sun-20"
+          Weight: 1.0
+      Packages:
+      - RewardId: "earth-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+      - RewardId: "earth-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+      - RewardId: "earth-30"
+        Amounts:
+        - Currency: 0
+          Amount: 30
+      - RewardId: "earth-50"
+        Amounts:
+        - Currency: 0
+          Amount: 50
+      - RewardId: "sun-10"
+        Amounts:
+        - Currency: 1
+          Amount: 10
+      - RewardId: "sun-20"
+        Amounts:
+        - Currency: 1
+          Amount: 20
+      - RewardId: "sun-30"
+        Amounts:
+        - Currency: 1
+          Amount: 30
+      - RewardId: "sun-50"
+        Amounts:
+        - Currency: 1
+          Amount: 50
+      - RewardId: "earth-10-sun-10"
+        Amounts:
+        - Currency: 0
+          Amount: 10
+        - Currency: 1
+          Amount: 10
+      - RewardId: "earth-20-sun-20"
+        Amounts:
+        - Currency: 0
+          Amount: 20
+        - Currency: 1
+          Amount: 20
+    Artwork: {fileID: 21300000, guid: 21f762fa99e84aeda7f0386754828252, type: 3}

@@ -1,0 +1,112 @@
+{
+  "texture": "Assets/resources/MonsterPouch/UI/LobbyRigs/props.png",
+  "width": 1774,
+  "height": 887,
+  "sprites": [
+    {
+      "name": "ice-cream",
+      "rect": [
+        120,
+        434,
+        262,
+        341
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "handkerchief",
+      "rect": [
+        522,
+        435,
+        328,
+        289
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "wooden-dummy",
+      "rect": [
+        979,
+        440,
+        272,
+        345
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "gold-badge",
+      "rect": [
+        1415,
+        460,
+        261,
+        261
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "stone-a",
+      "rect": [
+        112,
+        95,
+        268,
+        217
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "stone-b",
+      "rect": [
+        551,
+        95,
+        265,
+        217
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "talisman",
+      "rect": [
+        968,
+        59,
+        287,
+        304
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "toothpick",
+      "rect": [
+        1433,
+        94,
+        219,
+        228
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "source": "C:\\Users\\HP VICTUS\\.codex\\generated_images\\01a0f3e9-b23a-7b22-b3a8-a000484aa9eb\\exec-47c49fad-5461-4c1b-a035-bfb9de76532b.png"
+}

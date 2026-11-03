@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511ff38c74f24bcaaebcfb1a3166968f, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAttack
+  Kind: 1
+  DisplayName: "Ataque b\xE1sico"
+  Description: "Da\xF1o m\xE1gico: 3. Alcance: 5. Cada 1,4 s."
+  Damage: 3
+  Range: 5
+  Interval: 0.8
+  Windup: 2
+  Hold: 0.6
+  Recovery: 0.3
+  ProjectileSpeed: 6
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: aireola-note
+    NameEnglish: Musical note
+    NameSpanish: Nota musical
+    OverrideSize: 1
+    SizePercent: 35.8
+    LegacyPercent: -1
+    LegacyNoteEnglish: Shared Aireola sampler; fixed flight envelope at alpha >=
+      16
+    LegacyNoteSpanish: Sampler Aireola compartido; envolvente fija del vuelo con
+      alfa >= 16
+    Frames:
+    - Sprite: {fileID: 21300000, guid: bd1195de08ac5ecdb9ade4b7ccaf28fa, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.171875
+        y: 0.21875
+        width: 0.70703125
+        height: 0.421875
+    - Sprite: {fileID: 21300000, guid: 367b6e8d1ef75d50a08209f312d2fb8f, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.1484375
+        y: 0.21484375
+        width: 0.7109375
+        height: 0.4375
+    - Sprite: {fileID: 21300000, guid: bce4f5473fc05b569ec8c697d966b42b, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.14453125
+        y: 0.2109375
+        width: 0.72265625
+        height: 0.4765625
+    - Sprite: {fileID: 21300000, guid: 0d0cf99d3fda5e6cae2219bec4974d7c, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.1640625
+        y: 0.1875
+        width: 0.7109375
+        height: 0.5390625
+  ProjectilePrefab: {fileID: 0}
+  Sound: {fileID: 0}

@@ -91,7 +91,8 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             var sim = Begin(actor, original, intruder);
             sim.Step(.1f);
             Assert.IsEmpty(attacks);
-            Assert.AreEqual(8, actor.CurrentCell.Y);
+            Assert.AreEqual(9, actor.CurrentCell.Y);
+            Assert.AreEqual(8, actor.ReservedCell.Y);
             Move(intruder, 2, 7);
             sim.Step(3f);
             OnlyAttacks(intruder);
@@ -152,7 +153,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.IsTrue(board.TrySetCellBlocked(1, 0, true));
             Assert.IsTrue(board.TrySetCellBlocked(1, 1, true));
             attacks.Clear();
-            sim.Step(1f);
+            sim.Step(2f); // Includes the actor's IQ delay after the old target leaves range.
             OnlyAttacks(intruder);
             Assert.Less(intruder.CurrentHealth,1000);
             Assert.IsTrue(board.TrySetCellBlocked(1, 1, false));
@@ -199,7 +200,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         public void AnuikRevival_ReleasesAttackersAndDoesNotStealTheirNewTargetOnReturn()
         {
             var actor = Unit("actor", 2, 8, new UnitStats(1000, 1, 9, .3f,
-                targetPolicy: TargetPolicy.LowestHealth), BoardSide.Blue);
+                iqSpeed: 10, targetPolicy: TargetPolicy.LowestHealth), BoardSide.Blue);
             var anuik = Unit("anuik", 2, 4, new UnitStats(50, 0, 9, 100, revivesPerCombat: 1));
             var intruder = Unit("intruder", 5, 0, new UnitStats(100, 0, 9, 100));
             var sim = Begin(actor, anuik, intruder);

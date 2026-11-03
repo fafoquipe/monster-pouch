@@ -1,0 +1,4834 @@
+fileFormatVersion: 2
+guid: 2a8738d189ece3e41bcbaee1b12e97df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5738081334058551201
+    second: trimol-clean-v3_0
+  - first:
+      213: -3252711818240630468
+    second: trimol-clean-v3_1
+  - first:
+      213: -6942372673783215166
+    second: trimol-clean-v3_2
+  - first:
+      213: -8147309414538867270
+    second: trimol-clean-v3_3
+  - first:
+      213: -8768384426406328345
+    second: trimol-clean-v3_4
+  - first:
+      213: -4717882660160834953
+    second: trimol-clean-v3_5
+  - first:
+      213: 236570655344022877
+    second: trimol-clean-v3_6
+  - first:
+      213: -1225865977718439253
+    second: trimol-clean-v3_7
+  - first:
+      213: 995949809756495869
+    second: trimol-clean-v3_8
+  - first:
+      213: 873912384716923471
+    second: trimol-clean-v3_9
+  - first:
+      213: 3945613725811601614
+    second: trimol-clean-v3_10
+  - first:
+      213: 6434118195389255247
+    second: trimol-clean-v3_11
+  - first:
+      213: -4464816617602078457
+    second: trimol-clean-v3_12
+  - first:
+      213: 1728484611704028306
+    second: trimol-clean-v3_13
+  - first:
+      213: -8731832149993912967
+    second: trimol-clean-v3_14
+  - first:
+      213: -5159536181918961588
+    second: trimol-clean-v3_15
+  - first:
+      213: 176323433169403480
+    second: trimol-clean-v3_16
+  - first:
+      213: 5146802300873631207
+    second: trimol-clean-v3_17
+  - first:
+      213: -8252399354165824850
+    second: trimol-clean-v3_18
+  - first:
+      213: -6056395219388422707
+    second: trimol-clean-v3_19
+  - first:
+      213: -1312439017807095245
+    second: trimol-clean-v3_20
+  - first:
+      213: -5166769349174282910
+    second: trimol-clean-v3_21
+  - first:
+      213: 1313695999233153658
+    second: trimol-clean-v3_22
+  - first:
+      213: 7915988100354534096
+    second: trimol-clean-v3_23
+  - first:
+      213: 7613475264175719559
+    second: trimol-clean-v3_24
+  - first:
+      213: -5137846224857682347
+    second: trimol-clean-v3_25
+  - first:
+      213: 3187010474064486232
+    second: trimol-clean-v3_26
+  - first:
+      213: -7931154492987537943
+    second: trimol-clean-v3_27
+  - first:
+      213: -8533353798663909360
+    second: trimol-clean-v3_28
+  - first:
+      213: -2050926486160380293
+    second: trimol-clean-v3_29
+  - first:
+      213: 988029545527852058
+    second: trimol-clean-v3_30
+  - first:
+      213: 7661561785726473583
+    second: trimol-clean-v3_31
+  - first:
+      213: 8203967802397936809
+    second: trimol-clean-v3_32
+  - first:
+      213: -2035195735302965597
+    second: trimol-clean-v3_33
+  - first:
+      213: -4704747962991442007
+    second: trimol-clean-v3_34
+  - first:
+      213: -4606397797441715514
+    second: trimol-clean-v3_35
+  - first:
+      213: -7146359875994704749
+    second: trimol-clean-v3_36
+  - first:
+      213: -2716090250007550846
+    second: trimol-clean-v3_37
+  - first:
+      213: 3444469986357063423
+    second: trimol-clean-v3_38
+  - first:
+      213: -1754773809079961070
+    second: trimol-clean-v3_39
+  - first:
+      213: 8288379776215324623
+    second: trimol-clean-v3_40
+  - first:
+      213: 1488066929749144788
+    second: trimol-clean-v3_41
+  - first:
+      213: 5531916726262837447
+    second: trimol-clean-v3_42
+  - first:
+      213: 3857272342365982391
+    second: trimol-clean-v3_43
+  - first:
+      213: -4557860552592528633
+    second: trimol-clean-v3_44
+  - first:
+      213: -6835162966829437919
+    second: trimol-clean-v3_45
+  - first:
+      213: -6543022001118773427
+    second: trimol-clean-v3_46
+  - first:
+      213: 7403299811999555518
+    second: trimol-clean-v3_47
+  - first:
+      213: 7378922356596861986
+    second: trimol-clean-v3_48
+  - first:
+      213: 5850606579023249203
+    second: trimol-clean-v3_49
+  - first:
+      213: -8055167467528461296
+    second: trimol-clean-v3_50
+  - first:
+      213: 2209687647447665241
+    second: trimol-clean-v3_51
+  - first:
+      213: 235421965381766901
+    second: trimol-clean-v3_52
+  - first:
+      213: 8904552778720654954
+    second: trimol-clean-v3_53
+  - first:
+      213: -2394281778232195428
+    second: trimol-clean-v3_54
+  - first:
+      213: -5634542550265110344
+    second: trimol-clean-v3_55
+  - first:
+      213: -4477191246222601866
+    second: trimol-clean-v3_56
+  - first:
+      213: 8238971821464568184
+    second: trimol-clean-v3_57
+  - first:
+      213: -3646079156293673726
+    second: trimol-clean-v3_58
+  - first:
+      213: 8511298507146796285
+    second: trimol-clean-v3_59
+  - first:
+      213: 2737560181037935840
+    second: trimol-clean-v3_60
+  - first:
+      213: 8073258348523115929
+    second: trimol-clean-v3_61
+  - first:
+      213: 7282896131429006536
+    second: trimol-clean-v3_62
+  - first:
+      213: 4912197263296743214
+    second: trimol-clean-v3_63
+  - first:
+      213: -8475876903697429754
+    second: trimol-clean-v3_64
+  - first:
+      213: 7183511875706785619
+    second: trimol-clean-v3_65
+  - first:
+      213: -6319567935837520889
+    second: trimol-clean-v3_66
+  - first:
+      213: 6198846437540468495
+    second: trimol-clean-v3_67
+  - first:
+      213: 1764483211009063701
+    second: trimol-clean-v3_68
+  - first:
+      213: -1127886195016164753
+    second: trimol-clean-v3_69
+  - first:
+      213: 7300574603041642935
+    second: trimol-clean-v3_70
+  - first:
+      213: 8128824520271411957
+    second: trimol-clean-v3_71
+  - first:
+      213: 2358478624960233589
+    second: trimol-clean-v3_72
+  - first:
+      213: 3368377424969819378
+    second: trimol-clean-v3_73
+  - first:
+      213: -4620172291183326907
+    second: trimol-clean-v3_74
+  - first:
+      213: -4279233800095983909
+    second: trimol-clean-v3_75
+  - first:
+      213: -7938914960599748517
+    second: trimol-clean-v3_76
+  - first:
+      213: 3822477456099581852
+    second: trimol-clean-v3_77
+  - first:
+      213: 8143262032827720668
+    second: trimol-clean-v3_78
+  - first:
+      213: 5716519070894757760
+    second: trimol-clean-v3_79
+  - first:
+      213: -8285784493477786415
+    second: trimol-clean-v3_80
+  - first:
+      213: -6879662406260468036
+    second: trimol-clean-v3_81
+  - first:
+      213: 3225433387567626801
+    second: trimol-clean-v3_82
+  - first:
+      213: -5323633347570054139
+    second: trimol-clean-v3_83
+  - first:
+      213: 3511419699560926010
+    second: trimol-clean-v3_84
+  - first:
+      213: -1728934961375286024
+    second: trimol-clean-v3_85
+  - first:
+      213: 5065176286712226520
+    second: trimol-clean-v3_86
+  - first:
+      213: 649293451047034225
+    second: trimol-clean-v3_87
+  - first:
+      213: 7774466050010709917
+    second: trimol-clean-v3_88
+  - first:
+      213: -8084332312129742600
+    second: trimol-clean-v3_89
+  - first:
+      213: -6054933449184314997
+    second: trimol-clean-v3_90
+  - first:
+      213: 4278228895285788940
+    second: trimol-clean-v3_91
+  - first:
+      213: 7958141023563540657
+    second: trimol-clean-v3_92
+  - first:
+      213: -612848279609094284
+    second: trimol-clean-v3_93
+  - first:
+      213: -8766232923972833281
+    second: trimol-clean-v3_94
+  - first:
+      213: -2380556439785270595
+    second: trimol-clean-v3_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trimol-clean-v3_0
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 954
+        width: 222
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a70cd85292c1af40800000000000000
+      internalID: 5738081334058551201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_1
+      rect:
+        serializedVersion: 2
+        x: 3596
+        y: 954
+        width: 218
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c316d0db5db0cd2d0800000000000000
+      internalID: -3252711818240630468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_2
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1176
+        width: 234
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbc5c0e5dcb7af90800000000000000
+      internalID: -6942372673783215166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_3
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 262
+        width: 218
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd0737f041feee80800000000000000
+      internalID: -8147309414538867270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_4
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1176
+        width: 238
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7cbf132d0705680800000000000000
+      internalID: -8768384426406328345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_5
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1176
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772732d87b6b68eb0800000000000000
+      internalID: -4717882660160834953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_6
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1176
+        width: 248
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55df04f1c7784300800000000000000
+      internalID: 236570655344022877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 954
+        width: 238
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba20bdf5369dcfee0800000000000000
+      internalID: -1225865977718439253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 496
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff57a0431352dd00800000000000000
+      internalID: 995949809756495869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1176
+        width: 244
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42edd70fa2c02c00800000000000000
+      internalID: 873912384716923471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_10
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1176
+        width: 226
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0f7e367c2a1c630800000000000000
+      internalID: 3945613725811601614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_11
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 954
+        width: 222
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ecd07c8649a4950800000000000000
+      internalID: 6434118195389255247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 726
+        width: 222
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709219021f8c902c0800000000000000
+      internalID: -4464816617602078457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_13
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 726
+        width: 218
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cf850b89fccf710800000000000000
+      internalID: 1728484611704028306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_14
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 954
+        width: 228
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975074d3cec42d680800000000000000
+      internalID: -8731832149993912967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_15
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 14
+        width: 218
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40f1fecd25a568b0800000000000000
+      internalID: -5159536181918961588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_16
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 726
+        width: 220
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85eb3af6a3d627200800000000000000
+      internalID: 176323433169403480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_17
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 954
+        width: 212
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e56cb87c6d1d6740800000000000000
+      internalID: 5146802300873631207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_18
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 954
+        width: 250
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2784ea286997d80800000000000000
+      internalID: -8252399354165824850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_19
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 954
+        width: 244
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5aaf8d2ac53fba0800000000000000
+      internalID: -6056395219388422707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_20
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 496
+        width: 228
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ade3abaa749cde0800000000000000
+      internalID: -1312439017807095245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_21
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 954
+        width: 234
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2653712d6a2fb48b0800000000000000
+      internalID: -5166769349174282910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_22
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 954
+        width: 228
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ad4211d8f2b3210800000000000000
+      internalID: 1313695999233153658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_23
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 1176
+        width: 222
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dae9df8c3d3bdd60800000000000000
+      internalID: 7915988100354534096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_24
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 262
+        width: 198
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784ca633a6f78a960800000000000000
+      internalID: 7613475264175719559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_25
+      rect:
+        serializedVersion: 2
+        x: 3866
+        y: 14
+        width: 194
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ea6c87414b2b8b0800000000000000
+      internalID: -5137846224857682347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_26
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 726
+        width: 206
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f101204298a3c20800000000000000
+      internalID: 3187010474064486232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_27
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 14
+        width: 218
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e50cba7201eee190800000000000000
+      internalID: -7931154492987537943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_28
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 726
+        width: 188
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01058e78eef639980800000000000000
+      internalID: -8533353798663909360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_29
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 726
+        width: 188
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e68f32a35a983e0800000000000000
+      internalID: -2050926486160380293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_30
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 726
+        width: 236
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c37c803af26bd00800000000000000
+      internalID: 988029545527852058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_31
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 496
+        width: 222
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f651fe6f9d5535a60800000000000000
+      internalID: 7661561785726473583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_32
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 262
+        width: 224
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9accba2ff395ad170800000000000000
+      internalID: 8203967802397936809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_33
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 496
+        width: 224
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a670ecf24881c3e0800000000000000
+      internalID: -2035195735302965597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_34
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 954
+        width: 196
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7072c87a065beb0800000000000000
+      internalID: -4704747962991442007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_35
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 1176
+        width: 222
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c24855eb99c210c0800000000000000
+      internalID: -4606397797441715514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_36
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 14
+        width: 222
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3942b3a4e8703dc90800000000000000
+      internalID: -7146359875994704749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_37
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 14
+        width: 224
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284e56ede428e4ad0800000000000000
+      internalID: -2716090250007550846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_38
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 954
+        width: 228
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffeae48f3373dcf20800000000000000
+      internalID: 3444469986357063423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_39
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 14
+        width: 236
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a31a0948ac5a7e0800000000000000
+      internalID: -1754773809079961070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_40
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 14
+        width: 224
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc798d42e7d360370800000000000000
+      internalID: 8288379776215324623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_41
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 14
+        width: 216
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d434bd0dfca6a410800000000000000
+      internalID: 1488066929749144788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_42
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 14
+        width: 236
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c030f304f055cc40800000000000000
+      internalID: 5531916726262837447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_43
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 14
+        width: 232
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bec9a832c8c78530800000000000000
+      internalID: 3857272342365982391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_44
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 14
+        width: 244
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70be4fad9f93fb0c0800000000000000
+      internalID: -4557860552592528633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_45
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 14
+        width: 260
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ce934fe7f9421a0800000000000000
+      internalID: -6835162966829437919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_46
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 262
+        width: 222
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fffb908248235a0800000000000000
+      internalID: -6543022001118773427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_47
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 1176
+        width: 228
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf13f364fdcdb660800000000000000
+      internalID: 7403299811999555518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 262
+        width: 224
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ce422c9c2376660800000000000000
+      internalID: 7378922356596861986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_49
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 262
+        width: 220
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f7e3f8fa7813150800000000000000
+      internalID: 5850606579023249203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_50
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 954
+        width: 222
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014eeabcddb463090800000000000000
+      internalID: -8055167467528461296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_51
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95acfaa35336aae10800000000000000
+      internalID: 2209687647447665241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_52
+      rect:
+        serializedVersion: 2
+        x: 3548
+        y: 262
+        width: 224
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe87eab703644300800000000000000
+      internalID: 235421965381766901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_53
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 496
+        width: 224
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66bc5be293539b70800000000000000
+      internalID: 8904552778720654954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_54
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 496
+        width: 232
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96874c786dc5ced0800000000000000
+      internalID: -2394281778232195428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_55
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 262
+        width: 228
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0ef9357651ec1b0800000000000000
+      internalID: -5634542550265110344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_56
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 496
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671d9616842ddd1c0800000000000000
+      internalID: -4477191246222601866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_57
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 262
+        width: 216
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87149dc3835b65270800000000000000
+      internalID: 8238971821464568184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_58
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 262
+        width: 232
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dd82a3356866dc0800000000000000
+      internalID: -3646079156293673726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_59
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1176
+        width: 234
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc1ccfb5e43e1670800000000000000
+      internalID: 8511298507146796285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_60
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 496
+        width: 196
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec250efa74cdf520800000000000000
+      internalID: 2737560181037935840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_61
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 496
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9955daba1b9f90070800000000000000
+      internalID: 8073258348523115929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_62
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 726
+        width: 202
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc74e1f17b021560800000000000000
+      internalID: 7282896131429006536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_63
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 14
+        width: 226
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27c2719261ab2440800000000000000
+      internalID: 4912197263296743214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_64
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 726
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b4d2bfcd2af5a80800000000000000
+      internalID: -8475876903697429754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_65
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 726
+        width: 192
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f8d47bdf5f0b360800000000000000
+      internalID: 7183511875706785619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_66
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 496
+        width: 226
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cb472e1726c48a0800000000000000
+      internalID: -6319567935837520889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_67
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 726
+        width: 216
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f079bc6fdf9b60650800000000000000
+      internalID: 6198846437540468495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_68
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 262
+        width: 234
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bf55cb124bc7810800000000000000
+      internalID: 1764483211009063701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_69
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 262
+        width: 240
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a9efe3b71f850f0800000000000000
+      internalID: -1127886195016164753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_70
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 726
+        width: 214
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9198edbe9d05560800000000000000
+      internalID: 7300574603041642935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_71
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1176
+        width: 230
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa334435d26fc070800000000000000
+      internalID: 8128824520271411957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_72
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 496
+        width: 180
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5704b1b40dffab020800000000000000
+      internalID: 2358478624960233589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_73
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 496
+        width: 176
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f465cceb61eebe20800000000000000
+      internalID: 3368377424969819378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_74
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 954
+        width: 222
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5494ae6a7c9d1efb0800000000000000
+      internalID: -4620172291183326907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_75
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 14
+        width: 222
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd61f6af78b1d94c0800000000000000
+      internalID: -4279233800095983909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_76
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 262
+        width: 202
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50fa6fc7ee43d190800000000000000
+      internalID: -7938914960599748517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_77
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 726
+        width: 196
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f11c47efa2c0530800000000000000
+      internalID: 3822477456099581852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_78
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 726
+        width: 224
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd32f9b8cada20170800000000000000
+      internalID: 8143262032827720668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_79
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 726
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0879d6cbec7255f40800000000000000
+      internalID: 5716519070894757760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_80
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 262
+        width: 226
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc01d437eaf20d80800000000000000
+      internalID: -8285784493477786415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_81
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 262
+        width: 242
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb65c34dd778680a0800000000000000
+      internalID: -6879662406260468036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_82
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1176
+        width: 206
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a37a0b39a03cc20800000000000000
+      internalID: 3225433387567626801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_83
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1176
+        width: 230
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cc9ab1da7ae16b0800000000000000
+      internalID: -5323633347570054139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_84
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 496
+        width: 218
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b43a9cc911bb030800000000000000
+      internalID: 3511419699560926010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_85
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 496
+        width: 222
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fce87b10d69108e0800000000000000
+      internalID: -1728934961375286024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_86
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1176
+        width: 226
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2e63e0ffe1b4640800000000000000
+      internalID: 5065176286712226520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_87
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 14
+        width: 218
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d55a024f0c20900800000000000000
+      internalID: 649293451047034225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_88
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 496
+        width: 224
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ff83d7ea374eb60800000000000000
+      internalID: 7774466050010709917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_89
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 496
+        width: 224
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f85b41489eaecf80800000000000000
+      internalID: -8084332312129742600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_90
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 726
+        width: 244
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89fcbebb1e88fba0800000000000000
+      internalID: -6054933449184314997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_91
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 954
+        width: 236
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01425363825f5b30800000000000000
+      internalID: 4278228895285788940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_92
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 262
+        width: 240
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8e7fdc81ff07e60800000000000000
+      internalID: 7958141023563540657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_93
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 954
+        width: 230
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fc0b89cb9be77f0800000000000000
+      internalID: -612848279609094284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_94
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 726
+        width: 226
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffe344e995185680800000000000000
+      internalID: -8766232923972833281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-clean-v3_95
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1176
+        width: 236
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db294ded78096fed0800000000000000
+      internalID: -2380556439785270595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 952
+        width: 226
+        height: 194
+      alignment: 9
+      pivot: {x: 0.48230088, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c037b460120fef04a84c480d18cc5b3b
+      internalID: 1486517622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 952
+        width: 222
+        height: 192
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead97c3a81c41ac479d7fec8d96dc6f8
+      internalID: 1696071280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1174
+        width: 238
+        height: 180
+      alignment: 9
+      pivot: {x: 0.4369748, y: 0.033333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d960ffe1f6a2d5e42acaed82e2cabf4d
+      internalID: -517631838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 260
+        width: 222
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5045045, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afecafa99fcc4746baddc0db26b0f4f
+      internalID: -1586413960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1174
+        width: 242
+        height: 190
+      alignment: 9
+      pivot: {x: 0.5289256, y: 0.031578947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b4de8df2b6ca24691124d9358148c3
+      internalID: 1674303292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1174
+        width: 220
+        height: 186
+      alignment: 9
+      pivot: {x: 0.5, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3ab68ec5d7bf940b1e484056b72ac6
+      internalID: -924840213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1174
+        width: 252
+        height: 186
+      alignment: 9
+      pivot: {x: 0.41269842, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac6ed1b184e6104d8efa21b1593fd05
+      internalID: 1069593673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 952
+        width: 242
+        height: 196
+      alignment: 9
+      pivot: {x: 0.44214877, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775d7437eeba7574b8085f037255d738
+      internalID: 1792264709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 494
+        width: 242
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5123967, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb30e0b48f78ef4c9c1425eb3f9980a
+      internalID: -1518762963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1174
+        width: 248
+        height: 190
+      alignment: 9
+      pivot: {x: 0.39919356, y: 0.031578947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b94bc8bd051ad49863f41717be4ec5
+      internalID: -915256211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1174
+        width: 230
+        height: 186
+      alignment: 9
+      pivot: {x: 0.50869566, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2a3d99cd8f9154b8d309893ea183dc
+      internalID: 1374624278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 952
+        width: 226
+        height: 142
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04225352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd545a5eb77a9740998889975e995ce
+      internalID: -1658780428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 724
+        width: 226
+        height: 204
+      alignment: 9
+      pivot: {x: 0.4778761, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc9aa9be8207c348b887233d69b8172
+      internalID: 447175500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 724
+        width: 222
+        height: 202
+      alignment: 9
+      pivot: {x: 0.46396396, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da011e097821cac4ca8c34499c3a1d26
+      internalID: 94472411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 952
+        width: 232
+        height: 192
+      alignment: 9
+      pivot: {x: 0.41810346, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cccdaf745cc4e47acbf38d31188681
+      internalID: 732288497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 12
+        width: 222
+        height: 214
+      alignment: 9
+      pivot: {x: 0.4774775, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29659fc927a119c45abfd50a2d712de9
+      internalID: -926623573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 724
+        width: 224
+        height: 200
+      alignment: 9
+      pivot: {x: 0.45982143, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1878e283752e1ef4aaf9aa7601f2f151
+      internalID: 1781489352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 952
+        width: 216
+        height: 198
+      alignment: 9
+      pivot: {x: 0.4675926, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fe2bc95ea56df4dbc9ed4b4aa50716
+      internalID: -558838862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 952
+        width: 254
+        height: 194
+      alignment: 9
+      pivot: {x: 0.35826772, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247237df6dd23e548af24767733c2df4
+      internalID: -658724333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 952
+        width: 248
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43145162, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc16e8321305a34b905097a7cc427a6
+      internalID: -755889877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 494
+        width: 232
+        height: 206
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5549cb5c126385c438f2e088ab5d6e3e
+      internalID: -15135187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 952
+        width: 238
+        height: 196
+      alignment: 9
+      pivot: {x: 0.38235295, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd23dbd74f6114e9f72bd63e8c58fc
+      internalID: 560337819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 952
+        width: 232
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5258621, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368d1d2fc1b27b744b709003cae52739
+      internalID: -2027859005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 1174
+        width: 226
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5132743, y: 0.04054054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854e254624feda54d807012b5aae1ba9
+      internalID: -1156321706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 260
+        width: 202
+        height: 210
+      alignment: 9
+      pivot: {x: 0.45544556, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3299627e0c3bef74e9ec4bfb1dc77369
+      internalID: -2002124720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 12
+        width: 198
+        height: 208
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cc1f13b5cdbfb48ac07d4595b5d093
+      internalID: -715110100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 724
+        width: 210
+        height: 202
+      alignment: 9
+      pivot: {x: 0.4, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd9cdf6b49051c4cb43f2d45070ca33
+      internalID: 322449427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 12
+        width: 222
+        height: 220
+      alignment: 9
+      pivot: {x: 0.481982, y: 0.027272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd63669d9deb0ba44a3b984a8e9fc9c5
+      internalID: -1343054842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 724
+        width: 192
+        height: 202
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6fecf690a42e14daa880b29b40af03
+      internalID: -1332894515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 724
+        width: 192
+        height: 204
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fddfd35cdd0754d981283229d6daf8
+      internalID: -960796939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 724
+        width: 240
+        height: 202
+      alignment: 9
+      pivot: {x: 0.31666666, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0b0be92018928468d6e3fbd9ce0161
+      internalID: 687021052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 494
+        width: 226
+        height: 204
+      alignment: 9
+      pivot: {x: 0.4159292, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39adb2d6abdea641b93304f85ce40d9
+      internalID: 1249553912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 3798
+        y: 260
+        width: 228
+        height: 208
+      alignment: 9
+      pivot: {x: 0.4868421, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d106e79a7f5ae554089a75bedf2c7872
+      internalID: 1547483203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 494
+        width: 228
+        height: 206
+      alignment: 9
+      pivot: {x: 0.39035088, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b73df1245ac4fc4e9a02d98113825b5
+      internalID: 873862964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 952
+        width: 200
+        height: 198
+      alignment: 9
+      pivot: {x: 0.485, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad96b3272f6127847a4dc2ddb8094291
+      internalID: -1328758768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1174
+        width: 226
+        height: 150
+      alignment: 9
+      pivot: {x: 0.50442475, y: 0.04}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a3b41d331177b4794e2b0b8afc8283
+      internalID: 19336601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 12
+        width: 226
+        height: 214
+      alignment: 9
+      pivot: {x: 0.48672566, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691b29c19db647543b6c7f407b193ae1
+      internalID: 310964031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 12
+        width: 228
+        height: 214
+      alignment: 9
+      pivot: {x: 0.47807017, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cd9032508ccab41b6f048284373267
+      internalID: -1189484252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 952
+        width: 232
+        height: 194
+      alignment: 9
+      pivot: {x: 0.46120688, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c630e9bdc528f1f43b56a7fbc0f1de16
+      internalID: 984939131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 12
+        width: 240
+        height: 222
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a201d83bd32ff5442a968ffcb2893057
+      internalID: 1622949974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 12
+        width: 228
+        height: 216
+      alignment: 9
+      pivot: {x: 0.45614034, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbb14f07127b8843b1a6ce463ab15b1
+      internalID: -522956715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 12
+        width: 220
+        height: 212
+      alignment: 9
+      pivot: {x: 0.46363637, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde7c2eb0a027fb4082090590edc8cbd
+      internalID: 629353996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 12
+        width: 240
+        height: 212
+      alignment: 9
+      pivot: {x: 0.425, y: 0.028301887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110fc2b04d5bba9479ca5334742e09a8
+      internalID: -995938499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 12
+        width: 236
+        height: 214
+      alignment: 9
+      pivot: {x: 0.3898305, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffd9d5410158b3468445177970d4ad7
+      internalID: 1944617037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 12
+        width: 248
+        height: 216
+      alignment: 9
+      pivot: {x: 0.49596775, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a3ac3663574dd49b7b1e964a89c668
+      internalID: 974958248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 12
+        width: 264
+        height: 214
+      alignment: 9
+      pivot: {x: 0.4469697, y: 0.028037382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969bf8d84a65b0647a917b6b3af3c22e
+      internalID: 931987569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 260
+        width: 226
+        height: 210
+      alignment: 9
+      pivot: {x: 0.47345132, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26176efce9071fe4b8e9db8dee39449b
+      internalID: -2117099395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 1174
+        width: 232
+        height: 146
+      alignment: 9
+      pivot: {x: 0.49568966, y: 0.04109589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ae82cb389c5b4499b57aaed1d8b6a6
+      internalID: -972559376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 260
+        width: 228
+        height: 210
+      alignment: 9
+      pivot: {x: 0.50438595, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c8da64d4129ab48a05f88daad34c7e
+      internalID: 63823191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 260
+        width: 224
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b45e23b6a41db44a444f23865f5766
+      internalID: -402447432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 952
+        width: 226
+        height: 194
+      alignment: 9
+      pivot: {x: 0.48672566, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff2a904891846e48ae4a11ada43137d
+      internalID: -97218121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 240
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5083333, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6064b5621d7fe478a363e1ed6300e4
+      internalID: -652152297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 3546
+        y: 260
+        width: 228
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5131579, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19bc17a5c1098b46bf079170c7e9f6d
+      internalID: 1651522994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 494
+        width: 228
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32309e0bf0928044e9b10341254736b8
+      internalID: 852627436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 494
+        width: 236
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5169492, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc2562227386e241b05a90e01d2d083
+      internalID: -56853203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 260
+        width: 232
+        height: 208
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8e634389f40cf46a32c6e4f3025657
+      internalID: -1949787122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 494
+        width: 242
+        height: 206
+      alignment: 9
+      pivot: {x: 0.53305787, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97cd55dd05fa6245bd121cf29ce162e
+      internalID: -1799134719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 260
+        width: 220
+        height: 210
+      alignment: 9
+      pivot: {x: 0.49545455, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bfdfcb431f301418e72f967f6adc8f
+      internalID: -257168840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 260
+        width: 236
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5084746, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c1e082ea2e74c4ca97088d1039b159
+      internalID: -1956060318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 1174
+        width: 238
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4e0abe82e2c424482366d65edb4c57
+      internalID: 923318403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 494
+        width: 200
+        height: 206
+      alignment: 9
+      pivot: {x: 0.61, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf27229c2cb43f249a574f33e63add49
+      internalID: 1303223933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 494
+        width: 206
+        height: 206
+      alignment: 9
+      pivot: {x: 0.57281554, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d75ce46beea7849b42d806d4772c03
+      internalID: -316408863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 724
+        width: 206
+        height: 200
+      alignment: 9
+      pivot: {x: 0.66504854, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7983c73d8ce4f8409f6e9501bfb73f9
+      internalID: -996043256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 12
+        width: 230
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5347826, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42e54e4ca5ea154b822dd176aec2386
+      internalID: 48008378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 724
+        width: 204
+        height: 202
+      alignment: 9
+      pivot: {x: 0.61764705, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f8f725755960c45aae73a30d336b11
+      internalID: -234318368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 724
+        width: 196
+        height: 204
+      alignment: 9
+      pivot: {x: 0.56632656, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441ad1417e650814a96e04d6edf15cde
+      internalID: 615790039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 494
+        width: 230
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5304348, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fcf8675d18eee4fa0ce9f12ee224b8
+      internalID: 557399425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 724
+        width: 220
+        height: 204
+      alignment: 9
+      pivot: {x: 0.46363637, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2491d8355b5163c4bae09551d9873be7
+      internalID: -336211211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 260
+        width: 238
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5546219, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35148422273e54b4faf51cda96d49a44
+      internalID: 590344767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 260
+        width: 244
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5860656, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4106e653e7948d4e8d7f1497708d256
+      internalID: 110698237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f10
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 724
+        width: 218
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5045872, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91faa11218de62840bd6ca0e655414be
+      internalID: -953501022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r05-f11
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 1174
+        width: 234
+        height: 146
+      alignment: 9
+      pivot: {x: 0.50427353, y: 0.04109589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbf4216acb53a949ba9fcac9642a507
+      internalID: 1765358022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 494
+        width: 184
+        height: 206
+      alignment: 9
+      pivot: {x: 0.51086956, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7515f058bb7e14d92c9319f56a25ab
+      internalID: -481904055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 494
+        width: 180
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0d8bd6dd8ed3b44a36604b11cb4688
+      internalID: -522035193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 952
+        width: 226
+        height: 194
+      alignment: 9
+      pivot: {x: 0.57522124, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da1e5905ffbbc54682eebcf9cd35fa7
+      internalID: -185701198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 12
+        width: 226
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5442478, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b355d23da2f8e345b3e4e0e64fd3322
+      internalID: -1643936419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 260
+        width: 206
+        height: 210
+      alignment: 9
+      pivot: {x: 0.55825245, y: 0.028571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc0832139be4834984ccc25c2e02fda
+      internalID: -2005147851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 724
+        width: 200
+        height: 204
+      alignment: 9
+      pivot: {x: 0.555, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0383f58513f1ad4d94a414830d59b1e
+      internalID: -524342069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 724
+        width: 228
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5394737, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21448985997a67f42b1f4a110ca4292b
+      internalID: -460523295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 724
+        width: 212
+        height: 204
+      alignment: 9
+      pivot: {x: 0.45754716, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8090bba65d19ed444b74a9a83e29b613
+      internalID: 1167852714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 260
+        width: 230
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5173913, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7b34d4f087a674ab733d1f33a14114
+      internalID: -2041339123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 260
+        width: 246
+        height: 208
+      alignment: 9
+      pivot: {x: 0.52845526, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16a7c579e8584f45995ccf225d53248
+      internalID: 1366844012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f10
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1174
+        width: 210
+        height: 190
+      alignment: 9
+      pivot: {x: 0.48095238, y: 0.031578947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980c603e09c3ac441b24ec93f0ff00cc
+      internalID: 861080415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r06-f11
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 1174
+        width: 234
+        height: 146
+      alignment: 9
+      pivot: {x: 0.508547, y: 0.04109589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa48e84b84e7f1440ba02f73e34a06da
+      internalID: 1471793172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 494
+        width: 222
+        height: 206
+      alignment: 9
+      pivot: {x: 0.527027, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d1803d6595db9468cf93f47715b132
+      internalID: 1853354278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 494
+        width: 226
+        height: 204
+      alignment: 9
+      pivot: {x: 0.48672566, y: 0.029411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd2708e28be8bb478accb76204a84da
+      internalID: 1236828683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1174
+        width: 230
+        height: 190
+      alignment: 9
+      pivot: {x: 0.57391304, y: 0.031578947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b10411ead7a18143afae4b348804f10
+      internalID: -361702558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 12
+        width: 222
+        height: 216
+      alignment: 9
+      pivot: {x: 0.490991, y: 0.027777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a242a6af0ae0e409858d06a7a34a8b
+      internalID: 1769659213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 494
+        width: 228
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5482456, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac8429339e0a91469848258d9d37d53
+      internalID: 1395050447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 494
+        width: 228
+        height: 206
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.029126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc5c4307ebdc73409b6af6b5421fd87
+      internalID: -166382783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 724
+        width: 248
+        height: 200
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef35f0d5b5419da42a38822a13b5dc28
+      internalID: -1949673266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 952
+        width: 240
+        height: 198
+      alignment: 9
+      pivot: {x: 0.56666666, y: 0.030303031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb81cc84812867540aa822d3b244a07f
+      internalID: 1966602100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 260
+        width: 244
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5, y: 0.028846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fedfd9dfd83db14e836e7af0a24a741
+      internalID: 619719273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 952
+        width: 234
+        height: 196
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.030612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f8b483586c906429787bf2ebd342d6
+      internalID: -2033098085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f10
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 724
+        width: 230
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5043478, y: 0.02970297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5760e44ff26557a4bbf877ca68ab5fc0
+      internalID: -1409290145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trimol-reference-v2-r07-f11
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 1174
+        width: 240
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14134ded414c8f4fa325dfedbd87755
+      internalID: -513333721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9be1571f228b4d341a173093a4002b7f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      trimol-clean-v3_0: 5738081334058551201
+      trimol-clean-v3_1: -3252711818240630468
+      trimol-clean-v3_10: 3945613725811601614
+      trimol-clean-v3_11: 6434118195389255247
+      trimol-clean-v3_12: -4464816617602078457
+      trimol-clean-v3_13: 1728484611704028306
+      trimol-clean-v3_14: -8731832149993912967
+      trimol-clean-v3_15: -5159536181918961588
+      trimol-clean-v3_16: 176323433169403480
+      trimol-clean-v3_17: 5146802300873631207
+      trimol-clean-v3_18: -8252399354165824850
+      trimol-clean-v3_19: -6056395219388422707
+      trimol-clean-v3_2: -6942372673783215166
+      trimol-clean-v3_20: -1312439017807095245
+      trimol-clean-v3_21: -5166769349174282910
+      trimol-clean-v3_22: 1313695999233153658
+      trimol-clean-v3_23: 7915988100354534096
+      trimol-clean-v3_24: 7613475264175719559
+      trimol-clean-v3_25: -5137846224857682347
+      trimol-clean-v3_26: 3187010474064486232
+      trimol-clean-v3_27: -7931154492987537943
+      trimol-clean-v3_28: -8533353798663909360
+      trimol-clean-v3_29: -2050926486160380293
+      trimol-clean-v3_3: -8147309414538867270
+      trimol-clean-v3_30: 988029545527852058
+      trimol-clean-v3_31: 7661561785726473583
+      trimol-clean-v3_32: 8203967802397936809
+      trimol-clean-v3_33: -2035195735302965597
+      trimol-clean-v3_34: -4704747962991442007
+      trimol-clean-v3_35: -4606397797441715514
+      trimol-clean-v3_36: -7146359875994704749
+      trimol-clean-v3_37: -2716090250007550846
+      trimol-clean-v3_38: 3444469986357063423
+      trimol-clean-v3_39: -1754773809079961070
+      trimol-clean-v3_4: -8768384426406328345
+      trimol-clean-v3_40: 8288379776215324623
+      trimol-clean-v3_41: 1488066929749144788
+      trimol-clean-v3_42: 5531916726262837447
+      trimol-clean-v3_43: 3857272342365982391
+      trimol-clean-v3_44: -4557860552592528633
+      trimol-clean-v3_45: -6835162966829437919
+      trimol-clean-v3_46: -6543022001118773427
+      trimol-clean-v3_47: 7403299811999555518
+      trimol-clean-v3_48: 7378922356596861986
+      trimol-clean-v3_49: 5850606579023249203
+      trimol-clean-v3_5: -4717882660160834953
+      trimol-clean-v3_50: -8055167467528461296
+      trimol-clean-v3_51: 2209687647447665241
+      trimol-clean-v3_52: 235421965381766901
+      trimol-clean-v3_53: 8904552778720654954
+      trimol-clean-v3_54: -2394281778232195428
+      trimol-clean-v3_55: -5634542550265110344
+      trimol-clean-v3_56: -4477191246222601866
+      trimol-clean-v3_57: 8238971821464568184
+      trimol-clean-v3_58: -3646079156293673726
+      trimol-clean-v3_59: 8511298507146796285
+      trimol-clean-v3_6: 236570655344022877
+      trimol-clean-v3_60: 2737560181037935840
+      trimol-clean-v3_61: 8073258348523115929
+      trimol-clean-v3_62: 7282896131429006536
+      trimol-clean-v3_63: 4912197263296743214
+      trimol-clean-v3_64: -8475876903697429754
+      trimol-clean-v3_65: 7183511875706785619
+      trimol-clean-v3_66: -6319567935837520889
+      trimol-clean-v3_67: 6198846437540468495
+      trimol-clean-v3_68: 1764483211009063701
+      trimol-clean-v3_69: -1127886195016164753
+      trimol-clean-v3_7: -1225865977718439253
+      trimol-clean-v3_70: 7300574603041642935
+      trimol-clean-v3_71: 8128824520271411957
+      trimol-clean-v3_72: 2358478624960233589
+      trimol-clean-v3_73: 3368377424969819378
+      trimol-clean-v3_74: -4620172291183326907
+      trimol-clean-v3_75: -4279233800095983909
+      trimol-clean-v3_76: -7938914960599748517
+      trimol-clean-v3_77: 3822477456099581852
+      trimol-clean-v3_78: 8143262032827720668
+      trimol-clean-v3_79: 5716519070894757760
+      trimol-clean-v3_8: 995949809756495869
+      trimol-clean-v3_80: -8285784493477786415
+      trimol-clean-v3_81: -6879662406260468036
+      trimol-clean-v3_82: 3225433387567626801
+      trimol-clean-v3_83: -5323633347570054139
+      trimol-clean-v3_84: 3511419699560926010
+      trimol-clean-v3_85: -1728934961375286024
+      trimol-clean-v3_86: 5065176286712226520
+      trimol-clean-v3_87: 649293451047034225
+      trimol-clean-v3_88: 7774466050010709917
+      trimol-clean-v3_89: -8084332312129742600
+      trimol-clean-v3_9: 873912384716923471
+      trimol-clean-v3_90: -6054933449184314997
+      trimol-clean-v3_91: 4278228895285788940
+      trimol-clean-v3_92: 7958141023563540657
+      trimol-clean-v3_93: -612848279609094284
+      trimol-clean-v3_94: -8766232923972833281
+      trimol-clean-v3_95: -2380556439785270595
+      trimol-reference-v2-r00-f00: 1486517622
+      trimol-reference-v2-r00-f01: 1696071280
+      trimol-reference-v2-r00-f02: -517631838
+      trimol-reference-v2-r00-f03: -1586413960
+      trimol-reference-v2-r00-f04: 1674303292
+      trimol-reference-v2-r00-f05: -924840213
+      trimol-reference-v2-r00-f06: 1069593673
+      trimol-reference-v2-r00-f07: 1792264709
+      trimol-reference-v2-r00-f08: -1518762963
+      trimol-reference-v2-r00-f09: -915256211
+      trimol-reference-v2-r00-f10: 1374624278
+      trimol-reference-v2-r00-f11: -1658780428
+      trimol-reference-v2-r01-f00: 447175500
+      trimol-reference-v2-r01-f01: 94472411
+      trimol-reference-v2-r01-f02: 732288497
+      trimol-reference-v2-r01-f03: -926623573
+      trimol-reference-v2-r01-f04: 1781489352
+      trimol-reference-v2-r01-f05: -558838862
+      trimol-reference-v2-r01-f06: -658724333
+      trimol-reference-v2-r01-f07: -755889877
+      trimol-reference-v2-r01-f08: -15135187
+      trimol-reference-v2-r01-f09: 560337819
+      trimol-reference-v2-r01-f10: -2027859005
+      trimol-reference-v2-r01-f11: -1156321706
+      trimol-reference-v2-r02-f00: -2002124720
+      trimol-reference-v2-r02-f01: -715110100
+      trimol-reference-v2-r02-f02: 322449427
+      trimol-reference-v2-r02-f03: -1343054842
+      trimol-reference-v2-r02-f04: -1332894515
+      trimol-reference-v2-r02-f05: -960796939
+      trimol-reference-v2-r02-f06: 687021052
+      trimol-reference-v2-r02-f07: 1249553912
+      trimol-reference-v2-r02-f08: 1547483203
+      trimol-reference-v2-r02-f09: 873862964
+      trimol-reference-v2-r02-f10: -1328758768
+      trimol-reference-v2-r02-f11: 19336601
+      trimol-reference-v2-r03-f00: 310964031
+      trimol-reference-v2-r03-f01: -1189484252
+      trimol-reference-v2-r03-f02: 984939131
+      trimol-reference-v2-r03-f03: 1622949974
+      trimol-reference-v2-r03-f04: -522956715
+      trimol-reference-v2-r03-f05: 629353996
+      trimol-reference-v2-r03-f06: -995938499
+      trimol-reference-v2-r03-f07: 1944617037
+      trimol-reference-v2-r03-f08: 974958248
+      trimol-reference-v2-r03-f09: 931987569
+      trimol-reference-v2-r03-f10: -2117099395
+      trimol-reference-v2-r03-f11: -972559376
+      trimol-reference-v2-r04-f00: 63823191
+      trimol-reference-v2-r04-f01: -402447432
+      trimol-reference-v2-r04-f02: -97218121
+      trimol-reference-v2-r04-f03: -652152297
+      trimol-reference-v2-r04-f04: 1651522994
+      trimol-reference-v2-r04-f05: 852627436
+      trimol-reference-v2-r04-f06: -56853203
+      trimol-reference-v2-r04-f07: -1949787122
+      trimol-reference-v2-r04-f08: -1799134719
+      trimol-reference-v2-r04-f09: -257168840
+      trimol-reference-v2-r04-f10: -1956060318
+      trimol-reference-v2-r04-f11: 923318403
+      trimol-reference-v2-r05-f00: 1303223933
+      trimol-reference-v2-r05-f01: -316408863
+      trimol-reference-v2-r05-f02: -996043256
+      trimol-reference-v2-r05-f03: 48008378
+      trimol-reference-v2-r05-f04: -234318368
+      trimol-reference-v2-r05-f05: 615790039
+      trimol-reference-v2-r05-f06: 557399425
+      trimol-reference-v2-r05-f07: -336211211
+      trimol-reference-v2-r05-f08: 590344767
+      trimol-reference-v2-r05-f09: 110698237
+      trimol-reference-v2-r05-f10: -953501022
+      trimol-reference-v2-r05-f11: 1765358022
+      trimol-reference-v2-r06-f00: -481904055
+      trimol-reference-v2-r06-f01: -522035193
+      trimol-reference-v2-r06-f02: -185701198
+      trimol-reference-v2-r06-f03: -1643936419
+      trimol-reference-v2-r06-f04: -2005147851
+      trimol-reference-v2-r06-f05: -524342069
+      trimol-reference-v2-r06-f06: -460523295
+      trimol-reference-v2-r06-f07: 1167852714
+      trimol-reference-v2-r06-f08: -2041339123
+      trimol-reference-v2-r06-f09: 1366844012
+      trimol-reference-v2-r06-f10: 861080415
+      trimol-reference-v2-r06-f11: 1471793172
+      trimol-reference-v2-r07-f00: 1853354278
+      trimol-reference-v2-r07-f01: 1236828683
+      trimol-reference-v2-r07-f02: -361702558
+      trimol-reference-v2-r07-f03: 1769659213
+      trimol-reference-v2-r07-f04: 1395050447
+      trimol-reference-v2-r07-f05: -166382783
+      trimol-reference-v2-r07-f06: -1949673266
+      trimol-reference-v2-r07-f07: 1966602100
+      trimol-reference-v2-r07-f08: 619719273
+      trimol-reference-v2-r07-f09: -2033098085
+      trimol-reference-v2-r07-f10: -1409290145
+      trimol-reference-v2-r07-f11: -513333721
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

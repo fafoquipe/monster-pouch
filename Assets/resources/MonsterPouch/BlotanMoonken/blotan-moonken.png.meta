@@ -1,0 +1,2420 @@
+fileFormatVersion: 2
+guid: 83943b44e266f5449b3e1dbc9f8f07c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4455291989096589343
+    second: blotan-moonken_0
+  - first:
+      213: 1640688812963021110
+    second: blotan-moonken_1
+  - first:
+      213: -3645031516624333159
+    second: blotan-moonken_2
+  - first:
+      213: -8417378423573122814
+    second: blotan-moonken_3
+  - first:
+      213: 3761936094160121995
+    second: blotan-moonken_4
+  - first:
+      213: -6450957067961853236
+    second: blotan-moonken_5
+  - first:
+      213: -5014091047124365216
+    second: blotan-moonken_6
+  - first:
+      213: -8495044924856665556
+    second: blotan-moonken_7
+  - first:
+      213: -8654837315871250166
+    second: blotan-moonken_8
+  - first:
+      213: -9147987173520583350
+    second: blotan-moonken_9
+  - first:
+      213: 1245320115945765544
+    second: blotan-moonken_10
+  - first:
+      213: -9140968381316227615
+    second: blotan-moonken_11
+  - first:
+      213: 7149497486480611209
+    second: blotan-moonken_12
+  - first:
+      213: -9138956357329814472
+    second: blotan-moonken_13
+  - first:
+      213: 6074834534007701692
+    second: blotan-moonken_14
+  - first:
+      213: 8006435271645554046
+    second: blotan-moonken_15
+  - first:
+      213: 7425269226931374010
+    second: blotan-moonken_16
+  - first:
+      213: -6678760166246730862
+    second: blotan-moonken_17
+  - first:
+      213: -2074479825125692399
+    second: blotan-moonken_18
+  - first:
+      213: -6239835251631686704
+    second: blotan-moonken_19
+  - first:
+      213: -7939876375149577680
+    second: blotan-moonken_20
+  - first:
+      213: 5418973077152576637
+    second: blotan-moonken_21
+  - first:
+      213: -6482262059412164135
+    second: blotan-moonken_22
+  - first:
+      213: -1387932530439739824
+    second: blotan-moonken_23
+  - first:
+      213: 5310767322896765316
+    second: blotan-moonken_24
+  - first:
+      213: 8937040250279843455
+    second: blotan-moonken_25
+  - first:
+      213: 6891153768488870330
+    second: blotan-moonken_26
+  - first:
+      213: 9052439419162845322
+    second: blotan-moonken_27
+  - first:
+      213: -1507072308456205602
+    second: blotan-moonken_28
+  - first:
+      213: 9118610570901942544
+    second: blotan-moonken_29
+  - first:
+      213: 6909525081034452044
+    second: blotan-moonken_30
+  - first:
+      213: 4412087976580822879
+    second: blotan-moonken_31
+  - first:
+      213: -8580687825674041624
+    second: blotan-moonken_32
+  - first:
+      213: 4035690020535496642
+    second: blotan-moonken_33
+  - first:
+      213: 7261496639859744188
+    second: blotan-moonken_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blotan-moonken_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 636
+        width: 148
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18eebc757064dd30800000000000000
+      internalID: 4455291989096589343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 488
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6314e9b58c5e4c610800000000000000
+      internalID: 1640688812963021110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_2
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 508
+        width: 156
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996d088d52f3a6dc0800000000000000
+      internalID: -3645031516624333159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 634
+        width: 154
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201f2e2cbe67f2b80800000000000000
+      internalID: -8417378423573122814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 346
+        width: 146
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80722032f4153430800000000000000
+      internalID: 3761936094160121995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_5
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 638
+        width: 284
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca96dea9b89976a0800000000000000
+      internalID: -6450957067961853236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_6
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 12
+        width: 306
+        height: 788
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0609fa822ce5a6ab0800000000000000
+      internalID: -5014091047124365216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_7
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 14
+        width: 146
+        height: 782
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2afee646a98b1a80800000000000000
+      internalID: -8495044924856665556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_8
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 636
+        width: 310
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09e2b60157d3e780800000000000000
+      internalID: -8654837315871250166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 326
+        width: 146
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45d9704222db0180800000000000000
+      internalID: -9147987173520583350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_10
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 326
+        width: 138
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa78962c04484110800000000000000
+      internalID: 1245320115945765544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_11
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 332
+        width: 134
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed919820b1c42180800000000000000
+      internalID: -9140968381316227615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_12
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 352
+        width: 154
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9879934951e183360800000000000000
+      internalID: 7149497486480611209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_13
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 172
+        width: 150
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cfe8ffc97eb2180800000000000000
+      internalID: -9138956357329814472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_14
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 174
+        width: 146
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb00ec4a2d52e4450800000000000000
+      internalID: 6074834534007701692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_15
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 478
+        width: 146
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75679ba5729c1f60800000000000000
+      internalID: 8006435271645554046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_16
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 478
+        width: 152
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab742e8650bdb0760800000000000000
+      internalID: 7425269226931374010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 174
+        width: 142
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293b5dea3074053a0800000000000000
+      internalID: -6678760166246730862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 172
+        width: 138
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c2ba11797f533e0800000000000000
+      internalID: -2074479825125692399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_19
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 172
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db788116e6a769a0800000000000000
+      internalID: -6239835251631686704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_20
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 202
+        width: 138
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a71ba0184efc190800000000000000
+      internalID: -7939876375149577680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_21
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 182
+        width: 142
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74b51f7d4f043b40800000000000000
+      internalID: 5418973077152576637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_22
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 324
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1febf50016a06a0800000000000000
+      internalID: -6482262059412164135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_23
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 320
+        width: 162
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0562ee697b21dbce0800000000000000
+      internalID: -1387932530439739824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 14
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48193061eb2a3b940800000000000000
+      internalID: 5310767322896765316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_25
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 14
+        width: 144
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f765c45d1ceb60c70800000000000000
+      internalID: 8937040250279843455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_26
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 14
+        width: 142
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1af5f67db42af50800000000000000
+      internalID: 6891153768488870330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_27
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 14
+        width: 292
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80e1f990b9b0ad70800000000000000
+      internalID: 9052439419162845322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_28
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 12
+        width: 140
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2d3a368bdc51be0800000000000000
+      internalID: -1507072308456205602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_29
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 170
+        width: 144
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0117bb37000db8e70800000000000000
+      internalID: 9118610570901942544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_30
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 170
+        width: 150
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ce5b5f37093ef50800000000000000
+      internalID: 6909525081034452044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_31
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 14
+        width: 140
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f573fd173a2ea3d30800000000000000
+      internalID: 4412087976580822879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_32
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 12
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e60e2e82e54be880800000000000000
+      internalID: -8580687825674041624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_33
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 12
+        width: 152
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf6b9111b6a10830800000000000000
+      internalID: 4035690020535496642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken_34
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 34
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd588c88b406c460800000000000000
+      internalID: 7261496639859744188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 612
+        width: 148
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.046875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8865766aced65bb45b0becadcbfc87fe
+      internalID: -391625551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 610
+        width: 142
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97951062f0b7ea34396f4e23076d5895
+      internalID: -369775219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 610
+        width: 142
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5070422, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb96e7b8612adb4797ea848dc6a0e76
+      internalID: 125193872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 614
+        width: 142
+        height: 132
+      alignment: 9
+      pivot: {x: 0.53521127, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47637c3f8853f248ba053406097a27c
+      internalID: -1766771201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 610
+        width: 146
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb46119534f91d24a9849a4550651085
+      internalID: 1815276538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 612
+        width: 140
+        height: 130
+      alignment: 9
+      pivot: {x: 0.50714284, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add3f1bc398e120489191dd8832e8d6a
+      internalID: 1984638761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 610
+        width: 148
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858049cc774e67843a3a52c5b1da3867
+      internalID: 1600462459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 610
+        width: 146
+        height: 128
+      alignment: 9
+      pivot: {x: 0.41095892, y: 0.046875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a2627fe93144b44adb41f7ff52392e
+      internalID: 907203974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 610
+        width: 144
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.046875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deb6d6bed54bd746ba1695a2214c913
+      internalID: 2115807225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 608
+        width: 138
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.010869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed2803b6a36c8044af0985bebe6770f
+      internalID: -1227228207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 608
+        width: 146
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5273973, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6d6e217577d87458faadc1ff2e87a3
+      internalID: -83459253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 610
+        width: 154
+        height: 84
+      alignment: 9
+      pivot: {x: 0.58441556, y: 0.071428575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662f26a162e420244a587fff5c55cf75
+      internalID: 202635929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 460
+        width: 152
+        height: 134
+      alignment: 9
+      pivot: {x: 0.49342105, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282b83e0346212746bd9b7495fe8c403
+      internalID: 251852258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 458
+        width: 140
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fa717e5837d1e41adfac2dc6d1b616
+      internalID: 1016680478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 458
+        width: 134
+        height: 140
+      alignment: 9
+      pivot: {x: 0.35820895, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09d08165473aaf4cb4fdc3528706c20
+      internalID: -696396600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 470
+        width: 144
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4861111, y: 0.046875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37bf667f7c203346a16fb001c7f9304
+      internalID: 98609538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 460
+        width: 144
+        height: 132
+      alignment: 9
+      pivot: {x: 0.49305555, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91810b7fa53446a47af22de96419e6af
+      internalID: -269712926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 460
+        width: 142
+        height: 134
+      alignment: 9
+      pivot: {x: 0.47887325, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b4cd11e550f44459546ba0ddf7ea1e
+      internalID: -1239834003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 458
+        width: 144
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5069444, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e66d2060fbaa9f498ba08833342fc55
+      internalID: 1993336187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 458
+        width: 150
+        height: 132
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774909026e085134fafd95877fdd5390
+      internalID: -171950439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 458
+        width: 140
+        height: 136
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09571c388107b2a4eb3b114c72672ac9
+      internalID: 1114691641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 456
+        width: 134
+        height: 152
+      alignment: 9
+      pivot: {x: 0.47761193, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342413bbc4908d84092b83702aa1d661
+      internalID: -370190959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 458
+        width: 142
+        height: 122
+      alignment: 9
+      pivot: {x: 0.52816904, y: 0.04918033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403ad264b28336942bf339262427998f
+      internalID: 2018315759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 462
+        width: 154
+        height: 84
+      alignment: 9
+      pivot: {x: 0.53896105, y: 0.071428575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d893fe8ccc606d340ab4b93c4ca0c40f
+      internalID: -325138103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 312
+        width: 132
+        height: 134
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c0c4cea82754243a397b81b65fccc7
+      internalID: -1332432881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 310
+        width: 130
+        height: 134
+      alignment: 9
+      pivot: {x: 0.45384616, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cbfaa829c82c2459f9958ebe7d60a9
+      internalID: -711815358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 312
+        width: 130
+        height: 136
+      alignment: 9
+      pivot: {x: 0.44615385, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af989ef724af6224d9bf95823ba007b7
+      internalID: -794068998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 318
+        width: 136
+        height: 132
+      alignment: 9
+      pivot: {x: 0.52205884, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b56bb19a3747fd4f9407a8f572e03f2
+      internalID: 1422263642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 312
+        width: 132
+        height: 134
+      alignment: 9
+      pivot: {x: 0.4318182, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9533df9dcf04e534aa28d800524fb41c
+      internalID: -1572433178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 320
+        width: 134
+        height: 130
+      alignment: 9
+      pivot: {x: 0.49253732, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7411dc292b166434b932902356c3dc7a
+      internalID: -233482413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 310
+        width: 132
+        height: 136
+      alignment: 9
+      pivot: {x: 0.46212122, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce42b9e19ae03a64e9064ef2210da8fc
+      internalID: 212760721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 310
+        width: 160
+        height: 132
+      alignment: 9
+      pivot: {x: 0.36875, y: 0.045454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2486b8518a0dcb4bb7a4564304d0807
+      internalID: -988061805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 310
+        width: 134
+        height: 136
+      alignment: 9
+      pivot: {x: 0.42537314, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cae6a092ca58a4d9457126ddc6e146
+      internalID: -1631066742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 308
+        width: 136
+        height: 148
+      alignment: 9
+      pivot: {x: 0.44117647, y: 0.013513514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4c0d055b87a1044a87d599e7ac4879
+      internalID: 34461439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 310
+        width: 130
+        height: 124
+      alignment: 9
+      pivot: {x: 0.4846154, y: 0.048387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bda3c8f112fa6c4c97b5dbf675b4db3
+      internalID: 1599034257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 312
+        width: 156
+        height: 80
+      alignment: 9
+      pivot: {x: 0.50641024, y: 0.075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882dbc3eaeccf494a84c9bb1e9d7dcf8
+      internalID: 888690638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 170
+        width: 138
+        height: 128
+      alignment: 9
+      pivot: {x: 0.44927537, y: 0.046875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9578677b18ebfe045805e2ee8a8564ec
+      internalID: -1316023723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 168
+        width: 140
+        height: 126
+      alignment: 9
+      pivot: {x: 0.47857141, y: 0.04761905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068456e41a24e2e4eb607d96e444d734
+      internalID: -2020128231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 164
+        width: 138
+        height: 136
+      alignment: 9
+      pivot: {x: 0.51449275, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7763152900766c14fb23978acacff8d2
+      internalID: 848520412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 174
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5367647, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797299caa1634564b8f1bc3a3343af3c
+      internalID: 38509517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 168
+        width: 138
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4710145, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462f73c9fafc6d6489048841b2d27fdb
+      internalID: -410227824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 168
+        width: 140
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5214286, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0376d7846759614bad2704cfd42c052
+      internalID: 166263496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 168
+        width: 142
+        height: 130
+      alignment: 9
+      pivot: {x: 0.45070422, y: 0.046153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa340e26fd078054aab3b054071d049b
+      internalID: -496128217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 168
+        width: 164
+        height: 124
+      alignment: 9
+      pivot: {x: 0.37804878, y: 0.048387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5724cc8a7db528b4891e1f91a51b57f2
+      internalID: -656842716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 164
+        width: 138
+        height: 138
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.04347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f2310323702cf4482ca3657fc646fe
+      internalID: 2002779276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 156
+        width: 134
+        height: 152
+      alignment: 9
+      pivot: {x: 0.4402985, y: 0.013157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9540472cec32f4eaa84b91736e332e
+      internalID: 2143438986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 168
+        width: 146
+        height: 126
+      alignment: 9
+      pivot: {x: 0.4520548, y: 0.04761905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85de777441ad4cb419151ed3eb1351cf
+      internalID: -1013589193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 166
+        width: 154
+        height: 80
+      alignment: 9
+      pivot: {x: 0.512987, y: 0.075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c667f829f7d323e4e9b7e2ad47dfda9a
+      internalID: -1814032879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 16
+        width: 142
+        height: 134
+      alignment: 9
+      pivot: {x: 0.43661973, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ef4530cf4719f45adc216c87bc5267
+      internalID: 1184501630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 16
+        width: 146
+        height: 134
+      alignment: 9
+      pivot: {x: 0.44520548, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966e424bbad583442aec9c67d72839c4
+      internalID: -571577463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 16
+        width: 142
+        height: 138
+      alignment: 9
+      pivot: {x: 0.45070422, y: 0.04347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e716bda65139843bf0da7fb3dc948a
+      internalID: -1136302866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 16
+        width: 144
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d4bab72d1070c4da7cff434820a72c
+      internalID: 581308425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 16
+        width: 144
+        height: 134
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614115cf4c85a27498b600e114214388
+      internalID: 779498782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 12
+        width: 144
+        height: 142
+      alignment: 9
+      pivot: {x: 0.49305555, y: 0.04225352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1ac0916bd66cb41a9dae0ecd7bcb4c
+      internalID: 1466614271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 14
+        width: 142
+        height: 134
+      alignment: 9
+      pivot: {x: 0.43661973, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e971cf8be775a459123799d0662d1b
+      internalID: -908404741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 14
+        width: 158
+        height: 136
+      alignment: 9
+      pivot: {x: 0.39240506, y: 0.04411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a888375581a10e74b93ba284de660a07
+      internalID: -1979425704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 14
+        width: 144
+        height: 140
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.042857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bde775541abc14789d50708624d732
+      internalID: -1281370118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 8
+        width: 144
+        height: 148
+      alignment: 9
+      pivot: {x: 0.4513889, y: 0.04054054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9201d95d3804f4ba232dceb9ec1ed4
+      internalID: -576924331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 14
+        width: 142
+        height: 122
+      alignment: 9
+      pivot: {x: 0.45070422, y: 0.04918033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e944018e3aee56145a033134da576602
+      internalID: 2131017433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blotan-moonken-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 14
+        width: 152
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5394737, y: 0.06818182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c1de6d291af3046908826360a5fd99
+      internalID: 269755034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 415a8f7e9bf11a3439b223b954537e55
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blotan-moonken-r00-f00: -391625551
+      blotan-moonken-r00-f01: -369775219
+      blotan-moonken-r00-f02: 125193872
+      blotan-moonken-r00-f03: -1766771201
+      blotan-moonken-r00-f04: 1815276538
+      blotan-moonken-r00-f05: 1984638761
+      blotan-moonken-r00-f06: 1600462459
+      blotan-moonken-r00-f07: 907203974
+      blotan-moonken-r00-f08: 2115807225
+      blotan-moonken-r00-f09: -1227228207
+      blotan-moonken-r00-f10: -83459253
+      blotan-moonken-r00-f11: 202635929
+      blotan-moonken-r01-f00: 251852258
+      blotan-moonken-r01-f01: 1016680478
+      blotan-moonken-r01-f02: -696396600
+      blotan-moonken-r01-f03: 98609538
+      blotan-moonken-r01-f04: -269712926
+      blotan-moonken-r01-f05: -1239834003
+      blotan-moonken-r01-f06: 1993336187
+      blotan-moonken-r01-f07: -171950439
+      blotan-moonken-r01-f08: 1114691641
+      blotan-moonken-r01-f09: -370190959
+      blotan-moonken-r01-f10: 2018315759
+      blotan-moonken-r01-f11: -325138103
+      blotan-moonken-r02-f00: -1332432881
+      blotan-moonken-r02-f01: -711815358
+      blotan-moonken-r02-f02: -794068998
+      blotan-moonken-r02-f03: 1422263642
+      blotan-moonken-r02-f04: -1572433178
+      blotan-moonken-r02-f05: -233482413
+      blotan-moonken-r02-f06: 212760721
+      blotan-moonken-r02-f07: -988061805
+      blotan-moonken-r02-f08: -1631066742
+      blotan-moonken-r02-f09: 34461439
+      blotan-moonken-r02-f10: 1599034257
+      blotan-moonken-r02-f11: 888690638
+      blotan-moonken-r03-f00: -1316023723
+      blotan-moonken-r03-f01: -2020128231
+      blotan-moonken-r03-f02: 848520412
+      blotan-moonken-r03-f03: 38509517
+      blotan-moonken-r03-f04: -410227824
+      blotan-moonken-r03-f05: 166263496
+      blotan-moonken-r03-f06: -496128217
+      blotan-moonken-r03-f07: -656842716
+      blotan-moonken-r03-f08: 2002779276
+      blotan-moonken-r03-f09: 2143438986
+      blotan-moonken-r03-f10: -1013589193
+      blotan-moonken-r03-f11: -1814032879
+      blotan-moonken-r04-f00: 1184501630
+      blotan-moonken-r04-f01: -571577463
+      blotan-moonken-r04-f02: -1136302866
+      blotan-moonken-r04-f03: 581308425
+      blotan-moonken-r04-f04: 779498782
+      blotan-moonken-r04-f05: 1466614271
+      blotan-moonken-r04-f06: -908404741
+      blotan-moonken-r04-f07: -1979425704
+      blotan-moonken-r04-f08: -1281370118
+      blotan-moonken-r04-f09: -576924331
+      blotan-moonken-r04-f10: 2131017433
+      blotan-moonken-r04-f11: 269755034
+      blotan-moonken_0: 4455291989096589343
+      blotan-moonken_1: 1640688812963021110
+      blotan-moonken_10: 1245320115945765544
+      blotan-moonken_11: -9140968381316227615
+      blotan-moonken_12: 7149497486480611209
+      blotan-moonken_13: -9138956357329814472
+      blotan-moonken_14: 6074834534007701692
+      blotan-moonken_15: 8006435271645554046
+      blotan-moonken_16: 7425269226931374010
+      blotan-moonken_17: -6678760166246730862
+      blotan-moonken_18: -2074479825125692399
+      blotan-moonken_19: -6239835251631686704
+      blotan-moonken_2: -3645031516624333159
+      blotan-moonken_20: -7939876375149577680
+      blotan-moonken_21: 5418973077152576637
+      blotan-moonken_22: -6482262059412164135
+      blotan-moonken_23: -1387932530439739824
+      blotan-moonken_24: 5310767322896765316
+      blotan-moonken_25: 8937040250279843455
+      blotan-moonken_26: 6891153768488870330
+      blotan-moonken_27: 9052439419162845322
+      blotan-moonken_28: -1507072308456205602
+      blotan-moonken_29: 9118610570901942544
+      blotan-moonken_3: -8417378423573122814
+      blotan-moonken_30: 6909525081034452044
+      blotan-moonken_31: 4412087976580822879
+      blotan-moonken_32: -8580687825674041624
+      blotan-moonken_33: 4035690020535496642
+      blotan-moonken_34: 7261496639859744188
+      blotan-moonken_4: 3761936094160121995
+      blotan-moonken_5: -6450957067961853236
+      blotan-moonken_6: -5014091047124365216
+      blotan-moonken_7: -8495044924856665556
+      blotan-moonken_8: -8654837315871250166
+      blotan-moonken_9: -9147987173520583350
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

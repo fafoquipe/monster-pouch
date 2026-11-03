@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 6a587603038745b47ad0574605085a4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6487097360453021122
+    second: bugaloo_0
+  - first:
+      213: 8409257069364318098
+    second: bugaloo_1
+  - first:
+      213: -5329933404919881234
+    second: bugaloo_2
+  - first:
+      213: -2693607424990446325
+    second: bugaloo_3
+  - first:
+      213: 8958152332464576223
+    second: bugaloo_4
+  - first:
+      213: 1735800911944001549
+    second: bugaloo_5
+  - first:
+      213: -6219217330917122953
+    second: bugaloo_6
+  - first:
+      213: 1828458824572645092
+    second: bugaloo_7
+  - first:
+      213: -2181890940818352565
+    second: bugaloo_8
+  - first:
+      213: -4829130674607229159
+    second: bugaloo_9
+  - first:
+      213: -4983202640529037222
+    second: bugaloo_10
+  - first:
+      213: 4737053026930868297
+    second: bugaloo_11
+  - first:
+      213: 2665645237530420091
+    second: bugaloo_12
+  - first:
+      213: -2496453523468378227
+    second: bugaloo_13
+  - first:
+      213: 6877473999628375778
+    second: bugaloo_14
+  - first:
+      213: 4644523287309494610
+    second: bugaloo_15
+  - first:
+      213: 8694500217148472349
+    second: bugaloo_16
+  - first:
+      213: 2049569516696793749
+    second: bugaloo_17
+  - first:
+      213: 2273265650885478204
+    second: bugaloo_18
+  - first:
+      213: -4582265582093483340
+    second: bugaloo_19
+  - first:
+      213: -3102379045589173210
+    second: bugaloo_20
+  - first:
+      213: 217680300330971202
+    second: bugaloo_21
+  - first:
+      213: -625589596127345046
+    second: bugaloo_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bugaloo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1237
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd2d21edacc60a50800000000000000
+      internalID: 6487097360453021122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1048
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f076c10cea3b470800000000000000
+      internalID: 8409257069364318098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1036
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee12343bec54806b0800000000000000
+      internalID: -5329933404919881234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_3
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 966
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0df61d71526e9ad0800000000000000
+      internalID: -2693607424990446325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_4
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 933
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd653648510c15c70800000000000000
+      internalID: 8958152332464576223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_5
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 777
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08a8359bbdc61810800000000000000
+      internalID: 1735800911944001549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_6
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 728
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c5bb1d9c6e0b9a0800000000000000
+      internalID: -6219217330917122953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 650
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eea4150d9dff5910800000000000000
+      internalID: 1828458824572645092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 616
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4611eddfbd58b1e0800000000000000
+      internalID: -2181890940818352565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_9
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 437
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917f71ebc3b7bfcb0800000000000000
+      internalID: -4829130674607229159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_10
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 426
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a586a7fb99b18dab0800000000000000
+      internalID: -4983202640529037222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 350
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940476841a46db140800000000000000
+      internalID: 4737053026930868297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 178
+        width: 6
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73663868364ef420800000000000000
+      internalID: 2665645237530420091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 113
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f15674fb0da5dd0800000000000000
+      internalID: -2496453523468378227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_14
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 109
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e695db0a22b17f50800000000000000
+      internalID: 6877473999628375778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_15
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 102
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259ac137259a47040800000000000000
+      internalID: 4644523287309494610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_16
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cf0bec1e119a870800000000000000
+      internalID: 8694500217148472349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_17
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5927e29cd98817c10800000000000000
+      internalID: 2049569516696793749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_18
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 103
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c374021b0134c8f10800000000000000
+      internalID: 2273265650885478204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_19
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 87
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2c1d02bb58860c0800000000000000
+      internalID: -4582265582093483340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_20
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cba05f1b222f4d0800000000000000
+      internalID: -3102379045589173210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_21
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 63
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240f3df641b550300800000000000000
+      internalID: 217680300330971202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugaloo_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 37
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6646aba3957157f0800000000000000
+      internalID: -625589596127345046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bugaloo_0: 6487097360453021122
+      bugaloo_1: 8409257069364318098
+      bugaloo_10: -4983202640529037222
+      bugaloo_11: 4737053026930868297
+      bugaloo_12: 2665645237530420091
+      bugaloo_13: -2496453523468378227
+      bugaloo_14: 6877473999628375778
+      bugaloo_15: 4644523287309494610
+      bugaloo_16: 8694500217148472349
+      bugaloo_17: 2049569516696793749
+      bugaloo_18: 2273265650885478204
+      bugaloo_19: -4582265582093483340
+      bugaloo_2: -5329933404919881234
+      bugaloo_20: -3102379045589173210
+      bugaloo_21: 217680300330971202
+      bugaloo_22: -625589596127345046
+      bugaloo_3: -2693607424990446325
+      bugaloo_4: 8958152332464576223
+      bugaloo_5: 1735800911944001549
+      bugaloo_6: -6219217330917122953
+      bugaloo_7: 1828458824572645092
+      bugaloo_8: -2181890940818352565
+      bugaloo_9: -4829130674607229159
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

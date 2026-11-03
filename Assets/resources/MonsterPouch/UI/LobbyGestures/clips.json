@@ -1,0 +1,1053 @@
+{
+  "clips": [
+    {
+      "id": "anuik",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/anuik",
+      "reference": [
+        144,
+        102
+      ],
+      "idleRect": [
+        0,
+        0,
+        78,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        74,
+        64
+      ],
+      "idleAnchor": [
+        37.5,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 1.139709,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "9641e8480d8f436dc5a379f8ab6dd8f335f998cf83624cc830c4ab6e2822369d"
+    },
+    {
+      "id": "tokoro",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/tokoro",
+      "reference": [
+        143,
+        133
+      ],
+      "idleRect": [
+        0,
+        0,
+        70,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        66,
+        64
+      ],
+      "idleAnchor": [
+        34.5,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.936923,
+      "frames": [],
+      "headRestOffsetX": -0.031346,
+      "sha256": "a85fc07f7935176a2d884ce000b0daa54eaf0d1a42e512bc450179edca7dff83"
+    },
+    {
+      "id": "atong",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/atong",
+      "reference": [
+        102,
+        183
+      ],
+      "idleRect": [
+        0,
+        0,
+        64,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        60,
+        64
+      ],
+      "idleAnchor": [
+        33.5,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 1.024014,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "d3b212f9562945618ab8f3c243b5d92fc0974c95655a63c596437a83c3b6f312"
+    },
+    {
+      "id": "flo",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/flo",
+      "reference": [
+        136,
+        132
+      ],
+      "idleRect": [
+        0,
+        0,
+        68,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        64,
+        64
+      ],
+      "idleAnchor": [
+        33,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.970588,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "afab5b37f74da1ee26e9e74f2cb754fcb4b01f6cf6e14a6f0c8230236735a3fb"
+    },
+    {
+      "id": "gochan",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/gochan",
+      "reference": [
+        139,
+        141
+      ],
+      "idleRect": [
+        0,
+        0,
+        66,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        62,
+        64
+      ],
+      "idleAnchor": [
+        32,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.876432,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "b7782c3bc9950601e31645ac4494b147a09fce6f043d4d0878d47bf8ad92ee5e"
+    },
+    {
+      "id": "jazar",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/jazar",
+      "reference": [
+        149,
+        146
+      ],
+      "idleRect": [
+        0,
+        0,
+        67,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        63,
+        64
+      ],
+      "idleAnchor": [
+        32,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 1.013595,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "36099fdd1ccf5016724df75000350ebee4a4de09d7cab46c953141a306b24447"
+    },
+    {
+      "id": "kayon",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/kayon",
+      "reference": [
+        157,
+        145
+      ],
+      "idleRect": [
+        0,
+        0,
+        63,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        59,
+        64
+      ],
+      "idleAnchor": [
+        38,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.958384,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "ec988b68e56389ae5a126b4a50da1505bd580943776b742f9cdf17aa0484a261"
+    },
+    {
+      "id": "bugaloo",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/bugaloo",
+      "reference": [
+        142,
+        138
+      ],
+      "idleRect": [
+        0,
+        0,
+        65,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        61,
+        64
+      ],
+      "idleAnchor": [
+        32,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.982206,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "a45559b8743ea0b57eaee4d2c191798e90860e86bea0a2f92e5cfa7d1d3085ed"
+    },
+    {
+      "id": "popow",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/popow",
+      "reference": [
+        142,
+        127
+      ],
+      "idleRect": [
+        0,
+        0,
+        56,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        52,
+        64
+      ],
+      "idleAnchor": [
+        29.5,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.918216,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "b0b23ba52e37356a404ab09a81f51c30db58160c662337966c8e4b5be17e53c4"
+    },
+    {
+      "id": "sepora",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/sepora",
+      "reference": [
+        155,
+        124
+      ],
+      "idleRect": [
+        0,
+        0,
+        61,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        57,
+        64
+      ],
+      "idleAnchor": [
+        28,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 1.08615,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "61b5e62940ef796e6d0bd1c5e637dd615e45c7eb2f667096077dc84dc421ce11"
+    },
+    {
+      "id": "tauris",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyGestures/tauris-idle",
+      "reference": [
+        110,
+        139
+      ],
+      "idleRect": [
+        234,
+        96,
+        768,
+        1063
+      ],
+      "idleBounds": [
+        3,
+        3,
+        762,
+        1057
+      ],
+      "idleAnchor": [
+        363,
+        3
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.910966,
+      "frames": [],
+      "headRestOffsetX": 0.023686,
+      "sha256": "8c3a626ce257cb84f09e9e9883653384b2fd6ed0b713992fa08f2b7fef0bf526"
+    },
+    {
+      "id": "atori",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/atori",
+      "reference": [
+        140,
+        156
+      ],
+      "idleRect": [
+        0,
+        0,
+        60,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        56,
+        64
+      ],
+      "idleAnchor": [
+        29.5,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.955268,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "d514625e4033a6f8326e39279df56c3c749dc0e3884c91b71428dd52c193372f"
+    },
+    {
+      "id": "blotan",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/blotan",
+      "reference": [
+        136,
+        135
+      ],
+      "idleRect": [
+        0,
+        0,
+        67,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        63,
+        64
+      ],
+      "idleAnchor": [
+        31.5,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.996454,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "a984865a514711f6a48ac13a411b4e1e06c65415b056bbcfe6bd9c64c1c2d546"
+    },
+    {
+      "id": "bugui",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/bugui",
+      "reference": [
+        89,
+        127
+      ],
+      "idleRect": [
+        0,
+        0,
+        67,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        63,
+        64
+      ],
+      "idleAnchor": [
+        30,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.934201,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "9063403609b258ae79ead492665379e12914b12104fc9910bf2a1596c936378e"
+    },
+    {
+      "id": "stein",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/stein",
+      "reference": [
+        145,
+        148
+      ],
+      "idleRect": [
+        0,
+        0,
+        50,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        46,
+        64
+      ],
+      "idleAnchor": [
+        25.5,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.928236,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "00d142cfcc24692c364c4744f07a7a16af050bd83d4f1bda7716d2111b460199"
+    },
+    {
+      "id": "trimol",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/trimol",
+      "reference": [
+        142,
+        124
+      ],
+      "idleRect": [
+        0,
+        0,
+        77,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        73,
+        64
+      ],
+      "idleAnchor": [
+        38.5,
+        2
+      ],
+      "headroom": 1.18,
+      "props": "two-stone-juggle",
+      "gestureScaleX": 0.929522,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "e574ad9ec74852d71468349d3218fd7db31db14897425dcd97a6698f9502a1fb"
+    },
+    {
+      "id": "tsu",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/tsu",
+      "reference": [
+        133,
+        151
+      ],
+      "idleRect": [
+        0,
+        0,
+        65,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        61,
+        64
+      ],
+      "idleAnchor": [
+        34,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.928201,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "33e0f892a42370955342db216696af4408428b4d23bf34bc51817576a40a19ba"
+    },
+    {
+      "id": "aky",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/aky",
+      "reference": [
+        136,
+        134
+      ],
+      "idleRect": [
+        0,
+        0,
+        64,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        60,
+        64
+      ],
+      "idleAnchor": [
+        32,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 1.060454,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "8274be8b157a8185f4d7d87f8785bad12146aed0502e96b117751a93c4c599f2"
+    },
+    {
+      "id": "hymay",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/LobbyIdles/hymay",
+      "reference": [
+        114,
+        157
+      ],
+      "idleRect": [
+        0,
+        0,
+        70,
+        68
+      ],
+      "idleBounds": [
+        2,
+        2,
+        66,
+        64
+      ],
+      "idleAnchor": [
+        36.5,
+        2
+      ],
+      "headroom": 1,
+      "props": "",
+      "gestureScaleX": 0.977244,
+      "frames": [],
+      "headRestOffsetX": 0,
+      "sha256": "248beafc4ae44fe0172e2bdf7c918c645ec202df3dfc031a596250372b5e0c93"
+    },
+    {
+      "id": "korran",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/korran/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        100,
+        81,
+        145,
+        119
+      ],
+      "idleAnchor": [
+        192,
+        84
+      ],
+      "referenceHeight": 119,
+      "texture": "",
+      "frames": []
+    },
+    {
+      "id": "golem-tectonico",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/golem-tectonico/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        118,
+        82,
+        169,
+        129
+      ],
+      "idleAnchor": [
+        192,
+        84
+      ],
+      "referenceHeight": 129,
+      "texture": "",
+      "frames": []
+    },
+    {
+      "id": "la-minera",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/la-minera/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        119,
+        81,
+        146,
+        137
+      ],
+      "idleAnchor": [
+        192,
+        84
+      ],
+      "referenceHeight": 137,
+      "texture": "",
+      "frames": []
+    },
+    {
+      "id": "protectora-del-mausoleo",
+      "idleTexture": "MonsterPouch/Eronya/Geothar/protectora-del-mausoleo/body/S/frame-00",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        120,
+        82,
+        146,
+        119
+      ],
+      "idleAnchor": [
+        192,
+        84
+      ],
+      "referenceHeight": 119,
+      "texture": "",
+      "frames": []
+    },
+    {
+      "id": "alveyr",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/alveyr/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        84,
+        79,
+        401,
+        487
+      ],
+      "idleAnchor": [
+        271,
+        79
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "zephalontropo",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/zephalontropo/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        92,
+        147,
+        295,
+        338
+      ],
+      "idleAnchor": [
+        260,
+        147
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "alboguera",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/alboguera/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        67,
+        119,
+        413,
+        402
+      ],
+      "idleAnchor": [
+        302,
+        119
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "palista",
+      "texture": "",
+      "idleTexture": "MonsterPouch/UI/AireolaLobby/palista/idle",
+      "idleRect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "idleBounds": [
+        25,
+        162,
+        455,
+        317
+      ],
+      "idleAnchor": [
+        196,
+        162
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "drayven",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/drayven-portrait",
+      "idleRect": [
+        0,
+        0,
+        126,
+        134
+      ],
+      "idleBounds": [
+        2,
+        2,
+        122,
+        130
+      ],
+      "idleAnchor": [
+        70,
+        3
+      ],
+      "referenceHeight": 128,
+      "frames": []
+    },
+    {
+      "id": "titanica",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/titanica-portrait",
+      "idleRect": [
+        0,
+        0,
+        148,
+        132
+      ],
+      "idleBounds": [
+        2,
+        2,
+        144,
+        128
+      ],
+      "idleAnchor": [
+        80,
+        2
+      ],
+      "referenceHeight": 128,
+      "frames": []
+    },
+    {
+      "id": "jabalinero",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/jabalinero-portrait",
+      "idleRect": [
+        0,
+        0,
+        130,
+        133
+      ],
+      "idleBounds": [
+        2,
+        2,
+        126,
+        129
+      ],
+      "idleAnchor": [
+        68,
+        3
+      ],
+      "referenceHeight": 128,
+      "frames": []
+    },
+    {
+      "id": "maestro-de-las-mareas",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Aquarion/UI/maestro-de-las-mareas-portrait",
+      "idleRect": [
+        0,
+        0,
+        134,
+        133
+      ],
+      "idleBounds": [
+        2,
+        2,
+        130,
+        129
+      ],
+      "idleAnchor": [
+        71,
+        3
+      ],
+      "referenceHeight": 128,
+      "frames": []
+    },
+    {
+      "id": "cael",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Characters/cael/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        77,
+        61,
+        373,
+        383
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "guarda-veterano",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Characters/guarda-veterano/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        31,
+        11,
+        444,
+        443
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "arboreo",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Characters/arboreo/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        41,
+        54,
+        439,
+        428
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "antidota",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Characters/antidota/Art/portrait",
+      "idleRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "idleBounds": [
+        64,
+        22,
+        409,
+        426
+      ],
+      "idleAnchor": [
+        256,
+        64
+      ],
+      "referenceHeight": 0,
+      "frames": []
+    },
+    {
+      "id": "serya",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/serya/portrait",
+      "idleRect": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "idleBounds": [
+        89,
+        32,
+        146,
+        162
+      ],
+      "idleAnchor": [
+        160,
+        32
+      ],
+      "referenceHeight": 160,
+      "frames": []
+    },
+    {
+      "id": "legionario",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/legionario/portrait",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        101,
+        32,
+        162,
+        164
+      ],
+      "idleAnchor": [
+        192,
+        32
+      ],
+      "referenceHeight": 160,
+      "frames": []
+    },
+    {
+      "id": "dagata",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/dagata/portrait",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        107,
+        32,
+        172,
+        162
+      ],
+      "idleAnchor": [
+        192,
+        32
+      ],
+      "referenceHeight": 160,
+      "frames": []
+    },
+    {
+      "id": "canonero-del-orvek",
+      "texture": "",
+      "idleTexture": "MonsterPouch/Eronya/Volkanar/canonero-del-orvek/portrait",
+      "idleRect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "idleBounds": [
+        112,
+        32,
+        165,
+        160
+      ],
+      "idleAnchor": [
+        192,
+        32
+      ],
+      "referenceHeight": 160,
+      "frames": []
+    }
+  ]
+}

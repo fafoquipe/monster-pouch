@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511ff38c74f24bcaaebcfb1a3166968f, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: MonsterPouch.Gameplay::MonsterPouch.Gameplay.Characters.CharacterAttack
+  Kind: 1
+  DisplayName: "Ataque b\xE1sico"
+  Description: Lanza una jabalina contra su objetivo.
+  Damage: 6
+  Range: 3
+  Interval: 1.25
+  Windup: 1
+  Hold: 0.06
+  Recovery: 0.14
+  ProjectileSpeed: 4
+  ProjectileVisuals:
+  - VariantId: flight
+    RendererId: aquarion-javelin
+    NameEnglish: Javelin
+    NameSpanish: Jabalina
+    OverrideSize: 1
+    SizePercent: 49.5
+    LegacyPercent: -1
+    LegacyNoteEnglish: 
+    LegacyNoteSpanish: 
+    Frames:
+    - Sprite: {fileID: 21300000, guid: 1237fffa49b8725f4847b566abc79e10, type: 3}
+      VisibleRect:
+        serializedVersion: 2
+        x: 0.109375
+        y: 0.31640625
+        width: 0.8671875
+        height: 0.234375
+  ProjectilePrefab: {fileID: 0}
+  Sound: {fileID: 0}

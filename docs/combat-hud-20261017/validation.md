@@ -1,0 +1,9 @@
+# Validación
+
+- Unity 6000.3.9f1. Cambios compilados e imágenes importadas con transparencia, filtrado bilineal y sin mipmaps.
+- `Logs/combat-hud-edit-final.xml`: 23 pruebas aprobadas, 0 fallidas (11 `CombatHudSnapshotTests` y 12 `CombatStatusFeedbackTests`). Contadores reales, parámetros de balance, reinicios, coexistencia con energía, expiración, inmunidad de Atong e invulnerabilidad de la flor de Flo.
+- Una ejecución posterior de `CombatHudSnapshotTests` durante la integración de Rosie volvió a aprobar las 11 pruebas (`Logs/local-validation/rosie/edit-final.xml`).
+- `Logs/combat-hud-play-final.xml`: las 3 pruebas nuevas de `CombatHudPlayTests` aprobaron. Verifican geometría circular visible, carga del atlas, duración independiente, más de seis estados, contador preparado, estrellas a la izquierda, colores de ambos equipos, invisibilidad, pausa y limpieza al salir.
+- La misma ejecución adicional incluyó otras 4 pruebas existentes: 3 aprobaron y 1 falló. Resultado total: 6 aprobadas, 1 fallida. `CombatStatusEffectsPlayTests.CharacterControlEffectsStayVisibleTogetherAndResetCleanly` espera `Renderer.color.r > .9` tras reiniciar; obtiene `.852058828`. El personaje multiplica su color por `SceneCharacterLight.SampleWorld`, que aplica luz ambiente de la escena. El test asume un blanco casi puro. Este cambio del HUD no modifica esa iluminación ni la aserción. La prueba de legibilidad de salud/energía y las otras dos de efectos aprobaron.
+- `combat-hud-preview.png`: captura revisada visualmente de los componentes reales (`UnitVitalsUI`, `UnitStatusBadges`, `CombatBadgeRing`) en una escena aislada. Incluye el atlas final con estrella/rayo amarillos, luna amarilla con estrella azul y escudo roto lila. Los fondos circulares son opacos y los aros son dinámicos. Las muestras se amplían para revisión.
+- No se generó una nueva compilación distribuible del juego.

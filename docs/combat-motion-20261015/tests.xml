@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="135" result="Passed" total="135" passed="135" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 17:34:43Z" end-time="2026-10-15 17:34:57Z" duration="14,2362908">
+  <test-suite type="TestSuite" id="1000" name="Monster Pouch" fullname="Monster Pouch" runstate="Runnable" testcasecount="840" result="Passed" start-time="2026-10-15 17:34:43Z" end-time="2026-10-15 17:34:57Z" duration="14.236291" total="135" passed="135" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="2008" name="MonsterPouch.Gameplay.Tests.EditMode.dll" fullname="C:/Users/HP VICTUS/Juegos Unity/mini-gogos/game/monster-pouch/Library/ScriptAssemblies/MonsterPouch.Gameplay.Tests.EditMode.dll" runstate="Runnable" testcasecount="840" result="Passed" start-time="2026-10-15 17:34:43Z" end-time="2026-10-15 17:34:57Z" duration="14.067222" total="135" passed="135" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="18356" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="2009" name="MonsterPouch" fullname="MonsterPouch" runstate="Runnable" testcasecount="788" result="Passed" start-time="2026-10-15 17:34:43Z" end-time="2026-10-15 17:34:57Z" duration="13.890928" total="135" passed="135" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="2010" name="Gameplay" fullname="MonsterPouch.Gameplay" runstate="Runnable" testcasecount="788" result="Passed" start-time="2026-10-15 17:34:43Z" end-time="2026-10-15 17:34:57Z" duration="13.812215" total="135" passed="135" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="2011" name="Tests" fullname="MonsterPouch.Gameplay.Tests" runstate="Runnable" testcasecount="788" result="Passed" start-time="2026-10-15 17:34:43Z" end-time="2026-10-15 17:34:57Z" duration="13.687282" total="135" passed="135" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestSuite" id="2012" name="EditMode" fullname="MonsterPouch.Gameplay.Tests.EditMode" runstate="Runnable" testcasecount="778" result="Passed" start-time="2026-10-15 17:34:43Z" end-time="2026-10-15 17:34:57Z" duration="13.497978" total="135" passed="135" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1107" name="AbilityTimingTests" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-15 17:34:44Z" end-time="2026-10-15 17:34:46Z" duration="2.666722" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1116" name="AttackEffectsDoNotStartASecondCharacterAnimation" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.AttackEffectsDoNotStartASecondCharacterAnimation" methodname="AttackEffectsDoNotStartASecondCharacterAnimation" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="596856559" result="Passed" start-time="2026-10-15 17:34:44Z" end-time="2026-10-15 17:34:45Z" duration="1.015651" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1114" name="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.CastControlsReleaseAndAbilityDamageIsIndependentFromBasic" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-15 17:34:45Z" end-time="2026-10-15 17:34:46Z" duration="0.850610" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1108" name="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;tokoro&quot;,0.0f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;tokoro&quot;,0.0f)" methodname="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="1439287727" result="Passed" start-time="2026-10-15 17:34:45Z" end-time="2026-10-15 17:34:45Z" duration="0.726414" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1109" name="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;tokoro&quot;,0.8f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;tokoro&quot;,0.8f)" methodname="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="627231764" result="Passed" start-time="2026-10-15 17:34:45Z" end-time="2026-10-15 17:34:46Z" duration="0.016878" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1110" name="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;stein&quot;,0.0f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;stein&quot;,0.0f)" methodname="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="533616689" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.024890" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1111" name="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;stein&quot;,0.8f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;stein&quot;,0.8f)" methodname="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="754702292" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.009819" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1112" name="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;sepora&quot;,0.0f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;sepora&quot;,0.0f)" methodname="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="1043812929" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.011462" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1113" name="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;sepora&quot;,0.8f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.CastControlsReleaseAndAbilityDamageIsIndependentFromBasic(&quot;sepora&quot;,0.8f)" methodname="CastControlsReleaseAndAbilityDamageIsIndependentFromBasic" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="1441989005" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.007904" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1126" name="ConesHealOnlyWhenTheirOwnTravelTimeFinishes" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.ConesHealOnlyWhenTheirOwnTravelTimeFinishes" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.139783" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1124" name="ConesHealOnlyWhenTheirOwnTravelTimeFinishes(0.0f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.ConesHealOnlyWhenTheirOwnTravelTimeFinishes(0.0f)" methodname="ConesHealOnlyWhenTheirOwnTravelTimeFinishes" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="60374526" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.103600" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1125" name="ConesHealOnlyWhenTheirOwnTravelTimeFinishes(0.4f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.ConesHealOnlyWhenTheirOwnTravelTimeFinishes(0.4f)" methodname="ConesHealOnlyWhenTheirOwnTravelTimeFinishes" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="2128900427" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.017602" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-case id="1127" name="FloCanPlantInstantlyWhenPreparationIsZero" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.FloCanPlantInstantlyWhenPreparationIsZero" methodname="FloCanPlantInstantlyWhenPreparationIsZero" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="1394415641" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.029512" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1128" name="HeadbuttKeepsItsContactPoseThroughSelfStunThenReturns" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.HeadbuttKeepsItsContactPoseThroughSelfStunThenReturns" methodname="HeadbuttKeepsItsContactPoseThroughSelfStunThenReturns" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="1475495902" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.045222" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1123" name="HoldAndReturnPreventNextBasicFromCuttingTheAbilityShort" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.HoldAndReturnPreventNextBasicFromCuttingTheAbilityShort" methodname="HoldAndReturnPreventNextBasicFromCuttingTheAbilityShort" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="1949883190" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.014423" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1118" name="SeporaStormDurationStartsAfterChargeAndCannotAttackDuringCharge" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.SeporaStormDurationStartsAfterChargeAndCannotAttackDuringCharge" methodname="SeporaStormDurationStartsAfterChargeAndCannotAttackDuringCharge" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="848225732" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.024488" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1115" name="TsuGumKeepsBasicCadenceAndAppliesItsEffectOnlyOnImpact" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.TsuGumKeepsBasicCadenceAndAppliesItsEffectOnlyOnImpact" methodname="TsuGumKeepsBasicCadenceAndAppliesItsEffectOnlyOnImpact" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="861034357" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.039349" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1122" name="UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.153746" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1119" name="UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid(&quot;reset&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid(&quot;reset&quot;)" methodname="UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="398348541" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.042396" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1120" name="UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid(&quot;death&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid(&quot;death&quot;)" methodname="UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="1931568600" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.011485" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1121" name="UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid(&quot;range&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid(&quot;range&quot;)" methodname="UnreleasedStormIsCancelledWhenItsCasterOrTargetBecomesInvalid" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="1329148443" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.080061" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-case id="1117" name="ZeroAbilityDamageDoesNotFallBackToTheBasicAttack" fullname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests.ZeroAbilityDamageDoesNotFallBackToTheBasicAttack" methodname="ZeroAbilityDamageDoesNotFallBackToTheBasicAttack" classname="MonsterPouch.Gameplay.Tests.EditMode.AbilityTimingTests" runstate="Runnable" seed="1145981511" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:46Z" duration="0.008674" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1308" name="CharacterCombatMotionTests" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" testcasecount="54" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:54Z" duration="7.661198" total="54" passed="54" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1345" name="AtongCriticalPreservesTheHeavyImpactPose" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.AtongCriticalPreservesTheHeavyImpactPose" methodname="AtongCriticalPreservesTheHeavyImpactPose" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="213992436" result="Passed" start-time="2026-10-15 17:34:46Z" end-time="2026-10-15 17:34:47Z" duration="0.503446" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1328" name="EveryDirectionKeepsRealContactClockAndGroundAnchor" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-10-15 17:34:47Z" end-time="2026-10-15 17:34:51Z" duration="3.890797" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1309" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;aky&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;aky&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="2078845422" result="Passed" start-time="2026-10-15 17:34:47Z" end-time="2026-10-15 17:34:47Z" duration="0.318728" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1310" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;anuik&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;anuik&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1770967196" result="Passed" start-time="2026-10-15 17:34:47Z" end-time="2026-10-15 17:34:47Z" duration="0.343519" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1311" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;atong&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;atong&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1551360839" result="Passed" start-time="2026-10-15 17:34:47Z" end-time="2026-10-15 17:34:47Z" duration="0.072842" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1312" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;atori&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;atori&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="407908505" result="Passed" start-time="2026-10-15 17:34:47Z" end-time="2026-10-15 17:34:48Z" duration="0.175468" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1313" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;blotan&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;blotan&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1157816536" result="Passed" start-time="2026-10-15 17:34:48Z" end-time="2026-10-15 17:34:48Z" duration="0.164595" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1314" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;bugaloo&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;bugaloo&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="2147288786" result="Passed" start-time="2026-10-15 17:34:48Z" end-time="2026-10-15 17:34:48Z" duration="0.162925" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1315" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;bugui&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;bugui&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="779243844" result="Passed" start-time="2026-10-15 17:34:48Z" end-time="2026-10-15 17:34:48Z" duration="0.168227" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1316" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;flo&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;flo&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="187063131" result="Passed" start-time="2026-10-15 17:34:48Z" end-time="2026-10-15 17:34:48Z" duration="0.218296" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1317" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;gochan&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;gochan&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="757809916" result="Passed" start-time="2026-10-15 17:34:48Z" end-time="2026-10-15 17:34:49Z" duration="0.172589" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1318" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;hymay&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;hymay&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1722004267" result="Passed" start-time="2026-10-15 17:34:49Z" end-time="2026-10-15 17:34:49Z" duration="0.147445" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1319" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;jazar&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;jazar&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1190722596" result="Passed" start-time="2026-10-15 17:34:49Z" end-time="2026-10-15 17:34:49Z" duration="0.154936" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1320" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;kayon&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;kayon&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1668830045" result="Passed" start-time="2026-10-15 17:34:49Z" end-time="2026-10-15 17:34:49Z" duration="0.179771" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1321" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;popow&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;popow&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1706755521" result="Passed" start-time="2026-10-15 17:34:49Z" end-time="2026-10-15 17:34:49Z" duration="0.189918" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1322" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;sepora&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;sepora&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="250572698" result="Passed" start-time="2026-10-15 17:34:49Z" end-time="2026-10-15 17:34:49Z" duration="0.195401" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1323" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;stein&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;stein&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="2145177129" result="Passed" start-time="2026-10-15 17:34:49Z" end-time="2026-10-15 17:34:50Z" duration="0.340375" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1324" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;tauris&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;tauris&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="128515540" result="Passed" start-time="2026-10-15 17:34:50Z" end-time="2026-10-15 17:34:50Z" duration="0.156721" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1325" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;tokoro&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;tokoro&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1071863170" result="Passed" start-time="2026-10-15 17:34:50Z" end-time="2026-10-15 17:34:50Z" duration="0.273348" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1326" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;trimol&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;trimol&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="218016698" result="Passed" start-time="2026-10-15 17:34:50Z" end-time="2026-10-15 17:34:50Z" duration="0.212720" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1327" name="EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;tsu&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.EveryDirectionKeepsRealContactClockAndGroundAnchor(&quot;tsu&quot;)" methodname="EveryDirectionKeepsRealContactClockAndGroundAnchor" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1312115150" result="Passed" start-time="2026-10-15 17:34:50Z" end-time="2026-10-15 17:34:51Z" duration="0.172598" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-case id="1346" name="FlowerPullAndPlantRespectSimulationCast" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.FlowerPullAndPlantRespectSimulationCast" methodname="FlowerPullAndPlantRespectSimulationCast" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="294245308" result="Passed" start-time="2026-10-15 17:34:51Z" end-time="2026-10-15 17:34:51Z" duration="0.015829" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1344" name="PassiveReactionsDoNotStartAnUnrelatedAttack" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.PassiveReactionsDoNotStartAnUnrelatedAttack" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-15 17:34:51Z" end-time="2026-10-15 17:34:51Z" duration="0.081260" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1340" name="PassiveReactionsDoNotStartAnUnrelatedAttack(&quot;tokoro&quot;,&quot;tokoro-sleep&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.PassiveReactionsDoNotStartAnUnrelatedAttack(&quot;tokoro&quot;,&quot;tokoro-sleep&quot;)" methodname="PassiveReactionsDoNotStartAnUnrelatedAttack" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1345300814" result="Passed" start-time="2026-10-15 17:34:51Z" end-time="2026-10-15 17:34:51Z" duration="0.008618" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1341" name="PassiveReactionsDoNotStartAnUnrelatedAttack(&quot;sepora&quot;,&quot;sepora-stealth&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.PassiveReactionsDoNotStartAnUnrelatedAttack(&quot;sepora&quot;,&quot;sepora-stealth&quot;)" methodname="PassiveReactionsDoNotStartAnUnrelatedAttack" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="868236896" result="Passed" start-time="2026-10-15 17:34:51Z" end-time="2026-10-15 17:34:51Z" duration="0.012819" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1342" name="PassiveReactionsDoNotStartAnUnrelatedAttack(&quot;atori&quot;,&quot;atori-kill&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.PassiveReactionsDoNotStartAnUnrelatedAttack(&quot;atori&quot;,&quot;atori-kill&quot;)" methodname="PassiveReactionsDoNotStartAnUnrelatedAttack" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="425476964" result="Passed" start-time="2026-10-15 17:34:51Z" end-time="2026-10-15 17:34:51Z" duration="0.004339" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1343" name="PassiveReactionsDoNotStartAnUnrelatedAttack(&quot;tauris&quot;,&quot;tauris-kill&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.PassiveReactionsDoNotStartAnUnrelatedAttack(&quot;tauris&quot;,&quot;tauris-kill&quot;)" methodname="PassiveReactionsDoNotStartAnUnrelatedAttack" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="912848270" result="Passed" start-time="2026-10-15 17:34:51Z" end-time="2026-10-15 17:34:51Z" duration="0.006894" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1366" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-10-15 17:34:51Z" end-time="2026-10-15 17:34:53Z" duration="2.463782" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1347" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;aky&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;aky&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1540053005" result="Passed" start-time="2026-10-15 17:34:51Z" end-time="2026-10-15 17:34:52Z" duration="0.274411" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1348" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;anuik&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;anuik&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="597509449" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:52Z" duration="0.210045" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1349" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;atong&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;atong&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1564142021" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:52Z" duration="0.079912" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1350" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;atori&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;atori&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="846059893" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:52Z" duration="0.104984" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1351" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;blotan&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;blotan&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="2046839377" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:52Z" duration="0.049327" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1352" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;bugaloo&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;bugaloo&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="266142791" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:52Z" duration="0.070980" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1353" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;bugui&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;bugui&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1288018319" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:52Z" duration="0.063593" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1354" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;flo&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;flo&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1667671463" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:52Z" duration="0.075773" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1355" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;gochan&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;gochan&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1849411298" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:52Z" duration="0.061775" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1356" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;hymay&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;hymay&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="37979004" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:52Z" duration="0.061128" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1357" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;jazar&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;jazar&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="935100611" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:52Z" duration="0.070028" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1358" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;kayon&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;kayon&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1886425529" result="Passed" start-time="2026-10-15 17:34:52Z" end-time="2026-10-15 17:34:53Z" duration="0.090116" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1359" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;popow&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;popow&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="365969400" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.092315" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1360" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;sepora&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;sepora&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1217895311" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.088985" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1361" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;stein&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;stein&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="664482652" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.083387" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1362" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;tauris&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;tauris&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1535323068" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.080909" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1363" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;tokoro&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;tokoro&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="570841506" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.071979" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1364" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;trimol&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;trimol&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="66067279" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.080481" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1365" name="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;tsu&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.ResetCancelsTheStrongerPoseWithoutLeavingAnOffset(&quot;tsu&quot;)" methodname="ResetCancelsTheStrongerPoseWithoutLeavingAnOffset" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1403322595" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.079757" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1339" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:54Z" duration="0.643998" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1329" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;bugaloo&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;bugaloo&quot;)" methodname="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="433883219" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.076352" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1330" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;gochan&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;gochan&quot;)" methodname="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1301879093" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.061289" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1331" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;hymay&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;hymay&quot;)" methodname="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="392964078" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.070649" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1332" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;kayon&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;kayon&quot;)" methodname="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="227986352" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:53Z" duration="0.050903" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1333" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;popow&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;popow&quot;)" methodname="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="377748553" result="Passed" start-time="2026-10-15 17:34:53Z" end-time="2026-10-15 17:34:54Z" duration="0.044913" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1334" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;sepora&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;sepora&quot;)" methodname="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="751825694" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.052032" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1335" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;stein&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;stein&quot;)" methodname="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1383301542" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.049252" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1336" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;tauris&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;tauris&quot;)" methodname="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1422312827" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.045315" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1337" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;tokoro&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;tokoro&quot;)" methodname="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="1631127488" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.075012" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1338" name="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;trimol&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests.SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections(&quot;trimol&quot;)" methodname="SpecialReleaseDrawingWaitsForAuthoritativeCastInAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.CharacterCombatMotionTests" runstate="Runnable" seed="560572027" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.072777" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+              <test-suite type="TestFixture" id="1442" name="ControlMotionPresentationTests" fullname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests" classname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.428323" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1448" name="AkyKeepsItsExistingFlightPoseWithoutHymaysTuckOrSpin" fullname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests.AkyKeepsItsExistingFlightPoseWithoutHymaysTuckOrSpin" methodname="AkyKeepsItsExistingFlightPoseWithoutHymaysTuckOrSpin" classname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests" runstate="Runnable" seed="40502766" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.087711" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1446" name="FreezingABackflipSettlesAtItsCellAndPreventsFurtherPoseChanges" fullname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests.FreezingABackflipSettlesAtItsCellAndPreventsFurtherPoseChanges" methodname="FreezingABackflipSettlesAtItsCellAndPreventsFurtherPoseChanges" classname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests" runstate="Runnable" seed="771174796" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.040244" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1445" name="HymayBackflipTucksInMidairKeepsFacingAndLandsAtConfiguredTime" fullname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests.HymayBackflipTucksInMidairKeepsFacingAndLandsAtConfiguredTime" classname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.060297" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1443" name="HymayBackflipTucksInMidairKeepsFacingAndLandsAtConfiguredTime(0.4f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests.HymayBackflipTucksInMidairKeepsFacingAndLandsAtConfiguredTime(0.4f)" methodname="HymayBackflipTucksInMidairKeepsFacingAndLandsAtConfiguredTime" classname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests" runstate="Runnable" seed="1255093012" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.025702" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1444" name="HymayBackflipTucksInMidairKeepsFacingAndLandsAtConfiguredTime(1.2f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests.HymayBackflipTucksInMidairKeepsFacingAndLandsAtConfiguredTime(1.2f)" methodname="HymayBackflipTucksInMidairKeepsFacingAndLandsAtConfiguredTime" classname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests" runstate="Runnable" seed="815858629" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.009874" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-case id="1447" name="ResumingFlowerAfterTauntAcceptsTheNewResetButLaterInterruptionsStillCancelIt" fullname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests.ResumingFlowerAfterTauntAcceptsTheNewResetButLaterInterruptionsStillCancelIt" methodname="ResumingFlowerAfterTauntAcceptsTheNewResetButLaterInterruptionsStillCancelIt" classname="MonsterPouch.Gameplay.Tests.EditMode.ControlMotionPresentationTests" runstate="Runnable" seed="1984643738" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.006419" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1588" name="ImpactCharacterPresentationTests" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" testcasecount="17" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:55Z" duration="0.299815" total="17" passed="17" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1601" name="AtongCriticalKeepsTheSlamAndResetCancelsTheArticulatedPose" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongCriticalKeepsTheSlamAndResetCancelsTheArticulatedPose" methodname="AtongCriticalKeepsTheSlamAndResetCancelsTheArticulatedPose" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="1487965106" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.034847" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1600" name="AtongLongCustomWindupStillShowsContactAcrossRenderedFrames" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongLongCustomWindupStillShowsContactAcrossRenderedFrames" methodname="AtongLongCustomWindupStillShowsContactAcrossRenderedFrames" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="1010030764" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.013921" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1599" name="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:55Z" duration="0.132270" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1591" name="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(0,1)" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(0,1)" methodname="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="1368911022" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.013186" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1592" name="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(1,1)" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(1,1)" methodname="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="813191128" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.006322" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1593" name="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(1,0)" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(1,0)" methodname="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="750772262" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.005810" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1594" name="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(1,-1)" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(1,-1)" methodname="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="493831134" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.009304" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1595" name="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(0,-1)" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(0,-1)" methodname="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="1072879721" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:54Z" duration="0.005676" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1596" name="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(-1,-1)" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(-1,-1)" methodname="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="528631059" result="Passed" start-time="2026-10-15 17:34:54Z" end-time="2026-10-15 17:34:55Z" duration="0.007050" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1597" name="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(-1,0)" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(-1,0)" methodname="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="1203335167" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.005709" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1598" name="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(-1,1)" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact(-1,1)" methodname="AtongPullsHeadFarBehindTargetThenSlamsForwardAtThreeSecondContact" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="926722054" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.006606" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-case id="1590" name="AtongRaisesAndSlamsJawWhileItsBodyStaysOnTheCell" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AtongRaisesAndSlamsJawWhileItsBodyStaysOnTheCell" methodname="AtongRaisesAndSlamsJawWhileItsBodyStaysOnTheCell" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="1400981333" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.007827" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1604" name="AttackResetCancelsFloPreparationAndRestartsNextWindup" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.AttackResetCancelsFloPreparationAndRestartsNextWindup" methodname="AttackResetCancelsFloPreparationAndRestartsNextWindup" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="337800442" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.005766" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1603" name="FloCastCannotBeRestartedByFollowingAbilityNotification" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.FloCastCannotBeRestartedByFollowingAbilityNotification" methodname="FloCastCannotBeRestartedByFollowingAbilityNotification" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="1516150545" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.006659" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1602" name="HymayLoadsRearLegThenReleasesWhipWithoutSlidingLogicalCell" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.HymayLoadsRearLegThenReleasesWhipWithoutSlidingLogicalCell" methodname="HymayLoadsRearLegThenReleasesWhipWithoutSlidingLogicalCell" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="716351522" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.006066" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1605" name="PopowDashFacesItsRouteEvenWhenItInterruptsAnotherWalkingDirection" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.PopowDashFacesItsRouteEvenWhenItInterruptsAnotherWalkingDirection" methodname="PopowDashFacesItsRouteEvenWhenItInterruptsAnotherWalkingDirection" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="749520133" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.013434" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1606" name="PopowDashPassesThroughTargetAndIgnoresDuplicateMovedEvent" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.PopowDashPassesThroughTargetAndIgnoresDuplicateMovedEvent" methodname="PopowDashPassesThroughTargetAndIgnoresDuplicateMovedEvent" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="1365273847" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.007468" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1589" name="PopowHoldsWindupThenSnapsAtAuthoritativeContact" fullname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests.PopowHoldsWindupThenSnapsAtAuthoritativeContact" methodname="PopowHoldsWindupThenSnapsAtAuthoritativeContact" classname="MonsterPouch.Gameplay.Tests.EditMode.ImpactCharacterPresentationTests" runstate="Runnable" seed="1062126222" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.007087" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1819" name="ReferenceHopTests" fullname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceHopTests" classname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceHopTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.060926" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1820" name="ConsecutiveTilesAlternateTheSupportingFootAtAllThreePhases" fullname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceHopTests.ConsecutiveTilesAlternateTheSupportingFootAtAllThreePhases" methodname="ConsecutiveTilesAlternateTheSupportingFootAtAllThreePhases" classname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceHopTests" runstate="Runnable" seed="323185299" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.018692" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1823" name="FlyingArtworkGlidesWithoutGroundTakeoffOrLandingAndDoesNotGrantImmunity" fullname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceHopTests.FlyingArtworkGlidesWithoutGroundTakeoffOrLandingAndDoesNotGrantImmunity" methodname="FlyingArtworkGlidesWithoutGroundTakeoffOrLandingAndDoesNotGrantImmunity" classname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceHopTests" runstate="Runnable" seed="1059692924" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.009153" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1821" name="FootAlternationSurvivesFacingChangesAndDoesNotFlipTheWholeCharacter" fullname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceHopTests.FootAlternationSurvivesFacingChangesAndDoesNotFlipTheWholeCharacter" methodname="FootAlternationSurvivesFacingChangesAndDoesNotFlipTheWholeCharacter" classname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceHopTests" runstate="Runnable" seed="1366178695" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.006206" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1822" name="InstantPlacementDoesNotConsumeTheNextFoot" fullname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceHopTests.InstantPlacementDoesNotConsumeTheNextFoot" methodname="InstantPlacementDoesNotConsumeTheNextFoot" classname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceHopTests" runstate="Runnable" seed="2036646720" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:55Z" duration="0.005744" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1824" name="ReferenceRosterQualityTests" fullname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceRosterQualityTests" classname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceRosterQualityTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:56Z" duration="1.464437" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1825" name="AllNineteenCharactersUseTheirOwnCleanSpritesInEveryAnimationAndDirection" fullname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceRosterQualityTests.AllNineteenCharactersUseTheirOwnCleanSpritesInEveryAnimationAndDirection" methodname="AllNineteenCharactersUseTheirOwnCleanSpritesInEveryAnimationAndDirection" classname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceRosterQualityTests" runstate="Runnable" seed="663765840" result="Passed" start-time="2026-10-15 17:34:55Z" end-time="2026-10-15 17:34:56Z" duration="1.367103" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1826" name="AtongIsTheLargestAndItsVisibleWidthIsAtLeastEightyPercentLarger" fullname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceRosterQualityTests.AtongIsTheLargestAndItsVisibleWidthIsAtLeastEightyPercentLarger" methodname="AtongIsTheLargestAndItsVisibleWidthIsAtLeastEightyPercentLarger" classname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceRosterQualityTests" runstate="Runnable" seed="828608186" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.010518" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1827" name="SteinHasStrongAttackAndAVisiblyCollapsedDefeat" fullname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceRosterQualityTests.SteinHasStrongAttackAndAVisiblyCollapsedDefeat" methodname="SteinHasStrongAttackAndAVisiblyCollapsedDefeat" classname="MonsterPouch.Gameplay.Tests.EditMode.ReferenceRosterQualityTests" runstate="Runnable" seed="2142558707" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.020148" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1905" name="TaurisAbilityDurationTests" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.322984" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1909" name="DurationAndAuthoredSpecialMirrorRemainValidInAllEightDirections" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.DurationAndAuthoredSpecialMirrorRemainValidInAllEightDirections" methodname="DurationAndAuthoredSpecialMirrorRemainValidInAllEightDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" seed="1194480724" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.021356" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1910" name="HungerKillRewardDoesNotRestartTheSameBitesVisualClock" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.HungerKillRewardDoesNotRestartTheSameBitesVisualClock" methodname="HungerKillRewardDoesNotRestartTheSameBitesVisualClock" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" seed="357480168" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.007387" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1908" name="LethalBiteCompletesItsConfiguredCastThenResumesBasicAttacks" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.LethalBiteCompletesItsConfiguredCastThenResumesBasicAttacks" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.184879" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1906" name="LethalBiteCompletesItsConfiguredCastThenResumesBasicAttacks(1.4f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.LethalBiteCompletesItsConfiguredCastThenResumesBasicAttacks(1.4f)" methodname="LethalBiteCompletesItsConfiguredCastThenResumesBasicAttacks" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" seed="1990812264" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.086945" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1907" name="LethalBiteCompletesItsConfiguredCastThenResumesBasicAttacks(5.0f)" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.LethalBiteCompletesItsConfiguredCastThenResumesBasicAttacks(5.0f)" methodname="LethalBiteCompletesItsConfiguredCastThenResumesBasicAttacks" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" seed="98161820" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.041116" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-suite type="ParameterizedMethod" id="1917" name="RealInterruptionStillCancelsAnExtendedBite" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.RealInterruptionStillCancelsAnExtendedBite" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.062649" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1911" name="RealInterruptionStillCancelsAnExtendedBite(&quot;stun&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.RealInterruptionStillCancelsAnExtendedBite(&quot;stun&quot;)" methodname="RealInterruptionStillCancelsAnExtendedBite" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" seed="1178285464" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.006737" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1912" name="RealInterruptionStillCancelsAnExtendedBite(&quot;combat-reset&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.RealInterruptionStillCancelsAnExtendedBite(&quot;combat-reset&quot;)" methodname="RealInterruptionStillCancelsAnExtendedBite" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" seed="1803298975" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.007003" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1913" name="RealInterruptionStillCancelsAnExtendedBite(&quot;reset-then-new-attack&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.RealInterruptionStillCancelsAnExtendedBite(&quot;reset-then-new-attack&quot;)" methodname="RealInterruptionStillCancelsAnExtendedBite" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" seed="1431712283" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.005574" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1914" name="RealInterruptionStillCancelsAnExtendedBite(&quot;death&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.RealInterruptionStillCancelsAnExtendedBite(&quot;death&quot;)" methodname="RealInterruptionStillCancelsAnExtendedBite" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" seed="1656918205" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.007930" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1915" name="RealInterruptionStillCancelsAnExtendedBite(&quot;revive&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.RealInterruptionStillCancelsAnExtendedBite(&quot;revive&quot;)" methodname="RealInterruptionStillCancelsAnExtendedBite" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" seed="1342640534" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.008442" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1916" name="RealInterruptionStillCancelsAnExtendedBite(&quot;freeze&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests.RealInterruptionStillCancelsAnExtendedBite(&quot;freeze&quot;)" methodname="RealInterruptionStillCancelsAnExtendedBite" classname="MonsterPouch.Gameplay.Tests.EditMode.TaurisAbilityDurationTests" runstate="Runnable" seed="638710879" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:56Z" duration="0.007218" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+              <test-suite type="TestFixture" id="1967" name="UnitAuthoredAnimationTests" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-15 17:34:56Z" end-time="2026-10-15 17:34:57Z" duration="0.105720" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1970" name="AuthoredContactFrame_AppearsAtDamageTimeAndRecoversBeforeNextAttack" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests.AuthoredContactFrame_AppearsAtDamageTimeAndRecoversBeforeNextAttack" methodname="AuthoredContactFrame_AppearsAtDamageTimeAndRecoversBeforeNextAttack" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests" runstate="Runnable" seed="94143950" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.012141" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1971" name="AuthoredDeath_UsesCrouchAndFallenDrawingsAndFinishesAfterFreeze" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests.AuthoredDeath_UsesCrouchAndFallenDrawingsAndFinishesAfterFreeze" methodname="AuthoredDeath_UsesCrouchAndFallenDrawingsAndFinishesAfterFreeze" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests" runstate="Runnable" seed="400094685" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.009849" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1969" name="AuthoredIdleAndHop_HoldsDirectionalPoseWhileLiftingTheBody" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests.AuthoredIdleAndHop_HoldsDirectionalPoseWhileLiftingTheBody" methodname="AuthoredIdleAndHop_HoldsDirectionalPoseWhileLiftingTheBody" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests" runstate="Runnable" seed="1101249032" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.015748" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1968" name="Revive_InterruptsDeathHoldsHeadstandAndWaitsForSimulationToRestoreIdle" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests.Revive_InterruptsDeathHoldsHeadstandAndWaitsForSimulationToRestoreIdle" methodname="Revive_InterruptsDeathHoldsHeadstandAndWaitsForSimulationToRestoreIdle" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests" runstate="Runnable" seed="1630260177" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.007886" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1972" name="RoundFreeze_CancelsAuthoredAttackAndHoldsTheSelectedIdleFrame" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests.RoundFreeze_CancelsAuthoredAttackAndHoldsTheSelectedIdleFrame" methodname="RoundFreeze_CancelsAuthoredAttackAndHoldsTheSelectedIdleFrame" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitAuthoredAnimationTests" runstate="Runnable" seed="922169763" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.006803" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1973" name="UnitPresentationTimingTests" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.111343" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1978" name="BugalooLanding_AndDeathAfterRoundFreeze_DoNotMoveTheLogicalRoot" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests.BugalooLanding_AndDeathAfterRoundFreeze_DoNotMoveTheLogicalRoot" methodname="BugalooLanding_AndDeathAfterRoundFreeze_DoNotMoveTheLogicalRoot" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests" runstate="Runnable" seed="1548098987" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.009817" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1975" name="EveryRosterCharacterHasProceduralFallbackForMissingClips" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests.EveryRosterCharacterHasProceduralFallbackForMissingClips" methodname="EveryRosterCharacterHasProceduralFallbackForMissingClips" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests" runstate="Runnable" seed="808640194" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.028620" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1976" name="MeleeContactAndRecovery_FollowImpactDelayAndFitFastCadence" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests.MeleeContactAndRecovery_FollowImpactDelayAndFitFastCadence" methodname="MeleeContactAndRecovery_FollowImpactDelayAndFitFastCadence" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests" runstate="Runnable" seed="437087596" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.004954" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1977" name="RangedRelease_UsesQuantizedWindupRatherThanProjectileArrival" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests.RangedRelease_UsesQuantizedWindupRatherThanProjectileArrival" methodname="RangedRelease_UsesQuantizedWindupRatherThanProjectileArrival" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests" runstate="Runnable" seed="55731235" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.004607" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1974" name="ResetRestartsAttackAnimationFromItsWindup" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests.ResetRestartsAttackAnimationFromItsWindup" methodname="ResetRestartsAttackAnimationFromItsWindup" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitPresentationTimingTests" runstate="Runnable" seed="352687618" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.004025" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1979" name="UnitSpecialAnimationTests" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.233306" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1982" name="CombatResetCancelsSpecialAndNextAttackRestartsItsFullWindup" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.CombatResetCancelsSpecialAndNextAttackRestartsItsFullWindup" methodname="CombatResetCancelsSpecialAndNextAttackRestartsItsFullWindup" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="1362658897" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.012046" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1990" name="ConfiguredAbilityDurationShowsAllPosesAndEndsAtTheConfiguredTime" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.ConfiguredAbilityDurationShowsAllPosesAndEndsAtTheConfiguredTime" methodname="ConfiguredAbilityDurationShowsAllPosesAndEndsAtTheConfiguredTime" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="665627061" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.007789" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1993" name="FlowerPreparationKeepsItsAuthoritativePlantingTimeDespiteTheVisualOverride" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.FlowerPreparationKeepsItsAuthoritativePlantingTimeDespiteTheVisualOverride" methodname="FlowerPreparationKeepsItsAuthoritativePlantingTimeDespiteTheVisualOverride" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="1949502866" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.009293" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1981" name="IndependentSpecialViewsDoNotInheritTheBasicPoseMirror" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.IndependentSpecialViewsDoNotInheritTheBasicPoseMirror" methodname="IndependentSpecialViewsDoNotInheritTheBasicPoseMirror" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="1493506715" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.005674" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-suite type="ParameterizedMethod" id="1987" name="LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.086658" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties />
+                  <test-case id="1983" name="LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast(&quot;death&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast(&quot;death&quot;)" methodname="LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="1546412185" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.006178" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1984" name="LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast(&quot;reviving&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast(&quot;reviving&quot;)" methodname="LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="1999827956" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.004697" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1985" name="LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast(&quot;revived&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast(&quot;revived&quot;)" methodname="LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="880465084" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.007454" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                  <test-case id="1986" name="LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast(&quot;freeze&quot;)" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast(&quot;freeze&quot;)" methodname="LifeCycleTransitionCancelsSpecialWithoutResumingAnOldCast" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="836734488" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.004118" asserts="0">
+                    <properties>
+                      <property name="retryIteration" value="0" />
+                      <property name="repeatIteration" value="0" />
+                    </properties>
+                  </test-case>
+                </test-suite>
+                <test-case id="1992" name="LongAbilityAnimationDoesNotDelayBasicAttackOrChangeItsCombatStats" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.LongAbilityAnimationDoesNotDelayBasicAttackOrChangeItsCombatStats" methodname="LongAbilityAnimationDoesNotDelayBasicAttackOrChangeItsCombatStats" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="899905337" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.008391" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1994" name="ResetImmediatelyCancelsAnExtendedAbilityAndLeavesTheNextAttackWithAFreshWindup" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.ResetImmediatelyCancelsAnExtendedAbilityAndLeavesTheNextAttackWithAFreshWindup" methodname="ResetImmediatelyCancelsAnExtendedAbilityAndLeavesTheNextAttackWithAFreshWindup" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="1928868331" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.005885" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1988" name="SpecialOverlayDoesNotDelayAttackContactRecoveryOrMutateCombatState" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.SpecialOverlayDoesNotDelayAttackContactRecoveryOrMutateCombatState" methodname="SpecialOverlayDoesNotDelayAttackContactRecoveryOrMutateCombatState" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="1465031817" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.007456" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1980" name="SpecialPlaysEveryTemporalPoseThenReturnsToIdle" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.SpecialPlaysEveryTemporalPoseThenReturnsToIdle" methodname="SpecialPlaysEveryTemporalPoseThenReturnsToIdle" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="230020037" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.006202" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1989" name="TimedSuperKeepsItsSpecialPoseUntilSimulationUnlocksEnergy" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.TimedSuperKeepsItsSpecialPoseUntilSimulationUnlocksEnergy" methodname="TimedSuperKeepsItsSpecialPoseUntilSimulationUnlocksEnergy" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="1465249059" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.005661" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1991" name="ZeroDurationUsesEachDirectionalClipAndAnOverrideAppliesToAllDirections" fullname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests.ZeroDurationUsesEachDirectionalClipAndAnOverrideAppliesToAllDirections" methodname="ZeroDurationUsesEachDirectionalClipAndAnOverrideAppliesToAllDirections" classname="MonsterPouch.Gameplay.Tests.EditMode.UnitSpecialAnimationTests" runstate="Runnable" seed="1793795786" result="Passed" start-time="2026-10-15 17:34:57Z" end-time="2026-10-15 17:34:57Z" duration="0.007372" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Saving results to: C:/Users/HP VICTUS/AppData/LocalLow/DefaultCompany/Monster Pouch\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

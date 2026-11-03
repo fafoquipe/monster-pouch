@@ -79,7 +79,9 @@ public static class MonsterPouchDirectionalSetup
             if (catalog.Get(id) == null || catalog.Get(id).Portrait == null)
                 throw new InvalidOperationException("Missing existing character or portrait: " + id);
         foreach (string id in Full) RequireFile(Folder + id + "-atlas.png");
-        foreach (string id in Specials) RequireFile(Folder + id + "-special.png");
+        foreach (string id in Specials) RequireFile(OriginalSpecialPath(id));
+        PrepareCleanSpecials();
+        foreach (string id in Specials) RequireFile(SpecialPath(id));
 
         // Import and validate all sheets before changing the catalog. A bad sheet cannot leave a partial roster.
         var prepared = new List<Prepared>();
@@ -105,9 +107,29 @@ public static class MonsterPouchDirectionalSetup
             {
                 for (int d = 0; d < 8; d++)
                 {
-                    art.DirectionalAnimations[d].Special = entry.specials[d];
-                    art.DirectionalAnimations[d].SpecialFlipX = entry.specialFlips[d];
-                    art.DirectionalAnimations[d].SpecialDuration = .65f;
+                    UnitDirectionalAnimation clip = art.DirectionalAnimations[d];
+                    Sprite[] authored = entry.specials[d];
+                    clip.Special = authored;
+                    clip.SpecialFlipX = entry.specialFlips[d];
+                    if (art.Id == "tauris")
+                    {
+                        // The user's final 4 × 8 sheet is Tauris' authoritative look, not an overlay.
+                        // Use every supplied pose for his idle, step, bite and Super; retain only the
+                        // existing death sequence because the reference sheet has no death drawing.
+                        clip.Idle = new[] { authored[0], authored[3] };
+                        clip.Move = new[] { authored[0], authored[1], authored[3], authored[1] };
+                        clip.Attack = authored;
+                        clip.AttackContactFrame = 2;
+                        clip.FlipX = entry.specialFlips[d];
+                    }
+                    TuneClip(clip, art.Id);
+                }
+                if (art.Id == "tauris")
+                {
+                    art.IdleDirections = art.DirectionalAnimations.Select(c => c.Idle[0]).ToArray();
+                    art.AttackDirections = art.DirectionalAnimations.Select(c => c.Attack[c.AttackContactFrame]).ToArray();
+                    art.WalkRigs = new UnitSpriteRig[8];
+                    art.ProvisionalDirectionalProjection = false;
                 }
             }
             string note = "Directional-v1: " + entry.source + "; portrait and presentation size preserved.";
@@ -117,8 +139,9 @@ public static class MonsterPouchDirectionalSetup
         {
             clip.Special = clip.Revive;
             clip.SpecialFlipX = clip.FlipX;
-            clip.SpecialDuration = 1.2f;
+            TuneClip(clip, "anuik");
         }
+        ApplyMovementPolish(catalog);
         Report report = MakeReport(catalog);
         WriteReport(report);
         if (!report.valid) throw new InvalidOperationException(string.Join("\n", report.errors));
@@ -143,11 +166,13 @@ public static class MonsterPouchDirectionalSetup
             {
                 Idle = Sequence(frames, row, layout.idle), Move = Sequence(frames, row, layout.move),
                 Attack = Sequence(frames, row, layout.attack), Death = Sequence(frames, row, layout.death),
-                Special = Sequence(frames, row, layout.special), SpecialDuration = .65f,
+                Special = Sequence(frames, row, layout.special),
                 IdleFramesPerSecond = 2.5f, MoveFramesPerSecond = 6f,
                 AttackContactFrame = layout.contactFrame, FlipX = flip, SpecialFlipX = flip
             };
+            TuneClip(clips[d], art.Id);
         }
+        if (art.Id == "bugaloo") CorrectBugalooSteps(clips);
         return new Prepared { art = art, clips = clips, source = path };
     }
 
@@ -155,7 +180,7 @@ public static class MonsterPouchDirectionalSetup
     {
         if (art.DirectionalAnimations == null || art.DirectionalAnimations.Length != 8 || art.DirectionalAnimations.Any(c => c == null || !ValidFrames(c.Idle, 1)))
             throw new InvalidOperationException("Existing combat clips must be retained for " + art.Id);
-        string path = Folder + art.Id + "-special.png";
+        string path = SpecialPath(art.Id);
         Sprite[,] frames = Import(path, 100, layout, art.Id + "-special");
         // Match the pre-existing standing height; arms spread during a cast must not shrink the body.
         float height = art.Idle(UnitFacing.South).bounds.size.y;
@@ -242,6 +267,78 @@ public static class MonsterPouchDirectionalSetup
         return layout;
     }
 
+    // Idempotent: updates the existing catalog without reimporting or redrawing any character sheet.
+    public static string ApplyMovementPolish()
+    {
+        RequireEditMode();
+        const string deck = "Assets/resources/MonsterPouch/UI/deck-background-no-whelp-lights.png";
+        AssetDatabase.ImportAsset(deck, ImportAssetOptions.ForceSynchronousImport);
+        var importer = (TextureImporter)AssetImporter.GetAtPath(deck);
+        importer.textureType = TextureImporterType.Sprite;
+        importer.spriteImportMode = SpriteImportMode.Single;
+        importer.filterMode = FilterMode.Point;
+        importer.mipmapEnabled = false;
+        importer.textureCompression = TextureImporterCompression.Uncompressed;
+        importer.npotScale = TextureImporterNPOTScale.None;
+        importer.maxTextureSize = 2048;
+        importer.SaveAndReimport();
+        var catalog = LoadCatalog();
+        ApplyMovementPolish(catalog);
+        EditorUtility.SetDirty(catalog);
+        AssetDatabase.SaveAssets();
+        return Validate();
+    }
+
+    static void ApplyMovementPolish(UnitArtCatalog catalog)
+    {
+        CorrectBugalooSteps(catalog.Get("bugaloo").DirectionalAnimations);
+        var minimumWidths = new Dictionary<string, float>
+        {
+            ["bugaloo"] = 1.40f, ["flo"] = 1.20f, ["tokoro"] = 1.02f, ["blotan"] = .95f,
+            ["aky"] = .92f, ["atori"] = .95f, ["atong"] = .77f, ["tauris"] = .82f
+        };
+        foreach (var pair in minimumWidths)
+        {
+            UnitArt art = catalog.Get(pair.Key);
+            if (art != null) art.WorldWidth = Mathf.Max(art.WorldWidth, pair.Value);
+        }
+    }
+
+    public static string ApplyImpactPolish()
+    {
+        RequireEditMode();
+        var catalog = LoadCatalog();
+        ApplyMovementPolish(catalog);
+        foreach (string id in new[] { "popow", "atong", "hymay", "flo" })
+            foreach (var clip in catalog.Get(id).DirectionalAnimations) TuneClip(clip, id);
+        EditorUtility.SetDirty(catalog);
+        AssetDatabase.SaveAssets();
+        return Validate();
+    }
+
+    public static string ApplyAbilityAnimationTiming()
+    {
+        RequireEditMode();
+        var catalog = LoadCatalog();
+        var blotan = catalog.Get("blotan");
+        if (blotan != null && blotan.AbilityAnimationDuration <= 0)
+        {
+            blotan.AbilityAnimationDuration = 1.4f;
+            EditorUtility.SetDirty(catalog);
+            AssetDatabase.SaveAssets();
+        }
+        return "Blotan ability animation: " + blotan?.GetAbilityAnimationDuration(UnitFacing.South) + " s";
+    }
+
+    static void CorrectBugalooSteps(UnitDirectionalAnimation[] clips)
+    {
+        // The authored east walk poses face west. Reuse the west step drawings mirrored
+        // only while moving; idle, attack and Super keep their own correct direction.
+        var east = clips[(int)UnitFacing.East];
+        east.Move = clips[(int)UnitFacing.West].Move.ToArray();
+        east.MoveFlipX = true;
+    }
+
     public static string Validate()
     {
         Report report = MakeReport(LoadCatalog());
@@ -283,7 +380,7 @@ public static class MonsterPouchDirectionalSetup
             units.Add(new UnitReport
             {
                 id = id, portrait = art.Portrait == null ? "" : AssetDatabase.GetAssetPath(art.Portrait),
-                source = Full.Contains(id) ? Folder + id + "-atlas.png" : id == "anuik" ? "Existing authored revival" : Folder + id + "-special.png",
+                source = Full.Contains(id) ? Folder + id + "-atlas.png" : id == "anuik" ? "Existing authored revival" : SpecialPath(id),
                 preservedTemporalClips = !Full.Contains(id), worldWidth = art.WorldWidth, referencePixelWidth = art.ReferencePixelWidth,
                 southVisibleWorldWidth = south == null ? 0 : VisibleWidth(south) / south.pixelsPerUnit * scale,
                 southWorldHeight = south == null ? 0 : south.bounds.size.y * scale, directions = directions.ToArray()
@@ -432,6 +529,48 @@ public static class MonsterPouchDirectionalSetup
     }
     static UnitArtCatalog LoadCatalog() => AssetDatabase.LoadAssetAtPath<UnitArtCatalog>(CatalogPath) ?? throw new InvalidOperationException("Missing UnitArt catalog.");
     static void RequireFile(string path) { if (!File.Exists(path)) throw new FileNotFoundException("Missing animation sheet.", path); }
+    static string OriginalSpecialPath(string id) => Folder + id + (id == "tauris" ? "-special-v2.png" : "-special.png");
+    static string SpecialPath(string id) => id == "stein" ? Folder + "stein-special-clean.png" : OriginalSpecialPath(id);
+
+    static void PrepareCleanSpecials()
+    {
+        string source = OriginalSpecialPath("stein"), clean = SpecialPath("stein");
+        File.Copy(source, clean, true);
+        AssetDatabase.ImportAsset(clean, ImportAssetOptions.ForceSynchronousImport);
+        MonsterPouchOutlineCleanup.RemoveWhiteExteriorHalo(clean);
+    }
+
+    static void TuneClip(UnitDirectionalAnimation clip, string id)
+    {
+        if (clip == null) return;
+        clip.AttackLungeDistance = id == "tauris" ? .18f : id == "atori" ? .14f : .09f;
+        clip.AttackImpactSquash = id == "tauris" ? .13f : id == "atori" ? .10f : .07f;
+        clip.SpecialDuration = id == "anuik" ? 1.2f : id == "tauris" ? .58f : id == "atori" ? .62f : .65f;
+        clip.SpecialLungeDistance = id == "tauris" ? .2f : id == "atori" ? .1f : .06f;
+        clip.SpecialLift = id == "atori" ? .11f : id == "tauris" ? .025f : .04f;
+        clip.SpecialPunchScale = id == "tauris" ? .14f : id == "atori" ? .12f : .08f;
+        clip.SpecialReleasePoint = id == "tauris" ? .5f : .55f;
+        if (id == "popow")
+        {
+            clip.AttackLungeDistance = .24f; clip.AttackImpactSquash = .16f;
+            clip.SpecialDuration = .48f; clip.SpecialLungeDistance = .22f;
+            clip.SpecialPunchScale = .16f;
+        }
+        else if (id == "atong")
+        {
+            clip.AttackLungeDistance = .18f; clip.AttackImpactSquash = .20f;
+        }
+        else if (id == "hymay")
+        {
+            clip.AttackLungeDistance = .16f; clip.AttackImpactSquash = .10f;
+            clip.SpecialDuration = .60f; clip.SpecialLungeDistance = .14f;
+        }
+        else if (id == "flo")
+        {
+            clip.SpecialDuration = .50f; clip.SpecialLift = .10f;
+            clip.SpecialReleasePoint = .90f;
+        }
+    }
     static void RequireEditMode() { if (EditorApplication.isPlaying) throw new InvalidOperationException("Exit Play Mode first."); }
 
     public static string BuildWindows()

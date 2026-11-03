@@ -40,6 +40,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             definition.BaseAbility.Parameters = new[] { new AbilityParameter { Key = "duration", Value = duration } };
             definition.Damage = 0; definition.AttackWindup = .1f; definition.AttackInterval = 100;
             definition.EnergyPerAttack = definition.EnergyOnDamage = definition.EnergyPerSecond = 0;
+            definition.AttackHold=definition.AttackRecovery=0; // Isolate the cadence under test.
             return definition;
         }
         BattleUnit Enemy(int damage = 0, float interval = 100, int health = 1000, int x = 2)
@@ -76,7 +77,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
                 Assert.AreEqual(0, actor.AddEnergy(1000)); simulation.Step(.1f);
                 Assert.AreEqual(0, actor.Energy); Assert.IsTrue(actor.IsEnergyLocked); Assert.IsTrue(actor.IsReflecting);
             }
-            Assert.AreEqual(1, supers); Assert.Greater(basics, 0); Assert.Greater(received, 0);
+            Assert.AreEqual(1, supers); Assert.AreEqual(0, basics); Assert.Greater(received, 0);
             Assert.IsFalse(actor.IsProtected);
             simulation.Step(.1f); AssertInactive(actor);
             float before = actor.Energy; Assert.Greater(actor.AddEnergy(1), 0); Assert.Greater(actor.Energy, before);
@@ -101,9 +102,48 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         {
             var actor = Unit(Bugaloo(.5f), BoardSide.Blue, protection: protection); var enemy = Enemy(20, .5f);
             Begin(actor, enemy); Activate(actor); Assert.AreEqual(protection, actor.IsProtected);
-            simulation.Step(.1f); Assert.AreEqual(110 - incoming, actor.CurrentHealth); Assert.AreEqual(980, enemy.CurrentHealth);
-            simulation.Step(.5f); AssertInactive(actor);
+            simulation.Step(.1f); Assert.AreEqual(110 - incoming, actor.CurrentHealth); Assert.AreEqual(1000, enemy.CurrentHealth);
+            simulation.Step(.3f); Assert.AreEqual(1000, enemy.CurrentHealth);
+            simulation.Step(.2f); Assert.AreEqual(980, enemy.CurrentHealth);
+            simulation.Step(.1f); AssertInactive(actor);
             Assert.AreEqual(110 - incoming - 20, actor.CurrentHealth); Assert.AreEqual(980, enemy.CurrentHealth);
+        }
+
+        [Test] public void ReflectedMoonLaunchesImmediatelyButHitsOnlyAfterItsTravel()
+        {
+            var actor=Unit(Bugaloo(3),BoardSide.Blue);var enemy=Enemy(20);Begin(actor,enemy);
+            int launches=0,hits=0;float travel=0;
+            simulation.ReflectedMoonLaunched+=(source,target,duration)=>
+            {Assert.AreSame(actor,source);Assert.AreSame(enemy,target);launches++;travel=duration;};
+            simulation.Impacted+=(source,target,amount)=>{if(source==actor&&target==enemy&&amount>0)hits++;};
+            Activate(actor);simulation.Step(.1f);
+            Assert.AreEqual(1,launches);Assert.AreEqual(0,hits);Assert.AreEqual(1000,enemy.CurrentHealth);
+            Assert.GreaterOrEqual(travel,.4f);
+            simulation.Step(travel-.1f);Assert.AreEqual(1000,enemy.CurrentHealth);
+            simulation.Step(.1f);Assert.AreEqual(980,enemy.CurrentHealth);Assert.AreEqual(1,hits);
+        }
+
+        [Test] public void ReflectedMoonDoesNotBounceBetweenTwoReflectors()
+        {
+            var first=Unit(Bugaloo(3),BoardSide.Blue);var second=Unit(Bugaloo(3),BoardSide.Red);
+            Begin(first,second);first.AddEnergy(100);second.AddEnergy(100);simulation.Step(.1f);
+            int launches=0;simulation.ReflectedMoonLaunched+=(a,b,d)=>launches++;
+            // Exercise the periodic/direct-damage path, which must share the same delayed reflection.
+            const System.Reflection.BindingFlags flags=System.Reflection.BindingFlags.Instance|System.Reflection.BindingFlags.NonPublic;
+            var clock=typeof(CombatSimulation).GetMethod("Clock",flags);
+            typeof(CombatSimulation).GetMethod("DirectDamage",flags).Invoke(simulation,new object[]{clock.Invoke(simulation,new object[]{first}),clock.Invoke(simulation,new object[]{second}),20});
+            Assert.AreEqual(110,first.CurrentHealth);Assert.AreEqual(90,second.CurrentHealth);Assert.AreEqual(1,launches);
+            simulation.Step(.4f);Assert.AreEqual(110,first.CurrentHealth);
+            simulation.Step(.1f);Assert.AreEqual(90,first.CurrentHealth);
+            simulation.Step(1);Assert.AreEqual(1,launches);Assert.AreEqual(90,second.CurrentHealth);
+        }
+
+        [Test] public void StoppingCombatDiscardsFlyingReflections()
+        {
+            var actor=Unit(Bugaloo(3),BoardSide.Blue);var enemy=Enemy(20);Begin(actor,enemy);
+            Activate(actor);simulation.Step(.1f);Assert.Greater(simulation.PendingImpactCount,0);
+            simulation.Stop();simulation.Step(1);
+            Assert.AreEqual(1000,enemy.CurrentHealth);Assert.AreEqual(0,simulation.PendingImpactCount);
         }
 
         [TestCase("reset")] [TestCase("stop")] [TestCase("finish")] [TestCase("death")]
@@ -130,6 +170,7 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         [Test] public void AtongEmitsSpecialOnlyWhenTheCriticalHitLands()
         {
             var definition = DocumentedRoster.CreateAtong(); definition.AttackInterval = .2f; definition.AttackWindup = .1f;
+            definition.AttackHold=definition.AttackRecovery=0;
             var actor = Unit(definition, BoardSide.Blue); var enemy = Enemy(); Begin(actor, enemy);
             int specials = 0;
             simulation.AbilityUsed += (source, kind) => { if (source == actor && kind == "atong-critical") specials++; };

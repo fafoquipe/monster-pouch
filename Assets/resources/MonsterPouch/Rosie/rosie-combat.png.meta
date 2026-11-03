@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: 2d9454e4872810e429761eec0f82b1e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7021500159580822331
+    second: rosie-combat_0
+  - first:
+      213: -6418261578721814031
+    second: rosie-combat_1
+  - first:
+      213: 5675033792048344114
+    second: rosie-combat_2
+  - first:
+      213: 5296866405120291293
+    second: rosie-combat_3
+  - first:
+      213: 65219866336800687
+    second: rosie-combat_4
+  - first:
+      213: 8565810985597924509
+    second: rosie-combat_5
+  - first:
+      213: -1127148383105392105
+    second: rosie-combat_6
+  - first:
+      213: 799837168181818124
+    second: rosie-combat_7
+  - first:
+      213: -1085454335891676064
+    second: rosie-combat_8
+  - first:
+      213: 8512693693373858370
+    second: rosie-combat_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle-0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 844
+        width: 223
+        height: 249
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0598a0450187c14ca3dd542da411716
+      internalID: 1597691602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 844
+        width: 244
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7214495217cbb5149aa182f1b31235ec
+      internalID: 2106029460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-2
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 844
+        width: 247
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042f2671125976943a62c8dc420cc109
+      internalID: -1064753326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-3
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 844
+        width: 229
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f22dae2be538b4982f9fc2ff86cf2e
+      internalID: -961291540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-4
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 844
+        width: 236
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef86b2e6c2181f4d9ae506a8d58af71
+      internalID: -1145294971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 573
+        width: 229
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0b3f95408852145ba62bbb078de482
+      internalID: 1005239648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 575
+        width: 224
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38236958b793dec49bedddb03cdf243d
+      internalID: 575805778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 573
+        width: 203
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fcbd7745b06844295ad45f0d2998bc
+      internalID: 1488945307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-3
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 573
+        width: 232
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638c8923881d26e45a8c36b06450a5f2
+      internalID: 1740949401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-4
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 568
+        width: 235
+        height: 258
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fdffba459170446acff3640b9eb946
+      internalID: 220788268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 280
+        width: 257
+        height: 273
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd4b97461081b7448a49f67de1a923d
+      internalID: 1550523232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 280
+        width: 281
+        height: 277
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64095f4fd0c89e64b959cf97bd6f6d0f
+      internalID: 1497108311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-2
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 280
+        width: 280
+        height: 276
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21396fc713d9cc7498206539a8013ae3
+      internalID: 176502420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-3
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 280
+        width: 271
+        height: 273
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd9476bb86acf34eaaa6b98092d5bde
+      internalID: -1399588324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack-4
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 280
+        width: 238
+        height: 273
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7dad9d8bb1cdd41ad7315a8c467086
+      internalID: -583066092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special-0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 33
+        width: 256
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4489b6876d61b348a41a0fd154c624a
+      internalID: -1706336736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special-1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 33
+        width: 281
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbe8bdd091332e43904b75de03ecf57
+      internalID: 875389895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special-2
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 33
+        width: 260
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ddb6e0e41248a42a6ca951cab9ac95
+      internalID: -689978402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special-3
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 33
+        width: 254
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd0df3369e47854dba0853dbfcda0c8
+      internalID: 1577156064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special-4
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 33
+        width: 256
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d485002b162a542a48c607acd4beb3
+      internalID: 1693151808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rosie-brief-portrait
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 844
+        width: 236
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1aadc7dc17c99458128caca8a75946
+      internalID: -344379281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6fbe231c6f23ebf48a080459ee8d4c62
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack-0: 1550523232
+      attack-1: 1497108311
+      attack-2: 176502420
+      attack-3: -1399588324
+      attack-4: -583066092
+      idle-0: 1597691602
+      idle-1: 2106029460
+      idle-2: -1064753326
+      idle-3: -961291540
+      idle-4: -1145294971
+      move-0: 1005239648
+      move-1: 575805778
+      move-2: 1488945307
+      move-3: 1740949401
+      move-4: 220788268
+      rosie-brief-portrait: -344379281
+      special-0: -1706336736
+      special-1: 875389895
+      special-2: -689978402
+      special-3: 1577156064
+      special-4: 1693151808
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

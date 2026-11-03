@@ -1,0 +1,4834 @@
+fileFormatVersion: 2
+guid: e3208936baa7aed4596b836ded4ab528
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1709633727877160791
+    second: flo-clean-v3_0
+  - first:
+      213: -4830262470517907354
+    second: flo-clean-v3_1
+  - first:
+      213: -1986205924164150923
+    second: flo-clean-v3_2
+  - first:
+      213: 7000046436080370542
+    second: flo-clean-v3_3
+  - first:
+      213: 9016424835466940830
+    second: flo-clean-v3_4
+  - first:
+      213: -3124414202047222092
+    second: flo-clean-v3_5
+  - first:
+      213: 6960925454868746078
+    second: flo-clean-v3_6
+  - first:
+      213: 6327918474868295347
+    second: flo-clean-v3_7
+  - first:
+      213: -7749655791344996637
+    second: flo-clean-v3_8
+  - first:
+      213: 2148549854041044656
+    second: flo-clean-v3_9
+  - first:
+      213: -6913550067495132406
+    second: flo-clean-v3_10
+  - first:
+      213: 721758300404788413
+    second: flo-clean-v3_11
+  - first:
+      213: 8478953369623668990
+    second: flo-clean-v3_12
+  - first:
+      213: -8720558021178009657
+    second: flo-clean-v3_13
+  - first:
+      213: 8937977139164557200
+    second: flo-clean-v3_14
+  - first:
+      213: 6907820731219884157
+    second: flo-clean-v3_15
+  - first:
+      213: 3660301761878899152
+    second: flo-clean-v3_16
+  - first:
+      213: -6908635496457469068
+    second: flo-clean-v3_17
+  - first:
+      213: -3199676100791698570
+    second: flo-clean-v3_18
+  - first:
+      213: 8457451872267472860
+    second: flo-clean-v3_19
+  - first:
+      213: 305528299460738533
+    second: flo-clean-v3_20
+  - first:
+      213: 7639389882644040180
+    second: flo-clean-v3_21
+  - first:
+      213: 6032804451358936091
+    second: flo-clean-v3_22
+  - first:
+      213: 3477616984134028666
+    second: flo-clean-v3_23
+  - first:
+      213: -4085725781828082067
+    second: flo-clean-v3_24
+  - first:
+      213: -5605244433889650532
+    second: flo-clean-v3_25
+  - first:
+      213: -3342776833432496117
+    second: flo-clean-v3_26
+  - first:
+      213: 175788372076498963
+    second: flo-clean-v3_27
+  - first:
+      213: 7309834519559932388
+    second: flo-clean-v3_28
+  - first:
+      213: 2514049878531806366
+    second: flo-clean-v3_29
+  - first:
+      213: -4305126292843920208
+    second: flo-clean-v3_30
+  - first:
+      213: -2467889791974543803
+    second: flo-clean-v3_31
+  - first:
+      213: -8879149640630552061
+    second: flo-clean-v3_32
+  - first:
+      213: -4547909895987816564
+    second: flo-clean-v3_33
+  - first:
+      213: 5441999262613899290
+    second: flo-clean-v3_34
+  - first:
+      213: -2348233885667356715
+    second: flo-clean-v3_35
+  - first:
+      213: -9022813320340866508
+    second: flo-clean-v3_36
+  - first:
+      213: 214646224808168421
+    second: flo-clean-v3_37
+  - first:
+      213: -3168158550156551699
+    second: flo-clean-v3_38
+  - first:
+      213: -60985731770378891
+    second: flo-clean-v3_39
+  - first:
+      213: 2866149407358663354
+    second: flo-clean-v3_40
+  - first:
+      213: -5576260681303718350
+    second: flo-clean-v3_41
+  - first:
+      213: 5074929005436907456
+    second: flo-clean-v3_42
+  - first:
+      213: -6725630468689749000
+    second: flo-clean-v3_43
+  - first:
+      213: 7691487823208980453
+    second: flo-clean-v3_44
+  - first:
+      213: 8894287203677579378
+    second: flo-clean-v3_45
+  - first:
+      213: -1610796034875416677
+    second: flo-clean-v3_46
+  - first:
+      213: 696277228481410954
+    second: flo-clean-v3_47
+  - first:
+      213: 1343430475591360806
+    second: flo-clean-v3_48
+  - first:
+      213: 2834997088374776384
+    second: flo-clean-v3_49
+  - first:
+      213: -547841691569302288
+    second: flo-clean-v3_50
+  - first:
+      213: 5205621956122513105
+    second: flo-clean-v3_51
+  - first:
+      213: 8482880738065408548
+    second: flo-clean-v3_52
+  - first:
+      213: -1257653143467871713
+    second: flo-clean-v3_53
+  - first:
+      213: -4043528357264167846
+    second: flo-clean-v3_54
+  - first:
+      213: -6515870884257272663
+    second: flo-clean-v3_55
+  - first:
+      213: 4998283934511458547
+    second: flo-clean-v3_56
+  - first:
+      213: 1920545459366208
+    second: flo-clean-v3_57
+  - first:
+      213: 4558877990212399808
+    second: flo-clean-v3_58
+  - first:
+      213: 7375670336436520236
+    second: flo-clean-v3_59
+  - first:
+      213: 5114846560084586974
+    second: flo-clean-v3_60
+  - first:
+      213: 7458011196636092982
+    second: flo-clean-v3_61
+  - first:
+      213: 4567821024722952045
+    second: flo-clean-v3_62
+  - first:
+      213: 4812870938811230884
+    second: flo-clean-v3_63
+  - first:
+      213: 2305090595813896106
+    second: flo-clean-v3_64
+  - first:
+      213: -7157432804123263960
+    second: flo-clean-v3_65
+  - first:
+      213: -5060270068779568030
+    second: flo-clean-v3_66
+  - first:
+      213: 184816816949903425
+    second: flo-clean-v3_67
+  - first:
+      213: 6879345684584842128
+    second: flo-clean-v3_68
+  - first:
+      213: -1779747273859286546
+    second: flo-clean-v3_69
+  - first:
+      213: 510293688202801644
+    second: flo-clean-v3_70
+  - first:
+      213: 5186701781427361759
+    second: flo-clean-v3_71
+  - first:
+      213: -2725758648082086892
+    second: flo-clean-v3_72
+  - first:
+      213: -7937500217444584119
+    second: flo-clean-v3_73
+  - first:
+      213: -2832763581503336020
+    second: flo-clean-v3_74
+  - first:
+      213: -6247633339900311388
+    second: flo-clean-v3_75
+  - first:
+      213: -6148931049629441634
+    second: flo-clean-v3_76
+  - first:
+      213: -5896111871039758698
+    second: flo-clean-v3_77
+  - first:
+      213: 699838941923316782
+    second: flo-clean-v3_78
+  - first:
+      213: 8726339736680663615
+    second: flo-clean-v3_79
+  - first:
+      213: 6861877713170757148
+    second: flo-clean-v3_80
+  - first:
+      213: 3019428604209361774
+    second: flo-clean-v3_81
+  - first:
+      213: 6266177840917465349
+    second: flo-clean-v3_82
+  - first:
+      213: 4886741120313736751
+    second: flo-clean-v3_83
+  - first:
+      213: -8820797654172877063
+    second: flo-clean-v3_84
+  - first:
+      213: 4260332790626013346
+    second: flo-clean-v3_85
+  - first:
+      213: 3377074614915462807
+    second: flo-clean-v3_86
+  - first:
+      213: -6515037905873598789
+    second: flo-clean-v3_87
+  - first:
+      213: -1317990304054126622
+    second: flo-clean-v3_88
+  - first:
+      213: 7487429895914158
+    second: flo-clean-v3_89
+  - first:
+      213: 6952962870923985182
+    second: flo-clean-v3_90
+  - first:
+      213: -273691873179851669
+    second: flo-clean-v3_91
+  - first:
+      213: 8466278244062595918
+    second: flo-clean-v3_92
+  - first:
+      213: 4349597849804451829
+    second: flo-clean-v3_93
+  - first:
+      213: -7215554942572812136
+    second: flo-clean-v3_94
+  - first:
+      213: -793104795854780875
+    second: flo-clean-v3_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flo-clean-v3_0
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2580
+        width: 222
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f152641d6d9b710800000000000000
+      internalID: 1709633727877160791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_1
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2580
+        width: 216
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66021e8ffd577fcb0800000000000000
+      internalID: -4830262470517907354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_2
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1574
+        width: 218
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5795b6f3c349f64e0800000000000000
+      internalID: -1986205924164150923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_3
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2082
+        width: 192
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e634fc15529252160800000000000000
+      internalID: 7000046436080370542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_4
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2332
+        width: 208
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e915406ed96c02d70800000000000000
+      internalID: 9016424835466940830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_5
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2332
+        width: 216
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be2acb46d9d3a4d0800000000000000
+      internalID: -3124414202047222092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_6
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 2332
+        width: 216
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f0d6512dc2a9060800000000000000
+      internalID: 6960925454868746078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2580
+        width: 230
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6082e735841d750800000000000000
+      internalID: 6327918474868295347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_8
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1830
+        width: 240
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee25510e11b37490800000000000000
+      internalID: -7749655791344996637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_9
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1830
+        width: 216
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6755075be21dd10800000000000000
+      internalID: 2148549854041044656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2332
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03231ad7d22e00a0800000000000000
+      internalID: -6913550067495132406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_11
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2826
+        width: 250
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc2155a953340a00800000000000000
+      internalID: 721758300404788413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_12
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1062
+        width: 220
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8258f8a2b4ba570800000000000000
+      internalID: 8478953369623668990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_13
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1062
+        width: 212
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c75088eeaa5af680800000000000000
+      internalID: -8720558021178009657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_14
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1062
+        width: 216
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f27764ad21a0c70800000000000000
+      internalID: 8937977139164557200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_15
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1062
+        width: 210
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78b0781b528ddf50800000000000000
+      internalID: 6907820731219884157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_16
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1062
+        width: 214
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9378f2f010cc230800000000000000
+      internalID: 3660301761878899152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1318
+        width: 202
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4738ff69e989f10a0800000000000000
+      internalID: -6908635496457469068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_18
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1062
+        width: 212
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bf008f9877893d0800000000000000
+      internalID: -3199676100791698570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_19
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1574
+        width: 206
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf07771ba7ee5570800000000000000
+      internalID: 8457451872267472860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1830
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edbf2e9e547d3400800000000000000
+      internalID: 305528299460738533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1318
+        width: 210
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f906bf7f90940a60800000000000000
+      internalID: 7639389882644040180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_22
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1830
+        width: 206
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c05a27fa3d8b350800000000000000
+      internalID: 6032804451358936091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2826
+        width: 250
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d8c2cc83af24030800000000000000
+      internalID: 3477616984134028666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_24
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1318
+        width: 172
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d666b7c6c069c47c0800000000000000
+      internalID: -4085725781828082067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_25
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1318
+        width: 172
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9895ce92eb2632b0800000000000000
+      internalID: -5605244433889650532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_26
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1574
+        width: 158
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08d9d74e221c91d0800000000000000
+      internalID: -3342776833432496117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_27
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1574
+        width: 162
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3109341d796807200800000000000000
+      internalID: 175788372076498963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_28
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 546
+        width: 166
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9024134cfb17560800000000000000
+      internalID: 7309834519559932388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_29
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1574
+        width: 164
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9490856b03b3e220800000000000000
+      internalID: 2514049878531806366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_30
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1318
+        width: 174
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b408d9327e1144c0800000000000000
+      internalID: -4305126292843920208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_31
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1318
+        width: 202
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e6b844f4b40cdd0800000000000000
+      internalID: -2467889791974543803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_32
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2332
+        width: 218
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30abda2127ce6c480800000000000000
+      internalID: -8879149640630552061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_33
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 546
+        width: 178
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c879923ab0492e0c0800000000000000
+      internalID: -4547909895987816564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_34
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1574
+        width: 210
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a180a041f7dd58b40800000000000000
+      internalID: 5441999262613899290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_35
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 2826
+        width: 252
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df0343f8b5696fd0800000000000000
+      internalID: -2348233885667356715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_36
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2082
+        width: 208
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a7b6e071788c280800000000000000
+      internalID: -9022813320340866508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_37
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2082
+        width: 208
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebc11eaa939af200800000000000000
+      internalID: 214646224808168421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_38
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 2082
+        width: 202
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de95dc195907804d0800000000000000
+      internalID: -3168158550156551699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_39
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2332
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5759571dcc5572ff0800000000000000
+      internalID: -60985731770378891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_40
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2082
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba3fc253bb96c720800000000000000
+      internalID: 2866149407358663354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_41
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2082
+        width: 208
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2360ae364742d92b0800000000000000
+      internalID: -5576260681303718350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_42
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2082
+        width: 210
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfa465da05cd6640800000000000000
+      internalID: 5074929005436907456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_43
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1830
+        width: 212
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb143ff8b2c9a2a0800000000000000
+      internalID: -6725630468689749000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_44
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 2332
+        width: 230
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef1d988c67adba60800000000000000
+      internalID: 7691487823208980453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_45
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1830
+        width: 212
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2782189761bde6b70800000000000000
+      internalID: 8894287203677579378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_46
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1830
+        width: 220
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f94a76a8d45a9e0800000000000000
+      internalID: -1610796034875416677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_47
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2826
+        width: 252
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87f3d4437ca9a900800000000000000
+      internalID: 696277228481410954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_48
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 806
+        width: 232
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621ae0656e2d4a210800000000000000
+      internalID: 1343430475591360806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_49
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1062
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04268d7d4dee75720800000000000000
+      internalID: 2834997088374776384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_50
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1062
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4dcd452eca568f0800000000000000
+      internalID: -547841691569302288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_51
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 806
+        width: 232
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de08a9a6951e3840800000000000000
+      internalID: 5205621956122513105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_52
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 806
+        width: 232
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4226468461f39b570800000000000000
+      internalID: 8482880738065408548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_53
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 806
+        width: 240
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12b1fc112beb8ee0800000000000000
+      internalID: -1257653143467871713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_54
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 806
+        width: 232
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cec02f16082e7c0800000000000000
+      internalID: -4043528357264167846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_55
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 806
+        width: 232
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ace88d04f9f295a0800000000000000
+      internalID: -6515870884257272663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_56
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 2580
+        width: 244
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8e813a1c87d5540800000000000000
+      internalID: 4998283934511458547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_57
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 546
+        width: 232
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04961e5d9b2d60000800000000000000
+      internalID: 1920545459366208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_58
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 806
+        width: 230
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2f4fcc063644f30800000000000000
+      internalID: 4558877990212399808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_59
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 2580
+        width: 252
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c254fafc715ab5660800000000000000
+      internalID: 7375670336436520236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1574
+        width: 170
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed17876c8d59bf640800000000000000
+      internalID: 5114846560084586974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_61
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 546
+        width: 170
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a516a4bad208760800000000000000
+      internalID: 7458011196636092982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_62
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 282
+        width: 168
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f1c284509246f30800000000000000
+      internalID: 4567821024722952045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_63
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 546
+        width: 166
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aae4a18e90cac240800000000000000
+      internalID: 4812870938811230884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_64
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 546
+        width: 170
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafa49a1fa35dff10800000000000000
+      internalID: 2305090595813896106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_65
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1318
+        width: 172
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c318e49c0bbac90800000000000000
+      internalID: -7157432804123263960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_66
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1318
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2643ad2de2f46c9b0800000000000000
+      internalID: -5060270068779568030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_67
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1318
+        width: 180
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14041d27ae9909200800000000000000
+      internalID: 184816816949903425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_68
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1830
+        width: 218
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093cbc8a378587f50800000000000000
+      internalID: 6879345684584842128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_69
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 546
+        width: 204
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9b5afa8411d47e0800000000000000
+      internalID: -1779747273859286546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_70
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1574
+        width: 212
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1b370e76de41700800000000000000
+      internalID: 510293688202801644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_71
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2826
+        width: 248
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd71dd53acddaf740800000000000000
+      internalID: 5186701781427361759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_72
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 282
+        width: 168
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4144e9583f82c2ad0800000000000000
+      internalID: -2725758648082086892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_73
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 282
+        width: 170
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94531ae5b9558d190800000000000000
+      internalID: -7937500217444584119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_74
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 546
+        width: 164
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca194dff78000b8d0800000000000000
+      internalID: -2832763581503336020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_75
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 546
+        width: 162
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8ca582492fb49a0800000000000000
+      internalID: -6247633339900311388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_76
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 282
+        width: 168
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91a77ee9cb9aaaa0800000000000000
+      internalID: -6148931049629441634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_77
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 282
+        width: 166
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e16b20e7dcc2ea0800000000000000
+      internalID: -5896111871039758698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_78
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 282
+        width: 178
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24135d4fc356b900800000000000000
+      internalID: 699838941923316782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_79
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 282
+        width: 172
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a0a32a1cf2a1970800000000000000
+      internalID: 8726339736680663615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_80
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2580
+        width: 218
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1676b1ac694a3f50800000000000000
+      internalID: 6861877713170757148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_81
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 282
+        width: 208
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e637d82615a27e920800000000000000
+      internalID: 3019428604209361774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_82
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 2082
+        width: 204
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5094f43fb8fe5f650800000000000000
+      internalID: 6266177840917465349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_83
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 2826
+        width: 244
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e3899682131d340800000000000000
+      internalID: 4886741120313736751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_84
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 14
+        width: 220
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe3d63a44b369580800000000000000
+      internalID: -8820797654172877063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_85
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 282
+        width: 216
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a05632d91ebf1b30800000000000000
+      internalID: 4260332790626013346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_86
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 14
+        width: 214
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79676024877cdde20800000000000000
+      internalID: 3377074614915462807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_87
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 14
+        width: 210
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb60332fa8fe595a0800000000000000
+      internalID: -6515037905873598789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_88
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 14
+        width: 210
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7d17d2dce85bde0800000000000000
+      internalID: -1317990304054126622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_89
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 218
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea20a3f17c99a1000800000000000000
+      internalID: 7487429895914158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_90
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 14
+        width: 200
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1187e984e2ed7060800000000000000
+      internalID: 6952962870923985182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_91
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 14
+        width: 224
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64243101b6a33cf0800000000000000
+      internalID: -273691873179851669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_92
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 2332
+        width: 240
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b08fae4334e7570800000000000000
+      internalID: 8466278244062595918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_93
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 14
+        width: 214
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffa5610330ec5c30800000000000000
+      internalID: 4349597849804451829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_94
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1574
+        width: 220
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89822a662033ddb90800000000000000
+      internalID: -7215554942572812136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-clean-v3_95
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 2580
+        width: 250
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536ca65e3635ef4f0800000000000000
+      internalID: -793104795854780875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f00
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2578
+        width: 226
+        height: 222
+      alignment: 9
+      pivot: {x: 0.50442475, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d122b8340c80134da37e3d4492a218a
+      internalID: -1131880291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f01
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2578
+        width: 220
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19399722a7f569419d7d570299c0629
+      internalID: 776086436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f02
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1572
+        width: 222
+        height: 226
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517b13bbf86f7294d84b93187e1503f4
+      internalID: 1465473512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f03
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2080
+        width: 196
+        height: 226
+      alignment: 9
+      pivot: {x: 0.45918366, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c39d4f8f2f23b4fa47098112544de5
+      internalID: -235275146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f04
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 2330
+        width: 212
+        height: 224
+      alignment: 9
+      pivot: {x: 0.4764151, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac244d4b2088694aaf38893522b43ed
+      internalID: 1895887085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f05
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 2330
+        width: 220
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b90ce7be935be440b615f81397facd2
+      internalID: 1219239619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f06
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2330
+        width: 220
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5090909, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed976e8d77e3a4b45bdaccdc4160af9a
+      internalID: -709851972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f07
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2578
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8897e70c5a01d0c4b873519369b9d484
+      internalID: -655719188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f08
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1828
+        width: 244
+        height: 226
+      alignment: 9
+      pivot: {x: 0.48360655, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de69f0338f5b5964a92d972ed47c5371
+      internalID: 1656460470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f09
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1828
+        width: 220
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f231913da3a7e7479b3b91171bbea2a
+      internalID: -265466520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2330
+        width: 224
+        height: 224
+      alignment: 9
+      pivot: {x: 0.45982143, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7955b47e230148f448ef150a58d36669
+      internalID: -1920160184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r00-f11
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 2824
+        width: 254
+        height: 160
+      alignment: 9
+      pivot: {x: 0.492126, y: 0.0375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437ad2ccb71c475408e405ad8fba0d11
+      internalID: -37438897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f00
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1060
+        width: 224
+        height: 232
+      alignment: 9
+      pivot: {x: 0.50446427, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e709c65a3b75c9043bc8d1f417d7181a
+      internalID: 68719883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f01
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1060
+        width: 216
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5046296, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcdb6e2b40c37b45a9aabc96f3990bf
+      internalID: -1806153212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f02
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1060
+        width: 220
+        height: 232
+      alignment: 9
+      pivot: {x: 0.48181817, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1f2e66806c9584d9b0de559cd76428
+      internalID: 1404219137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f03
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1060
+        width: 214
+        height: 232
+      alignment: 9
+      pivot: {x: 0.49532712, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06d513bec73c0847bf5bb62df74dc7e
+      internalID: 1996000158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f04
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1060
+        width: 218
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc943e737a220c47b949cfa191e7dde
+      internalID: 323485732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f05
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1316
+        width: 206
+        height: 232
+      alignment: 9
+      pivot: {x: 0.47572815, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13a49e506c596748a883b470e1039be
+      internalID: 2068606399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f06
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1060
+        width: 216
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5138889, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db8fdd9a09f2ea4cadbfe6123ef0e35
+      internalID: -1607951451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f07
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1572
+        width: 210
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134bcf95318865a41806a582ac176a11
+      internalID: 1982937057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f08
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1828
+        width: 240
+        height: 228
+      alignment: 9
+      pivot: {x: 0.4875, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ea3f9c963792d40857b4014cec69e3
+      internalID: 300222135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f09
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1316
+        width: 214
+        height: 232
+      alignment: 9
+      pivot: {x: 0.47663552, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b5176f5c66ddb4ca57185315a42625
+      internalID: 1915903161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f10
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1828
+        width: 210
+        height: 228
+      alignment: 9
+      pivot: {x: 0.48095238, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b8445337e7ed946ab18ddbf31bc3da
+      internalID: 839978961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r01-f11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2824
+        width: 254
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5, y: 0.034883723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abf95f6acc56d442918e16258103503
+      internalID: -1266291455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f00
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1316
+        width: 176
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5738636, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17260ee3b81567e4692b6b0f573bd435
+      internalID: -2101102595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f01
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 1316
+        width: 176
+        height: 232
+      alignment: 9
+      pivot: {x: 0.57954544, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2875091ff4d4b114b8edb2e00fb062d4
+      internalID: 1582417122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f02
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1572
+        width: 162
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5925926, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550bcd702138a6445ae4d08258b29dd0
+      internalID: -872687777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f03
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1572
+        width: 166
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5301205, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a41911678a3dc459d1ad03f6824532
+      internalID: 1342379093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f04
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 544
+        width: 170
+        height: 234
+      alignment: 9
+      pivot: {x: 0.60588235, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9809cd6635f896043bbd38631c9ab980
+      internalID: 858928120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f05
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1572
+        width: 168
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223882f877cf35d4c9b2f19c4190577f
+      internalID: -1526192795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f06
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1316
+        width: 178
+        height: 232
+      alignment: 9
+      pivot: {x: 0.57865167, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121971e0cddf93a4989fcc2eca0933dd
+      internalID: -1968719096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f07
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1316
+        width: 206
+        height: 232
+      alignment: 9
+      pivot: {x: 0.48058254, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b78244c8dd4de40bcc18944c5f41c4
+      internalID: -312093712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f08
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2330
+        width: 222
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072c6d67e49ce9f4f9a475841e7d28d5
+      internalID: 1375484740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f09
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 544
+        width: 182
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c323709491dee604b9bf26f87f36d6f8
+      internalID: 496007029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f10
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1572
+        width: 214
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6964bd514f4ab9d46be5105db98be12d
+      internalID: -908812193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r02-f11
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 2824
+        width: 256
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2177404b95d1c3746bf8418b2ae93816
+      internalID: 107482255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f00
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2080
+        width: 212
+        height: 226
+      alignment: 9
+      pivot: {x: 0.495283, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef6beaf0e343ff42a444de2e928ef2a
+      internalID: 108952223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f01
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 2080
+        width: 212
+        height: 226
+      alignment: 9
+      pivot: {x: 0.495283, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9908b7e8dd1acae43a9e9a11379f67fc
+      internalID: 1107101356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f02
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 2080
+        width: 206
+        height: 226
+      alignment: 9
+      pivot: {x: 0.4854369, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4165dac74ae1548adccdffe624abed
+      internalID: 1290211942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f03
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 2330
+        width: 208
+        height: 224
+      alignment: 9
+      pivot: {x: 0.4903846, y: 0.026785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38973bd76b5ebfe4b98646148f8aa95e
+      internalID: 224794998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f04
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 2080
+        width: 210
+        height: 226
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859c110f6bdedd54e9ae4970c38bd857
+      internalID: -2019528460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f05
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 2080
+        width: 212
+        height: 226
+      alignment: 9
+      pivot: {x: 0.49056605, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1457f49bf70424f42901f47cf58fb990
+      internalID: -1145051929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f06
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2080
+        width: 214
+        height: 226
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e0d665f6b5ec94d9fd5fdfd2cba76b
+      internalID: 1611953798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f07
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 1828
+        width: 216
+        height: 226
+      alignment: 9
+      pivot: {x: 0.49074075, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d529b272b3bb746ab5fedb365328f1
+      internalID: -1537654898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f08
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 2330
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.517094, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb949e7af5e92548b8a6904ba73b5a1
+      internalID: 260982287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f09
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1828
+        width: 216
+        height: 228
+      alignment: 9
+      pivot: {x: 0.49074075, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ca36a20ccc40f43974ae065d2a3960
+      internalID: -1150335938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f10
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1828
+        width: 224
+        height: 226
+      alignment: 9
+      pivot: {x: 0.51339287, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698f3e05521a4fc4f9440561fa84a873
+      internalID: -232104369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r03-f11
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 2824
+        width: 256
+        height: 162
+      alignment: 9
+      pivot: {x: 0.5, y: 0.037037037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293e204c552926749aac04321715ac4e
+      internalID: 956062499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f00
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 804
+        width: 236
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5127119, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2ec7c9a3ad0a445ad4e3dfccf3f80f
+      internalID: 1924703826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f01
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1060
+        width: 232
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5215517, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ffd657275c9c14ebd7f3a600488d66
+      internalID: -1169582753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f02
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1060
+        width: 232
+        height: 232
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb809e46968c94449c4d7cf42f5737d
+      internalID: -1950667930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f03
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 804
+        width: 236
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4957627, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098bd6bb975c1bf4fba4f43ceb6ce7cd
+      internalID: 2008968860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f04
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 804
+        width: 236
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5127119, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03514906cf29234f9ad8647c73dea51
+      internalID: -1464332897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f05
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 804
+        width: 244
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4795082, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc723d5a8d53d24cb3e10c78b56b692
+      internalID: -923797747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f06
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 804
+        width: 236
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cb4230508cb43499fb06555f946576
+      internalID: 488060301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f07
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 804
+        width: 236
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5084746, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e1e53b5e516b54e8d514a58914b340
+      internalID: 938621076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f08
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 2578
+        width: 248
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35edb20ab8137f74b834f1f3947187ea
+      internalID: -1773431022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f09
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 544
+        width: 236
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc133f252a0ff24689cccdd76da64ed
+      internalID: 1213710928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f10
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 804
+        width: 234
+        height: 232
+      alignment: 9
+      pivot: {x: 0.48290598, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d3fc0989d62d74896bc2a8b4932a95
+      internalID: -1886957974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r04-f11
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 2578
+        width: 256
+        height: 194
+      alignment: 9
+      pivot: {x: 0.50390625, y: 0.030927835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6c9e8fb96d91e4abfb8cdf8aba4ce7
+      internalID: -464831366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1572
+        width: 174
+        height: 232
+      alignment: 9
+      pivot: {x: 0.43678162, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64eb6e5bcd021745ad439bc60a7b09b
+      internalID: 1801802896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f01
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 544
+        width: 174
+        height: 234
+      alignment: 9
+      pivot: {x: 0.42528737, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85e23075f9071341a28f4270e3c2281
+      internalID: -1240235710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f02
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 280
+        width: 172
+        height: 236
+      alignment: 9
+      pivot: {x: 0.4244186, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74e5d3d7be455746ba813787327ec1b
+      internalID: -792116712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f03
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 544
+        width: 170
+        height: 234
+      alignment: 9
+      pivot: {x: 0.42352942, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d16a6a29b25b32498c039ae1f5639b6
+      internalID: 26059543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f04
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 544
+        width: 174
+        height: 234
+      alignment: 9
+      pivot: {x: 0.41379312, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1561d501e94c544a354380e6a64bc6
+      internalID: 1089045952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f05
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1316
+        width: 176
+        height: 232
+      alignment: 9
+      pivot: {x: 0.42613637, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0cbd6f051e44242a694077f7a4642b
+      internalID: -1617534943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f06
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1316
+        width: 186
+        height: 232
+      alignment: 9
+      pivot: {x: 0.43010753, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc2329086da3aa4d8cade02eb9af359
+      internalID: 1290157942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f07
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1316
+        width: 184
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4347826, y: 0.02586207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355bf17c6edb2d34ca81b733a899dfe9
+      internalID: 138527095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f08
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1828
+        width: 222
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b553ad0bc51f3348909fcbc77a84b99
+      internalID: -311169016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f09
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 544
+        width: 208
+        height: 234
+      alignment: 9
+      pivot: {x: 0.45673078, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53da97c4091be8448b4301e106512a4
+      internalID: 1137277986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f10
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1572
+        width: 216
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49537036, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27f5d2069e567c40ac1ca88b54ef750
+      internalID: -872678842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r05-f11
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2824
+        width: 252
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c42bca1458576429be3d926347498d
+      internalID: -697421430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f00
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 280
+        width: 172
+        height: 236
+      alignment: 9
+      pivot: {x: 0.41860464, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79106aa346acb64cb8408994bdbe828
+      internalID: -1350849276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f01
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 280
+        width: 174
+        height: 236
+      alignment: 9
+      pivot: {x: 0.41379312, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab788c16db041b94f8b2fe430f0aee13
+      internalID: 1427106028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f02
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 544
+        width: 168
+        height: 236
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e38e52bfda13b4f98b2bf471799fb3
+      internalID: 2056139876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f03
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 544
+        width: 166
+        height: 234
+      alignment: 9
+      pivot: {x: 0.40963855, y: 0.025641026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe25ab0c51beb6468083bd5e0a0d548
+      internalID: 1174717947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f04
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 280
+        width: 172
+        height: 236
+      alignment: 9
+      pivot: {x: 0.43023255, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eeb3f6f77bd284448ccb5719332cf80
+      internalID: -603550284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f05
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 280
+        width: 170
+        height: 236
+      alignment: 9
+      pivot: {x: 0.39411765, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9cda17611259f4fbd3ae08bddd736c
+      internalID: -1064089117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f06
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 280
+        width: 182
+        height: 236
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6f1b4eb9e89174994867b2864680bb
+      internalID: 1202082646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f07
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 280
+        width: 176
+        height: 236
+      alignment: 9
+      pivot: {x: 0.4943182, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8096bb5c12a0db240b440191082be988
+      internalID: -1078357823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f08
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2578
+        width: 222
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.027522936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d135bc7f0e1b1d74a808907808ea7606
+      internalID: -80174077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f09
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 280
+        width: 212
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5235849, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42968ef3715efe40850ffeffa0d0454
+      internalID: 965144069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f10
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2080
+        width: 208
+        height: 226
+      alignment: 9
+      pivot: {x: 0.52403843, y: 0.026548672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f437d41f975ef40afb41650cab58d3
+      internalID: 122822187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r06-f11
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 2824
+        width: 248
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036585364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58818b4ba22f9bd41afda771312c2053
+      internalID: 483038437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f00
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 12
+        width: 224
+        height: 240
+      alignment: 9
+      pivot: {x: 0.48214287, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0002cb0cefeea46a9b811d94dbb33b
+      internalID: 1727177144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f01
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 280
+        width: 220
+        height: 240
+      alignment: 9
+      pivot: {x: 0.48181817, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a933193948ce4974c8283af584e2efa9
+      internalID: -152267806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f02
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 12
+        width: 218
+        height: 244
+      alignment: 9
+      pivot: {x: 0.48623854, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa7d165edf85e245bb950623f7fedad
+      internalID: -100991665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f03
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 12
+        width: 214
+        height: 244
+      alignment: 9
+      pivot: {x: 0.45794392, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a9763e8c1e8ff47948e7c94c24c9f2
+      internalID: 1901276384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f04
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 12
+        width: 214
+        height: 244
+      alignment: 9
+      pivot: {x: 0.48598132, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da2d73962eb59a4aa4bdec092b8a842
+      internalID: 1838617813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f05
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 222
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4774775, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbf41599dfc299488f3b8008e8324aa
+      internalID: -1596717037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f06
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 12
+        width: 204
+        height: 242
+      alignment: 9
+      pivot: {x: 0.51960784, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7407d30f5bfec419f04b5cfe2f3384
+      internalID: -1543523360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f07
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 12
+        width: 228
+        height: 242
+      alignment: 9
+      pivot: {x: 0.48245615, y: 0.024793388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40ae55238bca2844a0b28009e57af7c
+      internalID: 1016549948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f08
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 2330
+        width: 244
+        height: 222
+      alignment: 9
+      pivot: {x: 0.49590164, y: 0.027027028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbefa57b0952c6647ad4cfb2ed8af9f0
+      internalID: 1306110068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f09
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 12
+        width: 218
+        height: 244
+      alignment: 9
+      pivot: {x: 0.49541286, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95a773411798d44bb6de6d4df1cd879
+      internalID: -1336017110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f10
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1572
+        width: 224
+        height: 230
+      alignment: 9
+      pivot: {x: 0.45535713, y: 0.026086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80195622e4668944f8890a3c839eb29b
+      internalID: -2053317035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flo-reference-v2-r07-f11
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 2578
+        width: 254
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5, y: 0.034883723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d5b563f8b54e946a074e1c14125014
+      internalID: 1241358828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ae1dd07da0af78c42b8fb07ee80948f9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flo-clean-v3_0: 1709633727877160791
+      flo-clean-v3_1: -4830262470517907354
+      flo-clean-v3_10: -6913550067495132406
+      flo-clean-v3_11: 721758300404788413
+      flo-clean-v3_12: 8478953369623668990
+      flo-clean-v3_13: -8720558021178009657
+      flo-clean-v3_14: 8937977139164557200
+      flo-clean-v3_15: 6907820731219884157
+      flo-clean-v3_16: 3660301761878899152
+      flo-clean-v3_17: -6908635496457469068
+      flo-clean-v3_18: -3199676100791698570
+      flo-clean-v3_19: 8457451872267472860
+      flo-clean-v3_2: -1986205924164150923
+      flo-clean-v3_20: 305528299460738533
+      flo-clean-v3_21: 7639389882644040180
+      flo-clean-v3_22: 6032804451358936091
+      flo-clean-v3_23: 3477616984134028666
+      flo-clean-v3_24: -4085725781828082067
+      flo-clean-v3_25: -5605244433889650532
+      flo-clean-v3_26: -3342776833432496117
+      flo-clean-v3_27: 175788372076498963
+      flo-clean-v3_28: 7309834519559932388
+      flo-clean-v3_29: 2514049878531806366
+      flo-clean-v3_3: 7000046436080370542
+      flo-clean-v3_30: -4305126292843920208
+      flo-clean-v3_31: -2467889791974543803
+      flo-clean-v3_32: -8879149640630552061
+      flo-clean-v3_33: -4547909895987816564
+      flo-clean-v3_34: 5441999262613899290
+      flo-clean-v3_35: -2348233885667356715
+      flo-clean-v3_36: -9022813320340866508
+      flo-clean-v3_37: 214646224808168421
+      flo-clean-v3_38: -3168158550156551699
+      flo-clean-v3_39: -60985731770378891
+      flo-clean-v3_4: 9016424835466940830
+      flo-clean-v3_40: 2866149407358663354
+      flo-clean-v3_41: -5576260681303718350
+      flo-clean-v3_42: 5074929005436907456
+      flo-clean-v3_43: -6725630468689749000
+      flo-clean-v3_44: 7691487823208980453
+      flo-clean-v3_45: 8894287203677579378
+      flo-clean-v3_46: -1610796034875416677
+      flo-clean-v3_47: 696277228481410954
+      flo-clean-v3_48: 1343430475591360806
+      flo-clean-v3_49: 2834997088374776384
+      flo-clean-v3_5: -3124414202047222092
+      flo-clean-v3_50: -547841691569302288
+      flo-clean-v3_51: 5205621956122513105
+      flo-clean-v3_52: 8482880738065408548
+      flo-clean-v3_53: -1257653143467871713
+      flo-clean-v3_54: -4043528357264167846
+      flo-clean-v3_55: -6515870884257272663
+      flo-clean-v3_56: 4998283934511458547
+      flo-clean-v3_57: 1920545459366208
+      flo-clean-v3_58: 4558877990212399808
+      flo-clean-v3_59: 7375670336436520236
+      flo-clean-v3_6: 6960925454868746078
+      flo-clean-v3_60: 5114846560084586974
+      flo-clean-v3_61: 7458011196636092982
+      flo-clean-v3_62: 4567821024722952045
+      flo-clean-v3_63: 4812870938811230884
+      flo-clean-v3_64: 2305090595813896106
+      flo-clean-v3_65: -7157432804123263960
+      flo-clean-v3_66: -5060270068779568030
+      flo-clean-v3_67: 184816816949903425
+      flo-clean-v3_68: 6879345684584842128
+      flo-clean-v3_69: -1779747273859286546
+      flo-clean-v3_7: 6327918474868295347
+      flo-clean-v3_70: 510293688202801644
+      flo-clean-v3_71: 5186701781427361759
+      flo-clean-v3_72: -2725758648082086892
+      flo-clean-v3_73: -7937500217444584119
+      flo-clean-v3_74: -2832763581503336020
+      flo-clean-v3_75: -6247633339900311388
+      flo-clean-v3_76: -6148931049629441634
+      flo-clean-v3_77: -5896111871039758698
+      flo-clean-v3_78: 699838941923316782
+      flo-clean-v3_79: 8726339736680663615
+      flo-clean-v3_8: -7749655791344996637
+      flo-clean-v3_80: 6861877713170757148
+      flo-clean-v3_81: 3019428604209361774
+      flo-clean-v3_82: 6266177840917465349
+      flo-clean-v3_83: 4886741120313736751
+      flo-clean-v3_84: -8820797654172877063
+      flo-clean-v3_85: 4260332790626013346
+      flo-clean-v3_86: 3377074614915462807
+      flo-clean-v3_87: -6515037905873598789
+      flo-clean-v3_88: -1317990304054126622
+      flo-clean-v3_89: 7487429895914158
+      flo-clean-v3_9: 2148549854041044656
+      flo-clean-v3_90: 6952962870923985182
+      flo-clean-v3_91: -273691873179851669
+      flo-clean-v3_92: 8466278244062595918
+      flo-clean-v3_93: 4349597849804451829
+      flo-clean-v3_94: -7215554942572812136
+      flo-clean-v3_95: -793104795854780875
+      flo-reference-v2-r00-f00: -1131880291
+      flo-reference-v2-r00-f01: 776086436
+      flo-reference-v2-r00-f02: 1465473512
+      flo-reference-v2-r00-f03: -235275146
+      flo-reference-v2-r00-f04: 1895887085
+      flo-reference-v2-r00-f05: 1219239619
+      flo-reference-v2-r00-f06: -709851972
+      flo-reference-v2-r00-f07: -655719188
+      flo-reference-v2-r00-f08: 1656460470
+      flo-reference-v2-r00-f09: -265466520
+      flo-reference-v2-r00-f10: -1920160184
+      flo-reference-v2-r00-f11: -37438897
+      flo-reference-v2-r01-f00: 68719883
+      flo-reference-v2-r01-f01: -1806153212
+      flo-reference-v2-r01-f02: 1404219137
+      flo-reference-v2-r01-f03: 1996000158
+      flo-reference-v2-r01-f04: 323485732
+      flo-reference-v2-r01-f05: 2068606399
+      flo-reference-v2-r01-f06: -1607951451
+      flo-reference-v2-r01-f07: 1982937057
+      flo-reference-v2-r01-f08: 300222135
+      flo-reference-v2-r01-f09: 1915903161
+      flo-reference-v2-r01-f10: 839978961
+      flo-reference-v2-r01-f11: -1266291455
+      flo-reference-v2-r02-f00: -2101102595
+      flo-reference-v2-r02-f01: 1582417122
+      flo-reference-v2-r02-f02: -872687777
+      flo-reference-v2-r02-f03: 1342379093
+      flo-reference-v2-r02-f04: 858928120
+      flo-reference-v2-r02-f05: -1526192795
+      flo-reference-v2-r02-f06: -1968719096
+      flo-reference-v2-r02-f07: -312093712
+      flo-reference-v2-r02-f08: 1375484740
+      flo-reference-v2-r02-f09: 496007029
+      flo-reference-v2-r02-f10: -908812193
+      flo-reference-v2-r02-f11: 107482255
+      flo-reference-v2-r03-f00: 108952223
+      flo-reference-v2-r03-f01: 1107101356
+      flo-reference-v2-r03-f02: 1290211942
+      flo-reference-v2-r03-f03: 224794998
+      flo-reference-v2-r03-f04: -2019528460
+      flo-reference-v2-r03-f05: -1145051929
+      flo-reference-v2-r03-f06: 1611953798
+      flo-reference-v2-r03-f07: -1537654898
+      flo-reference-v2-r03-f08: 260982287
+      flo-reference-v2-r03-f09: -1150335938
+      flo-reference-v2-r03-f10: -232104369
+      flo-reference-v2-r03-f11: 956062499
+      flo-reference-v2-r04-f00: 1924703826
+      flo-reference-v2-r04-f01: -1169582753
+      flo-reference-v2-r04-f02: -1950667930
+      flo-reference-v2-r04-f03: 2008968860
+      flo-reference-v2-r04-f04: -1464332897
+      flo-reference-v2-r04-f05: -923797747
+      flo-reference-v2-r04-f06: 488060301
+      flo-reference-v2-r04-f07: 938621076
+      flo-reference-v2-r04-f08: -1773431022
+      flo-reference-v2-r04-f09: 1213710928
+      flo-reference-v2-r04-f10: -1886957974
+      flo-reference-v2-r04-f11: -464831366
+      flo-reference-v2-r05-f00: 1801802896
+      flo-reference-v2-r05-f01: -1240235710
+      flo-reference-v2-r05-f02: -792116712
+      flo-reference-v2-r05-f03: 26059543
+      flo-reference-v2-r05-f04: 1089045952
+      flo-reference-v2-r05-f05: -1617534943
+      flo-reference-v2-r05-f06: 1290157942
+      flo-reference-v2-r05-f07: 138527095
+      flo-reference-v2-r05-f08: -311169016
+      flo-reference-v2-r05-f09: 1137277986
+      flo-reference-v2-r05-f10: -872678842
+      flo-reference-v2-r05-f11: -697421430
+      flo-reference-v2-r06-f00: -1350849276
+      flo-reference-v2-r06-f01: 1427106028
+      flo-reference-v2-r06-f02: 2056139876
+      flo-reference-v2-r06-f03: 1174717947
+      flo-reference-v2-r06-f04: -603550284
+      flo-reference-v2-r06-f05: -1064089117
+      flo-reference-v2-r06-f06: 1202082646
+      flo-reference-v2-r06-f07: -1078357823
+      flo-reference-v2-r06-f08: -80174077
+      flo-reference-v2-r06-f09: 965144069
+      flo-reference-v2-r06-f10: 122822187
+      flo-reference-v2-r06-f11: 483038437
+      flo-reference-v2-r07-f00: 1727177144
+      flo-reference-v2-r07-f01: -152267806
+      flo-reference-v2-r07-f02: -100991665
+      flo-reference-v2-r07-f03: 1901276384
+      flo-reference-v2-r07-f04: 1838617813
+      flo-reference-v2-r07-f05: -1596717037
+      flo-reference-v2-r07-f06: -1543523360
+      flo-reference-v2-r07-f07: 1016549948
+      flo-reference-v2-r07-f08: 1306110068
+      flo-reference-v2-r07-f09: -1336017110
+      flo-reference-v2-r07-f10: -2053317035
+      flo-reference-v2-r07-f11: 1241358828
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

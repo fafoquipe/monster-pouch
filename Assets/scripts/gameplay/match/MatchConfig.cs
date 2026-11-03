@@ -28,12 +28,13 @@ namespace MonsterPouch.Gameplay.Match
         public string Name;
         [TextArea] public string Description;
         public AbilityParameter[] Parameters = Array.Empty<AbilityParameter>();
+        public AbilityAreaDefinition Area = new AbilityAreaDefinition();
         [Min(0)] public int Cost;
         [Min(0)] public int HealthBonus;
         [Min(0)] public int DamageBonus;
         [Min(0.1f)] public float AttackIntervalMultiplier = 1f;
         [Min(0)] public int RangeBonus;
-        [Min(0)] public int Armor;
+        [HideInInspector] public int Armor; // Save compatibility; no gameplay effect.
         [Min(0)] public int HealOnHit;
         [Min(0)] public int BonusEveryHits;
         [Min(0)] public int BonusDamage;
@@ -42,6 +43,10 @@ namespace MonsterPouch.Gameplay.Match
     [Serializable]
     public sealed class UnitDefinition
     {
+        public CombatRuleset Ruleset;
+        public CombatDamageType BasicDamageType;
+        [HideInInspector] public int BaseArmor; // Save compatibility; no gameplay effect.
+        public TrickDefinition PassiveAbility;
         public bool UsesDocumentedRules;
         public AttackKind AttackKind;
         public string BasicAttackName;
@@ -61,11 +66,16 @@ namespace MonsterPouch.Gameplay.Match
         [Min(1)] public int Damage = 4;
         [Min(0.1f)] public float AttackInterval = 1f;
         [Min(0.1f)] public float AttackWindup = 0.2f;
+        [Tooltip("Segundos manteniendo la pose de golpe. -1 hereda el ajuste del personaje; 0 elimina la fase.")]
+        public float AttackHold = -1f;
+        [Tooltip("Segundos para retraer el golpe. -1 hereda el ajuste del personaje; 0 elimina la fase.")]
+        public float AttackRecovery = -1f;
         [Min(.1f), Tooltip("Casillas por segundo. Los rayos instantáneos no tienen tiempo de viaje.")]
         public float ProjectileSpeed = 10f;
         [Min(1)] public int AttackRange = 1;
         [Min(0.1f)] public float MoveInterval = 0.5f;
-        [Min(1)] public int IQSpeed = 1;
+        [Min(1), Tooltip("Prioridad al disputar casillas y reacción al perder un objetivo: IQ 1 = 1 s, IQ 5 = 0.6 s, IQ 10 o más = 0.1 s. La animación se cancela inmediatamente.")]
+        public int IQSpeed = 1;
         [Min(0)] public int BaseCost = 2;
         public TargetPolicy TargetPolicy = TargetPolicy.NearestReachable;
         public FormationPreference Formation = FormationPreference.Front;
@@ -93,8 +103,13 @@ namespace MonsterPouch.Gameplay.Match
         public const int OfferSlots = 3;
         public const int FreeRerollsPerRound = 4;
         public const int MaxFieldWhelps = 5;
-        public const int MaxBenchUnits = 1;
+        public const int MaxBenchUnits = 3;
         public const int MaxWhelpTypes = 7;
+
+        [Tooltip("Victorias necesarias y presentación entre rondas. Los tiempos no dependen de la interfaz.")]
+        public RoundPresentationSettings RoundUI = new RoundPresentationSettings();
+        [Min(0), Tooltip("Ventana al inicio de cada ronda para habilidades iniciales, antes de acciones normales.")]
+        public float OpeningAbilityWindowSeconds = 1.5f;
 
         [Tooltip("Balance inicial provisional: 6, 4, 3, 2 y 1. Se repite el último valor.")]
         public int[] RoundIncome = { 6, 4, 3, 2, 1 };
@@ -103,7 +118,35 @@ namespace MonsterPouch.Gameplay.Match
         [Range(1, MaxWhelpTypes), Tooltip("Máximo de tipos de Whelp elegidos para una partida; el catálogo puede ser mayor.")]
         public int TeamWhelpLimit = MaxWhelpTypes;
         public int SelectionLimit => Mathf.Clamp(TeamWhelpLimit, 1, MaxWhelpTypes);
+        [Tooltip("Fuentes de balance individuales. Units conserva el formato anterior para migración y compatibilidad.")]
+        public MonsterPouch.Gameplay.Characters.CharacterDefinition[] Characters = Array.Empty<MonsterPouch.Gameplay.Characters.CharacterDefinition>();
         public UnitDefinition[] Units = DefaultUnits();
+        public MatchConfig CreateRuntimeConfig()
+        {
+            var copy=Instantiate(this);
+            copy.RoundUI=JsonUtility.FromJson<RoundPresentationSettings>(JsonUtility.ToJson(RoundUI??new RoundPresentationSettings()));
+            if(Characters!=null&&Characters.Length>0)
+            {
+                copy.Units=new UnitDefinition[Characters.Length];
+                var ids=new HashSet<string>(StringComparer.Ordinal);
+                for(int i=0;i<Characters.Length;i++)
+                {
+                    if(Characters[i]==null||!ids.Add(Characters[i].Id))throw new InvalidOperationException("Catálogo con ID repetido o personaje vacío.");
+                    copy.Units[i]=Characters[i].CreateRuntimeDefinition();
+                }
+            }
+            else
+            {
+                copy.Units=new UnitDefinition[Units.Length];
+                for(int i=0;i<Units.Length;i++)copy.Units[i]=Units[i]==null?null:JsonUtility.FromJson<UnitDefinition>(JsonUtility.ToJson(Units[i]));
+            }
+            // Only plain gameplay values belong to a running match and its network fingerprint.
+            copy.Characters=Array.Empty<MonsterPouch.Gameplay.Characters.CharacterDefinition>();
+            copy.RoundIncome=RoundIncome==null?Array.Empty<int>():(int[])RoundIncome.Clone();
+            copy.BlueDeployment=BlueDeployment==null?Array.Empty<Vector2Int>():(Vector2Int[])BlueDeployment.Clone();
+            copy.RedDeployment=RedDeployment==null?Array.Empty<Vector2Int>():(Vector2Int[])RedDeployment.Clone();
+            return copy;
+        }
         [Tooltip("Máscara editable de despliegue: 6 columnas × 5 filas por lado. Y visual invertida.")]
         public Vector2Int[] BlueDeployment = CreateRows(5, 9);
         public Vector2Int[] RedDeployment = CreateRows(0, 4);
@@ -200,8 +243,11 @@ namespace MonsterPouch.Gameplay.Match
                 if (depth != 0) return depth;
                 int center = Mathf.Abs(a.x - 2.5f).CompareTo(Mathf.Abs(b.x - 2.5f));
                 if (center != 0) return center;
-                int y = a.y.CompareTo(b.y);
-                return y != 0 ? y : a.x.CompareTo(b.x);
+                // Resolve equal-depth/center choices in the owner's perspective.
+                // Rotating the board 180 degrees must preserve the complete order,
+                // including which of its two middle columns is chosen first.
+                int y = side == BoardSide.Blue ? a.y.CompareTo(b.y) : b.y.CompareTo(a.y);
+                return y != 0 ? y : side == BoardSide.Blue ? a.x.CompareTo(b.x) : b.x.CompareTo(a.x);
             });
             return result;
         }

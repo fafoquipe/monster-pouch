@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using MonsterPouch.Gameplay.Board;
+using MonsterPouch.Gameplay.Characters;
 using MonsterPouch.Gameplay.Match;
 using MonsterPouch.Gameplay.Units;
 using NUnit.Framework;
+using UnityEditor;
 using UnityEngine;
 using Object=UnityEngine.Object;
 
@@ -18,10 +20,11 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
         readonly List<GameObject> objects=new List<GameObject>();
         BoardManager board;CombatSimulation simulation;
         [TearDown] public void Cleanup() { simulation?.Stop();foreach(var go in objects)if(go!=null)Object.DestroyImmediate(go);objects.Clear();simulation=null; }
-        BattleUnit Unit(UnitDefinition definition,int x,int y,BoardSide side)
+        BattleUnit Unit(UnitDefinition definition,int x,int y,BoardSide side,int trick=-1)
         {
             var go=new GameObject(definition.Id+objects.Count);objects.Add(go);
-            var unit=go.AddComponent<WhelpUnit>();unit.Initialize(go.name,side,UnitStats.FromDefinition(definition));
+            OwnedUnit owned=null;if(trick>=0){owned=new OwnedUnit(definition);owned.Tricks[trick]=true;}
+            var unit=go.AddComponent<WhelpUnit>();unit.Initialize(go.name,side,UnitStats.FromDefinition(definition,owned));
             Assert.IsTrue(board.TryOccupyCell(unit,x,y));return unit;
         }
         object Actor(BattleUnit unit)=>((IEnumerable)typeof(CombatSimulation).GetField("actors",Hidden).GetValue(simulation))
@@ -76,6 +79,91 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.AreEqual(23,cells.Length);Assert.AreEqual(cells.Length,cells.Distinct().Count());
             Assert.IsFalse(cells.Contains(new AbilityAreaCell(4,4)));
             Assert.AreEqual(0,AbilityAreaResolver.Resolve(new AbilityAreaDefinition{Shape=AbilityAreaShape.Square,SquareSize=0},4,4,9,9).Length);
+        }
+        [TestCase(0,1,1)] [TestCase(1,5,3)] [TestCase(2,13,6)] [TestCase(3,24,10)]
+        public void DiamondUsesManhattanRadiusAndClipsAtBoardEdges(int radius,int centerCount,int cornerCount)
+        {
+            var area=new AbilityAreaDefinition{Shape=AbilityAreaShape.Diamond,DiamondRadius=radius};
+            var center=AbilityAreaResolver.Resolve(area,2,4,BoardManager.Width,BoardManager.Height);
+            var corner=AbilityAreaResolver.Resolve(area,0,0,BoardManager.Width,BoardManager.Height);
+            Assert.AreEqual(centerCount,center.Length);Assert.AreEqual(cornerCount,corner.Length);
+            Assert.AreEqual(center.Length,center.Distinct().Count());Assert.AreEqual(corner.Length,corner.Distinct().Count());
+            foreach(var cell in center)Assert.LessOrEqual(Math.Abs(cell.X-2)+Math.Abs(cell.Y-4),radius);
+            foreach(var cell in corner)Assert.LessOrEqual(cell.X+cell.Y,radius);
+        }
+        [Test] public void DiamondHandlesInvalidAndExtremeValuesWithoutOverflow()
+        {
+            var area=new AbilityAreaDefinition{Shape=AbilityAreaShape.Diamond,DiamondRadius=-1};
+            Assert.IsEmpty(AbilityAreaResolver.Resolve(area,2,4,BoardManager.Width,BoardManager.Height));
+            area.DiamondRadius=int.MaxValue;
+            Assert.AreEqual(BoardManager.Width*BoardManager.Height,AbilityAreaResolver.Resolve(area,2,4,BoardManager.Width,BoardManager.Height).Length);
+            Assert.IsFalse(AbilityAreaResolver.Contains(area,int.MinValue,0));
+            Assert.IsEmpty(AbilityAreaResolver.Resolve(area,int.MinValue,0,BoardManager.Width,BoardManager.Height));
+        }
+        [Test] public void DiamondRadiusSurvivesSerializationAndDetachedCombatCopies()
+        {
+            var ability=ScriptableObject.CreateInstance<CharacterAbility>();
+            try
+            {
+                var serialized=new SerializedObject(ability);
+                var area=serialized.FindProperty("Definition").FindPropertyRelative("Area");
+                area.FindPropertyRelative("Shape").enumValueIndex=(int)AbilityAreaShape.Diamond;
+                area.FindPropertyRelative("DiamondRadius").intValue=3;
+                serialized.ApplyModifiedProperties();
+                var editorType=AppDomain.CurrentDomain.GetAssemblies().Select(a=>a.GetType("MonsterPouchAbilityAreaEditor"))
+                    .FirstOrDefault(t=>t!=null);
+                Assert.NotNull(editorType,"The shared Unity area editor must be available.");
+                var preview=(AbilityAreaDefinition)editorType.GetMethod("Read",BindingFlags.Public|BindingFlags.Static)
+                    .Invoke(null,new object[]{area});
+                Assert.AreEqual(AbilityAreaShape.Diamond,preview.Shape);Assert.AreEqual(3,preview.DiamondRadius);
+                var copy=ability.Copy();
+                Assert.AreEqual(AbilityAreaShape.Diamond,copy.Area.Shape);Assert.AreEqual(3,copy.Area.DiamondRadius);
+                var definition=DocumentedRoster.CreatePokrak();definition.BaseAbility.Area=copy.Area;
+                var stats=UnitStats.FromDefinition(definition);copy.Area.DiamondRadius=1;
+                Assert.AreEqual(3,stats.AreaFor("pokrak-bubbles").DiamondRadius);
+                var returned=stats.AreaFor("pokrak-bubbles");returned.DiamondRadius=0;
+                Assert.AreEqual(3,stats.AreaFor("pokrak-bubbles").DiamondRadius);
+            }
+            finally{Object.DestroyImmediate(ability);}
+        }
+        [TestCase(BoardSide.Blue)] [TestCase(BoardSide.Red)]
+        public void DiamondHealingTrickUsesTheSharedAreaAndExcludesTheSeparateSelfHeal(BoardSide side)
+        {
+            var go=new GameObject("healing-board");objects.Add(go);board=go.AddComponent<BoardManager>();board.BuildBoard();
+            var definition=EronyaRoster.CreateAll().Single(d=>d.Id=="arboreo");
+            definition.Tricks[2].Area=new AbilityAreaDefinition{Shape=AbilityAreaShape.Diamond,DiamondRadius=1};
+            var caster=Unit(definition,2,4,side,2);caster.IsPassiveTrainingTarget=true;
+            var adjacent=Unit(new UnitDefinition{Id="adjacent",MaxHealth=100},3,4,side);adjacent.IsPassiveTrainingTarget=true;
+            var diagonal=Unit(new UnitDefinition{Id="diagonal",MaxHealth=100},3,3,side);diagonal.IsPassiveTrainingTarget=true;
+            var enemy=Unit(new UnitDefinition{Id="enemy",MaxHealth=1000},5,9,side==BoardSide.Blue?BoardSide.Red:BoardSide.Blue);
+            enemy.IsPassiveTrainingTarget=true;
+            simulation=new CombatSimulation(board);simulation.Begin(new[]{caster,adjacent,diagonal,enemy});
+            caster.ApplyDamage(90);adjacent.ApplyDamage(30);diagonal.ApplyDamage(30);
+            var footprints=new List<BoardCell[]>();
+            simulation.AreaEffect+=(unit,effect,cells)=>{if(unit==caster&&effect=="edited-area:arboreo-corazon-ancestral")footprints.Add(cells);};
+            simulation.Step(.1f);
+            Assert.AreEqual(47,caster.CurrentHealth);Assert.AreEqual(80,adjacent.CurrentHealth);Assert.AreEqual(70,diagonal.CurrentHealth);
+            Assert.AreEqual(1,footprints.Count);
+            CollectionAssert.AreEquivalent(new[]{board.GetCell(1,4),board.GetCell(3,4),board.GetCell(2,3),board.GetCell(2,5)},footprints[0]);
+        }
+        [TestCase(BoardSide.Blue)] [TestCase(BoardSide.Red)]
+        public void DiamondShieldTrickProtectsOnlyAlliesInItsArea(BoardSide side)
+        {
+            var go=new GameObject("shield-board");objects.Add(go);board=go.AddComponent<BoardManager>();board.BuildBoard();
+            var definition=EronyaRoster.CreateAll().Single(d=>d.Id=="korran");
+            definition.Tricks[0].Area=new AbilityAreaDefinition{Shape=AbilityAreaShape.Diamond,DiamondRadius=1};
+            var caster=Unit(definition,2,4,side,0);
+            var adjacent=Unit(new UnitDefinition{Id="adjacent",MaxHealth=100},3,4,side);adjacent.IsPassiveTrainingTarget=true;
+            var diagonal=Unit(new UnitDefinition{Id="diagonal",MaxHealth=100},3,3,side);diagonal.IsPassiveTrainingTarget=true;
+            var enemy=Unit(new UnitDefinition{Id="enemy",MaxHealth=1000},5,9,side==BoardSide.Blue?BoardSide.Red:BoardSide.Blue);
+            enemy.IsPassiveTrainingTarget=true;
+            simulation=new CombatSimulation(board);simulation.Begin(new[]{caster,adjacent,diagonal,enemy});
+            var footprints=new List<BoardCell[]>();
+            simulation.AreaEffect+=(unit,effect,cells)=>{if(unit==caster&&effect=="edited-area:korran-raiz-de-piedra")footprints.Add(cells);};
+            caster.AddEnergy(caster.BaseStats.EnergyMax);
+            for(int i=0;i<30&&footprints.Count==0;i++)simulation.Step(.1f);
+            Assert.AreEqual(1,footprints.Count);Assert.AreEqual(8,adjacent.Shield);Assert.AreEqual(0,diagonal.Shield);
+            CollectionAssert.AreEquivalent(new[]{board.GetCell(1,4),board.GetCell(3,4),board.GetCell(2,3),board.GetCell(2,5)},footprints[0]);
         }
         [Test] public void TargetingAndTravellingProjectilesAreNotAreaEditors()
         {

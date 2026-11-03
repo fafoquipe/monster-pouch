@@ -139,6 +139,27 @@ namespace MonsterPouch.Gameplay.Tests.EditMode
             Assert.AreEqual(990, target.CurrentHealth); Assert.AreEqual(990, other.CurrentHealth);
         }
 
+        [TestCase(BoardSide.Blue)] [TestCase(BoardSide.Red)]
+        public void DiamondBasicSplashHitsOnlyEnemiesInItsEditedFootprint(BoardSide side)
+        {
+            var definition=Stationary(DocumentedRoster.CreateGochan());definition.Damage=10;
+            definition.Tricks[2].Area=new AbilityAreaDefinition{Shape=AbilityAreaShape.Diamond,DiamondRadius=1};
+            var source=Unit(definition,2,7,side,2);
+            var opponent=side==BoardSide.Blue?BoardSide.Red:BoardSide.Blue;
+            var target=Unit(Stationary(new UnitDefinition{Id="primary"}),2,4,opponent);target.IsPassiveTrainingTarget=true;
+            var adjacent=Unit(Stationary(new UnitDefinition{Id="adjacent"}),3,4,opponent);adjacent.IsPassiveTrainingTarget=true;
+            var diagonal=Unit(Stationary(new UnitDefinition{Id="diagonal"}),3,3,opponent);diagonal.IsPassiveTrainingTarget=true;
+            var ally=Unit(Stationary(new UnitDefinition{Id="ally"}),1,4,side);ally.IsPassiveTrainingTarget=true;
+            Begin(source,target,adjacent,diagonal,ally);
+            var footprints=new List<BoardCell[]>();
+            simulation.AreaEffect+=(actor,effect,cells)=>{if(actor==source&&effect=="edited-area:gochan-expanded-seal")footprints.Add(cells);};
+            simulation.Step(.4f);
+            Assert.AreEqual(990,target.CurrentHealth);Assert.AreEqual(990,adjacent.CurrentHealth);
+            Assert.AreEqual(1000,diagonal.CurrentHealth);Assert.AreEqual(1000,ally.CurrentHealth);
+            Assert.AreEqual(1,footprints.Count);
+            CollectionAssert.AreEquivalent(new[]{board.GetCell(2,4),board.GetCell(1,4),board.GetCell(3,4),board.GetCell(2,3),board.GetCell(2,5)},footprints[0]);
+        }
+
         [Test] public void AnuikRevivalAreaIsCapturedBeforeEnemiesArePushed()
         {
             var definition = Stationary(DocumentedRoster.CreateAnuik()); definition.ReviveDelay = .2f;

@@ -27,10 +27,17 @@ public static class MonsterPouchAbilityAreaEditor
         EditorGUI.BeginChangeCheck();
         int selected=EditorGUILayout.Popup(L("Shape","Forma"),mode.enumValueIndex,new[]{
             L("Original (preserve saved area)","Original (conservar área guardada)"),
-            L("Square N × N","Cuadrado N × N"),L("Cross · four rectangles","Cruz · cuatro rectángulos")});
+            L("Square N × N","Cuadrado N × N"),L("Cross · four rectangles","Cruz · cuatro rectángulos"),
+            L("Diamond · Manhattan radius","Rombo · radio Manhattan")});
         if(EditorGUI.EndChangeCheck())mode.enumValueIndex=selected;
         var shape=(AbilityAreaShape)mode.enumValueIndex;
         if(shape==AbilityAreaShape.Square)Integer(area,"SquareSize",L("Side N (tiles)","Lado N (casillas)"),false);
+        if(shape==AbilityAreaShape.Diamond)
+        {
+            Integer(area,"DiamondRadius",L("Radius N (tiles)","Radio N (casillas)"),false);
+            EditorGUILayout.HelpBox(L("Includes cells with Manhattan distance ≤ N. N = 0 includes only the center.",
+                "Incluye las casillas con distancia Manhattan ≤ N. N = 0 incluye solo el centro."),MessageType.None);
+        }
         if(shape==AbilityAreaShape.Cross)
         {
             Arm(area,"Up",L("Up","Arriba"));Arm(area,"Right",L("Right","Derecha"));
@@ -100,7 +107,8 @@ public static class MonsterPouchAbilityAreaEditor
     }
     public static AbilityAreaDefinition Read(SerializedProperty p) => new AbilityAreaDefinition {
         Shape=(AbilityAreaShape)p.FindPropertyRelative("Shape").enumValueIndex,
-        SquareSize=p.FindPropertyRelative("SquareSize").intValue,IncludeCenter=p.FindPropertyRelative("IncludeCenter").boolValue,
+        SquareSize=p.FindPropertyRelative("SquareSize").intValue,DiamondRadius=p.FindPropertyRelative("DiamondRadius").intValue,
+        IncludeCenter=p.FindPropertyRelative("IncludeCenter").boolValue,
         UpWidth=p.FindPropertyRelative("UpWidth").intValue,UpDepth=p.FindPropertyRelative("UpDepth").intValue,
         RightWidth=p.FindPropertyRelative("RightWidth").intValue,RightDepth=p.FindPropertyRelative("RightDepth").intValue,
         DownWidth=p.FindPropertyRelative("DownWidth").intValue,DownDepth=p.FindPropertyRelative("DownDepth").intValue,
